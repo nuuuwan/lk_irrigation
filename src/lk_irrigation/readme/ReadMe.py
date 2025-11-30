@@ -22,6 +22,7 @@ class ReadMe:
     )
     URL_LOADER = "src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py"
     URL_DATA = RiverWaterLevelData.DIR_DATA_RWLD
+    T_LATE_HOURS = 24
 
     def __init__(self):
         self.rwld_list = RiverWaterLevelData.list_all()
@@ -30,7 +31,10 @@ class ReadMe:
         self.station_to_ror = RiverWaterLevelData.station_to_ror()
         self.latest_sorted = sorted(
             self.station_to_latest.values(),
-            key=lambda d: (d.alert.level, self.station_to_ror[d.station_name]),
+            key=lambda d: (
+                d.alert.level,
+                self.station_to_ror[d.station_name],
+            ),
             reverse=True,
         )
 
@@ -67,12 +71,15 @@ class ReadMe:
     def get_markdown_for_rwld(self, rwld) -> dict:
         ror = self.station_to_ror[rwld.station_name]
         rising_alert = "🔺 Rising" if ror > 0.005 else ""
+        min_time_recent = Time.now().ut - self.T_LATE_HOURS * 3600
+        time_emoji = "⌛" if rwld.time_ut < min_time_recent else ""
         return {
             "Measured At": TimeFormat.TIME.format(
                 Time(
                     rwld.time_ut,
                 )
-            ),
+            )
+            + time_emoji,
             "Station (River Basin)": f"{rwld.station_name}"
             + f" ({rwld.station.river.basin.name})",
             "Level (m)": f"{rwld.water_level_m:.2f}",
@@ -107,7 +114,13 @@ class ReadMe:
         return lines
 
     def get_lines_latest_by_station(self) -> list[str]:
-        lines = ["## Latest by Station", ""]
+        lines = [
+            "## Latest by Station",
+            "",
+            "(⌛ = Latest measurement"
+            + " is older than {self.T_LATE_HOURS} hours)",
+            "",
+        ]
         lines.extend(
             Markdown.table(
                 [
