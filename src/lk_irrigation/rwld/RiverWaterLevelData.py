@@ -27,7 +27,11 @@ class RiverWaterLevelData(HasTimeMixin):
     @cached_property
     def dir_path(self) -> str:
         return os.path.join(
-            self.DIR_DATA_RWLD, self.station_name, self.part_dir_time
+            self.DIR_DATA_RWLD,
+            f"{self.station.river.basin.file_prefix}-basin",
+            f"{self.station.river.file_prefix}-river",
+            f"{self.station.file_prefix}-station",
+            self.part_dir_time,
         )
 
     @cached_property
