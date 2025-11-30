@@ -1,0 +1,15 @@
+{
+    "objectid": 1239404,
+    "globalid": "501551bd-6f6c-435e-81ee-8335a64a16d5",
+    "basin": "Aththanagalu Oya",
+    "gauge": "Dunamale",
+    "water_level": 4.88,
+    "rain_fall": 21.3,
+    "CreationDate": 1764286499401,
+    "Creator": "",
+    "EditDate": 1764286499401,
+    "Editor": "",
+    "alertpull": 3.3,
+    "minorpull": 4.4,
+    "majorpull": 5.5
+}
