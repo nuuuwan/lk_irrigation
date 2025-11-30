@@ -1,4 +1,5 @@
 import os
+import time
 from dataclasses import asdict, dataclass
 from functools import cached_property
 
@@ -100,7 +101,6 @@ class RiverWaterLevelData(HasTimeMixin):
         page_offset: int,
         page_size: int,
     ):
-
         params = {
             "resultOffset": page_offset,
             "resultRecordCount": page_size,
@@ -114,14 +114,29 @@ class RiverWaterLevelData(HasTimeMixin):
             "returnGeometry": "false",
             "spatialRel": "esriSpatialRelIntersects",
         }
-        try:
-            r = requests.get(cls.REMOTE_URL, params=params, timeout=10)
-            d_list = [q["attributes"] for q in r.json().get("features", [])]
-            log.debug(f"Fetched {len(d_list)} for {station_name}")
-            return d_list
-        except Exception as e:
-            log.error(f"Error fetching data for {station_name}: {e}")
-            return None
+
+        max_t_timeout = 30
+        timeout_mult = 2
+        t_timeout = 1
+        while True:
+            try:
+                response = requests.get(
+                    cls.REMOTE_URL, params=params, timeout=max_t_timeout
+                )
+                d_list = [
+                    q["attributes"]
+                    for q in response.json().get("features", [])
+                ]
+                log.debug(f"Fetched {len(d_list)} for {station_name}")
+                return d_list
+            except Exception as e:
+                log.error(f"Error fetching data for {station_name}: {e}")
+                t_timeout *= timeout_mult
+                if t_timeout > max_t_timeout:
+                    log.error(f"Data fetch from {station_name} failed.")
+                    return None
+                log.debug(f"Sleeping {t_timeout}s, before Retrying...")
+                time.sleep(t_timeout)
 
     @classmethod
     def __load_data_list_from_remote__(
