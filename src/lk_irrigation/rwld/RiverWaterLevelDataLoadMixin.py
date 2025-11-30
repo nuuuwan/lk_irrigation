@@ -90,7 +90,6 @@ class RiverWaterLevelDataLoadMixin:
                     q["attributes"]
                     for q in response.json().get("features", [])
                 ]
-                log.debug(f"Fetched {len(d_list)} for {station_name}")
                 return d_list
             except Exception as e:
                 log.error(f"Error fetching data for {station_name}: {e}")
@@ -124,8 +123,6 @@ class RiverWaterLevelDataLoadMixin:
             if d_list_for_page is None or len(d_list_for_page) == 0:
                 break
             d_list += d_list_for_page
-
-        log.debug(f"Fetched {len(d_list)} for {station_name}")
         return d_list
 
     @classmethod
