@@ -67,3 +67,14 @@ class RiverWaterLevelDataFileMixin:
         )
         log.debug(f"Loaded {len(d_list)} RWLDs.")
         return d_list
+
+    @classmethod
+    @cache
+    def station_to_list(cls) -> dict[str, list]:
+        d_list = cls.list_all()
+        idx = {}
+        for d in d_list:
+            if d.station_name not in idx:
+                idx[d.station_name] = []
+            idx[d.station_name].append(d)
+        return idx
