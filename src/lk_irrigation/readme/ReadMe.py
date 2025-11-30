@@ -1,6 +1,7 @@
 from utils import File, Format, Log, Time, TimeFormat
 
 from lk_irrigation.base import Markdown
+from lk_irrigation.charts.ChartMap import ChartMap
 from lk_irrigation.rwld.RiverWaterLevelData import RiverWaterLevelData
 
 log = Log("ReadMe")
@@ -127,12 +128,22 @@ class ReadMe:
             + "(https://opensource.org/licenses/MIT)",
         ]
 
+    def get_lines_chart_map(self) -> list[str]:
+        chart_map_path = ChartMap().draw_map()
+        return [
+            "## River Water Level Map",
+            "",
+            f"![River Water Level Map]({chart_map_path})",
+            "",
+        ]
+
     def get_lines(self) -> list[str]:
         return (
             self.get_lines_header()
             + self.get_lines_introduction()
             + self.get_lines_latest()
             + self.get_lines_latest_by_station()
+            + self.get_lines_chart_map()
             + self.get_lines_footer()
         )
 
