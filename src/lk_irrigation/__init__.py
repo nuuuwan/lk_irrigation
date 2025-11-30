@@ -3,4 +3,6 @@
 
 from lk_irrigation.base import AbstractTable, HasTimeMixin
 from lk_irrigation.core import Alert, Basin, Location, River, Station
-from lk_irrigation.rwld import RiverWaterLevelData
+from lk_irrigation.rwld import (RiverWaterLevelData,
+                                RiverWaterLevelDataFileMixin,
+                                RiverWaterLevelDataLoadMixin)
