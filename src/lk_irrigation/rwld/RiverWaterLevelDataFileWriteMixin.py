@@ -19,8 +19,9 @@ class RiverWaterLevelDataFileWriteMixin:
     @classmethod
     def write_all(cls):
         d_list = [asdict(q) for q in cls.list_all()]
+        d_list.reverse()
         for n in [100, 1000, None]:
-            d_list_custom = d_list[:n] if n else d_list
+            d_list_custom = d_list[n] if n else d_list
             file_name = f"latest-{n}" if n else "all"
 
             tsv_file_path = os.path.join("data", f"{file_name}.tsv")
