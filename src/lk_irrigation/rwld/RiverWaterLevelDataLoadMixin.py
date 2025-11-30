@@ -117,7 +117,7 @@ class RiverWaterLevelDataLoadMixin:
         ), f"Station not found: {station_name}"
 
         d_list = []
-        for page_offset in range(0, total_pages + page_size, page_size):
+        for page_offset in range(0, total_pages, page_size):
             d_list_for_page = cls.__load_data_list_from_remote_page__(
                 station_name, days_offset, page_offset, page_size
             )
