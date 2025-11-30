@@ -2,6 +2,7 @@ from utils import File, Format, Log, Time, TimeFormat
 
 from lk_irrigation.base import Markdown
 from lk_irrigation.charts.ChartMap import ChartMap
+from lk_irrigation.charts.ChartStation import ChartStation
 from lk_irrigation.rwld.RiverWaterLevelData import RiverWaterLevelData
 
 log = Log("ReadMe")
@@ -62,6 +63,7 @@ class ReadMe:
         latest = [
             rwld for rwld in self.rwld_list if rwld.time_ut > recent_time_ut
         ]
+        latest.reverse()
         n_latest = len(latest)
         lines = [
             "## Latest measurements",
@@ -93,7 +95,7 @@ class ReadMe:
     def get_lines_latest_by_station(self) -> list[str]:
         d_list = []
         for rwld_list in self.station_to_rwld_list.values():
-            latest = rwld_list[0]
+            latest = rwld_list[-1]
             d_list.append(latest)
 
         lines = ["## Latest by Station", ""]
@@ -128,7 +130,7 @@ class ReadMe:
             + "(https://opensource.org/licenses/MIT)",
         ]
 
-    def get_lines_chart_map(self) -> list[str]:
+    def get_lines_map(self) -> list[str]:
         chart_map_path = ChartMap().draw_map()
         return [
             "## River Water Level Map",
@@ -137,13 +139,28 @@ class ReadMe:
             "",
         ]
 
+    def get_lines_charts_for_stations(self) -> list[str]:
+        station_to_image = ChartStation.draw_all_stations()
+        lines = ["## River Water Level Charts by Station", ""]
+        for station_name, image_path in station_to_image.items():
+            lines.extend(
+                [
+                    f"### {station_name}",
+                    "",
+                    f"![{station_name}]({image_path})",
+                    "",
+                ]
+            )
+        return lines
+
     def get_lines(self) -> list[str]:
         return (
             self.get_lines_header()
             + self.get_lines_introduction()
+            + self.get_lines_map()
             + self.get_lines_latest()
             + self.get_lines_latest_by_station()
-            + self.get_lines_chart_map()
+            + self.get_lines_charts_for_stations()
             + self.get_lines_footer()
         )
 
