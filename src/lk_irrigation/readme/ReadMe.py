@@ -42,7 +42,7 @@ class ReadMe:
             + " Division.",
             "",
             f"- [Complete Dataset]({self.URL_DATA})"
-            + f" with **{len(self.rwld_list):,}** entries",
+            + f" with **{len(self.rwld_list):,} measurements**",
             f"- [Scrape and load logic]({self.URL_LOADER})",
             f"- [Original Data source]({self.URL_ARCGIS_DASHBOARD})"
             + " Public Domain. Please share and reuse!",
@@ -50,20 +50,22 @@ class ReadMe:
         ]
 
     def get_lines_latest(self) -> list[str]:
-        latest = self.rwld_list[:20]
-        lines = ["## Latest Data", ""]
+        N_LATEST = 20
+        latest = self.rwld_list[:N_LATEST]
+        lines = [f"## Latest {N_LATEST} Measurements", ""]
         lines.extend(
             Markdown.table(
                 [
                     {
-                        "Alert Level": f"{rwld.alert.emoji} {rwld.alert.name}",
                         "Measured At": TimeFormat.TIME.format(
                             Time(
                                 rwld.time_ut,
                             )
                         ),
-                        "Station": rwld.station_name,
+                        "Station (River)": f"{rwld.station_name}"
+                        + f" ({rwld.station.river.name})",
                         "Level (m)": f"{rwld.water_level_m:.2f}",
+                        "Alert Level": f"{rwld.alert.emoji} {rwld.alert.name}",
                     }
                     for rwld in latest
                 ]
