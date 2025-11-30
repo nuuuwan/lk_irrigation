@@ -45,8 +45,7 @@ class ReadMe:
             f"- [Complete Dataset]({self.URL_DATA})"
             + f" with **{len(self.rwld_list):,} measurements**",
             f"- [Scrape and load logic]({self.URL_LOADER})",
-            f"- [Original Data source]({self.URL_ARCGIS_DASHBOARD})"
-            + " Public Domain. Please share and reuse!",
+            f"- [Original Data source]({self.URL_ARCGIS_DASHBOARD})",
             "",
         ]
 
