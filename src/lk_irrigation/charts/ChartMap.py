@@ -191,7 +191,7 @@ class ChartMap:
                 f"As of {TimeFormat.TIME.format(Time(max_time_ut))}",
                 12,
             ),
-            (0.8, "Data source: http://dmc.gov.lk", 8),
+            (0.8, "Data source: Irrigation Department of Sri Lanka", 8),
         ]:
             fig.text(
                 0.3,
