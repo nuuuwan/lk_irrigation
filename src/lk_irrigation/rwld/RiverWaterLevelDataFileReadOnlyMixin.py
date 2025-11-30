@@ -55,3 +55,10 @@ class RiverWaterLevelDataFileReadOnlyMixin:
                 idx[d.station_name] = []
             idx[d.station_name].append(d)
         return idx
+
+    @classmethod
+    def station_to_latest(cls):
+        station_to_latest = {}
+        for station_name, rwld_list in cls.station_to_list().items():
+            station_to_latest[station_name] = rwld_list[0]
+        return station_to_latest
