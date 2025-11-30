@@ -235,6 +235,6 @@ class ChartMap:
 
         image_path = os.path.join("images", "map.png")
         fig.set_size_inches(12, 12, forward=True)
-        fig.savefig(image_path, dpi=300, bbox_inches="tight")
+        fig.savefig(image_path, dpi=150, bbox_inches="tight")
         log.info(f"Wrote {image_path}")
         return image_path
