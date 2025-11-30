@@ -3,8 +3,6 @@ import time
 import requests
 from utils import Log
 
-from lk_irrigation.core.Station import Station
-
 log = Log("RiverWaterLevelDataLoadMixin")
 
 

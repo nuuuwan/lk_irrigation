@@ -6,12 +6,10 @@ from utils import Log
 from lk_irrigation.base.HasTimeMixin import HasTimeMixin
 from lk_irrigation.core import Alert
 from lk_irrigation.core.Station import Station
-from lk_irrigation.rwld.RiverWaterLevelDataFileMixin import (
-    RiverWaterLevelDataFileMixin,
-)
-from lk_irrigation.rwld.RiverWaterLevelDataLoadMixin import (
-    RiverWaterLevelDataLoadMixin,
-)
+from lk_irrigation.rwld.RiverWaterLevelDataFileMixin import \
+    RiverWaterLevelDataFileMixin
+from lk_irrigation.rwld.RiverWaterLevelDataLoadMixin import \
+    RiverWaterLevelDataLoadMixin
 
 log = Log("RiverWaterLevelData")
 
