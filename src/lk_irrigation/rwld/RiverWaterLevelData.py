@@ -102,12 +102,12 @@ class RiverWaterLevelData(HasTimeMixin):
     ):
 
         params = {
-            "f": "json",
             "resultOffset": page_offset,
             "resultRecordCount": page_size,
             "where": "((CreationDate BETWEEN CURRENT_TIMESTAMP"
             + f" - {days_offset} AND CURRENT_TIMESTAMP))"
             + f" AND (gauge='{station_name}')",
+            "f": "json",
             "orderByFields": "CreationDate DESC",
             "outFields": "*",
             "resultType": "standard",
