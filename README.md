@@ -4,7 +4,7 @@
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **5,759 measurements**
+- [Complete Dataset](data/rwlds) with **5,760 measurements**
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -12,6 +12,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level |
 | --- | --- | ---: | --- |
+| 2025-11-30 14:39:41 | Kithulgala (Kelani Ganga) | 2.29 | 🟢 Normal |
 | 2025-11-30 14:12:20 | Panadugama (Nilwala Ganga) | 3.74 | 🟢 Normal |
 | 2025-11-30 14:10:24 | Giriulla (Maha Oya) | 4.25 | 🟢 Normal |
 | 2025-11-30 14:07:45 | Rathnapura (Kalu Ganga) | 6.80 | 🟡 Alert |
@@ -31,12 +32,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-11-30 14:02:42 | Magura (Kalu Ganga) | 3.30 | 🟢 Normal |
 | 2025-11-30 14:02:39 | Pitabeddara (Nilwala Ganga) | 1.22 | 🟢 Normal |
 | 2025-11-30 14:02:19 | Dunamale (Aththanagalu Oya) | 5.09 | 🟠 Minor Flood |
-| 2025-11-30 14:02:17 | Norwood (Kelani Ganga) | 1.42 | 🟢 Normal |
 
 ## Latest by Station
 
 | Measured At | Station (River) | Level (m) | Alert Level |
 | --- | --- | ---: | --- |
+| 2025-11-30 14:39:41 | Kithulgala (Kelani Ganga) | 2.29 | 🟢 Normal |
 | 2025-11-30 14:12:20 | Panadugama (Nilwala Ganga) | 3.74 | 🟢 Normal |
 | 2025-11-30 14:10:24 | Giriulla (Maha Oya) | 4.25 | 🟢 Normal |
 | 2025-11-30 14:07:45 | Rathnapura (Kalu Ganga) | 6.80 | 🟡 Alert |
@@ -65,7 +66,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-11-30 14:01:24 | Kuda Oya (Kuda Oya) | 2.04 | 🟢 Normal |
 | 2025-11-30 14:00:48 | Thanamalwila (Kirindi Oya) | 1.82 | 🟢 Normal |
 | 2025-11-30 13:59:56 | Nakkala (Kumbukkan Oya) | 1.84 | 🟢 Normal |
-| 2025-11-30 13:15:13 | Kithulgala (Kelani Ganga) | 2.25 | 🟢 Normal |
 | 2025-11-30 03:16:47 | Badalgama (Maha Oya) | 11.35 | 🔴 Major Flood |
 | 2025-11-28 15:00:24 | Thanthirimale (Malwathu Oya) | 10.30 | 🔴 Major Flood |
 | 2025-11-28 06:04:09 | Moragaswewa (Deduru Oya) | 8.33 | 🔴 Major Flood |
