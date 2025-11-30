@@ -36,7 +36,7 @@ class RiverWaterLevelDataFileReadOnlyMixin:
         d_list = [cls(**d) for d in raw_d_list]
         d_list.sort(
             key=lambda d: (
-                -d.time_ut,
+                d.time_ut,
                 d.station.river.basin.name,
                 d.station.river.name,
                 d.station.name,
