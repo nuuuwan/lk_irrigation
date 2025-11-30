@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1764531112,
+    "water_level_m": 2.09
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1764531095,
+    "water_level_m": 1.76
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1764531079,
+    "water_level_m": 1.94
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1764531043,
+    "water_level_m": 1.26
+  },
+  {
     "station_name": "Badalgama",
     "time_ut": 1764528897,
     "water_level_m": 5.05
@@ -4978,25 +4998,5 @@
     "station_name": "Nakkala",
     "time_ut": 1764415814,
     "water_level_m": 2.05
-  },
-  {
-    "station_name": "Moraketiya",
-    "time_ut": 1764415808,
-    "water_level_m": 2.23
-  },
-  {
-    "station_name": "Panadugama",
-    "time_ut": 1764413663,
-    "water_level_m": 4.43
-  },
-  {
-    "station_name": "Badalgama",
-    "time_ut": 1764413174,
-    "water_level_m": 13.15
-  },
-  {
-    "station_name": "Urawa",
-    "time_ut": 1764412809,
-    "water_level_m": 0.97
   }
 ]
