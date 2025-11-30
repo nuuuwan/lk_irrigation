@@ -1,9 +1,9 @@
 import os
 from dataclasses import asdict
 
-from utils import JSONFile, TSVFile
+from utils import JSONFile, Log, TSVFile
 
-from lk_irrigation.rwld.RiverWaterLevelDataFileMixin import log
+log = Log("RiverWaterLevelDataFileWriteMixin")
 
 
 class RiverWaterLevelDataFileWriteMixin:

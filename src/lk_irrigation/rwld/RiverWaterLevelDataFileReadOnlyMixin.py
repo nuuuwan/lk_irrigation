@@ -1,9 +1,9 @@
 import os
 from functools import cache, cached_property
 
-from utils import JSONFile
+from utils import JSONFile, Log
 
-from lk_irrigation.rwld.RiverWaterLevelDataFileMixin import log
+log = Log("RiverWaterLevelDataFileReadOnlyMixin")
 
 
 class RiverWaterLevelDataFileReadOnlyMixin:
