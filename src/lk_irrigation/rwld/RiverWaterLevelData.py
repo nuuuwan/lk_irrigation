@@ -118,6 +118,7 @@ class RiverWaterLevelData(HasTimeMixin):
         max_t_timeout = 30
         timeout_mult = 2
         t_timeout = 1
+        time.sleep(t_timeout)
         while True:
             try:
                 response = requests.get(
