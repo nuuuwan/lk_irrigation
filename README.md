@@ -62,157 +62,157 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## River Water Level Charts by Station
 
-### Kithulgala
-
-![Kithulgala](images/stations/kithulgala.png)
-
-### Weraganthota
-
-![Weraganthota](images/stations/weraganthota.png)
-
-### Wellawaya
-
-![Wellawaya](images/stations/wellawaya.png)
-
-### Nakkala
-
-![Nakkala](images/stations/nakkala.png)
-
-### Moragaswewa
-
-![Moragaswewa](images/stations/moragaswewa.png)
-
-### Nawalapitiya
-
-![Nawalapitiya](images/stations/nawalapitiya.png)
-
-### Yaka Wewa
-
-![Yaka Wewa](images/stations/yaka-wewa.png)
-
-### Giriulla
-
-![Giriulla](images/stations/giriulla.png)
-
-### Horowpothana
-
-![Horowpothana](images/stations/horowpothana.png)
-
-### Galgamuwa
-
-![Galgamuwa](images/stations/galgamuwa.png)
-
-### Magura
-
-![Magura](images/stations/magura.png)
-
-### Pitabeddara
-
-![Pitabeddara](images/stations/pitabeddara.png)
-
-### Norwood
-
-![Norwood](images/stations/norwood.png)
-
-### Hanwella
-
-![Hanwella](images/stations/hanwella.png)
-
-### Deraniyagala
-
-![Deraniyagala](images/stations/deraniyagala.png)
-
-### Ellagawa
-
-![Ellagawa](images/stations/ellagawa.png)
-
-### Baddegama
-
-![Baddegama](images/stations/baddegama.png)
-
-### Panadugama
-
-![Panadugama](images/stations/panadugama.png)
-
-### Padiyathalawa
-
-![Padiyathalawa](images/stations/padiyathalawa.png)
-
-### Nagalagam Street
-
-![Nagalagam Street](images/stations/nagalagam-street.png)
-
-### Glencourse
-
-![Glencourse](images/stations/glencourse.png)
-
-### Moraketiya
-
-![Moraketiya](images/stations/moraketiya.png)
-
-### Siyambalanduwa
-
-![Siyambalanduwa](images/stations/siyambalanduwa.png)
-
-### Dunamale
-
-![Dunamale](images/stations/dunamale.png)
-
-### Thaldena
-
-![Thaldena](images/stations/thaldena.png)
-
-### Katharagama
-
-![Katharagama](images/stations/katharagama.png)
-
-### Putupaula
-
-![Putupaula](images/stations/putupaula.png)
-
-### Badalgama
-
-![Badalgama](images/stations/badalgama.png)
-
-### Holombuwa
-
-![Holombuwa](images/stations/holombuwa.png)
-
-### Manampitiya
-
-![Manampitiya](images/stations/manampitiya.png)
-
-### Rathnapura
-
-![Rathnapura](images/stations/rathnapura.png)
-
-### Thanthirimale
-
-![Thanthirimale](images/stations/thanthirimale.png)
-
-### Thawalama
-
-![Thawalama](images/stations/thawalama.png)
-
-### Peradeniya
+### Peradeniya (Mahaweli Ganga)
 
 ![Peradeniya](images/stations/peradeniya.png)
 
-### Urawa
+### Weraganthota (Mahaweli Ganga)
 
-![Urawa](images/stations/urawa.png)
+![Weraganthota](images/stations/weraganthota.png)
 
-### Thalgahagoda
+### Thanthirimale (Malwathu Oya)
 
-![Thalgahagoda](images/stations/thalgahagoda.png)
+![Thanthirimale](images/stations/thanthirimale.png)
 
-### Kuda Oya
+### Moragaswewa (Deduru Oya)
+
+![Moragaswewa](images/stations/moragaswewa.png)
+
+### Nagalagam Street (Kelani Ganga)
+
+![Nagalagam Street](images/stations/nagalagam-street.png)
+
+### Hanwella (Kelani Ganga)
+
+![Hanwella](images/stations/hanwella.png)
+
+### Badalgama (Maha Oya)
+
+![Badalgama](images/stations/badalgama.png)
+
+### Manampitiya (Mahaweli Ganga)
+
+![Manampitiya](images/stations/manampitiya.png)
+
+### Thaldena (Mahaweli Ganga)
+
+![Thaldena](images/stations/thaldena.png)
+
+### Galgamuwa (Mee Oya)
+
+![Galgamuwa](images/stations/galgamuwa.png)
+
+### Ellagawa (Kalu Ganga)
+
+![Ellagawa](images/stations/ellagawa.png)
+
+### Horowpothana (Yan Oya)
+
+![Horowpothana](images/stations/horowpothana.png)
+
+### Putupaula (Kalu Ganga)
+
+![Putupaula](images/stations/putupaula.png)
+
+### Dunamale (Aththanagalu Oya)
+
+![Dunamale](images/stations/dunamale.png)
+
+### Glencourse (Kelani Ganga)
+
+![Glencourse](images/stations/glencourse.png)
+
+### Rathnapura (Kalu Ganga)
+
+![Rathnapura](images/stations/rathnapura.png)
+
+### Kithulgala (Kelani Ganga)
+
+![Kithulgala](images/stations/kithulgala.png)
+
+### Nakkala (Kumbukkan Oya)
+
+![Nakkala](images/stations/nakkala.png)
+
+### Pitabeddara (Nilwala Ganga)
+
+![Pitabeddara](images/stations/pitabeddara.png)
+
+### Norwood (Kelani Ganga)
+
+![Norwood](images/stations/norwood.png)
+
+### Siyambalanduwa (Heda Oya)
+
+![Siyambalanduwa](images/stations/siyambalanduwa.png)
+
+### Holombuwa (Kelani Ganga)
+
+![Holombuwa](images/stations/holombuwa.png)
+
+### Thawalama (Gin Ganga)
+
+![Thawalama](images/stations/thawalama.png)
+
+### Kuda Oya (Kirindi Oya)
 
 ![Kuda Oya](images/stations/kuda-oya.png)
 
-### Thanamalwila
+### Urawa (Nilwala Ganga)
+
+![Urawa](images/stations/urawa.png)
+
+### Deraniyagala (Kelani Ganga)
+
+![Deraniyagala](images/stations/deraniyagala.png)
+
+### Moraketiya (Walawe Ganga)
+
+![Moraketiya](images/stations/moraketiya.png)
+
+### Wellawaya (Kirindi Oya)
+
+![Wellawaya](images/stations/wellawaya.png)
+
+### Katharagama (Menik Ganga)
+
+![Katharagama](images/stations/katharagama.png)
+
+### Padiyathalawa (Maduru Oya)
+
+![Padiyathalawa](images/stations/padiyathalawa.png)
+
+### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
+
+### Baddegama (Gin Ganga)
+
+![Baddegama](images/stations/baddegama.png)
+
+### Thalgahagoda (Nilwala Ganga)
+
+![Thalgahagoda](images/stations/thalgahagoda.png)
+
+### Yaka Wewa (Ma Oya)
+
+![Yaka Wewa](images/stations/yaka-wewa.png)
+
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
+
+### Magura (Kalu Ganga)
+
+![Magura](images/stations/magura.png)
+
+### Giriulla (Maha Oya)
+
+![Giriulla](images/stations/giriulla.png)
+
+### Nawalapitiya (Mahaweli Ganga)
+
+![Nawalapitiya](images/stations/nawalapitiya.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
