@@ -140,4 +140,12 @@ class RiverWaterLevelDataLoadMixin:
             if rwld.write():
                 n_write += 1
         log.info(f"Wrote {n_write} new measurements.")
+
+        if n_write > 0:
+            cls.list_all.cache_clear()
+            cls.station_to_list.cache_clear()
+            cls.station_to_latest.cache_clear()
+            cls.station_to_ror.cache_clear()
+            log.debug("Cleared caches for list_all and related methods.")
+
         return rwld_list
