@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Giriulla",
+    "time_ut": 1764510393,
+    "water_level_m": 3.95
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1764510236,
+    "water_level_m": 1.83
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1764510037,
+    "water_level_m": 7.74
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764509921,
+    "water_level_m": 1.14
+  },
+  {
     "station_name": "Thanamalwila",
     "time_ut": 1764509810,
     "water_level_m": 1.73

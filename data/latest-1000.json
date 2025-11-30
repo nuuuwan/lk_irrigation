@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Giriulla",
+    "time_ut": 1764510393,
+    "water_level_m": 3.95
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1764510236,
+    "water_level_m": 1.83
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1764510037,
+    "water_level_m": 7.74
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764509921,
+    "water_level_m": 1.14
+  },
+  {
     "station_name": "Thanamalwila",
     "time_ut": 1764509810,
     "water_level_m": 1.73
@@ -4978,25 +4998,5 @@
     "station_name": "Wellawaya",
     "time_ut": 1764394304,
     "water_level_m": 1.43
-  },
-  {
-    "station_name": "Nakkala",
-    "time_ut": 1764394301,
-    "water_level_m": 2.15
-  },
-  {
-    "station_name": "Nagalagam Street",
-    "time_ut": 1764394283,
-    "water_level_m": 1.88976
-  },
-  {
-    "station_name": "Moraketiya",
-    "time_ut": 1764394213,
-    "water_level_m": 2.36
-  },
-  {
-    "station_name": "Panadugama",
-    "time_ut": 1764391583,
-    "water_level_m": 4.65
   }
 ]
