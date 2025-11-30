@@ -10,10 +10,11 @@ class RiverWaterLevelDataFileWriteMixin:
 
     def write(self):
         if self.json_file.exists:
-            return
+            return False
         os.makedirs(self.dir_path, exist_ok=True)
         self.json_file.write(asdict(self))
         log.info(f"Wrote {self.json_file}")
+        return True
 
     @classmethod
     def write_all(cls):

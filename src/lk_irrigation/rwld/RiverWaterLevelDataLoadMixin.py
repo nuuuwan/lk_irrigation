@@ -16,6 +16,8 @@ class RiverWaterLevelDataLoadMixin:
     )
 
     def validate_remote(self, d):
+        if not d["alertpull"]:
+            return False
         converstion_factor = 1.0
         if self.station.water_level_unit == "ft":
             converstion_factor = 0.3048
@@ -41,6 +43,8 @@ class RiverWaterLevelDataLoadMixin:
                 expected == actual
             ), f"[validate {label}]: {expected} != {actual}"
 
+        return True
+
     @classmethod
     def from_remote_data_dict(cls, d: dict):
         rwld = cls(
@@ -48,7 +52,9 @@ class RiverWaterLevelDataLoadMixin:
             time_ut=int(d["EditDate"]) // 1000,
             water_level_m=float(d["water_level"]),
         )
-        rwld.validate_remote(d)
+
+        if not rwld.validate_remote(d):
+            return None
 
         if rwld.station.water_level_unit == "ft":
             rwld.water_level_m *= 0.3048
@@ -58,7 +64,6 @@ class RiverWaterLevelDataLoadMixin:
     @classmethod
     def __load_data_list_from_remote_page__(
         cls,
-        station_name: str,
         days_offset: int,
         page_offset: int,
         page_size: int,
@@ -67,8 +72,7 @@ class RiverWaterLevelDataLoadMixin:
             "resultOffset": page_offset,
             "resultRecordCount": page_size,
             "where": "((CreationDate BETWEEN CURRENT_TIMESTAMP"
-            + f" - {days_offset} AND CURRENT_TIMESTAMP))"
-            + f" AND (gauge='{station_name}')",
+            + f" - {days_offset} AND CURRENT_TIMESTAMP))",
             "f": "json",
             "orderByFields": "CreationDate DESC",
             "outFields": "*",
@@ -92,60 +96,30 @@ class RiverWaterLevelDataLoadMixin:
                 ]
                 return d_list
             except Exception as e:
-                log.error(f"Error fetching data for {station_name}: {e}")
+                log.error(f"[{page_offset}] Error fetching: {e}")
                 t_timeout *= timeout_mult
                 if t_timeout > max_t_timeout:
-                    log.error(f"Data fetch from {station_name} failed.")
+                    log.error(f"[{page_offset}] Failed. Stopping 🛑.")
                     return None
-                log.debug(f"Sleeping {t_timeout}s, before Retrying...")
+                log.debug(f"😴 Sleeping {t_timeout}s, before Retrying...")
                 time.sleep(t_timeout)
 
     @classmethod
     def __load_data_list_from_remote__(
         cls,
-        station_name: str,
         days_offset: int,
         total_pages: int,
         page_size: int,
     ):
-        assert (
-            total_pages % page_size == 0
-        ), "total_pages must be a multiple of page_size"
-        assert Station.from_name(
-            station_name
-        ), f"Station not found: {station_name}"
-
         d_list = []
         for page_offset in range(0, total_pages, page_size):
             d_list_for_page = cls.__load_data_list_from_remote_page__(
-                station_name, days_offset, page_offset, page_size
+                days_offset, page_offset, page_size
             )
             if d_list_for_page is None or len(d_list_for_page) == 0:
                 break
             d_list += d_list_for_page
         return d_list
-
-    @classmethod
-    def load_station_from_remote(
-        cls,
-        station_name: str,
-        days_offset: int,
-        total_pages: int,
-        page_size: int,
-    ):
-        rwld_list = [
-            cls.from_remote_data_dict(d)
-            for d in cls.__load_data_list_from_remote__(
-                station_name, days_offset, total_pages, page_size
-            )
-        ]
-        for rwld in rwld_list:
-            rwld.write()
-        log.info(
-            f"Loaded {len(rwld_list)} RWLD entries"
-            + f" from remote for {station_name}"
-        )
-        return rwld_list
 
     @classmethod
     def load_all_from_remote(
@@ -154,10 +128,16 @@ class RiverWaterLevelDataLoadMixin:
         total_pages: int,
         page_size: int,
     ):
-        rwld_list = []
-        for station in Station.list_all():
-            rwld_list += cls.load_station_from_remote(
-                station.name, days_offset, total_pages, page_size
+        rwld_list = [
+            cls.from_remote_data_dict(d)
+            for d in cls.__load_data_list_from_remote__(
+                days_offset, total_pages, page_size
             )
-        log.info(f"Loaded total {len(rwld_list)} RWLD entries from remote")
+        ]
+        rwld_list = [rwld for rwld in rwld_list if rwld is not None]
+        n_write = 0
+        for rwld in rwld_list:
+            if rwld.write():
+                n_write += 1
+        log.info(f"Wrote {n_write} new measurements.")
         return rwld_list
