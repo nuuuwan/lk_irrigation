@@ -23,6 +23,7 @@ class ReadMe:
 
     def __init__(self):
         self.rwld_list = RiverWaterLevelData.list_all()
+        self.station_rwld_list = RiverWaterLevelData.station_to_list()
 
     def get_lines_header(self) -> list[str]:
         return [
@@ -71,7 +72,33 @@ class ReadMe:
                 ]
             )
         )
+        return lines
 
+    def get_lines_latest_by_station(self) -> list[str]:
+        d_list = []
+        for rwld_list in self.station_rwld_list.values():
+            latest = rwld_list[0]
+            d_list.append(latest)
+
+        lines = ["## Latest by Station", ""]
+        lines.extend(
+            Markdown.table(
+                [
+                    {
+                        "Measured At": TimeFormat.TIME.format(
+                            Time(
+                                rwld.time_ut,
+                            )
+                        ),
+                        "Station (River)": f"{rwld.station_name}"
+                        + f" ({rwld.station.river.name})",
+                        "Level (m)": f"{rwld.water_level_m:.2f}",
+                        "Alert Level": f"{rwld.alert.emoji} {rwld.alert.name}",
+                    }
+                    for rwld in d_list
+                ]
+            )
+        )
         return lines
 
     def get_lines_footer(self) -> list[str]:
@@ -90,6 +117,7 @@ class ReadMe:
             self.get_lines_header()
             + self.get_lines_introduction()
             + self.get_lines_latest()
+            + self.get_lines_latest_by_station()
             + self.get_lines_footer()
         )
 
