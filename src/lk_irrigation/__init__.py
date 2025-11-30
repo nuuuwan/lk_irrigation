@@ -6,4 +6,6 @@ from lk_irrigation.core import Alert, Basin, Location, River, Station
 from lk_irrigation.readme import ReadMe
 from lk_irrigation.rwld import (RiverWaterLevelData,
                                 RiverWaterLevelDataFileMixin,
+                                RiverWaterLevelDataFileReadOnlyMixin,
+                                RiverWaterLevelDataFileWriteMixin,
                                 RiverWaterLevelDataLoadMixin)
