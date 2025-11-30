@@ -117,8 +117,8 @@ class ReadMe:
         lines = [
             "## Latest by Station",
             "",
-            "(⌛ = Latest measurement"
-            + " is older than {self.T_LATE_HOURS} hours)",
+            "*⌛ = Latest measurement"
+            + f" is older than **{self.T_LATE_HOURS} hours**.*",
             "",
         ]
         lines.extend(
