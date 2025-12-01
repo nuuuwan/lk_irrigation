@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Wellawaya",
+    "time_ut": 1764625984,
+    "water_level_m": 1.25
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1764625982,
+    "water_level_m": 1.25
+  },
+  {
     "station_name": "Nawalapitiya",
     "time_ut": 1764625167,
     "water_level_m": 1.78
@@ -488,15 +498,5 @@
     "station_name": "Badalgama",
     "time_ut": 1764614004,
     "water_level_m": 3.86
-  },
-  {
-    "station_name": "Urawa",
-    "time_ut": 1764614002,
-    "water_level_m": 0.63
-  },
-  {
-    "station_name": "Nawalapitiya",
-    "time_ut": 1764614002,
-    "water_level_m": 1.8
   }
 ]
