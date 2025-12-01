@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Thanthirimale",
+    "time_ut": 1764624721,
+    "water_level_m": 8.95
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1764624697,
+    "water_level_m": 3.1
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1764624681,
+    "water_level_m": 0.92
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764624676,
+    "water_level_m": 3.15
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1764624641,
+    "water_level_m": 1.37
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764624623,
+    "water_level_m": 0.73
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1764624045,
     "water_level_m": 3.16

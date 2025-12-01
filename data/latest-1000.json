@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Thanthirimale",
+    "time_ut": 1764624721,
+    "water_level_m": 8.95
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1764624697,
+    "water_level_m": 3.1
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1764624681,
+    "water_level_m": 0.92
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764624676,
+    "water_level_m": 3.15
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1764624641,
+    "water_level_m": 1.37
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764624623,
+    "water_level_m": 0.73
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1764624045,
     "water_level_m": 3.16
@@ -4968,35 +4998,5 @@
     "station_name": "Wellawaya",
     "time_ut": 1764509491,
     "water_level_m": 1.22
-  },
-  {
-    "station_name": "Magura",
-    "time_ut": 1764509480,
-    "water_level_m": 2.78
-  },
-  {
-    "station_name": "Kuda Oya",
-    "time_ut": 1764509471,
-    "water_level_m": 1.99
-  },
-  {
-    "station_name": "Glencourse",
-    "time_ut": 1764509456,
-    "water_level_m": 16.05
-  },
-  {
-    "station_name": "Nawalapitiya",
-    "time_ut": 1764509438,
-    "water_level_m": 2.05
-  },
-  {
-    "station_name": "Nakkala",
-    "time_ut": 1764509408,
-    "water_level_m": 1.77
-  },
-  {
-    "station_name": "Horowpothana",
-    "time_ut": 1764509377,
-    "water_level_m": 7.5
   }
 ]
