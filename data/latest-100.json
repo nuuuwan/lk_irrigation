@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Urawa",
+    "time_ut": 1764622896,
+    "water_level_m": 0.63
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1764622582,
+    "water_level_m": 2.66
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1764622457,
+    "water_level_m": 3.15
+  },
+  {
     "station_name": "Badalgama",
     "time_ut": 1764621980,
     "water_level_m": 3.8
@@ -483,20 +498,5 @@
     "station_name": "Yaka Wewa",
     "time_ut": 1764610584,
     "water_level_m": 1.06
-  },
-  {
-    "station_name": "Badalgama",
-    "time_ut": 1764610577,
-    "water_level_m": 3.86
-  },
-  {
-    "station_name": "Padiyathalawa",
-    "time_ut": 1764610539,
-    "water_level_m": 0.93
-  },
-  {
-    "station_name": "Rathnapura",
-    "time_ut": 1764610533,
-    "water_level_m": 4.64
   }
 ]
