@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1764572393,
+    "water_level_m": 3.03
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1764571766,
     "water_level_m": 0.85
@@ -493,10 +498,5 @@
     "station_name": "Dunamale",
     "time_ut": 1764560912,
     "water_level_m": 4.16
-  },
-  {
-    "station_name": "Urawa",
-    "time_ut": 1764560769,
-    "water_level_m": 0.71
   }
 ]
