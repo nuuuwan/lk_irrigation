@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--02_01:26:07-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--02_01:38:27-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **7,053 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **7,054 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-02 01:38:27 | Urawa (Nilwala Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 01:26:07 | Siyambalanduwa (Heda Oya) | 1.08 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 01:19:46 | Putupaula (Kalu Ganga) | 4.02 | 🟠 Minor Flood | -0.016 |  |
 | 2025-12-02 01:11:55 | Magura (Kalu Ganga) | 2.17 | 🟢 Normal | -36.000 |  |
@@ -47,7 +48,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-02 01:00:21 | Wellawaya (Kirindi Oya) | 1.25 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 00:59:51 | Kithulgala (Kelani Ganga) | 2.15 | 🟢 Normal | 0.102 | 🔺 Rising |
 | 2025-12-02 00:58:38 | Wellawaya (Kirindi Oya) | 1.25 | 🟢 Normal | 0.000 |  |
-| 2025-12-02 00:34:27 | Thalgahagoda (Nilwala Ganga) | 0.76 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -77,7 +77,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-02 01:07:32 | Glencourse (Kelani Ganga) | 11.81 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 01:26:07 | Siyambalanduwa (Heda Oya) | 1.08 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 00:09:34 | Katharagama (Menik Ganga) | 0.88 | 🟢 Normal | 0.000 |  |
-| 2025-12-02 01:10:24 | Urawa (Nilwala Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
+| 2025-12-02 01:38:27 | Urawa (Nilwala Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 00:34:27 | Thalgahagoda (Nilwala Ganga) | 0.76 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 01:03:21 | Norwood (Kelani Ganga) | 1.20 | 🟢 Normal | -0.010 |  |
 | 2025-12-02 00:06:21 | Thawalama (Gin Ganga) | 1.88 | 🟢 Normal | -0.010 |  |
