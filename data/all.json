@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Nakkala",
+    "time_ut": 1764566377,
+    "water_level_m": 1.68
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1764565871,
+    "water_level_m": 3.25
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1764564637,
     "water_level_m": 3.36
