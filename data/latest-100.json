@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1764564637,
+    "water_level_m": 3.36
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1764564462,
+    "water_level_m": 0.71
+  },
+  {
     "station_name": "Ellagawa",
     "time_ut": 1764564171,
     "water_level_m": 11.18
@@ -488,15 +498,5 @@
     "station_name": "Dunamale",
     "time_ut": 1764553706,
     "water_level_m": 4.3
-  },
-  {
-    "station_name": "Giriulla",
-    "time_ut": 1764553560,
-    "water_level_m": 3.3
-  },
-  {
-    "station_name": "Baddegama",
-    "time_ut": 1764553429,
-    "water_level_m": 2.16
   }
 ]
