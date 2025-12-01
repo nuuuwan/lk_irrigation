@@ -1,5 +1,60 @@
 [
   {
+    "station_name": "Ellagawa",
+    "time_ut": 1764589052,
+    "water_level_m": 10.81
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1764589006,
+    "water_level_m": 8.7
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1764588982,
+    "water_level_m": 2.5298400000000005
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764588978,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1764588941,
+    "water_level_m": 1.12
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764588940,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764588907,
+    "water_level_m": 2.21
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1764588883,
+    "water_level_m": 5.08
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1764588841,
+    "water_level_m": 2.93
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1764588820,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1764588819,
+    "water_level_m": 3.6
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1764588810,
     "water_level_m": 0.8
@@ -4943,60 +4998,5 @@
     "station_name": "Siyambalanduwa",
     "time_ut": 1764480610,
     "water_level_m": 1.4
-  },
-  {
-    "station_name": "Ellagawa",
-    "time_ut": 1764480544,
-    "water_level_m": 11.94
-  },
-  {
-    "station_name": "Ellagawa",
-    "time_ut": 1764480539,
-    "water_level_m": 10.87
-  },
-  {
-    "station_name": "Padiyathalawa",
-    "time_ut": 1764478113,
-    "water_level_m": 1.2
-  },
-  {
-    "station_name": "Holombuwa",
-    "time_ut": 1764477714,
-    "water_level_m": 1.99
-  },
-  {
-    "station_name": "Hanwella",
-    "time_ut": 1764477504,
-    "water_level_m": 10.8
-  },
-  {
-    "station_name": "Panadugama",
-    "time_ut": 1764477398,
-    "water_level_m": 3.94
-  },
-  {
-    "station_name": "Nagalagam Street",
-    "time_ut": 1764477302,
-    "water_level_m": 2.24028
-  },
-  {
-    "station_name": "Siyambalanduwa",
-    "time_ut": 1764477294,
-    "water_level_m": 1.41
-  },
-  {
-    "station_name": "Katharagama",
-    "time_ut": 1764477247,
-    "water_level_m": 1.42
-  },
-  {
-    "station_name": "Glencourse",
-    "time_ut": 1764477240,
-    "water_level_m": 17.82
-  },
-  {
-    "station_name": "Dunamale",
-    "time_ut": 1764477224,
-    "water_level_m": 5.29
   }
 ]
