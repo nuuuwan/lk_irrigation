@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1764618115,
+    "water_level_m": 2.17
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764618114,
+    "water_level_m": 2.18
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1764618024,
+    "water_level_m": 0.63
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1764617918,
+    "water_level_m": 6.64
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1764617884,
+    "water_level_m": 1.83
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1764617852,
+    "water_level_m": 11.81
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1764617851,
+    "water_level_m": 11.81
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1764617788,
+    "water_level_m": 8.07
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1764617755,
+    "water_level_m": 4.47
+  },
+  {
     "station_name": "Dunamale",
     "time_ut": 1764617703,
     "water_level_m": 3.2
@@ -4953,50 +4998,5 @@
     "station_name": "Thanthirimale",
     "time_ut": 1764505834,
     "water_level_m": 10.86
-  },
-  {
-    "station_name": "Nawalapitiya",
-    "time_ut": 1764505816,
-    "water_level_m": 2.05
-  },
-  {
-    "station_name": "Kithulgala",
-    "time_ut": 1764504077,
-    "water_level_m": 2.59
-  },
-  {
-    "station_name": "Thalgahagoda",
-    "time_ut": 1764503788,
-    "water_level_m": 1.22
-  },
-  {
-    "station_name": "Giriulla",
-    "time_ut": 1764502839,
-    "water_level_m": 4.05
-  },
-  {
-    "station_name": "Holombuwa",
-    "time_ut": 1764502751,
-    "water_level_m": 1.67
-  },
-  {
-    "station_name": "Thalgahagoda",
-    "time_ut": 1764502680,
-    "water_level_m": 1.22
-  },
-  {
-    "station_name": "Thanamalwila",
-    "time_ut": 1764502675,
-    "water_level_m": 1.75
-  },
-  {
-    "station_name": "Hanwella",
-    "time_ut": 1764502586,
-    "water_level_m": 10.55
-  },
-  {
-    "station_name": "Magura",
-    "time_ut": 1764502561,
-    "water_level_m": 2.99
   }
 ]
