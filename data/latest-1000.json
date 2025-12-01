@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1764624045,
+    "water_level_m": 3.16
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764624031,
+    "water_level_m": 3.16
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1764622896,
     "water_level_m": 0.63
@@ -4988,15 +4998,5 @@
     "station_name": "Horowpothana",
     "time_ut": 1764509377,
     "water_level_m": 7.5
-  },
-  {
-    "station_name": "Badalgama",
-    "time_ut": 1764508739,
-    "water_level_m": 6.8
-  },
-  {
-    "station_name": "Giriulla",
-    "time_ut": 1764506628,
-    "water_level_m": 4.0
   }
 ]

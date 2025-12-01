@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--02_02:31:36-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--02_02:50:45-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **7,079 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **7,081 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **26** measurements in the last **1 hour**.*
+*There were **27** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-02 02:50:45 | Panadugama (Nilwala Ganga) | 3.16 | 🟢 Normal | 0.000 |  |
+| 2025-12-02 02:50:31 | Panadugama (Nilwala Ganga) | 3.16 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 02:31:36 | Urawa (Nilwala Ganga) | 0.63 | 🟢 Normal | 1.397 | 🔺 Rising |
 | 2025-12-02 02:26:22 | Giriulla (Maha Oya) | 2.66 | 🟢 Normal | -0.007 |  |
 | 2025-12-02 02:24:17 | Dunamale (Aththanagalu Oya) | 3.15 | 🟢 Normal | -0.038 |  |
@@ -44,7 +46,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-02 02:01:20 | Nakkala (Kumbukkan Oya) | 1.58 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 02:00:25 | Kithulgala (Kelani Ganga) | 2.15 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 02:00:24 | Moraketiya (Walawe Ganga) | 1.38 | 🟢 Normal | 0.000 |  |
-| 2025-12-02 01:38:27 | Urawa (Nilwala Ganga) | 0.63 | 🟢 Normal | 1.397 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -70,6 +71,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-02 02:01:20 | Nakkala (Kumbukkan Oya) | 1.58 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 02:07:12 | Nawalapitiya (Mahaweli Ganga) | 1.80 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 02:03:21 | Norwood (Kelani Ganga) | 1.20 | 🟢 Normal | 0.000 |  |
+| 2025-12-02 02:50:45 | Panadugama (Nilwala Ganga) | 3.16 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 02:00:24 | Moraketiya (Walawe Ganga) | 1.38 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 01:26:07 | Siyambalanduwa (Heda Oya) | 1.08 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 02:04:41 | Katharagama (Menik Ganga) | 0.88 | 🟢 Normal | 0.000 |  |
@@ -81,7 +83,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-02 00:01:36 | Yaka Wewa (Ma Oya) | 1.05 | 🟢 Normal | -0.011 |  |
 | 2025-12-02 02:05:49 | Magura (Kalu Ganga) | 2.16 | 🟢 Normal | -0.011 |  |
 | 2025-12-02 01:03:16 | Thanamalwila (Kirindi Oya) | 1.42 | 🟢 Normal | -0.011 |  |
-| 2025-12-02 00:03:51 | Panadugama (Nilwala Ganga) | 3.18 | 🟢 Normal | -0.011 |  |
 | 2025-12-02 02:16:20 | Badalgama (Maha Oya) | 3.80 | 🟢 Normal | -0.016 |  |
 | 2025-12-02 02:10:35 | Holombuwa (Kelani Ganga) | 1.19 | 🟢 Normal | -0.018 |  |
 | 2025-12-01 18:00:59 | Galgamuwa (Mee Oya) | 3.58 | 🟢 Normal | -0.021 |  |
@@ -166,6 +167,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Norwood](images/stations/norwood.png)
 
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
+
 ### Moraketiya (Walawe Ganga)
 
 ![Moraketiya](images/stations/moraketiya.png)
@@ -209,10 +214,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
-
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
 
 ### Badalgama (Maha Oya)
 
