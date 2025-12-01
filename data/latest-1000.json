@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764600377,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1764600159,
+    "water_level_m": 10.68
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1764600010,
+    "water_level_m": 1.36
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1764600002,
+    "water_level_m": 6.86
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1764599931,
+    "water_level_m": 1.44
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764599921,
+    "water_level_m": 2.21
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1764599864,
     "water_level_m": 0.65
@@ -4968,35 +4998,5 @@
     "station_name": "Norwood",
     "time_ut": 1764491537,
     "water_level_m": 1.42
-  },
-  {
-    "station_name": "Urawa",
-    "time_ut": 1764491526,
-    "water_level_m": 0.85
-  },
-  {
-    "station_name": "Wellawaya",
-    "time_ut": 1764491518,
-    "water_level_m": 1.25
-  },
-  {
-    "station_name": "Baddegama",
-    "time_ut": 1764491513,
-    "water_level_m": 2.52
-  },
-  {
-    "station_name": "Thawalama",
-    "time_ut": 1764491495,
-    "water_level_m": 2.09
-  },
-  {
-    "station_name": "Ellagawa",
-    "time_ut": 1764491489,
-    "water_level_m": 11.9
-  },
-  {
-    "station_name": "Kuda Oya",
-    "time_ut": 1764491484,
-    "water_level_m": 2.04
   }
 ]
