@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Holombuwa",
+    "time_ut": 1764611333,
+    "water_level_m": 1.3
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1764611191,
+    "water_level_m": 2.7
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1764610901,
+    "water_level_m": 3.3
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764610865,
+    "water_level_m": 3.19
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764610752,
+    "water_level_m": 1.0
+  },
+  {
     "station_name": "Ellagawa",
     "time_ut": 1764610611,
     "water_level_m": 10.55
@@ -473,30 +498,5 @@
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1764600002,
     "water_level_m": 6.86
-  },
-  {
-    "station_name": "Thanamalwila",
-    "time_ut": 1764599931,
-    "water_level_m": 1.44
-  },
-  {
-    "station_name": "Magura",
-    "time_ut": 1764599921,
-    "water_level_m": 2.21
-  },
-  {
-    "station_name": "Urawa",
-    "time_ut": 1764599864,
-    "water_level_m": 0.65
-  },
-  {
-    "station_name": "Yaka Wewa",
-    "time_ut": 1764599834,
-    "water_level_m": 1.09
-  },
-  {
-    "station_name": "Hanwella",
-    "time_ut": 1764599827,
-    "water_level_m": 8.44
   }
 ]
