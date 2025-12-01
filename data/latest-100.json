@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764601188,
+    "water_level_m": 0.78
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1764600377,
     "water_level_m": 1.0
@@ -493,10 +498,5 @@
     "station_name": "Horowpothana",
     "time_ut": 1764592238,
     "water_level_m": 6.51
-  },
-  {
-    "station_name": "Wellawaya",
-    "time_ut": 1764592211,
-    "water_level_m": 1.2
   }
 ]
