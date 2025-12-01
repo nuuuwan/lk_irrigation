@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Nakkala",
+    "time_ut": 1764552627,
+    "water_level_m": 1.71
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764550205,
+    "water_level_m": 2.23
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1764550115,
+    "water_level_m": 4.44
+  },
+  {
     "station_name": "Thanamalwila",
     "time_ut": 1764549591,
     "water_level_m": 1.6
@@ -4983,20 +4998,5 @@
     "station_name": "Siyambalanduwa",
     "time_ut": 1764434054,
     "water_level_m": 1.51
-  },
-  {
-    "station_name": "Deraniyagala",
-    "time_ut": 1764434048,
-    "water_level_m": 2.1
-  },
-  {
-    "station_name": "Horowpothana",
-    "time_ut": 1764434039,
-    "water_level_m": 7.65
-  },
-  {
-    "station_name": "Nagalagam Street",
-    "time_ut": 1764434029,
-    "water_level_m": 2.0574
   }
 ]
