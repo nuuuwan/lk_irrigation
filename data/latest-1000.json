@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764615867,
+    "water_level_m": 0.76
+  },
+  {
     "station_name": "Holombuwa",
     "time_ut": 1764614697,
     "water_level_m": 1.25
@@ -4993,10 +4998,5 @@
     "station_name": "Thanthirimale",
     "time_ut": 1764502356,
     "water_level_m": 10.9
-  },
-  {
-    "station_name": "Thawalama",
-    "time_ut": 1764502331,
-    "water_level_m": 2.18
   }
 ]
