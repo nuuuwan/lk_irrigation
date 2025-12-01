@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1764630666,
+    "water_level_m": 3.14
+  },
+  {
     "station_name": "Thawalama",
     "time_ut": 1764628966,
     "water_level_m": 1.83
@@ -493,10 +498,5 @@
     "station_name": "Nawalapitiya",
     "time_ut": 1764617631,
     "water_level_m": 1.8
-  },
-  {
-    "station_name": "Nagalagam Street",
-    "time_ut": 1764617629,
-    "water_level_m": 2.46888
   }
 ]

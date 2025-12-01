@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1764630666,
+    "water_level_m": 3.14
+  },
+  {
     "station_name": "Thawalama",
     "time_ut": 1764628966,
     "water_level_m": 1.83
@@ -4993,10 +4998,5 @@
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1764513397,
     "water_level_m": 7.7
-  },
-  {
-    "station_name": "Pitabeddara",
-    "time_ut": 1764513388,
-    "water_level_m": 0.21
   }
 ]
