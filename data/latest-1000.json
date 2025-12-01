@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764571766,
+    "water_level_m": 0.85
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1764571425,
+    "water_level_m": 1.89
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1764571323,
     "water_level_m": 0.71
@@ -4988,15 +4998,5 @@
     "station_name": "Holombuwa",
     "time_ut": 1764456599,
     "water_level_m": 2.08
-  },
-  {
-    "station_name": "Hanwella",
-    "time_ut": 1764456278,
-    "water_level_m": 10.9
-  },
-  {
-    "station_name": "Rathnapura",
-    "time_ut": 1764456141,
-    "water_level_m": 7.55
   }
 ]
