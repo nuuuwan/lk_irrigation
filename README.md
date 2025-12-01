@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -53,7 +53,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-01 18:00:47 | Putupaula (Kalu Ganga) | 4.15 | 🟠 Minor Flood | -0.010 |  |
 | 2025-12-01 18:00:38 | Horowpothana (Yan Oya) | 6.51 | 🟡 Alert | -0.010 |  |
 | 2025-12-01 18:00:11 | Wellawaya (Kirindi Oya) | 1.20 | 🟢 Normal | -0.010 |  |
-| 2025-12-01 17:22:39 | Badalgama (Maha Oya) | 3.96 | 🟢 Normal | -0.014 |  |
 
 ## Latest by Station
 
