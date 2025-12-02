@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1764680271,
+    "water_level_m": 3.08
+  },
+  {
     "station_name": "Manampitiya",
     "time_ut": 1764679320,
     "water_level_m": 2.95
@@ -4993,10 +4998,5 @@
     "station_name": "Norwood",
     "time_ut": 1764574335,
     "water_level_m": 1.24
-  },
-  {
-    "station_name": "Deraniyagala",
-    "time_ut": 1764574331,
-    "water_level_m": 1.31
   }
 ]
