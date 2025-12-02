@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1764690149,
+    "water_level_m": 3.07
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1764690141,
+    "water_level_m": 9.1
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1764690064,
+    "water_level_m": 3.5
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764690001,
+    "water_level_m": 0.98
+  },
+  {
     "station_name": "Hanwella",
     "time_ut": 1764689819,
     "water_level_m": 6.56
@@ -478,25 +498,5 @@
     "station_name": "Ellagawa",
     "time_ut": 1764679173,
     "water_level_m": 9.33
-  },
-  {
-    "station_name": "Kithulgala",
-    "time_ut": 1764679158,
-    "water_level_m": 2.18
-  },
-  {
-    "station_name": "Glencourse",
-    "time_ut": 1764679111,
-    "water_level_m": 11.15
-  },
-  {
-    "station_name": "Hanwella",
-    "time_ut": 1764679099,
-    "water_level_m": 6.8
-  },
-  {
-    "station_name": "Galgamuwa",
-    "time_ut": 1764679044,
-    "water_level_m": 2.52
   }
 ]
