@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Ellagawa",
+    "time_ut": 1764705623,
+    "water_level_m": 8.7
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1764705618,
+    "water_level_m": 1.27
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1764705254,
+    "water_level_m": 1.6
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764705090,
+    "water_level_m": 0.6
+  },
+  {
     "station_name": "Putupaula",
     "time_ut": 1764704280,
     "water_level_m": 3.34
@@ -4978,25 +4998,5 @@
     "station_name": "Giriulla",
     "time_ut": 1764596421,
     "water_level_m": 2.85
-  },
-  {
-    "station_name": "Giriulla",
-    "time_ut": 1764596419,
-    "water_level_m": 4.69
-  },
-  {
-    "station_name": "Pitabeddara",
-    "time_ut": 1764596414,
-    "water_level_m": 1.0
-  },
-  {
-    "station_name": "Kalawellawa (Millakanda)",
-    "time_ut": 1764596404,
-    "water_level_m": 6.92
-  },
-  {
-    "station_name": "Urawa",
-    "time_ut": 1764596353,
-    "water_level_m": 0.66
   }
 ]
