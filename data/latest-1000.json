@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764709293,
+    "water_level_m": 0.59
+  },
+  {
     "station_name": "Dunamale",
     "time_ut": 1764708336,
     "water_level_m": 2.4
@@ -4993,10 +4998,5 @@
     "station_name": "Thanamalwila",
     "time_ut": 1764599931,
     "water_level_m": 1.44
-  },
-  {
-    "station_name": "Magura",
-    "time_ut": 1764599921,
-    "water_level_m": 2.21
   }
 ]
