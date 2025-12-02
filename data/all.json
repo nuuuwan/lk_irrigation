@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1764708336,
+    "water_level_m": 2.4
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1764708108,
+    "water_level_m": 1.07
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1764708025,
+    "water_level_m": 0.59
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1764708014,
+    "water_level_m": 11.08
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764707875,
+    "water_level_m": 1.83
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1764707869,
+    "water_level_m": 6.02
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1764707854,
+    "water_level_m": 1.51
+  },
+  {
     "station_name": "Ellagawa",
     "time_ut": 1764707803,
     "water_level_m": 8.58

@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1764708336,
+    "water_level_m": 2.4
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1764708108,
+    "water_level_m": 1.07
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1764708025,
+    "water_level_m": 0.59
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1764708014,
+    "water_level_m": 11.08
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764707875,
+    "water_level_m": 1.83
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1764707869,
+    "water_level_m": 6.02
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1764707854,
+    "water_level_m": 1.51
+  },
+  {
     "station_name": "Ellagawa",
     "time_ut": 1764707803,
     "water_level_m": 8.58
@@ -463,40 +498,5 @@
     "station_name": "Nagalagam Street",
     "time_ut": 1764697100,
     "water_level_m": 1.88976
-  },
-  {
-    "station_name": "Giriulla",
-    "time_ut": 1764697083,
-    "water_level_m": 2.29
-  },
-  {
-    "station_name": "Badalgama",
-    "time_ut": 1764697048,
-    "water_level_m": 3.45
-  },
-  {
-    "station_name": "Ellagawa",
-    "time_ut": 1764697048,
-    "water_level_m": 8.95
-  },
-  {
-    "station_name": "Norwood",
-    "time_ut": 1764696928,
-    "water_level_m": 1.09
-  },
-  {
-    "station_name": "Rathnapura",
-    "time_ut": 1764696889,
-    "water_level_m": 2.66
-  },
-  {
-    "station_name": "Holombuwa",
-    "time_ut": 1764696862,
-    "water_level_m": 1.08
-  },
-  {
-    "station_name": "Kithulgala",
-    "time_ut": 1764696858,
-    "water_level_m": 2.12
   }
 ]
