@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1764650492,
+    "water_level_m": 3.11
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1764650439,
+    "water_level_m": 11.41
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1764650320,
     "water_level_m": 0.64
@@ -488,15 +498,5 @@
     "station_name": "Pitabeddara",
     "time_ut": 1764642699,
     "water_level_m": 0.98
-  },
-  {
-    "station_name": "Nawalapitiya",
-    "time_ut": 1764642696,
-    "water_level_m": 1.69
-  },
-  {
-    "station_name": "Siyambalanduwa",
-    "time_ut": 1764642690,
-    "water_level_m": 1.15
   }
 ]
