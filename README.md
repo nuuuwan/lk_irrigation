@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--02_11:16:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--02_11:22:30-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **7,388 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **7,389 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-02 11:22:30 | Galgamuwa (Mee Oya) | 3.12 | 🟢 Normal | -0.047 |  |
 | 2025-12-02 11:16:05 | Rathnapura (Kalu Ganga) | 3.69 | 🟢 Normal | -0.072 |  |
 | 2025-12-02 11:15:24 | Thalgahagoda (Nilwala Ganga) | 0.64 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 11:10:01 | Giriulla (Maha Oya) | 2.52 | 🟢 Normal | -0.018 |  |
@@ -51,7 +52,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-02 11:02:08 | Kalawellawa (Millakanda) (Kalu Ganga) | 6.10 | 🟡 Alert | -0.050 |  |
 | 2025-12-02 11:01:40 | Thanthirimale (Malwathu Oya) | 8.43 | 🔴 Major Flood | -0.093 |  |
 | 2025-12-02 11:00:10 | Nakkala (Kumbukkan Oya) | 1.54 | 🟢 Normal | -0.010 |  |
-| 2025-12-02 10:26:14 | Urawa (Nilwala Ganga) | 0.61 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -92,7 +92,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-02 11:05:53 | Dunamale (Aththanagalu Oya) | 2.78 | 🟢 Normal | -0.019 |  |
 | 2025-12-02 11:02:12 | Baddegama (Gin Ganga) | 1.67 | 🟢 Normal | -0.020 |  |
 | 2025-12-02 11:04:19 | Glencourse (Kelani Ganga) | 11.39 | 🟢 Normal | -0.022 |  |
-| 2025-12-02 10:05:30 | Galgamuwa (Mee Oya) | 3.18 | 🟢 Normal | -0.024 |  |
+| 2025-12-02 11:22:30 | Galgamuwa (Mee Oya) | 3.12 | 🟢 Normal | -0.047 |  |
 | 2025-12-02 11:07:23 | Horowpothana (Yan Oya) | 4.46 | 🟢 Normal | -0.055 |  |
 | 2025-12-02 11:03:14 | Katharagama (Menik Ganga) | 0.50 | 🟢 Normal | -0.062 |  |
 | 2025-12-02 11:03:06 | Ellagawa (Kalu Ganga) | 9.83 | 🟢 Normal | -0.069 |  |

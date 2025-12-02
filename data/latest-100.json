@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Galgamuwa",
+    "time_ut": 1764654750,
+    "water_level_m": 3.12
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1764654365,
     "water_level_m": 3.69
@@ -493,10 +498,5 @@
     "station_name": "Urawa",
     "time_ut": 1764646315,
     "water_level_m": 0.61
-  },
-  {
-    "station_name": "Pitabeddara",
-    "time_ut": 1764646315,
-    "water_level_m": 0.98
   }
 ]
