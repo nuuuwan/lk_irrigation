@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Putupaula",
+    "time_ut": 1764704280,
+    "water_level_m": 3.34
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1764704240,
+    "water_level_m": 6.16
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1764704195,
+    "water_level_m": 1.85928
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1764704159,
+    "water_level_m": 11.09
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1764704143,
+    "water_level_m": 1.07
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1764704132,
+    "water_level_m": 1.09
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1764704095,
+    "water_level_m": 2.52
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1764704094,
+    "water_level_m": 2.3
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764704073,
+    "water_level_m": 1.83
+  },
+  {
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1764704040,
     "water_level_m": 5.41
@@ -4953,50 +4998,5 @@
     "station_name": "Urawa",
     "time_ut": 1764596353,
     "water_level_m": 0.66
-  },
-  {
-    "station_name": "Panadugama",
-    "time_ut": 1764596334,
-    "water_level_m": 3.25
-  },
-  {
-    "station_name": "Thanamalwila",
-    "time_ut": 1764596286,
-    "water_level_m": 1.45
-  },
-  {
-    "station_name": "Thalgahagoda",
-    "time_ut": 1764596279,
-    "water_level_m": 0.79
-  },
-  {
-    "station_name": "Hanwella",
-    "time_ut": 1764596200,
-    "water_level_m": 8.53
-  },
-  {
-    "station_name": "Rathnapura",
-    "time_ut": 1764596123,
-    "water_level_m": 4.95
-  },
-  {
-    "station_name": "Putupaula",
-    "time_ut": 1764596104,
-    "water_level_m": 4.14
-  },
-  {
-    "station_name": "Kuda Oya",
-    "time_ut": 1764596097,
-    "water_level_m": 1.85
-  },
-  {
-    "station_name": "Thawalama",
-    "time_ut": 1764596093,
-    "water_level_m": 1.93
-  },
-  {
-    "station_name": "Katharagama",
-    "time_ut": 1764596078,
-    "water_level_m": 0.89
   }
 ]
