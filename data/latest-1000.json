@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Badalgama",
+    "time_ut": 1764691763,
+    "water_level_m": 2.35
+  },
+  {
     "station_name": "Moraketiya",
     "time_ut": 1764691019,
     "water_level_m": 1.49
@@ -4993,10 +4998,5 @@
     "station_name": "Moraketiya",
     "time_ut": 1764585098,
     "water_level_m": 1.81
-  },
-  {
-    "station_name": "Wellawaya",
-    "time_ut": 1764585087,
-    "water_level_m": 1.21
   }
 ]

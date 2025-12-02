@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Badalgama",
+    "time_ut": 1764691763,
+    "water_level_m": 2.35
+  },
+  {
     "station_name": "Moraketiya",
     "time_ut": 1764691019,
     "water_level_m": 1.49
@@ -493,10 +498,5 @@
     "station_name": "Panadugama",
     "time_ut": 1764680271,
     "water_level_m": 3.08
-  },
-  {
-    "station_name": "Manampitiya",
-    "time_ut": 1764679320,
-    "water_level_m": 2.95
   }
 ]

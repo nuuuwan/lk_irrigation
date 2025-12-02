@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--02_21:26:59-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--02_21:39:23-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **7,732 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **7,733 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-02 21:39:23 | Badalgama (Maha Oya) | 2.35 | 🟢 Normal | -1.862 |  |
 | 2025-12-02 21:26:59 | Moraketiya (Walawe Ganga) | 1.49 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 21:24:36 | Magura (Kalu Ganga) | 1.85 | 🟢 Normal | -0.007 |  |
 | 2025-12-02 21:12:29 | Panadugama (Nilwala Ganga) | 3.07 | 🟢 Normal | 0.000 |  |
@@ -40,7 +41,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-02 21:03:24 | Dunamale (Aththanagalu Oya) | 2.52 | 🟢 Normal | -0.020 |  |
 | 2025-12-02 21:03:19 | Thalgahagoda (Nilwala Ganga) | 0.64 | 🟢 Normal | -0.010 |  |
 | 2025-12-02 21:03:19 | Norwood (Kelani Ganga) | 1.10 | 🟢 Normal | 0.000 |  |
-| 2025-12-02 21:02:58 | Badalgama (Maha Oya) | 3.48 | 🟢 Normal | -0.021 |  |
+| 2025-12-02 21:02:58 | Badalgama (Maha Oya) | 3.48 | 🟢 Normal | -1.862 |  |
 | 2025-12-02 21:02:56 | Deraniyagala (Kelani Ganga) | 1.03 | 🟢 Normal | -0.011 |  |
 | 2025-12-02 21:02:31 | Nawalapitiya (Mahaweli Ganga) | 1.61 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 21:02:26 | Nawalapitiya (Mahaweli Ganga) | 1.61 | 🟢 Normal | 0.000 |  |
@@ -91,13 +92,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-02 18:12:00 | Manampitiya (Mahaweli Ganga) | 2.95 | 🟢 Normal | -0.018 |  |
 | 2025-12-02 20:08:54 | Giriulla (Maha Oya) | 2.36 | 🟢 Normal | -0.019 |  |
 | 2025-12-02 21:03:24 | Dunamale (Aththanagalu Oya) | 2.52 | 🟢 Normal | -0.020 |  |
-| 2025-12-02 21:02:58 | Badalgama (Maha Oya) | 3.48 | 🟢 Normal | -0.021 |  |
 | 2025-12-02 21:06:51 | Holombuwa (Kelani Ganga) | 1.09 | 🟢 Normal | -0.030 |  |
 | 2025-12-02 21:02:06 | Baddegama (Gin Ganga) | 1.44 | 🟢 Normal | -0.030 |  |
 | 2025-12-02 21:00:27 | Horowpothana (Yan Oya) | 3.65 | 🟢 Normal | -0.081 |  |
 | 2025-12-02 21:06:59 | Hanwella (Kelani Ganga) | 6.56 | 🟢 Normal | -0.090 |  |
 | 2025-12-02 21:03:36 | Rathnapura (Kalu Ganga) | 2.81 | 🟢 Normal | -0.091 |  |
 | 2025-12-02 18:07:24 | Galgamuwa (Mee Oya) | 2.52 | 🟢 Normal | -0.120 |  |
+| 2025-12-02 21:39:23 | Badalgama (Maha Oya) | 2.35 | 🟢 Normal | -1.862 |  |
 
 ## River Water Level Charts by Station
 
@@ -229,10 +230,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Dunamale](images/stations/dunamale.png)
 
-### Badalgama (Maha Oya)
-
-![Badalgama](images/stations/badalgama.png)
-
 ### Holombuwa (Kelani Ganga)
 
 ![Holombuwa](images/stations/holombuwa.png)
@@ -256,6 +253,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Galgamuwa (Mee Oya)
 
 ![Galgamuwa](images/stations/galgamuwa.png)
+
+### Badalgama (Maha Oya)
+
+![Badalgama](images/stations/badalgama.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
