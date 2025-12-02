@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1764701022,
+    "water_level_m": 1.84
+  },
+  {
     "station_name": "Dunamale",
     "time_ut": 1764700881,
     "water_level_m": 2.44
@@ -493,10 +498,5 @@
     "station_name": "Badalgama",
     "time_ut": 1764691763,
     "water_level_m": 2.35
-  },
-  {
-    "station_name": "Moraketiya",
-    "time_ut": 1764691019,
-    "water_level_m": 1.49
   }
 ]

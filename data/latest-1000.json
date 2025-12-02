@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1764701022,
+    "water_level_m": 1.84
+  },
+  {
     "station_name": "Dunamale",
     "time_ut": 1764700881,
     "water_level_m": 2.44
@@ -4993,10 +4998,5 @@
     "station_name": "Siyambalanduwa",
     "time_ut": 1764595891,
     "water_level_m": 1.13
-  },
-  {
-    "station_name": "Nakkala",
-    "time_ut": 1764595873,
-    "water_level_m": 1.59
   }
 ]
