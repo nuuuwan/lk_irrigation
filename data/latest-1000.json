@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1764712405,
+    "water_level_m": 1.73
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764712211,
+    "water_level_m": 3.06
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764712199,
+    "water_level_m": 0.97
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1764711953,
     "water_level_m": 0.58
@@ -4983,20 +4998,5 @@
     "station_name": "Kithulgala",
     "time_ut": 1764604433,
     "water_level_m": 2.15
-  },
-  {
-    "station_name": "Putupaula",
-    "time_ut": 1764604306,
-    "water_level_m": 4.1
-  },
-  {
-    "station_name": "Thalgahagoda",
-    "time_ut": 1764603937,
-    "water_level_m": 0.78
-  },
-  {
-    "station_name": "Thawalama",
-    "time_ut": 1764603765,
-    "water_level_m": 1.9
   }
 ]
