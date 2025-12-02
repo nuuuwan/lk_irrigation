@@ -1,4 +1,15 @@
 station_name	time_ut	water_level_m
+Norwood	1764718405	1.07
+Putupaula	1764718405	3.17
+Giriulla	1764718382	2.2
+Deraniyagala	1764718381	0.98
+Thalgahagoda	1764718376	0.65
+Kithulgala	1764718311	2.15
+Kalawellawa (Millakanda)	1764718308	5.17
+Badalgama	1764718283	3.34
+Nawalapitiya	1764718270	1.59
+Moraketiya	1764718230	1.15
+Wellawaya	1764718226	1.25
 Norwood	1764717068	1.09
 Kuda Oya	1764716875	1.7
 Putupaula	1764716641	3.23
@@ -88,14 +99,3 @@ Giriulla	1764707571	2.25
 Yaka Wewa	1764707561	0.97
 Nakkala	1764707561	1.42
 Horowpothana	1764707540	3.45
-Deraniyagala	1764707539	1.02
-Padiyathalawa	1764707538	0.85
-Nakkala	1764707528	1.42
-Panadugama	1764707527	3.06
-Thanamalwila	1764707518	1.23
-Kuda Oya	1764707512	1.7
-Badalgama	1764707483	3.4
-Thawalama	1764707456	1.73
-Wellawaya	1764707432	1.14
-Thawalama	1764707432	1.73
-Ellagawa	1764705623	8.7
