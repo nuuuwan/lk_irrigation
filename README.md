@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--02_17:22:27-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--02_17:47:13-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **7,598 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **7,599 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-02 17:47:13 | Thanthirimale (Malwathu Oya) | 8.11 | 🔴 Major Flood | -0.029 |  |
 | 2025-12-02 17:22:27 | Panadugama (Nilwala Ganga) | 3.08 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 17:22:05 | Nawalapitiya (Mahaweli Ganga) | 1.63 | 🟢 Normal | 0.000 |  |
 | 2025-12-02 17:14:37 | Holombuwa (Kelani Ganga) | 1.20 | 🟢 Normal | -0.016 |  |
@@ -61,7 +62,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-11-27 20:03:23⌛ | Peradeniya (Mahaweli Ganga) | 10.56 | 🔴 Major Flood | 0.595 | 🔺 Rising |
 | 2025-11-27 13:00:40⌛ | Weraganthota (Mahaweli Ganga) | 8.37 | 🔴 Major Flood | 0.467 | 🔺 Rising |
 | 2025-11-28 06:04:09⌛ | Moragaswewa (Deduru Oya) | 8.33 | 🔴 Major Flood | 0.051 | 🔺 Rising |
-| 2025-12-02 15:02:35 | Thanthirimale (Malwathu Oya) | 8.19 | 🔴 Major Flood | -1.040 |  |
+| 2025-12-02 17:47:13 | Thanthirimale (Malwathu Oya) | 8.11 | 🔴 Major Flood | -0.029 |  |
 | 2025-11-27 08:02:16⌛ | Thaldena (Mahaweli Ganga) | 4.25 | 🟠 Minor Flood | 0.050 | 🔺 Rising |
 | 2025-12-02 17:04:31 | Nagalagam Street (Kelani Ganga) | 1.97 | 🟠 Minor Flood | -0.050 |  |
 | 2025-12-02 15:21:21 | Manampitiya (Mahaweli Ganga) | 3.00 | 🟡 Alert | 0.025 | 🔺 Rising |
