@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1764698906,
+    "water_level_m": 0.97
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1764697569,
     "water_level_m": 3.07
@@ -4993,10 +4998,5 @@
     "station_name": "Nakkala",
     "time_ut": 1764592268,
     "water_level_m": 1.6
-  },
-  {
-    "station_name": "Galgamuwa",
-    "time_ut": 1764592259,
-    "water_level_m": 3.58
   }
 ]
