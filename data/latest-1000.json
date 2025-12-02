@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1764669081,
+    "water_level_m": 3.0
+  },
+  {
     "station_name": "Padiyathalawa",
     "time_ut": 1764668844,
     "water_level_m": 0.89
@@ -4993,10 +4998,5 @@
     "station_name": "Siyambalanduwa",
     "time_ut": 1764563507,
     "water_level_m": 1.2
-  },
-  {
-    "station_name": "Wellawaya",
-    "time_ut": 1764563502,
-    "water_level_m": 1.26
   }
 ]
