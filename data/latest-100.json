@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Putupaula",
+    "time_ut": 1764701800,
+    "water_level_m": 3.37
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1764701022,
     "water_level_m": 1.84
@@ -493,10 +498,5 @@
     "station_name": "Wellawaya",
     "time_ut": 1764693016,
     "water_level_m": 1.14
-  },
-  {
-    "station_name": "Badalgama",
-    "time_ut": 1764691763,
-    "water_level_m": 2.35
   }
 ]

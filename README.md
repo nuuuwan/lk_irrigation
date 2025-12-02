@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--03_00:13:42-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--03_00:26:40-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **7,832 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **7,833 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **35** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-03 00:26:40 | Putupaula (Kalu Ganga) | 3.37 | 🟡 Alert | -0.034 |  |
 | 2025-12-03 00:13:42 | Magura (Kalu Ganga) | 1.84 | 🟢 Normal | 0.000 |  |
 | 2025-12-03 00:11:21 | Dunamale (Aththanagalu Oya) | 2.44 | 🟢 Normal | -0.018 |  |
 | 2025-12-03 00:08:43 | Deraniyagala (Kelani Ganga) | 1.06 | 🟢 Normal | 0.019 | 🔺 Rising |
@@ -66,7 +67,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-11-27 08:02:16⌛ | Thaldena (Mahaweli Ganga) | 4.25 | 🟠 Minor Flood | 0.050 | 🔺 Rising |
 | 2025-12-03 00:04:08 | Nagalagam Street (Kelani Ganga) | 1.89 | 🟠 Minor Flood | 0.000 |  |
 | 2025-12-03 00:00:58 | Thanthirimale (Malwathu Oya) | 7.79 | 🟠 Minor Flood | -0.036 |  |
-| 2025-12-02 23:15:11 | Putupaula (Kalu Ganga) | 3.41 | 🟡 Alert | -0.033 |  |
+| 2025-12-03 00:26:40 | Putupaula (Kalu Ganga) | 3.37 | 🟡 Alert | -0.034 |  |
 | 2025-12-03 00:01:21 | Kalawellawa (Millakanda) (Kalu Ganga) | 5.44 | 🟡 Alert | -0.050 |  |
 | 2025-12-03 00:01:40 | Glencourse (Kelani Ganga) | 11.10 | 🟢 Normal | 0.024 | 🔺 Rising |
 | 2025-12-03 00:08:43 | Deraniyagala (Kelani Ganga) | 1.06 | 🟢 Normal | 0.019 | 🔺 Rising |
