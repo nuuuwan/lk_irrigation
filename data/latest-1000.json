@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1764661819,
+    "water_level_m": 2.95
+  },
+  {
     "station_name": "Galgamuwa",
     "time_ut": 1764661608,
     "water_level_m": 3.02
@@ -4993,10 +4998,5 @@
     "station_name": "Ellagawa",
     "time_ut": 1764554270,
     "water_level_m": 11.83
-  },
-  {
-    "station_name": "Panadugama",
-    "time_ut": 1764553981,
-    "water_level_m": 3.43
   }
 ]
