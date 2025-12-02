@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1764710293,
+    "water_level_m": 1.59
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1764710169,
+    "water_level_m": 3.3
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1764709761,
+    "water_level_m": 5.37
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1764709293,
     "water_level_m": 0.59
@@ -483,20 +498,5 @@
     "station_name": "Padiyathalawa",
     "time_ut": 1764697247,
     "water_level_m": 0.86
-  },
-  {
-    "station_name": "Padiyathalawa",
-    "time_ut": 1764697245,
-    "water_level_m": 0.89
-  },
-  {
-    "station_name": "Ellagawa",
-    "time_ut": 1764697232,
-    "water_level_m": 8.95
-  },
-  {
-    "station_name": "Hanwella",
-    "time_ut": 1764697150,
-    "water_level_m": 6.37
   }
 ]
