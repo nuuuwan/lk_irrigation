@@ -1,5 +1,65 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1764715470,
+    "water_level_m": 1.8
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1764715354,
+    "water_level_m": 1.23
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764715273,
+    "water_level_m": 3.05
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1764715173,
+    "water_level_m": 5.91
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1764715102,
+    "water_level_m": 1.6764000000000001
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1764715023,
+    "water_level_m": 1.72
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1764714985,
+    "water_level_m": 2.21
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1764714985,
+    "water_level_m": 1.08
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1764714960,
+    "water_level_m": 3.37
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764714948,
+    "water_level_m": 0.96
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1764714918,
+    "water_level_m": 2.31
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1764714910,
+    "water_level_m": 1.5
+  },
+  {
     "station_name": "Glencourse",
     "time_ut": 1764714875,
     "water_level_m": 11.04
