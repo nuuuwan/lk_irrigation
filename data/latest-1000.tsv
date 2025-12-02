@@ -1,4 +1,42 @@
 station_name	time_ut	water_level_m
+Panadugama	1764640284	3.12
+Rathnapura	1764640242	4.05
+Yaka Wewa	1764640038	1.01
+Yaka Wewa	1764640036	1.03
+Magura	1764639674	2.02
+Magura	1764639672	2.02
+Padiyathalawa	1764639561	0.89
+Magura	1764639535	2.02
+Urawa	1764639478	0.61
+Baddegama	1764639470	1.76
+Hanwella	1764639455	7.64
+Pitabeddara	1764639404	0.98
+Glencourse	1764639381	11.52
+Ellagawa	1764639310	10.1
+Nagalagam Street	1764639308	2.25552
+Giriulla	1764639242	2.58
+Badalgama	1764639235	3.66
+Katharagama	1764639233	0.76
+Dunamale	1764639225	2.9
+Kalawellawa (Millakanda)	1764639219	6.31
+Putupaula	1764639219	3.93
+Deraniyagala	1764639166	1.14
+Holombuwa	1764639162	1.28
+Thawalama	1764639141	1.84
+Nawalapitiya	1764639133	1.71
+Norwood	1764639098	1.17
+Wellawaya	1764639097	1.24
+Moraketiya	1764639086	1.78
+Thanthirimale	1764639086	8.78
+Siyambalanduwa	1764639079	1.13
+Galgamuwa	1764638463	3.24
+Siyambalanduwa	1764638373	1.11
+Siyambalanduwa	1764638371	1.11
+Siyambalanduwa	1764638369	1.05
+Siyambalanduwa	1764638366	1.06
+Siyambalanduwa	1764638365	1.07
+Siyambalanduwa	1764638363	1.07
+Siyambalanduwa	1764638361	1.07
 Kuda Oya	1764636225	1.8
 Kuda Oya	1764636223	1.8
 Kuda Oya	1764636220	1.8
@@ -961,41 +999,3 @@ Thawalama	1764527578	2.1
 Katharagama	1764527539	0.95
 Nakkala	1764527532	1.76
 Dunamale	1764527531	1.76
-Nawalapitiya	1764527515	1.99
-Kalawellawa (Millakanda)	1764527508	7.58
-Pitabeddara	1764527504	1.15
-Kuda Oya	1764527489	1.95
-Thalgahagoda	1764527444	1.04
-Horowpothana	1764527411	7.43
-Moraketiya	1764527409	1.41
-Kalawellawa (Millakanda)	1764524687	7.6
-Giriulla	1764524456	3.75
-Glencourse	1764524341	15.11
-Panadugama	1764524273	3.57
-Baddegama	1764524214	2.3
-Thalgahagoda	1764524188	1.04
-Nawalapitiya	1764524182	2.0
-Norwood	1764524158	1.35
-Hanwella	1764524152	10.23
-Nagalagam Street	1764524110	2.46888
-Holombuwa	1764524097	1.57
-Thanamalwila	1764524094	1.67
-Putupaula	1764524092	4.29
-Kithulgala	1764524066	2.49
-Rathnapura	1764524064	6.26
-Urawa	1764524020	0.78
-Dunamale	1764524019	4.91
-Katharagama	1764524004	0.95
-Yaka Wewa	1764523998	1.35
-Siyambalanduwa	1764523985	1.29
-Deraniyagala	1764523981	1.49
-Thawalama	1764523969	2.1
-Pitabeddara	1764523950	1.15
-Horowpothana	1764523894	7.47
-Kuda Oya	1764523879	1.96
-Magura	1764523864	2.47
-Moraketiya	1764523826	1.44
-Wellawaya	1764523824	1.23
-Urawa	1764520881	0.79
-Giriulla	1764520800	3.79
-Holombuwa	1764520765	1.63
