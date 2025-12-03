@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1764773299,
+    "water_level_m": 0.83
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764773248,
+    "water_level_m": 1.64
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764773234,
+    "water_level_m": 2.87
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764773058,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1764772930,
+    "water_level_m": 6.12
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1764772720,
+    "water_level_m": 1.87
+  },
+  {
     "station_name": "Badalgama",
     "time_ut": 1764772656,
     "water_level_m": 3.25
@@ -4968,35 +4998,5 @@
     "station_name": "Thanamalwila",
     "time_ut": 1764668163,
     "water_level_m": 1.29
-  },
-  {
-    "station_name": "Glencourse",
-    "time_ut": 1764668163,
-    "water_level_m": 11.27
-  },
-  {
-    "station_name": "Katharagama",
-    "time_ut": 1764668128,
-    "water_level_m": 0.31
-  },
-  {
-    "station_name": "Magura",
-    "time_ut": 1764668068,
-    "water_level_m": 1.89
-  },
-  {
-    "station_name": "Norwood",
-    "time_ut": 1764668064,
-    "water_level_m": 1.11
-  },
-  {
-    "station_name": "Giriulla",
-    "time_ut": 1764668059,
-    "water_level_m": 2.47
-  },
-  {
-    "station_name": "Deraniyagala",
-    "time_ut": 1764668052,
-    "water_level_m": 1.07
   }
 ]
