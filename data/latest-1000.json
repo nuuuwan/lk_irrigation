@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1764722877,
+    "water_level_m": 0.95
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1764722849,
+    "water_level_m": 0.58
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764722539,
+    "water_level_m": 3.05
+  },
+  {
     "station_name": "Nagalagam Street",
     "time_ut": 1764722369,
     "water_level_m": 1.524
@@ -4983,20 +4998,5 @@
     "station_name": "Ellagawa",
     "time_ut": 1764614611,
     "water_level_m": 10.49
-  },
-  {
-    "station_name": "Wellawaya",
-    "time_ut": 1764614515,
-    "water_level_m": 1.25
-  },
-  {
-    "station_name": "Thanamalwila",
-    "time_ut": 1764614387,
-    "water_level_m": 1.43
-  },
-  {
-    "station_name": "Katharagama",
-    "time_ut": 1764614374,
-    "water_level_m": 0.88
   }
 ]
