@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Putupaula",
+    "time_ut": 1764781369,
+    "water_level_m": 1.8
+  },
+  {
     "station_name": "Horowpothana",
     "time_ut": 1764780799,
     "water_level_m": 2.74
@@ -4993,10 +4998,5 @@
     "station_name": "Magura",
     "time_ut": 1764675532,
     "water_level_m": 1.87
-  },
-  {
-    "station_name": "Thalgahagoda",
-    "time_ut": 1764675490,
-    "water_level_m": 0.72
   }
 ]
