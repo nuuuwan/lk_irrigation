@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764793123,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1764793113,
+    "water_level_m": 0.52
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1764792541,
+    "water_level_m": 1.05156
+  },
+  {
     "station_name": "Baddegama",
     "time_ut": 1764790979,
     "water_level_m": 1.16
@@ -483,20 +498,5 @@
     "station_name": "Giriulla",
     "time_ut": 1764779688,
     "water_level_m": 2.1
-  },
-  {
-    "station_name": "Katharagama",
-    "time_ut": 1764779677,
-    "water_level_m": 0.62
-  },
-  {
-    "station_name": "Ellagawa",
-    "time_ut": 1764779643,
-    "water_level_m": 5.97
-  },
-  {
-    "station_name": "Nawalapitiya",
-    "time_ut": 1764779638,
-    "water_level_m": 1.53
   }
 ]
