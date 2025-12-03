@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764774607,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764774463,
+    "water_level_m": 0.9
+  },
+  {
     "station_name": "Thanthirimale",
     "time_ut": 1764774111,
     "water_level_m": 6.84
@@ -488,15 +498,5 @@
     "station_name": "Wellawaya",
     "time_ut": 1764765042,
     "water_level_m": 1.18
-  },
-  {
-    "station_name": "Badalgama",
-    "time_ut": 1764765035,
-    "water_level_m": 3.26
-  },
-  {
-    "station_name": "Nawalapitiya",
-    "time_ut": 1764765015,
-    "water_level_m": 1.55
   }
 ]

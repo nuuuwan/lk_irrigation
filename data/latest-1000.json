@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764774607,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764774463,
+    "water_level_m": 0.9
+  },
+  {
     "station_name": "Thanthirimale",
     "time_ut": 1764774111,
     "water_level_m": 6.84
@@ -4988,15 +4998,5 @@
     "station_name": "Ellagawa",
     "time_ut": 1764668224,
     "water_level_m": 9.56
-  },
-  {
-    "station_name": "Thalgahagoda",
-    "time_ut": 1764668210,
-    "water_level_m": 0.74
-  },
-  {
-    "station_name": "Hanwella",
-    "time_ut": 1764668207,
-    "water_level_m": 7.07
   }
 ]
