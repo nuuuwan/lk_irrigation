@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1764733548,
+    "water_level_m": 3.02
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1764733375,
+    "water_level_m": 2.88
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1764733235,
+    "water_level_m": 1.14
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1764733104,
+    "water_level_m": 2.95
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1764733041,
     "water_level_m": 1.72
@@ -4978,25 +4998,5 @@
     "station_name": "Hanwella",
     "time_ut": 1764628592,
     "water_level_m": 7.87
-  },
-  {
-    "station_name": "Nagalagam Street",
-    "time_ut": 1764628542,
-    "water_level_m": 2.3622
-  },
-  {
-    "station_name": "Magura",
-    "time_ut": 1764628512,
-    "water_level_m": 2.11
-  },
-  {
-    "station_name": "Magura",
-    "time_ut": 1764628511,
-    "water_level_m": 2.15
-  },
-  {
-    "station_name": "Moraketiya",
-    "time_ut": 1764628495,
-    "water_level_m": 1.54
   }
 ]
