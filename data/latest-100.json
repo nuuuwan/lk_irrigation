@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1764737070,
+    "water_level_m": 2.89
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1764736959,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1764736945,
+    "water_level_m": 1.71
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764736941,
+    "water_level_m": 0.94
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1764736850,
+    "water_level_m": 2.17
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1764736719,
     "water_level_m": 2.06
@@ -473,30 +498,5 @@
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1764729132,
     "water_level_m": 4.79
-  },
-  {
-    "station_name": "Badalgama",
-    "time_ut": 1764729121,
-    "water_level_m": 3.3
-  },
-  {
-    "station_name": "Baddegama",
-    "time_ut": 1764729084,
-    "water_level_m": 1.37
-  },
-  {
-    "station_name": "Ellagawa",
-    "time_ut": 1764729083,
-    "water_level_m": 7.81
-  },
-  {
-    "station_name": "Pitabeddara",
-    "time_ut": 1764729080,
-    "water_level_m": 0.96
-  },
-  {
-    "station_name": "Siyambalanduwa",
-    "time_ut": 1764729076,
-    "water_level_m": 1.01
   }
 ]

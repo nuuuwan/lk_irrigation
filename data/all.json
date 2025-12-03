@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1764737070,
+    "water_level_m": 2.89
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1764736959,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1764736945,
+    "water_level_m": 1.71
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764736941,
+    "water_level_m": 0.94
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1764736850,
+    "water_level_m": 2.17
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1764736719,
     "water_level_m": 2.06
