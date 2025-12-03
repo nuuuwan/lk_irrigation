@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--03_19:09:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--03_19:20:47-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **8,488 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **8,489 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **31** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-03 19:20:47 | Thalgahagoda (Nilwala Ganga) | 0.55 | 🟢 Normal | -0.022 |  |
 | 2025-12-03 19:09:24 | Urawa (Nilwala Ganga) | 0.56 | 🟢 Normal | -0.009 |  |
 | 2025-12-03 19:09:12 | Giriulla (Maha Oya) | 2.12 | 🟢 Normal | -0.010 |  |
 | 2025-12-03 19:08:49 | Rathnapura (Kalu Ganga) | 1.89 | 🟢 Normal | -0.041 |  |
@@ -84,7 +85,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-03 19:00:29 | Moraketiya (Walawe Ganga) | 1.09 | 🟢 Normal | -0.010 |  |
 | 2025-12-03 19:09:12 | Giriulla (Maha Oya) | 2.12 | 🟢 Normal | -0.010 |  |
 | 2025-12-03 19:03:18 | Dunamale (Aththanagalu Oya) | 2.25 | 🟢 Normal | -0.010 |  |
-| 2025-12-03 18:00:07 | Thalgahagoda (Nilwala Ganga) | 0.58 | 🟢 Normal | -0.020 |  |
+| 2025-12-03 19:20:47 | Thalgahagoda (Nilwala Ganga) | 0.55 | 🟢 Normal | -0.022 |  |
 | 2025-12-03 19:03:11 | Baddegama (Gin Ganga) | 1.21 | 🟢 Normal | -0.030 |  |
 | 2025-12-03 19:00:47 | Nagalagam Street (Kelani Ganga) | 1.10 | 🟢 Normal | -0.031 |  |
 | 2025-12-03 19:03:45 | Deraniyagala (Kelani Ganga) | 0.91 | 🟢 Normal | -0.039 |  |
