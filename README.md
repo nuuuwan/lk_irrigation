@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--03_20:18:19-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--03_20:31:51-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **8,522 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **8,524 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **35** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-03 20:31:51 | Thanthirimale (Malwathu Oya) | 6.84 | 🟠 Minor Flood | -7.579 |  |
+| 2025-12-03 20:31:32 | Thanthirimale (Malwathu Oya) | 6.88 | 🟠 Minor Flood | -7.579 |  |
 | 2025-12-03 20:18:19 | Padiyathalawa (Maduru Oya) | 0.83 | 🟢 Normal | -0.008 |  |
 | 2025-12-03 20:17:28 | Magura (Kalu Ganga) | 1.64 | 🟢 Normal | -0.008 |  |
 | 2025-12-03 20:17:14 | Panadugama (Nilwala Ganga) | 2.87 | 🟢 Normal | 0.000 |  |
@@ -62,7 +64,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-11-27 20:03:23⌛ | Peradeniya (Mahaweli Ganga) | 10.56 | 🔴 Major Flood | 0.595 | 🔺 Rising |
 | 2025-11-27 13:00:40⌛ | Weraganthota (Mahaweli Ganga) | 8.37 | 🔴 Major Flood | 0.467 | 🔺 Rising |
 | 2025-11-28 06:04:09⌛ | Moragaswewa (Deduru Oya) | 8.33 | 🔴 Major Flood | 0.051 | 🔺 Rising |
-| 2025-12-03 18:05:04 | Thanthirimale (Malwathu Oya) | 6.91 | 🟠 Minor Flood | -0.056 |  |
+| 2025-12-03 20:31:51 | Thanthirimale (Malwathu Oya) | 6.84 | 🟠 Minor Flood | -7.579 |  |
 | 2025-12-03 20:02:45 | Dunamale (Aththanagalu Oya) | 2.29 | 🟢 Normal | 0.040 | 🔺 Rising |
 | 2025-12-03 20:04:08 | Katharagama (Menik Ganga) | 0.60 | 🟢 Normal | 0.040 | 🔺 Rising |
 | 2025-12-03 20:03:45 | Kithulgala (Kelani Ganga) | 1.95 | 🟢 Normal | 0.039 | 🔺 Rising |
