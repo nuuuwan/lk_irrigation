@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Thanamalwila",
+    "time_ut": 1764744222,
+    "water_level_m": 1.4
+  },
+  {
     "station_name": "Galgamuwa",
     "time_ut": 1764744074,
     "water_level_m": 1.92
@@ -493,10 +498,5 @@
     "station_name": "Moraketiya",
     "time_ut": 1764736295,
     "water_level_m": 1.14
-  },
-  {
-    "station_name": "Badalgama",
-    "time_ut": 1764736290,
-    "water_level_m": 3.3
   }
 ]

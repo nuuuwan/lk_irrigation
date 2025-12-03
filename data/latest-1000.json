@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Thanamalwila",
+    "time_ut": 1764744222,
+    "water_level_m": 1.4
+  },
+  {
     "station_name": "Galgamuwa",
     "time_ut": 1764744074,
     "water_level_m": 1.92
@@ -4993,10 +4998,5 @@
     "station_name": "Magura",
     "time_ut": 1764639672,
     "water_level_m": 2.02
-  },
-  {
-    "station_name": "Padiyathalawa",
-    "time_ut": 1764639561,
-    "water_level_m": 0.89
   }
 ]
