@@ -1,5 +1,100 @@
 [
   {
+    "station_name": "Rathnapura",
+    "time_ut": 1764761617,
+    "water_level_m": 1.94
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1764761612,
+    "water_level_m": 1.85
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1764761597,
+    "water_level_m": 1.1
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1764761584,
+    "water_level_m": 0.84
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1764761584,
+    "water_level_m": 1.15824
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1764761563,
+    "water_level_m": 4.15
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1764761557,
+    "water_level_m": 1.03
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1764761552,
+    "water_level_m": 1.27
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1764761551,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1764761546,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1764761544,
+    "water_level_m": 2.3
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1764761533,
+    "water_level_m": 0.57
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1764761516,
+    "water_level_m": 2.75
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764761493,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1764761487,
+    "water_level_m": 6.48
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1764761476,
+    "water_level_m": 1.38
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1764761469,
+    "water_level_m": 0.99
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1764761459,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1764761380,
+    "water_level_m": 1.42
+  },
+  {
     "station_name": "Thanthirimale",
     "time_ut": 1764760364,
     "water_level_m": 7.05
@@ -4903,100 +4998,5 @@
     "station_name": "Kithulgala",
     "time_ut": 1764657227,
     "water_level_m": 1.98
-  },
-  {
-    "station_name": "Deraniyagala",
-    "time_ut": 1764657226,
-    "water_level_m": 1.09
-  },
-  {
-    "station_name": "Thawalama",
-    "time_ut": 1764657225,
-    "water_level_m": 1.8
-  },
-  {
-    "station_name": "Urawa",
-    "time_ut": 1764657204,
-    "water_level_m": 0.61
-  },
-  {
-    "station_name": "Kalawellawa (Millakanda)",
-    "time_ut": 1764657186,
-    "water_level_m": 6.04
-  },
-  {
-    "station_name": "Thanthirimale",
-    "time_ut": 1764657179,
-    "water_level_m": 8.36
-  },
-  {
-    "station_name": "Yaka Wewa",
-    "time_ut": 1764657171,
-    "water_level_m": 0.99
-  },
-  {
-    "station_name": "Siyambalanduwa",
-    "time_ut": 1764657161,
-    "water_level_m": 1.14
-  },
-  {
-    "station_name": "Baddegama",
-    "time_ut": 1764657160,
-    "water_level_m": 1.66
-  },
-  {
-    "station_name": "Pitabeddara",
-    "time_ut": 1764657148,
-    "water_level_m": 0.99
-  },
-  {
-    "station_name": "Horowpothana",
-    "time_ut": 1764657145,
-    "water_level_m": 4.34
-  },
-  {
-    "station_name": "Nawalapitiya",
-    "time_ut": 1764657117,
-    "water_level_m": 1.66
-  },
-  {
-    "station_name": "Moraketiya",
-    "time_ut": 1764657111,
-    "water_level_m": 1.76
-  },
-  {
-    "station_name": "Wellawaya",
-    "time_ut": 1764657104,
-    "water_level_m": 1.2
-  },
-  {
-    "station_name": "Nakkala",
-    "time_ut": 1764657010,
-    "water_level_m": 0.53
-  },
-  {
-    "station_name": "Galgamuwa",
-    "time_ut": 1764654750,
-    "water_level_m": 3.12
-  },
-  {
-    "station_name": "Rathnapura",
-    "time_ut": 1764654365,
-    "water_level_m": 3.69
-  },
-  {
-    "station_name": "Thalgahagoda",
-    "time_ut": 1764654324,
-    "water_level_m": 0.64
-  },
-  {
-    "station_name": "Giriulla",
-    "time_ut": 1764654001,
-    "water_level_m": 2.52
-  },
-  {
-    "station_name": "Kuda Oya",
-    "time_ut": 1764653993,
-    "water_level_m": 1.77
   }
 ]
