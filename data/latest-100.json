@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1764766820,
+    "water_level_m": 2.87
+  },
+  {
     "station_name": "Giriulla",
     "time_ut": 1764765629,
     "water_level_m": 2.13
@@ -493,10 +498,5 @@
     "station_name": "Urawa",
     "time_ut": 1764757979,
     "water_level_m": 0.57
-  },
-  {
-    "station_name": "Kalawellawa (Millakanda)",
-    "time_ut": 1764757959,
-    "water_level_m": 4.25
   }
 ]
