@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Thanamalwila",
+    "time_ut": 1764740701,
+    "water_level_m": 1.4
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764740690,
+    "water_level_m": 0.54
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1764740376,
+    "water_level_m": 1.7
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764740275,
+    "water_level_m": 0.94
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1764740233,
+    "water_level_m": 10.99
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1764740227,
+    "water_level_m": 2.32
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764740215,
+    "water_level_m": 2.98
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1764740192,
+    "water_level_m": 2.16
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1764740167,
+    "water_level_m": 1.16
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1764740147,
     "water_level_m": 0.58
@@ -4953,50 +4998,5 @@
     "station_name": "Kuda Oya",
     "time_ut": 1764636220,
     "water_level_m": 1.8
-  },
-  {
-    "station_name": "Kuda Oya",
-    "time_ut": 1764636219,
-    "water_level_m": 1.8
-  },
-  {
-    "station_name": "Kuda Oya",
-    "time_ut": 1764636217,
-    "water_level_m": 1.8
-  },
-  {
-    "station_name": "Kuda Oya",
-    "time_ut": 1764636212,
-    "water_level_m": 1.82
-  },
-  {
-    "station_name": "Holombuwa",
-    "time_ut": 1764636051,
-    "water_level_m": 1.25
-  },
-  {
-    "station_name": "Giriulla",
-    "time_ut": 1764636000,
-    "water_level_m": 2.61
-  },
-  {
-    "station_name": "Padiyathalawa",
-    "time_ut": 1764635992,
-    "water_level_m": 0.89
-  },
-  {
-    "station_name": "Nawalapitiya",
-    "time_ut": 1764635982,
-    "water_level_m": 1.73
-  },
-  {
-    "station_name": "Panadugama",
-    "time_ut": 1764635950,
-    "water_level_m": 3.12
-  },
-  {
-    "station_name": "Hanwella",
-    "time_ut": 1764635937,
-    "water_level_m": 7.73
   }
 ]
