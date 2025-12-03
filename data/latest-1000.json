@@ -1,6 +1,11 @@
 [
   {
     "station_name": "Deraniyagala",
+    "time_ut": 1764798420,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Deraniyagala",
     "time_ut": 1764798397,
     "water_level_m": 0.9
   },
@@ -4993,10 +4998,5 @@
     "station_name": "Putupaula",
     "time_ut": 1764693187,
     "water_level_m": 3.45
-  },
-  {
-    "station_name": "Thalgahagoda",
-    "time_ut": 1764693180,
-    "water_level_m": 0.62
   }
 ]
