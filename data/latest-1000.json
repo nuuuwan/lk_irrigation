@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Putupaula",
+    "time_ut": 1764802696,
+    "water_level_m": 1.5
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1764801981,
     "water_level_m": 1.79
@@ -4993,10 +4998,5 @@
     "station_name": "Nawalapitiya",
     "time_ut": 1764696679,
     "water_level_m": 1.6
-  },
-  {
-    "station_name": "Kuda Oya",
-    "time_ut": 1764696669,
-    "water_level_m": 1.72
   }
 ]
