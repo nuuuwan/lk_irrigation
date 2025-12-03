@@ -1,6 +1,46 @@
 [
   {
     "station_name": "Glencourse",
+    "time_ut": 1764747796,
+    "water_level_m": 10.95
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764747765,
+    "water_level_m": 0.94
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1764747710,
+    "water_level_m": 1.69
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764747678,
+    "water_level_m": 1.69
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1764747653,
+    "water_level_m": 2.89
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1764747652,
+    "water_level_m": 1.14
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1764747522,
+    "water_level_m": 1.92
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1764747420,
+    "water_level_m": 1.99
+  },
+  {
+    "station_name": "Glencourse",
     "time_ut": 1764747350,
     "water_level_m": 10.95
   },
