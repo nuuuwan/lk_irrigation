@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Nakkala",
+    "time_ut": 1764795723,
+    "water_level_m": 1.39
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1764795329,
+    "water_level_m": 1.6
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1764795086,
+    "water_level_m": 0.62
+  },
+  {
     "station_name": "Thawalama",
     "time_ut": 1764794767,
     "water_level_m": 1.64
@@ -483,20 +498,5 @@
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1764783302,
     "water_level_m": 3.8
-  },
-  {
-    "station_name": "Nagalagam Street",
-    "time_ut": 1764783286,
-    "water_level_m": 1.0668
-  },
-  {
-    "station_name": "Glencourse",
-    "time_ut": 1764783281,
-    "water_level_m": 10.56
-  },
-  {
-    "station_name": "Giriulla",
-    "time_ut": 1764783275,
-    "water_level_m": 2.1
   }
 ]
