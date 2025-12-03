@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Horowpothana",
+    "time_ut": 1764787604,
+    "water_level_m": 2.7
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764787580,
+    "water_level_m": 1.63
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1764787546,
+    "water_level_m": 10.52
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1764787490,
+    "water_level_m": 1.7
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1764787315,
     "water_level_m": 0.46

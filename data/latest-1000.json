@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Horowpothana",
+    "time_ut": 1764787604,
+    "water_level_m": 2.7
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764787580,
+    "water_level_m": 1.63
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1764787546,
+    "water_level_m": 10.52
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1764787490,
+    "water_level_m": 1.7
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1764787315,
     "water_level_m": 0.46
@@ -4978,25 +4998,5 @@
     "station_name": "Rathnapura",
     "time_ut": 1764682481,
     "water_level_m": 2.99
-  },
-  {
-    "station_name": "Horowpothana",
-    "time_ut": 1764682476,
-    "water_level_m": 3.78
-  },
-  {
-    "station_name": "Nagalagam Street",
-    "time_ut": 1764682469,
-    "water_level_m": 1.905
-  },
-  {
-    "station_name": "Nakkala",
-    "time_ut": 1764682463,
-    "water_level_m": 1.48
-  },
-  {
-    "station_name": "Deraniyagala",
-    "time_ut": 1764682443,
-    "water_level_m": 1.05
   }
 ]
