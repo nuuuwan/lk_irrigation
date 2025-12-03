@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Thanthirimale",
+    "time_ut": 1764760364,
+    "water_level_m": 7.05
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1764758898,
     "water_level_m": 0.91
@@ -4993,10 +4998,5 @@
     "station_name": "Kuda Oya",
     "time_ut": 1764653993,
     "water_level_m": 1.77
-  },
-  {
-    "station_name": "Panadugama",
-    "time_ut": 1764653980,
-    "water_level_m": 3.1
   }
 ]

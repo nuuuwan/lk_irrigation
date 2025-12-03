@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Thanthirimale",
+    "time_ut": 1764760364,
+    "water_level_m": 7.05
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1764758898,
     "water_level_m": 0.91
@@ -493,10 +498,5 @@
     "station_name": "Dunamale",
     "time_ut": 1764750746,
     "water_level_m": 2.28
-  },
-  {
-    "station_name": "Kalawellawa (Millakanda)",
-    "time_ut": 1764750735,
-    "water_level_m": 4.4
   }
 ]
