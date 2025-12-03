@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1764752019,
+    "water_level_m": 2.85
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1764751544,
     "water_level_m": 1.68
@@ -4993,10 +4998,5 @@
     "station_name": "Badalgama",
     "time_ut": 1764646922,
     "water_level_m": 3.62
-  },
-  {
-    "station_name": "Panadugama",
-    "time_ut": 1764646903,
-    "water_level_m": 3.11
   }
 ]

@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1764752019,
+    "water_level_m": 2.85
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1764751544,
     "water_level_m": 1.68
@@ -493,10 +498,5 @@
     "station_name": "Putupaula",
     "time_ut": 1764743616,
     "water_level_m": 2.85
-  },
-  {
-    "station_name": "Norwood",
-    "time_ut": 1764743602,
-    "water_level_m": 1.04
   }
 ]
