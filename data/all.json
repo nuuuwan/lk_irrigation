@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764758898,
+    "water_level_m": 0.91
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764758752,
+    "water_level_m": 1.66
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764758642,
+    "water_level_m": 2.87
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1764758578,
+    "water_level_m": 1.05
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764758507,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1764758435,
+    "water_level_m": 1.94
+  },
+  {
     "station_name": "Galgamuwa",
     "time_ut": 1764758382,
     "water_level_m": 1.9
