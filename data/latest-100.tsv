@@ -1,4 +1,11 @@
 station_name	time_ut	water_level_m
+Baddegama	1764797536	1.29
+Thanamalwila	1764797519	1.39
+Siyambalanduwa	1764797514	0.97
+Horowpothana	1764797504	2.65
+Thanthirimale	1764797434	6.53
+Nawalapitiya	1764797420	1.5
+Nawalapitiya	1764797299	1.52
 Giriulla	1764795759	2.08
 Nakkala	1764795723	1.39
 Putupaula	1764795329	1.6
@@ -92,10 +99,3 @@ Nakkala	1764786649	1.39
 Wellawaya	1764786636	1.21
 Thalgahagoda	1764784359	0.46
 Horowpothana	1764783939	2.71
-Badalgama	1764783770	3.22
-Nawalapitiya	1764783637	1.53
-Norwood	1764783592	1.03
-Deraniyagala	1764783378	0.87
-Rathnapura	1764783360	1.84
-Magura	1764783323	1.64
-Ellagawa	1764783317	5.88
