@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1764803947,
+    "water_level_m": 3.44
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1764803912,
+    "water_level_m": 1.09
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1764803529,
+    "water_level_m": 1.63
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764803367,
+    "water_level_m": 1.62
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764803349,
+    "water_level_m": 1.62
+  },
+  {
     "station_name": "Putupaula",
     "time_ut": 1764802696,
     "water_level_m": 1.5
