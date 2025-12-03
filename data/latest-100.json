@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Horowpothana",
+    "time_ut": 1764770733,
+    "water_level_m": 2.82
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1764769847,
     "water_level_m": 0.55
@@ -493,10 +498,5 @@
     "station_name": "Manampitiya",
     "time_ut": 1764761516,
     "water_level_m": 2.75
-  },
-  {
-    "station_name": "Thalgahagoda",
-    "time_ut": 1764761493,
-    "water_level_m": 0.6
   }
 ]
