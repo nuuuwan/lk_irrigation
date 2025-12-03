@@ -1,4 +1,11 @@
 station_name	time_ut	water_level_m
+Pitabeddara	1764776912	0.9
+Thalgahagoda	1764776731	0.48
+Panadugama	1764776633	2.86
+Rathnapura	1764776513	1.86
+Ellagawa	1764776453	6.02
+Giriulla	1764776442	2.11
+Badalgama	1764776438	3.24
 Ellagawa	1764776270	6.02
 Holombuwa	1764776225	1.0
 Horowpothana	1764776132	2.77
@@ -992,10 +999,3 @@ Galgamuwa	1764672042	2.73
 Hanwella	1764671995	7.0
 Nagalagam Street	1764671969	2.01168
 Magura	1764671883	1.88
-Kuda Oya	1764671850	1.75
-Ellagawa	1764671743	9.5
-Panadugama	1764671721	3.08
-Urawa	1764671686	0.6
-Deraniyagala	1764671672	1.07
-Nawalapitiya	1764671670	1.63
-Horowpothana	1764671669	3.97

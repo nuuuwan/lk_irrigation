@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764776912,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764776731,
+    "water_level_m": 0.48
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764776633,
+    "water_level_m": 2.86
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1764776513,
+    "water_level_m": 1.86
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1764776453,
+    "water_level_m": 6.02
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1764776442,
+    "water_level_m": 2.11
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1764776438,
+    "water_level_m": 3.24
+  },
+  {
     "station_name": "Ellagawa",
     "time_ut": 1764776270,
     "water_level_m": 6.02

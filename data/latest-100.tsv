@@ -1,4 +1,11 @@
 station_name	time_ut	water_level_m
+Pitabeddara	1764776912	0.9
+Thalgahagoda	1764776731	0.48
+Panadugama	1764776633	2.86
+Rathnapura	1764776513	1.86
+Ellagawa	1764776453	6.02
+Giriulla	1764776442	2.11
+Badalgama	1764776438	3.24
 Ellagawa	1764776270	6.02
 Holombuwa	1764776225	1.0
 Horowpothana	1764776132	2.77
@@ -92,10 +99,3 @@ Nawalapitiya	1764768702	1.55
 Nakkala	1764768690	1.38
 Nagalagam Street	1764768647	1.09728
 Wellawaya	1764768641	1.18
-Moraketiya	1764768629	1.09
-Siyambalanduwa	1764768612	0.99
-Panadugama	1764766820	2.87
-Giriulla	1764765629	2.13
-Rathnapura	1764765601	1.93
-Holombuwa	1764765433	1.0
-Dunamale	1764765320	2.26
