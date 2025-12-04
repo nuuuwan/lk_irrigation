@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1764808942,
+    "water_level_m": 1.07
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764808929,
+    "water_level_m": 2.81
+  },
+  {
     "station_name": "Horowpothana",
     "time_ut": 1764808814,
     "water_level_m": 2.58
@@ -4988,15 +4998,5 @@
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1764704040,
     "water_level_m": 5.41
-  },
-  {
-    "station_name": "Thanthirimale",
-    "time_ut": 1764703981,
-    "water_level_m": 7.75
-  },
-  {
-    "station_name": "Giriulla",
-    "time_ut": 1764703976,
-    "water_level_m": 2.27
   }
 ]

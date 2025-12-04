@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1764808942,
+    "water_level_m": 1.07
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764808929,
+    "water_level_m": 2.81
+  },
+  {
     "station_name": "Horowpothana",
     "time_ut": 1764808814,
     "water_level_m": 2.58
@@ -488,15 +498,5 @@
     "station_name": "Nakkala",
     "time_ut": 1764801077,
     "water_level_m": 1.38
-  },
-  {
-    "station_name": "Deraniyagala",
-    "time_ut": 1764798420,
-    "water_level_m": 0.9
-  },
-  {
-    "station_name": "Deraniyagala",
-    "time_ut": 1764798397,
-    "water_level_m": 0.9
   }
 ]
