@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--04_19:11:55-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--04_19:24:44-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **9,320 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **9,321 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-04 19:24:44 | Urawa (Nilwala Ganga) | 2.26 | 🟢 Normal | 0.577 | 🔺 Rising |
 | 2025-12-04 19:11:55 | Thanamalwila (Kirindi Oya) | 1.38 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 19:10:31 | Dunamale (Aththanagalu Oya) | 2.40 | 🟢 Normal | 0.063 | 🔺 Rising |
 | 2025-12-04 19:08:22 | Putupaula (Kalu Ganga) | 0.91 | 🟢 Normal | 0.000 |  |
@@ -50,7 +51,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-04 19:00:12 | Nakkala (Kumbukkan Oya) | 1.28 | 🟢 Normal | -0.010 |  |
 | 2025-12-04 19:00:12 | Wellawaya (Kirindi Oya) | 1.10 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 19:00:07 | Horowpothana (Yan Oya) | 2.30 | 🟢 Normal | 0.000 |  |
-| 2025-12-04 18:19:13 | Padiyathalawa (Maduru Oya) | 0.82 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -61,7 +61,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-11-27 20:03:23⌛ | Peradeniya (Mahaweli Ganga) | 10.56 | 🔴 Major Flood | 0.595 | 🔺 Rising |
 | 2025-11-28 06:04:09⌛ | Moragaswewa (Deduru Oya) | 8.33 | 🔴 Major Flood | 0.051 | 🔺 Rising |
 | 2025-12-04 19:00:53 | Thanthirimale (Malwathu Oya) | 5.80 | 🟡 Alert | -0.038 |  |
-| 2025-12-04 18:03:37 | Urawa (Nilwala Ganga) | 1.48 | 🟢 Normal | 0.643 | 🔺 Rising |
+| 2025-12-04 19:24:44 | Urawa (Nilwala Ganga) | 2.26 | 🟢 Normal | 0.577 | 🔺 Rising |
 | 2025-12-04 19:06:21 | Panadugama (Nilwala Ganga) | 3.40 | 🟢 Normal | 0.184 | 🔺 Rising |
 | 2025-12-04 19:02:25 | Thawalama (Gin Ganga) | 1.76 | 🟢 Normal | 0.180 | 🔺 Rising |
 | 2025-12-04 19:04:02 | Kithulgala (Kelani Ganga) | 2.20 | 🟢 Normal | 0.112 | 🔺 Rising |
