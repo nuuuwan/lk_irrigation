@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--04_09:21:46-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--04_09:41:57-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **8,955 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **8,956 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-04 09:41:57 | Thanthirimale (Malwathu Oya) | 6.24 | 🟡 Alert | -0.026 |  |
 | 2025-12-04 09:21:46 | Glencourse (Kelani Ganga) | 10.69 | 🟢 Normal | 0.076 | 🔺 Rising |
 | 2025-12-04 09:21:24 | Thanamalwila (Kirindi Oya) | 1.39 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 09:13:30 | Nagalagam Street (Kelani Ganga) | 0.82 | 🟢 Normal | -0.026 |  |
@@ -57,7 +58,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-04 09:01:02 | Siyambalanduwa (Heda Oya) | 0.96 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 09:00:40 | Thanamalwila (Kirindi Oya) | 1.39 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 09:00:32 | Nawalapitiya (Mahaweli Ganga) | 1.46 | 🟢 Normal | 0.000 |  |
-| 2025-12-04 08:34:19 | Thalgahagoda (Nilwala Ganga) | 0.52 | 🟢 Normal | -0.128 |  |
 
 ## Latest by Station
 
@@ -67,7 +67,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | --- | --- | ---: | --- | ---: | --- |
 | 2025-11-27 20:03:23⌛ | Peradeniya (Mahaweli Ganga) | 10.56 | 🔴 Major Flood | 0.595 | 🔺 Rising |
 | 2025-11-28 06:04:09⌛ | Moragaswewa (Deduru Oya) | 8.33 | 🔴 Major Flood | 0.051 | 🔺 Rising |
-| 2025-12-04 08:11:07 | Thanthirimale (Malwathu Oya) | 6.28 | 🟡 Alert | -0.056 |  |
+| 2025-12-04 09:41:57 | Thanthirimale (Malwathu Oya) | 6.24 | 🟡 Alert | -0.026 |  |
 | 2025-12-04 09:21:46 | Glencourse (Kelani Ganga) | 10.69 | 🟢 Normal | 0.076 | 🔺 Rising |
 | 2025-12-04 09:05:02 | Padiyathalawa (Maduru Oya) | 0.81 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2025-12-04 09:02:43 | Wellawaya (Kirindi Oya) | 1.21 | 🟢 Normal | 0.000 |  |
