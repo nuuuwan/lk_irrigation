@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -55,9 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-04 11:01:08 | Giriulla (Maha Oya) | 2.00 | 🟢 Normal | -0.010 |  |
 | 2025-12-04 11:00:51 | Manampitiya (Mahaweli Ganga) | 2.40 | 🟢 Normal | -0.041 |  |
 | 2025-12-04 11:00:39 | Moraketiya (Walawe Ganga) | 1.12 | 🟢 Normal | 0.000 |  |
-| 2025-12-04 10:24:16 | Weraganthota (Mahaweli Ganga) | -0.45 | 🟢 Normal | -0.318 |  |
-| 2025-12-04 10:20:27 | Urawa (Nilwala Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
-| 2025-12-04 10:20:26 | Kithulgala (Kelani Ganga) | 1.58 | 🟢 Normal | -0.105 |  |
 
 ## Latest by Station
 
