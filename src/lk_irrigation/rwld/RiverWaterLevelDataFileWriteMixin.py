@@ -1,7 +1,7 @@
 import os
 from dataclasses import asdict
 
-from utils import JSONFile, Log
+from utils import JSONFile, Log, Time, TimeFormat
 
 log = Log("RiverWaterLevelDataFileWriteMixin")
 
@@ -31,12 +31,12 @@ class RiverWaterLevelDataFileWriteMixin:
         event_data = {}
         for d in d_list:
             ent_id = d["station_name"]
-            time_ut = int(d["time_ut"])
+            time_id = TimeFormat.TIME_ID.format(Time(d["time_ut"]))
             water_level_m = round(d["water_level_m"], 3)
 
             if ent_id not in event_data:
                 event_data[ent_id] = {}
-            event_data[ent_id][time_ut] = water_level_m
+            event_data[ent_id][time_id] = water_level_m
 
         data["event_data"] = event_data
         json_file.write(data)
