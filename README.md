@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--05_02:17:09-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--05_02:21:34-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **9,550 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **9,551 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-05 02:21:34 | Thanamalwila (Kirindi Oya) | 1.37 | 🟢 Normal | 0.000 |  |
 | 2025-12-05 02:17:09 | Rathnapura (Kalu Ganga) | 3.10 | 🟢 Normal | -0.008 |  |
 | 2025-12-05 02:09:03 | Holombuwa (Kelani Ganga) | 0.99 | 🟢 Normal | -0.005 |  |
 | 2025-12-05 02:08:18 | Panadugama (Nilwala Ganga) | 4.13 | 🟢 Normal | 0.050 | 🔺 Rising |
@@ -46,7 +47,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-05 02:01:21 | Nakkala (Kumbukkan Oya) | 1.23 | 🟢 Normal | -0.010 |  |
 | 2025-12-05 02:00:28 | Wellawaya (Kirindi Oya) | 1.15 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2025-12-05 01:57:24 | Baddegama (Gin Ganga) | 1.75 | 🟢 Normal | 0.269 | 🔺 Rising |
-| 2025-12-05 01:22:07 | Putupaula (Kalu Ganga) | 0.90 | 🟢 Normal | 0.056 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -81,7 +81,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-05 02:02:31 | Katharagama (Menik Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
 | 2025-12-05 02:06:34 | Badalgama (Maha Oya) | 3.03 | 🟢 Normal | 0.000 |  |
 | 2025-12-05 00:10:18 | Kuda Oya (Kirindi Oya) | 1.63 | 🟢 Normal | 0.000 |  |
-| 2025-12-05 02:06:58 | Thanamalwila (Kirindi Oya) | 1.37 | 🟢 Normal | 0.000 |  |
+| 2025-12-05 02:21:34 | Thanamalwila (Kirindi Oya) | 1.37 | 🟢 Normal | 0.000 |  |
 | 2025-12-05 02:06:34 | Yaka Wewa (Ma Oya) | 0.93 | 🟢 Normal | -0.005 |  |
 | 2025-12-05 02:09:03 | Holombuwa (Kelani Ganga) | 0.99 | 🟢 Normal | -0.005 |  |
 | 2025-12-05 02:17:09 | Rathnapura (Kalu Ganga) | 3.10 | 🟢 Normal | -0.008 |  |
