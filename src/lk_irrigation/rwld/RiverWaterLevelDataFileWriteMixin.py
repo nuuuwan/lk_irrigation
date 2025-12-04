@@ -27,7 +27,8 @@ class RiverWaterLevelDataFileWriteMixin:
         data = {}
         data["url_source"] = cls.REMOTE_URL
         data["url_structured"] = cls.URL_STRUCTURED
-        data["event_measure"] = "river_water_level_m"
+        data["event"] = "river_water_level_measurement"
+        data["event_measures"] = ["water_level_m"]
 
         event_data = {}
         for d in d_list:
