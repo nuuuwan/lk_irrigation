@@ -32,7 +32,7 @@ class RiverWaterLevelDataFileWriteMixin:
         for d in d_list:
             ent_id = d["station_name"]
             time_ut = int(d["time_ut"])
-            water_level_m = d["water_level_m"]
+            water_level_m = round(d["water_level_m"], 2)
 
             if ent_id not in event_data:
                 event_data[ent_id] = {}
