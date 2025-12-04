@@ -20,21 +20,10 @@ class RiverWaterLevelDataFileWriteMixin:
     def write_all(cls):
         d_list = [asdict(q) for q in cls.list_all_from_files()]
         d_list.reverse()
-        for n in [100, 1000, None]:
-            d_list_custom = d_list[:n] if n else d_list
-            file_name = f"latest-{n}" if n else "all"
 
-            tsv_file_path = os.path.join("data", f"{file_name}.tsv")
-            tsv_file = TSVFile(tsv_file_path)
-            tsv_file.write(d_list_custom)
-            log.info(f"Wrote {tsv_file}")
-
-            json_file_path = os.path.join("data", f"{file_name}.json")
-            if n is None:
-                assert cls.ALL_PATH == json_file_path
-            json_file = JSONFile(json_file_path)
-            json_file.write(d_list_custom)
-            log.info(f"Wrote {json_file}")
+        json_file = JSONFile(cls.ALL_PATH)
+        json_file.write(d_list)
+        log.info(f"Wrote {json_file}")
 
         cls.list_all.cache_clear()
         cls.station_to_list.cache_clear()
