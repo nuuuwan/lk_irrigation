@@ -9,7 +9,7 @@ log = Log("RiverWaterLevelDataFileWriteMixin")
 class RiverWaterLevelDataFileWriteMixin:
     URL_STRUCTURED = (
         "https://raw.githubusercontent.com"
-        + "/nuuuwan/lk_irrigation/refs/heads/main/data/all.json"
+        + "/nuuuwan/lk_irrigation/refs/heads/main/data/alert_data.json"
     )
 
     def write(self):
@@ -21,24 +21,25 @@ class RiverWaterLevelDataFileWriteMixin:
         return True
 
     @classmethod
-    def write_alert_data_list(cls, d_list):
-        json_file = JSONFile(
-            os.path.join(cls.DIR_DATA, "alert_data_list.json")
-        )
+    def write_alert_data(cls, d_list):
+        json_file = JSONFile(os.path.join(cls.DIR_DATA, "alert_data.json"))
 
-        def mapper(d):
-            return {
-                "id": d["station_name"],
-                "time_ut": d["time_ut"],
-                "value_idx": {
-                    "water_level_m": d["water_level_m"],
-                },
-                "url_source": cls.REMOTE_URL,
-                "url_structured": cls.URL_STRUCTURED,
-            }
+        data = {}
+        data["url_source"] = cls.REMOTE_URL
+        data["url_structured"] = cls.URL_STRUCTURED
 
-        alert_data_list = [mapper(d) for d in d_list]
-        json_file.write(alert_data_list)
+        event_data = {}
+        for d in d_list:
+            ent_id = d["station_name"]
+            time_ut = int(d["time_ut"])
+            water_level_m = d["water_level_m"]
+
+            if ent_id not in event_data:
+                event_data[ent_id] = {}
+            event_data[ent_id][time_ut] = water_level_m
+
+        data["event_data"] = event_data
+        json_file.write(data)
         log.info(f"Wrote {json_file}")
 
     @classmethod
@@ -56,5 +57,5 @@ class RiverWaterLevelDataFileWriteMixin:
         cls.station_to_ror.cache_clear()
         log.debug("Cleared caches for list_all and related methods.")
 
-        # alert_data_list
-        cls.write_alert_data_list(d_list)
+        # alert_data
+        cls.write_alert_data(d_list)
