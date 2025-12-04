@@ -32,11 +32,15 @@ class RiverWaterLevelDataFileWriteMixin:
         for d in d_list:
             ent_id = d["station_name"]
             time_id = TimeFormat.TIME_ID.format(Time(d["time_ut"]))
+            date_part = time_id[:8]
+            time_part = time_id[9:]
             water_level_m = round(d["water_level_m"], 3)
 
             if ent_id not in event_data:
                 event_data[ent_id] = {}
-            event_data[ent_id][time_id] = water_level_m
+            if date_part not in event_data[ent_id]:
+                event_data[ent_id][date_part] = {}
+            event_data[ent_id][date_part][time_part] = water_level_m
 
         data["event_data"] = event_data
         json_file.write(data)
