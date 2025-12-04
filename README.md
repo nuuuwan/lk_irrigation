@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--04_17:17:21-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--04_17:20:36-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **9,250 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **9,251 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-04 17:20:36 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.56 | 🟢 Normal | -0.052 |  |
 | 2025-12-04 17:17:21 | Weraganthota (Mahaweli Ganga) | -1.86 | 🟢 Normal | -54.000 |  |
 | 2025-12-04 17:17:17 | Weraganthota (Mahaweli Ganga) | -1.80 | 🟢 Normal | -54.000 |  |
 | 2025-12-04 17:17:12 | Weraganthota (Mahaweli Ganga) | -1.65 | 🟢 Normal | -54.000 |  |
@@ -100,7 +101,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-04 17:00:52 | Nakkala (Kumbukkan Oya) | 1.29 | 🟢 Normal | -0.010 |  |
 | 2025-12-04 17:03:16 | Magura (Kalu Ganga) | 1.54 | 🟢 Normal | -0.011 |  |
 | 2025-12-04 17:00:58 | Horowpothana (Yan Oya) | 2.30 | 🟢 Normal | -0.025 |  |
-| 2025-12-04 16:10:43 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.62 | 🟢 Normal | -0.041 |  |
+| 2025-12-04 17:20:36 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.56 | 🟢 Normal | -0.052 |  |
 | 2025-12-04 17:04:04 | Hanwella (Kelani Ganga) | 3.54 | 🟢 Normal | -0.059 |  |
 | 2025-12-04 17:06:53 | Nagalagam Street (Kelani Ganga) | 0.79 | 🟢 Normal | -0.065 |  |
 | 2025-12-04 17:17:21 | Weraganthota (Mahaweli Ganga) | -1.86 | 🟢 Normal | -54.000 |  |
