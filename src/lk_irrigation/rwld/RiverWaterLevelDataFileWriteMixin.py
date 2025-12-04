@@ -1,7 +1,7 @@
 import os
 from dataclasses import asdict
 
-from utils import JSONFile, Log, TSVFile
+from utils import JSONFile, Log
 
 log = Log("RiverWaterLevelDataFileWriteMixin")
 
