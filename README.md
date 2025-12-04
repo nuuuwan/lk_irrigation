@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--04_05:11:37-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--04_05:31:23-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **8,809 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **8,812 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-04 05:31:23 | Pitabeddara (Nilwala Ganga) | 0.89 | 🟢 Normal | 0.000 |  |
+| 2025-12-04 05:26:27 | Padiyathalawa (Maduru Oya) | 0.79 | 🟢 Normal | 0.000 |  |
+| 2025-12-04 05:22:31 | Katharagama (Menik Ganga) | 0.73 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 05:11:37 | Yaka Wewa (Ma Oya) | 1.05 | 🟢 Normal | -0.026 |  |
 | 2025-12-04 05:10:56 | Rathnapura (Kalu Ganga) | 1.77 | 🟢 Normal | -0.022 |  |
 | 2025-12-04 05:09:57 | Baddegama (Gin Ganga) | 1.27 | 🟢 Normal | -0.019 |  |
@@ -39,7 +42,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-04 05:03:27 | Badalgama (Maha Oya) | 3.17 | 🟢 Normal | -0.010 |  |
 | 2025-12-04 05:03:07 | Norwood (Kelani Ganga) | 1.01 | 🟢 Normal | -0.010 |  |
 | 2025-12-04 05:02:59 | Horowpothana (Yan Oya) | 2.63 | 🟢 Normal | -0.020 |  |
-| 2025-12-04 05:02:30 | Katharagama (Menik Ganga) | 0.73 | 🟢 Normal | 0.087 | 🔺 Rising |
+| 2025-12-04 05:02:30 | Katharagama (Menik Ganga) | 0.73 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 05:02:29 | Dunamale (Aththanagalu Oya) | 2.30 | 🟢 Normal | -0.010 |  |
 | 2025-12-04 05:02:28 | Kithulgala (Kelani Ganga) | 2.05 | 🟢 Normal | -0.050 |  |
 | 2025-12-04 05:02:06 | Nakkala (Kumbukkan Oya) | 1.37 | 🟢 Normal | -0.010 |  |
@@ -57,7 +60,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-04 04:42:09 | Thawalama (Gin Ganga) | 1.63 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 04:39:27 | Magura (Kalu Ganga) | 1.62 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 04:39:09 | Magura (Kalu Ganga) | 1.62 | 🟢 Normal | 0.000 |  |
-| 2025-12-04 04:28:16 | Putupaula (Kalu Ganga) | 1.50 | 🟢 Normal | -0.145 |  |
 
 ## Latest by Station
 
@@ -69,21 +71,21 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-11-27 13:00:40⌛ | Weraganthota (Mahaweli Ganga) | 8.37 | 🔴 Major Flood | 0.467 | 🔺 Rising |
 | 2025-11-28 06:04:09⌛ | Moragaswewa (Deduru Oya) | 8.33 | 🔴 Major Flood | 0.051 | 🔺 Rising |
 | 2025-12-04 04:01:46 | Thanthirimale (Malwathu Oya) | 6.48 | 🟡 Alert | -0.049 |  |
-| 2025-12-04 05:02:30 | Katharagama (Menik Ganga) | 0.73 | 🟢 Normal | 0.087 | 🔺 Rising |
 | 2025-12-04 05:05:57 | Glencourse (Kelani Ganga) | 10.57 | 🟢 Normal | 0.069 | 🔺 Rising |
 | 2025-12-04 05:00:32 | Moraketiya (Walawe Ganga) | 1.10 | 🟢 Normal | 0.050 | 🔺 Rising |
 | 2025-12-04 05:03:37 | Thalgahagoda (Nilwala Ganga) | 0.53 | 🟢 Normal | 0.031 | 🔺 Rising |
 | 2025-12-04 05:04:36 | Wellawaya (Kirindi Oya) | 1.22 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2025-12-04 05:06:31 | Nawalapitiya (Mahaweli Ganga) | 1.49 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2025-12-04 05:05:37 | Magura (Kalu Ganga) | 1.62 | 🟢 Normal | 0.000 |  |
-| 2025-12-04 04:03:02 | Pitabeddara (Nilwala Ganga) | 0.89 | 🟢 Normal | 0.000 |  |
+| 2025-12-04 05:31:23 | Pitabeddara (Nilwala Ganga) | 0.89 | 🟢 Normal | 0.000 |  |
+| 2025-12-04 05:26:27 | Padiyathalawa (Maduru Oya) | 0.79 | 🟢 Normal | 0.000 |  |
 | 2025-12-03 18:04:24 | Thaldena (Mahaweli Ganga) | 0.84 | 🟢 Normal | 0.000 |  |
+| 2025-12-04 05:22:31 | Katharagama (Menik Ganga) | 0.73 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 05:06:54 | Holombuwa (Kelani Ganga) | 1.00 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 05:01:41 | Thawalama (Gin Ganga) | 1.63 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 05:03:33 | Urawa (Nilwala Ganga) | 0.50 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 05:01:08 | Kuda Oya (Kirindi Oya) | 1.68 | 🟢 Normal | 0.000 |  |
 | 2025-12-04 05:01:56 | Thanamalwila (Kirindi Oya) | 1.39 | 🟢 Normal | 0.000 |  |
-| 2025-12-04 04:03:42 | Padiyathalawa (Maduru Oya) | 0.79 | 🟢 Normal | -0.005 |  |
 | 2025-12-04 05:04:07 | Giriulla (Maha Oya) | 2.07 | 🟢 Normal | -0.010 |  |
 | 2025-12-04 05:02:06 | Nakkala (Kumbukkan Oya) | 1.37 | 🟢 Normal | -0.010 |  |
 | 2025-12-04 05:03:07 | Norwood (Kelani Ganga) | 1.01 | 🟢 Normal | -0.010 |  |
@@ -123,10 +125,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Thanthirimale](images/stations/thanthirimale.png)
 
-### Katharagama (Menik Ganga)
-
-![Katharagama](images/stations/katharagama.png)
-
 ### Glencourse (Kelani Ganga)
 
 ![Glencourse](images/stations/glencourse.png)
@@ -155,9 +153,17 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Pitabeddara](images/stations/pitabeddara.png)
 
+### Padiyathalawa (Maduru Oya)
+
+![Padiyathalawa](images/stations/padiyathalawa.png)
+
 ### Thaldena (Mahaweli Ganga)
 
 ![Thaldena](images/stations/thaldena.png)
+
+### Katharagama (Menik Ganga)
+
+![Katharagama](images/stations/katharagama.png)
 
 ### Holombuwa (Kelani Ganga)
 
@@ -178,10 +184,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
-
-### Padiyathalawa (Maduru Oya)
-
-![Padiyathalawa](images/stations/padiyathalawa.png)
 
 ### Giriulla (Maha Oya)
 

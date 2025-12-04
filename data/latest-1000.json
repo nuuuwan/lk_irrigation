@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764806483,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1764806187,
+    "water_level_m": 0.79
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1764805951,
+    "water_level_m": 0.73
+  },
+  {
     "station_name": "Yaka Wewa",
     "time_ut": 1764805297,
     "water_level_m": 1.05
@@ -4983,20 +4998,5 @@
     "station_name": "Thanamalwila",
     "time_ut": 1764700371,
     "water_level_m": 1.24
-  },
-  {
-    "station_name": "Kithulgala",
-    "time_ut": 1764700345,
-    "water_level_m": 2.05
-  },
-  {
-    "station_name": "Urawa",
-    "time_ut": 1764700343,
-    "water_level_m": 0.59
-  },
-  {
-    "station_name": "Nawalapitiya",
-    "time_ut": 1764700335,
-    "water_level_m": 1.6
   }
 ]
