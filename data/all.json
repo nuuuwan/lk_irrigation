@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Moraketiya",
+    "time_ut": 1764967578,
+    "water_level_m": 1.19
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1764967258,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1764967225,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1764967191,
+    "water_level_m": 1.62
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1764967099,
+    "water_level_m": 1.01
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764967009,
+    "water_level_m": 1.14
+  },
+  {
     "station_name": "Katharagama",
     "time_ut": 1764966988,
     "water_level_m": 0.65
