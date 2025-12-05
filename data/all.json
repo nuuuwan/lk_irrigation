@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Moraketiya",
+    "time_ut": 1764913587,
+    "water_level_m": 1.31
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1764913552,
+    "water_level_m": 0.76
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764913515,
+    "water_level_m": 2.1
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764913451,
+    "water_level_m": 4.65
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1764913419,
+    "water_level_m": 6.25
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764913019,
+    "water_level_m": 1.71
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1764913001,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1764912989,
+    "water_level_m": 0.96
+  },
+  {
     "station_name": "Giriulla",
     "time_ut": 1764912960,
     "water_level_m": 1.83
