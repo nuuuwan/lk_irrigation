@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1764949383,
+    "water_level_m": 4.34
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1764949322,
+    "water_level_m": 3.34
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1764949304,
+    "water_level_m": 2.52
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1764949189,
+    "water_level_m": 6.04
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1764949149,
+    "water_level_m": 0.67
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1764948998,
+    "water_level_m": 1.35
+  },
+  {
     "station_name": "Nakkala",
     "time_ut": 1764948891,
     "water_level_m": 1.76
