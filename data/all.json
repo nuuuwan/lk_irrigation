@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1764924472,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1764924276,
+    "water_level_m": 1.6
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1764924180,
+    "water_level_m": 0.57
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1764924177,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1764924175,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1764924018,
+    "water_level_m": 0.8
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1764923966,
     "water_level_m": 1.84
