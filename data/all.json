@@ -1,6 +1,16 @@
 [
   {
     "station_name": "Magura",
+    "time_ut": 1764917019,
+    "water_level_m": 1.99
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1764917007,
+    "water_level_m": 0.56
+  },
+  {
+    "station_name": "Magura",
     "time_ut": 1764916745,
     "water_level_m": 1.99
   },
