@@ -1,5 +1,110 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1764935053,
+    "water_level_m": 1.7
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1764934942,
+    "water_level_m": 6.54
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1764934895,
+    "water_level_m": 1.21
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1764934867,
+    "water_level_m": 10.51
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1764934858,
+    "water_level_m": 2.95
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1764934848,
+    "water_level_m": 2.05
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1764934779,
+    "water_level_m": 1.02
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1764934776,
+    "water_level_m": 1.19
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1764934680,
+    "water_level_m": 1.59
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1764934622,
+    "water_level_m": 0.91
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1764934618,
+    "water_level_m": 0.73
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764934599,
+    "water_level_m": 4.37
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1764934573,
+    "water_level_m": 3.12
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1764934564,
+    "water_level_m": 0.63
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1764934545,
+    "water_level_m": 0.79
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1764934513,
+    "water_level_m": 2.28
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1764934509,
+    "water_level_m": 5.98
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1764934478,
+    "water_level_m": -1.4
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1764934455,
+    "water_level_m": 1.86
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1764934454,
+    "water_level_m": 0.81
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1764934429,
+    "water_level_m": 0.67056
+  },
+  {
     "station_name": "Giriulla",
     "time_ut": 1764934416,
     "water_level_m": 1.81
