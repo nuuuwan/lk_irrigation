@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1764906230,
+    "water_level_m": 2.54
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764906037,
+    "water_level_m": 4.79
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1764905989,
+    "water_level_m": 0.58
+  },
+  {
     "station_name": "Kuda Oya",
     "time_ut": 1764905874,
     "water_level_m": 1.6
