@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -52,8 +52,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-05 04:59:56 | Rathnapura (Kalu Ganga) | 2.96 | 🟢 Normal | -1.489 |  |
 | 2025-12-05 04:59:22 | Glencourse (Kelani Ganga) | 10.87 | 🟢 Normal | -0.409 |  |
 | 2025-12-05 04:52:52 | Pitabeddara (Nilwala Ganga) | 2.30 | 🟢 Normal | -0.067 |  |
-| 2025-12-05 04:25:00 | Putupaula (Kalu Ganga) | 0.97 | 🟢 Normal | 0.193 | 🔺 Rising |
-| 2025-12-05 04:21:20 | Nawalapitiya (Mahaweli Ganga) | 1.40 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
