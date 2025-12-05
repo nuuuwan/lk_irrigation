@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Putupaula",
+    "time_ut": 1764968649,
+    "water_level_m": 1.1
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1764967801,
     "water_level_m": 4.42
