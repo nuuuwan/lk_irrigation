@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Thanthirimale",
+    "time_ut": 1764928277,
+    "water_level_m": 6.48
+  },
+  {
     "station_name": "Glencourse",
     "time_ut": 1764927942,
     "water_level_m": 10.42
