@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -53,8 +53,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-06 20:01:11 | Nawalapitiya (Mahaweli Ganga) | 1.29 | 🟢 Normal | 0.000 |  |
 | 2025-12-06 20:01:10 | Horowpothana (Yan Oya) | 1.87 | 🟢 Normal | 0.000 |  |
 | 2025-12-06 20:00:20 | Nakkala (Kumbukkan Oya) | 1.29 | 🟢 Normal | -0.010 |  |
-| 2025-12-06 19:35:03 | Panadugama (Nilwala Ganga) | 3.62 | 🟢 Normal | 0.000 |  |
-| 2025-12-06 19:34:03 | Thanthirimale (Malwathu Oya) | 6.65 | 🟡 Alert | -0.069 |  |
 
 ## Latest by Station
 
