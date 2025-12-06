@@ -1,5 +1,110 @@
 [
   {
+    "station_name": "Badalgama",
+    "time_ut": 1764992516,
+    "water_level_m": 3.0
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1764992510,
+    "water_level_m": 2.08
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1764992312,
+    "water_level_m": 6.95
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1764992200,
+    "water_level_m": 0.94
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1764992189,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1764992187,
+    "water_level_m": 0.91
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1764992173,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1764992159,
+    "water_level_m": 0.81
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1764992151,
+    "water_level_m": -0.35
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1764992116,
+    "water_level_m": 1.38
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1764992114,
+    "water_level_m": 1.37
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1764992087,
+    "water_level_m": 3.8
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1764992078,
+    "water_level_m": 0.93
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1764992064,
+    "water_level_m": 6.35
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1764992057,
+    "water_level_m": 1.81
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1764992055,
+    "water_level_m": 4.05
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1764992049,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1764992048,
+    "water_level_m": 4.28
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1764992032,
+    "water_level_m": 10.42
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1764992018,
+    "water_level_m": 1.88
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1764992013,
+    "water_level_m": 3.08
+  },
+  {
     "station_name": "Kuda Oya",
     "time_ut": 1764991969,
     "water_level_m": 1.61
