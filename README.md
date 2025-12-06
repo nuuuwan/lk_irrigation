@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--06_22:23:32-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--06_22:35:43-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **11,102 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **11,103 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **31** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-06 22:35:43 | Urawa (Nilwala Ganga) | 0.69 | 🟢 Normal | 0.007 | 🔺 Rising |
 | 2025-12-06 22:23:32 | Panadugama (Nilwala Ganga) | 3.62 | 🟢 Normal | 0.000 |  |
 | 2025-12-06 22:13:21 | Thalgahagoda (Nilwala Ganga) | 0.96 | 🟢 Normal | -0.027 |  |
 | 2025-12-06 22:12:45 | Ellagawa (Kalu Ganga) | 5.75 | 🟢 Normal | -0.018 |  |
@@ -65,7 +66,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-06 22:06:50 | Rathnapura (Kalu Ganga) | 2.08 | 🟢 Normal | 0.068 | 🔺 Rising |
 | 2025-12-06 22:03:00 | Deraniyagala (Kelani Ganga) | 0.79 | 🟢 Normal | 0.040 | 🔺 Rising |
 | 2025-12-06 22:04:39 | Nagalagam Street (Kelani Ganga) | 0.58 | 🟢 Normal | 0.032 | 🔺 Rising |
-| 2025-12-06 21:09:14 | Urawa (Nilwala Ganga) | 0.68 | 🟢 Normal | 0.019 | 🔺 Rising |
+| 2025-12-06 22:35:43 | Urawa (Nilwala Ganga) | 0.69 | 🟢 Normal | 0.007 | 🔺 Rising |
 | 2025-12-06 22:00:47 | Wellawaya (Kirindi Oya) | 1.06 | 🟢 Normal | 0.000 |  |
 | 2025-12-06 22:01:34 | Nawalapitiya (Mahaweli Ganga) | 1.28 | 🟢 Normal | 0.000 |  |
 | 2025-12-06 22:01:50 | Yaka Wewa (Ma Oya) | 0.86 | 🟢 Normal | 0.000 |  |
