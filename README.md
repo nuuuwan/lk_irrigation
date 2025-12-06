@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--07_04:13:21-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--07_04:22:43-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **11,284 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **11,286 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **30** measurements in the last **1 hour**.*
+*There were **28** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-07 04:22:43 | Holombuwa (Kelani Ganga) | 0.90 | 🟢 Normal | 0.000 |  |
+| 2025-12-07 04:18:44 | Putupaula (Kalu Ganga) | 1.15 | 🟢 Normal | 0.054 | 🔺 Rising |
 | 2025-12-07 04:13:21 | Magura (Kalu Ganga) | 2.53 | 🟢 Normal | -0.009 |  |
 | 2025-12-07 04:07:20 | Nagalagam Street (Kelani Ganga) | 0.91 | 🟢 Normal | 0.056 | 🔺 Rising |
 | 2025-12-07 04:06:54 | Baddegama (Gin Ganga) | 2.09 | 🟢 Normal | -0.020 |  |
@@ -44,11 +46,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-07 04:00:53 | Badalgama (Maha Oya) | 2.81 | 🟢 Normal | -0.010 |  |
 | 2025-12-07 04:00:38 | Nakkala (Kumbukkan Oya) | 1.28 | 🟢 Normal | -0.010 |  |
 | 2025-12-07 04:00:23 | Wellawaya (Kirindi Oya) | 1.08 | 🟢 Normal | 0.000 |  |
-| 2025-12-07 03:34:40 | Putupaula (Kalu Ganga) | 1.11 | 🟢 Normal | 0.035 | 🔺 Rising |
-| 2025-12-07 03:26:51 | Moraketiya (Walawe Ganga) | 1.10 | 🟢 Normal | -0.018 |  |
-| 2025-12-07 03:23:25 | Nawalapitiya (Mahaweli Ganga) | 1.28 | 🟢 Normal | -0.016 |  |
-| 2025-12-07 03:23:04 | Nawalapitiya (Mahaweli Ganga) | 1.28 | 🟢 Normal | -0.016 |  |
-| 2025-12-07 03:20:35 | Nawalapitiya (Mahaweli Ganga) | 1.28 | 🟢 Normal | -0.016 |  |
+| 2025-12-07 03:34:40 | Putupaula (Kalu Ganga) | 1.11 | 🟢 Normal | 0.054 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -61,7 +59,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-07 04:01:34 | Thanthirimale (Malwathu Oya) | 6.30 | 🟡 Alert | -0.040 |  |
 | 2025-12-07 03:03:21 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.84 | 🟢 Normal | 1.714 | 🔺 Rising |
 | 2025-12-07 04:07:20 | Nagalagam Street (Kelani Ganga) | 0.91 | 🟢 Normal | 0.056 | 🔺 Rising |
-| 2025-12-07 03:34:40 | Putupaula (Kalu Ganga) | 1.11 | 🟢 Normal | 0.035 | 🔺 Rising |
+| 2025-12-07 04:18:44 | Putupaula (Kalu Ganga) | 1.15 | 🟢 Normal | 0.054 | 🔺 Rising |
 | 2025-12-07 04:01:44 | Ellagawa (Kalu Ganga) | 5.90 | 🟢 Normal | 0.026 | 🔺 Rising |
 | 2025-12-07 04:05:19 | Deraniyagala (Kelani Ganga) | 0.71 | 🟢 Normal | 0.012 | 🔺 Rising |
 | 2025-12-07 04:00:23 | Wellawaya (Kirindi Oya) | 1.08 | 🟢 Normal | 0.000 |  |
@@ -71,7 +69,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-07 04:04:30 | Glencourse (Kelani Ganga) | 10.20 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 04:02:19 | Siyambalanduwa (Heda Oya) | 0.96 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 04:01:45 | Dunamale (Aththanagalu Oya) | 1.95 | 🟢 Normal | 0.000 |  |
-| 2025-12-07 03:05:47 | Holombuwa (Kelani Ganga) | 0.90 | 🟢 Normal | 0.000 |  |
+| 2025-12-07 04:22:43 | Holombuwa (Kelani Ganga) | 0.90 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 03:05:16 | Thalgahagoda (Nilwala Ganga) | 0.94 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 04:05:00 | Kuda Oya (Kirindi Oya) | 1.57 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 04:06:40 | Thanamalwila (Kirindi Oya) | 1.35 | 🟢 Normal | 0.000 |  |
