@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--07_04:22:43-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--07_04:39:11-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **11,286 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **11,287 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-07 04:39:11 | Rathnapura (Kalu Ganga) | 1.93 | 🟢 Normal | -0.041 |  |
 | 2025-12-07 04:22:43 | Holombuwa (Kelani Ganga) | 0.90 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 04:18:44 | Putupaula (Kalu Ganga) | 1.15 | 🟢 Normal | 0.054 | 🔺 Rising |
 | 2025-12-07 04:13:21 | Magura (Kalu Ganga) | 2.53 | 🟢 Normal | -0.009 |  |
@@ -46,7 +47,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-07 04:00:53 | Badalgama (Maha Oya) | 2.81 | 🟢 Normal | -0.010 |  |
 | 2025-12-07 04:00:38 | Nakkala (Kumbukkan Oya) | 1.28 | 🟢 Normal | -0.010 |  |
 | 2025-12-07 04:00:23 | Wellawaya (Kirindi Oya) | 1.08 | 🟢 Normal | 0.000 |  |
-| 2025-12-07 03:34:40 | Putupaula (Kalu Ganga) | 1.11 | 🟢 Normal | 0.054 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -90,7 +90,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-07 04:02:45 | Giriulla (Maha Oya) | 1.65 | 🟢 Normal | -0.020 |  |
 | 2025-12-07 04:02:20 | Norwood (Kelani Ganga) | 0.95 | 🟢 Normal | -0.020 |  |
 | 2025-12-07 04:02:22 | Kithulgala (Kelani Ganga) | 1.89 | 🟢 Normal | -0.021 |  |
-| 2025-12-07 03:11:12 | Rathnapura (Kalu Ganga) | 1.99 | 🟢 Normal | -0.038 |  |
+| 2025-12-07 04:39:11 | Rathnapura (Kalu Ganga) | 1.93 | 🟢 Normal | -0.041 |  |
 | 2025-12-06 18:06:24 | Weraganthota (Mahaweli Ganga) | -1.60 | 🟢 Normal | -0.061 |  |
 | 2025-12-07 03:03:55 | Panadugama (Nilwala Ganga) | 3.33 | 🟢 Normal | -0.091 |  |
 
