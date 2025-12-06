@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--06_11:14:53-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--06_11:26:46-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **10,709 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **10,710 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **37** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-06 11:26:46 | Deraniyagala (Kelani Ganga) | 0.78 | 🟢 Normal | -0.022 |  |
 | 2025-12-06 11:14:53 | Ellagawa (Kalu Ganga) | 6.24 | 🟢 Normal | -0.049 |  |
 | 2025-12-06 11:12:43 | Pitabeddara (Nilwala Ganga) | 0.92 | 🟢 Normal | -0.017 |  |
 | 2025-12-06 11:08:25 | Urawa (Nilwala Ganga) | 0.65 | 🟢 Normal | 0.000 |  |
@@ -55,8 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-06 11:01:11 | Nakkala (Kumbukkan Oya) | 1.39 | 🟢 Normal | 0.000 |  |
 | 2025-12-06 11:01:00 | Padiyathalawa (Maduru Oya) | 0.91 | 🟢 Normal | 0.000 |  |
 | 2025-12-06 11:00:50 | Manampitiya (Mahaweli Ganga) | 2.13 | 🟢 Normal | 0.032 | 🔺 Rising |
-| 2025-12-06 10:18:27 | Thanthirimale (Malwathu Oya) | 6.95 | 🟠 Minor Flood | 0.000 |  |
-| 2025-12-06 10:18:10 | Panadugama (Nilwala Ganga) | 3.98 | 🟢 Normal | -0.065 |  |
 
 ## Latest by Station
 
@@ -74,7 +73,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-06 11:01:11 | Nakkala (Kumbukkan Oya) | 1.39 | 🟢 Normal | 0.000 |  |
 | 2025-12-06 11:03:09 | Nawalapitiya (Mahaweli Ganga) | 1.32 | 🟢 Normal | 0.000 |  |
 | 2025-12-06 11:06:47 | Yaka Wewa (Ma Oya) | 0.88 | 🟢 Normal | 0.000 |  |
-| 2025-12-06 10:04:37 | Deraniyagala (Kelani Ganga) | 0.81 | 🟢 Normal | 0.000 |  |
 | 2025-12-06 11:01:00 | Padiyathalawa (Maduru Oya) | 0.91 | 🟢 Normal | 0.000 |  |
 | 2025-12-06 11:02:50 | Nagalagam Street (Kelani Ganga) | 0.55 | 🟢 Normal | 0.000 |  |
 | 2025-12-06 11:06:09 | Glencourse (Kelani Ganga) | 10.43 | 🟢 Normal | 0.000 |  |
@@ -94,6 +92,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-06 11:02:33 | Katharagama (Menik Ganga) | 0.64 | 🟢 Normal | -0.010 |  |
 | 2025-12-06 11:12:43 | Pitabeddara (Nilwala Ganga) | 0.92 | 🟢 Normal | -0.017 |  |
 | 2025-12-06 11:02:19 | Galgamuwa (Mee Oya) | 1.53 | 🟢 Normal | -0.020 |  |
+| 2025-12-06 11:26:46 | Deraniyagala (Kelani Ganga) | 0.78 | 🟢 Normal | -0.022 |  |
 | 2025-12-06 11:04:24 | Thawalama (Gin Ganga) | 1.78 | 🟢 Normal | -0.023 |  |
 | 2025-12-06 11:01:13 | Baddegama (Gin Ganga) | 2.63 | 🟢 Normal | -0.024 |  |
 | 2025-12-06 11:06:44 | Horowpothana (Yan Oya) | 1.95 | 🟢 Normal | -0.030 |  |
@@ -145,10 +144,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Yaka Wewa (Ma Oya)
 
 ![Yaka Wewa](images/stations/yaka-wewa.png)
-
-### Deraniyagala (Kelani Ganga)
-
-![Deraniyagala](images/stations/deraniyagala.png)
 
 ### Padiyathalawa (Maduru Oya)
 
@@ -225,6 +220,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Galgamuwa (Mee Oya)
 
 ![Galgamuwa](images/stations/galgamuwa.png)
+
+### Deraniyagala (Kelani Ganga)
+
+![Deraniyagala](images/stations/deraniyagala.png)
 
 ### Thawalama (Gin Ganga)
 
