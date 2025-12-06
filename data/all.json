@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1765061001,
+    "water_level_m": 2.53
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1765060640,
+    "water_level_m": 0.9144000000000001
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1765060614,
+    "water_level_m": 2.09
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1765060600,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1765060519,
+    "water_level_m": 0.71
+  },
+  {
     "station_name": "Kuda Oya",
     "time_ut": 1765060500,
     "water_level_m": 1.57
