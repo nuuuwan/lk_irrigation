@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Wellawaya",
+    "time_ut": 1765130750,
+    "water_level_m": 1.03
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1765130523,
+    "water_level_m": 1.23
+  },
+  {
     "station_name": "Holombuwa",
     "time_ut": 1765130148,
     "water_level_m": 0.84
