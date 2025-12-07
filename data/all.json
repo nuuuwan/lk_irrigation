@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Wellawaya",
+    "time_ut": 1765107106,
+    "water_level_m": 1.02
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1765107105,
+    "water_level_m": 0.82
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1765107100,
+    "water_level_m": 10.08
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1765107098,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1765107076,
+    "water_level_m": 5.44
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1765107071,
+    "water_level_m": 5.59
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1765107069,
+    "water_level_m": 1.6
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1765107013,
+    "water_level_m": 1.26
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1765105983,
     "water_level_m": 1.98
