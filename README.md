@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--07_12:13:12-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--07_12:24:40-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **11,584 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **11,585 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-07 12:24:40 | Thanthirimale (Malwathu Oya) | 5.90 | 🟡 Alert | -0.029 |  |
 | 2025-12-07 12:13:12 | Kuda Oya (Kirindi Oya) | 1.54 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 12:12:16 | Glencourse (Kelani Ganga) | 10.17 | 🟢 Normal | 0.017 | 🔺 Rising |
 | 2025-12-07 12:11:25 | Galgamuwa (Mee Oya) | 1.45 | 🟢 Normal | -0.037 |  |
@@ -65,7 +66,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | --- | --- | ---: | --- | ---: | --- |
 | 2025-11-27 20:03:23⌛ | Peradeniya (Mahaweli Ganga) | 10.56 | 🔴 Major Flood | 0.595 | 🔺 Rising |
 | 2025-11-28 06:04:09⌛ | Moragaswewa (Deduru Oya) | 8.33 | 🔴 Major Flood | 0.051 | 🔺 Rising |
-| 2025-12-07 11:03:05 | Thanthirimale (Malwathu Oya) | 5.94 | 🟡 Alert | -0.080 |  |
+| 2025-12-07 12:24:40 | Thanthirimale (Malwathu Oya) | 5.90 | 🟡 Alert | -0.029 |  |
 | 2025-12-07 12:03:58 | Nagalagam Street (Kelani Ganga) | 0.55 | 🟢 Normal | 0.090 | 🔺 Rising |
 | 2025-12-07 12:12:16 | Glencourse (Kelani Ganga) | 10.17 | 🟢 Normal | 0.017 | 🔺 Rising |
 | 2025-12-07 12:03:21 | Nakkala (Kumbukkan Oya) | 1.25 | 🟢 Normal | 0.000 |  |
