@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1765094019,
+    "water_level_m": 1.88
+  },
+  {
     "station_name": "Galgamuwa",
     "time_ut": 1765093606,
     "water_level_m": 1.4
