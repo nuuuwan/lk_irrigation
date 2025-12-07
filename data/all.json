@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Thanthirimale",
+    "time_ut": 1765114821,
+    "water_level_m": 5.47
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765114817,
+    "water_level_m": 1.92
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1765114791,
+    "water_level_m": 2.74
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1765114755,
+    "water_level_m": 0.74
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1765114680,
+    "water_level_m": 2.48
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1765114638,
+    "water_level_m": 9.95
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1765114581,
+    "water_level_m": 1.9
+  },
+  {
     "station_name": "Katharagama",
     "time_ut": 1765114549,
     "water_level_m": 0.33
