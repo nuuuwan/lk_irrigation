@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--07_18:13:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--07_18:19:39-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **11,806 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **11,808 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-07 18:19:39 | Thaldena (Mahaweli Ganga) | 0.72 | 🟢 Normal | 0.563 | 🔺 Rising |
+| 2025-12-07 18:18:35 | Thaldena (Mahaweli Ganga) | 0.71 | 🟢 Normal | 0.563 | 🔺 Rising |
 | 2025-12-07 18:13:05 | Manampitiya (Mahaweli Ganga) | 1.52 | 🟢 Normal | -0.067 |  |
 | 2025-12-07 18:12:11 | Dunamale (Aththanagalu Oya) | 1.88 | 🟢 Normal | 0.028 | 🔺 Rising |
 | 2025-12-07 18:12:08 | Thalgahagoda (Nilwala Ganga) | 0.78 | 🟢 Normal | 0.017 | 🔺 Rising |
@@ -55,7 +57,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-07 18:00:34 | Nakkala (Kumbukkan Oya) | 1.26 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 18:00:10 | Nawalapitiya (Mahaweli Ganga) | 1.25 | 🟢 Normal | -0.010 |  |
 | 2025-12-07 18:00:10 | Putupaula (Kalu Ganga) | 0.97 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2025-12-07 17:16:20 | Horowpothana (Yan Oya) | 1.74 | 🟢 Normal | -0.026 |  |
 
 ## Latest by Station
 
@@ -66,6 +67,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-11-27 20:03:23⌛ | Peradeniya (Mahaweli Ganga) | 10.56 | 🔴 Major Flood | 0.595 | 🔺 Rising |
 | 2025-11-28 06:04:09⌛ | Moragaswewa (Deduru Oya) | 8.33 | 🔴 Major Flood | 0.051 | 🔺 Rising |
 | 2025-12-07 18:03:51 | Thanthirimale (Malwathu Oya) | 5.54 | 🟡 Alert | -0.048 |  |
+| 2025-12-07 18:19:39 | Thaldena (Mahaweli Ganga) | 0.72 | 🟢 Normal | 0.563 | 🔺 Rising |
 | 2025-12-07 18:08:50 | Pitabeddara (Nilwala Ganga) | 0.95 | 🟢 Normal | 0.083 | 🔺 Rising |
 | 2025-12-07 18:03:33 | Rathnapura (Kalu Ganga) | 1.58 | 🟢 Normal | 0.070 | 🔺 Rising |
 | 2025-12-07 18:12:11 | Dunamale (Aththanagalu Oya) | 1.88 | 🟢 Normal | 0.028 | 🔺 Rising |
@@ -82,7 +84,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-07 18:01:00 | Giriulla (Maha Oya) | 1.61 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 18:07:43 | Norwood (Kelani Ganga) | 0.87 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 18:03:21 | Siyambalanduwa (Heda Oya) | 0.83 | 🟢 Normal | 0.000 |  |
-| 2025-12-07 16:06:16 | Thaldena (Mahaweli Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 18:09:21 | Katharagama (Menik Ganga) | 0.33 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 18:02:06 | Badalgama (Maha Oya) | 2.75 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 18:01:09 | Kuda Oya (Kirindi Oya) | 1.55 | 🟢 Normal | 0.000 |  |
@@ -116,6 +117,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanthirimale (Malwathu Oya)
 
 ![Thanthirimale](images/stations/thanthirimale.png)
+
+### Thaldena (Mahaweli Ganga)
+
+![Thaldena](images/stations/thaldena.png)
 
 ### Pitabeddara (Nilwala Ganga)
 
@@ -180,10 +185,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Siyambalanduwa (Heda Oya)
 
 ![Siyambalanduwa](images/stations/siyambalanduwa.png)
-
-### Thaldena (Mahaweli Ganga)
-
-![Thaldena](images/stations/thaldena.png)
 
 ### Katharagama (Menik Ganga)
 
