@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--07_14:11:46-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--07_14:30:05-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **11,658 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **11,659 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-07 14:30:05 | Manampitiya (Mahaweli Ganga) | 1.85 | 🟢 Normal | -0.055 |  |
 | 2025-12-07 14:11:46 | Urawa (Nilwala Ganga) | 0.56 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 14:08:03 | Thawalama (Gin Ganga) | 1.56 | 🟢 Normal | 0.029 | 🔺 Rising |
 | 2025-12-07 14:07:52 | Galgamuwa (Mee Oya) | 1.37 | 🟢 Normal | -0.035 |  |
@@ -55,7 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-07 14:01:11 | Horowpothana (Yan Oya) | 1.76 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 14:00:32 | Nawalapitiya (Mahaweli Ganga) | 1.26 | 🟢 Normal | 0.000 |  |
 | 2025-12-07 14:00:28 | Nakkala (Kumbukkan Oya) | 1.25 | 🟢 Normal | 0.000 |  |
-| 2025-12-07 13:23:39 | Dunamale (Aththanagalu Oya) | 1.88 | 🟢 Normal | -0.014 |  |
 
 ## Latest by Station
 
@@ -99,7 +99,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-07 14:07:52 | Galgamuwa (Mee Oya) | 1.37 | 🟢 Normal | -0.035 |  |
 | 2025-12-07 14:03:10 | Baddegama (Gin Ganga) | 1.73 | 🟢 Normal | -0.040 |  |
 | 2025-12-07 14:02:24 | Magura (Kalu Ganga) | 2.03 | 🟢 Normal | -0.048 |  |
-| 2025-12-07 13:02:23 | Manampitiya (Mahaweli Ganga) | 1.93 | 🟢 Normal | -0.060 |  |
+| 2025-12-07 14:30:05 | Manampitiya (Mahaweli Ganga) | 1.85 | 🟢 Normal | -0.055 |  |
 | 2025-12-07 14:02:14 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.79 | 🟢 Normal | -0.105 |  |
 | 2025-12-07 14:03:43 | Kithulgala (Kelani Ganga) | 1.47 | 🟢 Normal | -0.248 |  |
 
