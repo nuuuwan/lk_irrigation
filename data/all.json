@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1765208898,
+    "water_level_m": 0.96
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765208860,
+    "water_level_m": 3.29
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1765208654,
+    "water_level_m": 1.6
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1765208548,
+    "water_level_m": 0.73
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1765208425,
+    "water_level_m": 3.25
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1765208410,
+    "water_level_m": 0.96
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1765208283,
+    "water_level_m": 2.65
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1765208231,
+    "water_level_m": 2.77
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1765208217,
+    "water_level_m": 9.8
+  },
+  {
     "station_name": "Ellagawa",
     "time_ut": 1765208196,
     "water_level_m": 5.75
