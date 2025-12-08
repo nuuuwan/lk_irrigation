@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1765205254,
+    "water_level_m": 3.3
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1765205197,
+    "water_level_m": 3.28
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1765205044,
+    "water_level_m": 2.2
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765204937,
+    "water_level_m": 1.95
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1765204931,
+    "water_level_m": 5.79
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1765204771,
+    "water_level_m": 1.57
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1765204703,
+    "water_level_m": 1.17
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1765204629,
     "water_level_m": 0.6
