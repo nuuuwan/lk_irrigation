@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--08_10:19:26-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--08_10:28:28-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **12,349 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **12,351 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-08 10:28:28 | Manampitiya (Mahaweli Ganga) | 1.58 | 🟢 Normal | 0.000 |  |
+| 2025-12-08 10:24:56 | Panadugama (Nilwala Ganga) | 3.71 | 🟢 Normal | -0.033 |  |
 | 2025-12-08 10:19:26 | Thalgahagoda (Nilwala Ganga) | 0.80 | 🟢 Normal | -0.018 |  |
 | 2025-12-08 10:15:09 | Badalgama (Maha Oya) | 2.66 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 10:13:22 | Nagalagam Street (Kelani Ganga) | 0.52 | 🟢 Normal | -0.053 |  |
@@ -77,11 +79,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-08 10:08:39 | Moraketiya (Walawe Ganga) | 1.05 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 10:02:19 | Katharagama (Menik Ganga) | 0.32 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 10:15:09 | Badalgama (Maha Oya) | 2.66 | 🟢 Normal | 0.000 |  |
-| 2025-12-08 09:01:38 | Manampitiya (Mahaweli Ganga) | 1.58 | 🟢 Normal | 0.000 |  |
+| 2025-12-08 10:28:28 | Manampitiya (Mahaweli Ganga) | 1.58 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 10:01:15 | Kuda Oya (Kirindi Oya) | 1.52 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 10:01:25 | Thanamalwila (Kirindi Oya) | 1.25 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 10:05:00 | Padiyathalawa (Maduru Oya) | 0.81 | 🟢 Normal | -0.005 |  |
-| 2025-12-08 09:12:51 | Panadugama (Nilwala Ganga) | 3.75 | 🟢 Normal | -0.009 |  |
 | 2025-12-08 10:07:59 | Urawa (Nilwala Ganga) | 0.70 | 🟢 Normal | -0.010 |  |
 | 2025-12-08 10:01:55 | Siyambalanduwa (Heda Oya) | 0.83 | 🟢 Normal | -0.010 |  |
 | 2025-12-08 10:06:02 | Holombuwa (Kelani Ganga) | 0.86 | 🟢 Normal | -0.010 |  |
@@ -91,6 +92,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-08 10:12:13 | Magura (Kalu Ganga) | 2.38 | 🟢 Normal | -0.027 |  |
 | 2025-12-08 09:16:32 | Peradeniya (Mahaweli Ganga) | 3.00 | 🟢 Normal | -0.030 |  |
 | 2025-12-08 10:02:11 | Pitabeddara (Nilwala Ganga) | 1.10 | 🟢 Normal | -0.032 |  |
+| 2025-12-08 10:24:56 | Panadugama (Nilwala Ganga) | 3.71 | 🟢 Normal | -0.033 |  |
 | 2025-12-08 10:05:39 | Dunamale (Aththanagalu Oya) | 2.22 | 🟢 Normal | -0.038 |  |
 | 2025-12-08 10:13:22 | Nagalagam Street (Kelani Ganga) | 0.52 | 🟢 Normal | -0.053 |  |
 | 2025-12-08 10:02:54 | Putupaula (Kalu Ganga) | 1.09 | 🟢 Normal | -0.059 |  |
@@ -180,10 +182,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Padiyathalawa](images/stations/padiyathalawa.png)
 
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
-
 ### Urawa (Nilwala Ganga)
 
 ![Urawa](images/stations/urawa.png)
@@ -219,6 +217,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Pitabeddara (Nilwala Ganga)
 
 ![Pitabeddara](images/stations/pitabeddara.png)
+
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
 
 ### Dunamale (Aththanagalu Oya)
 
