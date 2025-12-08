@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1765169366,
+    "water_level_m": 0.8
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1765169109,
+    "water_level_m": 2.66
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1765169002,
+    "water_level_m": 0.5181600000000001
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1765168998,
+    "water_level_m": 10.3
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765168933,
+    "water_level_m": 2.38
+  },
+  {
     "station_name": "Moraketiya",
     "time_ut": 1765168719,
     "water_level_m": 1.05
