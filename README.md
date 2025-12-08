@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--08_16:12:46-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--08_16:23:33-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **12,581 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **12,582 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-08 16:23:33 | Thalgahagoda (Nilwala Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 16:12:46 | Dunamale (Aththanagalu Oya) | 1.96 | 🟢 Normal | -0.055 |  |
 | 2025-12-08 16:11:39 | Glencourse (Kelani Ganga) | 10.05 | 🟢 Normal | -0.078 |  |
 | 2025-12-08 16:09:49 | Padiyathalawa (Maduru Oya) | 0.80 | 🟢 Normal | 0.000 |  |
@@ -54,8 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-08 16:01:08 | Ellagawa (Kalu Ganga) | 6.10 | 🟢 Normal | -0.095 |  |
 | 2025-12-08 16:00:21 | Nakkala (Kumbukkan Oya) | 1.19 | 🟢 Normal | -0.010 |  |
 | 2025-12-08 16:00:11 | Nawalapitiya (Mahaweli Ganga) | 1.22 | 🟢 Normal | -0.010 |  |
-| 2025-12-08 15:32:38 | Padiyathalawa (Maduru Oya) | 0.80 | 🟢 Normal | 0.000 |  |
-| 2025-12-08 15:24:41 | Thaldena (Mahaweli Ganga) | 0.68 | 🟢 Normal | -0.032 |  |
 
 ## Latest by Station
 
@@ -77,6 +76,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-08 16:05:38 | Siyambalanduwa (Heda Oya) | 0.82 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 16:02:33 | Katharagama (Menik Ganga) | 0.32 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 16:07:50 | Badalgama (Maha Oya) | 2.65 | 🟢 Normal | 0.000 |  |
+| 2025-12-08 16:23:33 | Thalgahagoda (Nilwala Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 16:04:55 | Kuda Oya (Kirindi Oya) | 1.51 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 16:06:19 | Thanamalwila (Kirindi Oya) | 1.23 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 16:00:11 | Nawalapitiya (Mahaweli Ganga) | 1.22 | 🟢 Normal | -0.010 |  |
@@ -87,7 +87,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-08 16:06:39 | Horowpothana (Yan Oya) | 1.58 | 🟢 Normal | -0.020 |  |
 | 2025-12-08 16:02:15 | Baddegama (Gin Ganga) | 2.01 | 🟢 Normal | -0.021 |  |
 | 2025-12-08 15:05:36 | Pitabeddara (Nilwala Ganga) | 0.98 | 🟢 Normal | -0.022 |  |
-| 2025-12-08 15:21:02 | Thalgahagoda (Nilwala Ganga) | 0.70 | 🟢 Normal | -0.022 |  |
 | 2025-12-08 16:02:41 | Thanthirimale (Malwathu Oya) | 4.20 | 🟢 Normal | -0.029 |  |
 | 2025-12-08 16:03:01 | Peradeniya (Mahaweli Ganga) | 2.65 | 🟢 Normal | -0.032 |  |
 | 2025-12-08 16:02:19 | Thaldena (Mahaweli Ganga) | 0.66 | 🟢 Normal | -0.032 |  |
@@ -161,6 +160,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Badalgama](images/stations/badalgama.png)
 
+### Thalgahagoda (Nilwala Ganga)
+
+![Thalgahagoda](images/stations/thalgahagoda.png)
+
 ### Kuda Oya (Kirindi Oya)
 
 ![Kuda Oya](images/stations/kuda-oya.png)
@@ -200,10 +203,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Pitabeddara (Nilwala Ganga)
 
 ![Pitabeddara](images/stations/pitabeddara.png)
-
-### Thalgahagoda (Nilwala Ganga)
-
-![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Thanthirimale (Malwathu Oya)
 
