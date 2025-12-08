@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--08_17:29:23-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--08_17:33:40-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **12,619 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **12,620 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-08 17:33:40 | Thalgahagoda (Nilwala Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 17:29:23 | Thanthirimale (Malwathu Oya) | 4.15 | 🟢 Normal | -0.035 |  |
 | 2025-12-08 17:09:26 | Glencourse (Kelani Ganga) | 10.01 | 🟢 Normal | -0.042 |  |
 | 2025-12-08 17:08:46 | Padiyathalawa (Maduru Oya) | 0.79 | 🟢 Normal | -0.010 |  |
@@ -81,7 +82,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-08 17:02:02 | Katharagama (Menik Ganga) | 0.32 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 17:02:30 | Badalgama (Maha Oya) | 2.65 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 17:03:50 | Manampitiya (Mahaweli Ganga) | 1.70 | 🟢 Normal | 0.000 |  |
-| 2025-12-08 16:23:33 | Thalgahagoda (Nilwala Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
+| 2025-12-08 17:33:40 | Thalgahagoda (Nilwala Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 17:01:23 | Kuda Oya (Kirindi Oya) | 1.51 | 🟢 Normal | 0.000 |  |
 | 2025-12-08 17:05:58 | Holombuwa (Kelani Ganga) | 0.74 | 🟢 Normal | -0.009 |  |
 | 2025-12-08 17:05:38 | Baddegama (Gin Ganga) | 2.00 | 🟢 Normal | -0.009 |  |
