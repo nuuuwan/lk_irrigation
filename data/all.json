@@ -1,5 +1,55 @@
 [
   {
+    "station_name": "Kithulgala",
+    "time_ut": 1765161094,
+    "water_level_m": 1.8
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1765161088,
+    "water_level_m": 1.52
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1765161088,
+    "water_level_m": 0.67056
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1765161071,
+    "water_level_m": 1.01
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1765161071,
+    "water_level_m": 6.26
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1765161064,
+    "water_level_m": 4.65
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1765161051,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1765161016,
+    "water_level_m": 1.26
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1765160091,
+    "water_level_m": 0.75
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1765159800,
+    "water_level_m": 0.85
+  },
+  {
     "station_name": "Katharagama",
     "time_ut": 1765158574,
     "water_level_m": 0.32
