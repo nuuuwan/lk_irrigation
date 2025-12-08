@@ -1,5 +1,70 @@
 [
   {
+    "station_name": "Glencourse",
+    "time_ut": 1765193966,
+    "water_level_m": 10.01
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1765193926,
+    "water_level_m": 0.79
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765193912,
+    "water_level_m": 2.09
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1765193893,
+    "water_level_m": 1.68
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765193885,
+    "water_level_m": 3.43
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1765193770,
+    "water_level_m": 0.62
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1765193758,
+    "water_level_m": 0.67
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1765193758,
+    "water_level_m": 0.74
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1765193738,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1765193736,
+    "water_level_m": 1.92
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1765193716,
+    "water_level_m": 1.47
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1765193703,
+    "water_level_m": 1.19
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1765193684,
+    "water_level_m": 1.22
+  },
+  {
     "station_name": "Manampitiya",
     "time_ut": 1765193630,
     "water_level_m": 1.7
