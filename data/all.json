@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Thanamalwila",
+    "time_ut": 1765233704,
+    "water_level_m": 1.21
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765233598,
+    "water_level_m": 3.21
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1765233450,
+    "water_level_m": 0.96
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1765233444,
+    "water_level_m": 2.94
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1765233431,
+    "water_level_m": 1.56
+  },
+  {
     "station_name": "Putupaula",
     "time_ut": 1765233330,
     "water_level_m": 0.8
