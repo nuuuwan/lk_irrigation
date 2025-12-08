@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1765183854,
+    "water_level_m": 2.22
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1765183383,
+    "water_level_m": 0.66
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1765183376,
+    "water_level_m": 2.06
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1765183191,
     "water_level_m": 1.0
