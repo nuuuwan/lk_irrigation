@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--10_01:07:47-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--10_01:38:02-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **13,727 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **13,728 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **23** measurements in the last **1 hour**.*
+*There were **24** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-10 01:38:02 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.00 | 🟢 Normal | 0.032 | 🔺 Rising |
 | 2025-12-10 01:07:47 | Padiyathalawa (Maduru Oya) | 1.30 | 🟢 Normal | 0.370 | 🔺 Rising |
 | 2025-12-10 01:07:35 | Panadugama (Nilwala Ganga) | 4.31 | 🟢 Normal | 0.155 | 🔺 Rising |
 | 2025-12-10 01:06:33 | Glencourse (Kelani Ganga) | 10.14 | 🟢 Normal | -0.117 |  |
@@ -56,7 +57,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-09 23:05:55 | Magura (Kalu Ganga) | 2.07 | 🟢 Normal | 0.107 | 🔺 Rising |
 | 2025-12-10 01:06:14 | Hanwella (Kelani Ganga) | 2.12 | 🟢 Normal | 0.074 | 🔺 Rising |
 | 2025-12-09 18:00:08 | Peradeniya (Mahaweli Ganga) | 2.81 | 🟢 Normal | 0.052 | 🔺 Rising |
-| 2025-12-10 00:23:36 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.96 | 🟢 Normal | 0.048 | 🔺 Rising |
+| 2025-12-10 01:38:02 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.00 | 🟢 Normal | 0.032 | 🔺 Rising |
 | 2025-12-10 01:01:05 | Horowpothana (Yan Oya) | 3.54 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2025-12-10 00:00:19 | Wellawaya (Kirindi Oya) | 1.15 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2025-12-10 01:03:59 | Baddegama (Gin Ganga) | 1.95 | 🟢 Normal | 0.019 | 🔺 Rising |
