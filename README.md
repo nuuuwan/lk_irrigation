@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--09_22:16:25-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--09_22:42:28-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **13,643 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **13,644 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **30** measurements in the last **1 hour**.*
+*There were **31** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-09 22:42:28 | Urawa (Nilwala Ganga) | 2.50 | 🟡 Alert | -0.178 |  |
 | 2025-12-09 22:16:25 | Thalgahagoda (Nilwala Ganga) | 0.65 | 🟢 Normal | 0.000 |  |
 | 2025-12-09 22:13:28 | Putupaula (Kalu Ganga) | 0.80 | 🟢 Normal | -0.059 |  |
 | 2025-12-09 22:09:27 | Norwood (Kelani Ganga) | 0.86 | 🟢 Normal | 0.000 |  |
@@ -57,7 +58,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2025-11-28 06:04:09⌛ | Moragaswewa (Deduru Oya) | 8.33 | 🔴 Major Flood | 0.051 | 🔺 Rising |
-| 2025-12-09 21:01:33 | Urawa (Nilwala Ganga) | 2.80 | 🟡 Alert | -0.305 |  |
+| 2025-12-09 22:42:28 | Urawa (Nilwala Ganga) | 2.50 | 🟡 Alert | -0.178 |  |
 | 2025-12-09 22:01:54 | Panadugama (Nilwala Ganga) | 3.68 | 🟢 Normal | 0.266 | 🔺 Rising |
 | 2025-12-09 18:00:14 | Weraganthota (Mahaweli Ganga) | -0.91 | 🟢 Normal | 0.243 | 🔺 Rising |
 | 2025-12-09 22:04:14 | Magura (Kalu Ganga) | 1.96 | 🟢 Normal | 0.071 | 🔺 Rising |
