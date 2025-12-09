@@ -1,6 +1,26 @@
 [
   {
     "station_name": "Magura",
+    "time_ut": 1765314866,
+    "water_level_m": 2.53
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1765314650,
+    "water_level_m": 0.76
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1765314370,
+    "water_level_m": 2.61
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765314262,
+    "water_level_m": 4.42
+  },
+  {
+    "station_name": "Magura",
     "time_ut": 1765314077,
     "water_level_m": 2.39
   },
