@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1765270227,
+    "water_level_m": 1.78
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1765269971,
+    "water_level_m": 1.59
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1765269879,
+    "water_level_m": 1.31
+  },
+  {
     "station_name": "Nagalagam Street",
     "time_ut": 1765269581,
     "water_level_m": 0.57912
