@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Thanthirimale",
+    "time_ut": 1765252632,
+    "water_level_m": 3.46
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1765252095,
+    "water_level_m": 0.8
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1765251850,
+    "water_level_m": 2.82
+  },
+  {
     "station_name": "Katharagama",
     "time_ut": 1765251478,
     "water_level_m": 0.32
