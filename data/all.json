@@ -1,5 +1,65 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1765403168,
+    "water_level_m": 1.31
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1765403154,
+    "water_level_m": 1.57
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1765403106,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1765403086,
+    "water_level_m": 0.62
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1765403076,
+    "water_level_m": 1.74
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765402910,
+    "water_level_m": 2.31
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1765402880,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1765402746,
+    "water_level_m": 9.87
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1765402735,
+    "water_level_m": 1.12
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1765402651,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1765402629,
+    "water_level_m": 0.91
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1765402616,
+    "water_level_m": 1.46
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1765402589,
     "water_level_m": 0.94
