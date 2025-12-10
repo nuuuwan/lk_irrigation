@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Galgamuwa",
+    "time_ut": 1765328492,
+    "water_level_m": 0.77
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1765328052,
+    "water_level_m": 0.8
+  },
+  {
     "station_name": "Katharagama",
     "time_ut": 1765327266,
     "water_level_m": 0.36
