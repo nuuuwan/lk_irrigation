@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Thanamalwila",
+    "time_ut": 1765345183,
+    "water_level_m": 1.22
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765345134,
+    "water_level_m": 1.91
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1765345099,
+    "water_level_m": 1.28
+  },
+  {
     "station_name": "Yaka Wewa",
     "time_ut": 1765345002,
     "water_level_m": 2.4
