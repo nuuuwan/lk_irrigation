@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Thanamalwila",
+    "time_ut": 1765397123,
+    "water_level_m": 1.12
+  },
+  {
     "station_name": "Putupaula",
     "time_ut": 1765396678,
     "water_level_m": 0.65
