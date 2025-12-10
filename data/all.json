@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1765408540,
+    "water_level_m": 2.34
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1765407757,
+    "water_level_m": 0.59
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1765407364,
     "water_level_m": 1.55
