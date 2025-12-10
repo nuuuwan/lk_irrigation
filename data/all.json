@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Glencourse",
+    "time_ut": 1765381252,
+    "water_level_m": 9.65
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1765381182,
+    "water_level_m": 1.75
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1765381163,
+    "water_level_m": 0.93
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1765381152,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1765381144,
+    "water_level_m": 2.58
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1765381141,
+    "water_level_m": 1.56
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1765381100,
+    "water_level_m": 1.56
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1765381084,
+    "water_level_m": 5.09
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1765381082,
+    "water_level_m": 0.48768000000000006
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1765381068,
     "water_level_m": 0.86
