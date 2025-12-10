@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Putupaula",
+    "time_ut": 1765396678,
+    "water_level_m": 0.65
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765396612,
+    "water_level_m": 3.26
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1765396284,
+    "water_level_m": 0.7
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1765395544,
     "water_level_m": 0.95
