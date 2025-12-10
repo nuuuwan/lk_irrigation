@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Galgamuwa",
+    "time_ut": 1765367375,
+    "water_level_m": 0.82
+  },
+  {
     "station_name": "Thawalama",
     "time_ut": 1765366730,
     "water_level_m": 1.61
