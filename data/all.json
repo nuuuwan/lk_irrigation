@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Putupaula",
+    "time_ut": 1765493792,
+    "water_level_m": 0.96
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765493739,
+    "water_level_m": 4.21
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1765493060,
     "water_level_m": 1.29
