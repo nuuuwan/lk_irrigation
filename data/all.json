@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1765468040,
+    "water_level_m": 3.2
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1765467913,
+    "water_level_m": 1.26
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1765467742,
+    "water_level_m": 2.78
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1765467700,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1765467662,
+    "water_level_m": 4.2
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1765467549,
+    "water_level_m": 9.5
+  },
+  {
     "station_name": "Manampitiya",
     "time_ut": 1765467465,
     "water_level_m": 2.0
