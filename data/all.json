@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1765473588,
+    "water_level_m": 1.23
+  },
+  {
     "station_name": "Horowpothana",
     "time_ut": 1765471668,
     "water_level_m": 4.18
