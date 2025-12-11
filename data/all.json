@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1765450458,
+    "water_level_m": 1.24
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1765449634,
     "water_level_m": 1.68
