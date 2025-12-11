@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Moragaswewa",
+    "time_ut": 1765446083,
+    "water_level_m": 1.91
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1765445987,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765445967,
+    "water_level_m": 1.68
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1765445920,
+    "water_level_m": 1.24
+  },
+  {
     "station_name": "Wellawaya",
     "time_ut": 1765445897,
     "water_level_m": 1.06
