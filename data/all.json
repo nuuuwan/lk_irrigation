@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Weraganthota",
+    "time_ut": 1765443402,
+    "water_level_m": -1.38
+  },
+  {
     "station_name": "Padiyathalawa",
     "time_ut": 1765442910,
     "water_level_m": 0.91
