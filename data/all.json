@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Thaldena",
+    "time_ut": 1765464453,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1765464132,
+    "water_level_m": 0.95
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1765464057,
+    "water_level_m": 2.81
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1765464018,
+    "water_level_m": 0.36
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1765463978,
+    "water_level_m": 1.33
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1765463957,
+    "water_level_m": 1.98
+  },
+  {
     "station_name": "Holombuwa",
     "time_ut": 1765463795,
     "water_level_m": 0.68
