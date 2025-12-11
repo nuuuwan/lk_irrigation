@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1765439048,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765438961,
+    "water_level_m": 1.7
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1765438917,
+    "water_level_m": 0.54
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1765438863,
+    "water_level_m": 4.2
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1765438836,
+    "water_level_m": 1.56
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1765438828,
+    "water_level_m": 0.35
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1765438650,
+    "water_level_m": 0.53
+  },
+  {
     "station_name": "Siyambalanduwa",
     "time_ut": 1765438556,
     "water_level_m": 0.78
