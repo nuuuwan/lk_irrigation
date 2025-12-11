@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--11_05:13:44-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--11_05:30:09-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **14,703 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **14,704 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-11 05:30:09 | Magura (Kalu Ganga) | 2.22 | 🟢 Normal | -0.174 |  |
 | 2025-12-11 05:13:44 | Padiyathalawa (Maduru Oya) | 0.96 | 🟢 Normal | 108.000 | 🔺 Rising |
 | 2025-12-11 05:13:42 | Padiyathalawa (Maduru Oya) | 0.90 | 🟢 Normal | 108.000 | 🔺 Rising |
 | 2025-12-11 05:12:55 | Thawalama (Gin Ganga) | 1.68 | 🟢 Normal | -0.029 |  |
@@ -29,7 +30,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-11 05:08:18 | Dunamale (Aththanagalu Oya) | 1.31 | 🟢 Normal | 0.000 |  |
 | 2025-12-11 05:06:10 | Holombuwa (Kelani Ganga) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2025-12-11 05:06:04 | Urawa (Nilwala Ganga) | 0.57 | 🟢 Normal | -0.036 |  |
-| 2025-12-11 05:06:03 | Magura (Kalu Ganga) | 2.29 | 🟢 Normal | -0.147 |  |
+| 2025-12-11 05:06:03 | Magura (Kalu Ganga) | 2.29 | 🟢 Normal | -0.174 |  |
 | 2025-12-11 05:04:59 | Thanamalwila (Kirindi Oya) | 1.12 | 🟢 Normal | 0.000 |  |
 | 2025-12-11 05:04:55 | Putupaula (Kalu Ganga) | 0.95 | 🟢 Normal | 0.060 | 🔺 Rising |
 | 2025-12-11 05:04:48 | Kuda Oya (Kirindi Oya) | 1.50 | 🟢 Normal | 0.000 |  |
@@ -50,10 +51,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-11 05:01:04 | Badalgama (Maha Oya) | 2.57 | 🟢 Normal | 0.000 |  |
 | 2025-12-11 05:00:48 | Nawalapitiya (Mahaweli Ganga) | 1.14 | 🟢 Normal | 0.000 |  |
 | 2025-12-11 05:00:31 | Wellawaya (Kirindi Oya) | 1.08 | 🟢 Normal | 0.000 |  |
-| 2025-12-11 04:45:40 | Magura (Kalu Ganga) | 2.34 | 🟢 Normal | -0.147 |  |
-| 2025-12-11 04:32:37 | Deraniyagala (Kelani Ganga) | 0.59 | 🟢 Normal | 0.057 | 🔺 Rising |
-| 2025-12-11 04:26:04 | Rathnapura (Kalu Ganga) | 1.55 | 🟢 Normal | -0.028 |  |
-| 2025-12-11 04:21:08 | Holombuwa (Kelani Ganga) | 0.72 | 🟢 Normal | 0.000 |  |
+| 2025-12-11 04:45:40 | Magura (Kalu Ganga) | 2.34 | 🟢 Normal | -0.174 |  |
 
 ## Latest by Station
 
@@ -97,8 +95,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-11 05:06:04 | Urawa (Nilwala Ganga) | 0.57 | 🟢 Normal | -0.036 |  |
 | 2025-12-11 05:11:17 | Panadugama (Nilwala Ganga) | 3.14 | 🟢 Normal | -0.037 |  |
 | 2025-12-11 05:03:44 | Glencourse (Kelani Ganga) | 9.75 | 🟢 Normal | -0.060 |  |
-| 2025-12-11 05:06:03 | Magura (Kalu Ganga) | 2.29 | 🟢 Normal | -0.147 |  |
 | 2025-12-11 05:03:07 | Horowpothana (Yan Oya) | 4.75 | 🟢 Normal | -0.158 |  |
+| 2025-12-11 05:30:09 | Magura (Kalu Ganga) | 2.22 | 🟢 Normal | -0.174 |  |
 | 2025-12-10 17:02:38 | Weraganthota (Mahaweli Ganga) | -1.40 | 🟢 Normal | -0.337 |  |
 
 ## River Water Level Charts by Station
@@ -247,13 +245,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Glencourse](images/stations/glencourse.png)
 
-### Magura (Kalu Ganga)
-
-![Magura](images/stations/magura.png)
-
 ### Horowpothana (Yan Oya)
 
 ![Horowpothana](images/stations/horowpothana.png)
+
+### Magura (Kalu Ganga)
+
+![Magura](images/stations/magura.png)
 
 ### Weraganthota (Mahaweli Ganga)
 
