@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -52,7 +52,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-11 20:00:35 | Glencourse (Kelani Ganga) | 9.50 | 🟢 Normal | -0.013 |  |
 | 2025-12-11 20:00:15 | Yaka Wewa (Ma Oya) | 1.32 | 🟢 Normal | 0.000 |  |
 | 2025-12-11 19:58:11 | Magura (Kalu Ganga) | 1.65 | 🟢 Normal | 0.000 |  |
-| 2025-12-11 19:30:45 | Thalgahagoda (Nilwala Ganga) | 0.63 | 🟢 Normal | -0.022 |  |
 
 ## Latest by Station
 
