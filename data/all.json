@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1765547457,
+    "water_level_m": 2.44
+  },
+  {
     "station_name": "Horowpothana",
     "time_ut": 1765546821,
     "water_level_m": 6.38
