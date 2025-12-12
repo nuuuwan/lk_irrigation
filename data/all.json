@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Galgamuwa",
+    "time_ut": 1765501660,
+    "water_level_m": 1.38
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1765501025,
+    "water_level_m": 0.37
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765500740,
+    "water_level_m": 4.31
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1765500246,
+    "water_level_m": 9.91
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1765500144,
+    "water_level_m": 4.86
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1765500103,
+    "water_level_m": 1.31
+  },
+  {
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1765500077,
     "water_level_m": 6.11
