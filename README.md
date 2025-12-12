@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--12_19:20:57-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--12_19:46:41-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **16,111 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **16,113 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **35** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-12 19:46:41 | Glencourse (Kelani Ganga) | 9.87 | 🟢 Normal | -0.006 |  |
+| 2025-12-12 19:41:42 | Thaldena (Mahaweli Ganga) | 0.81 | 🟢 Normal | -0.006 |  |
 | 2025-12-12 19:20:57 | Magura (Kalu Ganga) | 2.44 | 🟢 Normal | -0.013 |  |
 | 2025-12-12 19:10:21 | Horowpothana (Yan Oya) | 6.38 | 🟡 Alert | 0.000 |  |
 | 2025-12-12 19:09:59 | Peradeniya (Mahaweli Ganga) | 2.50 | 🟢 Normal | 0.027 | 🔺 Rising |
@@ -83,15 +85,15 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-12 18:03:10 | Thanthirimale (Malwathu Oya) | 4.35 | 🟢 Normal | 0.000 |  |
 | 2025-12-12 19:01:35 | Kuda Oya (Kirindi Oya) | 1.73 | 🟢 Normal | 0.000 |  |
 | 2025-12-12 19:06:12 | Thanamalwila (Kirindi Oya) | 1.20 | 🟢 Normal | 0.000 |  |
+| 2025-12-12 19:46:41 | Glencourse (Kelani Ganga) | 9.87 | 🟢 Normal | -0.006 |  |
+| 2025-12-12 19:41:42 | Thaldena (Mahaweli Ganga) | 0.81 | 🟢 Normal | -0.006 |  |
 | 2025-12-12 19:07:19 | Moragaswewa (Deduru Oya) | 1.53 | 🟢 Normal | -0.009 |  |
 | 2025-12-12 18:05:16 | Padiyathalawa (Maduru Oya) | 1.43 | 🟢 Normal | -0.009 |  |
 | 2025-12-12 19:04:08 | Urawa (Nilwala Ganga) | 0.70 | 🟢 Normal | -0.010 |  |
-| 2025-12-12 18:04:49 | Thaldena (Mahaweli Ganga) | 0.82 | 🟢 Normal | -0.010 |  |
 | 2025-12-12 19:02:18 | Siyambalanduwa (Heda Oya) | 0.99 | 🟢 Normal | -0.010 |  |
 | 2025-12-12 19:05:11 | Nawalapitiya (Mahaweli Ganga) | 1.12 | 🟢 Normal | -0.013 |  |
 | 2025-12-12 19:20:57 | Magura (Kalu Ganga) | 2.44 | 🟢 Normal | -0.013 |  |
 | 2025-12-12 19:04:39 | Thalgahagoda (Nilwala Ganga) | 0.93 | 🟢 Normal | -0.020 |  |
-| 2025-12-12 18:05:21 | Glencourse (Kelani Ganga) | 9.88 | 🟢 Normal | -0.020 |  |
 | 2025-12-12 19:03:34 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.14 | 🟢 Normal | -0.030 |  |
 | 2025-12-12 19:02:19 | Nagalagam Street (Kelani Ganga) | 0.67 | 🟢 Normal | -0.030 |  |
 | 2025-12-12 19:02:08 | Ellagawa (Kalu Ganga) | 6.13 | 🟢 Normal | -0.089 |  |
@@ -197,6 +199,14 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Thanamalwila](images/stations/thanamalwila.png)
 
+### Glencourse (Kelani Ganga)
+
+![Glencourse](images/stations/glencourse.png)
+
+### Thaldena (Mahaweli Ganga)
+
+![Thaldena](images/stations/thaldena.png)
+
 ### Moragaswewa (Deduru Oya)
 
 ![Moragaswewa](images/stations/moragaswewa.png)
@@ -208,10 +218,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Urawa (Nilwala Ganga)
 
 ![Urawa](images/stations/urawa.png)
-
-### Thaldena (Mahaweli Ganga)
-
-![Thaldena](images/stations/thaldena.png)
 
 ### Siyambalanduwa (Heda Oya)
 
@@ -228,10 +234,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thalgahagoda (Nilwala Ganga)
 
 ![Thalgahagoda](images/stations/thalgahagoda.png)
-
-### Glencourse (Kelani Ganga)
-
-![Glencourse](images/stations/glencourse.png)
 
 ### Kalawellawa (Millakanda) (Kalu Ganga)
 
