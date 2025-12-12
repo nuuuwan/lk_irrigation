@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1765558133,
+    "water_level_m": 3.07
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765558041,
+    "water_level_m": 2.4
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1765557838,
+    "water_level_m": 1.18
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1765557700,
+    "water_level_m": 2.53
+  },
+  {
     "station_name": "Thaldena",
     "time_ut": 1765557549,
     "water_level_m": 0.8
