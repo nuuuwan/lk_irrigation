@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--12_21:17:48-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--12_21:25:14-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **16,186 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **16,187 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-12 21:25:14 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.09 | 🟢 Normal | -0.015 |  |
 | 2025-12-12 21:17:48 | Thawalama (Gin Ganga) | 2.15 | 🟢 Normal | -0.023 |  |
 | 2025-12-12 21:12:58 | Glencourse (Kelani Ganga) | 9.85 | 🟢 Normal | 0.000 |  |
 | 2025-12-12 21:10:30 | Hanwella (Kelani Ganga) | 1.83 | 🟢 Normal | 0.000 |  |
@@ -54,10 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-12 21:01:25 | Ellagawa (Kalu Ganga) | 6.04 | 🟢 Normal | -0.030 |  |
 | 2025-12-12 21:01:23 | Yaka Wewa (Ma Oya) | 1.18 | 🟢 Normal | -0.010 |  |
 | 2025-12-12 21:01:18 | Kuda Oya (Kirindi Oya) | 1.71 | 🟢 Normal | -0.010 |  |
-| 2025-12-12 20:32:16 | Pitabeddara (Nilwala Ganga) | 0.98 | 🟢 Normal | -0.017 |  |
-| 2025-12-12 20:22:10 | Panadugama (Nilwala Ganga) | 3.73 | 🟢 Normal | -0.082 |  |
-| 2025-12-12 20:21:51 | Thaldena (Mahaweli Ganga) | 0.81 | 🟢 Normal | -0.014 |  |
-| 2025-12-12 20:21:15 | Kithulgala (Kelani Ganga) | 0.81 | 🟢 Normal | 1.369 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -94,11 +91,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-12 21:03:23 | Siyambalanduwa (Heda Oya) | 0.97 | 🟢 Normal | -0.010 |  |
 | 2025-12-12 21:04:40 | Giriulla (Maha Oya) | 1.31 | 🟢 Normal | -0.011 |  |
 | 2025-12-12 21:06:06 | Thaldena (Mahaweli Ganga) | 0.80 | 🟢 Normal | -0.014 |  |
+| 2025-12-12 21:25:14 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.09 | 🟢 Normal | -0.015 |  |
 | 2025-12-12 21:07:05 | Pitabeddara (Nilwala Ganga) | 0.97 | 🟢 Normal | -0.017 |  |
 | 2025-12-12 21:05:40 | Putupaula (Kalu Ganga) | 1.11 | 🟢 Normal | -0.021 |  |
 | 2025-12-12 21:08:36 | Magura (Kalu Ganga) | 2.40 | 🟢 Normal | -0.022 |  |
 | 2025-12-12 21:17:48 | Thawalama (Gin Ganga) | 2.15 | 🟢 Normal | -0.023 |  |
-| 2025-12-12 20:06:15 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.11 | 🟢 Normal | -0.029 |  |
 | 2025-12-12 21:01:25 | Ellagawa (Kalu Ganga) | 6.04 | 🟢 Normal | -0.030 |  |
 | 2025-12-12 21:09:25 | Nagalagam Street (Kelani Ganga) | 0.55 | 🟢 Normal | -0.054 |  |
 | 2025-12-12 21:06:06 | Panadugama (Nilwala Ganga) | 3.67 | 🟢 Normal | -0.082 |  |
@@ -223,6 +220,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Thaldena](images/stations/thaldena.png)
 
+### Kalawellawa (Millakanda) (Kalu Ganga)
+
+![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
+
 ### Pitabeddara (Nilwala Ganga)
 
 ![Pitabeddara](images/stations/pitabeddara.png)
@@ -238,10 +239,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thawalama (Gin Ganga)
 
 ![Thawalama](images/stations/thawalama.png)
-
-### Kalawellawa (Millakanda) (Kalu Ganga)
-
-![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
 
 ### Ellagawa (Kalu Ganga)
 
