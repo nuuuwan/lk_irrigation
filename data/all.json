@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Badalgama",
+    "time_ut": 1765579308,
+    "water_level_m": 2.51
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1765579253,
+    "water_level_m": 1.77
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1765579176,
+    "water_level_m": 9.59
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1765579172,
+    "water_level_m": 1.77
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1765579012,
+    "water_level_m": 2.26
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1765578976,
+    "water_level_m": 2.54
+  },
+  {
     "station_name": "Nagalagam Street",
     "time_ut": 1765578970,
     "water_level_m": 0.762
