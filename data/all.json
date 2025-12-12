@@ -1,5 +1,105 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1765575991,
+    "water_level_m": 2.73
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1765575759,
+    "water_level_m": 1.25
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1765575757,
+    "water_level_m": 0.35
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1765575717,
+    "water_level_m": 0.35
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1765575460,
+    "water_level_m": 2.52
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1765575385,
+    "water_level_m": 2.33
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1765575377,
+    "water_level_m": 0.67056
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1765575362,
+    "water_level_m": 1.16
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1765575351,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1765575350,
+    "water_level_m": 0.76
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1765575348,
+    "water_level_m": 3.54
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1765575336,
+    "water_level_m": 1.92
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1765575334,
+    "water_level_m": 1.81
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1765575332,
+    "water_level_m": 0.82
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1765575317,
+    "water_level_m": 9.5
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1765575294,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1765575283,
+    "water_level_m": 1.1
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1765575277,
+    "water_level_m": 9.5
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1765575267,
+    "water_level_m": 1.38
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1765575235,
+    "water_level_m": 0.71
+  },
+  {
     "station_name": "Nakkala",
     "time_ut": 1765575215,
     "water_level_m": 1.25
