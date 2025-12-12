@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--12_23:08:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--12_23:24:51-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **16,257 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **16,258 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-12 23:24:51 | Pitabeddara (Nilwala Ganga) | 0.97 | 🟢 Normal | 1.003 | 🔺 Rising |
 | 2025-12-12 23:08:28 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.21 | 🟢 Normal | 0.169 | 🔺 Rising |
 | 2025-12-12 23:07:33 | Panadugama (Nilwala Ganga) | 3.61 | 🟢 Normal | -0.019 |  |
 | 2025-12-12 23:06:15 | Putupaula (Kalu Ganga) | 1.08 | 🟢 Normal | -0.010 |  |
@@ -49,7 +50,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-12 23:01:46 | Nagalagam Street (Kelani Ganga) | 0.46 | 🟢 Normal | -0.030 |  |
 | 2025-12-12 23:01:28 | Ellagawa (Kalu Ganga) | 6.01 | 🟢 Normal | -0.010 |  |
 | 2025-12-12 23:01:14 | Giriulla (Maha Oya) | 1.31 | 🟢 Normal | 0.000 |  |
-| 2025-12-12 23:00:55 | Pitabeddara (Nilwala Ganga) | 0.57 | 🟢 Normal | -0.402 |  |
+| 2025-12-12 23:00:55 | Pitabeddara (Nilwala Ganga) | 0.57 | 🟢 Normal | 1.003 | 🔺 Rising |
 | 2025-12-12 22:57:27 | Glencourse (Kelani Ganga) | 9.83 | 🟢 Normal | -0.248 |  |
 | 2025-12-12 22:55:31 | Glencourse (Kelani Ganga) | 10.83 | 🟢 Normal | -0.248 |  |
 
@@ -60,6 +61,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2025-12-12 22:00:51 | Horowpothana (Yan Oya) | 6.36 | 🟡 Alert | -0.021 |  |
+| 2025-12-12 23:24:51 | Pitabeddara (Nilwala Ganga) | 0.97 | 🟢 Normal | 1.003 | 🔺 Rising |
 | 2025-12-12 23:08:28 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.21 | 🟢 Normal | 0.169 | 🔺 Rising |
 | 2025-12-12 23:05:26 | Magura (Kalu Ganga) | 2.53 | 🟢 Normal | 0.162 | 🔺 Rising |
 | 2025-12-12 23:03:25 | Peradeniya (Mahaweli Ganga) | 2.62 | 🟢 Normal | 0.029 | 🔺 Rising |
@@ -97,13 +99,16 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-12 23:06:03 | Thawalama (Gin Ganga) | 2.03 | 🟢 Normal | -0.067 |  |
 | 2025-12-12 18:01:38 | Weraganthota (Mahaweli Ganga) | -1.25 | 🟢 Normal | -0.106 |  |
 | 2025-12-12 23:04:43 | Glencourse (Kelani Ganga) | 9.80 | 🟢 Normal | -0.248 |  |
-| 2025-12-12 23:00:55 | Pitabeddara (Nilwala Ganga) | 0.57 | 🟢 Normal | -0.402 |  |
 
 ## River Water Level Charts by Station
 
 ### Horowpothana (Yan Oya)
 
 ![Horowpothana](images/stations/horowpothana.png)
+
+### Pitabeddara (Nilwala Ganga)
+
+![Pitabeddara](images/stations/pitabeddara.png)
 
 ### Kalawellawa (Millakanda) (Kalu Ganga)
 
@@ -252,10 +257,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Glencourse (Kelani Ganga)
 
 ![Glencourse](images/stations/glencourse.png)
-
-### Pitabeddara (Nilwala Ganga)
-
-![Pitabeddara](images/stations/pitabeddara.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
