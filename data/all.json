@@ -1,5 +1,65 @@
 [
   {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1765583041,
+    "water_level_m": 0.7924800000000001
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1765582889,
+    "water_level_m": 1.75
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1765582883,
+    "water_level_m": 6.18
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1765582638,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1765582605,
+    "water_level_m": 1.27
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765582577,
+    "water_level_m": 2.88
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1765582565,
+    "water_level_m": 1.42
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1765582522,
+    "water_level_m": 2.2
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1765582503,
+    "water_level_m": 1.08
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1765582496,
+    "water_level_m": 1.9
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1765582486,
+    "water_level_m": 1.17
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1765582473,
+    "water_level_m": 9.67
+  },
+  {
     "station_name": "Putupaula",
     "time_ut": 1765582426,
     "water_level_m": 1.13
