@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1765551736,
+    "water_level_m": 0.98
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765551130,
+    "water_level_m": 3.73
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1765551111,
+    "water_level_m": 0.81
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1765551075,
+    "water_level_m": 0.81
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1765550938,
+    "water_level_m": 6.38
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1765550687,
     "water_level_m": 2.42
