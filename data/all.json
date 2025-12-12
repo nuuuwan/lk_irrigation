@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Peradeniya",
+    "time_ut": 1765576845,
+    "water_level_m": 2.59
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1765576512,
+    "water_level_m": 1.83
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765575995,
+    "water_level_m": 2.94
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765575993,
+    "water_level_m": 2.81
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1765575991,
     "water_level_m": 2.73
