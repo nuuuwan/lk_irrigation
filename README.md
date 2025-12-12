@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -57,8 +57,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-12 20:00:46 | Thawalama (Gin Ganga) | 2.18 | 🟢 Normal | 0.000 |  |
 | 2025-12-12 20:00:21 | Glencourse (Kelani Ganga) | 9.85 | 🟢 Normal | -0.088 |  |
 | 2025-12-12 20:00:11 | Moraketiya (Walawe Ganga) | 1.11 | 🟢 Normal | 0.000 |  |
-| 2025-12-12 19:46:41 | Glencourse (Kelani Ganga) | 9.87 | 🟢 Normal | -0.088 |  |
-| 2025-12-12 19:41:42 | Thaldena (Mahaweli Ganga) | 0.81 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
