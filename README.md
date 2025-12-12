@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--12_14:10:58-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--12_14:17:30-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **15,916 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **15,920 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,14 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **42** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-12 14:17:30 | Urawa (Nilwala Ganga) | 0.79 | 🟢 Normal | -0.024 |  |
+| 2025-12-12 14:14:23 | Panadugama (Nilwala Ganga) | 4.06 | 🟢 Normal | -0.047 |  |
+| 2025-12-12 14:13:49 | Thalgahagoda (Nilwala Ganga) | 1.00 | 🟢 Normal | -0.010 |  |
+| 2025-12-12 14:13:25 | Magura (Kalu Ganga) | 1.50 | 🟢 Normal | -0.457 |  |
 | 2025-12-12 14:10:58 | Thawalama (Gin Ganga) | 1.77 | 🟢 Normal | -0.009 |  |
 | 2025-12-12 14:07:47 | Badalgama (Maha Oya) | 2.55 | 🟢 Normal | 0.000 |  |
 | 2025-12-12 14:07:18 | Moraketiya (Walawe Ganga) | 1.21 | 🟢 Normal | 0.000 |  |
@@ -55,9 +59,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-12 14:00:56 | Yaka Wewa (Ma Oya) | 1.19 | 🟢 Normal | 0.000 |  |
 | 2025-12-12 14:00:48 | Siyambalanduwa (Heda Oya) | 1.02 | 🟢 Normal | -0.010 |  |
 | 2025-12-12 14:00:17 | Wellawaya (Kirindi Oya) | 1.15 | 🟢 Normal | 0.000 |  |
-| 2025-12-12 13:28:05 | Urawa (Nilwala Ganga) | 0.81 | 🟢 Normal | -0.022 |  |
+| 2025-12-12 13:28:05 | Urawa (Nilwala Ganga) | 0.81 | 🟢 Normal | -0.024 |  |
 | 2025-12-12 13:25:20 | Dunamale (Aththanagalu Oya) | 1.20 | 🟢 Normal | 0.000 |  |
-| 2025-12-12 13:15:17 | Thalgahagoda (Nilwala Ganga) | 1.01 | 🟢 Normal | -0.017 |  |
 
 ## Latest by Station
 
@@ -84,26 +87,26 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-12 14:07:47 | Badalgama (Maha Oya) | 2.55 | 🟢 Normal | 0.000 |  |
 | 2025-12-12 14:10:58 | Thawalama (Gin Ganga) | 1.77 | 🟢 Normal | -0.009 |  |
 | 2025-12-12 14:02:57 | Kuda Oya (Kirindi Oya) | 1.76 | 🟢 Normal | -0.010 |  |
-| 2025-12-12 12:02:07 | Magura (Kalu Ganga) | 2.50 | 🟢 Normal | -0.010 |  |
 | 2025-12-12 14:01:30 | Norwood (Kelani Ganga) | 0.86 | 🟢 Normal | -0.010 |  |
 | 2025-12-12 14:01:00 | Thanamalwila (Kirindi Oya) | 1.41 | 🟢 Normal | -0.010 |  |
 | 2025-12-12 14:00:48 | Siyambalanduwa (Heda Oya) | 1.02 | 🟢 Normal | -0.010 |  |
+| 2025-12-12 14:13:49 | Thalgahagoda (Nilwala Ganga) | 1.00 | 🟢 Normal | -0.010 |  |
 | 2025-12-12 14:03:30 | Thaldena (Mahaweli Ganga) | 0.85 | 🟢 Normal | -0.010 |  |
 | 2025-12-12 14:02:55 | Padiyathalawa (Maduru Oya) | 1.45 | 🟢 Normal | -0.011 |  |
-| 2025-12-12 13:15:17 | Thalgahagoda (Nilwala Ganga) | 1.01 | 🟢 Normal | -0.017 |  |
 | 2025-12-12 14:04:50 | Pitabeddara (Nilwala Ganga) | 1.16 | 🟢 Normal | -0.020 |  |
 | 2025-12-12 14:01:25 | Nakkala (Kumbukkan Oya) | 1.33 | 🟢 Normal | -0.021 |  |
 | 2025-12-12 14:01:10 | Ellagawa (Kalu Ganga) | 6.42 | 🟢 Normal | -0.021 |  |
-| 2025-12-12 13:28:05 | Urawa (Nilwala Ganga) | 0.81 | 🟢 Normal | -0.022 |  |
+| 2025-12-12 14:17:30 | Urawa (Nilwala Ganga) | 0.79 | 🟢 Normal | -0.024 |  |
 | 2025-12-12 14:06:29 | Putupaula (Kalu Ganga) | 0.95 | 🟢 Normal | -0.029 |  |
 | 2025-12-12 14:04:36 | Holombuwa (Kelani Ganga) | 0.70 | 🟢 Normal | -0.030 |  |
 | 2025-12-12 14:02:41 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.30 | 🟢 Normal | -0.030 |  |
 | 2025-12-12 14:04:30 | Baddegama (Gin Ganga) | 1.88 | 🟢 Normal | -0.040 |  |
-| 2025-12-12 13:10:14 | Panadugama (Nilwala Ganga) | 4.11 | 🟢 Normal | -0.060 |  |
+| 2025-12-12 14:14:23 | Panadugama (Nilwala Ganga) | 4.06 | 🟢 Normal | -0.047 |  |
 | 2025-12-12 14:02:18 | Moragaswewa (Deduru Oya) | 1.58 | 🟢 Normal | -0.077 |  |
 | 2025-12-12 14:06:53 | Weraganthota (Mahaweli Ganga) | -1.14 | 🟢 Normal | -0.117 |  |
 | 2025-12-12 14:05:15 | Rathnapura (Kalu Ganga) | 2.70 | 🟢 Normal | -0.127 |  |
 | 2025-12-12 14:05:50 | Kithulgala (Kelani Ganga) | 1.73 | 🟢 Normal | -0.192 |  |
+| 2025-12-12 14:13:25 | Magura (Kalu Ganga) | 1.50 | 🟢 Normal | -0.457 |  |
 
 ## River Water Level Charts by Station
 
@@ -183,10 +186,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Kuda Oya](images/stations/kuda-oya.png)
 
-### Magura (Kalu Ganga)
-
-![Magura](images/stations/magura.png)
-
 ### Norwood (Kelani Ganga)
 
 ![Norwood](images/stations/norwood.png)
@@ -199,6 +198,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Siyambalanduwa](images/stations/siyambalanduwa.png)
 
+### Thalgahagoda (Nilwala Ganga)
+
+![Thalgahagoda](images/stations/thalgahagoda.png)
+
 ### Thaldena (Mahaweli Ganga)
 
 ![Thaldena](images/stations/thaldena.png)
@@ -206,10 +209,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Padiyathalawa (Maduru Oya)
 
 ![Padiyathalawa](images/stations/padiyathalawa.png)
-
-### Thalgahagoda (Nilwala Ganga)
-
-![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Pitabeddara (Nilwala Ganga)
 
@@ -262,6 +261,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kithulgala (Kelani Ganga)
 
 ![Kithulgala](images/stations/kithulgala.png)
+
+### Magura (Kalu Ganga)
+
+![Magura](images/stations/magura.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
