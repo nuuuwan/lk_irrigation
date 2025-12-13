@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1765583873,
+    "water_level_m": 3.51
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1765583872,
+    "water_level_m": 1.65
+  },
+  {
     "station_name": "Nagalagam Street",
     "time_ut": 1765583041,
     "water_level_m": 0.7924800000000001
