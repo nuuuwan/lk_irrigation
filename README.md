@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--13_17:12:36-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--13_17:22:13-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **16,939 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **16,940 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-13 17:22:13 | Thalgahagoda (Nilwala Ganga) | 0.58 | 🟢 Normal | -0.026 |  |
 | 2025-12-13 17:12:36 | Pitabeddara (Nilwala Ganga) | 0.85 | 🟢 Normal | -0.017 |  |
 | 2025-12-13 17:11:59 | Badalgama (Maha Oya) | 2.47 | 🟢 Normal | 0.000 |  |
 | 2025-12-13 17:11:59 | Baddegama (Gin Ganga) | 1.54 | 🟢 Normal | -0.037 |  |
@@ -57,7 +58,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-13 17:00:32 | Yaka Wewa (Ma Oya) | 1.06 | 🟢 Normal | 0.000 |  |
 | 2025-12-13 17:00:31 | Nakkala (Kumbukkan Oya) | 1.18 | 🟢 Normal | 0.000 |  |
 | 2025-12-13 16:59:32 | Magura (Kalu Ganga) | 2.28 | 🟢 Normal | -0.072 |  |
-| 2025-12-13 16:35:16 | Thalgahagoda (Nilwala Ganga) | 0.60 | 🟢 Normal | 0.000 |  |
+| 2025-12-13 16:35:16 | Thalgahagoda (Nilwala Ganga) | 0.60 | 🟢 Normal | -0.026 |  |
 
 ## Latest by Station
 
@@ -83,7 +84,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-13 17:05:50 | Dunamale (Aththanagalu Oya) | 1.24 | 🟢 Normal | 0.000 |  |
 | 2025-12-13 17:11:59 | Badalgama (Maha Oya) | 2.47 | 🟢 Normal | 0.000 |  |
 | 2025-12-13 17:05:27 | Urawa (Nilwala Ganga) | 0.61 | 🟢 Normal | 0.000 |  |
-| 2025-12-13 16:35:16 | Thalgahagoda (Nilwala Ganga) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2025-12-13 17:11:55 | Padiyathalawa (Maduru Oya) | 1.05 | 🟢 Normal | -0.009 |  |
 | 2025-12-13 17:05:43 | Katharagama (Menik Ganga) | 0.32 | 🟢 Normal | -0.010 |  |
 | 2025-12-13 17:02:51 | Moragaswewa (Deduru Oya) | 1.50 | 🟢 Normal | -0.010 |  |
@@ -97,6 +97,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-13 17:06:25 | Putupaula (Kalu Ganga) | 0.84 | 🟢 Normal | -0.019 |  |
 | 2025-12-13 17:05:18 | Manampitiya (Mahaweli Ganga) | 2.11 | 🟢 Normal | -0.020 |  |
 | 2025-12-13 17:06:44 | Rathnapura (Kalu Ganga) | 1.74 | 🟢 Normal | -0.020 |  |
+| 2025-12-13 17:22:13 | Thalgahagoda (Nilwala Ganga) | 0.58 | 🟢 Normal | -0.026 |  |
 | 2025-12-13 17:00:54 | Horowpothana (Yan Oya) | 5.64 | 🟢 Normal | -0.030 |  |
 | 2025-12-13 17:11:59 | Baddegama (Gin Ganga) | 1.54 | 🟢 Normal | -0.037 |  |
 | 2025-12-13 17:01:27 | Ellagawa (Kalu Ganga) | 5.45 | 🟢 Normal | -0.050 |  |
@@ -179,10 +180,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Urawa](images/stations/urawa.png)
 
-### Thalgahagoda (Nilwala Ganga)
-
-![Thalgahagoda](images/stations/thalgahagoda.png)
-
 ### Padiyathalawa (Maduru Oya)
 
 ![Padiyathalawa](images/stations/padiyathalawa.png)
@@ -234,6 +231,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Rathnapura (Kalu Ganga)
 
 ![Rathnapura](images/stations/rathnapura.png)
+
+### Thalgahagoda (Nilwala Ganga)
+
+![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Horowpothana (Yan Oya)
 
