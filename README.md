@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--13_23:23:15-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--13_23:35:09-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **17,166 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **17,167 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-13 23:35:09 | Panadugama (Nilwala Ganga) | 3.26 | 🟢 Normal | 0.038 | 🔺 Rising |
 | 2025-12-13 23:23:15 | Thaldena (Mahaweli Ganga) | 0.74 | 🟢 Normal | 0.000 |  |
 | 2025-12-13 23:12:48 | Thalgahagoda (Nilwala Ganga) | 0.70 | 🟢 Normal | 0.039 | 🔺 Rising |
 | 2025-12-13 23:10:04 | Baddegama (Gin Ganga) | 1.56 | 🟢 Normal | 0.054 | 🔺 Rising |
@@ -54,7 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-13 23:01:07 | Moraketiya (Walawe Ganga) | 1.00 | 🟢 Normal | 0.000 |  |
 | 2025-12-13 23:00:56 | Horowpothana (Yan Oya) | 5.34 | 🟢 Normal | -0.050 |  |
 | 2025-12-13 23:00:26 | Peradeniya (Mahaweli Ganga) | 2.86 | 🟢 Normal | 0.082 | 🔺 Rising |
-| 2025-12-13 22:34:14 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.79 | 🟢 Normal | 0.349 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -67,10 +67,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-13 23:00:26 | Peradeniya (Mahaweli Ganga) | 2.86 | 🟢 Normal | 0.082 | 🔺 Rising |
 | 2025-12-13 23:04:46 | Pitabeddara (Nilwala Ganga) | 0.92 | 🟢 Normal | 0.080 | 🔺 Rising |
 | 2025-12-13 23:10:04 | Baddegama (Gin Ganga) | 1.56 | 🟢 Normal | 0.054 | 🔺 Rising |
-| 2025-12-13 22:16:05 | Panadugama (Nilwala Ganga) | 3.21 | 🟢 Normal | 0.051 | 🔺 Rising |
 | 2025-12-13 18:02:22 | Thanthirimale (Malwathu Oya) | 4.30 | 🟢 Normal | 0.049 | 🔺 Rising |
 | 2025-12-13 23:06:47 | Rathnapura (Kalu Ganga) | 1.84 | 🟢 Normal | 0.040 | 🔺 Rising |
 | 2025-12-13 23:12:48 | Thalgahagoda (Nilwala Ganga) | 0.70 | 🟢 Normal | 0.039 | 🔺 Rising |
+| 2025-12-13 23:35:09 | Panadugama (Nilwala Ganga) | 3.26 | 🟢 Normal | 0.038 | 🔺 Rising |
 | 2025-12-13 23:02:48 | Glencourse (Kelani Ganga) | 9.23 | 🟢 Normal | 0.034 | 🔺 Rising |
 | 2025-12-13 23:07:36 | Putupaula (Kalu Ganga) | 1.03 | 🟢 Normal | 0.028 | 🔺 Rising |
 | 2025-12-13 23:03:09 | Kithulgala (Kelani Ganga) | 1.69 | 🟢 Normal | 0.000 |  |
@@ -124,10 +124,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Baddegama](images/stations/baddegama.png)
 
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
-
 ### Thanthirimale (Malwathu Oya)
 
 ![Thanthirimale](images/stations/thanthirimale.png)
@@ -139,6 +135,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thalgahagoda (Nilwala Ganga)
 
 ![Thalgahagoda](images/stations/thalgahagoda.png)
+
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
 
 ### Glencourse (Kelani Ganga)
 
