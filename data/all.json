@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Kuda Oya",
+    "time_ut": 1765723535,
+    "water_level_m": 1.49
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1765723280,
+    "water_level_m": 1.65
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1765723238,
+    "water_level_m": 1.23
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765723072,
+    "water_level_m": 2.06
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1765723029,
+    "water_level_m": 2.6
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1765722987,
+    "water_level_m": 0.62
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1765722958,
+    "water_level_m": 0.85
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1765722904,
+    "water_level_m": 0.57
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1765722902,
+    "water_level_m": 0.52
+  },
+  {
     "station_name": "Kithulgala",
     "time_ut": 1765722895,
     "water_level_m": 1.9
