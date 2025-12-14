@@ -1,5 +1,115 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1765755970,
+    "water_level_m": 2.03
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765755969,
+    "water_level_m": 2.07
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765755967,
+    "water_level_m": 2.1
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765755965,
+    "water_level_m": 2.16
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765755931,
+    "water_level_m": 2.16
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765755913,
+    "water_level_m": 3.53
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765755900,
+    "water_level_m": 2.16
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765755844,
+    "water_level_m": 2.16
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1765755814,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1765755797,
+    "water_level_m": 0.8
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1765755701,
+    "water_level_m": 2.17
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1765755475,
+    "water_level_m": 1.54
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1765755454,
+    "water_level_m": 2.41
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1765755412,
+    "water_level_m": 0.53
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1765755409,
+    "water_level_m": 0.61
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1765755398,
+    "water_level_m": 0.99
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1765755301,
+    "water_level_m": 1.21
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1765755293,
+    "water_level_m": 2.5
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1765755284,
+    "water_level_m": 1.75
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1765755278,
+    "water_level_m": 0.6096
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1765755267,
+    "water_level_m": 1.8
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1765755226,
+    "water_level_m": 1.19
+  },
+  {
     "station_name": "Horowpothana",
     "time_ut": 1765755197,
     "water_level_m": 4.15
