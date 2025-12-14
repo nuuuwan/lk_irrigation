@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--15_03:31:36-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--15_03:47:12-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **18,214 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **18,215 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-15 03:47:12 | Peradeniya (Mahaweli Ganga) | 2.57 | 🟢 Normal | -0.040 |  |
 | 2025-12-15 03:31:36 | Putupaula (Kalu Ganga) | 0.93 | 🟢 Normal | -0.014 |  |
 | 2025-12-15 03:16:53 | Thaldena (Mahaweli Ganga) | 0.88 | 🟢 Normal | -0.026 |  |
 | 2025-12-15 03:16:52 | Urawa (Nilwala Ganga) | 0.92 | 🟢 Normal | -0.124 |  |
@@ -60,7 +61,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-15 03:01:09 | Kuda Oya (Kirindi Oya) | 1.48 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 03:00:23 | Manampitiya (Mahaweli Ganga) | 1.91 | 🟢 Normal | -0.021 |  |
 | 2025-12-15 02:56:37 | Rathnapura (Kalu Ganga) | 1.92 | 🟢 Normal | 1.561 | 🔺 Rising |
-| 2025-12-15 02:49:40 | Badalgama (Maha Oya) | 2.42 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -101,7 +101,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-15 03:16:53 | Thaldena (Mahaweli Ganga) | 0.88 | 🟢 Normal | -0.026 |  |
 | 2025-12-15 03:06:27 | Norwood (Kelani Ganga) | 0.84 | 🟢 Normal | -0.029 |  |
 | 2025-12-15 03:03:25 | Nakkala (Kumbukkan Oya) | 1.25 | 🟢 Normal | -0.040 |  |
-| 2025-12-15 02:02:33 | Peradeniya (Mahaweli Ganga) | 2.64 | 🟢 Normal | -0.091 |  |
+| 2025-12-15 03:47:12 | Peradeniya (Mahaweli Ganga) | 2.57 | 🟢 Normal | -0.040 |  |
 | 2025-12-15 03:16:52 | Urawa (Nilwala Ganga) | 0.92 | 🟢 Normal | -0.124 |  |
 | 2025-12-15 03:02:42 | Horowpothana (Yan Oya) | 4.18 | 🟢 Normal | -1.565 |  |
 | 2025-12-15 03:06:11 | Thawalama (Gin Ganga) | 1.60 | 🟢 Normal | -6.545 |  |
