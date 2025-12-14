@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Moragaswewa",
+    "time_ut": 1765688159,
+    "water_level_m": 1.46
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1765688003,
+    "water_level_m": 1.24
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1765687767,
+    "water_level_m": 0.72
+  },
+  {
     "station_name": "Glencourse",
     "time_ut": 1765687070,
     "water_level_m": 9.38
