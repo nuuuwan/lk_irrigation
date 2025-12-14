@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Peradeniya",
+    "time_ut": 1765711920,
+    "water_level_m": 2.35
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1765711904,
+    "water_level_m": 0.34
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1765711881,
+    "water_level_m": 2.07
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1765711873,
+    "water_level_m": 0.62
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1765711847,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1765711817,
+    "water_level_m": 1.03
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1765711810,
+    "water_level_m": 4.27
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1765711810,
+    "water_level_m": 1.11
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1765711808,
+    "water_level_m": 0.83
+  },
+  {
     "station_name": "Moragaswewa",
     "time_ut": 1765709024,
     "water_level_m": 1.44
