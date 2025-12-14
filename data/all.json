@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1765731008,
+    "water_level_m": 3.56
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1765730718,
     "water_level_m": 2.06
