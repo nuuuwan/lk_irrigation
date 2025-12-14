@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Galgamuwa",
+    "time_ut": 1765674198,
+    "water_level_m": 1.72
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1765673877,
+    "water_level_m": 1.04
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1765673302,
+    "water_level_m": 1.44
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1765673295,
+    "water_level_m": 1.46
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1765673219,
+    "water_level_m": 0.81
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1765673203,
+    "water_level_m": 3.71
+  },
+  {
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1765672908,
     "water_level_m": 3.44
