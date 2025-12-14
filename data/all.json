@@ -1,5 +1,55 @@
 [
   {
+    "station_name": "Moraketiya",
+    "time_ut": 1765734231,
+    "water_level_m": 0.99
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765734124,
+    "water_level_m": 3.55
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1765734030,
+    "water_level_m": 9.18
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1765733910,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1765733811,
+    "water_level_m": 0.93
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1765733808,
+    "water_level_m": 2.43
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1765733747,
+    "water_level_m": 1.04
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1765733727,
+    "water_level_m": 1.98
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1765733707,
+    "water_level_m": 0.33
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1765733673,
+    "water_level_m": 2.13
+  },
+  {
     "station_name": "Thaldena",
     "time_ut": 1765733649,
     "water_level_m": 0.94
