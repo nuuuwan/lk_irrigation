@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--15_22:18:41-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--15_22:26:21-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **18,945 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **18,946 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-15 22:26:21 | Pitabeddara (Nilwala Ganga) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 22:18:41 | Glencourse (Kelani Ganga) | 9.21 | 🟢 Normal | -0.034 |  |
 | 2025-12-15 22:17:33 | Katharagama (Menik Ganga) | 0.32 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 22:14:18 | Panadugama (Nilwala Ganga) | 3.19 | 🟢 Normal | -0.018 |  |
@@ -70,7 +71,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-15 22:04:04 | Nawalapitiya (Mahaweli Ganga) | 0.97 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 22:01:27 | Yaka Wewa (Ma Oya) | 0.91 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 22:05:48 | Giriulla (Maha Oya) | 1.19 | 🟢 Normal | 0.000 |  |
-| 2025-12-15 21:26:04 | Pitabeddara (Nilwala Ganga) | 0.85 | 🟢 Normal | 0.000 |  |
+| 2025-12-15 22:26:21 | Pitabeddara (Nilwala Ganga) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 22:03:19 | Norwood (Kelani Ganga) | 0.76 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 22:00:51 | Moraketiya (Walawe Ganga) | 0.99 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 22:02:12 | Siyambalanduwa (Heda Oya) | 0.75 | 🟢 Normal | 0.000 |  |
