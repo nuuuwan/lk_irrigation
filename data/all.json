@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1765756655,
+    "water_level_m": 0.83
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765756025,
+    "water_level_m": 3.51
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1765755970,
     "water_level_m": 2.03
