@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **44** measurements in the last **1 hour**.*
+*There were **43** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -62,7 +62,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-15 09:00:28 | Horowpothana (Yan Oya) | 4.07 | 🟢 Normal | -0.030 |  |
 | 2025-12-15 09:00:13 | Magura (Kalu Ganga) | 1.93 | 🟢 Normal | -0.021 |  |
 | 2025-12-15 09:00:12 | Nakkala (Kumbukkan Oya) | 1.16 | 🟢 Normal | 0.000 |  |
-| 2025-12-15 08:40:31 | Thalgahagoda (Nilwala Ganga) | 0.78 | 🟢 Normal | -0.063 |  |
 
 ## Latest by Station
 
