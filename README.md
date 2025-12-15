@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--15_14:18:12-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--15_14:27:14-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **18,647 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **18,648 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **41** measurements in the last **1 hour**.*
+*There were **42** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-15 14:27:14 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | -0.045 |  |
 | 2025-12-15 14:18:12 | Thalgahagoda (Nilwala Ganga) | 0.75 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 14:15:41 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.80 | 🟢 Normal | -0.044 |  |
 | 2025-12-15 14:11:50 | Panadugama (Nilwala Ganga) | 3.36 | 🟢 Normal | -0.009 |  |
@@ -98,10 +99,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-15 14:08:00 | Urawa (Nilwala Ganga) | 0.60 | 🟢 Normal | -0.018 |  |
 | 2025-12-15 14:03:39 | Manampitiya (Mahaweli Ganga) | 2.04 | 🟢 Normal | -0.019 |  |
 | 2025-12-15 14:05:07 | Thawalama (Gin Ganga) | 1.60 | 🟢 Normal | -0.022 |  |
-| 2025-12-15 13:05:16 | Nagalagam Street (Kelani Ganga) | 0.55 | 🟢 Normal | -0.031 |  |
 | 2025-12-15 14:08:04 | Rathnapura (Kalu Ganga) | 1.76 | 🟢 Normal | -0.040 |  |
 | 2025-12-15 14:02:45 | Ellagawa (Kalu Ganga) | 5.20 | 🟢 Normal | -0.040 |  |
 | 2025-12-15 14:15:41 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.80 | 🟢 Normal | -0.044 |  |
+| 2025-12-15 14:27:14 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | -0.045 |  |
 | 2025-12-15 14:02:42 | Weraganthota (Mahaweli Ganga) | -1.32 | 🟢 Normal | -0.050 |  |
 | 2025-12-15 14:00:36 | Galgamuwa (Mee Oya) | 1.35 | 🟢 Normal | -0.112 |  |
 | 2025-12-15 14:02:17 | Kithulgala (Kelani Ganga) | 1.51 | 🟢 Normal | -0.200 |  |
@@ -233,10 +234,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Thawalama](images/stations/thawalama.png)
 
-### Nagalagam Street (Kelani Ganga)
-
-![Nagalagam Street](images/stations/nagalagam-street.png)
-
 ### Rathnapura (Kalu Ganga)
 
 ![Rathnapura](images/stations/rathnapura.png)
@@ -248,6 +245,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kalawellawa (Millakanda) (Kalu Ganga)
 
 ![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
+
+### Nagalagam Street (Kelani Ganga)
+
+![Nagalagam Street](images/stations/nagalagam-street.png)
 
 ### Weraganthota (Mahaweli Ganga)
 
