@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1765788492,
+    "water_level_m": 0.75
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1765788341,
+    "water_level_m": 2.8
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1765788110,
     "water_level_m": 3.36
