@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Galgamuwa",
+    "time_ut": 1765777397,
+    "water_level_m": 1.49
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1765777362,
+    "water_level_m": 1.2
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1765777213,
+    "water_level_m": 0.85
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765777196,
+    "water_level_m": 3.42
+  },
+  {
     "station_name": "Ellagawa",
     "time_ut": 1765776977,
     "water_level_m": 5.27
