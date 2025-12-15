@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--15_15:10:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--15_15:14:18-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **18,686 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **18,687 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **41** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-15 15:14:18 | Manampitiya (Mahaweli Ganga) | 2.03 | 🟢 Normal | -0.008 |  |
 | 2025-12-15 15:10:04 | Padiyathalawa (Maduru Oya) | 0.95 | 🟢 Normal | -0.009 |  |
 | 2025-12-15 15:09:30 | Pitabeddara (Nilwala Ganga) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 15:08:41 | Panadugama (Nilwala Ganga) | 3.35 | 🟢 Normal | -0.011 |  |
@@ -58,8 +59,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-15 15:00:12 | Siyambalanduwa (Heda Oya) | 0.78 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 15:00:07 | Nakkala (Kumbukkan Oya) | 1.11 | 🟢 Normal | -0.010 |  |
 | 2025-12-15 14:27:14 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
-| 2025-12-15 14:18:12 | Thalgahagoda (Nilwala Ganga) | 0.75 | 🟢 Normal | -0.027 |  |
-| 2025-12-15 14:15:41 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.80 | 🟢 Normal | -0.062 |  |
 
 ## Latest by Station
 
@@ -85,6 +84,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-15 15:01:01 | Thanthirimale (Malwathu Oya) | 4.24 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 15:02:27 | Kuda Oya (Kirindi Oya) | 1.45 | 🟢 Normal | 0.000 |  |
 | 2025-12-15 15:01:51 | Thanamalwila (Kirindi Oya) | 1.02 | 🟢 Normal | 0.000 |  |
+| 2025-12-15 15:14:18 | Manampitiya (Mahaweli Ganga) | 2.03 | 🟢 Normal | -0.008 |  |
 | 2025-12-15 15:10:04 | Padiyathalawa (Maduru Oya) | 0.95 | 🟢 Normal | -0.009 |  |
 | 2025-12-15 15:03:31 | Magura (Kalu Ganga) | 1.83 | 🟢 Normal | -0.010 |  |
 | 2025-12-15 15:04:21 | Moraketiya (Walawe Ganga) | 1.00 | 🟢 Normal | -0.010 |  |
@@ -97,7 +97,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-15 15:03:13 | Thawalama (Gin Ganga) | 1.59 | 🟢 Normal | -0.010 |  |
 | 2025-12-15 15:02:45 | Norwood (Kelani Ganga) | 0.76 | 🟢 Normal | -0.010 |  |
 | 2025-12-15 15:08:41 | Panadugama (Nilwala Ganga) | 3.35 | 🟢 Normal | -0.011 |  |
-| 2025-12-15 14:03:39 | Manampitiya (Mahaweli Ganga) | 2.04 | 🟢 Normal | -0.019 |  |
 | 2025-12-15 15:03:03 | Putupaula (Kalu Ganga) | 0.76 | 🟢 Normal | -0.021 |  |
 | 2025-12-15 15:03:06 | Thalgahagoda (Nilwala Ganga) | 0.73 | 🟢 Normal | -0.027 |  |
 | 2025-12-15 15:08:13 | Horowpothana (Yan Oya) | 3.90 | 🟢 Normal | -0.027 |  |
@@ -181,6 +180,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Thanamalwila](images/stations/thanamalwila.png)
 
+### Manampitiya (Mahaweli Ganga)
+
+![Manampitiya](images/stations/manampitiya.png)
+
 ### Padiyathalawa (Maduru Oya)
 
 ![Padiyathalawa](images/stations/padiyathalawa.png)
@@ -228,10 +231,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Panadugama (Nilwala Ganga)
 
 ![Panadugama](images/stations/panadugama.png)
-
-### Manampitiya (Mahaweli Ganga)
-
-![Manampitiya](images/stations/manampitiya.png)
 
 ### Putupaula (Kalu Ganga)
 
