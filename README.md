@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--16_13:09:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--16_13:34:04-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **19,500 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **19,502 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-16 13:34:04 | Manampitiya (Mahaweli Ganga) | 2.09 | 🟢 Normal | 0.000 |  |
+| 2025-12-16 13:34:03 | Manampitiya (Mahaweli Ganga) | 2.09 | 🟢 Normal | 0.000 |  |
 | 2025-12-16 13:09:05 | Galgamuwa (Mee Oya) | 0.64 | 🟢 Normal | 0.039 | 🔺 Rising |
 | 2025-12-16 13:07:11 | Badalgama (Maha Oya) | 2.33 | 🟢 Normal | 0.000 |  |
 | 2025-12-16 13:06:50 | Panadugama (Nilwala Ganga) | 2.83 | 🟢 Normal | -0.011 |  |
@@ -80,7 +82,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-16 13:02:16 | Katharagama (Menik Ganga) | 0.33 | 🟢 Normal | 0.000 |  |
 | 2025-12-16 13:07:11 | Badalgama (Maha Oya) | 2.33 | 🟢 Normal | 0.000 |  |
 | 2025-12-16 13:06:25 | Holombuwa (Kelani Ganga) | 0.56 | 🟢 Normal | 0.000 |  |
-| 2025-12-16 12:16:57 | Manampitiya (Mahaweli Ganga) | 2.09 | 🟢 Normal | 0.000 |  |
+| 2025-12-16 13:34:04 | Manampitiya (Mahaweli Ganga) | 2.09 | 🟢 Normal | 0.000 |  |
 | 2025-12-16 13:05:44 | Rathnapura (Kalu Ganga) | 1.33 | 🟢 Normal | 0.000 |  |
 | 2025-12-16 13:05:16 | Peradeniya (Mahaweli Ganga) | 2.50 | 🟢 Normal | 0.000 |  |
 | 2025-12-16 11:19:45 | Urawa (Nilwala Ganga) | 0.53 | 🟢 Normal | 0.000 |  |
