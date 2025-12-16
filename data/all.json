@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1765916073,
+    "water_level_m": 1.0
+  },
+  {
     "station_name": "Holombuwa",
     "time_ut": 1765915156,
     "water_level_m": 0.7
