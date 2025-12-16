@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Baddegama",
+    "time_ut": 1765906859,
+    "water_level_m": 0.99
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1765906762,
+    "water_level_m": 1.47
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1765906725,
+    "water_level_m": 2.78
+  },
+  {
     "station_name": "Siyambalanduwa",
     "time_ut": 1765906624,
     "water_level_m": 0.69
