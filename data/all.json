@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Moragaswewa",
+    "time_ut": 1765892824,
+    "water_level_m": 0.85
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1765892769,
+    "water_level_m": 2.08
+  },
+  {
     "station_name": "Giriulla",
     "time_ut": 1765892748,
     "water_level_m": 1.17
