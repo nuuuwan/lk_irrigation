@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1765969004,
+    "water_level_m": 1.45
+  },
+  {
     "station_name": "Nawalapitiya",
     "time_ut": 1765968094,
     "water_level_m": 0.97
