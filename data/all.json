@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1766013542,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766013400,
+    "water_level_m": 2.7
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1766012576,
+    "water_level_m": 5.63
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1766012074,
     "water_level_m": 0.65
