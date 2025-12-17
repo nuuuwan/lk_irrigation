@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--17_10:10:11-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--17_10:12:34-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **20,280 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **20,282 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-17 10:12:34 | Thanamalwila (Kirindi Oya) | 0.93 | 🟢 Normal | 0.000 |  |
+| 2025-12-17 10:11:32 | Pitabeddara (Nilwala Ganga) | 0.72 | 🟢 Normal | -0.009 |  |
 | 2025-12-17 10:10:11 | Giriulla (Maha Oya) | 1.15 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 10:09:49 | Magura (Kalu Ganga) | 1.47 | 🟢 Normal | -0.010 |  |
 | 2025-12-17 10:09:05 | Galgamuwa (Mee Oya) | 0.56 | 🟢 Normal | 0.000 |  |
@@ -56,7 +58,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-17 10:01:48 | Kuda Oya (Kirindi Oya) | 1.42 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 10:00:43 | Horowpothana (Yan Oya) | 5.86 | 🟢 Normal | -0.043 |  |
 | 2025-12-17 10:00:23 | Siyambalanduwa (Heda Oya) | 0.79 | 🟢 Normal | -0.012 |  |
-| 2025-12-17 09:15:50 | Manampitiya (Mahaweli Ganga) | 2.03 | 🟢 Normal | -0.026 |  |
 
 ## Latest by Station
 
@@ -76,7 +77,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-17 10:02:22 | Nawalapitiya (Mahaweli Ganga) | 0.96 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 10:10:11 | Giriulla (Maha Oya) | 1.15 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 10:09:05 | Galgamuwa (Mee Oya) | 0.56 | 🟢 Normal | 0.000 |  |
-| 2025-12-17 09:03:07 | Pitabeddara (Nilwala Ganga) | 0.73 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 10:02:56 | Padiyathalawa (Maduru Oya) | 0.90 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 10:03:53 | Dunamale (Aththanagalu Oya) | 1.20 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 10:06:02 | Katharagama (Menik Ganga) | 0.14 | 🟢 Normal | 0.000 |  |
@@ -87,7 +87,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-17 10:04:32 | Urawa (Nilwala Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 10:04:58 | Thalgahagoda (Nilwala Ganga) | 0.45 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 10:01:48 | Kuda Oya (Kirindi Oya) | 1.42 | 🟢 Normal | 0.000 |  |
-| 2025-12-17 09:01:36 | Thanamalwila (Kirindi Oya) | 0.93 | 🟢 Normal | 0.000 |  |
+| 2025-12-17 10:12:34 | Thanamalwila (Kirindi Oya) | 0.93 | 🟢 Normal | 0.000 |  |
+| 2025-12-17 10:11:32 | Pitabeddara (Nilwala Ganga) | 0.72 | 🟢 Normal | -0.009 |  |
 | 2025-12-17 10:08:26 | Panadugama (Nilwala Ganga) | 2.71 | 🟢 Normal | -0.009 |  |
 | 2025-12-17 10:05:22 | Thaldena (Mahaweli Ganga) | 0.66 | 🟢 Normal | -0.010 |  |
 | 2025-12-17 10:09:49 | Magura (Kalu Ganga) | 1.47 | 🟢 Normal | -0.010 |  |
@@ -154,10 +155,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Galgamuwa](images/stations/galgamuwa.png)
 
-### Pitabeddara (Nilwala Ganga)
-
-![Pitabeddara](images/stations/pitabeddara.png)
-
 ### Padiyathalawa (Maduru Oya)
 
 ![Padiyathalawa](images/stations/padiyathalawa.png)
@@ -201,6 +198,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
+
+### Pitabeddara (Nilwala Ganga)
+
+![Pitabeddara](images/stations/pitabeddara.png)
 
 ### Panadugama (Nilwala Ganga)
 
