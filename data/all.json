@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1765993293,
+    "water_level_m": 1.38
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1765993286,
+    "water_level_m": 0.74
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1765993117,
+    "water_level_m": 2.38
+  },
+  {
     "station_name": "Wellawaya",
     "time_ut": 1765992968,
     "water_level_m": 0.95
