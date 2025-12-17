@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Horowpothana",
+    "time_ut": 1765929172,
+    "water_level_m": 6.06
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1765928863,
+    "water_level_m": 2.42
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1765928611,
     "water_level_m": 1.5
