@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--17_17:09:38-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--17_17:22:48-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **20,547 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **20,548 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-17 17:22:48 | Manampitiya (Mahaweli Ganga) | 2.10 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 17:09:38 | Galgamuwa (Mee Oya) | 0.61 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 17:09:21 | Horowpothana (Yan Oya) | 5.76 | 🟢 Normal | -0.096 |  |
 | 2025-12-17 17:08:08 | Urawa (Nilwala Ganga) | 0.48 | 🟢 Normal | 0.000 |  |
@@ -55,7 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-17 17:00:51 | Moragaswewa (Deduru Oya) | 1.57 | 🟢 Normal | -0.010 |  |
 | 2025-12-17 17:00:38 | Padiyathalawa (Maduru Oya) | 1.10 | 🟢 Normal | 0.165 | 🔺 Rising |
 | 2025-12-17 17:00:35 | Nakkala (Kumbukkan Oya) | 1.16 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2025-12-17 16:26:44 | Magura (Kalu Ganga) | 1.45 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -87,7 +87,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-17 17:03:27 | Moraketiya (Walawe Ganga) | 0.96 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 17:04:58 | Badalgama (Maha Oya) | 2.32 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 17:05:36 | Holombuwa (Kelani Ganga) | 0.59 | 🟢 Normal | 0.000 |  |
-| 2025-12-17 16:02:31 | Manampitiya (Mahaweli Ganga) | 2.10 | 🟢 Normal | 0.000 |  |
+| 2025-12-17 17:22:48 | Manampitiya (Mahaweli Ganga) | 2.10 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 17:03:04 | Rathnapura (Kalu Ganga) | 1.21 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 17:08:08 | Urawa (Nilwala Ganga) | 0.48 | 🟢 Normal | 0.000 |  |
 | 2025-12-17 17:07:18 | Dunamale (Aththanagalu Oya) | 1.18 | 🟢 Normal | -0.009 |  |
