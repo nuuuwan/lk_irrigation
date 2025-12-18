@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--18_19:14:52-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--18_19:33:07-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **21,530 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **21,533 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-18 19:33:07 | Horowpothana (Yan Oya) | 5.30 | 🟢 Normal | 0.000 |  |
+| 2025-12-18 19:32:51 | Horowpothana (Yan Oya) | 5.30 | 🟢 Normal | 0.000 |  |
+| 2025-12-18 19:26:40 | Katharagama (Menik Ganga) | 0.30 | 🟢 Normal | 0.007 | 🔺 Rising |
 | 2025-12-18 19:14:52 | Norwood (Kelani Ganga) | 0.71 | 🟢 Normal | 0.000 |  |
 | 2025-12-18 19:12:18 | Thanamalwila (Kirindi Oya) | 1.21 | 🟢 Normal | 1.135 | 🔺 Rising |
 | 2025-12-18 19:11:25 | Manampitiya (Mahaweli Ganga) | 4.73 | 🟠 Minor Flood | 0.064 | 🔺 Rising |
@@ -64,7 +67,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-18 19:12:18 | Thanamalwila (Kirindi Oya) | 1.21 | 🟢 Normal | 1.135 | 🔺 Rising |
 | 2025-12-18 19:01:48 | Ellagawa (Kalu Ganga) | 4.88 | 🟢 Normal | 0.180 | 🔺 Rising |
 | 2025-12-18 19:00:44 | Nawalapitiya (Mahaweli Ganga) | 1.05 | 🟢 Normal | 0.100 | 🔺 Rising |
-| 2025-12-18 18:02:23 | Katharagama (Menik Ganga) | 0.29 | 🟢 Normal | 0.097 | 🔺 Rising |
 | 2025-12-18 19:04:22 | Siyambalanduwa (Heda Oya) | 1.55 | 🟢 Normal | 0.086 | 🔺 Rising |
 | 2025-12-18 18:02:47 | Weraganthota (Mahaweli Ganga) | 1.45 | 🟢 Normal | 0.049 | 🔺 Rising |
 | 2025-12-18 19:07:43 | Padiyathalawa (Maduru Oya) | 2.35 | 🟢 Normal | 0.047 | 🔺 Rising |
@@ -78,9 +80,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-18 19:07:16 | Badalgama (Maha Oya) | 2.39 | 🟢 Normal | 0.019 | 🔺 Rising |
 | 2025-12-18 18:06:01 | Galgamuwa (Mee Oya) | 1.35 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2025-12-18 19:09:14 | Urawa (Nilwala Ganga) | 0.56 | 🟢 Normal | 0.010 | 🔺 Rising |
+| 2025-12-18 19:26:40 | Katharagama (Menik Ganga) | 0.30 | 🟢 Normal | 0.007 | 🔺 Rising |
 | 2025-12-18 19:02:42 | Wellawaya (Kirindi Oya) | 1.06 | 🟢 Normal | 0.000 |  |
 | 2025-12-18 19:02:21 | Moragaswewa (Deduru Oya) | 1.49 | 🟢 Normal | 0.000 |  |
-| 2025-12-18 18:04:11 | Horowpothana (Yan Oya) | 5.31 | 🟢 Normal | 0.000 |  |
+| 2025-12-18 19:33:07 | Horowpothana (Yan Oya) | 5.30 | 🟢 Normal | 0.000 |  |
 | 2025-12-18 19:02:23 | Magura (Kalu Ganga) | 1.33 | 🟢 Normal | 0.000 |  |
 | 2025-12-18 19:01:33 | Pitabeddara (Nilwala Ganga) | 0.71 | 🟢 Normal | 0.000 |  |
 | 2025-12-18 19:14:52 | Norwood (Kelani Ganga) | 0.71 | 🟢 Normal | 0.000 |  |
@@ -120,10 +123,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Nawalapitiya (Mahaweli Ganga)
 
 ![Nawalapitiya](images/stations/nawalapitiya.png)
-
-### Katharagama (Menik Ganga)
-
-![Katharagama](images/stations/katharagama.png)
 
 ### Siyambalanduwa (Heda Oya)
 
@@ -176,6 +175,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Urawa (Nilwala Ganga)
 
 ![Urawa](images/stations/urawa.png)
+
+### Katharagama (Menik Ganga)
+
+![Katharagama](images/stations/katharagama.png)
 
 ### Wellawaya (Kirindi Oya)
 
