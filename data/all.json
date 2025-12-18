@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1766030203,
+    "water_level_m": 0.99
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766029336,
+    "water_level_m": 2.68
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1766029283,
     "water_level_m": 0.46
