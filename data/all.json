@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1766040406,
+    "water_level_m": 1.36
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766040264,
+    "water_level_m": 2.67
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1766040133,
     "water_level_m": 0.46
