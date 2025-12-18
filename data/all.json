@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Rathnapura",
+    "time_ut": 1766051228,
+    "water_level_m": 1.19
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766051111,
+    "water_level_m": 2.64
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766050830,
+    "water_level_m": 1.42
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1766050828,
+    "water_level_m": 1.38
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1766050760,
+    "water_level_m": 1.18
+  },
+  {
     "station_name": "Thawalama",
     "time_ut": 1766050736,
     "water_level_m": 1.42
