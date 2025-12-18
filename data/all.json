@@ -1,6 +1,206 @@
 [
   {
     "station_name": "Urawa",
+    "time_ut": 1766061447,
+    "water_level_m": 0.55
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1766061429,
+    "water_level_m": 1.23
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1766061427,
+    "water_level_m": 0.5
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1766061395,
+    "water_level_m": 0.53
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766061384,
+    "water_level_m": 2.7
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1766061377,
+    "water_level_m": 5.4
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1766061376,
+    "water_level_m": 2.82
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1766061361,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766061346,
+    "water_level_m": 0.71
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1766061322,
+    "water_level_m": 4.66
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1766061316,
+    "water_level_m": 1.26
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766061297,
+    "water_level_m": 0.59
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1766061287,
+    "water_level_m": 1.37
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766061255,
+    "water_level_m": 1.33
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1766061251,
+    "water_level_m": 5.31
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1766061239,
+    "water_level_m": 2.37
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1766061225,
+    "water_level_m": 1.25
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1766061221,
+    "water_level_m": 1.52
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1766061215,
+    "water_level_m": 0.71
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1766061194,
+    "water_level_m": 2.14
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1766061193,
+    "water_level_m": 2.3
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1766061177,
+    "water_level_m": 1.06
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1766061167,
+    "water_level_m": 1.45
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1766061164,
+    "water_level_m": 0.45
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1766061164,
+    "water_level_m": 1.01
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1766061150,
+    "water_level_m": 0.57912
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1766061143,
+    "water_level_m": 0.29
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1766061130,
+    "water_level_m": 0.57912
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1766061128,
+    "water_level_m": 1.83
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766061126,
+    "water_level_m": 1.34
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1766061126,
+    "water_level_m": 1.49
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1766061107,
+    "water_level_m": 9.15
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1766061103,
+    "water_level_m": 0.58
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1766061098,
+    "water_level_m": 4.7
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1766061074,
+    "water_level_m": 1.46
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1766061050,
+    "water_level_m": 0.95
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1766061042,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1766061040,
+    "water_level_m": 1.13
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1766061022,
+    "water_level_m": 1.12
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1766061017,
+    "water_level_m": 2.52
+  },
+  {
+    "station_name": "Urawa",
     "time_ut": 1766058406,
     "water_level_m": 0.53
   },
