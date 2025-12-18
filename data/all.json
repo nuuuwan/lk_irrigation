@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766086270,
+    "water_level_m": 0.73
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1766086263,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1766086219,
+    "water_level_m": 1.37
+  },
+  {
     "station_name": "Thawalama",
     "time_ut": 1766083617,
     "water_level_m": 1.38
