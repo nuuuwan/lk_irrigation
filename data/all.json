@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766047780,
+    "water_level_m": 0.67
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1766047347,
+    "water_level_m": 1.48
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766047341,
+    "water_level_m": 2.64
+  },
+  {
     "station_name": "Dunamale",
     "time_ut": 1766047282,
     "water_level_m": 1.37
