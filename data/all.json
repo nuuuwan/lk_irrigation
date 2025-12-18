@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Baddegama",
+    "time_ut": 1766043653,
+    "water_level_m": 1.14
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1766043651,
+    "water_level_m": 1.14
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766043626,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1766043553,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1766043528,
+    "water_level_m": 1.37
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1766043479,
+    "water_level_m": 1.32
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766043433,
+    "water_level_m": 2.65
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1766043406,
+    "water_level_m": 9.13
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1766043369,
+    "water_level_m": 1.49
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1766043337,
     "water_level_m": 1.35
