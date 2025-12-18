@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--19_04:17:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--19_04:26:30-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **21,846 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **21,848 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **28** measurements in the last **1 hour**.*
+*There were **30** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-19 04:26:30 | Putupaula (Kalu Ganga) | 0.90 | 🟢 Normal | -0.071 |  |
+| 2025-12-19 04:19:15 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.30 | 🟢 Normal | -0.031 |  |
 | 2025-12-19 04:17:04 | Dunamale (Aththanagalu Oya) | 1.36 | 🟢 Normal | -0.009 |  |
 | 2025-12-19 04:12:01 | Glencourse (Kelani Ganga) | 9.19 | 🟢 Normal | 0.245 | 🔺 Rising |
 | 2025-12-19 04:10:15 | Katharagama (Menik Ganga) | 0.23 | 🟢 Normal | 0.000 |  |
@@ -63,7 +65,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-19 04:04:29 | Badalgama (Maha Oya) | 2.70 | 🟢 Normal | 0.042 | 🔺 Rising |
 | 2025-12-19 04:03:09 | Horowpothana (Yan Oya) | 5.77 | 🟢 Normal | 0.039 | 🔺 Rising |
 | 2025-12-19 04:02:29 | Hanwella (Kelani Ganga) | 1.04 | 🟢 Normal | 0.030 | 🔺 Rising |
-| 2025-12-19 03:10:37 | Putupaula (Kalu Ganga) | 0.99 | 🟢 Normal | 0.022 | 🔺 Rising |
 | 2025-12-19 03:01:13 | Moragaswewa (Deduru Oya) | 1.50 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2025-12-18 18:06:01 | Galgamuwa (Mee Oya) | 1.35 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2025-12-19 04:08:35 | Thalgahagoda (Nilwala Ganga) | 0.62 | 🟢 Normal | 0.010 | 🔺 Rising |
@@ -89,10 +90,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-19 04:00:40 | Thawalama (Gin Ganga) | 1.34 | 🟢 Normal | -0.011 |  |
 | 2025-12-19 04:03:14 | Peradeniya (Mahaweli Ganga) | 2.62 | 🟢 Normal | -0.021 |  |
 | 2025-12-19 02:09:20 | Deraniyagala (Kelani Ganga) | 0.45 | 🟢 Normal | -0.029 |  |
+| 2025-12-19 04:19:15 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.30 | 🟢 Normal | -0.031 |  |
 | 2025-12-19 03:03:18 | Padiyathalawa (Maduru Oya) | 1.80 | 🟢 Normal | -0.051 |  |
 | 2025-12-19 04:07:15 | Nakkala (Kumbukkan Oya) | 1.76 | 🟢 Normal | -0.057 |  |
 | 2025-12-19 04:04:34 | Siyambalanduwa (Heda Oya) | 1.25 | 🟢 Normal | -0.058 |  |
-| 2025-12-19 03:02:15 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.34 | 🟢 Normal | -0.078 |  |
+| 2025-12-19 04:26:30 | Putupaula (Kalu Ganga) | 0.90 | 🟢 Normal | -0.071 |  |
 
 ## River Water Level Charts by Station
 
@@ -131,10 +133,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Hanwella (Kelani Ganga)
 
 ![Hanwella](images/stations/hanwella.png)
-
-### Putupaula (Kalu Ganga)
-
-![Putupaula](images/stations/putupaula.png)
 
 ### Moragaswewa (Deduru Oya)
 
@@ -236,6 +234,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Deraniyagala](images/stations/deraniyagala.png)
 
+### Kalawellawa (Millakanda) (Kalu Ganga)
+
+![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
+
 ### Padiyathalawa (Maduru Oya)
 
 ![Padiyathalawa](images/stations/padiyathalawa.png)
@@ -248,9 +250,9 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Siyambalanduwa](images/stations/siyambalanduwa.png)
 
-### Kalawellawa (Millakanda) (Kalu Ganga)
+### Putupaula (Kalu Ganga)
 
-![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
+![Putupaula](images/stations/putupaula.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
