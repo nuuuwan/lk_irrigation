@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--19_09:13:51-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--19_09:19:10-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **22,039 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **22,040 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-19 09:19:10 | Horowpothana (Yan Oya) | 6.06 | 🟡 Alert | 0.031 | 🔺 Rising |
 | 2025-12-19 09:13:51 | Weraganthota (Mahaweli Ganga) | -0.05 | 🟢 Normal | -0.126 |  |
 | 2025-12-19 09:11:35 | Kithulgala (Kelani Ganga) | 1.80 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 09:10:05 | Magura (Kalu Ganga) | 1.30 | 🟢 Normal | 0.000 |  |
@@ -55,7 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-19 09:00:29 | Siyambalanduwa (Heda Oya) | 1.13 | 🟢 Normal | -0.051 |  |
 | 2025-12-19 09:00:13 | Thanamalwila (Kirindi Oya) | 1.10 | 🟢 Normal | -0.011 |  |
 | 2025-12-19 09:00:08 | Nawalapitiya (Mahaweli Ganga) | 0.96 | 🟢 Normal | 0.000 |  |
-| 2025-12-19 08:17:54 | Pitabeddara (Nilwala Ganga) | 0.72 | 🟢 Normal | -0.013 |  |
 
 ## Latest by Station
 
@@ -64,7 +64,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2025-12-19 09:04:18 | Manampitiya (Mahaweli Ganga) | 4.81 | 🟠 Minor Flood | -0.040 |  |
-| 2025-12-19 08:01:31 | Horowpothana (Yan Oya) | 6.02 | 🟡 Alert | 0.000 |  |
+| 2025-12-19 09:19:10 | Horowpothana (Yan Oya) | 6.06 | 🟡 Alert | 0.031 | 🔺 Rising |
 | 2025-12-19 09:02:37 | Thanthirimale (Malwathu Oya) | 5.35 | 🟡 Alert | 0.000 |  |
 | 2025-12-19 09:01:58 | Peradeniya (Mahaweli Ganga) | 2.79 | 🟢 Normal | 0.075 | 🔺 Rising |
 | 2025-12-19 09:06:30 | Holombuwa (Kelani Ganga) | 0.62 | 🟢 Normal | 0.020 | 🔺 Rising |
