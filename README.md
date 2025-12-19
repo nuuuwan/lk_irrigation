@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--19_17:13:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--19_17:29:52-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **22,353 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **22,354 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **41** measurements in the last **1 hour**.*
+*There were **42** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-19 17:29:52 | Pitabeddara (Nilwala Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 17:13:24 | Panadugama (Nilwala Ganga) | 2.67 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 17:13:07 | Horowpothana (Yan Oya) | 6.27 | 🟡 Alert | 0.000 |  |
 | 2025-12-19 17:09:42 | Magura (Kalu Ganga) | 1.28 | 🟢 Normal | 0.000 |  |
@@ -84,7 +85,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-19 17:03:38 | Giriulla (Maha Oya) | 1.39 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 17:09:33 | Galgamuwa (Mee Oya) | 1.86 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 17:09:42 | Magura (Kalu Ganga) | 1.28 | 🟢 Normal | 0.000 |  |
-| 2025-12-19 16:11:20 | Pitabeddara (Nilwala Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
+| 2025-12-19 17:29:52 | Pitabeddara (Nilwala Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 17:03:31 | Baddegama (Gin Ganga) | 1.10 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 17:13:24 | Panadugama (Nilwala Ganga) | 2.67 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 17:01:34 | Moraketiya (Walawe Ganga) | 0.92 | 🟢 Normal | 0.000 |  |
