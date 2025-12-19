@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1766141181,
+    "water_level_m": 4.46
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1766141027,
+    "water_level_m": 0.92
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766140910,
+    "water_level_m": 2.67
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766140880,
+    "water_level_m": 0.7
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766140772,
+    "water_level_m": 1.21
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766140752,
+    "water_level_m": 0.61
+  },
+  {
     "station_name": "Dunamale",
     "time_ut": 1766140658,
     "water_level_m": 1.3
