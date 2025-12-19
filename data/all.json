@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Moraketiya",
+    "time_ut": 1766159042,
+    "water_level_m": 0.92
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766158986,
+    "water_level_m": 2.66
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1766158815,
+    "water_level_m": 0.48768000000000006
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1766158700,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1766158674,
+    "water_level_m": 4.65
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1766158611,
+    "water_level_m": 2.61
+  },
+  {
     "station_name": "Putupaula",
     "time_ut": 1766158607,
     "water_level_m": 0.69
