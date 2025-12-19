@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--19_23:16:06-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--19_23:43:27-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **22,570 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **22,571 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-19 23:43:27 | Dunamale (Aththanagalu Oya) | 1.28 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 23:16:06 | Putupaula (Kalu Ganga) | 0.80 | 🟢 Normal | 0.046 | 🔺 Rising |
 | 2025-12-19 23:12:10 | Peradeniya (Mahaweli Ganga) | 2.58 | 🟢 Normal | -0.043 |  |
 | 2025-12-19 23:11:48 | Holombuwa (Kelani Ganga) | 0.60 | 🟢 Normal | 0.000 |  |
@@ -51,7 +52,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-19 23:01:38 | Kithulgala (Kelani Ganga) | 1.44 | 🟢 Normal | -0.040 |  |
 | 2025-12-19 23:00:47 | Wellawaya (Kirindi Oya) | 1.06 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 23:00:21 | Urawa (Nilwala Ganga) | 0.45 | 🟢 Normal | 0.000 |  |
-| 2025-12-19 22:34:06 | Dunamale (Aththanagalu Oya) | 1.28 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -79,7 +79,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-19 23:02:15 | Ellagawa (Kalu Ganga) | 4.65 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 23:02:57 | Baddegama (Gin Ganga) | 1.09 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 23:09:36 | Moraketiya (Walawe Ganga) | 0.92 | 🟢 Normal | 0.000 |  |
-| 2025-12-19 22:34:06 | Dunamale (Aththanagalu Oya) | 1.28 | 🟢 Normal | 0.000 |  |
+| 2025-12-19 23:43:27 | Dunamale (Aththanagalu Oya) | 1.28 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 23:03:50 | Thaldena (Mahaweli Ganga) | 0.99 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 23:02:54 | Badalgama (Maha Oya) | 2.61 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 23:11:48 | Holombuwa (Kelani Ganga) | 0.60 | 🟢 Normal | 0.000 |  |
