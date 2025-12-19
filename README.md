@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--19_19:12:56-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--19_19:23:28-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **22,429 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **22,430 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-19 19:23:28 | Giriulla (Maha Oya) | 1.39 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 19:12:56 | Padiyathalawa (Maduru Oya) | 2.20 | 🟢 Normal | -1080.000 |  |
 | 2025-12-19 19:12:55 | Padiyathalawa (Maduru Oya) | 2.50 | 🟢 Normal | -1080.000 |  |
 | 2025-12-19 19:12:00 | Badalgama (Maha Oya) | 2.62 | 🟢 Normal | 0.000 |  |
@@ -55,7 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-19 19:01:18 | Magura (Kalu Ganga) | 1.28 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 19:00:58 | Glencourse (Kelani Ganga) | 9.05 | 🟢 Normal | -0.031 |  |
 | 2025-12-19 19:00:39 | Horowpothana (Yan Oya) | 6.29 | 🟡 Alert | 0.011 | 🔺 Rising |
-| 2025-12-19 18:27:37 | Baddegama (Gin Ganga) | 1.10 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -74,7 +74,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-19 19:01:53 | Wellawaya (Kirindi Oya) | 1.06 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 19:03:12 | Nawalapitiya (Mahaweli Ganga) | 0.96 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 19:02:34 | Yaka Wewa (Ma Oya) | 0.98 | 🟢 Normal | 0.000 |  |
-| 2025-12-19 18:03:25 | Giriulla (Maha Oya) | 1.39 | 🟢 Normal | 0.000 |  |
+| 2025-12-19 19:23:28 | Giriulla (Maha Oya) | 1.39 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 18:03:13 | Galgamuwa (Mee Oya) | 1.86 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 19:01:18 | Magura (Kalu Ganga) | 1.28 | 🟢 Normal | 0.000 |  |
 | 2025-12-19 19:08:25 | Pitabeddara (Nilwala Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
