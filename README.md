@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--20_23:22:52-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--20_23:37:39-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **23,467 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **23,468 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-20 23:37:39 | Glencourse (Kelani Ganga) | 8.86 | 🟢 Normal | -0.020 |  |
 | 2025-12-20 23:22:52 | Horowpothana (Yan Oya) | 6.16 | 🟡 Alert | -0.015 |  |
 | 2025-12-20 23:16:22 | Siyambalanduwa (Heda Oya) | 1.05 | 🟢 Normal | 0.000 |  |
 | 2025-12-20 23:13:42 | Peradeniya (Mahaweli Ganga) | 2.60 | 🟢 Normal | 0.000 |  |
@@ -93,7 +94,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-20 23:04:09 | Thanamalwila (Kirindi Oya) | 1.04 | 🟢 Normal | 0.000 |  |
 | 2025-12-20 23:03:16 | Hanwella (Kelani Ganga) | 0.78 | 🟢 Normal | -0.010 |  |
 | 2025-12-20 23:02:16 | Badalgama (Maha Oya) | 2.40 | 🟢 Normal | -0.010 |  |
-| 2025-12-20 22:06:41 | Glencourse (Kelani Ganga) | 8.89 | 🟢 Normal | -0.018 |  |
+| 2025-12-20 23:37:39 | Glencourse (Kelani Ganga) | 8.86 | 🟢 Normal | -0.020 |  |
 | 2025-12-20 21:01:08 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.87 | 🟢 Normal | -0.020 |  |
 | 2025-12-20 23:01:56 | Dunamale (Aththanagalu Oya) | 0.97 | 🟢 Normal | -0.034 |  |
 | 2025-12-20 23:01:08 | Kithulgala (Kelani Ganga) | 1.55 | 🟢 Normal | -0.040 |  |
