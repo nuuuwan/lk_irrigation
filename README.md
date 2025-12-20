@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--21_01:12:30-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--21_01:28:10-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **23,531 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **23,532 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **31** measurements in the last **1 hour**.*
+*There were **30** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-21 01:28:10 | Siyambalanduwa (Heda Oya) | 1.04 | 🟢 Normal | 0.000 |  |
 | 2025-12-21 01:12:30 | Moraketiya (Walawe Ganga) | 0.95 | 🟢 Normal | 0.000 |  |
 | 2025-12-21 01:08:26 | Thanamalwila (Kirindi Oya) | 1.03 | 🟢 Normal | 0.000 |  |
 | 2025-12-21 01:07:23 | Manampitiya (Mahaweli Ganga) | 3.41 | 🟡 Alert | -0.010 |  |
@@ -48,8 +49,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-21 01:01:15 | Kuda Oya (Kirindi Oya) | 1.38 | 🟢 Normal | 0.000 |  |
 | 2025-12-21 01:01:05 | Badalgama (Maha Oya) | 2.39 | 🟢 Normal | 0.000 |  |
 | 2025-12-21 00:33:46 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.80 | 🟢 Normal | -0.063 |  |
-| 2025-12-21 00:20:53 | Thalgahagoda (Nilwala Ganga) | 0.59 | 🟢 Normal | 0.027 | 🔺 Rising |
-| 2025-12-21 00:18:48 | Urawa (Nilwala Ganga) | 0.79 | 🟢 Normal | 0.013 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -83,6 +82,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-21 01:04:25 | Baddegama (Gin Ganga) | 1.19 | 🟢 Normal | 0.000 |  |
 | 2025-12-21 00:06:21 | Padiyathalawa (Maduru Oya) | 1.39 | 🟢 Normal | 0.000 |  |
 | 2025-12-21 01:12:30 | Moraketiya (Walawe Ganga) | 0.95 | 🟢 Normal | 0.000 |  |
+| 2025-12-21 01:28:10 | Siyambalanduwa (Heda Oya) | 1.04 | 🟢 Normal | 0.000 |  |
 | 2025-12-21 01:02:42 | Dunamale (Aththanagalu Oya) | 0.95 | 🟢 Normal | 0.000 |  |
 | 2025-12-21 01:02:12 | Katharagama (Menik Ganga) | 0.01 | 🟢 Normal | 0.000 |  |
 | 2025-12-21 01:01:05 | Badalgama (Maha Oya) | 2.39 | 🟢 Normal | 0.000 |  |
@@ -91,7 +91,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-21 01:08:26 | Thanamalwila (Kirindi Oya) | 1.03 | 🟢 Normal | 0.000 |  |
 | 2025-12-21 01:01:39 | Yaka Wewa (Ma Oya) | 0.88 | 🟢 Normal | -0.010 |  |
 | 2025-12-21 01:03:05 | Moragaswewa (Deduru Oya) | 1.75 | 🟢 Normal | -0.010 |  |
-| 2025-12-21 00:02:20 | Siyambalanduwa (Heda Oya) | 1.04 | 🟢 Normal | -0.013 |  |
 | 2025-12-21 01:05:11 | Rathnapura (Kalu Ganga) | 2.21 | 🟢 Normal | -0.020 |  |
 | 2025-12-21 01:02:55 | Thawalama (Gin Ganga) | 1.61 | 🟢 Normal | -0.020 |  |
 | 2025-12-21 01:01:38 | Peradeniya (Mahaweli Ganga) | 2.52 | 🟢 Normal | -0.029 |  |
@@ -203,6 +202,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Moraketiya](images/stations/moraketiya.png)
 
+### Siyambalanduwa (Heda Oya)
+
+![Siyambalanduwa](images/stations/siyambalanduwa.png)
+
 ### Dunamale (Aththanagalu Oya)
 
 ![Dunamale](images/stations/dunamale.png)
@@ -234,10 +237,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Moragaswewa (Deduru Oya)
 
 ![Moragaswewa](images/stations/moragaswewa.png)
-
-### Siyambalanduwa (Heda Oya)
-
-![Siyambalanduwa](images/stations/siyambalanduwa.png)
 
 ### Rathnapura (Kalu Ganga)
 
