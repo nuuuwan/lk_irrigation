@@ -1,5 +1,55 @@
 [
   {
+    "station_name": "Weraganthota",
+    "time_ut": 1766192719,
+    "water_level_m": -0.32
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1766192499,
+    "water_level_m": 1.77
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1766191346,
+    "water_level_m": 0.54864
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1766191342,
+    "water_level_m": 1.6
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1766191340,
+    "water_level_m": 1.53
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1766191339,
+    "water_level_m": 1.48
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766191314,
+    "water_level_m": 1.34
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1766191303,
+    "water_level_m": 2.22
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766191197,
+    "water_level_m": 0.58
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1766191184,
+    "water_level_m": 0.95
+  },
+  {
     "station_name": "Glencourse",
     "time_ut": 1766191113,
     "water_level_m": 9.07
