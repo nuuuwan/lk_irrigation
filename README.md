@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--20_10:12:56-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--20_10:29:15-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **22,976 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **22,977 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-20 10:29:15 | Moragaswewa (Deduru Oya) | 1.78 | 🟢 Normal | 0.000 |  |
 | 2025-12-20 10:12:56 | Panadugama (Nilwala Ganga) | 2.59 | 🟢 Normal | -0.009 |  |
 | 2025-12-20 10:12:06 | Dunamale (Aththanagalu Oya) | 1.23 | 🟢 Normal | 0.000 |  |
 | 2025-12-20 10:09:56 | Nagalagam Street (Kelani Ganga) | 0.40 | 🟢 Normal | -0.029 |  |
@@ -56,7 +57,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-20 10:01:39 | Siyambalanduwa (Heda Oya) | 1.02 | 🟢 Normal | -0.010 |  |
 | 2025-12-20 10:00:45 | Moraketiya (Walawe Ganga) | 0.97 | 🟢 Normal | 0.000 |  |
 | 2025-12-20 09:59:57 | Thalgahagoda (Nilwala Ganga) | 0.41 | 🟢 Normal | -0.047 |  |
-| 2025-12-20 09:23:40 | Padiyathalawa (Maduru Oya) | 1.68 | 🟢 Normal | 0.030 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -72,7 +72,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-20 10:03:30 | Padiyathalawa (Maduru Oya) | 1.70 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2025-12-20 10:05:40 | Peradeniya (Mahaweli Ganga) | 2.62 | 🟢 Normal | 0.022 | 🔺 Rising |
 | 2025-12-20 10:01:54 | Wellawaya (Kirindi Oya) | 1.07 | 🟢 Normal | 0.000 |  |
-| 2025-12-20 09:01:33 | Moragaswewa (Deduru Oya) | 1.78 | 🟢 Normal | 0.000 |  |
+| 2025-12-20 10:29:15 | Moragaswewa (Deduru Oya) | 1.78 | 🟢 Normal | 0.000 |  |
 | 2025-12-20 10:01:42 | Yaka Wewa (Ma Oya) | 0.90 | 🟢 Normal | 0.000 |  |
 | 2025-12-20 10:05:16 | Magura (Kalu Ganga) | 1.23 | 🟢 Normal | 0.000 |  |
 | 2025-12-20 10:04:41 | Pitabeddara (Nilwala Ganga) | 0.69 | 🟢 Normal | 0.000 |  |
