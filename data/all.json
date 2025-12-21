@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Rathnapura",
+    "time_ut": 1766321884,
+    "water_level_m": 1.22
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1766320708,
     "water_level_m": 0.98
