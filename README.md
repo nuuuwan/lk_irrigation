@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--22_04:12:40-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--22_04:20:55-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **24,477 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **24,480 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **29** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-22 04:20:55 | Moragaswewa (Deduru Oya) | 1.27 | 🟢 Normal | 0.000 |  |
+| 2025-12-22 04:19:26 | Urawa (Nilwala Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
+| 2025-12-22 04:18:02 | Kuda Oya (Kirindi Oya) | 1.40 | 🟢 Normal | 0.014 | 🔺 Rising |
 | 2025-12-22 04:12:40 | Thanamalwila (Kirindi Oya) | 1.02 | 🟢 Normal | 0.000 |  |
 | 2025-12-22 04:10:56 | Rathnapura (Kalu Ganga) | 1.12 | 🟢 Normal | -0.011 |  |
 | 2025-12-22 04:10:24 | Glencourse (Kelani Ganga) | 8.92 | 🟢 Normal | -0.053 |  |
@@ -56,19 +59,19 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2025-12-21 18:02:20 | Weraganthota (Mahaweli Ganga) | -0.95 | 🟢 Normal | 0.073 | 🔺 Rising |
+| 2025-12-22 04:18:02 | Kuda Oya (Kirindi Oya) | 1.40 | 🟢 Normal | 0.014 | 🔺 Rising |
 | 2025-12-22 03:35:16 | Putupaula (Kalu Ganga) | 0.84 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2025-12-22 04:08:43 | Hanwella (Kelani Ganga) | 0.68 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2025-12-22 04:04:40 | Norwood (Kelani Ganga) | 0.69 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2025-12-22 04:01:21 | Wellawaya (Kirindi Oya) | 1.06 | 🟢 Normal | 0.000 |  |
-| 2025-12-22 03:00:50 | Moragaswewa (Deduru Oya) | 1.27 | 🟢 Normal | 0.000 |  |
+| 2025-12-22 04:20:55 | Moragaswewa (Deduru Oya) | 1.27 | 🟢 Normal | 0.000 |  |
 | 2025-12-22 03:01:58 | Nawalapitiya (Mahaweli Ganga) | 0.90 | 🟢 Normal | 0.000 |  |
 | 2025-12-22 04:01:45 | Yaka Wewa (Ma Oya) | 0.82 | 🟢 Normal | 0.000 |  |
 | 2025-12-22 03:11:18 | Pitabeddara (Nilwala Ganga) | 0.87 | 🟢 Normal | 0.000 |  |
 | 2025-12-22 04:01:28 | Nagalagam Street (Kelani Ganga) | 0.73 | 🟢 Normal | 0.000 |  |
 | 2025-12-22 04:03:37 | Moraketiya (Walawe Ganga) | 0.97 | 🟢 Normal | 0.000 |  |
 | 2025-12-22 04:07:42 | Holombuwa (Kelani Ganga) | 0.50 | 🟢 Normal | 0.000 |  |
-| 2025-12-22 03:02:14 | Urawa (Nilwala Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
-| 2025-12-22 02:08:21 | Kuda Oya (Kirindi Oya) | 1.37 | 🟢 Normal | 0.000 |  |
+| 2025-12-22 04:19:26 | Urawa (Nilwala Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2025-12-22 04:12:40 | Thanamalwila (Kirindi Oya) | 1.02 | 🟢 Normal | 0.000 |  |
 | 2025-12-22 04:03:43 | Padiyathalawa (Maduru Oya) | 1.33 | 🟢 Normal | -0.006 |  |
 | 2025-12-22 04:08:45 | Deraniyagala (Kelani Ganga) | 0.37 | 🟢 Normal | -0.009 |  |
@@ -100,6 +103,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Weraganthota (Mahaweli Ganga)
 
 ![Weraganthota](images/stations/weraganthota.png)
+
+### Kuda Oya (Kirindi Oya)
+
+![Kuda Oya](images/stations/kuda-oya.png)
 
 ### Putupaula (Kalu Ganga)
 
@@ -148,10 +155,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Urawa (Nilwala Ganga)
 
 ![Urawa](images/stations/urawa.png)
-
-### Kuda Oya (Kirindi Oya)
-
-![Kuda Oya](images/stations/kuda-oya.png)
 
 ### Thanamalwila (Kirindi Oya)
 
