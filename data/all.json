@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1766295692,
+    "water_level_m": 0.92
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1766295653,
+    "water_level_m": 8.95
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766295561,
+    "water_level_m": 3.78
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1766295555,
+    "water_level_m": 0.57
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766295554,
+    "water_level_m": 1.7
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766295503,
+    "water_level_m": 0.58
+  },
+  {
     "station_name": "Siyambalanduwa",
     "time_ut": 1766295387,
     "water_level_m": 0.97
