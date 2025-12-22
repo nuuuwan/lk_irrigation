@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1766411414,
+    "water_level_m": 1.44
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1766411407,
+    "water_level_m": 2.3
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766411322,
+    "water_level_m": 2.66
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1766411194,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1766411179,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1766410948,
+    "water_level_m": 1.11
+  },
+  {
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1766410940,
     "water_level_m": 1.77
