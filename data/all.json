@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Norwood",
+    "time_ut": 1766423177,
+    "water_level_m": 0.64
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1766423000,
+    "water_level_m": 2.0
+  },
+  {
     "station_name": "Peradeniya",
     "time_ut": 1766422096,
     "water_level_m": 2.64
