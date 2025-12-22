@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--23_01:12:23-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--23_01:29:10-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **25,272 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **25,274 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **27** measurements in the last **1 hour**.*
+*There were **26** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-23 01:29:10 | Glencourse (Kelani Ganga) | 9.00 | 🟢 Normal | 0.045 | 🔺 Rising |
+| 2025-12-23 01:23:27 | Wellawaya (Kirindi Oya) | 1.06 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 01:12:23 | Putupaula (Kalu Ganga) | 0.64 | 🟢 Normal | 0.223 | 🔺 Rising |
 | 2025-12-23 01:11:27 | Baddegama (Gin Ganga) | 1.13 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 01:07:45 | Thanamalwila (Kirindi Oya) | 1.02 | 🟢 Normal | 0.000 |  |
@@ -43,9 +45,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-23 01:01:16 | Moragaswewa (Deduru Oya) | 0.93 | 🟢 Normal | -0.020 |  |
 | 2025-12-23 01:01:15 | Nawalapitiya (Mahaweli Ganga) | 0.91 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 00:45:29 | Putupaula (Kalu Ganga) | 0.54 | 🟢 Normal | 0.223 | 🔺 Rising |
-| 2025-12-23 00:21:52 | Glencourse (Kelani Ganga) | 8.95 | 🟢 Normal | 0.116 | 🔺 Rising |
-| 2025-12-23 00:19:54 | Nagalagam Street (Kelani Ganga) | 0.52 | 🟢 Normal | 0.070 | 🔺 Rising |
-| 2025-12-23 00:18:46 | Holombuwa (Kelani Ganga) | 0.53 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -55,13 +54,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | --- | --- | ---: | --- | ---: | --- |
 | 2025-12-23 01:12:23 | Putupaula (Kalu Ganga) | 0.64 | 🟢 Normal | 0.223 | 🔺 Rising |
 | 2025-12-22 22:33:20 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.00 | 🟢 Normal | 0.141 | 🔺 Rising |
-| 2025-12-23 00:21:52 | Glencourse (Kelani Ganga) | 8.95 | 🟢 Normal | 0.116 | 🔺 Rising |
 | 2025-12-23 00:19:54 | Nagalagam Street (Kelani Ganga) | 0.52 | 🟢 Normal | 0.070 | 🔺 Rising |
+| 2025-12-23 01:29:10 | Glencourse (Kelani Ganga) | 9.00 | 🟢 Normal | 0.045 | 🔺 Rising |
 | 2025-12-23 01:06:23 | Magura (Kalu Ganga) | 1.28 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2025-12-23 00:04:39 | Thawalama (Gin Ganga) | 1.57 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2025-12-23 01:01:47 | Peradeniya (Mahaweli Ganga) | 2.64 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2025-12-23 01:03:37 | Kithulgala (Kelani Ganga) | 1.47 | 🟢 Normal | 0.000 |  |
-| 2025-12-23 00:01:02 | Wellawaya (Kirindi Oya) | 1.06 | 🟢 Normal | 0.000 |  |
+| 2025-12-23 01:23:27 | Wellawaya (Kirindi Oya) | 1.06 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 01:01:32 | Nakkala (Kumbukkan Oya) | 1.19 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 01:01:15 | Nawalapitiya (Mahaweli Ganga) | 0.91 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 01:04:25 | Giriulla (Maha Oya) | 1.10 | 🟢 Normal | 0.000 |  |
@@ -103,13 +102,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
 
-### Glencourse (Kelani Ganga)
-
-![Glencourse](images/stations/glencourse.png)
-
 ### Nagalagam Street (Kelani Ganga)
 
 ![Nagalagam Street](images/stations/nagalagam-street.png)
+
+### Glencourse (Kelani Ganga)
+
+![Glencourse](images/stations/glencourse.png)
 
 ### Magura (Kalu Ganga)
 
