@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -52,9 +52,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-23 02:01:09 | Nawalapitiya (Mahaweli Ganga) | 0.90 | 🟢 Normal | -0.010 |  |
 | 2025-12-23 02:01:00 | Ellagawa (Kalu Ganga) | 4.54 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 02:00:35 | Kithulgala (Kelani Ganga) | 1.44 | 🟢 Normal | -0.032 |  |
-| 2025-12-23 01:50:26 | Thawalama (Gin Ganga) | 1.59 | 🟢 Normal | 0.143 | 🔺 Rising |
-| 2025-12-23 01:44:00 | Urawa (Nilwala Ganga) | 0.37 | 🟢 Normal | 0.000 |  |
-| 2025-12-23 01:42:22 | Ellagawa (Kalu Ganga) | 4.54 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
