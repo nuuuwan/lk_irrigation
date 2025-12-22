@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1766382573,
+    "water_level_m": 1.23
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1766382572,
+    "water_level_m": 0.65
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1766382073,
+    "water_level_m": 0.4
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1766381992,
+    "water_level_m": 1.29
+  },
+  {
     "station_name": "Peradeniya",
     "time_ut": 1766381839,
     "water_level_m": 2.31
