@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1766400427,
+    "water_level_m": 2.67
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1766400363,
+    "water_level_m": 1.23
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1766400323,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1766399958,
+    "water_level_m": 0.01
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766399918,
+    "water_level_m": 1.2
+  },
+  {
     "station_name": "Galgamuwa",
     "time_ut": 1766399843,
     "water_level_m": 1.08
