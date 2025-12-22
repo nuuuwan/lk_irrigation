@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Katharagama",
+    "time_ut": 1766425262,
+    "water_level_m": -0.03
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1766425072,
+    "water_level_m": 0.42
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1766425034,
+    "water_level_m": 0.83
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766424995,
+    "water_level_m": 0.53
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1766424991,
+    "water_level_m": 1.02
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766424970,
+    "water_level_m": 0.65
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1766424851,
     "water_level_m": 1.05
