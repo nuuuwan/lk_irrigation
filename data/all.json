@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1766404075,
+    "water_level_m": 0.64
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766404021,
+    "water_level_m": 1.19
+  },
+  {
     "station_name": "Thawalama",
     "time_ut": 1766403877,
     "water_level_m": 1.35
