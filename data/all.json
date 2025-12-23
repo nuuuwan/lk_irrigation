@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Putupaula",
+    "time_ut": 1766520078,
+    "water_level_m": 0.53
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1766519446,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1766519364,
+    "water_level_m": 1.02
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1766519253,
+    "water_level_m": 0.58
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766519240,
+    "water_level_m": 1.35
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1766519036,
     "water_level_m": 1.25
