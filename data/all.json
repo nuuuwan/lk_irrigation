@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Horowpothana",
+    "time_ut": 1766505702,
+    "water_level_m": 2.39
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1766504954,
+    "water_level_m": 0.71
+  },
+  {
     "station_name": "Peradeniya",
     "time_ut": 1766504471,
     "water_level_m": 2.53
