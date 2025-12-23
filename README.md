@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--23_15:06:03-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--23_15:16:26-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **25,799 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **25,801 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-23 15:16:26 | Rathnapura (Kalu Ganga) | 0.99 | 🟢 Normal | 0.000 |  |
+| 2025-12-23 15:09:36 | Panadugama (Nilwala Ganga) | 2.61 | 🟢 Normal | -0.009 |  |
 | 2025-12-23 15:06:03 | Manampitiya (Mahaweli Ganga) | 2.26 | 🟢 Normal | -0.060 |  |
 | 2025-12-23 15:05:39 | Holombuwa (Kelani Ganga) | 0.43 | 🟢 Normal | -0.045 |  |
 | 2025-12-23 15:05:22 | Baddegama (Gin Ganga) | 1.25 | 🟢 Normal | -0.010 |  |
@@ -56,7 +58,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-23 15:00:07 | Nakkala (Kumbukkan Oya) | 1.17 | 🟢 Normal | -0.010 |  |
 | 2025-12-23 14:51:01 | Horowpothana (Yan Oya) | 2.56 | 🟢 Normal | -0.299 |  |
 | 2025-12-23 14:24:05 | Thalgahagoda (Nilwala Ganga) | 0.46 | 🟢 Normal | 0.060 | 🔺 Rising |
-| 2025-12-23 14:12:21 | Holombuwa (Kelani Ganga) | 0.47 | 🟢 Normal | -0.045 |  |
 
 ## Latest by Station
 
@@ -78,13 +79,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-23 15:02:17 | Norwood (Kelani Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 15:03:24 | Hanwella (Kelani Ganga) | 0.65 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 15:01:25 | Ellagawa (Kalu Ganga) | 4.46 | 🟢 Normal | 0.000 |  |
-| 2025-12-23 14:06:21 | Panadugama (Nilwala Ganga) | 2.62 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 15:03:39 | Padiyathalawa (Maduru Oya) | 1.10 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 15:01:51 | Dunamale (Aththanagalu Oya) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 15:05:09 | Badalgama (Maha Oya) | 2.21 | 🟢 Normal | 0.000 |  |
-| 2025-12-23 14:06:31 | Rathnapura (Kalu Ganga) | 0.99 | 🟢 Normal | 0.000 |  |
+| 2025-12-23 15:16:26 | Rathnapura (Kalu Ganga) | 0.99 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 15:05:10 | Urawa (Nilwala Ganga) | 0.35 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 15:02:24 | Kuda Oya (Kirindi Oya) | 1.35 | 🟢 Normal | 0.000 |  |
+| 2025-12-23 15:09:36 | Panadugama (Nilwala Ganga) | 2.61 | 🟢 Normal | -0.009 |  |
 | 2025-12-23 15:05:22 | Baddegama (Gin Ganga) | 1.25 | 🟢 Normal | -0.010 |  |
 | 2025-12-23 15:03:55 | Glencourse (Kelani Ganga) | 8.82 | 🟢 Normal | -0.010 |  |
 | 2025-12-23 15:01:52 | Moraketiya (Walawe Ganga) | 0.95 | 🟢 Normal | -0.010 |  |
@@ -162,10 +163,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Ellagawa](images/stations/ellagawa.png)
 
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
-
 ### Padiyathalawa (Maduru Oya)
 
 ![Padiyathalawa](images/stations/padiyathalawa.png)
@@ -189,6 +186,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kuda Oya (Kirindi Oya)
 
 ![Kuda Oya](images/stations/kuda-oya.png)
+
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
 
 ### Baddegama (Gin Ganga)
 
