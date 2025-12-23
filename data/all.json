@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Galgamuwa",
+    "time_ut": 1766468746,
+    "water_level_m": 0.51
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766468556,
+    "water_level_m": 2.62
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1766468340,
+    "water_level_m": 1.28
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1766468135,
     "water_level_m": 1.0
