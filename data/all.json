@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1766521075,
+    "water_level_m": 0.84
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1766520486,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1766520275,
+    "water_level_m": 2.18
+  },
+  {
     "station_name": "Putupaula",
     "time_ut": 1766520078,
     "water_level_m": 0.53
