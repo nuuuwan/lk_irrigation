@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1766530858,
+    "water_level_m": 0.73
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766530514,
+    "water_level_m": 1.04
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766530404,
+    "water_level_m": 1.23
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766530402,
+    "water_level_m": 1.24
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1766530392,
+    "water_level_m": 0.94
+  },
+  {
     "station_name": "Yaka Wewa",
     "time_ut": 1766529957,
     "water_level_m": 0.72
