@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1766518336,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1766518283,
+    "water_level_m": 2.38
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1766518273,
+    "water_level_m": 2.5
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1766518272,
+    "water_level_m": 4.4
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1766518270,
+    "water_level_m": 0.7
+  },
+  {
     "station_name": "Horowpothana",
     "time_ut": 1766517363,
     "water_level_m": 2.38
