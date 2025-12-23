@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--24_02:17:51-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--24_02:20:05-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **26,191 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **26,195 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,14 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-24 02:20:05 | Thaldena (Mahaweli Ganga) | 0.74 | 🟢 Normal | -18.000 |  |
+| 2025-12-24 02:20:03 | Thaldena (Mahaweli Ganga) | 0.75 | 🟢 Normal | -18.000 |  |
+| 2025-12-24 02:20:02 | Thaldena (Mahaweli Ganga) | 0.76 | 🟢 Normal | -18.000 |  |
+| 2025-12-24 02:20:01 | Thaldena (Mahaweli Ganga) | 0.76 | 🟢 Normal | -18.000 |  |
 | 2025-12-24 02:17:51 | Thalgahagoda (Nilwala Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
 | 2025-12-24 02:17:50 | Thalgahagoda (Nilwala Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
 | 2025-12-24 02:17:48 | Thalgahagoda (Nilwala Ganga) | 0.50 | 🟢 Normal | 0.000 |  |
@@ -54,8 +58,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-24 01:47:55 | Dunamale (Aththanagalu Oya) | 0.84 | 🟢 Normal | 0.000 |  |
 | 2025-12-24 01:38:06 | Yaka Wewa (Ma Oya) | 0.72 | 🟢 Normal | -0.007 |  |
 | 2025-12-24 01:34:35 | Badalgama (Maha Oya) | 2.18 | 🟢 Normal | 0.000 |  |
-| 2025-12-24 01:31:18 | Putupaula (Kalu Ganga) | 0.53 | 🟢 Normal | 0.099 | 🔺 Rising |
-| 2025-12-24 01:20:46 | Rathnapura (Kalu Ganga) | 0.97 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -83,7 +85,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-24 01:19:24 | Padiyathalawa (Maduru Oya) | 1.02 | 🟢 Normal | 0.000 |  |
 | 2025-12-24 00:04:39 | Moraketiya (Walawe Ganga) | 0.93 | 🟢 Normal | 0.000 |  |
 | 2025-12-24 01:47:55 | Dunamale (Aththanagalu Oya) | 0.84 | 🟢 Normal | 0.000 |  |
-| 2025-12-23 22:00:48 | Thaldena (Mahaweli Ganga) | 0.76 | 🟢 Normal | 0.000 |  |
 | 2025-12-24 02:02:09 | Katharagama (Menik Ganga) | -0.18 | 🟢 Normal | 0.000 |  |
 | 2025-12-24 01:34:35 | Badalgama (Maha Oya) | 2.18 | 🟢 Normal | 0.000 |  |
 | 2025-12-24 02:04:04 | Rathnapura (Kalu Ganga) | 0.97 | 🟢 Normal | 0.000 |  |
@@ -101,6 +102,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-24 01:01:12 | Ellagawa (Kalu Ganga) | 4.40 | 🟢 Normal | -0.020 |  |
 | 2025-12-24 02:01:44 | Peradeniya (Mahaweli Ganga) | 2.47 | 🟢 Normal | -0.030 |  |
 | 2025-12-24 02:05:08 | Deraniyagala (Kelani Ganga) | 0.25 | 🟢 Normal | -0.084 |  |
+| 2025-12-24 02:20:05 | Thaldena (Mahaweli Ganga) | 0.74 | 🟢 Normal | -18.000 |  |
 | 2025-12-24 02:08:05 | Glencourse (Kelani Ganga) | 8.72 | 🟢 Normal | -108.000 |  |
 
 ## River Water Level Charts by Station
@@ -185,10 +187,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Dunamale](images/stations/dunamale.png)
 
-### Thaldena (Mahaweli Ganga)
-
-![Thaldena](images/stations/thaldena.png)
-
 ### Katharagama (Menik Ganga)
 
 ![Katharagama](images/stations/katharagama.png)
@@ -256,6 +254,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Deraniyagala (Kelani Ganga)
 
 ![Deraniyagala](images/stations/deraniyagala.png)
+
+### Thaldena (Mahaweli Ganga)
+
+![Thaldena](images/stations/thaldena.png)
 
 ### Glencourse (Kelani Ganga)
 
