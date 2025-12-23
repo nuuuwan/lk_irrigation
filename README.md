@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--23_12:11:18-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--23_12:17:46-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **25,685 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **25,686 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-23 12:17:46 | Dunamale (Aththanagalu Oya) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 12:11:18 | Baddegama (Gin Ganga) | 1.27 | 🟢 Normal | -0.010 |  |
 | 2025-12-23 12:08:29 | Thanthirimale (Malwathu Oya) | 3.30 | 🟢 Normal | -0.038 |  |
 | 2025-12-23 12:07:08 | Yaka Wewa (Ma Oya) | 0.74 | 🟢 Normal | 0.000 |  |
@@ -55,7 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-23 12:00:40 | Moragaswewa (Deduru Oya) | 0.71 | 🟢 Normal | -0.010 |  |
 | 2025-12-23 12:00:28 | Horowpothana (Yan Oya) | 2.63 | 🟢 Normal | -0.032 |  |
 | 2025-12-23 12:00:08 | Nakkala (Kumbukkan Oya) | 1.18 | 🟢 Normal | 0.000 |  |
-| 2025-12-23 11:15:46 | Galgamuwa (Mee Oya) | 0.51 | 🟢 Normal | -0.012 |  |
 
 ## Latest by Station
 
@@ -77,7 +77,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-23 12:03:34 | Glencourse (Kelani Ganga) | 8.84 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 12:05:12 | Moraketiya (Walawe Ganga) | 0.98 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 12:04:33 | Siyambalanduwa (Heda Oya) | 0.83 | 🟢 Normal | 0.000 |  |
-| 2025-12-23 11:03:32 | Dunamale (Aththanagalu Oya) | 0.85 | 🟢 Normal | 0.000 |  |
+| 2025-12-23 12:17:46 | Dunamale (Aththanagalu Oya) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 12:05:52 | Badalgama (Maha Oya) | 2.21 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 12:01:55 | Rathnapura (Kalu Ganga) | 1.00 | 🟢 Normal | 0.000 |  |
 | 2025-12-23 12:02:46 | Urawa (Nilwala Ganga) | 0.35 | 🟢 Normal | 0.000 |  |
