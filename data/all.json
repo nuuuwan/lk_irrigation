@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Giriulla",
+    "time_ut": 1766465943,
+    "water_level_m": 1.08
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766465165,
+    "water_level_m": 1.5
+  },
+  {
     "station_name": "Kithulgala",
     "time_ut": 1766464798,
     "water_level_m": 1.35
