@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Ellagawa",
+    "time_ut": 1766584191,
+    "water_level_m": 4.82
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766584169,
+    "water_level_m": 3.53
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1766584142,
+    "water_level_m": 4.83
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1766583728,
+    "water_level_m": 2.15
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766583666,
+    "water_level_m": 1.28
+  },
+  {
     "station_name": "Thaldena",
     "time_ut": 1766583523,
     "water_level_m": 0.72
