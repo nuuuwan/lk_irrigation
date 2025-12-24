@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1766616498,
+    "water_level_m": 0.83
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766616154,
+    "water_level_m": 2.04
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766616056,
+    "water_level_m": 2.4
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1766616039,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766616025,
+    "water_level_m": 2.42
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1766615887,
+    "water_level_m": 0.76
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766615776,
+    "water_level_m": 3.1
+  },
+  {
     "station_name": "Moragaswewa",
     "time_ut": 1766615759,
     "water_level_m": 0.66
