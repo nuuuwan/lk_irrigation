@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1766611004,
+    "water_level_m": 2.5
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766610912,
+    "water_level_m": 0.5
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1766610738,
+    "water_level_m": 0.8
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1766610659,
+    "water_level_m": 0.67
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766610359,
+    "water_level_m": 1.97
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1766610227,
+    "water_level_m": 0.98
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1766609012,
     "water_level_m": 0.87
