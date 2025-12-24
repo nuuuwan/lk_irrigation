@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1766573208,
+    "water_level_m": 1.2
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1766573134,
+    "water_level_m": 1.33
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1766573098,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1766573001,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1766572905,
+    "water_level_m": 1.04
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1766572790,
+    "water_level_m": 0.45
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766572745,
+    "water_level_m": 1.24
+  },
+  {
     "station_name": "Holombuwa",
     "time_ut": 1766572652,
     "water_level_m": 0.49
