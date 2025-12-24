@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Galgamuwa",
+    "time_ut": 1766538036,
+    "water_level_m": 0.47
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1766537065,
+    "water_level_m": 0.61
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766537033,
+    "water_level_m": 3.04
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1766536903,
+    "water_level_m": 0.70104
+  },
+  {
     "station_name": "Holombuwa",
     "time_ut": 1766536888,
     "water_level_m": 0.54
