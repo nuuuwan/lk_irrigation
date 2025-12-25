@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1766648824,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1766648789,
+    "water_level_m": 1.94
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766648686,
+    "water_level_m": 2.01
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766648607,
+    "water_level_m": 1.05
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1766648547,
+    "water_level_m": 1.03
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766648420,
+    "water_level_m": 2.93
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766648368,
+    "water_level_m": 1.7
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1766648191,
+    "water_level_m": 2.14
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1766648138,
     "water_level_m": 1.67
