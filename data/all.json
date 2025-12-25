@@ -1,5 +1,110 @@
 [
   {
+    "station_name": "Kuda Oya",
+    "time_ut": 1766662404,
+    "water_level_m": 1.32
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1766662399,
+    "water_level_m": 1.12
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1766662395,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1766662386,
+    "water_level_m": -0.05
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1766662378,
+    "water_level_m": 0.66
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1766662353,
+    "water_level_m": 0.65
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1766662335,
+    "water_level_m": -1.65
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1766662331,
+    "water_level_m": 2.82
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1766662330,
+    "water_level_m": 0.41
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1766662322,
+    "water_level_m": 0.66
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1766662314,
+    "water_level_m": 1.73
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1766662311,
+    "water_level_m": 0.98
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1766662303,
+    "water_level_m": 1.04
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1766662301,
+    "water_level_m": 5.22
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1766662283,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1766662280,
+    "water_level_m": 0.41
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1766662275,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1766662251,
+    "water_level_m": 1.93
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1766662234,
+    "water_level_m": 0.74
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1766662226,
+    "water_level_m": 1.12
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1766662208,
+    "water_level_m": 0.7
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1766659758,
     "water_level_m": 0.97
