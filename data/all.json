@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1766635779,
+    "water_level_m": 2.97
+  },
+  {
     "station_name": "Padiyathalawa",
     "time_ut": 1766634541,
     "water_level_m": 0.95
