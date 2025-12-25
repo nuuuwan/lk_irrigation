@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -57,7 +57,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-25 20:01:31 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.74 | 🟢 Normal | -0.105 |  |
 | 2025-12-25 20:01:25 | Moraketiya (Walawe Ganga) | 0.99 | 🟢 Normal | 0.000 |  |
 | 2025-12-25 20:01:25 | Baddegama (Gin Ganga) | 1.85 | 🟢 Normal | -0.021 |  |
-| 2025-12-25 19:50:05 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.76 | 🟢 Normal | -0.105 |  |
 
 ## Latest by Station
 
