@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766696976,
+    "water_level_m": 1.05
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766696975,
+    "water_level_m": 0.98
+  },
+  {
     "station_name": "Thawalama",
     "time_ut": 1766695085,
     "water_level_m": 1.93
