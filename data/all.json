@@ -1,5 +1,85 @@
 [
   {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1766698404,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1766698402,
+    "water_level_m": 2.81
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1766698388,
+    "water_level_m": 1.09
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1766698387,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1766698383,
+    "water_level_m": 0.63
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1766698380,
+    "water_level_m": 2.78
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1766698364,
+    "water_level_m": 2.76
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1766698351,
+    "water_level_m": 1.31
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1766698348,
+    "water_level_m": 1.7
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1766698334,
+    "water_level_m": 2.06
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1766698329,
+    "water_level_m": 4.85
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1766698328,
+    "water_level_m": 8.92
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1766698296,
+    "water_level_m": 1.52
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1766698264,
+    "water_level_m": 0.7
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1766698262,
+    "water_level_m": 0.69
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1766698190,
+    "water_level_m": 8.86
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1766696976,
     "water_level_m": 1.05
