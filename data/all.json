@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1766682897,
+    "water_level_m": 1.61
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766682403,
+    "water_level_m": 1.34
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1766681037,
     "water_level_m": 0.94
