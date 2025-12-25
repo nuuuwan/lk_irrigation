@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Badalgama",
+    "time_ut": 1766670256,
+    "water_level_m": 2.13
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766670214,
+    "water_level_m": 1.38
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766670212,
+    "water_level_m": 0.95
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1766670101,
+    "water_level_m": 1.62
+  },
+  {
     "station_name": "Padiyathalawa",
     "time_ut": 1766669941,
     "water_level_m": 0.9
