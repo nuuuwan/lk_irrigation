@@ -1,5 +1,150 @@
 [
   {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1766669941,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1766669874,
+    "water_level_m": 0.67
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1766669868,
+    "water_level_m": 0.58
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766669853,
+    "water_level_m": 0.54
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1766669836,
+    "water_level_m": 0.45
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1766669784,
+    "water_level_m": 8.85
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1766669783,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1766669680,
+    "water_level_m": 1.12
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1766669680,
+    "water_level_m": 1.7
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1766669675,
+    "water_level_m": 1.31
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1766669664,
+    "water_level_m": 5.19
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1766669652,
+    "water_level_m": 1.63
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1766669638,
+    "water_level_m": 0.79
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1766669628,
+    "water_level_m": 0.74
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1766669625,
+    "water_level_m": 1.02
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1766669607,
+    "water_level_m": -0.05
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1766669606,
+    "water_level_m": 2.11
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1766669599,
+    "water_level_m": 0.88
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1766669574,
+    "water_level_m": 1.87
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1766669561,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1766669551,
+    "water_level_m": 0.64
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1766669539,
+    "water_level_m": 0.7
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1766669517,
+    "water_level_m": 1.32
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1766669517,
+    "water_level_m": 0.57912
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766669502,
+    "water_level_m": 1.93
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1766669492,
+    "water_level_m": 0.99
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1766669489,
+    "water_level_m": 0.98
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1766669472,
+    "water_level_m": 1.1
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1766669438,
+    "water_level_m": 0.7
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1766667352,
     "water_level_m": 0.52
