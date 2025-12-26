@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766774823,
+    "water_level_m": 0.75
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1766774581,
+    "water_level_m": 8.6
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766774502,
+    "water_level_m": 2.68
+  },
+  {
     "station_name": "Hanwella",
     "time_ut": 1766774389,
     "water_level_m": 0.59
