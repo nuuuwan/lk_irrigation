@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Rathnapura",
+    "time_ut": 1766789494,
+    "water_level_m": 1.08
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1766789440,
+    "water_level_m": 1.04
+  },
+  {
     "station_name": "Badalgama",
     "time_ut": 1766789227,
     "water_level_m": 2.1
