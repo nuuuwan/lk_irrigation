@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Glencourse",
+    "time_ut": 1766780358,
+    "water_level_m": 8.6
+  },
+  {
     "station_name": "Kuda Oya",
     "time_ut": 1766778630,
     "water_level_m": 1.3
