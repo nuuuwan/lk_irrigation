@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--26_10:09:46-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--26_10:16:19-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **28,291 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **28,292 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **41** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-26 10:16:19 | Horowpothana (Yan Oya) | 1.99 | 🟢 Normal | -0.008 |  |
 | 2025-12-26 10:09:46 | Rathnapura (Kalu Ganga) | 1.40 | 🟢 Normal | -0.028 |  |
 | 2025-12-26 10:09:11 | Badalgama (Maha Oya) | 2.11 | 🟢 Normal | 0.000 |  |
 | 2025-12-26 10:08:46 | Thawalama (Gin Ganga) | 1.76 | 🟢 Normal | -0.046 |  |
@@ -56,10 +57,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-26 10:01:33 | Manampitiya (Mahaweli Ganga) | 1.41 | 🟢 Normal | -0.010 |  |
 | 2025-12-26 10:01:12 | Nawalapitiya (Mahaweli Ganga) | 0.84 | 🟢 Normal | -0.020 |  |
 | 2025-12-26 10:00:57 | Thanamalwila (Kirindi Oya) | 0.97 | 🟢 Normal | 0.000 |  |
-| 2025-12-26 09:16:57 | Baddegama (Gin Ganga) | 1.65 | 🟢 Normal | -0.012 |  |
-| 2025-12-26 09:16:13 | Thawalama (Gin Ganga) | 1.80 | 🟢 Normal | -0.046 |  |
-| 2025-12-26 09:14:12 | Pitabeddara (Nilwala Ganga) | 0.98 | 🟢 Normal | -0.035 |  |
-| 2025-12-26 09:14:08 | Thalgahagoda (Nilwala Ganga) | 0.61 | 🟢 Normal | 0.009 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -83,6 +80,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-26 10:06:10 | Urawa (Nilwala Ganga) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2025-12-26 10:03:21 | Kuda Oya (Kirindi Oya) | 1.30 | 🟢 Normal | 0.000 |  |
 | 2025-12-26 10:00:57 | Thanamalwila (Kirindi Oya) | 0.97 | 🟢 Normal | 0.000 |  |
+| 2025-12-26 10:16:19 | Horowpothana (Yan Oya) | 1.99 | 🟢 Normal | -0.008 |  |
 | 2025-12-26 10:03:19 | Dunamale (Aththanagalu Oya) | 0.76 | 🟢 Normal | -0.010 |  |
 | 2025-12-26 10:03:46 | Moraketiya (Walawe Ganga) | 1.01 | 🟢 Normal | -0.010 |  |
 | 2025-12-26 10:02:21 | Yaka Wewa (Ma Oya) | 0.82 | 🟢 Normal | -0.010 |  |
@@ -95,7 +93,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-26 10:07:29 | Baddegama (Gin Ganga) | 1.64 | 🟢 Normal | -0.012 |  |
 | 2025-12-26 10:03:50 | Moragaswewa (Deduru Oya) | 0.55 | 🟢 Normal | -0.012 |  |
 | 2025-12-26 10:05:38 | Hanwella (Kelani Ganga) | 0.72 | 🟢 Normal | -0.019 |  |
-| 2025-12-26 09:02:53 | Horowpothana (Yan Oya) | 2.00 | 🟢 Normal | -0.019 |  |
 | 2025-12-26 10:01:12 | Nawalapitiya (Mahaweli Ganga) | 0.84 | 🟢 Normal | -0.020 |  |
 | 2025-12-26 10:02:08 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.90 | 🟢 Normal | -0.020 |  |
 | 2025-12-26 10:04:46 | Glencourse (Kelani Ganga) | 8.81 | 🟢 Normal | -0.021 |  |
@@ -173,6 +170,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Thanamalwila](images/stations/thanamalwila.png)
 
+### Horowpothana (Yan Oya)
+
+![Horowpothana](images/stations/horowpothana.png)
+
 ### Dunamale (Aththanagalu Oya)
 
 ![Dunamale](images/stations/dunamale.png)
@@ -220,10 +221,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Hanwella (Kelani Ganga)
 
 ![Hanwella](images/stations/hanwella.png)
-
-### Horowpothana (Yan Oya)
-
-![Horowpothana](images/stations/horowpothana.png)
 
 ### Nawalapitiya (Mahaweli Ganga)
 
