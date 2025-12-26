@@ -1,6 +1,106 @@
 [
   {
     "station_name": "Moraketiya",
+    "time_ut": 1766788562,
+    "water_level_m": 1.02
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1766788556,
+    "water_level_m": 1.01
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1766788496,
+    "water_level_m": 2.17
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1766788481,
+    "water_level_m": 1.11
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1766788430,
+    "water_level_m": -0.06
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1766788386,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1766788382,
+    "water_level_m": 0.92
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1766788381,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1766788343,
+    "water_level_m": 4.63
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1766788341,
+    "water_level_m": 0.76
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1766788338,
+    "water_level_m": 0.66
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1766788323,
+    "water_level_m": 1.8
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1766788318,
+    "water_level_m": 8.81
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1766788314,
+    "water_level_m": 1.36
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1766788306,
+    "water_level_m": 0.37
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766788270,
+    "water_level_m": 0.49
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1766788265,
+    "water_level_m": 0.6400800000000001
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1766788254,
+    "water_level_m": 0.67
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1766788217,
+    "water_level_m": 1.29
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1766788211,
+    "water_level_m": 0.86
+  },
+  {
+    "station_name": "Moraketiya",
     "time_ut": 1766787069,
     "water_level_m": 1.01
   },
