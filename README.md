@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--28_03:13:01-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--28_03:29:23-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **29,803 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **29,807 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,14 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **44** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-28 03:29:23 | Pitabeddara (Nilwala Ganga) | 0.69 | 🟢 Normal | 0.000 |  |
+| 2025-12-28 03:29:22 | Pitabeddara (Nilwala Ganga) | 0.69 | 🟢 Normal | 0.000 |  |
+| 2025-12-28 03:29:21 | Pitabeddara (Nilwala Ganga) | 0.69 | 🟢 Normal | 0.000 |  |
+| 2025-12-28 03:26:19 | Yaka Wewa (Ma Oya) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 03:13:01 | Peradeniya (Mahaweli Ganga) | 2.26 | 🟢 Normal | -0.203 |  |
 | 2025-12-28 03:11:35 | Horowpothana (Yan Oya) | 1.61 | 🟢 Normal | -0.009 |  |
 | 2025-12-28 03:10:50 | Siyambalanduwa (Heda Oya) | 0.73 | 🟢 Normal | 0.000 |  |
@@ -76,9 +80,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-28 03:10:29 | Wellawaya (Kirindi Oya) | 1.01 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 03:02:21 | Moragaswewa (Deduru Oya) | 0.62 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 03:01:11 | Nawalapitiya (Mahaweli Ganga) | 0.83 | 🟢 Normal | 0.000 |  |
-| 2025-12-28 02:01:36 | Yaka Wewa (Ma Oya) | 0.72 | 🟢 Normal | 0.000 |  |
+| 2025-12-28 03:26:19 | Yaka Wewa (Ma Oya) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 03:02:58 | Giriulla (Maha Oya) | 0.99 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 18:03:28 | Galgamuwa (Mee Oya) | 0.35 | 🟢 Normal | 0.000 |  |
+| 2025-12-28 03:29:23 | Pitabeddara (Nilwala Ganga) | 0.69 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 03:03:27 | Deraniyagala (Kelani Ganga) | 0.39 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 03:06:12 | Baddegama (Gin Ganga) | 1.08 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 03:01:45 | Moraketiya (Walawe Ganga) | 0.98 | 🟢 Normal | 0.000 |  |
@@ -89,7 +94,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-28 03:09:42 | Urawa (Nilwala Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 03:02:43 | Kuda Oya (Kirindi Oya) | 1.28 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 03:05:25 | Thanamalwila (Kirindi Oya) | 0.72 | 🟢 Normal | 0.000 |  |
-| 2025-12-28 00:12:05 | Pitabeddara (Nilwala Ganga) | 0.69 | 🟢 Normal | -0.003 |  |
 | 2025-12-28 03:01:25 | Nakkala (Kumbukkan Oya) | 1.05 | 🟢 Normal | -0.006 |  |
 | 2025-12-28 02:39:50 | Panadugama (Nilwala Ganga) | 2.60 | 🟢 Normal | -0.006 |  |
 | 2025-12-28 03:11:35 | Horowpothana (Yan Oya) | 1.61 | 🟢 Normal | -0.009 |  |
@@ -160,6 +164,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Galgamuwa](images/stations/galgamuwa.png)
 
+### Pitabeddara (Nilwala Ganga)
+
+![Pitabeddara](images/stations/pitabeddara.png)
+
 ### Deraniyagala (Kelani Ganga)
 
 ![Deraniyagala](images/stations/deraniyagala.png)
@@ -199,10 +207,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
-
-### Pitabeddara (Nilwala Ganga)
-
-![Pitabeddara](images/stations/pitabeddara.png)
 
 ### Nakkala (Kumbukkan Oya)
 
