@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -55,7 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-27 20:00:59 | Holombuwa (Kelani Ganga) | 0.49 | 🟢 Normal | 0.015 | 🔺 Rising |
 | 2025-12-27 20:00:37 | Urawa (Nilwala Ganga) | 0.46 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 20:00:21 | Moraketiya (Walawe Ganga) | 0.98 | 🟢 Normal | -0.010 |  |
-| 2025-12-27 19:43:52 | Moragaswewa (Deduru Oya) | 0.59 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
