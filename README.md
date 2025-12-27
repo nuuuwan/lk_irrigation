@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--27_10:10:15-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--27_10:16:50-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **29,181 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **29,183 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-27 10:16:50 | Magura (Kalu Ganga) | 1.24 | 🟢 Normal | 0.000 |  |
+| 2025-12-27 10:13:22 | Thanamalwila (Kirindi Oya) | 0.89 | 🟢 Normal | -0.028 |  |
 | 2025-12-27 10:10:15 | Peradeniya (Mahaweli Ganga) | 1.39 | 🟢 Normal | -0.009 |  |
 | 2025-12-27 10:09:50 | Badalgama (Maha Oya) | 2.09 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 10:07:09 | Urawa (Nilwala Ganga) | 0.53 | 🟢 Normal | 0.000 |  |
@@ -54,8 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-27 10:00:20 | Nakkala (Kumbukkan Oya) | 1.04 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 10:00:09 | Kuda Oya (Kirindi Oya) | 1.28 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 09:58:42 | Manampitiya (Mahaweli Ganga) | 1.25 | 🟢 Normal | -0.310 |  |
-| 2025-12-27 09:13:18 | Panadugama (Nilwala Ganga) | 2.79 | 🟢 Normal | 0.064 | 🔺 Rising |
-| 2025-12-27 09:12:43 | Padiyathalawa (Maduru Oya) | 0.80 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -74,6 +74,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-27 10:01:16 | Moragaswewa (Deduru Oya) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 10:03:03 | Giriulla (Maha Oya) | 1.00 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 10:01:29 | Galgamuwa (Mee Oya) | 0.31 | 🟢 Normal | 0.000 |  |
+| 2025-12-27 10:16:50 | Magura (Kalu Ganga) | 1.24 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 10:04:31 | Norwood (Kelani Ganga) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 10:01:10 | Padiyathalawa (Maduru Oya) | 0.80 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 10:03:30 | Moraketiya (Walawe Ganga) | 0.99 | 🟢 Normal | 0.000 |  |
@@ -93,9 +94,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-27 10:05:18 | Baddegama (Gin Ganga) | 1.07 | 🟢 Normal | -0.011 |  |
 | 2025-12-27 10:03:12 | Pitabeddara (Nilwala Ganga) | 0.80 | 🟢 Normal | -0.011 |  |
 | 2025-12-27 09:09:49 | Yaka Wewa (Ma Oya) | 0.75 | 🟢 Normal | -0.011 |  |
-| 2025-12-27 09:03:27 | Magura (Kalu Ganga) | 1.24 | 🟢 Normal | -0.012 |  |
 | 2025-12-27 10:05:54 | Ellagawa (Kalu Ganga) | 4.56 | 🟢 Normal | -0.020 |  |
-| 2025-12-27 09:10:01 | Thanamalwila (Kirindi Oya) | 0.92 | 🟢 Normal | -0.029 |  |
+| 2025-12-27 10:13:22 | Thanamalwila (Kirindi Oya) | 0.89 | 🟢 Normal | -0.028 |  |
 | 2025-12-27 10:06:07 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.79 | 🟢 Normal | -0.038 |  |
 | 2025-12-27 10:03:24 | Kithulgala (Kelani Ganga) | 1.20 | 🟢 Normal | -0.078 |  |
 | 2025-12-27 10:04:47 | Nagalagam Street (Kelani Ganga) | 0.30 | 🟢 Normal | -0.094 |  |
@@ -148,6 +148,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Galgamuwa (Mee Oya)
 
 ![Galgamuwa](images/stations/galgamuwa.png)
+
+### Magura (Kalu Ganga)
+
+![Magura](images/stations/magura.png)
 
 ### Norwood (Kelani Ganga)
 
@@ -224,10 +228,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Yaka Wewa (Ma Oya)
 
 ![Yaka Wewa](images/stations/yaka-wewa.png)
-
-### Magura (Kalu Ganga)
-
-![Magura](images/stations/magura.png)
 
 ### Ellagawa (Kalu Ganga)
 

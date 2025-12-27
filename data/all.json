@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1766810810,
+    "water_level_m": 1.24
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1766810602,
+    "water_level_m": 0.89
+  },
+  {
     "station_name": "Peradeniya",
     "time_ut": 1766810415,
     "water_level_m": 1.39
