@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1766836399,
+    "water_level_m": 2.71
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1766836396,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766836083,
+    "water_level_m": 1.21
+  },
+  {
     "station_name": "Badalgama",
     "time_ut": 1766835691,
     "water_level_m": 2.08
