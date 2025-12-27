@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--27_22:15:14-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--27_22:43:11-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **29,641 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **29,642 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-27 22:43:11 | Kuda Oya (Kirindi Oya) | 1.28 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 22:15:14 | Peradeniya (Mahaweli Ganga) | 2.70 | 🟢 Normal | 0.281 | 🔺 Rising |
 | 2025-12-27 22:11:17 | Thawalama (Gin Ganga) | 1.42 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2025-12-27 22:10:22 | Thalgahagoda (Nilwala Ganga) | 0.57 | 🟢 Normal | 0.000 |  |
@@ -86,7 +87,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-27 21:03:12 | Rathnapura (Kalu Ganga) | 0.97 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 22:09:15 | Urawa (Nilwala Ganga) | 0.45 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 22:10:22 | Thalgahagoda (Nilwala Ganga) | 0.57 | 🟢 Normal | 0.000 |  |
-| 2025-12-27 21:07:14 | Kuda Oya (Kirindi Oya) | 1.28 | 🟢 Normal | 0.000 |  |
+| 2025-12-27 22:43:11 | Kuda Oya (Kirindi Oya) | 1.28 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 22:05:23 | Thanamalwila (Kirindi Oya) | 0.71 | 🟢 Normal | 0.000 |  |
 | 2025-12-27 22:07:01 | Magura (Kalu Ganga) | 1.18 | 🟢 Normal | -0.009 |  |
 | 2025-12-27 22:04:35 | Siyambalanduwa (Heda Oya) | 0.74 | 🟢 Normal | -0.010 |  |
