@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Weraganthota",
+    "time_ut": 1766843141,
+    "water_level_m": -1.55
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1766843104,
+    "water_level_m": 1.85
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1766843099,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1766843069,
+    "water_level_m": 0.68
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1766842938,
+    "water_level_m": 0.53
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1766842853,
+    "water_level_m": 0.46
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1766842725,
+    "water_level_m": 2.01
+  },
+  {
     "station_name": "Nagalagam Street",
     "time_ut": 1766842653,
     "water_level_m": 0.54864
