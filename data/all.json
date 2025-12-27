@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1766843785,
+    "water_level_m": 1.43
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1766843589,
+    "water_level_m": 0.84
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766843391,
+    "water_level_m": 0.48
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766843379,
+    "water_level_m": 2.67
+  },
+  {
     "station_name": "Weraganthota",
     "time_ut": 1766843141,
     "water_level_m": -1.55
