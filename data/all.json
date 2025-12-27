@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Badalgama",
+    "time_ut": 1766825430,
+    "water_level_m": 2.09
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766825027,
+    "water_level_m": 1.49
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1766824857,
+    "water_level_m": 2.0
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1766824724,
     "water_level_m": 1.22
