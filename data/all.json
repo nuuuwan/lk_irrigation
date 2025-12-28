@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1766933076,
+    "water_level_m": 1.68
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1766932871,
+    "water_level_m": 0.98
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1766932811,
+    "water_level_m": 4.35
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766932779,
+    "water_level_m": 0.43
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1766932709,
+    "water_level_m": 1.27
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1766932648,
+    "water_level_m": 0.59
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1766932630,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1766932567,
+    "water_level_m": 0.42
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1766932549,
     "water_level_m": 0.92
