@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1766900523,
+    "water_level_m": 1.49
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1766900393,
+    "water_level_m": 1.0
+  },
+  {
     "station_name": "Nagalagam Street",
     "time_ut": 1766900248,
     "water_level_m": 0.36576000000000003
