@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--28_10:12:08-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--28_10:18:41-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **30,066 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **30,068 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-28 10:18:41 | Yaka Wewa (Ma Oya) | 0.71 | 🟢 Normal | 0.000 |  |
+| 2025-12-28 10:15:10 | Panadugama (Nilwala Ganga) | 2.50 | 🟢 Normal | -0.008 |  |
 | 2025-12-28 10:12:08 | Magura (Kalu Ganga) | 1.14 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:08:42 | Thalgahagoda (Nilwala Ganga) | 0.46 | 🟢 Normal | -0.018 |  |
 | 2025-12-28 10:08:11 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.72 | 🟢 Normal | -0.019 |  |
@@ -70,14 +72,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-28 10:02:39 | Wellawaya (Kirindi Oya) | 1.00 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:00:42 | Moragaswewa (Deduru Oya) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:02:03 | Nawalapitiya (Mahaweli Ganga) | 0.81 | 🟢 Normal | 0.000 |  |
-| 2025-12-28 09:01:59 | Yaka Wewa (Ma Oya) | 0.71 | 🟢 Normal | 0.000 |  |
+| 2025-12-28 10:18:41 | Yaka Wewa (Ma Oya) | 0.71 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:00:54 | Horowpothana (Yan Oya) | 1.56 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:02:53 | Galgamuwa (Mee Oya) | 0.41 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:12:08 | Magura (Kalu Ganga) | 1.14 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:02:57 | Norwood (Kelani Ganga) | 0.59 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:04:05 | Deraniyagala (Kelani Ganga) | 0.35 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:02:31 | Baddegama (Gin Ganga) | 1.01 | 🟢 Normal | 0.000 |  |
-| 2025-12-28 09:03:15 | Panadugama (Nilwala Ganga) | 2.51 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:01:55 | Moraketiya (Walawe Ganga) | 0.99 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:03:32 | Siyambalanduwa (Heda Oya) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:03:13 | Dunamale (Aththanagalu Oya) | 0.71 | 🟢 Normal | 0.000 |  |
@@ -86,6 +87,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-28 10:05:10 | Badalgama (Maha Oya) | 2.07 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:01:34 | Manampitiya (Mahaweli Ganga) | 1.53 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 10:02:41 | Kuda Oya (Kirindi Oya) | 1.29 | 🟢 Normal | 0.000 |  |
+| 2025-12-28 10:15:10 | Panadugama (Nilwala Ganga) | 2.50 | 🟢 Normal | -0.008 |  |
 | 2025-12-28 10:06:34 | Pitabeddara (Nilwala Ganga) | 0.64 | 🟢 Normal | -0.009 |  |
 | 2025-12-28 10:05:59 | Rathnapura (Kalu Ganga) | 0.90 | 🟢 Normal | -0.009 |  |
 | 2025-12-28 10:05:52 | Urawa (Nilwala Ganga) | 0.39 | 🟢 Normal | -0.010 |  |
@@ -161,10 +163,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Baddegama](images/stations/baddegama.png)
 
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
-
 ### Moraketiya (Walawe Ganga)
 
 ![Moraketiya](images/stations/moraketiya.png)
@@ -196,6 +194,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kuda Oya (Kirindi Oya)
 
 ![Kuda Oya](images/stations/kuda-oya.png)
+
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
 
 ### Pitabeddara (Nilwala Ganga)
 
