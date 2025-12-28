@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--28_20:27:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--28_20:46:25-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **30,457 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **30,458 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-28 20:46:25 | Manampitiya (Mahaweli Ganga) | 1.52 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 20:27:20 | Moragaswewa (Deduru Oya) | 0.59 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 20:22:01 | Padiyathalawa (Maduru Oya) | 0.77 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 20:21:21 | Thalgahagoda (Nilwala Ganga) | 0.46 | 🟢 Normal | 0.042 | 🔺 Rising |
@@ -58,7 +59,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-28 20:00:38 | Moraketiya (Walawe Ganga) | 0.96 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2025-12-28 20:00:16 | Magura (Kalu Ganga) | 1.12 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 20:00:14 | Magura (Kalu Ganga) | 1.12 | 🟢 Normal | 0.000 |  |
-| 2025-12-28 19:38:51 | Thalgahagoda (Nilwala Ganga) | 0.43 | 🟢 Normal | 0.042 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -88,7 +88,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-28 20:00:58 | Thaldena (Mahaweli Ganga) | 0.66 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 20:04:11 | Katharagama (Menik Ganga) | -0.08 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 20:02:13 | Badalgama (Maha Oya) | 2.07 | 🟢 Normal | 0.000 |  |
-| 2025-12-28 19:06:17 | Manampitiya (Mahaweli Ganga) | 1.52 | 🟢 Normal | 0.000 |  |
+| 2025-12-28 20:46:25 | Manampitiya (Mahaweli Ganga) | 1.52 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 18:09:20 | Thanthirimale (Malwathu Oya) | 1.65 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 20:01:33 | Urawa (Nilwala Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 20:07:10 | Kuda Oya (Kirindi Oya) | 1.28 | 🟢 Normal | 0.000 |  |
