@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1766954505,
+    "water_level_m": 1.1
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766954504,
+    "water_level_m": 1.1
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1766954434,
+    "water_level_m": 0.98
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1766954412,
+    "water_level_m": 0.74
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766954302,
+    "water_level_m": 0.42
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766954300,
+    "water_level_m": 0.42
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1766954268,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1766954217,
+    "water_level_m": 2.1
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1766954199,
+    "water_level_m": 0.51
+  },
+  {
     "station_name": "Nagalagam Street",
     "time_ut": 1766954176,
     "water_level_m": 0.54864
