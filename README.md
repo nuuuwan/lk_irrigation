@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--28_15:15:22-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--28_15:18:21-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **30,263 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **30,264 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-28 15:18:21 | Nagalagam Street (Kelani Ganga) | 0.61 | 🟢 Normal | 0.096 | 🔺 Rising |
 | 2025-12-28 15:15:22 | Moraketiya (Walawe Ganga) | 0.95 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 15:11:46 | Magura (Kalu Ganga) | 1.13 | 🟢 Normal | 0.000 |  |
 | 2025-12-28 15:07:25 | Thanamalwila (Kirindi Oya) | 0.76 | 🟢 Normal | -0.037 |  |
@@ -66,7 +67,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2025-12-28 15:02:29 | Thawalama (Gin Ganga) | 1.38 | 🟢 Normal | 0.127 | 🔺 Rising |
-| 2025-12-28 14:02:20 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | 0.109 | 🔺 Rising |
+| 2025-12-28 15:18:21 | Nagalagam Street (Kelani Ganga) | 0.61 | 🟢 Normal | 0.096 | 🔺 Rising |
 | 2025-12-28 15:04:50 | Putupaula (Kalu Ganga) | 0.58 | 🟢 Normal | 0.051 | 🔺 Rising |
 | 2025-12-28 15:01:19 | Kithulgala (Kelani Ganga) | 1.47 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2025-12-28 15:05:59 | Deraniyagala (Kelani Ganga) | 0.25 | 🟢 Normal | 0.020 | 🔺 Rising |
