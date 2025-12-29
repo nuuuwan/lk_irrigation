@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767016808,
+    "water_level_m": 1.72
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1767016713,
+    "water_level_m": 1.7
+  },
+  {
     "station_name": "Moragaswewa",
     "time_ut": 1767016174,
     "water_level_m": 0.6
