@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Horowpothana",
+    "time_ut": 1766987247,
+    "water_level_m": 1.46
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1766987201,
+    "water_level_m": 1.07
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1766987186,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1766987085,
+    "water_level_m": 0.95
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1766987005,
+    "water_level_m": 0.33
+  },
+  {
     "station_name": "Badalgama",
     "time_ut": 1766986746,
     "water_level_m": 2.06
