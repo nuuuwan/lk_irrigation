@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Norwood",
+    "time_ut": 1767030755,
+    "water_level_m": 0.58
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1767030584,
+    "water_level_m": -0.06
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1767030456,
     "water_level_m": 2.45
