@@ -1,5 +1,65 @@
 [
   {
+    "station_name": "Giriulla",
+    "time_ut": 1766983438,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1766983251,
+    "water_level_m": 0.45
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1766983173,
+    "water_level_m": 2.44
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1766983169,
+    "water_level_m": 2.06
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1766983167,
+    "water_level_m": -1.52
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1766983158,
+    "water_level_m": 0.33
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1766983144,
+    "water_level_m": 1.43
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1766983113,
+    "water_level_m": 0.49
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1766983038,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1766983028,
+    "water_level_m": 0.7
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1766982978,
+    "water_level_m": 0.96
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1766982972,
+    "water_level_m": 1.59
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1766982960,
     "water_level_m": 1.07
