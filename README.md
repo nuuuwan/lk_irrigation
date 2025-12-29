@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--29_22:20:49-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--29_22:25:04-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **31,415 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **31,416 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-29 22:25:04 | Kuda Oya (Kirindi Oya) | 1.27 | 🟢 Normal | 0.000 |  |
 | 2025-12-29 22:20:49 | Moragaswewa (Deduru Oya) | 0.61 | 🟢 Normal | 0.000 |  |
 | 2025-12-29 22:20:36 | Urawa (Nilwala Ganga) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2025-12-29 22:19:10 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.70 | 🟢 Normal | 0.046 | 🔺 Rising |
@@ -55,7 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-29 22:01:07 | Nakkala (Kumbukkan Oya) | 1.01 | 🟢 Normal | 0.000 |  |
 | 2025-12-29 22:00:58 | Horowpothana (Yan Oya) | 1.44 | 🟢 Normal | 0.000 |  |
 | 2025-12-29 22:00:54 | Moraketiya (Walawe Ganga) | 0.96 | 🟢 Normal | 0.000 |  |
-| 2025-12-29 21:24:51 | Dunamale (Aththanagalu Oya) | 0.74 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -95,7 +95,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-29 22:06:39 | Holombuwa (Kelani Ganga) | 0.48 | 🟢 Normal | 0.000 |  |
 | 2025-12-29 22:01:31 | Manampitiya (Mahaweli Ganga) | 1.61 | 🟢 Normal | 0.000 |  |
 | 2025-12-29 22:20:36 | Urawa (Nilwala Ganga) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2025-12-29 21:02:38 | Kuda Oya (Kirindi Oya) | 1.27 | 🟢 Normal | 0.000 |  |
+| 2025-12-29 22:25:04 | Kuda Oya (Kirindi Oya) | 1.27 | 🟢 Normal | 0.000 |  |
 | 2025-12-29 22:05:55 | Thanamalwila (Kirindi Oya) | 0.88 | 🟢 Normal | 0.000 |  |
 | 2025-12-29 18:06:51 | Thanthirimale (Malwathu Oya) | 1.59 | 🟢 Normal | -0.010 |  |
 | 2025-12-29 22:05:18 | Glencourse (Kelani Ganga) | 8.67 | 🟢 Normal | -0.010 |  |
