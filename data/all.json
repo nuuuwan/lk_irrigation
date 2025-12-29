@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Kithulgala",
+    "time_ut": 1766979098,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1766979093,
+    "water_level_m": 0.96
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1766979084,
+    "water_level_m": 1.06
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1766979082,
+    "water_level_m": 1.03
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1766979079,
+    "water_level_m": 1.47
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1766979066,
+    "water_level_m": 0.63
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1766979065,
+    "water_level_m": 1.63
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1766979005,
+    "water_level_m": 0.64
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1766976536,
     "water_level_m": 0.35
