@@ -1,6 +1,11 @@
 [
   {
     "station_name": "Magura",
+    "time_ut": 1767042722,
+    "water_level_m": 1.02
+  },
+  {
+    "station_name": "Magura",
     "time_ut": 1767041433,
     "water_level_m": 1.02
   },
