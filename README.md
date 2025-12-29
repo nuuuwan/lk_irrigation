@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **42** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -55,12 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-29 23:48:53 | Dunamale (Aththanagalu Oya) | 0.74 | 🟢 Normal | 0.000 |  |
 | 2025-12-29 23:48:51 | Dunamale (Aththanagalu Oya) | 0.74 | 🟢 Normal | 0.000 |  |
 | 2025-12-29 23:46:18 | Dunamale (Aththanagalu Oya) | 0.74 | 🟢 Normal | 0.000 |  |
-| 2025-12-29 23:22:35 | Norwood (Kelani Ganga) | 0.58 | 🟢 Normal | 0.000 |  |
-| 2025-12-29 23:19:44 | Katharagama (Menik Ganga) | -0.06 | 🟢 Normal | -0.013 |  |
-| 2025-12-29 23:17:36 | Panadugama (Nilwala Ganga) | 2.45 | 🟢 Normal | 0.000 |  |
-| 2025-12-29 23:15:17 | Rathnapura (Kalu Ganga) | 0.87 | 🟢 Normal | 0.000 |  |
-| 2025-12-29 23:15:07 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.94 | 🟢 Normal | 0.179 | 🔺 Rising |
-| 2025-12-29 23:13:59 | Baddegama (Gin Ganga) | 1.08 | 🟢 Normal | 0.023 | 🔺 Rising |
 
 ## Latest by Station
 
