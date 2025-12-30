@@ -1,5 +1,70 @@
 [
   {
+    "station_name": "Deraniyagala",
+    "time_ut": 1767131106,
+    "water_level_m": 0.35
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1767130895,
+    "water_level_m": 0.51
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1767130872,
+    "water_level_m": 1.41
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1767130751,
+    "water_level_m": 0.47
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767130722,
+    "water_level_m": 2.37
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1767130681,
+    "water_level_m": 0.8
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767130673,
+    "water_level_m": 1.3
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1767130584,
+    "water_level_m": -0.12
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1767130579,
+    "water_level_m": 0.73
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1767130554,
+    "water_level_m": 8.78
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767130522,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1767130519,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1767130491,
+    "water_level_m": 0.7
+  },
+  {
     "station_name": "Badalgama",
     "time_ut": 1767130469,
     "water_level_m": 2.05
