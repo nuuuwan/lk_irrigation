@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--30_19:20:08-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--30_19:36:02-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **32,192 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **32,193 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-30 19:36:02 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.58 | 🟢 Normal | -0.013 |  |
 | 2025-12-30 19:20:08 | Nawalapitiya (Mahaweli Ganga) | 0.79 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 19:16:07 | Panadugama (Nilwala Ganga) | 2.38 | 🟢 Normal | -0.009 |  |
 | 2025-12-30 19:13:52 | Pitabeddara (Nilwala Ganga) | 0.56 | 🟢 Normal | 0.000 |  |
@@ -54,7 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-30 19:01:31 | Peradeniya (Mahaweli Ganga) | 1.90 | 🟢 Normal | 0.219 | 🔺 Rising |
 | 2025-12-30 19:00:55 | Horowpothana (Yan Oya) | 1.41 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 19:00:07 | Siyambalanduwa (Heda Oya) | 0.61 | 🟢 Normal | 0.000 |  |
-| 2025-12-30 18:40:06 | Norwood (Kelani Ganga) | 0.57 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -97,7 +97,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-30 19:07:43 | Ellagawa (Kalu Ganga) | 4.27 | 🟢 Normal | -0.009 |  |
 | 2025-12-30 19:02:11 | Baddegama (Gin Ganga) | 0.90 | 🟢 Normal | -0.010 |  |
 | 2025-12-30 19:03:02 | Thanamalwila (Kirindi Oya) | 0.85 | 🟢 Normal | -0.011 |  |
-| 2025-12-30 18:02:12 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.60 | 🟢 Normal | -0.020 |  |
+| 2025-12-30 19:36:02 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.58 | 🟢 Normal | -0.013 |  |
 | 2025-12-30 19:05:52 | Kithulgala (Kelani Ganga) | 1.59 | 🟢 Normal | -0.029 |  |
 | 2025-12-30 19:06:06 | Glencourse (Kelani Ganga) | 8.65 | 🟢 Normal | -0.060 |  |
 | 2025-12-30 19:03:47 | Deraniyagala (Kelani Ganga) | 0.21 | 🟢 Normal | -0.069 |  |
