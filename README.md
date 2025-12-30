@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--30_10:20:02-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--30_10:45:14-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **31,839 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **31,841 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-30 10:45:14 | Manampitiya (Mahaweli Ganga) | 1.60 | 🟢 Normal | 0.000 |  |
+| 2025-12-30 10:36:06 | Horowpothana (Yan Oya) | 1.42 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:20:02 | Thalgahagoda (Nilwala Ganga) | 0.35 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:18:32 | Urawa (Nilwala Ganga) | 0.39 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:17:49 | Thanamalwila (Kirindi Oya) | 0.83 | 🟢 Normal | 0.000 |  |
@@ -64,13 +66,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2025-12-30 10:05:22 | Peradeniya (Mahaweli Ganga) | 2.12 | 🟢 Normal | 0.100 | 🔺 Rising |
-| 2025-12-30 09:05:51 | Manampitiya (Mahaweli Ganga) | 1.60 | 🟢 Normal | 0.018 | 🔺 Rising |
 | 2025-12-30 10:01:38 | Nakkala (Kumbukkan Oya) | 1.02 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2025-12-30 10:03:00 | Nawalapitiya (Mahaweli Ganga) | 0.80 | 🟢 Normal | 0.005 | 🔺 Rising |
 | 2025-12-30 10:01:12 | Moragaswewa (Deduru Oya) | 0.58 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:01:41 | Yaka Wewa (Ma Oya) | 0.70 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:06:35 | Giriulla (Maha Oya) | 0.97 | 🟢 Normal | 0.000 |  |
-| 2025-12-30 09:03:06 | Horowpothana (Yan Oya) | 1.42 | 🟢 Normal | 0.000 |  |
+| 2025-12-30 10:36:06 | Horowpothana (Yan Oya) | 1.42 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:10:51 | Galgamuwa (Mee Oya) | 0.61 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:04:55 | Magura (Kalu Ganga) | 1.01 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:03:17 | Norwood (Kelani Ganga) | 0.59 | 🟢 Normal | 0.000 |  |
@@ -84,6 +85,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-30 10:02:19 | Katharagama (Menik Ganga) | -0.08 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:06:02 | Badalgama (Maha Oya) | 2.04 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:03:37 | Holombuwa (Kelani Ganga) | 0.47 | 🟢 Normal | 0.000 |  |
+| 2025-12-30 10:45:14 | Manampitiya (Mahaweli Ganga) | 1.60 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:01:02 | Thanthirimale (Malwathu Oya) | 1.60 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:10:49 | Thawalama (Gin Ganga) | 1.37 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 10:18:32 | Urawa (Nilwala Ganga) | 0.39 | 🟢 Normal | 0.000 |  |
@@ -108,10 +110,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Peradeniya (Mahaweli Ganga)
 
 ![Peradeniya](images/stations/peradeniya.png)
-
-### Manampitiya (Mahaweli Ganga)
-
-![Manampitiya](images/stations/manampitiya.png)
 
 ### Nakkala (Kumbukkan Oya)
 
@@ -188,6 +186,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Holombuwa (Kelani Ganga)
 
 ![Holombuwa](images/stations/holombuwa.png)
+
+### Manampitiya (Mahaweli Ganga)
+
+![Manampitiya](images/stations/manampitiya.png)
 
 ### Thanthirimale (Malwathu Oya)
 
