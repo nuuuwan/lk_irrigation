@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Moragaswewa",
+    "time_ut": 1767106191,
+    "water_level_m": 0.61
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767106011,
+    "water_level_m": 1.56
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1767105958,
+    "water_level_m": 1.41
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1767105828,
+    "water_level_m": 0.57
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1767105615,
+    "water_level_m": -0.11
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767105607,
+    "water_level_m": 2.38
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1767105539,
+    "water_level_m": 0.84
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767105467,
+    "water_level_m": 0.62
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1767105439,
     "water_level_m": 1.0
