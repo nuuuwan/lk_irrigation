@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **37** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -56,8 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-31 00:00:11 | Peradeniya (Mahaweli Ganga) | 2.42 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 23:58:19 | Padiyathalawa (Maduru Oya) | 0.74 | 🟢 Normal | 0.000 |  |
 | 2025-12-30 23:58:16 | Padiyathalawa (Maduru Oya) | 0.74 | 🟢 Normal | 0.000 |  |
-| 2025-12-30 23:43:29 | Dunamale (Aththanagalu Oya) | 0.72 | 🟢 Normal | 0.000 |  |
-| 2025-12-30 23:41:25 | Magura (Kalu Ganga) | 1.00 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
