@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1767109719,
+    "water_level_m": 0.56
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1767109268,
+    "water_level_m": 0.61
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767109233,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1767109099,
+    "water_level_m": 0.54
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1767109057,
+    "water_level_m": 0.83
+  },
+  {
     "station_name": "Dunamale",
     "time_ut": 1767108983,
     "water_level_m": 0.72
