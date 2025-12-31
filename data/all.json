@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1767203143,
+    "water_level_m": 0.96
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767202831,
+    "water_level_m": 0.82
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1767202644,
+    "water_level_m": 1.09
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1767202555,
+    "water_level_m": 1.27
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1767202554,
+    "water_level_m": 0.26
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1767202543,
+    "water_level_m": 0.83
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767202533,
+    "water_level_m": 2.31
+  },
+  {
     "station_name": "Padiyathalawa",
     "time_ut": 1767202514,
     "water_level_m": 0.73
