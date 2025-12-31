@@ -1,5 +1,105 @@
 [
   {
+    "station_name": "Holombuwa",
+    "time_ut": 1767213367,
+    "water_level_m": 0.51
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1767213344,
+    "water_level_m": 1.48
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1767213321,
+    "water_level_m": 0.45
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1767213319,
+    "water_level_m": -0.5
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1767213317,
+    "water_level_m": 0.69
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1767213303,
+    "water_level_m": 0.67056
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1767213300,
+    "water_level_m": 1.26
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767213241,
+    "water_level_m": 1.97
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1767213235,
+    "water_level_m": 0.83
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767213213,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1767213193,
+    "water_level_m": 2.87
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1767213169,
+    "water_level_m": 2.58
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1767213159,
+    "water_level_m": 0.98
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1767213129,
+    "water_level_m": 1.57
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1767213126,
+    "water_level_m": 1.1
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1767213126,
+    "water_level_m": 0.61
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1767213106,
+    "water_level_m": 2.61
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1767213065,
+    "water_level_m": 4.21
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1767213038,
+    "water_level_m": 0.73
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1767213010,
+    "water_level_m": 0.87
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1767212494,
     "water_level_m": 2.31
