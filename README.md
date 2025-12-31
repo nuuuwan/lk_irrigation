@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--31_09:16:40-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2025--12--31_09:27:29-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **32,691 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **32,692 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2025-12-31 09:27:29 | Rathnapura (Kalu Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
 | 2025-12-31 09:16:40 | Panadugama (Nilwala Ganga) | 2.35 | 🟢 Normal | -0.008 |  |
 | 2025-12-31 09:12:49 | Baddegama (Gin Ganga) | 0.89 | 🟢 Normal | -0.010 |  |
 | 2025-12-31 09:11:50 | Galgamuwa (Mee Oya) | 0.56 | 🟢 Normal | 0.000 |  |
@@ -91,7 +92,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2025-12-31 09:01:47 | Thaldena (Mahaweli Ganga) | 0.61 | 🟢 Normal | 0.000 |  |
 | 2025-12-31 09:02:18 | Badalgama (Maha Oya) | 2.04 | 🟢 Normal | 0.000 |  |
 | 2025-12-31 09:04:29 | Holombuwa (Kelani Ganga) | 0.46 | 🟢 Normal | 0.000 |  |
-| 2025-12-31 08:01:41 | Rathnapura (Kalu Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
+| 2025-12-31 09:27:29 | Rathnapura (Kalu Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
 | 2025-12-31 09:03:48 | Thanthirimale (Malwathu Oya) | 1.54 | 🟢 Normal | 0.000 |  |
 | 2025-12-31 09:02:05 | Thawalama (Gin Ganga) | 1.30 | 🟢 Normal | 0.000 |  |
 | 2025-12-31 09:03:10 | Kuda Oya (Kirindi Oya) | 1.30 | 🟢 Normal | 0.000 |  |
