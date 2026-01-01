@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Deraniyagala",
+    "time_ut": 1767309474,
+    "water_level_m": 0.34
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767309039,
+    "water_level_m": 0.62
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767308903,
+    "water_level_m": 0.92
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767308862,
+    "water_level_m": 0.92
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1767308553,
+    "water_level_m": 1.2
+  },
+  {
     "station_name": "Katharagama",
     "time_ut": 1767308221,
     "water_level_m": 1.02
