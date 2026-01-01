@@ -1,5 +1,85 @@
 [
   {
+    "station_name": "Holombuwa",
+    "time_ut": 1767311079,
+    "water_level_m": 0.56
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1767310978,
+    "water_level_m": 0.44
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767310957,
+    "water_level_m": 0.84
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767310955,
+    "water_level_m": 0.91
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1767310895,
+    "water_level_m": 0.48
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1767310869,
+    "water_level_m": 0.54864
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1767310795,
+    "water_level_m": 1.86
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1767310709,
+    "water_level_m": 1.64
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1767310626,
+    "water_level_m": 1.22
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1767310624,
+    "water_level_m": 1.2
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1767310614,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767310588,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767310566,
+    "water_level_m": 1.9
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1767310555,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1767310544,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767310521,
+    "water_level_m": 2.28
+  },
+  {
     "station_name": "Glencourse",
     "time_ut": 1767310424,
     "water_level_m": 8.92
