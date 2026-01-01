@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--01_11:08:33-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--01_11:20:49-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **33,647 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **33,648 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-01 11:20:49 | Urawa (Nilwala Ganga) | 0.34 | 🟢 Normal | 0.000 |  |
 | 2026-01-01 11:08:33 | Panadugama (Nilwala Ganga) | 2.29 | 🟢 Normal | -0.010 |  |
 | 2026-01-01 11:07:43 | Holombuwa (Kelani Ganga) | 0.56 | 🟢 Normal | -0.010 |  |
 | 2026-01-01 11:07:08 | Giriulla (Maha Oya) | 1.12 | 🟢 Normal | 0.021 | 🔺 Rising |
@@ -57,7 +58,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-01 11:00:06 | Nakkala (Kumbukkan Oya) | 1.19 | 🟢 Normal | -0.020 |  |
 | 2026-01-01 10:43:58 | Moragaswewa (Deduru Oya) | 0.99 | 🟢 Normal | 0.000 |  |
 | 2026-01-01 10:23:04 | Thalgahagoda (Nilwala Ganga) | 0.25 | 🟢 Normal | 0.000 |  |
-| 2026-01-01 10:19:45 | Urawa (Nilwala Ganga) | 0.34 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -81,7 +81,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-01 11:03:09 | Norwood (Kelani Ganga) | 0.64 | 🟢 Normal | 0.000 |  |
 | 2026-01-01 10:04:05 | Moraketiya (Walawe Ganga) | 1.01 | 🟢 Normal | 0.000 |  |
 | 2026-01-01 10:00:19 | Dunamale (Aththanagalu Oya) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-01-01 10:19:45 | Urawa (Nilwala Ganga) | 0.34 | 🟢 Normal | 0.000 |  |
+| 2026-01-01 11:20:49 | Urawa (Nilwala Ganga) | 0.34 | 🟢 Normal | 0.000 |  |
 | 2026-01-01 10:23:04 | Thalgahagoda (Nilwala Ganga) | 0.25 | 🟢 Normal | 0.000 |  |
 | 2026-01-01 11:04:29 | Yaka Wewa (Ma Oya) | 0.82 | 🟢 Normal | -0.005 |  |
 | 2026-01-01 11:05:55 | Padiyathalawa (Maduru Oya) | 0.74 | 🟢 Normal | -0.010 |  |
