@@ -1,5 +1,55 @@
 [
   {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1767231026,
+    "water_level_m": 0.42672
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1767231015,
+    "water_level_m": -1.45
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1767231011,
+    "water_level_m": 1.25
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1767230556,
+    "water_level_m": 1.38
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1767230554,
+    "water_level_m": 1.37
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1767229614,
+    "water_level_m": 0.66
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767228770,
+    "water_level_m": 2.16
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767228753,
+    "water_level_m": 2.14
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767228724,
+    "water_level_m": 2.11
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1767228475,
+    "water_level_m": 0.88
+  },
+  {
     "station_name": "Holombuwa",
     "time_ut": 1767228361,
     "water_level_m": 0.49
