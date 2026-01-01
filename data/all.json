@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1767240287,
+    "water_level_m": 0.25
+  },
+  {
     "station_name": "Dunamale",
     "time_ut": 1767239385,
     "water_level_m": 0.78
