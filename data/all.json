@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Galgamuwa",
+    "time_ut": 1767264477,
+    "water_level_m": 0.71
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1767264342,
+    "water_level_m": 0.34
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1767263934,
+    "water_level_m": 0.33
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1767263905,
+    "water_level_m": 1.64
+  },
+  {
     "station_name": "Moraketiya",
     "time_ut": 1767263875,
     "water_level_m": 1.27
