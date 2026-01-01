@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1767295243,
+    "water_level_m": 2.28
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1767293771,
     "water_level_m": 0.18
