@@ -15,24 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **14** measurements in the last **1 hour**.*
-
-| Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
-| --- | --- | ---: | --- | ---: | --- |
-| 2026-01-03 04:17:15 | Panadugama (Nilwala Ganga) | 2.72 | 🟢 Normal | 0.018 | 🔺 Rising |
-| 2026-01-03 04:16:34 | Thawalama (Gin Ganga) | 1.24 | 🟢 Normal | 0.000 |  |
-| 2026-01-03 04:16:32 | Putupaula (Kalu Ganga) | 0.70 | 🟢 Normal | -0.046 |  |
-| 2026-01-03 04:15:57 | Thaldena (Mahaweli Ganga) | 0.78 | 🟢 Normal | -36.000 |  |
-| 2026-01-03 04:15:56 | Thaldena (Mahaweli Ganga) | 0.79 | 🟢 Normal | -36.000 |  |
-| 2026-01-03 04:15:55 | Thaldena (Mahaweli Ganga) | 0.79 | 🟢 Normal | -36.000 |  |
-| 2026-01-03 04:15:53 | Thaldena (Mahaweli Ganga) | 0.80 | 🟢 Normal | -36.000 |  |
-| 2026-01-03 04:10:26 | Urawa (Nilwala Ganga) | 0.46 | 🟢 Normal | 0.000 |  |
-| 2026-01-03 04:10:08 | Urawa (Nilwala Ganga) | 0.46 | 🟢 Normal | 0.000 |  |
-| 2026-01-03 04:10:01 | Kuda Oya (Kirindi Oya) | 1.50 | 🟢 Normal | -0.009 |  |
-| 2026-01-03 04:09:14 | Baddegama (Gin Ganga) | 1.30 | 🟢 Normal | 0.000 |  |
-| 2026-01-03 04:08:11 | Thanamalwila (Kirindi Oya) | 1.29 | 🟢 Normal | -0.010 |  |
-| 2026-01-03 04:07:01 | Magura (Kalu Ganga) | 0.88 | 🟢 Normal | 0.000 |  |
-| 2026-01-03 04:06:26 | Glencourse (Kelani Ganga) | 8.89 | 🟢 Normal | 0.038 | 🔺 Rising |
+*There were **0** measurements in the last **1 hour**.*
 
 ## Latest by Station
 
