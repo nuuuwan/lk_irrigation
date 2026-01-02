@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--02_22:15:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--02_22:46:44-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **34,973 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **34,974 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-02 22:46:44 | Putupaula (Kalu Ganga) | 0.55 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-01-02 22:15:24 | Magura (Kalu Ganga) | 0.89 | 🟢 Normal | 0.000 |  |
 | 2026-01-02 22:11:04 | Thawalama (Gin Ganga) | 1.32 | 🟢 Normal | 0.017 | 🔺 Rising |
 | 2026-01-02 22:08:24 | Wellawaya (Kirindi Oya) | 1.06 | 🟢 Normal | 0.000 |  |
@@ -66,9 +67,9 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-01-02 22:02:33 | Peradeniya (Mahaweli Ganga) | 2.63 | 🟢 Normal | 0.205 | 🔺 Rising |
 | 2026-01-02 22:07:31 | Panadugama (Nilwala Ganga) | 2.50 | 🟢 Normal | 0.064 | 🔺 Rising |
-| 2026-01-02 21:05:44 | Putupaula (Kalu Ganga) | 0.50 | 🟢 Normal | 0.062 | 🔺 Rising |
 | 2026-01-02 22:05:46 | Nagalagam Street (Kelani Ganga) | 0.37 | 🟢 Normal | 0.060 | 🔺 Rising |
 | 2026-01-02 22:01:16 | Kithulgala (Kelani Ganga) | 1.69 | 🟢 Normal | 0.050 | 🔺 Rising |
+| 2026-01-02 22:46:44 | Putupaula (Kalu Ganga) | 0.55 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-01-02 22:05:22 | Glencourse (Kelani Ganga) | 8.67 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2026-01-02 22:11:04 | Thawalama (Gin Ganga) | 1.32 | 🟢 Normal | 0.017 | 🔺 Rising |
 | 2026-01-02 22:01:00 | Pitabeddara (Nilwala Ganga) | 1.01 | 🟢 Normal | 0.010 | 🔺 Rising |
@@ -114,10 +115,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Panadugama](images/stations/panadugama.png)
 
-### Putupaula (Kalu Ganga)
-
-![Putupaula](images/stations/putupaula.png)
-
 ### Nagalagam Street (Kelani Ganga)
 
 ![Nagalagam Street](images/stations/nagalagam-street.png)
@@ -125,6 +122,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kithulgala (Kelani Ganga)
 
 ![Kithulgala](images/stations/kithulgala.png)
+
+### Putupaula (Kalu Ganga)
+
+![Putupaula](images/stations/putupaula.png)
 
 ### Glencourse (Kelani Ganga)
 
