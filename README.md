@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--02_21:11:36-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--02_21:31:42-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **34,934 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **34,935 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-02 21:31:42 | Magura (Kalu Ganga) | 0.89 | 🟢 Normal | 0.000 |  |
 | 2026-01-02 21:11:36 | Panadugama (Nilwala Ganga) | 2.44 | 🟢 Normal | 0.036 | 🔺 Rising |
 | 2026-01-02 21:08:13 | Padiyathalawa (Maduru Oya) | 1.26 | 🟢 Normal | -0.010 |  |
 | 2026-01-02 21:08:03 | Glencourse (Kelani Ganga) | 8.65 | 🟢 Normal | -0.038 |  |
@@ -54,7 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-02 21:01:18 | Siyambalanduwa (Heda Oya) | 1.18 | 🟢 Normal | -0.010 |  |
 | 2026-01-02 21:00:58 | Badalgama (Maha Oya) | 2.12 | 🟢 Normal | 0.000 |  |
 | 2026-01-02 21:00:57 | Peradeniya (Mahaweli Ganga) | 2.42 | 🟢 Normal | 0.236 | 🔺 Rising |
-| 2026-01-02 20:24:08 | Magura (Kalu Ganga) | 0.89 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -75,7 +75,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-02 21:01:37 | Yaka Wewa (Ma Oya) | 0.83 | 🟢 Normal | 0.000 |  |
 | 2026-01-02 21:03:37 | Giriulla (Maha Oya) | 1.03 | 🟢 Normal | 0.000 |  |
 | 2026-01-02 18:02:12 | Galgamuwa (Mee Oya) | 1.49 | 🟢 Normal | 0.000 |  |
-| 2026-01-02 20:24:08 | Magura (Kalu Ganga) | 0.89 | 🟢 Normal | 0.000 |  |
+| 2026-01-02 21:31:42 | Magura (Kalu Ganga) | 0.89 | 🟢 Normal | 0.000 |  |
 | 2026-01-02 21:03:01 | Norwood (Kelani Ganga) | 0.56 | 🟢 Normal | 0.000 |  |
 | 2026-01-02 21:01:48 | Ellagawa (Kalu Ganga) | 4.28 | 🟢 Normal | 0.000 |  |
 | 2026-01-02 21:01:59 | Baddegama (Gin Ganga) | 1.29 | 🟢 Normal | 0.000 |  |
