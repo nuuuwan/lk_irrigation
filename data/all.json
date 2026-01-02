@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1767365233,
+    "water_level_m": 1.26
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1767364832,
+    "water_level_m": 0.51
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767364780,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1767364770,
+    "water_level_m": 0.49
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767364654,
+    "water_level_m": 0.44
+  },
+  {
     "station_name": "Hanwella",
     "time_ut": 1767364607,
     "water_level_m": 0.59
