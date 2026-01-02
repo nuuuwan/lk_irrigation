@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1767368496,
+    "water_level_m": 2.44
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1767368293,
+    "water_level_m": 1.26
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1767368283,
+    "water_level_m": 8.65
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1767368210,
+    "water_level_m": 1.32
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767368187,
+    "water_level_m": 1.71
+  },
+  {
     "station_name": "Hanwella",
     "time_ut": 1767368163,
     "water_level_m": 0.58
