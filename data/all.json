@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1767339800,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767339649,
+    "water_level_m": 2.25
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1767339558,
+    "water_level_m": 4.28
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1767339473,
+    "water_level_m": 0.33
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767339419,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1767339402,
+    "water_level_m": 1.42
+  },
+  {
     "station_name": "Deraniyagala",
     "time_ut": 1767339329,
     "water_level_m": 0.27
