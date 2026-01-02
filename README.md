@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **111** measurements in the last **1 hour**.*
+*There were **98** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -117,19 +117,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-02 09:39:17 | Thaldena (Mahaweli Ganga) | 1.11 | 🟢 Normal | -0.028 |  |
 | 2026-01-02 09:39:15 | Thaldena (Mahaweli Ganga) | 1.17 | 🟢 Normal | -0.028 |  |
 | 2026-01-02 09:39:14 | Thaldena (Mahaweli Ganga) | 1.23 | 🟢 Normal | -0.028 |  |
-| 2026-01-02 09:34:19 | Ellagawa (Kalu Ganga) | 4.29 | 🟢 Normal | -0.021 |  |
-| 2026-01-02 09:34:17 | Ellagawa (Kalu Ganga) | 4.30 | 🟢 Normal | -0.021 |  |
-| 2026-01-02 09:34:12 | Ellagawa (Kalu Ganga) | 4.30 | 🟢 Normal | -0.021 |  |
-| 2026-01-02 09:34:09 | Ellagawa (Kalu Ganga) | 4.30 | 🟢 Normal | -0.021 |  |
-| 2026-01-02 09:28:26 | Nagalagam Street (Kelani Ganga) | 0.27 | 🟢 Normal | 0.148 | 🔺 Rising |
-| 2026-01-02 09:28:23 | Nagalagam Street (Kelani Ganga) | 0.27 | 🟢 Normal | 0.148 | 🔺 Rising |
-| 2026-01-02 09:28:22 | Thanthirimale (Malwathu Oya) | 1.87 | 🟢 Normal | 0.000 |  |
-| 2026-01-02 09:28:21 | Thanthirimale (Malwathu Oya) | 1.88 | 🟢 Normal | 0.000 |  |
-| 2026-01-02 09:28:20 | Thanthirimale (Malwathu Oya) | 1.88 | 🟢 Normal | 0.000 |  |
-| 2026-01-02 09:28:19 | Nagalagam Street (Kelani Ganga) | 0.27 | 🟢 Normal | 0.148 | 🔺 Rising |
-| 2026-01-02 09:28:16 | Nagalagam Street (Kelani Ganga) | 0.30 | 🟢 Normal | 0.148 | 🔺 Rising |
-| 2026-01-02 09:28:14 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | 0.148 | 🔺 Rising |
-| 2026-01-02 09:28:04 | Rathnapura (Kalu Ganga) | 0.87 | 🟢 Normal | 0.016 | 🔺 Rising |
 
 ## Latest by Station
 
