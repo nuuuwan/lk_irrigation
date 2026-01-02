@@ -1,5 +1,145 @@
 [
   {
+    "station_name": "Giriulla",
+    "time_ut": 1767328307,
+    "water_level_m": 1.05
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1767328297,
+    "water_level_m": 0.83
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1767328265,
+    "water_level_m": 1.03
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1767328258,
+    "water_level_m": 3.45
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1767328258,
+    "water_level_m": 1.69
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1767328257,
+    "water_level_m": 3.58
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1767328256,
+    "water_level_m": 3.68
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1767328254,
+    "water_level_m": 3.76
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1767328253,
+    "water_level_m": 3.88
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767328221,
+    "water_level_m": 1.61
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767328220,
+    "water_level_m": 1.64
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767328219,
+    "water_level_m": 1.65
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767328218,
+    "water_level_m": 1.68
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1767328217,
+    "water_level_m": -1.23
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1767328216,
+    "water_level_m": -1.21
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767328216,
+    "water_level_m": 1.78
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1767328214,
+    "water_level_m": -1.17
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1767328213,
+    "water_level_m": -1.15
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1767328212,
+    "water_level_m": 1.48
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1767328211,
+    "water_level_m": -1.09
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1767328090,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1767328089,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1767328088,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1767328087,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767327555,
+    "water_level_m": 0.35
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767327552,
+    "water_level_m": 0.38
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767327547,
+    "water_level_m": 0.45
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767327542,
+    "water_level_m": 0.55
+  },
+  {
     "station_name": "Peradeniya",
     "time_ut": 1767327213,
     "water_level_m": 1.9
