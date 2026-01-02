@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--03_00:11:43-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--03_00:12:59-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **35,035 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **35,037 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-03 00:12:59 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.80 | 🟢 Normal | 0.050 | 🔺 Rising |
+| 2026-01-03 00:12:35 | Panadugama (Nilwala Ganga) | 2.61 | 🟢 Normal | 0.159 | 🔺 Rising |
 | 2026-01-03 00:11:43 | Urawa (Nilwala Ganga) | 0.47 | 🟢 Normal | -1.440 |  |
 | 2026-01-03 00:11:18 | Urawa (Nilwala Ganga) | 0.48 | 🟢 Normal | -1.440 |  |
 | 2026-01-03 00:10:11 | Siyambalanduwa (Heda Oya) | 1.14 | 🟢 Normal | -0.009 |  |
@@ -49,10 +51,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-03 00:01:23 | Padiyathalawa (Maduru Oya) | 1.19 | 🟢 Normal | 0.000 |  |
 | 2026-01-03 00:01:18 | Moragaswewa (Deduru Oya) | 0.75 | 🟢 Normal | -0.010 |  |
 | 2026-01-03 00:01:14 | Baddegama (Gin Ganga) | 1.30 | 🟢 Normal | 0.000 |  |
-| 2026-01-02 23:53:43 | Panadugama (Nilwala Ganga) | 2.56 | 🟢 Normal | 0.034 | 🔺 Rising |
-| 2026-01-02 23:24:51 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.76 | 🟢 Normal | 0.039 | 🔺 Rising |
-| 2026-01-02 23:21:06 | Dunamale (Aththanagalu Oya) | 0.84 | 🟢 Normal | -0.015 |  |
-| 2026-01-02 23:15:28 | Kuda Oya (Kirindi Oya) | 1.51 | 🟢 Normal | 0.000 |  |
+| 2026-01-02 23:53:43 | Panadugama (Nilwala Ganga) | 2.56 | 🟢 Normal | 0.159 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -60,9 +59,9 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-03 00:12:35 | Panadugama (Nilwala Ganga) | 2.61 | 🟢 Normal | 0.159 | 🔺 Rising |
 | 2026-01-03 00:04:14 | Deraniyagala (Kelani Ganga) | 0.30 | 🟢 Normal | 0.070 | 🔺 Rising |
-| 2026-01-02 23:24:51 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.76 | 🟢 Normal | 0.039 | 🔺 Rising |
-| 2026-01-02 23:53:43 | Panadugama (Nilwala Ganga) | 2.56 | 🟢 Normal | 0.034 | 🔺 Rising |
+| 2026-01-03 00:12:59 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.80 | 🟢 Normal | 0.050 | 🔺 Rising |
 | 2026-01-03 00:02:44 | Nagalagam Street (Kelani Ganga) | 0.46 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-01-02 22:46:44 | Putupaula (Kalu Ganga) | 0.55 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-01-03 00:01:40 | Wellawaya (Kirindi Oya) | 1.06 | 🟢 Normal | 0.000 |  |
@@ -102,6 +101,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## River Water Level Charts by Station
 
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
+
 ### Deraniyagala (Kelani Ganga)
 
 ![Deraniyagala](images/stations/deraniyagala.png)
@@ -109,10 +112,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kalawellawa (Millakanda) (Kalu Ganga)
 
 ![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
-
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
 
 ### Nagalagam Street (Kelani Ganga)
 
