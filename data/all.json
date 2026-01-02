@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767375928,
+    "water_level_m": 1.51
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1767375829,
+    "water_level_m": 2.67
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1767375794,
+    "water_level_m": 1.06
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1767375755,
+    "water_level_m": 8.69
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1767375735,
+    "water_level_m": 1.01
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767375503,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1767375382,
+    "water_level_m": 0.55
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767375367,
+    "water_level_m": 0.91
+  },
+  {
     "station_name": "Manampitiya",
     "time_ut": 1767375261,
     "water_level_m": 2.02
