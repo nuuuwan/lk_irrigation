@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Deraniyagala",
+    "time_ut": 1767473714,
+    "water_level_m": 0.3
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1767473691,
+    "water_level_m": 0.34
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767473494,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1767473374,
+    "water_level_m": 2.78
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1767473317,
+    "water_level_m": 2.64
+  },
+  {
     "station_name": "Thawalama",
     "time_ut": 1767473231,
     "water_level_m": 1.64
