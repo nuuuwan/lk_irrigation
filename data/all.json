@@ -1,5 +1,60 @@
 [
   {
+    "station_name": "Thanthirimale",
+    "time_ut": 1767407510,
+    "water_level_m": 1.66
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1767407505,
+    "water_level_m": 0.99
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1767407488,
+    "water_level_m": 1.05
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767407476,
+    "water_level_m": 1.45
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1767407475,
+    "water_level_m": 2.09
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1767407465,
+    "water_level_m": -1.48
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1767407451,
+    "water_level_m": 2.39
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1767407434,
+    "water_level_m": 0.81
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1767407426,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1767406142,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767405247,
+    "water_level_m": 0.83
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1767404780,
     "water_level_m": 0.38
