@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1767473231,
+    "water_level_m": 1.64
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1767473000,
+    "water_level_m": 8.75
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1767472999,
+    "water_level_m": 8.75
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767472706,
+    "water_level_m": 1.36
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767472705,
+    "water_level_m": 1.37
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767472673,
+    "water_level_m": 0.79
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767472598,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767472578,
+    "water_level_m": 0.79
+  },
+  {
     "station_name": "Peradeniya",
     "time_ut": 1767472514,
     "water_level_m": 2.38
