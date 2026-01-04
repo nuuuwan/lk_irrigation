@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--04_20:15:59-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--04_20:20:46-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **36,702 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **36,703 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-04 20:20:46 | Giriulla (Maha Oya) | 0.93 | 🟢 Normal | -0.008 |  |
 | 2026-01-04 20:15:59 | Glencourse (Kelani Ganga) | 8.62 | 🟢 Normal | 0.008 | 🔺 Rising |
 | 2026-01-04 20:13:35 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.50 | 🟢 Normal | -0.046 |  |
 | 2026-01-04 20:12:55 | Pitabeddara (Nilwala Ganga) | 0.72 | 🟢 Normal | 0.000 |  |
@@ -54,7 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-04 20:00:35 | Manampitiya (Mahaweli Ganga) | 1.47 | 🟢 Normal | -0.031 |  |
 | 2026-01-04 20:00:26 | Wellawaya (Kirindi Oya) | 1.10 | 🟢 Normal | -0.010 |  |
 | 2026-01-04 20:00:11 | Thaldena (Mahaweli Ganga) | 0.65 | 🟢 Normal | 0.000 |  |
-| 2026-01-04 19:21:41 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.54 | 🟢 Normal | -0.046 |  |
 
 ## Latest by Station
 
@@ -88,7 +88,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-04 20:08:13 | Thawalama (Gin Ganga) | 1.59 | 🟢 Normal | 0.000 |  |
 | 2026-01-04 20:03:35 | Urawa (Nilwala Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
 | 2026-01-04 20:05:34 | Kuda Oya (Kirindi Oya) | 1.32 | 🟢 Normal | 0.000 |  |
-| 2026-01-04 19:04:27 | Giriulla (Maha Oya) | 0.94 | 🟢 Normal | -0.010 |  |
+| 2026-01-04 20:20:46 | Giriulla (Maha Oya) | 0.93 | 🟢 Normal | -0.008 |  |
 | 2026-01-04 20:00:26 | Wellawaya (Kirindi Oya) | 1.10 | 🟢 Normal | -0.010 |  |
 | 2026-01-04 20:05:55 | Rathnapura (Kalu Ganga) | 0.84 | 🟢 Normal | -0.010 |  |
 | 2026-01-04 20:05:45 | Magura (Kalu Ganga) | 0.93 | 🟢 Normal | -0.010 |  |
