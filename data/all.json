@@ -1,5 +1,70 @@
 [
   {
+    "station_name": "Glencourse",
+    "time_ut": 1767537959,
+    "water_level_m": 8.62
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767537815,
+    "water_level_m": 1.5
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1767537775,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1767537605,
+    "water_level_m": 0.63
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1767537525,
+    "water_level_m": 0.41
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1767537517,
+    "water_level_m": 0.51
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1767537493,
+    "water_level_m": 1.59
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1767537472,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767537415,
+    "water_level_m": 2.57
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767537355,
+    "water_level_m": 0.84
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767537345,
+    "water_level_m": 0.93
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767537334,
+    "water_level_m": 1.32
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1767537327,
+    "water_level_m": 1.67
+  },
+  {
     "station_name": "Putupaula",
     "time_ut": 1767537262,
     "water_level_m": 0.4
