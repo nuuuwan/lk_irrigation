@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -57,7 +57,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-04 18:28:43 | Panadugama (Nilwala Ganga) | 2.64 | 🟢 Normal | -0.066 |  |
 | 2026-01-04 18:27:40 | Thalgahagoda (Nilwala Ganga) | 0.60 | 🟢 Normal | -0.110 |  |
 | 2026-01-04 18:23:00 | Magura (Kalu Ganga) | 0.96 | 🟢 Normal | -0.027 |  |
-| 2026-01-04 18:15:36 | Galgamuwa (Mee Oya) | 2.40 | 🟢 Normal | -0.048 |  |
 
 ## Latest by Station
 
