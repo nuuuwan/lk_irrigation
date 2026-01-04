@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Giriulla",
+    "time_ut": 1767502056,
+    "water_level_m": 0.96
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1767501963,
+    "water_level_m": 1.3
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767501957,
+    "water_level_m": 1.21
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1767501807,
     "water_level_m": 0.51
