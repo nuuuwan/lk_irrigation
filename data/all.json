@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1767519472,
+    "water_level_m": 0.46
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767519465,
+    "water_level_m": 1.06
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1767519414,
+    "water_level_m": 0.4
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1767519412,
+    "water_level_m": 1.19
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767519377,
+    "water_level_m": 1.77
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1767519346,
+    "water_level_m": 2.51
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1767519286,
+    "water_level_m": 0.36
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767519284,
+    "water_level_m": 2.88
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1767519271,
+    "water_level_m": 0.44
+  },
+  {
     "station_name": "Putupaula",
     "time_ut": 1767519264,
     "water_level_m": 0.69
