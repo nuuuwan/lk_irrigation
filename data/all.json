@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1767527771,
+    "water_level_m": 0.73
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1767527221,
+    "water_level_m": 0.73
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1767527068,
     "water_level_m": 2.71
