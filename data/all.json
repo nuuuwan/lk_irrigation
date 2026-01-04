@@ -1,5 +1,55 @@
 [
   {
+    "station_name": "Thanamalwila",
+    "time_ut": 1767548494,
+    "water_level_m": 1.11
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1767548411,
+    "water_level_m": 2.01
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1767548313,
+    "water_level_m": 0.93
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1767548251,
+    "water_level_m": 0.64
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1767548188,
+    "water_level_m": 0.68
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1767548184,
+    "water_level_m": 8.55
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767548153,
+    "water_level_m": 0.92
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767548141,
+    "water_level_m": 2.51
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767548134,
+    "water_level_m": 0.75
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1767548124,
+    "water_level_m": 1.38
+  },
+  {
     "station_name": "Norwood",
     "time_ut": 1767548094,
     "water_level_m": 0.52
