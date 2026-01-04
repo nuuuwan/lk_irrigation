@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--05_04:27:47-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--05_04:50:37-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **36,972 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **36,976 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,14 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-05 04:50:37 | Urawa (Nilwala Ganga) | 0.28 | 🟢 Normal | 0.000 |  |
+| 2026-01-05 04:49:37 | Urawa (Nilwala Ganga) | 0.28 | 🟢 Normal | 0.000 |  |
+| 2026-01-05 04:46:48 | Panadugama (Nilwala Ganga) | 2.44 | 🟢 Normal | -0.006 |  |
+| 2026-01-05 04:43:54 | Thanamalwila (Kirindi Oya) | 1.08 | 🟢 Normal | -0.006 |  |
 | 2026-01-05 04:27:47 | Moragaswewa (Deduru Oya) | 0.59 | 🟢 Normal | -0.014 |  |
 | 2026-01-05 04:26:21 | Thalgahagoda (Nilwala Ganga) | 0.50 | 🟢 Normal | 0.279 | 🔺 Rising |
 | 2026-01-05 04:22:35 | Kuda Oya (Kirindi Oya) | 1.31 | 🟢 Normal | 0.000 |  |
@@ -84,17 +88,17 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-05 04:06:54 | Holombuwa (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2026-01-05 04:05:33 | Rathnapura (Kalu Ganga) | 0.77 | 🟢 Normal | 0.000 |  |
 | 2026-01-04 18:02:32 | Thanthirimale (Malwathu Oya) | 1.51 | 🟢 Normal | 0.000 |  |
+| 2026-01-05 04:50:37 | Urawa (Nilwala Ganga) | 0.28 | 🟢 Normal | 0.000 |  |
 | 2026-01-05 04:22:35 | Kuda Oya (Kirindi Oya) | 1.31 | 🟢 Normal | 0.000 |  |
-| 2026-01-05 03:07:10 | Thanamalwila (Kirindi Oya) | 1.09 | 🟢 Normal | 0.000 |  |
+| 2026-01-05 04:46:48 | Panadugama (Nilwala Ganga) | 2.44 | 🟢 Normal | -0.006 |  |
+| 2026-01-05 04:43:54 | Thanamalwila (Kirindi Oya) | 1.08 | 🟢 Normal | -0.006 |  |
 | 2026-01-05 04:10:19 | Thawalama (Gin Ganga) | 1.63 | 🟢 Normal | -0.009 |  |
 | 2026-01-05 04:09:24 | Dunamale (Aththanagalu Oya) | 0.65 | 🟢 Normal | -0.009 |  |
 | 2026-01-05 04:05:56 | Pitabeddara (Nilwala Ganga) | 0.69 | 🟢 Normal | -0.010 |  |
 | 2026-01-05 04:27:47 | Moragaswewa (Deduru Oya) | 0.59 | 🟢 Normal | -0.014 |  |
 | 2026-01-05 04:08:04 | Horowpothana (Yan Oya) | 1.69 | 🟢 Normal | -0.018 |  |
 | 2026-01-05 04:08:41 | Putupaula (Kalu Ganga) | 0.64 | 🟢 Normal | -0.024 |  |
-| 2026-01-05 02:08:26 | Urawa (Nilwala Ganga) | 0.28 | 🟢 Normal | -0.028 |  |
 | 2026-01-05 04:11:30 | Baddegama (Gin Ganga) | 1.25 | 🟢 Normal | -0.035 |  |
-| 2026-01-05 03:09:01 | Panadugama (Nilwala Ganga) | 2.45 | 🟢 Normal | -0.040 |  |
 | 2026-01-04 18:15:36 | Galgamuwa (Mee Oya) | 2.40 | 🟢 Normal | -0.048 |  |
 | 2026-01-05 04:02:00 | Peradeniya (Mahaweli Ganga) | 2.03 | 🟢 Normal | -0.377 |  |
 
@@ -204,9 +208,17 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Thanthirimale](images/stations/thanthirimale.png)
 
+### Urawa (Nilwala Ganga)
+
+![Urawa](images/stations/urawa.png)
+
 ### Kuda Oya (Kirindi Oya)
 
 ![Kuda Oya](images/stations/kuda-oya.png)
+
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
 
 ### Thanamalwila (Kirindi Oya)
 
@@ -236,17 +248,9 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Putupaula](images/stations/putupaula.png)
 
-### Urawa (Nilwala Ganga)
-
-![Urawa](images/stations/urawa.png)
-
 ### Baddegama (Gin Ganga)
 
 ![Baddegama](images/stations/baddegama.png)
-
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
 
 ### Galgamuwa (Mee Oya)
 
