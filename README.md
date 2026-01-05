@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--06_01:17:52-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--06_01:33:14-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **37,759 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **37,760 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-06 01:33:14 | Nagalagam Street (Kelani Ganga) | 0.55 | 🟢 Normal | 0.087 | 🔺 Rising |
 | 2026-01-06 01:17:52 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | -0.016 |  |
 | 2026-01-06 01:10:49 | Rathnapura (Kalu Ganga) | 0.99 | 🟢 Normal | 0.111 | 🔺 Rising |
 | 2026-01-06 01:10:13 | Siyambalanduwa (Heda Oya) | 1.76 | 🟢 Normal | 0.523 | 🔺 Rising |
@@ -47,7 +48,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-06 01:01:05 | Nakkala (Kumbukkan Oya) | 1.11 | 🟢 Normal | 0.008 | 🔺 Rising |
 | 2026-01-06 01:00:55 | Nawalapitiya (Mahaweli Ganga) | 0.76 | 🟢 Normal | 0.000 |  |
 | 2026-01-06 01:00:53 | Thaldena (Mahaweli Ganga) | 0.78 | 🟢 Normal | -0.020 |  |
-| 2026-01-06 00:53:53 | Horowpothana (Yan Oya) | 1.49 | 🟢 Normal | 0.078 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -60,7 +60,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-05 23:06:55 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.70 | 🟢 Normal | 0.154 | 🔺 Rising |
 | 2026-01-06 01:10:49 | Rathnapura (Kalu Ganga) | 0.99 | 🟢 Normal | 0.111 | 🔺 Rising |
 | 2026-01-05 18:04:03 | Weraganthota (Mahaweli Ganga) | -1.35 | 🟢 Normal | 0.110 | 🔺 Rising |
-| 2026-01-06 00:09:22 | Nagalagam Street (Kelani Ganga) | 0.43 | 🟢 Normal | 0.083 | 🔺 Rising |
+| 2026-01-06 01:33:14 | Nagalagam Street (Kelani Ganga) | 0.55 | 🟢 Normal | 0.087 | 🔺 Rising |
 | 2026-01-06 01:04:53 | Magura (Kalu Ganga) | 0.98 | 🟢 Normal | 0.079 | 🔺 Rising |
 | 2026-01-06 01:01:34 | Horowpothana (Yan Oya) | 1.50 | 🟢 Normal | 0.078 | 🔺 Rising |
 | 2026-01-06 01:02:18 | Wellawaya (Kirindi Oya) | 1.46 | 🟢 Normal | 0.059 | 🔺 Rising |
