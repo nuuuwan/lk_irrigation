@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Rathnapura",
+    "time_ut": 1767599152,
+    "water_level_m": 0.7
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1767598951,
+    "water_level_m": 1.16
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767598908,
+    "water_level_m": 2.4
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767598885,
+    "water_level_m": 0.51
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767598782,
+    "water_level_m": 1.29
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1767598689,
     "water_level_m": 0.85
