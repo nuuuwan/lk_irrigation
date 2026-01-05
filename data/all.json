@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Rathnapura",
+    "time_ut": 1767603183,
+    "water_level_m": 0.7
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767603047,
+    "water_level_m": 2.4
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767602616,
+    "water_level_m": 0.85
+  },
+  {
     "station_name": "Thawalama",
     "time_ut": 1767602440,
     "water_level_m": 1.4
