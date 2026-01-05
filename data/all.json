@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Moragaswewa",
+    "time_ut": 1767624433,
+    "water_level_m": 0.54
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767624239,
+    "water_level_m": 2.38
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767624105,
+    "water_level_m": 1.46
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1767624078,
+    "water_level_m": 0.36
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1767624027,
+    "water_level_m": 0.51
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1767623924,
     "water_level_m": 0.83
