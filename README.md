@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--06_00:11:56-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--06_00:25:34-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **37,728 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **37,730 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **35** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-06 00:25:34 | Katharagama (Menik Ganga) | 0.01 | 🟢 Normal | 0.000 |  |
+| 2026-01-06 00:13:55 | Pitabeddara (Nilwala Ganga) | 0.85 | 🟢 Normal | 0.080 | 🔺 Rising |
 | 2026-01-06 00:11:56 | Magura (Kalu Ganga) | 0.91 | 🟢 Normal | 0.073 | 🔺 Rising |
 | 2026-01-06 00:11:28 | Rathnapura (Kalu Ganga) | 0.88 | 🟢 Normal | 0.028 | 🔺 Rising |
 | 2026-01-06 00:10:19 | Putupaula (Kalu Ganga) | 0.45 | 🟢 Normal | -0.061 |  |
@@ -65,9 +67,9 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-05 23:06:55 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.70 | 🟢 Normal | 0.154 | 🔺 Rising |
 | 2026-01-05 18:04:03 | Weraganthota (Mahaweli Ganga) | -1.35 | 🟢 Normal | 0.110 | 🔺 Rising |
 | 2026-01-06 00:09:22 | Nagalagam Street (Kelani Ganga) | 0.43 | 🟢 Normal | 0.083 | 🔺 Rising |
+| 2026-01-06 00:13:55 | Pitabeddara (Nilwala Ganga) | 0.85 | 🟢 Normal | 0.080 | 🔺 Rising |
 | 2026-01-06 00:11:56 | Magura (Kalu Ganga) | 0.91 | 🟢 Normal | 0.073 | 🔺 Rising |
 | 2026-01-06 00:01:00 | Manampitiya (Mahaweli Ganga) | 2.02 | 🟢 Normal | 0.040 | 🔺 Rising |
-| 2026-01-05 22:28:34 | Pitabeddara (Nilwala Ganga) | 0.71 | 🟢 Normal | 0.037 | 🔺 Rising |
 | 2026-01-06 00:03:06 | Panadugama (Nilwala Ganga) | 2.44 | 🟢 Normal | 0.034 | 🔺 Rising |
 | 2026-01-06 00:02:11 | Deraniyagala (Kelani Ganga) | 0.30 | 🟢 Normal | 0.031 | 🔺 Rising |
 | 2026-01-06 00:04:00 | Thawalama (Gin Ganga) | 1.49 | 🟢 Normal | 0.030 | 🔺 Rising |
@@ -83,7 +85,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-06 00:06:56 | Norwood (Kelani Ganga) | 0.58 | 🟢 Normal | 0.000 |  |
 | 2026-01-05 23:00:10 | Moraketiya (Walawe Ganga) | 0.94 | 🟢 Normal | 0.000 |  |
 | 2026-01-06 00:03:32 | Dunamale (Aththanagalu Oya) | 0.64 | 🟢 Normal | 0.000 |  |
-| 2026-01-05 23:34:45 | Katharagama (Menik Ganga) | 0.01 | 🟢 Normal | 0.000 |  |
+| 2026-01-06 00:25:34 | Katharagama (Menik Ganga) | 0.01 | 🟢 Normal | 0.000 |  |
 | 2026-01-06 00:03:10 | Badalgama (Maha Oya) | 2.00 | 🟢 Normal | 0.000 |  |
 | 2026-01-06 00:03:46 | Holombuwa (Kelani Ganga) | 0.48 | 🟢 Normal | 0.000 |  |
 | 2026-01-06 00:08:23 | Kuda Oya (Kirindi Oya) | 1.29 | 🟢 Normal | 0.000 |  |
@@ -125,6 +127,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Nagalagam Street](images/stations/nagalagam-street.png)
 
+### Pitabeddara (Nilwala Ganga)
+
+![Pitabeddara](images/stations/pitabeddara.png)
+
 ### Magura (Kalu Ganga)
 
 ![Magura](images/stations/magura.png)
@@ -132,10 +138,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Manampitiya (Mahaweli Ganga)
 
 ![Manampitiya](images/stations/manampitiya.png)
-
-### Pitabeddara (Nilwala Ganga)
-
-![Pitabeddara](images/stations/pitabeddara.png)
 
 ### Panadugama (Nilwala Ganga)
 
