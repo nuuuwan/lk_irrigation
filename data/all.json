@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Horowpothana",
+    "time_ut": 1767576652,
+    "water_level_m": 1.62
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1767576650,
+    "water_level_m": 1.49
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1767576641,
+    "water_level_m": 1.23
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1767576619,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1767576615,
+    "water_level_m": 1.02
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1767575153,
+    "water_level_m": 1.2
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1767574095,
+    "water_level_m": 0.4
+  },
+  {
     "station_name": "Padiyathalawa",
     "time_ut": 1767573890,
     "water_level_m": 1.06
