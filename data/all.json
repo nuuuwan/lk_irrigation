@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1767686963,
+    "water_level_m": 3.54
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1767685897,
     "water_level_m": 2.84

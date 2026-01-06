@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--06_13:21:37-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--06_13:39:23-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **38,211 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **38,212 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-06 13:39:23 | Manampitiya (Mahaweli Ganga) | 3.54 | 🟡 Alert | 0.047 | 🔺 Rising |
 | 2026-01-06 13:21:37 | Panadugama (Nilwala Ganga) | 2.84 | 🟢 Normal | -0.036 |  |
 | 2026-01-06 13:20:36 | Thanamalwila (Kirindi Oya) | 1.26 | 🟢 Normal | 0.016 | 🔺 Rising |
 | 2026-01-06 13:18:06 | Urawa (Nilwala Ganga) | 0.30 | 🟢 Normal | -0.009 |  |
@@ -64,7 +65,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-01-06 13:03:48 | Siyambalanduwa (Heda Oya) | 5.40 | 🟡 Alert | 0.087 | 🔺 Rising |
-| 2026-01-06 12:10:55 | Manampitiya (Mahaweli Ganga) | 3.47 | 🟡 Alert | 0.076 | 🔺 Rising |
+| 2026-01-06 13:39:23 | Manampitiya (Mahaweli Ganga) | 3.54 | 🟡 Alert | 0.047 | 🔺 Rising |
 | 2026-01-06 13:16:42 | Padiyathalawa (Maduru Oya) | 2.90 | 🟢 Normal | 0.339 | 🔺 Rising |
 | 2026-01-06 13:04:35 | Nagalagam Street (Kelani Ganga) | 0.43 | 🟢 Normal | 0.097 | 🔺 Rising |
 | 2026-01-06 13:02:25 | Putupaula (Kalu Ganga) | 0.47 | 🟢 Normal | 0.093 | 🔺 Rising |
