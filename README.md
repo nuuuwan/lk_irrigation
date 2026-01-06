@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--06_05:13:48-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--06_05:23:12-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **37,895 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **37,896 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-06 05:23:12 | Holombuwa (Kelani Ganga) | 0.45 | 🟢 Normal | -0.008 |  |
 | 2026-01-06 05:13:48 | Thanamalwila (Kirindi Oya) | 0.90 | 🟢 Normal | 0.024 | 🔺 Rising |
 | 2026-01-06 05:12:31 | Badalgama (Maha Oya) | 2.00 | 🟢 Normal | 0.000 |  |
 | 2026-01-06 05:11:44 | Kuda Oya (Kirindi Oya) | 1.32 | 🟢 Normal | 0.018 | 🔺 Rising |
@@ -52,7 +53,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-06 05:01:31 | Padiyathalawa (Maduru Oya) | 2.70 | 🟢 Normal | 0.101 | 🔺 Rising |
 | 2026-01-06 05:01:09 | Nawalapitiya (Mahaweli Ganga) | 0.75 | 🟢 Normal | 0.000 |  |
 | 2026-01-06 05:00:48 | Manampitiya (Mahaweli Ganga) | 2.31 | 🟢 Normal | 0.090 | 🔺 Rising |
-| 2026-01-06 04:35:57 | Moraketiya (Walawe Ganga) | 0.96 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -85,7 +85,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-06 05:05:35 | Katharagama (Menik Ganga) | 0.01 | 🟢 Normal | 0.000 |  |
 | 2026-01-06 05:12:31 | Badalgama (Maha Oya) | 2.00 | 🟢 Normal | 0.000 |  |
 | 2026-01-06 05:05:28 | Thawalama (Gin Ganga) | 1.50 | 🟢 Normal | 0.000 |  |
-| 2026-01-06 04:09:47 | Holombuwa (Kelani Ganga) | 0.46 | 🟢 Normal | -0.005 |  |
+| 2026-01-06 05:23:12 | Holombuwa (Kelani Ganga) | 0.45 | 🟢 Normal | -0.008 |  |
 | 2026-01-06 05:02:10 | Yaka Wewa (Ma Oya) | 0.80 | 🟢 Normal | -0.010 |  |
 | 2026-01-06 05:07:41 | Baddegama (Gin Ganga) | 0.96 | 🟢 Normal | -0.010 |  |
 | 2026-01-05 18:04:30 | Thanthirimale (Malwathu Oya) | 1.43 | 🟢 Normal | -0.011 |  |
