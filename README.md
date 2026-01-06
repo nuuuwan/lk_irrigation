@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_01:24:21-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_01:48:13-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **38,645 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **38,647 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **26** measurements in the last **1 hour**.*
+*There were **28** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-07 01:48:13 | Pitabeddara (Nilwala Ganga) | 0.73 | 🟢 Normal | -0.006 |  |
+| 2026-01-07 01:37:22 | Urawa (Nilwala Ganga) | 0.27 | 🟢 Normal | -0.014 |  |
 | 2026-01-07 01:24:21 | Nagalagam Street (Kelani Ganga) | 0.46 | 🟢 Normal | 0.069 | 🔺 Rising |
 | 2026-01-07 01:22:35 | Putupaula (Kalu Ganga) | 0.45 | 🟢 Normal | 0.016 | 🔺 Rising |
 | 2026-01-07 01:17:55 | Thawalama (Gin Ganga) | 1.60 | 🟢 Normal | 7.784 | 🔺 Rising |
@@ -44,7 +46,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-07 01:02:18 | Kuda Oya (Kirindi Oya) | 1.41 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-01-07 01:00:37 | Horowpothana (Yan Oya) | 2.89 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-01-07 01:00:11 | Kithulgala (Kelani Ganga) | 1.50 | 🟢 Normal | -0.062 |  |
-| 2026-01-07 00:54:48 | Urawa (Nilwala Ganga) | 0.28 | 🟢 Normal | 0.000 |  |
+| 2026-01-07 00:54:48 | Urawa (Nilwala Ganga) | 0.28 | 🟢 Normal | -0.014 |  |
 
 ## Latest by Station
 
@@ -77,14 +79,14 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-07 00:03:09 | Dunamale (Aththanagalu Oya) | 0.63 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 01:06:25 | Badalgama (Maha Oya) | 2.00 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 01:07:24 | Holombuwa (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
-| 2026-01-07 00:54:48 | Urawa (Nilwala Ganga) | 0.28 | 🟢 Normal | 0.000 |  |
-| 2026-01-06 22:26:10 | Pitabeddara (Nilwala Ganga) | 0.75 | 🟢 Normal | -0.008 |  |
+| 2026-01-07 01:48:13 | Pitabeddara (Nilwala Ganga) | 0.73 | 🟢 Normal | -0.006 |  |
 | 2026-01-07 01:07:22 | Nakkala (Kumbukkan Oya) | 1.60 | 🟢 Normal | -0.009 |  |
 | 2026-01-07 01:07:49 | Thanamalwila (Kirindi Oya) | 1.32 | 🟢 Normal | -0.009 |  |
 | 2026-01-06 22:08:17 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.68 | 🟢 Normal | -0.010 |  |
 | 2026-01-07 00:06:15 | Magura (Kalu Ganga) | 0.82 | 🟢 Normal | -0.010 |  |
 | 2026-01-07 01:04:22 | Rathnapura (Kalu Ganga) | 0.86 | 🟢 Normal | -0.010 |  |
 | 2026-01-07 01:04:19 | Ellagawa (Kalu Ganga) | 4.36 | 🟢 Normal | -0.012 |  |
+| 2026-01-07 01:37:22 | Urawa (Nilwala Ganga) | 0.27 | 🟢 Normal | -0.014 |  |
 | 2026-01-07 00:29:39 | Thalgahagoda (Nilwala Ganga) | 0.43 | 🟢 Normal | -0.015 |  |
 | 2026-01-07 00:06:21 | Panadugama (Nilwala Ganga) | 2.62 | 🟢 Normal | -0.031 |  |
 | 2026-01-07 01:00:11 | Kithulgala (Kelani Ganga) | 1.50 | 🟢 Normal | -0.062 |  |
@@ -194,10 +196,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Holombuwa](images/stations/holombuwa.png)
 
-### Urawa (Nilwala Ganga)
-
-![Urawa](images/stations/urawa.png)
-
 ### Pitabeddara (Nilwala Ganga)
 
 ![Pitabeddara](images/stations/pitabeddara.png)
@@ -225,6 +223,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Ellagawa (Kalu Ganga)
 
 ![Ellagawa](images/stations/ellagawa.png)
+
+### Urawa (Nilwala Ganga)
+
+![Urawa](images/stations/urawa.png)
 
 ### Thalgahagoda (Nilwala Ganga)
 
