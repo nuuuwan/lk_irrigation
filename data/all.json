@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1767741195,
+    "water_level_m": 0.63
+  },
+  {
     "station_name": "Thawalama",
     "time_ut": 1767739628,
     "water_level_m": 1.6
