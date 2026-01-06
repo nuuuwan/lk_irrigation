@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Urawa",
+    "time_ut": 1767696391,
+    "water_level_m": 0.29
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1767696246,
+    "water_level_m": 3.75
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1767696178,
+    "water_level_m": 0.81
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767696124,
+    "water_level_m": 0.83
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767696052,
+    "water_level_m": 0.93
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767696043,
+    "water_level_m": 2.73
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1767695998,
+    "water_level_m": 0.44
+  },
+  {
     "station_name": "Galgamuwa",
     "time_ut": 1767695964,
     "water_level_m": 0.21
