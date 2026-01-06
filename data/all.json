@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1767676495,
+    "water_level_m": 0.48
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1767676276,
+    "water_level_m": 0.94
+  },
+  {
     "station_name": "Nawalapitiya",
     "time_ut": 1767675719,
     "water_level_m": 0.85
