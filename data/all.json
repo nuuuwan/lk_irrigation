@@ -1,5 +1,120 @@
 [
   {
+    "station_name": "Putupaula",
+    "time_ut": 1767699217,
+    "water_level_m": 0.86
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1767699204,
+    "water_level_m": 0.48
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1767699195,
+    "water_level_m": 8.6
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1767699183,
+    "water_level_m": 2.11
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1767699173,
+    "water_level_m": 0.35
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1767699172,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1767699172,
+    "water_level_m": 0.67056
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1767699160,
+    "water_level_m": 0.98
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1767699160,
+    "water_level_m": 0.65
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1767699160,
+    "water_level_m": 0.92
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767699158,
+    "water_level_m": 1.36
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767699156,
+    "water_level_m": 0.92
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1767699145,
+    "water_level_m": 0.62
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767699138,
+    "water_level_m": 1.93
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1767699123,
+    "water_level_m": 1.15
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1767699115,
+    "water_level_m": 4.44
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1767699110,
+    "water_level_m": 0.83
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1767699077,
+    "water_level_m": 0.58
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1767699059,
+    "water_level_m": 0.98
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1767699037,
+    "water_level_m": 1.71
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1767699033,
+    "water_level_m": 4.76
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1767699020,
+    "water_level_m": -0.57
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1767698806,
+    "water_level_m": -0.57
+  },
+  {
     "station_name": "Giriulla",
     "time_ut": 1767696876,
     "water_level_m": 0.94
