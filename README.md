@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -58,7 +58,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-06 16:00:30 | Moraketiya (Walawe Ganga) | 0.98 | 🟢 Normal | 0.000 |  |
 | 2026-01-06 16:00:19 | Weraganthota (Mahaweli Ganga) | -0.46 | 🟢 Normal | -0.092 |  |
 | 2026-01-06 16:00:08 | Thanthirimale (Malwathu Oya) | 1.70 | 🟢 Normal | 0.011 | 🔺 Rising |
-| 2026-01-06 15:35:32 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | 0.070 | 🔺 Rising |
 
 ## Latest by Station
 
