@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Moragaswewa",
+    "time_ut": 1767714376,
+    "water_level_m": 0.59
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767714126,
+    "water_level_m": 2.66
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1767714116,
+    "water_level_m": 3.79
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1767714002,
+    "water_level_m": 0.76
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767713909,
+    "water_level_m": 0.64
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1767713890,
+    "water_level_m": 0.52
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1767713850,
     "water_level_m": 0.5
