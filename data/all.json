@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1767729261,
+    "water_level_m": 0.45720000000000005
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767729155,
+    "water_level_m": 0.45
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1767728875,
+    "water_level_m": 1.6
+  },
+  {
     "station_name": "Thawalama",
     "time_ut": 1767728838,
     "water_level_m": 1.52
