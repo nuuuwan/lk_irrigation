@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_03:28:18-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_03:49:32-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **38,714 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **38,715 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-07 03:49:32 | Magura (Kalu Ganga) | 0.82 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 03:28:18 | Nakkala (Kumbukkan Oya) | 1.58 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 03:09:42 | Deraniyagala (Kelani Ganga) | 0.31 | 🟢 Normal | -0.020 |  |
 | 2026-01-07 03:08:12 | Glencourse (Kelani Ganga) | 8.84 | 🟢 Normal | 0.094 | 🔺 Rising |
@@ -53,7 +54,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-07 03:01:13 | Holombuwa (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 03:00:45 | Kithulgala (Kelani Ganga) | 1.56 | 🟢 Normal | 0.051 | 🔺 Rising |
 | 2026-01-07 03:00:29 | Manampitiya (Mahaweli Ganga) | 3.46 | 🟡 Alert | -0.058 |  |
-| 2026-01-07 02:43:26 | Badalgama (Maha Oya) | 2.00 | 🟢 Normal | 0.025 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -79,7 +79,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-07 03:06:19 | Yaka Wewa (Ma Oya) | 0.90 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 03:03:50 | Giriulla (Maha Oya) | 0.97 | 🟢 Normal | 0.000 |  |
 | 2026-01-06 18:03:13 | Galgamuwa (Mee Oya) | 0.20 | 🟢 Normal | 0.000 |  |
-| 2026-01-07 02:04:08 | Magura (Kalu Ganga) | 0.82 | 🟢 Normal | 0.000 |  |
+| 2026-01-07 03:49:32 | Magura (Kalu Ganga) | 0.82 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 03:02:47 | Norwood (Kelani Ganga) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 03:02:17 | Moraketiya (Walawe Ganga) | 0.96 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 03:03:38 | Dunamale (Aththanagalu Oya) | 0.63 | 🟢 Normal | 0.000 |  |
