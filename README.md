@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_16:16:27-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_16:39:28-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **39,219 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **39,220 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-07 16:39:28 | Norwood (Kelani Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:16:27 | Urawa (Nilwala Ganga) | 0.75 | 🟢 Normal | 23.831 | 🔺 Rising |
 | 2026-01-07 16:16:15 | Giriulla (Maha Oya) | 1.00 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:15:16 | Urawa (Nilwala Ganga) | 0.28 | 🟢 Normal | 23.831 | 🔺 Rising |
@@ -29,7 +30,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-07 16:06:50 | Yaka Wewa (Ma Oya) | 0.84 | 🟢 Normal | -0.009 |  |
 | 2026-01-07 16:06:02 | Panadugama (Nilwala Ganga) | 2.51 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:05:48 | Moraketiya (Walawe Ganga) | 0.93 | 🟢 Normal | -0.010 |  |
-| 2026-01-07 16:05:06 | Norwood (Kelani Ganga) | 0.54 | 🟢 Normal | 0.010 | 🔺 Rising |
+| 2026-01-07 16:05:06 | Norwood (Kelani Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:05:05 | Badalgama (Maha Oya) | 2.05 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:04:32 | Thanamalwila (Kirindi Oya) | 1.13 | 🟢 Normal | -0.010 |  |
 | 2026-01-07 16:04:30 | Katharagama (Menik Ganga) | 0.57 | 🟢 Normal | -0.010 |  |
@@ -74,13 +75,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-07 16:03:39 | Thaldena (Mahaweli Ganga) | 0.90 | 🟢 Normal | 0.029 | 🔺 Rising |
 | 2026-01-07 16:03:35 | Kithulgala (Kelani Ganga) | 1.48 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2026-01-07 16:03:02 | Hanwella (Kelani Ganga) | 0.44 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-01-07 16:05:06 | Norwood (Kelani Ganga) | 0.54 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-01-07 16:02:24 | Moragaswewa (Deduru Oya) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:00:13 | Nawalapitiya (Mahaweli Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:16:15 | Giriulla (Maha Oya) | 1.00 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:04:12 | Galgamuwa (Mee Oya) | 0.19 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:11:04 | Magura (Kalu Ganga) | 0.81 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:01:57 | Pitabeddara (Nilwala Ganga) | 0.58 | 🟢 Normal | 0.000 |  |
+| 2026-01-07 16:39:28 | Norwood (Kelani Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:06:02 | Panadugama (Nilwala Ganga) | 2.51 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:02:38 | Glencourse (Kelani Ganga) | 8.63 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 16:02:30 | Dunamale (Aththanagalu Oya) | 1.06 | 🟢 Normal | 0.000 |  |
@@ -140,10 +141,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Hanwella](images/stations/hanwella.png)
 
-### Norwood (Kelani Ganga)
-
-![Norwood](images/stations/norwood.png)
-
 ### Moragaswewa (Deduru Oya)
 
 ![Moragaswewa](images/stations/moragaswewa.png)
@@ -167,6 +164,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Pitabeddara (Nilwala Ganga)
 
 ![Pitabeddara](images/stations/pitabeddara.png)
+
+### Norwood (Kelani Ganga)
+
+![Norwood](images/stations/norwood.png)
 
 ### Panadugama (Nilwala Ganga)
 
