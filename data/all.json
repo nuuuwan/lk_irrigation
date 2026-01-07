@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1767808777,
+    "water_level_m": 1.3
+  },
+  {
     "station_name": "Giriulla",
     "time_ut": 1767807730,
     "water_level_m": 0.97
