@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Giriulla",
+    "time_ut": 1767801076,
+    "water_level_m": 0.97
+  },
+  {
     "station_name": "Baddegama",
     "time_ut": 1767800713,
     "water_level_m": 1.16

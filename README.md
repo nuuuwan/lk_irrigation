@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_21:15:13-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_21:21:16-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **39,410 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **39,411 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,16 +15,17 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-07 21:21:16 | Giriulla (Maha Oya) | 0.97 | 🟢 Normal | -0.043 |  |
 | 2026-01-07 21:15:13 | Baddegama (Gin Ganga) | 1.16 | 🟢 Normal | -0.010 |  |
 | 2026-01-07 21:12:22 | Ellagawa (Kalu Ganga) | 4.18 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 21:07:51 | Holombuwa (Kelani Ganga) | 0.45 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 21:07:49 | Magura (Kalu Ganga) | 0.81 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 21:07:47 | Panadugama (Nilwala Ganga) | 2.66 | 🟢 Normal | 0.102 | 🔺 Rising |
-| 2026-01-07 21:07:24 | Giriulla (Maha Oya) | 0.98 | 🟢 Normal | 0.013 | 🔺 Rising |
+| 2026-01-07 21:07:24 | Giriulla (Maha Oya) | 0.98 | 🟢 Normal | -0.043 |  |
 | 2026-01-07 21:07:14 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.44 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 21:06:47 | Rathnapura (Kalu Ganga) | 0.80 | 🟢 Normal | 0.028 | 🔺 Rising |
 | 2026-01-07 21:06:35 | Glencourse (Kelani Ganga) | 8.59 | 🟢 Normal | -0.010 |  |
@@ -67,7 +68,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-07 21:04:35 | Peradeniya (Mahaweli Ganga) | 2.16 | 🟢 Normal | 0.286 | 🔺 Rising |
 | 2026-01-07 21:07:47 | Panadugama (Nilwala Ganga) | 2.66 | 🟢 Normal | 0.102 | 🔺 Rising |
 | 2026-01-07 21:06:47 | Rathnapura (Kalu Ganga) | 0.80 | 🟢 Normal | 0.028 | 🔺 Rising |
-| 2026-01-07 21:07:24 | Giriulla (Maha Oya) | 0.98 | 🟢 Normal | 0.013 | 🔺 Rising |
 | 2026-01-07 18:01:49 | Weraganthota (Mahaweli Ganga) | -1.15 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-01-07 21:05:42 | Dunamale (Aththanagalu Oya) | 1.07 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-01-07 21:05:42 | Moragaswewa (Deduru Oya) | 0.56 | 🟢 Normal | 0.000 |  |
@@ -98,6 +98,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-07 21:04:19 | Urawa (Nilwala Ganga) | 1.40 | 🟢 Normal | -0.023 |  |
 | 2026-01-07 21:02:07 | Kithulgala (Kelani Ganga) | 1.55 | 🟢 Normal | -0.030 |  |
 | 2026-01-07 21:02:58 | Siyambalanduwa (Heda Oya) | 1.41 | 🟢 Normal | -0.039 |  |
+| 2026-01-07 21:21:16 | Giriulla (Maha Oya) | 0.97 | 🟢 Normal | -0.043 |  |
 | 2026-01-07 21:01:14 | Manampitiya (Mahaweli Ganga) | 2.50 | 🟢 Normal | -0.046 |  |
 | 2026-01-07 21:05:18 | Putupaula (Kalu Ganga) | 0.65 | 🟢 Normal | -0.050 |  |
 | 2026-01-07 21:01:37 | Thalgahagoda (Nilwala Ganga) | 0.51 | 🟢 Normal | -0.059 |  |
@@ -120,10 +121,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Rathnapura (Kalu Ganga)
 
 ![Rathnapura](images/stations/rathnapura.png)
-
-### Giriulla (Maha Oya)
-
-![Giriulla](images/stations/giriulla.png)
 
 ### Weraganthota (Mahaweli Ganga)
 
@@ -244,6 +241,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Siyambalanduwa (Heda Oya)
 
 ![Siyambalanduwa](images/stations/siyambalanduwa.png)
+
+### Giriulla (Maha Oya)
+
+![Giriulla](images/stations/giriulla.png)
 
 ### Manampitiya (Mahaweli Ganga)
 
