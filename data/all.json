@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Horowpothana",
+    "time_ut": 1767772820,
+    "water_level_m": 2.66
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1767772249,
+    "water_level_m": 2.04
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1767772123,
     "water_level_m": 0.38

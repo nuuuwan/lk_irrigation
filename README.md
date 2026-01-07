@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_13:18:43-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--07_13:30:20-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **39,100 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **39,102 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-07 13:30:20 | Horowpothana (Yan Oya) | 2.66 | 🟢 Normal | -0.027 |  |
+| 2026-01-07 13:20:49 | Badalgama (Maha Oya) | 2.04 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-01-07 13:18:43 | Thalgahagoda (Nilwala Ganga) | 0.38 | 🟢 Normal | -0.016 |  |
 | 2026-01-07 13:15:45 | Magura (Kalu Ganga) | 0.81 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 13:14:56 | Urawa (Nilwala Ganga) | 0.26 | 🟢 Normal | -0.009 |  |
@@ -68,7 +70,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-07 13:02:23 | Padiyathalawa (Maduru Oya) | 1.25 | 🟢 Normal | 0.054 | 🔺 Rising |
 | 2026-01-07 13:03:57 | Kithulgala (Kelani Ganga) | 1.46 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2026-01-07 13:02:45 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.48 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-01-07 12:13:58 | Badalgama (Maha Oya) | 2.03 | 🟢 Normal | 0.009 | 🔺 Rising |
+| 2026-01-07 13:20:49 | Badalgama (Maha Oya) | 2.04 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-01-07 13:02:29 | Wellawaya (Kirindi Oya) | 1.10 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 13:01:28 | Moragaswewa (Deduru Oya) | 0.56 | 🟢 Normal | 0.000 |  |
 | 2026-01-07 13:01:04 | Nawalapitiya (Mahaweli Ganga) | 0.79 | 🟢 Normal | 0.000 |  |
@@ -95,11 +97,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-07 13:02:10 | Katharagama (Menik Ganga) | 0.61 | 🟢 Normal | -0.023 |  |
 | 2026-01-07 13:06:57 | Panadugama (Nilwala Ganga) | 2.51 | 🟢 Normal | -0.024 |  |
 | 2026-01-07 13:04:44 | Thanamalwila (Kirindi Oya) | 1.16 | 🟢 Normal | -0.027 |  |
+| 2026-01-07 13:30:20 | Horowpothana (Yan Oya) | 2.66 | 🟢 Normal | -0.027 |  |
 | 2026-01-07 13:03:30 | Deraniyagala (Kelani Ganga) | 0.16 | 🟢 Normal | -0.029 |  |
 | 2026-01-07 13:03:38 | Hanwella (Kelani Ganga) | 0.43 | 🟢 Normal | -0.030 |  |
 | 2026-01-07 13:10:18 | Manampitiya (Mahaweli Ganga) | 2.75 | 🟢 Normal | -0.036 |  |
 | 2026-01-07 13:01:47 | Siyambalanduwa (Heda Oya) | 1.68 | 🟢 Normal | -0.039 |  |
-| 2026-01-07 12:02:21 | Horowpothana (Yan Oya) | 2.70 | 🟢 Normal | -0.049 |  |
 | 2026-01-07 13:01:17 | Thawalama (Gin Ganga) | 1.39 | 🟢 Normal | -0.053 |  |
 | 2026-01-07 13:02:21 | Peradeniya (Mahaweli Ganga) | 1.98 | 🟢 Normal | -0.100 |  |
 
@@ -233,6 +235,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Thanamalwila](images/stations/thanamalwila.png)
 
+### Horowpothana (Yan Oya)
+
+![Horowpothana](images/stations/horowpothana.png)
+
 ### Deraniyagala (Kelani Ganga)
 
 ![Deraniyagala](images/stations/deraniyagala.png)
@@ -248,10 +254,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Siyambalanduwa (Heda Oya)
 
 ![Siyambalanduwa](images/stations/siyambalanduwa.png)
-
-### Horowpothana (Yan Oya)
-
-![Horowpothana](images/stations/horowpothana.png)
 
 ### Thawalama (Gin Ganga)
 
