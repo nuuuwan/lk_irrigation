@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--09_02:16:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--09_02:23:03-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **40,476 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **40,477 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-09 02:23:03 | Horowpothana (Yan Oya) | 2.19 | 🟢 Normal | 0.000 |  |
 | 2026-01-09 02:16:24 | Magura (Kalu Ganga) | 0.79 | 🟢 Normal | 0.000 |  |
 | 2026-01-09 02:16:23 | Magura (Kalu Ganga) | 0.79 | 🟢 Normal | 0.000 |  |
 | 2026-01-09 02:12:19 | Hanwella (Kelani Ganga) | 0.42 | 🟢 Normal | 0.018 | 🔺 Rising |
@@ -52,7 +53,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-09 02:00:14 | Nawalapitiya (Mahaweli Ganga) | 0.74 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-01-09 01:55:32 | Siyambalanduwa (Heda Oya) | 1.21 | 🟢 Normal | -0.255 |  |
 | 2026-01-09 01:36:06 | Holombuwa (Kelani Ganga) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-01-09 01:22:05 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | 0.078 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -75,7 +75,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-09 01:04:12 | Nakkala (Kumbukkan Oya) | 1.28 | 🟢 Normal | 0.000 |  |
 | 2026-01-09 00:01:53 | Yaka Wewa (Ma Oya) | 0.76 | 🟢 Normal | 0.000 |  |
 | 2026-01-09 02:01:40 | Giriulla (Maha Oya) | 0.93 | 🟢 Normal | 0.000 |  |
-| 2026-01-09 01:17:48 | Horowpothana (Yan Oya) | 2.19 | 🟢 Normal | 0.000 |  |
+| 2026-01-09 02:23:03 | Horowpothana (Yan Oya) | 2.19 | 🟢 Normal | 0.000 |  |
 | 2026-01-09 02:16:24 | Magura (Kalu Ganga) | 0.79 | 🟢 Normal | 0.000 |  |
 | 2026-01-09 02:01:20 | Pitabeddara (Nilwala Ganga) | 0.87 | 🟢 Normal | 0.000 |  |
 | 2026-01-09 02:06:54 | Baddegama (Gin Ganga) | 1.02 | 🟢 Normal | 0.000 |  |
