@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1767905184,
+    "water_level_m": 0.79
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767905183,
+    "water_level_m": 0.79
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1767904939,
+    "water_level_m": 0.42
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1767904927,
+    "water_level_m": 0.53
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767904825,
+    "water_level_m": 0.72
+  },
+  {
     "station_name": "Moraketiya",
     "time_ut": 1767904692,
     "water_level_m": 0.95
