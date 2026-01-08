@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--08_12:09:18-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--08_12:27:59-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **39,958 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **39,959 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-08 12:27:59 | Kuda Oya (Kirindi Oya) | 1.34 | 🟢 Normal | 0.000 |  |
 | 2026-01-08 12:09:18 | Panadugama (Nilwala Ganga) | 3.64 | 🟢 Normal | 0.000 |  |
 | 2026-01-08 12:09:13 | Thawalama (Gin Ganga) | 1.40 | 🟢 Normal | -0.020 |  |
 | 2026-01-08 12:09:01 | Dunamale (Aththanagalu Oya) | 1.26 | 🟢 Normal | 0.000 |  |
@@ -90,7 +91,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-08 12:05:41 | Badalgama (Maha Oya) | 2.02 | 🟢 Normal | 0.000 |  |
 | 2026-01-08 12:08:42 | Holombuwa (Kelani Ganga) | 0.44 | 🟢 Normal | 0.000 |  |
 | 2026-01-08 12:03:05 | Peradeniya (Mahaweli Ganga) | 2.08 | 🟢 Normal | 0.000 |  |
-| 2026-01-08 12:02:10 | Kuda Oya (Kirindi Oya) | 1.34 | 🟢 Normal | 0.000 |  |
+| 2026-01-08 12:27:59 | Kuda Oya (Kirindi Oya) | 1.34 | 🟢 Normal | 0.000 |  |
 | 2026-01-08 11:22:48 | Urawa (Nilwala Ganga) | 0.42 | 🟢 Normal | -0.009 |  |
 | 2026-01-08 12:03:12 | Glencourse (Kelani Ganga) | 8.60 | 🟢 Normal | -0.010 |  |
 | 2026-01-08 12:03:05 | Hanwella (Kelani Ganga) | 0.44 | 🟢 Normal | -0.010 |  |
