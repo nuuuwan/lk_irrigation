@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1767858217,
+    "water_level_m": 3.41
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1767858166,
+    "water_level_m": 1.44
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767858092,
+    "water_level_m": 0.79
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1767858054,
+    "water_level_m": 1.25
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1767858023,
+    "water_level_m": 0.7
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1767857999,
+    "water_level_m": 0.44
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1767857882,
+    "water_level_m": 2.01
+  },
+  {
     "station_name": "Glencourse",
     "time_ut": 1767857766,
     "water_level_m": 8.6
