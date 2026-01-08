@@ -1,5 +1,80 @@
 [
   {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1767841227,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767841195,
+    "water_level_m": 1.36
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1767840875,
+    "water_level_m": 2.38
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1767840836,
+    "water_level_m": 1.24
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767840578,
+    "water_level_m": 0.73
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767840486,
+    "water_level_m": 3.83
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1767840409,
+    "water_level_m": 0.2
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1767840252,
+    "water_level_m": 1.01
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1767840182,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1767840156,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767840105,
+    "water_level_m": 0.8
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1767839981,
+    "water_level_m": 1.14
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1767839904,
+    "water_level_m": 4.14
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1767839903,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1767839893,
+    "water_level_m": 1.28
+  },
+  {
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1767839784,
     "water_level_m": 1.6
