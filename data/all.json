@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Galgamuwa",
+    "time_ut": 1767834044,
+    "water_level_m": 0.21
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1767833834,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767833159,
+    "water_level_m": 1.76
+  },
+  {
     "station_name": "Giriulla",
     "time_ut": 1767832783,
     "water_level_m": 0.94
