@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Peradeniya",
+    "time_ut": 1767973319,
+    "water_level_m": 2.24
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767973193,
+    "water_level_m": 2.47
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1767973172,
+    "water_level_m": 0.94
+  },
+  {
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1767973042,
     "water_level_m": 1.28
