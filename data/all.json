@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Urawa",
+    "time_ut": 1767969925,
+    "water_level_m": 0.3
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1767969917,
+    "water_level_m": 0.94
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1767969727,
+    "water_level_m": 0.93
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767969720,
+    "water_level_m": 2.47
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767969626,
+    "water_level_m": 0.77
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767969561,
+    "water_level_m": 0.7
+  },
+  {
     "station_name": "Peradeniya",
     "time_ut": 1767969470,
     "water_level_m": 2.03
