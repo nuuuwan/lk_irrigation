@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Giriulla",
+    "time_ut": 1767977174,
+    "water_level_m": 0.94
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767977057,
+    "water_level_m": 0.77
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1767977012,
+    "water_level_m": 2.5
+  },
+  {
     "station_name": "Moragaswewa",
     "time_ut": 1767976878,
     "water_level_m": 1.17
