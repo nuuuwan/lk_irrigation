@@ -1,5 +1,205 @@
 [
   {
+    "station_name": "Kuda Oya",
+    "time_ut": 1767947926,
+    "water_level_m": 1.3
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1767947910,
+    "water_level_m": 0.35
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1767947893,
+    "water_level_m": 2.5
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1767947856,
+    "water_level_m": 0.69
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1767947848,
+    "water_level_m": 0.31
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1767947808,
+    "water_level_m": 2.01
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1767947770,
+    "water_level_m": 0.99
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1767947770,
+    "water_level_m": 1.07
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1767947741,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1767947711,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1767947697,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1767947688,
+    "water_level_m": 1.6
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1767947686,
+    "water_level_m": 0.4
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1767947657,
+    "water_level_m": 0.32
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1767947643,
+    "water_level_m": 0.16
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1767947609,
+    "water_level_m": 0.38
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1767947584,
+    "water_level_m": 8.57
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1767947568,
+    "water_level_m": 0.7
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1767947559,
+    "water_level_m": 1.09
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1767947557,
+    "water_level_m": 0.4
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1767947552,
+    "water_level_m": 0.94
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1767947545,
+    "water_level_m": 0.52
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1767947543,
+    "water_level_m": 0.93
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1767947536,
+    "water_level_m": 0.42672
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1767947518,
+    "water_level_m": 0.67
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1767947516,
+    "water_level_m": 1.5
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1767947509,
+    "water_level_m": 0.93
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1767947503,
+    "water_level_m": 1.5
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1767947502,
+    "water_level_m": 1.19
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1767947501,
+    "water_level_m": 4.1
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1767947492,
+    "water_level_m": 1.12
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1767947481,
+    "water_level_m": 2.3
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1767947472,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1767947467,
+    "water_level_m": 1.32
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1767947464,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1767947452,
+    "water_level_m": 1.51
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1767947445,
+    "water_level_m": 0.75
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1767947441,
+    "water_level_m": 2.63
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1767947414,
+    "water_level_m": -1.17
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1767947108,
+    "water_level_m": -1.17
+  },
+  {
     "station_name": "Moragaswewa",
     "time_ut": 1767944875,
     "water_level_m": 1.7
