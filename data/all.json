@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1767981968,
+    "water_level_m": 2.46
+  },
+  {
     "station_name": "Giriulla",
     "time_ut": 1767981128,
     "water_level_m": 0.94
