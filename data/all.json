@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Kithulgala",
+    "time_ut": 1768049567,
+    "water_level_m": 1.6
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1768048879,
     "water_level_m": 0.69
