@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Moraketiya",
+    "time_ut": 1768073506,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1768073476,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1768073472,
+    "water_level_m": 1.97
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1768073469,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1768073466,
+    "water_level_m": 2.01
+  },
+  {
     "station_name": "Thaldena",
     "time_ut": 1768070597,
     "water_level_m": 0.83
