@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **35** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -54,8 +54,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-10 21:00:59 | Nawalapitiya (Mahaweli Ganga) | 0.79 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2026-01-10 21:00:40 | Yaka Wewa (Ma Oya) | 1.04 | 🟢 Normal | 0.000 |  |
 | 2026-01-10 21:00:12 | Wellawaya (Kirindi Oya) | 1.09 | 🟢 Normal | 0.000 |  |
-| 2026-01-10 20:38:05 | Ellagawa (Kalu Ganga) | 4.05 | 🟢 Normal | 0.000 |  |
-| 2026-01-10 20:35:25 | Pitabeddara (Nilwala Ganga) | 0.57 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
