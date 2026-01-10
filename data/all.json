@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1768085170,
+    "water_level_m": 1.21
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1768085092,
+    "water_level_m": 0.58
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1768084885,
+    "water_level_m": 0.6400800000000001
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1768084770,
+    "water_level_m": 0.48
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1768084764,
+    "water_level_m": 8.71
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1768084605,
+    "water_level_m": 0.38
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1768084565,
     "water_level_m": 0.85
