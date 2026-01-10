@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1768052744,
+    "water_level_m": 0.26
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1768052671,
+    "water_level_m": 1.26
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1768052665,
+    "water_level_m": 0.76
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1768052561,
+    "water_level_m": 0.46
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1768052448,
+    "water_level_m": 1.4
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1768052391,
+    "water_level_m": 8.58
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1768052382,
+    "water_level_m": 0.83
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1768052340,
+    "water_level_m": 0.76
+  },
+  {
     "station_name": "Giriulla",
     "time_ut": 1768052307,
     "water_level_m": 0.96
