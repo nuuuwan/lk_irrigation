@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1768166132,
+    "water_level_m": 1.19
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1768166097,
+    "water_level_m": 0.76
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1768165990,
+    "water_level_m": 2.34
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1768165929,
+    "water_level_m": 1.26
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1768164652,
     "water_level_m": 0.53
