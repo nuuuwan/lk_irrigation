@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1768142530,
+    "water_level_m": 0.54
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1768142491,
+    "water_level_m": 0.25
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1768142408,
+    "water_level_m": 2.29
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1768142271,
+    "water_level_m": 1.6
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1768142267,
+    "water_level_m": 1.05
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1768142189,
+    "water_level_m": 1.58
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1768142169,
+    "water_level_m": 1.39
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1768142159,
+    "water_level_m": 0.78
+  },
+  {
     "station_name": "Deraniyagala",
     "time_ut": 1768142106,
     "water_level_m": 0.31
