@@ -1,8 +1,63 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1768117381,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1768117367,
+    "water_level_m": 1.23
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1768117353,
+    "water_level_m": 1.31
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1768117229,
+    "water_level_m": 0.54
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1768117213,
+    "water_level_m": 0.24
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1768117149,
+    "water_level_m": 1.4
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1768117131,
+    "water_level_m": 2.31
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1768117027,
+    "water_level_m": 2.04
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1768116979,
+    "water_level_m": 0.4
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1768116908,
+    "water_level_m": 0.78
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1768116892,
     "water_level_m": 0.76
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1768116891,
+    "water_level_m": 0.98
   },
   {
     "station_name": "Magura",
