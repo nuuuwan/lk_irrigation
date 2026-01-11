@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Glencourse",
+    "time_ut": 1768173609,
+    "water_level_m": 10.35
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1768172991,
+    "water_level_m": 0.63
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1768172696,
+    "water_level_m": 1.26
+  },
+  {
     "station_name": "Kuda Oya",
     "time_ut": 1768172417,
     "water_level_m": 1.38
