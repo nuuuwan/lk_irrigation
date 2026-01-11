@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--11_21:10:27-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--11_21:20:51-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **43,018 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **43,019 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-11 21:20:51 | Pitabeddara (Nilwala Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-01-11 21:10:27 | Peradeniya (Mahaweli Ganga) | 1.80 | 🟢 Normal | 0.192 | 🔺 Rising |
 | 2026-01-11 21:08:14 | Thalgahagoda (Nilwala Ganga) | 0.44 | 🟢 Normal | -0.009 |  |
 | 2026-01-11 21:07:42 | Thanamalwila (Kirindi Oya) | 1.05 | 🟢 Normal | 0.000 |  |
@@ -81,7 +82,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-11 21:01:10 | Nakkala (Kumbukkan Oya) | 1.11 | 🟢 Normal | 0.000 |  |
 | 2026-01-11 21:01:21 | Yaka Wewa (Ma Oya) | 0.90 | 🟢 Normal | 0.000 |  |
 | 2026-01-11 18:02:19 | Galgamuwa (Mee Oya) | 0.38 | 🟢 Normal | 0.000 |  |
-| 2026-01-11 20:12:10 | Pitabeddara (Nilwala Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
+| 2026-01-11 21:20:51 | Pitabeddara (Nilwala Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-01-11 21:04:14 | Ellagawa (Kalu Ganga) | 4.18 | 🟢 Normal | 0.000 |  |
 | 2026-01-11 21:01:55 | Baddegama (Gin Ganga) | 1.26 | 🟢 Normal | 0.000 |  |
 | 2026-01-11 21:06:48 | Panadugama (Nilwala Ganga) | 2.29 | 🟢 Normal | 0.000 |  |
