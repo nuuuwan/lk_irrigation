@@ -1,5 +1,110 @@
 [
   {
+    "station_name": "Glencourse",
+    "time_ut": 1768163704,
+    "water_level_m": 10.18
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1768163657,
+    "water_level_m": 0.36
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1768163623,
+    "water_level_m": 2.28
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1768163622,
+    "water_level_m": 1.18
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1768163605,
+    "water_level_m": 0.52
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1768163605,
+    "water_level_m": 0.62
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1768163582,
+    "water_level_m": 0.47
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1768163578,
+    "water_level_m": 1.7
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1768163545,
+    "water_level_m": 0.0
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1768163544,
+    "water_level_m": 0.88
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1768163544,
+    "water_level_m": 1.26
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1768163541,
+    "water_level_m": 0.67
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1768163533,
+    "water_level_m": 0.32
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1768163525,
+    "water_level_m": 1.26
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1768163509,
+    "water_level_m": 1.15
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1768163496,
+    "water_level_m": 1.86
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1768163472,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1768163459,
+    "water_level_m": 4.19
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1768163452,
+    "water_level_m": 2.09
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1768163436,
+    "water_level_m": 1.09
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1768163430,
+    "water_level_m": 0.42672
+  },
+  {
     "station_name": "Wellawaya",
     "time_ut": 1768162853,
     "water_level_m": 1.09
