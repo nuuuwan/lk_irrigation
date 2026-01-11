@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Peradeniya",
+    "time_ut": 1768150203,
+    "water_level_m": 2.05
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1768149911,
+    "water_level_m": 0.5
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1768149745,
+    "water_level_m": 2.29
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1768149593,
+    "water_level_m": 1.36
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1768149588,
+    "water_level_m": 0.75
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1768149528,
+    "water_level_m": 0.88
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1768149455,
     "water_level_m": 0.26
