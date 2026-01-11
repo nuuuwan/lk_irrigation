@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Peradeniya",
+    "time_ut": 1768146027,
+    "water_level_m": 1.8
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1768145894,
+    "water_level_m": 0.44
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1768145862,
+    "water_level_m": 1.05
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1768145808,
+    "water_level_m": 2.29
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1768145760,
+    "water_level_m": 0.61
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1768145750,
+    "water_level_m": 0.47
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1768145748,
+    "water_level_m": 8.53
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1768145747,
+    "water_level_m": 1.34
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1768145746,
+    "water_level_m": 0.55
+  },
+  {
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1768145699,
     "water_level_m": 1.44
