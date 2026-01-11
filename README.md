@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--11_19:08:56-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--11_19:13:37-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **42,939 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **42,941 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-11 19:13:37 | Nagalagam Street (Kelani Ganga) | 0.70 | 🟢 Normal | 0.051 | 🔺 Rising |
+| 2026-01-11 19:12:38 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | 0.042 | 🔺 Rising |
 | 2026-01-11 19:08:56 | Thaldena (Mahaweli Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
 | 2026-01-11 19:08:15 | Rathnapura (Kalu Ganga) | 0.68 | 🟢 Normal | 0.074 | 🔺 Rising |
 | 2026-01-11 19:07:27 | Thawalama (Gin Ganga) | 1.37 | 🟢 Normal | 0.057 | 🔺 Rising |
@@ -50,8 +52,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-11 19:01:06 | Nakkala (Kumbukkan Oya) | 1.10 | 🟢 Normal | -0.020 |  |
 | 2026-01-11 19:01:04 | Siyambalanduwa (Heda Oya) | 1.31 | 🟢 Normal | -0.076 |  |
 | 2026-01-11 19:00:43 | Magura (Kalu Ganga) | 0.78 | 🟢 Normal | -1.221 |  |
-| 2026-01-11 18:13:23 | Dunamale (Aththanagalu Oya) | 0.59 | 🟢 Normal | 0.000 |  |
-| 2026-01-11 18:12:03 | Magura (Kalu Ganga) | 1.77 | 🟢 Normal | -1.221 |  |
 
 ## Latest by Station
 
@@ -60,11 +60,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-01-11 19:08:15 | Rathnapura (Kalu Ganga) | 0.68 | 🟢 Normal | 0.074 | 🔺 Rising |
-| 2026-01-11 18:01:55 | Nagalagam Street (Kelani Ganga) | 0.64 | 🟢 Normal | 0.067 | 🔺 Rising |
 | 2026-01-11 19:07:27 | Thawalama (Gin Ganga) | 1.37 | 🟢 Normal | 0.057 | 🔺 Rising |
 | 2026-01-11 19:06:01 | Giriulla (Maha Oya) | 1.03 | 🟢 Normal | 0.057 | 🔺 Rising |
+| 2026-01-11 19:13:37 | Nagalagam Street (Kelani Ganga) | 0.70 | 🟢 Normal | 0.051 | 🔺 Rising |
+| 2026-01-11 19:12:38 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | 0.042 | 🔺 Rising |
 | 2026-01-11 18:00:33 | Thanthirimale (Malwathu Oya) | 1.82 | 🟢 Normal | 0.031 | 🔺 Rising |
-| 2026-01-11 18:01:48 | Thalgahagoda (Nilwala Ganga) | 0.35 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-01-11 19:03:10 | Badalgama (Maha Oya) | 2.05 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-01-11 19:03:32 | Nawalapitiya (Mahaweli Ganga) | 0.80 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-01-11 19:06:35 | Thanamalwila (Kirindi Oya) | 1.04 | 🟢 Normal | 0.010 | 🔺 Rising |
@@ -105,10 +105,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Rathnapura](images/stations/rathnapura.png)
 
-### Nagalagam Street (Kelani Ganga)
-
-![Nagalagam Street](images/stations/nagalagam-street.png)
-
 ### Thawalama (Gin Ganga)
 
 ![Thawalama](images/stations/thawalama.png)
@@ -117,13 +113,17 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Giriulla](images/stations/giriulla.png)
 
-### Thanthirimale (Malwathu Oya)
+### Nagalagam Street (Kelani Ganga)
 
-![Thanthirimale](images/stations/thanthirimale.png)
+![Nagalagam Street](images/stations/nagalagam-street.png)
 
 ### Thalgahagoda (Nilwala Ganga)
 
 ![Thalgahagoda](images/stations/thalgahagoda.png)
+
+### Thanthirimale (Malwathu Oya)
+
+![Thanthirimale](images/stations/thanthirimale.png)
 
 ### Badalgama (Maha Oya)
 
