@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--12_23:25:57-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--12_23:45:00-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **43,980 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **43,981 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,13 +15,14 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-12 23:45:00 | Nakkala (Kumbukkan Oya) | 1.43 | 🟢 Normal | 0.017 | 🔺 Rising |
 | 2026-01-12 23:25:57 | Moraketiya (Walawe Ganga) | 0.95 | 🟢 Normal | 0.000 |  |
 | 2026-01-12 23:10:35 | Thaldena (Mahaweli Ganga) | 0.75 | 🟢 Normal | -0.017 |  |
-| 2026-01-12 23:10:14 | Nakkala (Kumbukkan Oya) | 1.42 | 🟢 Normal | 0.009 | 🔺 Rising |
+| 2026-01-12 23:10:14 | Nakkala (Kumbukkan Oya) | 1.42 | 🟢 Normal | 0.017 | 🔺 Rising |
 | 2026-01-12 23:10:06 | Putupaula (Kalu Ganga) | 0.41 | 🟢 Normal | -0.094 |  |
 | 2026-01-12 23:09:55 | Horowpothana (Yan Oya) | 3.32 | 🟢 Normal | 0.043 | 🔺 Rising |
 | 2026-01-12 23:07:43 | Katharagama (Menik Ganga) | -0.01 | 🟢 Normal | 0.000 |  |
@@ -68,7 +69,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-12 23:01:07 | Manampitiya (Mahaweli Ganga) | 2.04 | 🟢 Normal | 0.042 | 🔺 Rising |
 | 2026-01-12 23:07:05 | Hanwella (Kelani Ganga) | 0.96 | 🟢 Normal | 0.028 | 🔺 Rising |
 | 2026-01-12 23:03:06 | Deraniyagala (Kelani Ganga) | 0.36 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-01-12 23:10:14 | Nakkala (Kumbukkan Oya) | 1.42 | 🟢 Normal | 0.009 | 🔺 Rising |
+| 2026-01-12 23:45:00 | Nakkala (Kumbukkan Oya) | 1.43 | 🟢 Normal | 0.017 | 🔺 Rising |
 | 2026-01-12 18:00:10 | Weraganthota (Mahaweli Ganga) | -1.45 | 🟢 Normal | 0.000 |  |
 | 2026-01-12 23:04:41 | Wellawaya (Kirindi Oya) | 1.11 | 🟢 Normal | 0.000 |  |
 | 2026-01-12 23:02:01 | Nawalapitiya (Mahaweli Ganga) | 0.81 | 🟢 Normal | 0.000 |  |
