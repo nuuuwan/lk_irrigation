@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Glencourse",
+    "time_ut": 1768196810,
+    "water_level_m": 9.42
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1768196519,
+    "water_level_m": 0.26
+  },
+  {
     "station_name": "Dunamale",
     "time_ut": 1768196315,
     "water_level_m": 0.92
