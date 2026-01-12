@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--13_02:31:36-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--13_02:34:58-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **44,071 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **44,072 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **28** measurements in the last **1 hour**.*
+*There were **29** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-13 02:34:58 | Badalgama (Maha Oya) | 2.31 | 🟢 Normal | -0.013 |  |
 | 2026-01-13 02:31:36 | Siyambalanduwa (Heda Oya) | 1.17 | 🟢 Normal | -0.020 |  |
 | 2026-01-13 02:26:54 | Peradeniya (Mahaweli Ganga) | 2.28 | 🟢 Normal | -0.137 |  |
 | 2026-01-13 02:22:35 | Thaldena (Mahaweli Ganga) | 0.74 | 🟢 Normal | 0.000 |  |
@@ -85,7 +86,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-13 01:03:42 | Magura (Kalu Ganga) | 0.97 | 🟢 Normal | -0.010 |  |
 | 2026-01-12 23:01:47 | Moragaswewa (Deduru Oya) | 0.63 | 🟢 Normal | -0.010 |  |
 | 2026-01-13 02:04:24 | Thalgahagoda (Nilwala Ganga) | 0.32 | 🟢 Normal | -0.010 |  |
-| 2026-01-13 01:03:11 | Badalgama (Maha Oya) | 2.33 | 🟢 Normal | -0.011 |  |
+| 2026-01-13 02:34:58 | Badalgama (Maha Oya) | 2.31 | 🟢 Normal | -0.013 |  |
 | 2026-01-13 02:01:17 | Nakkala (Kumbukkan Oya) | 1.38 | 🟢 Normal | -0.020 |  |
 | 2026-01-13 02:31:36 | Siyambalanduwa (Heda Oya) | 1.17 | 🟢 Normal | -0.020 |  |
 | 2026-01-13 02:02:45 | Dunamale (Aththanagalu Oya) | 1.55 | 🟢 Normal | -0.027 |  |
