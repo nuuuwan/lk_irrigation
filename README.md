@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **41** measurements in the last **1 hour**.*
+*There were **25** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -44,22 +44,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-12 18:02:58 | Padiyathalawa (Maduru Oya) | 1.10 | 🟢 Normal | 0.000 |  |
 | 2026-01-12 18:02:49 | Manampitiya (Mahaweli Ganga) | 1.93 | 🟢 Normal | 0.059 | 🔺 Rising |
 | 2026-01-12 18:02:41 | Katharagama (Menik Ganga) | -0.01 | 🟢 Normal | 0.000 |  |
-| 2026-01-12 18:02:34 | Yaka Wewa (Ma Oya) | 2.38 | 🟢 Normal | -0.503 |  |
-| 2026-01-12 18:02:30 | Thaldena (Mahaweli Ganga) | 0.77 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-01-12 18:02:24 | Moraketiya (Walawe Ganga) | 0.94 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-01-12 18:02:20 | Hanwella (Kelani Ganga) | 1.00 | 🟢 Normal | 0.000 |  |
-| 2026-01-12 18:02:15 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.68 | 🟢 Normal | -0.050 |  |
-| 2026-01-12 18:01:57 | Putupaula (Kalu Ganga) | 0.60 | 🟢 Normal | 0.064 | 🔺 Rising |
-| 2026-01-12 18:01:56 | Badalgama (Maha Oya) | 2.42 | 🟢 Normal | -0.011 |  |
-| 2026-01-12 18:01:18 | Kithulgala (Kelani Ganga) | 1.63 | 🟢 Normal | -0.121 |  |
-| 2026-01-12 18:01:16 | Kuda Oya (Kirindi Oya) | 1.33 | 🟢 Normal | 0.000 |  |
-| 2026-01-12 18:01:12 | Nawalapitiya (Mahaweli Ganga) | 0.83 | 🟢 Normal | 0.032 | 🔺 Rising |
-| 2026-01-12 18:00:40 | Nakkala (Kumbukkan Oya) | 1.10 | 🟢 Normal | 0.000 |  |
-| 2026-01-12 18:00:30 | Moragaswewa (Deduru Oya) | 0.63 | 🟢 Normal | 0.000 |  |
-| 2026-01-12 18:00:28 | Ellagawa (Kalu Ganga) | 4.12 | 🟢 Normal | 0.000 |  |
-| 2026-01-12 18:00:17 | Siyambalanduwa (Heda Oya) | 1.09 | 🟢 Normal | 0.032 | 🔺 Rising |
-| 2026-01-12 18:00:10 | Weraganthota (Mahaweli Ganga) | -1.45 | 🟢 Normal | 0.000 |  |
-| 2026-01-12 17:52:37 | Thawalama (Gin Ganga) | 1.13 | 🟢 Normal | -0.120 |  |
 
 ## Latest by Station
 
