@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--14_02:07:42-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--14_02:10:26-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **44,950 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **44,952 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **31** measurements in the last **1 hour**.*
+*There were **29** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-14 02:10:26 | Pitabeddara (Nilwala Ganga) | 0.68 | 🟢 Normal | -36.000 |  |
+| 2026-01-14 02:10:24 | Pitabeddara (Nilwala Ganga) | 0.70 | 🟢 Normal | -36.000 |  |
 | 2026-01-14 02:07:42 | Dunamale (Aththanagalu Oya) | 1.19 | 🟢 Normal | 0.055 | 🔺 Rising |
 | 2026-01-14 02:07:01 | Thanamalwila (Kirindi Oya) | 1.02 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 02:05:31 | Rathnapura (Kalu Ganga) | 0.68 | 🟢 Normal | 0.010 | 🔺 Rising |
@@ -46,10 +48,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-14 01:44:08 | Thalgahagoda (Nilwala Ganga) | 0.50 | 🟢 Normal | 0.018 | 🔺 Rising |
 | 2026-01-14 01:41:34 | Nawalapitiya (Mahaweli Ganga) | 0.77 | 🟢 Normal | -0.027 |  |
 | 2026-01-14 01:31:02 | Hanwella (Kelani Ganga) | 0.96 | 🟢 Normal | 0.095 | 🔺 Rising |
-| 2026-01-14 01:17:13 | Holombuwa (Kelani Ganga) | 0.47 | 🟢 Normal | 0.000 |  |
-| 2026-01-14 01:13:38 | Urawa (Nilwala Ganga) | 0.22 | 🟢 Normal | 0.000 |  |
-| 2026-01-14 01:12:13 | Peradeniya (Mahaweli Ganga) | 2.32 | 🟢 Normal | 0.050 | 🔺 Rising |
-| 2026-01-14 01:11:34 | Siyambalanduwa (Heda Oya) | 0.99 | 🟢 Normal | -0.012 |  |
 
 ## Latest by Station
 
@@ -72,7 +70,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-14 02:01:48 | Moragaswewa (Deduru Oya) | 0.61 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 02:03:36 | Giriulla (Maha Oya) | 1.02 | 🟢 Normal | 0.000 |  |
 | 2026-01-13 18:03:54 | Galgamuwa (Mee Oya) | 0.15 | 🟢 Normal | 0.000 |  |
-| 2026-01-14 00:07:07 | Pitabeddara (Nilwala Ganga) | 0.71 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 00:28:08 | Baddegama (Gin Ganga) | 1.12 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 00:05:31 | Padiyathalawa (Maduru Oya) | 0.97 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 02:04:09 | Nagalagam Street (Kelani Ganga) | 0.58 | 🟢 Normal | 0.000 |  |
@@ -96,6 +93,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-13 18:01:14 | Weraganthota (Mahaweli Ganga) | -1.58 | 🟢 Normal | -0.040 |  |
 | 2026-01-14 01:04:15 | Deraniyagala (Kelani Ganga) | 0.21 | 🟢 Normal | -0.091 |  |
 | 2026-01-14 01:02:38 | Horowpothana (Yan Oya) | 3.70 | 🟢 Normal | -0.097 |  |
+| 2026-01-14 02:10:26 | Pitabeddara (Nilwala Ganga) | 0.68 | 🟢 Normal | -36.000 |  |
 
 ## River Water Level Charts by Station
 
@@ -158,10 +156,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Galgamuwa (Mee Oya)
 
 ![Galgamuwa](images/stations/galgamuwa.png)
-
-### Pitabeddara (Nilwala Ganga)
-
-![Pitabeddara](images/stations/pitabeddara.png)
 
 ### Baddegama (Gin Ganga)
 
@@ -254,6 +248,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Horowpothana (Yan Oya)
 
 ![Horowpothana](images/stations/horowpothana.png)
+
+### Pitabeddara (Nilwala Ganga)
+
+![Pitabeddara](images/stations/pitabeddara.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
