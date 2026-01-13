@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--13_22:10:31-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--13_22:22:35-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **44,827 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **44,828 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-13 22:22:35 | Baddegama (Gin Ganga) | 1.08 | 🟢 Normal | 0.029 | 🔺 Rising |
 | 2026-01-13 22:10:31 | Pitabeddara (Nilwala Ganga) | 0.71 | 🟢 Normal | 0.036 | 🔺 Rising |
 | 2026-01-13 22:08:38 | Peradeniya (Mahaweli Ganga) | 2.12 | 🟢 Normal | 0.196 | 🔺 Rising |
 | 2026-01-13 22:08:34 | Horowpothana (Yan Oya) | 3.82 | 🟢 Normal | -0.040 |  |
@@ -51,8 +52,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-13 22:01:06 | Manampitiya (Mahaweli Ganga) | 1.99 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-01-13 22:01:02 | Nawalapitiya (Mahaweli Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
 | 2026-01-13 22:00:56 | Siyambalanduwa (Heda Oya) | 0.99 | 🟢 Normal | -0.010 |  |
-| 2026-01-13 21:22:35 | Nakkala (Kumbukkan Oya) | 1.12 | 🟢 Normal | 0.000 |  |
-| 2026-01-13 21:20:33 | Baddegama (Gin Ganga) | 1.05 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -68,6 +67,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-13 22:02:50 | Hanwella (Kelani Ganga) | 0.78 | 🟢 Normal | 0.050 | 🔺 Rising |
 | 2026-01-13 22:10:31 | Pitabeddara (Nilwala Ganga) | 0.71 | 🟢 Normal | 0.036 | 🔺 Rising |
 | 2026-01-13 22:07:09 | Panadugama (Nilwala Ganga) | 2.28 | 🟢 Normal | 0.030 | 🔺 Rising |
+| 2026-01-13 22:22:35 | Baddegama (Gin Ganga) | 1.08 | 🟢 Normal | 0.029 | 🔺 Rising |
 | 2026-01-13 22:02:25 | Moragaswewa (Deduru Oya) | 0.62 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-01-13 22:01:06 | Manampitiya (Mahaweli Ganga) | 1.99 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-01-13 22:04:37 | Wellawaya (Kirindi Oya) | 1.09 | 🟢 Normal | 0.000 |  |
@@ -76,7 +76,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-13 18:03:54 | Galgamuwa (Mee Oya) | 0.15 | 🟢 Normal | 0.000 |  |
 | 2026-01-13 22:03:30 | Norwood (Kelani Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
 | 2026-01-13 22:01:25 | Ellagawa (Kalu Ganga) | 4.10 | 🟢 Normal | 0.000 |  |
-| 2026-01-13 21:20:33 | Baddegama (Gin Ganga) | 1.05 | 🟢 Normal | 0.000 |  |
 | 2026-01-13 22:03:49 | Padiyathalawa (Maduru Oya) | 0.97 | 🟢 Normal | 0.000 |  |
 | 2026-01-13 22:06:40 | Glencourse (Kelani Ganga) | 8.91 | 🟢 Normal | 0.000 |  |
 | 2026-01-13 22:07:30 | Moraketiya (Walawe Ganga) | 0.95 | 🟢 Normal | 0.000 |  |
@@ -134,6 +133,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Panadugama](images/stations/panadugama.png)
 
+### Baddegama (Gin Ganga)
+
+![Baddegama](images/stations/baddegama.png)
+
 ### Moragaswewa (Deduru Oya)
 
 ![Moragaswewa](images/stations/moragaswewa.png)
@@ -165,10 +168,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Ellagawa (Kalu Ganga)
 
 ![Ellagawa](images/stations/ellagawa.png)
-
-### Baddegama (Gin Ganga)
-
-![Baddegama](images/stations/baddegama.png)
 
 ### Padiyathalawa (Maduru Oya)
 
