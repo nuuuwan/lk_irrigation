@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -55,8 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-13 19:01:12 | Kuda Oya (Kirindi Oya) | 1.34 | 🟢 Normal | 0.000 |  |
 | 2026-01-13 19:00:34 | Horowpothana (Yan Oya) | 3.93 | 🟢 Normal | 0.000 |  |
 | 2026-01-13 19:00:17 | Manampitiya (Mahaweli Ganga) | 1.85 | 🟢 Normal | -0.112 |  |
-| 2026-01-13 18:27:05 | Horowpothana (Yan Oya) | 3.93 | 🟢 Normal | 0.000 |  |
-| 2026-01-13 18:25:42 | Thalgahagoda (Nilwala Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
