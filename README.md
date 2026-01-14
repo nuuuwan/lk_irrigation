@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--14_06:12:48-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--14_06:33:05-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **45,095 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **45,097 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **42** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-14 06:33:05 | Galgamuwa (Mee Oya) | 0.16 | 🟢 Normal | 0.001 |  |
+| 2026-01-14 06:18:39 | Wellawaya (Kirindi Oya) | 1.09 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 06:12:48 | Baddegama (Gin Ganga) | 1.21 | 🟢 Normal | 0.026 | 🔺 Rising |
 | 2026-01-14 06:11:53 | Holombuwa (Kelani Ganga) | 0.46 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 06:10:15 | Thalgahagoda (Nilwala Ganga) | 0.45 | 🟢 Normal | -0.136 |  |
@@ -57,10 +59,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-14 06:00:34 | Dunamale (Aththanagalu Oya) | 1.30 | 🟢 Normal | -0.032 |  |
 | 2026-01-14 06:00:30 | Weraganthota (Mahaweli Ganga) | -1.45 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-01-14 06:00:10 | Peradeniya (Mahaweli Ganga) | 1.55 | 🟢 Normal | -0.203 |  |
-| 2026-01-14 05:36:47 | Badalgama (Maha Oya) | 2.13 | 🟢 Normal | -0.021 |  |
-| 2026-01-14 05:31:20 | Magura (Kalu Ganga) | 0.94 | 🟢 Normal | 0.000 |  |
-| 2026-01-14 05:27:12 | Thaldena (Mahaweli Ganga) | 0.72 | 🟢 Normal | -0.015 |  |
-| 2026-01-14 05:27:10 | Thaldena (Mahaweli Ganga) | 0.74 | 🟢 Normal | -0.015 |  |
 
 ## Latest by Station
 
@@ -75,12 +73,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-14 06:04:12 | Rathnapura (Kalu Ganga) | 0.85 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-01-14 06:00:30 | Weraganthota (Mahaweli Ganga) | -1.45 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-01-14 06:04:37 | Ellagawa (Kalu Ganga) | 4.17 | 🟢 Normal | 0.009 | 🔺 Rising |
-| 2026-01-14 05:04:50 | Wellawaya (Kirindi Oya) | 1.09 | 🟢 Normal | 0.000 |  |
+| 2026-01-14 06:33:05 | Galgamuwa (Mee Oya) | 0.16 | 🟢 Normal | 0.001 |  |
+| 2026-01-14 06:18:39 | Wellawaya (Kirindi Oya) | 1.09 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 06:01:08 | Nakkala (Kumbukkan Oya) | 1.10 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 06:03:05 | Moragaswewa (Deduru Oya) | 0.57 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 05:03:18 | Nawalapitiya (Mahaweli Ganga) | 0.76 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 06:02:53 | Giriulla (Maha Oya) | 1.01 | 🟢 Normal | 0.000 |  |
-| 2026-01-13 18:03:54 | Galgamuwa (Mee Oya) | 0.15 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 06:00:36 | Magura (Kalu Ganga) | 0.94 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 06:03:43 | Norwood (Kelani Ganga) | 0.50 | 🟢 Normal | 0.000 |  |
 | 2026-01-14 06:09:11 | Panadugama (Nilwala Ganga) | 2.34 | 🟢 Normal | 0.000 |  |
@@ -138,6 +136,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Ellagawa](images/stations/ellagawa.png)
 
+### Galgamuwa (Mee Oya)
+
+![Galgamuwa](images/stations/galgamuwa.png)
+
 ### Wellawaya (Kirindi Oya)
 
 ![Wellawaya](images/stations/wellawaya.png)
@@ -157,10 +159,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Giriulla (Maha Oya)
 
 ![Giriulla](images/stations/giriulla.png)
-
-### Galgamuwa (Mee Oya)
-
-![Galgamuwa](images/stations/galgamuwa.png)
 
 ### Magura (Kalu Ganga)
 
