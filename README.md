@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--15_00:24:40-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--15_00:38:33-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **45,785 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **45,786 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-15 00:38:33 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.90 | 🟢 Normal | 0.058 | 🔺 Rising |
 | 2026-01-15 00:24:40 | Norwood (Kelani Ganga) | 0.48 | 🟢 Normal | 0.000 |  |
 | 2026-01-15 00:18:34 | Magura (Kalu Ganga) | 0.86 | 🟢 Normal | 0.000 |  |
 | 2026-01-15 00:15:24 | Holombuwa (Kelani Ganga) | 0.44 | 🟢 Normal | 0.000 |  |
@@ -65,7 +66,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-01-15 00:01:28 | Kithulgala (Kelani Ganga) | 1.55 | 🟢 Normal | 0.319 | 🔺 Rising |
-| 2026-01-14 21:11:42 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.70 | 🟢 Normal | 0.100 | 🔺 Rising |
+| 2026-01-15 00:38:33 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.90 | 🟢 Normal | 0.058 | 🔺 Rising |
 | 2026-01-15 00:13:30 | Panadugama (Nilwala Ganga) | 3.36 | 🟢 Normal | 0.039 | 🔺 Rising |
 | 2026-01-15 00:10:47 | Putupaula (Kalu Ganga) | 0.67 | 🟢 Normal | 0.038 | 🔺 Rising |
 | 2026-01-15 00:07:06 | Baddegama (Gin Ganga) | 1.34 | 🟢 Normal | 0.021 | 🔺 Rising |
