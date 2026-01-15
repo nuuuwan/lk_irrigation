@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--16_02:18:26-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--16_02:27:02-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **46,741 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **46,742 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-16 02:27:02 | Padiyathalawa (Maduru Oya) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2026-01-16 02:18:26 | Kuda Oya (Kirindi Oya) | 1.25 | 🟢 Normal | 0.000 |  |
 | 2026-01-16 02:14:51 | Thawalama (Gin Ganga) | 1.33 | 🟢 Normal | -0.009 |  |
 | 2026-01-16 02:12:56 | Thanamalwila (Kirindi Oya) | 0.84 | 🟢 Normal | -0.010 |  |
@@ -48,7 +49,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-16 02:01:27 | Moragaswewa (Deduru Oya) | 0.51 | 🟢 Normal | 0.000 |  |
 | 2026-01-16 02:01:21 | Ellagawa (Kalu Ganga) | 4.17 | 🟢 Normal | 0.000 |  |
 | 2026-01-16 02:00:57 | Giriulla (Maha Oya) | 0.93 | 🟢 Normal | 0.000 |  |
-| 2026-01-16 01:26:35 | Siyambalanduwa (Heda Oya) | 0.81 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -71,7 +71,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-16 02:11:01 | Pitabeddara (Nilwala Ganga) | 0.50 | 🟢 Normal | 0.000 |  |
 | 2026-01-16 02:01:21 | Ellagawa (Kalu Ganga) | 4.17 | 🟢 Normal | 0.000 |  |
 | 2026-01-16 02:04:27 | Panadugama (Nilwala Ganga) | 2.31 | 🟢 Normal | 0.000 |  |
-| 2026-01-16 00:03:44 | Padiyathalawa (Maduru Oya) | 0.85 | 🟢 Normal | 0.000 |  |
+| 2026-01-16 02:27:02 | Padiyathalawa (Maduru Oya) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2026-01-16 02:04:30 | Nagalagam Street (Kelani Ganga) | 0.64 | 🟢 Normal | 0.000 |  |
 | 2026-01-16 02:04:43 | Siyambalanduwa (Heda Oya) | 0.81 | 🟢 Normal | 0.000 |  |
 | 2026-01-16 02:10:41 | Dunamale (Aththanagalu Oya) | 0.75 | 🟢 Normal | 0.000 |  |
