@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--15_14:22:27-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--15_14:43:51-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **46,300 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **46,302 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-15 14:43:51 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | 0.015 | 🔺 Rising |
+| 2026-01-15 14:36:26 | Horowpothana (Yan Oya) | 2.34 | 🟢 Normal | 0.000 |  |
 | 2026-01-15 14:22:27 | Panadugama (Nilwala Ganga) | 2.62 | 🟢 Normal | -0.023 |  |
 | 2026-01-15 14:21:00 | Urawa (Nilwala Ganga) | 0.18 | 🟢 Normal | 0.000 |  |
 | 2026-01-15 14:16:22 | Norwood (Kelani Ganga) | 0.48 | 🟢 Normal | 0.000 |  |
@@ -68,10 +70,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-15 14:01:07 | Ellagawa (Kalu Ganga) | 4.15 | 🟢 Normal | 0.031 | 🔺 Rising |
 | 2026-01-15 14:05:47 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.83 | 🟢 Normal | 0.031 | 🔺 Rising |
 | 2026-01-15 14:11:58 | Glencourse (Kelani Ganga) | 8.69 | 🟢 Normal | 0.018 | 🔺 Rising |
+| 2026-01-15 14:43:51 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | 0.015 | 🔺 Rising |
 | 2026-01-15 14:01:18 | Wellawaya (Kirindi Oya) | 0.90 | 🟢 Normal | 0.000 |  |
 | 2026-01-15 14:01:42 | Moragaswewa (Deduru Oya) | 0.53 | 🟢 Normal | 0.000 |  |
 | 2026-01-15 14:01:17 | Giriulla (Maha Oya) | 0.93 | 🟢 Normal | 0.000 |  |
-| 2026-01-15 13:09:23 | Horowpothana (Yan Oya) | 2.34 | 🟢 Normal | 0.000 |  |
+| 2026-01-15 14:36:26 | Horowpothana (Yan Oya) | 2.34 | 🟢 Normal | 0.000 |  |
 | 2026-01-15 14:03:04 | Galgamuwa (Mee Oya) | 0.11 | 🟢 Normal | 0.000 |  |
 | 2026-01-15 14:03:07 | Magura (Kalu Ganga) | 0.83 | 🟢 Normal | 0.000 |  |
 | 2026-01-15 14:16:22 | Norwood (Kelani Ganga) | 0.48 | 🟢 Normal | 0.000 |  |
@@ -96,7 +99,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-15 14:03:10 | Thanthirimale (Malwathu Oya) | 1.93 | 🟢 Normal | -0.011 |  |
 | 2026-01-15 14:00:50 | Pitabeddara (Nilwala Ganga) | 0.65 | 🟢 Normal | -0.011 |  |
 | 2026-01-15 14:02:08 | Kuda Oya (Kirindi Oya) | 1.27 | 🟢 Normal | -0.011 |  |
-| 2026-01-15 13:23:59 | Thalgahagoda (Nilwala Ganga) | 0.38 | 🟢 Normal | -0.016 |  |
 | 2026-01-15 14:22:27 | Panadugama (Nilwala Ganga) | 2.62 | 🟢 Normal | -0.023 |  |
 | 2026-01-15 14:04:23 | Kithulgala (Kelani Ganga) | 1.46 | 🟢 Normal | -0.029 |  |
 | 2026-01-15 14:00:17 | Putupaula (Kalu Ganga) | 0.57 | 🟢 Normal | -0.037 |  |
@@ -121,6 +123,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Glencourse (Kelani Ganga)
 
 ![Glencourse](images/stations/glencourse.png)
+
+### Thalgahagoda (Nilwala Ganga)
+
+![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Wellawaya (Kirindi Oya)
 
@@ -233,10 +239,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kuda Oya (Kirindi Oya)
 
 ![Kuda Oya](images/stations/kuda-oya.png)
-
-### Thalgahagoda (Nilwala Ganga)
-
-![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Panadugama (Nilwala Ganga)
 
