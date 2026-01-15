@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -52,7 +52,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-15 23:01:01 | Thaldena (Mahaweli Ganga) | 0.67 | 🟢 Normal | -0.010 |  |
 | 2026-01-15 23:00:53 | Horowpothana (Yan Oya) | 2.26 | 🟢 Normal | -0.010 |  |
 | 2026-01-15 23:00:08 | Siyambalanduwa (Heda Oya) | 0.81 | 🟢 Normal | 0.000 |  |
-| 2026-01-15 22:46:45 | Moraketiya (Walawe Ganga) | 0.86 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
