@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **41** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -58,8 +58,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-16 20:01:30 | Dunamale (Aththanagalu Oya) | 0.71 | 🟢 Normal | -0.010 |  |
 | 2026-01-16 20:01:04 | Magura (Kalu Ganga) | 1.08 | 🟢 Normal | -0.020 |  |
 | 2026-01-16 19:59:53 | Thaldena (Mahaweli Ganga) | 0.61 | 🟢 Normal | 0.000 |  |
-| 2026-01-16 19:46:35 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.78 | 🟢 Normal | -0.080 |  |
-| 2026-01-16 19:40:46 | Thaldena (Mahaweli Ganga) | 0.61 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
