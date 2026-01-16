@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--16_14:10:39-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--16_14:17:11-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **47,204 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **47,205 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-16 14:17:11 | Horowpothana (Yan Oya) | 2.09 | 🟢 Normal | -0.019 |  |
 | 2026-01-16 14:10:39 | Magura (Kalu Ganga) | 1.37 | 🟢 Normal | -0.046 |  |
 | 2026-01-16 14:09:06 | Dunamale (Aththanagalu Oya) | 0.74 | 🟢 Normal | 0.000 |  |
 | 2026-01-16 14:08:18 | Urawa (Nilwala Ganga) | 0.16 | 🟢 Normal | 0.000 |  |
@@ -58,7 +59,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-16 14:00:41 | Moragaswewa (Deduru Oya) | 0.48 | 🟢 Normal | 0.000 |  |
 | 2026-01-16 14:00:21 | Weraganthota (Mahaweli Ganga) | -1.72 | 🟢 Normal | -0.020 |  |
 | 2026-01-16 13:59:39 | Nakkala (Kumbukkan Oya) | 1.00 | 🟢 Normal | 0.000 |  |
-| 2026-01-16 13:14:38 | Horowpothana (Yan Oya) | 2.11 | 🟢 Normal | -0.012 |  |
 
 ## Latest by Station
 
@@ -96,7 +96,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-16 14:01:21 | Baddegama (Gin Ganga) | 0.96 | 🟢 Normal | -0.010 |  |
 | 2026-01-16 14:05:07 | Thanamalwila (Kirindi Oya) | 0.72 | 🟢 Normal | -0.010 |  |
 | 2026-01-16 14:03:21 | Kuda Oya (Kirindi Oya) | 1.24 | 🟢 Normal | -0.011 |  |
-| 2026-01-16 13:14:38 | Horowpothana (Yan Oya) | 2.11 | 🟢 Normal | -0.012 |  |
+| 2026-01-16 14:17:11 | Horowpothana (Yan Oya) | 2.09 | 🟢 Normal | -0.019 |  |
 | 2026-01-16 14:00:52 | Nawalapitiya (Mahaweli Ganga) | 0.69 | 🟢 Normal | -0.020 |  |
 | 2026-01-16 14:02:10 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.96 | 🟢 Normal | -0.020 |  |
 | 2026-01-16 14:00:21 | Weraganthota (Mahaweli Ganga) | -1.72 | 🟢 Normal | -0.020 |  |
