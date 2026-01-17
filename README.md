@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--17_19:14:56-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--17_19:18:41-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **48,306 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **48,307 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-17 19:18:41 | Norwood (Kelani Ganga) | 0.47 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 19:14:56 | Magura (Kalu Ganga) | 0.91 | 🟢 Normal | -0.008 |  |
 | 2026-01-17 19:14:38 | Moragaswewa (Deduru Oya) | 0.45 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 19:14:28 | Holombuwa (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
@@ -73,7 +74,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-17 19:01:36 | Horowpothana (Yan Oya) | 1.53 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 18:02:19 | Galgamuwa (Mee Oya) | 0.12 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 19:05:00 | Pitabeddara (Nilwala Ganga) | 0.38 | 🟢 Normal | 0.000 |  |
-| 2026-01-17 18:07:24 | Norwood (Kelani Ganga) | 0.47 | 🟢 Normal | 0.000 |  |
+| 2026-01-17 19:18:41 | Norwood (Kelani Ganga) | 0.47 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 19:05:22 | Hanwella (Kelani Ganga) | 0.41 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 19:11:40 | Ellagawa (Kalu Ganga) | 3.99 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 19:06:10 | Panadugama (Nilwala Ganga) | 2.18 | 🟢 Normal | 0.000 |  |
