@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--17_10:25:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--17_10:35:11-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **47,952 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **47,953 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-17 10:35:11 | Ellagawa (Kalu Ganga) | 4.01 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:25:04 | Thalgahagoda (Nilwala Ganga) | 0.24 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:19:47 | Urawa (Nilwala Ganga) | 0.14 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:14:33 | Thawalama (Gin Ganga) | 1.21 | 🟢 Normal | 0.008 | 🔺 Rising |
@@ -43,7 +44,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-17 10:03:12 | Nawalapitiya (Mahaweli Ganga) | 0.71 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:03:12 | Kuda Oya (Kirindi Oya) | 1.23 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:02:58 | Hanwella (Kelani Ganga) | 0.45 | 🟢 Normal | -0.010 |  |
-| 2026-01-17 10:02:30 | Ellagawa (Kalu Ganga) | 4.01 | 🟢 Normal | -0.010 |  |
+| 2026-01-17 10:02:30 | Ellagawa (Kalu Ganga) | 4.01 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:02:27 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.56 | 🟢 Normal | -0.050 |  |
 | 2026-01-17 10:02:24 | Weraganthota (Mahaweli Ganga) | -2.10 | 🟢 Normal | -0.010 |  |
 | 2026-01-17 10:02:11 | Moragaswewa (Deduru Oya) | 0.46 | 🟢 Normal | -0.011 |  |
@@ -83,6 +84,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-17 10:04:24 | Galgamuwa (Mee Oya) | 0.13 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:01:27 | Magura (Kalu Ganga) | 0.94 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:03:27 | Norwood (Kelani Ganga) | 0.47 | 🟢 Normal | 0.000 |  |
+| 2026-01-17 10:35:11 | Ellagawa (Kalu Ganga) | 4.01 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:08:14 | Panadugama (Nilwala Ganga) | 2.20 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:09:12 | Padiyathalawa (Maduru Oya) | 0.78 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:05:23 | Moraketiya (Walawe Ganga) | 0.89 | 🟢 Normal | 0.000 |  |
@@ -93,7 +95,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-17 10:19:47 | Urawa (Nilwala Ganga) | 0.14 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:25:04 | Thalgahagoda (Nilwala Ganga) | 0.24 | 🟢 Normal | 0.000 |  |
 | 2026-01-17 10:03:12 | Kuda Oya (Kirindi Oya) | 1.23 | 🟢 Normal | 0.000 |  |
-| 2026-01-17 10:02:30 | Ellagawa (Kalu Ganga) | 4.01 | 🟢 Normal | -0.010 |  |
 | 2026-01-17 10:02:24 | Weraganthota (Mahaweli Ganga) | -2.10 | 🟢 Normal | -0.010 |  |
 | 2026-01-17 10:06:28 | Dunamale (Aththanagalu Oya) | 0.68 | 🟢 Normal | -0.010 |  |
 | 2026-01-17 10:02:58 | Hanwella (Kelani Ganga) | 0.45 | 🟢 Normal | -0.010 |  |
@@ -179,6 +180,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Norwood](images/stations/norwood.png)
 
+### Ellagawa (Kalu Ganga)
+
+![Ellagawa](images/stations/ellagawa.png)
+
 ### Panadugama (Nilwala Ganga)
 
 ![Panadugama](images/stations/panadugama.png)
@@ -218,10 +223,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kuda Oya (Kirindi Oya)
 
 ![Kuda Oya](images/stations/kuda-oya.png)
-
-### Ellagawa (Kalu Ganga)
-
-![Ellagawa](images/stations/ellagawa.png)
 
 ### Weraganthota (Mahaweli Ganga)
 
