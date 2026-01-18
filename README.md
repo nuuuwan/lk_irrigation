@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--18_15:10:59-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--18_15:24:31-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **49,062 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **49,063 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-18 15:24:31 | Thalgahagoda (Nilwala Ganga) | 0.44 | 🟢 Normal | 0.053 | 🔺 Rising |
 | 2026-01-18 15:10:59 | Panadugama (Nilwala Ganga) | 2.14 | 🟢 Normal | 0.000 |  |
 | 2026-01-18 15:08:25 | Ellagawa (Kalu Ganga) | 3.94 | 🟢 Normal | 0.000 |  |
 | 2026-01-18 15:08:02 | Horowpothana (Yan Oya) | 1.27 | 🟢 Normal | 0.000 |  |
@@ -58,7 +59,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-18 15:01:03 | Manampitiya (Mahaweli Ganga) | 1.27 | 🟢 Normal | 0.000 |  |
 | 2026-01-18 15:00:39 | Nawalapitiya (Mahaweli Ganga) | 0.73 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-01-18 15:00:06 | Nakkala (Kumbukkan Oya) | 0.96 | 🟢 Normal | 0.000 |  |
-| 2026-01-18 14:27:40 | Thalgahagoda (Nilwala Ganga) | 0.39 | 🟢 Normal | 0.057 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -67,7 +67,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-01-18 15:05:47 | Putupaula (Kalu Ganga) | 0.77 | 🟢 Normal | 0.078 | 🔺 Rising |
-| 2026-01-18 14:27:40 | Thalgahagoda (Nilwala Ganga) | 0.39 | 🟢 Normal | 0.057 | 🔺 Rising |
+| 2026-01-18 15:24:31 | Thalgahagoda (Nilwala Ganga) | 0.44 | 🟢 Normal | 0.053 | 🔺 Rising |
 | 2026-01-18 15:02:53 | Peradeniya (Mahaweli Ganga) | 1.53 | 🟢 Normal | 0.031 | 🔺 Rising |
 | 2026-01-18 15:04:09 | Nagalagam Street (Kelani Ganga) | 0.64 | 🟢 Normal | 0.029 | 🔺 Rising |
 | 2026-01-18 15:02:53 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.40 | 🟢 Normal | 0.010 | 🔺 Rising |
