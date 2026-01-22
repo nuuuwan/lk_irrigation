@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--22_17:12:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--22_17:23:18-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **52,749 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **52,750 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-22 17:23:18 | Pitabeddara (Nilwala Ganga) | 0.31 | 🟢 Normal | 0.000 |  |
 | 2026-01-22 17:12:04 | Kuda Oya (Kirindi Oya) | 1.22 | 🟢 Normal | -0.005 |  |
 | 2026-01-22 17:11:45 | Horowpothana (Yan Oya) | 1.50 | 🟢 Normal | 0.000 |  |
 | 2026-01-22 17:10:27 | Giriulla (Maha Oya) | 0.81 | 🟢 Normal | 0.000 |  |
@@ -57,7 +58,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-22 17:00:54 | Nawalapitiya (Mahaweli Ganga) | 0.69 | 🟢 Normal | 0.000 |  |
 | 2026-01-22 17:00:41 | Weraganthota (Mahaweli Ganga) | -2.20 | 🟢 Normal | -0.092 |  |
 | 2026-01-22 17:00:11 | Nakkala (Kumbukkan Oya) | 0.89 | 🟢 Normal | 0.000 |  |
-| 2026-01-22 16:28:36 | Pitabeddara (Nilwala Ganga) | 0.31 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -82,7 +82,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-22 17:11:45 | Horowpothana (Yan Oya) | 1.50 | 🟢 Normal | 0.000 |  |
 | 2026-01-22 17:07:55 | Galgamuwa (Mee Oya) | 0.24 | 🟢 Normal | 0.000 |  |
 | 2026-01-22 17:02:47 | Magura (Kalu Ganga) | 0.67 | 🟢 Normal | 0.000 |  |
-| 2026-01-22 16:28:36 | Pitabeddara (Nilwala Ganga) | 0.31 | 🟢 Normal | 0.000 |  |
+| 2026-01-22 17:23:18 | Pitabeddara (Nilwala Ganga) | 0.31 | 🟢 Normal | 0.000 |  |
 | 2026-01-22 17:03:26 | Norwood (Kelani Ganga) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-01-22 17:01:07 | Ellagawa (Kalu Ganga) | 3.83 | 🟢 Normal | 0.000 |  |
 | 2026-01-22 17:02:09 | Baddegama (Gin Ganga) | 1.15 | 🟢 Normal | 0.000 |  |
