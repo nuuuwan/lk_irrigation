@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--23_21:13:33-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--23_21:23:08-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **53,782 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **53,783 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-23 21:23:08 | Rathnapura (Kalu Ganga) | 0.51 | 🟢 Normal | 0.000 |  |
 | 2026-01-23 21:13:33 | Horowpothana (Yan Oya) | 1.54 | 🟢 Normal | -0.019 |  |
 | 2026-01-23 21:11:56 | Panadugama (Nilwala Ganga) | 1.99 | 🟢 Normal | 0.000 |  |
 | 2026-01-23 21:08:11 | Holombuwa (Kelani Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
@@ -86,7 +87,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-23 21:06:39 | Badalgama (Maha Oya) | 1.87 | 🟢 Normal | 0.000 |  |
 | 2026-01-23 21:08:11 | Holombuwa (Kelani Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
 | 2026-01-23 21:01:09 | Manampitiya (Mahaweli Ganga) | 1.03 | 🟢 Normal | 0.000 |  |
-| 2026-01-23 21:08:05 | Rathnapura (Kalu Ganga) | 0.51 | 🟢 Normal | 0.000 |  |
+| 2026-01-23 21:23:08 | Rathnapura (Kalu Ganga) | 0.51 | 🟢 Normal | 0.000 |  |
 | 2026-01-23 21:05:21 | Urawa (Nilwala Ganga) | 0.07 | 🟢 Normal | 0.000 |  |
 | 2026-01-23 21:06:51 | Thalgahagoda (Nilwala Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
 | 2026-01-23 21:05:07 | Thanamalwila (Kirindi Oya) | 0.64 | 🟢 Normal | 0.000 |  |
