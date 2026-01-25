@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--25_10:16:01-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--25_10:21:05-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **55,158 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **55,159 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-25 10:21:05 | Thanthirimale (Malwathu Oya) | 1.54 | 🟢 Normal | 0.022 | 🔺 Rising |
 | 2026-01-25 10:16:01 | Panadugama (Nilwala Ganga) | 1.98 | 🟢 Normal | 0.000 |  |
 | 2026-01-25 10:14:37 | Thawalama (Gin Ganga) | 0.98 | 🟢 Normal | 0.051 | 🔺 Rising |
 | 2026-01-25 10:13:47 | Thalgahagoda (Nilwala Ganga) | 0.37 | 🟢 Normal | -0.052 |  |
@@ -58,7 +59,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-25 10:00:24 | Nawalapitiya (Mahaweli Ganga) | 0.65 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-01-25 10:00:09 | Weraganthota (Mahaweli Ganga) | -1.93 | 🟢 Normal | -0.010 |  |
 | 2026-01-25 10:00:07 | Nakkala (Kumbukkan Oya) | 0.88 | 🟢 Normal | 0.000 |  |
-| 2026-01-25 09:23:50 | Padiyathalawa (Maduru Oya) | 0.56 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -70,7 +70,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-25 10:07:22 | Manampitiya (Mahaweli Ganga) | 1.03 | 🟢 Normal | 0.075 | 🔺 Rising |
 | 2026-01-25 10:14:37 | Thawalama (Gin Ganga) | 0.98 | 🟢 Normal | 0.051 | 🔺 Rising |
 | 2026-01-25 10:02:17 | Deraniyagala (Kelani Ganga) | 0.27 | 🟢 Normal | 0.030 | 🔺 Rising |
-| 2026-01-25 09:00:40 | Thanthirimale (Malwathu Oya) | 1.51 | 🟢 Normal | 0.030 | 🔺 Rising |
+| 2026-01-25 10:21:05 | Thanthirimale (Malwathu Oya) | 1.54 | 🟢 Normal | 0.022 | 🔺 Rising |
 | 2026-01-25 10:00:24 | Nawalapitiya (Mahaweli Ganga) | 0.65 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-01-25 10:02:21 | Wellawaya (Kirindi Oya) | 0.82 | 🟢 Normal | 0.000 |  |
 | 2026-01-25 10:00:07 | Nakkala (Kumbukkan Oya) | 0.88 | 🟢 Normal | 0.000 |  |
