@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--25_12:12:53-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--25_12:13:17-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **55,236 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **55,237 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-25 12:13:17 | Manampitiya (Mahaweli Ganga) | 1.09 | 🟢 Normal | 0.017 | 🔺 Rising |
 | 2026-01-25 12:12:53 | Dunamale (Aththanagalu Oya) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2026-01-25 12:12:13 | Panadugama (Nilwala Ganga) | 1.97 | 🟢 Normal | -0.015 |  |
 | 2026-01-25 12:09:30 | Galgamuwa (Mee Oya) | 0.15 | 🟢 Normal | 0.000 |  |
@@ -57,8 +58,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-25 12:00:29 | Peradeniya (Mahaweli Ganga) | 1.45 | 🟢 Normal | -0.111 |  |
 | 2026-01-25 12:00:20 | Thaldena (Mahaweli Ganga) | 0.47 | 🟢 Normal | 0.000 |  |
 | 2026-01-25 11:30:56 | Panadugama (Nilwala Ganga) | 1.98 | 🟢 Normal | -0.015 |  |
-| 2026-01-25 11:22:03 | Pitabeddara (Nilwala Ganga) | 0.28 | 🟢 Normal | 0.000 |  |
-| 2026-01-25 11:21:29 | Nawalapitiya (Mahaweli Ganga) | 0.65 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -66,9 +65,9 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-01-25 11:01:21 | Manampitiya (Mahaweli Ganga) | 1.07 | 🟢 Normal | 0.044 | 🔺 Rising |
 | 2026-01-25 12:03:34 | Hanwella (Kelani Ganga) | 0.28 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-01-25 12:02:08 | Thanthirimale (Malwathu Oya) | 1.59 | 🟢 Normal | 0.020 | 🔺 Rising |
+| 2026-01-25 12:13:17 | Manampitiya (Mahaweli Ganga) | 1.09 | 🟢 Normal | 0.017 | 🔺 Rising |
 | 2026-01-25 12:00:51 | Wellawaya (Kirindi Oya) | 0.82 | 🟢 Normal | 0.000 |  |
 | 2026-01-25 12:01:37 | Nakkala (Kumbukkan Oya) | 0.88 | 🟢 Normal | 0.000 |  |
 | 2026-01-25 12:06:12 | Moragaswewa (Deduru Oya) | 0.36 | 🟢 Normal | 0.000 |  |
@@ -108,10 +107,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## River Water Level Charts by Station
 
-### Manampitiya (Mahaweli Ganga)
-
-![Manampitiya](images/stations/manampitiya.png)
-
 ### Hanwella (Kelani Ganga)
 
 ![Hanwella](images/stations/hanwella.png)
@@ -119,6 +114,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanthirimale (Malwathu Oya)
 
 ![Thanthirimale](images/stations/thanthirimale.png)
+
+### Manampitiya (Mahaweli Ganga)
+
+![Manampitiya](images/stations/manampitiya.png)
 
 ### Wellawaya (Kirindi Oya)
 
