@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--25_19:18:11-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--25_19:26:06-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **55,507 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **55,508 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-25 19:26:06 | Urawa (Nilwala Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
 | 2026-01-25 19:18:11 | Ellagawa (Kalu Ganga) | 3.77 | 🟢 Normal | 0.000 |  |
 | 2026-01-25 19:15:11 | Peradeniya (Mahaweli Ganga) | 1.12 | 🟢 Normal | -0.024 |  |
 | 2026-01-25 19:15:11 | Nawalapitiya (Mahaweli Ganga) | 0.66 | 🟢 Normal | 0.000 |  |
@@ -90,7 +91,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-25 19:13:46 | Thaldena (Mahaweli Ganga) | 0.50 | 🟢 Normal | 0.000 |  |
 | 2026-01-25 19:11:24 | Badalgama (Maha Oya) | 1.86 | 🟢 Normal | 0.000 |  |
 | 2026-01-25 19:02:29 | Thawalama (Gin Ganga) | 0.91 | 🟢 Normal | 0.000 |  |
-| 2026-01-25 19:03:48 | Urawa (Nilwala Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
+| 2026-01-25 19:26:06 | Urawa (Nilwala Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
 | 2026-01-25 19:01:31 | Kuda Oya (Kirindi Oya) | 1.22 | 🟢 Normal | 0.000 |  |
 | 2026-01-25 19:07:56 | Katharagama (Menik Ganga) | -0.05 | 🟢 Normal | -0.009 |  |
 | 2026-01-25 19:01:50 | Yaka Wewa (Ma Oya) | 1.05 | 🟢 Normal | -0.010 |  |
