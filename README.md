@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--31_11:15:10-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--01--31_11:37:47-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **60,568 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **60,569 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-01-31 11:37:47 | Baddegama (Gin Ganga) | 1.10 | 🟢 Normal | 0.000 |  |
 | 2026-01-31 11:15:10 | Thawalama (Gin Ganga) | 0.94 | 🟢 Normal | -0.034 |  |
 | 2026-01-31 11:14:02 | Putupaula (Kalu Ganga) | 0.40 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-01-31 11:10:42 | Urawa (Nilwala Ganga) | 0.09 | 🟢 Normal | 0.019 | 🔺 Rising |
@@ -85,7 +86,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-01-31 11:03:35 | Pitabeddara (Nilwala Ganga) | 0.23 | 🟢 Normal | 0.000 |  |
 | 2026-01-31 11:03:28 | Hanwella (Kelani Ganga) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-01-31 11:06:52 | Ellagawa (Kalu Ganga) | 3.77 | 🟢 Normal | 0.000 |  |
-| 2026-01-31 10:01:46 | Baddegama (Gin Ganga) | 1.10 | 🟢 Normal | 0.000 |  |
+| 2026-01-31 11:37:47 | Baddegama (Gin Ganga) | 1.10 | 🟢 Normal | 0.000 |  |
 | 2026-01-31 11:08:28 | Panadugama (Nilwala Ganga) | 2.02 | 🟢 Normal | 0.000 |  |
 | 2026-01-31 11:04:32 | Dunamale (Aththanagalu Oya) | 0.44 | 🟢 Normal | 0.000 |  |
 | 2026-01-31 11:04:22 | Badalgama (Maha Oya) | 1.82 | 🟢 Normal | 0.000 |  |
