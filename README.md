@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--01_23:10:08-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--01_23:23:36-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **61,947 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **61,948 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-01 23:23:36 | Pitabeddara (Nilwala Ganga) | 0.85 | 🟢 Normal | 0.152 | 🔺 Rising |
 | 2026-02-01 23:10:08 | Thalgahagoda (Nilwala Ganga) | 0.61 | 🟢 Normal | -0.043 |  |
 | 2026-02-01 23:07:56 | Glencourse (Kelani Ganga) | 8.32 | 🟢 Normal | -0.010 |  |
 | 2026-02-01 23:06:47 | Badalgama (Maha Oya) | 1.94 | 🟢 Normal | 0.010 | 🔺 Rising |
@@ -28,7 +29,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-01 23:05:21 | Rathnapura (Kalu Ganga) | 0.99 | 🟢 Normal | -0.209 |  |
 | 2026-02-01 23:05:05 | Holombuwa (Kelani Ganga) | 0.36 | 🟢 Normal | 0.000 |  |
 | 2026-02-01 23:04:31 | Thanamalwila (Kirindi Oya) | 0.50 | 🟢 Normal | 0.000 |  |
-| 2026-02-01 23:03:54 | Pitabeddara (Nilwala Ganga) | 0.80 | 🟢 Normal | 0.085 | 🔺 Rising |
+| 2026-02-01 23:03:54 | Pitabeddara (Nilwala Ganga) | 0.80 | 🟢 Normal | 0.152 | 🔺 Rising |
 | 2026-02-01 23:03:47 | Panadugama (Nilwala Ganga) | 2.47 | 🟢 Normal | -0.010 |  |
 | 2026-02-01 23:03:42 | Moragaswewa (Deduru Oya) | 0.24 | 🟢 Normal | -0.010 |  |
 | 2026-02-01 23:03:39 | Norwood (Kelani Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
@@ -50,9 +51,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-01 23:00:50 | Nawalapitiya (Mahaweli Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
 | 2026-02-01 23:00:33 | Horowpothana (Yan Oya) | 1.73 | 🟢 Normal | 0.000 |  |
 | 2026-02-01 23:00:18 | Kuda Oya (Kirindi Oya) | 1.23 | 🟢 Normal | 0.000 |  |
-| 2026-02-01 22:35:53 | Yaka Wewa (Ma Oya) | 0.93 | 🟢 Normal | -0.069 |  |
-| 2026-02-01 22:35:34 | Pitabeddara (Nilwala Ganga) | 0.76 | 🟢 Normal | 0.085 | 🔺 Rising |
-| 2026-02-01 22:26:45 | Moraketiya (Walawe Ganga) | 0.85 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -61,8 +59,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-02-01 23:02:25 | Peradeniya (Mahaweli Ganga) | 1.96 | 🟢 Normal | 0.289 | 🔺 Rising |
+| 2026-02-01 23:23:36 | Pitabeddara (Nilwala Ganga) | 0.85 | 🟢 Normal | 0.152 | 🔺 Rising |
 | 2026-02-01 23:03:35 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | 0.125 | 🔺 Rising |
-| 2026-02-01 23:03:54 | Pitabeddara (Nilwala Ganga) | 0.80 | 🟢 Normal | 0.085 | 🔺 Rising |
 | 2026-02-01 23:01:36 | Thawalama (Gin Ganga) | 1.42 | 🟢 Normal | 0.070 | 🔺 Rising |
 | 2026-02-01 18:00:43 | Thanthirimale (Malwathu Oya) | 2.31 | 🟢 Normal | 0.060 | 🔺 Rising |
 | 2026-02-01 23:01:19 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.71 | 🟢 Normal | 0.043 | 🔺 Rising |
@@ -106,13 +104,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Peradeniya](images/stations/peradeniya.png)
 
-### Nagalagam Street (Kelani Ganga)
-
-![Nagalagam Street](images/stations/nagalagam-street.png)
-
 ### Pitabeddara (Nilwala Ganga)
 
 ![Pitabeddara](images/stations/pitabeddara.png)
+
+### Nagalagam Street (Kelani Ganga)
+
+![Nagalagam Street](images/stations/nagalagam-street.png)
 
 ### Thawalama (Gin Ganga)
 
