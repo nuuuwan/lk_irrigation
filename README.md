@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--03_11:15:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--03_12:01:00-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **63,190 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **63,194 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,14 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **26** measurements in the last **1 hour**.*
+*There were **12** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-03 12:01:00 | Siyambalanduwa (Heda Oya) | 0.56 | 🟢 Normal | 0.000 |  |
+| 2026-02-03 12:00:49 | Nagalagam Street (Kelani Ganga) | 0.30 | 🟢 Normal | 0.061 | 🔺 Rising |
+| 2026-02-03 12:00:20 | Nakkala (Kumbukkan Oya) | 0.86 | 🟢 Normal | 0.000 |  |
+| 2026-02-03 11:37:35 | Urawa (Nilwala Ganga) | 0.17 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:15:04 | Badalgama (Maha Oya) | 1.86 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:14:56 | Panadugama (Nilwala Ganga) | 2.91 | 🟢 Normal | -0.053 |  |
 | 2026-02-03 11:11:47 | Pitabeddara (Nilwala Ganga) | 0.65 | 🟢 Normal | -0.030 |  |
@@ -27,24 +31,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-03 11:06:37 | Holombuwa (Kelani Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:05:43 | Dunamale (Aththanagalu Oya) | 0.45 | 🟢 Normal | -0.019 |  |
 | 2026-02-03 11:05:40 | Glencourse (Kelani Ganga) | 8.44 | 🟢 Normal | -0.057 |  |
-| 2026-02-03 11:04:15 | Moraketiya (Walawe Ganga) | 0.86 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 11:04:04 | Thanamalwila (Kirindi Oya) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 11:03:43 | Wellawaya (Kirindi Oya) | 0.82 | 🟢 Normal | -0.048 |  |
-| 2026-02-03 11:03:32 | Siyambalanduwa (Heda Oya) | 0.56 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 11:03:27 | Norwood (Kelani Ganga) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 11:03:08 | Katharagama (Menik Ganga) | -0.04 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 11:03:08 | Hanwella (Kelani Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 11:03:05 | Kithulgala (Kelani Ganga) | 1.68 | 🟢 Normal | -0.011 |  |
-| 2026-02-03 11:03:00 | Kuda Oya (Kirindi Oya) | 1.25 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 11:02:36 | Deraniyagala (Kelani Ganga) | 0.10 | 🟢 Normal | -0.010 |  |
-| 2026-02-03 11:02:11 | Yaka Wewa (Ma Oya) | 0.93 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 11:01:50 | Peradeniya (Mahaweli Ganga) | 1.50 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 11:01:44 | Weraganthota (Mahaweli Ganga) | -2.14 | 🟢 Normal | -0.061 |  |
-| 2026-02-03 11:00:56 | Manampitiya (Mahaweli Ganga) | 1.20 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-02-03 11:00:41 | Thaldena (Mahaweli Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 11:00:27 | Nakkala (Kumbukkan Oya) | 0.86 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 11:00:26 | Nagalagam Street (Kelani Ganga) | 0.24 | 🟢 Normal | 0.093 | 🔺 Rising |
-| 2026-02-03 10:39:37 | Urawa (Nilwala Ganga) | 0.17 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -53,10 +39,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-02-03 05:18:55 | Magura (Kalu Ganga) | 0.88 | 🟢 Normal | 0.099 | 🔺 Rising |
-| 2026-02-03 11:00:26 | Nagalagam Street (Kelani Ganga) | 0.24 | 🟢 Normal | 0.093 | 🔺 Rising |
+| 2026-02-03 12:00:49 | Nagalagam Street (Kelani Ganga) | 0.30 | 🟢 Normal | 0.061 | 🔺 Rising |
 | 2026-02-03 05:03:58 | Baddegama (Gin Ganga) | 1.42 | 🟢 Normal | 0.034 | 🔺 Rising |
 | 2026-02-03 11:00:56 | Manampitiya (Mahaweli Ganga) | 1.20 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-02-03 11:00:27 | Nakkala (Kumbukkan Oya) | 0.86 | 🟢 Normal | 0.000 |  |
+| 2026-02-03 12:00:20 | Nakkala (Kumbukkan Oya) | 0.86 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 05:00:50 | Moragaswewa (Deduru Oya) | 0.30 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:02:11 | Yaka Wewa (Ma Oya) | 0.93 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:07:18 | Giriulla (Maha Oya) | 0.77 | 🟢 Normal | 0.000 |  |
@@ -65,13 +51,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-03 11:03:08 | Hanwella (Kelani Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 06:07:19 | Ellagawa (Kalu Ganga) | 4.23 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:04:15 | Moraketiya (Walawe Ganga) | 0.86 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 11:03:32 | Siyambalanduwa (Heda Oya) | 0.56 | 🟢 Normal | 0.000 |  |
+| 2026-02-03 12:01:00 | Siyambalanduwa (Heda Oya) | 0.56 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:00:41 | Thaldena (Mahaweli Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:03:08 | Katharagama (Menik Ganga) | -0.04 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:15:04 | Badalgama (Maha Oya) | 1.86 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:06:37 | Holombuwa (Kelani Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:01:50 | Peradeniya (Mahaweli Ganga) | 1.50 | 🟢 Normal | 0.000 |  |
-| 2026-02-03 10:39:37 | Urawa (Nilwala Ganga) | 0.17 | 🟢 Normal | 0.000 |  |
+| 2026-02-03 11:37:35 | Urawa (Nilwala Ganga) | 0.17 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:03:00 | Kuda Oya (Kirindi Oya) | 1.25 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 11:04:04 | Thanamalwila (Kirindi Oya) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 07:13:11 | Padiyathalawa (Maduru Oya) | 0.66 | 🟢 Normal | -0.009 |  |
