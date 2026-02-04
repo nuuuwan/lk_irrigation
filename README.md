@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **25** measurements in the last **1 hour**.*
+*There were **15** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -34,16 +34,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-04 23:03:56 | Deraniyagala (Kelani Ganga) | 0.15 | 🟢 Normal | 0.019 | 🔺 Rising |
 | 2026-02-04 23:03:21 | Norwood (Kelani Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
 | 2026-02-04 23:03:02 | Yaka Wewa (Ma Oya) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-02-04 23:02:27 | Siyambalanduwa (Heda Oya) | 0.58 | 🟢 Normal | 0.000 |  |
-| 2026-02-04 23:02:21 | Katharagama (Menik Ganga) | -0.08 | 🟢 Normal | 0.000 |  |
-| 2026-02-04 23:02:16 | Kuda Oya (Kirindi Oya) | 1.22 | 🟢 Normal | 0.000 |  |
-| 2026-02-04 23:02:01 | Hanwella (Kelani Ganga) | 0.59 | 🟢 Normal | -0.021 |  |
-| 2026-02-04 23:01:58 | Thanamalwila (Kirindi Oya) | 0.51 | 🟢 Normal | 0.000 |  |
-| 2026-02-04 23:01:37 | Kithulgala (Kelani Ganga) | 1.50 | 🟢 Normal | -0.059 |  |
-| 2026-02-04 23:01:13 | Moragaswewa (Deduru Oya) | 0.24 | 🟢 Normal | 0.000 |  |
-| 2026-02-04 23:01:10 | Nagalagam Street (Kelani Ganga) | 0.34 | 🟢 Normal | -0.032 |  |
-| 2026-02-04 23:00:38 | Thawalama (Gin Ganga) | 1.56 | 🟢 Normal | 0.078 | 🔺 Rising |
-| 2026-02-04 23:00:08 | Wellawaya (Kirindi Oya) | 0.83 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
