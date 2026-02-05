@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **45** measurements in the last **1 hour**.*
+*There were **26** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -45,25 +45,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-05 15:02:29 | Deraniyagala (Kelani Ganga) | 0.12 | 🟢 Normal | 0.000 |  |
 | 2026-02-05 15:02:24 | Kithulgala (Kelani Ganga) | 1.74 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-02-05 15:01:48 | Moraketiya (Walawe Ganga) | 0.80 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:40 | Manampitiya (Mahaweli Ganga) | 1.42 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-02-05 15:01:39 | Galgamuwa (Mee Oya) | 0.29 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:37 | Galgamuwa (Mee Oya) | 0.29 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:34 | Galgamuwa (Mee Oya) | 0.29 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:32 | Galgamuwa (Mee Oya) | 0.29 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:28 | Galgamuwa (Mee Oya) | 0.28 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:25 | Galgamuwa (Mee Oya) | 0.28 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:20 | Galgamuwa (Mee Oya) | 0.29 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:17 | Galgamuwa (Mee Oya) | 0.30 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:17 | Thaldena (Mahaweli Ganga) | 0.47 | 🟢 Normal | -0.010 |  |
-| 2026-02-05 15:01:13 | Galgamuwa (Mee Oya) | 0.30 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:11 | Galgamuwa (Mee Oya) | 0.31 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:10 | Galgamuwa (Mee Oya) | 0.33 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:07 | Galgamuwa (Mee Oya) | 0.33 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:06 | Thanamalwila (Kirindi Oya) | 0.46 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:05 | Galgamuwa (Mee Oya) | 0.33 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:01:01 | Galgamuwa (Mee Oya) | 0.32 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:00:56 | Nawalapitiya (Mahaweli Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 15:00:07 | Weraganthota (Mahaweli Ganga) | -2.40 | 🟢 Normal | -0.050 |  |
 
 ## Latest by Station
 
