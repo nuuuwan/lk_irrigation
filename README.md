@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--06_04:19:45-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--06_04:30:42-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **65,307 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **65,308 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **35** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-06 04:30:42 | Putupaula (Kalu Ganga) | 0.70 | 🟢 Normal | 0.182 | 🔺 Rising |
 | 2026-02-06 04:19:45 | Thaldena (Mahaweli Ganga) | 0.77 | 🟢 Normal | -0.032 |  |
 | 2026-02-06 04:17:24 | Holombuwa (Kelani Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 04:16:42 | Rathnapura (Kalu Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
@@ -47,7 +48,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-06 04:01:21 | Nakkala (Kumbukkan Oya) | 1.27 | 🟢 Normal | -0.041 |  |
 | 2026-02-06 04:00:46 | Moraketiya (Walawe Ganga) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 04:00:14 | Kithulgala (Kelani Ganga) | 1.61 | 🟢 Normal | -0.041 |  |
-| 2026-02-06 03:41:14 | Putupaula (Kalu Ganga) | 0.55 | 🟢 Normal | 0.000 |  |
+| 2026-02-06 03:41:14 | Putupaula (Kalu Ganga) | 0.55 | 🟢 Normal | 0.182 | 🔺 Rising |
 | 2026-02-06 03:39:45 | Panadugama (Nilwala Ganga) | 2.26 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 03:39:44 | Panadugama (Nilwala Ganga) | 2.26 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 03:39:43 | Panadugama (Nilwala Ganga) | 2.26 | 🟢 Normal | 0.000 |  |
@@ -60,6 +61,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-06 04:30:42 | Putupaula (Kalu Ganga) | 0.70 | 🟢 Normal | 0.182 | 🔺 Rising |
 | 2026-02-03 05:18:55⌛ | Magura (Kalu Ganga) | 0.88 | 🟢 Normal | 0.099 | 🔺 Rising |
 | 2026-02-06 04:01:48 | Nagalagam Street (Kelani Ganga) | 0.76 | 🟢 Normal | 0.093 | 🔺 Rising |
 | 2026-02-06 04:03:26 | Norwood (Kelani Ganga) | 0.44 | 🟢 Normal | 0.020 | 🔺 Rising |
@@ -74,7 +76,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-03 06:07:19⌛ | Ellagawa (Kalu Ganga) | 4.23 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 04:02:53 | Panadugama (Nilwala Ganga) | 2.26 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 04:00:46 | Moraketiya (Walawe Ganga) | 0.85 | 🟢 Normal | 0.000 |  |
-| 2026-02-06 03:41:14 | Putupaula (Kalu Ganga) | 0.55 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 03:08:08 | Badalgama (Maha Oya) | 1.82 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 04:17:24 | Holombuwa (Kelani Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 04:16:42 | Rathnapura (Kalu Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
@@ -101,6 +102,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-06 03:10:29 | Deraniyagala (Kelani Ganga) | 0.12 | 🟢 Normal | -2.323 |  |
 
 ## River Water Level Charts by Station
+
+### Putupaula (Kalu Ganga)
+
+![Putupaula](images/stations/putupaula.png)
 
 ### Magura (Kalu Ganga)
 
@@ -157,10 +162,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Moraketiya (Walawe Ganga)
 
 ![Moraketiya](images/stations/moraketiya.png)
-
-### Putupaula (Kalu Ganga)
-
-![Putupaula](images/stations/putupaula.png)
 
 ### Badalgama (Maha Oya)
 
