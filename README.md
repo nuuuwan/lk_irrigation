@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--05_18:08:44-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--05_18:55:53-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **64,978 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **64,979 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **41** measurements in the last **1 hour**.*
+*There were **35** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-05 18:55:53 | Padiyathalawa (Maduru Oya) | 1.85 | 🟢 Normal | 0.344 | 🔺 Rising |
 | 2026-02-05 18:08:44 | Panadugama (Nilwala Ganga) | 2.40 | 🟢 Normal | -0.027 |  |
 | 2026-02-05 18:07:58 | Moragaswewa (Deduru Oya) | 0.22 | 🟢 Normal | 0.000 |  |
 | 2026-02-05 18:06:38 | Thaldena (Mahaweli Ganga) | 0.52 | 🟢 Normal | 0.010 | 🔺 Rising |
@@ -29,7 +30,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-05 18:05:45 | Weraganthota (Mahaweli Ganga) | -2.55 | 🟢 Normal | -0.046 |  |
 | 2026-02-05 18:05:40 | Moraketiya (Walawe Ganga) | 0.81 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-02-05 18:05:30 | Katharagama (Menik Ganga) | 0.06 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-02-05 18:05:21 | Padiyathalawa (Maduru Oya) | 1.56 | 🟢 Normal | 0.547 | 🔺 Rising |
+| 2026-02-05 18:05:21 | Padiyathalawa (Maduru Oya) | 1.56 | 🟢 Normal | 0.344 | 🔺 Rising |
 | 2026-02-05 18:05:15 | Norwood (Kelani Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
 | 2026-02-05 18:05:15 | Rathnapura (Kalu Ganga) | 0.77 | 🟢 Normal | -0.010 |  |
 | 2026-02-05 18:05:00 | Deraniyagala (Kelani Ganga) | 0.16 | 🟢 Normal | 0.010 | 🔺 Rising |
@@ -53,13 +54,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-05 18:00:50 | Wellawaya (Kirindi Oya) | 0.90 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-02-05 18:00:40 | Pitabeddara (Nilwala Ganga) | 0.44 | 🟢 Normal | -0.032 |  |
 | 2026-02-05 18:00:37 | Nawalapitiya (Mahaweli Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 17:52:46 | Thanthirimale (Malwathu Oya) | 1.60 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 17:52:45 | Thanthirimale (Malwathu Oya) | 1.59 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 17:52:44 | Thanthirimale (Malwathu Oya) | 1.59 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 17:52:43 | Thanthirimale (Malwathu Oya) | 1.59 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 17:52:41 | Thanthirimale (Malwathu Oya) | 1.62 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 17:42:20 | Padiyathalawa (Maduru Oya) | 1.35 | 🟢 Normal | 0.547 | 🔺 Rising |
-| 2026-02-05 17:42:16 | Padiyathalawa (Maduru Oya) | 0.65 | 🟢 Normal | 0.547 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -67,7 +61,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-02-05 18:05:21 | Padiyathalawa (Maduru Oya) | 1.56 | 🟢 Normal | 0.547 | 🔺 Rising |
+| 2026-02-05 18:55:53 | Padiyathalawa (Maduru Oya) | 1.85 | 🟢 Normal | 0.344 | 🔺 Rising |
 | 2026-02-05 18:02:09 | Siyambalanduwa (Heda Oya) | 1.31 | 🟢 Normal | 0.234 | 🔺 Rising |
 | 2026-02-05 18:03:25 | Peradeniya (Mahaweli Ganga) | 1.35 | 🟢 Normal | 0.178 | 🔺 Rising |
 | 2026-02-05 18:05:52 | Glencourse (Kelani Ganga) | 8.42 | 🟢 Normal | 0.111 | 🔺 Rising |
