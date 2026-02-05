@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--05_23:13:17-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--06_00:00:14-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **65,150 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **65,153 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **31** measurements in the last **1 hour**.*
+*There were **11** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-06 00:00:14 | Wellawaya (Kirindi Oya) | 0.91 | 🟢 Normal | 0.000 |  |
+| 2026-02-05 23:42:01 | Urawa (Nilwala Ganga) | 0.06 | 🟢 Normal | 0.000 |  |
+| 2026-02-05 23:33:18 | Putupaula (Kalu Ganga) | 0.40 | 🟢 Normal | -0.081 |  |
 | 2026-02-05 23:13:17 | Thawalama (Gin Ganga) | 1.25 | 🟢 Normal | 72.000 | 🔺 Rising |
 | 2026-02-05 23:13:16 | Thawalama (Gin Ganga) | 1.23 | 🟢 Normal | 72.000 | 🔺 Rising |
 | 2026-02-05 23:09:23 | Thalgahagoda (Nilwala Ganga) | 0.39 | 🟢 Normal | -0.045 |  |
@@ -27,29 +30,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-05 23:05:16 | Holombuwa (Kelani Ganga) | 0.31 | 🟢 Normal | 0.000 |  |
 | 2026-02-05 23:04:45 | Baddegama (Gin Ganga) | 1.06 | 🟢 Normal | -0.044 |  |
 | 2026-02-05 23:04:28 | Siyambalanduwa (Heda Oya) | 1.08 | 🟢 Normal | -0.019 |  |
-| 2026-02-05 23:04:23 | Dunamale (Aththanagalu Oya) | 0.19 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:04:07 | Deraniyagala (Kelani Ganga) | 0.16 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-02-05 23:03:55 | Glencourse (Kelani Ganga) | 8.52 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:03:25 | Thanamalwila (Kirindi Oya) | 0.48 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:03:22 | Moraketiya (Walawe Ganga) | 0.85 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:03:22 | Norwood (Kelani Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:03:18 | Glencourse (Kelani Ganga) | 8.52 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:03:15 | Badalgama (Maha Oya) | 1.82 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:03:00 | Katharagama (Menik Ganga) | 0.07 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:02:49 | Yaka Wewa (Ma Oya) | 0.73 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:02:38 | Moragaswewa (Deduru Oya) | 0.21 | 🟢 Normal | -0.010 |  |
-| 2026-02-05 23:02:21 | Hanwella (Kelani Ganga) | 0.57 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-02-05 23:02:18 | Kuda Oya (Kirindi Oya) | 1.26 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-02-05 23:02:18 | Rathnapura (Kalu Ganga) | 0.72 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:02:06 | Manampitiya (Mahaweli Ganga) | 1.20 | 🟢 Normal | -0.010 |  |
-| 2026-02-05 23:02:06 | Giriulla (Maha Oya) | 0.74 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:02:02 | Peradeniya (Mahaweli Ganga) | 2.22 | 🟢 Normal | 0.039 | 🔺 Rising |
-| 2026-02-05 23:01:52 | Nagalagam Street (Kelani Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:01:35 | Wellawaya (Kirindi Oya) | 0.91 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 23:01:19 | Nakkala (Kumbukkan Oya) | 1.07 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-02-05 23:01:11 | Kithulgala (Kelani Ganga) | 1.81 | 🟢 Normal | -0.010 |  |
-| 2026-02-05 23:00:56 | Thaldena (Mahaweli Ganga) | 0.91 | 🟢 Normal | 0.046 | 🔺 Rising |
-| 2026-02-05 23:00:20 | Nawalapitiya (Mahaweli Ganga) | 0.62 | 🟢 Normal | -0.018 |  |
 
 ## Latest by Station
 
@@ -65,7 +45,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-05 23:01:19 | Nakkala (Kumbukkan Oya) | 1.07 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-02-05 23:02:21 | Hanwella (Kelani Ganga) | 0.57 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-02-05 23:02:18 | Kuda Oya (Kirindi Oya) | 1.26 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-02-05 23:01:35 | Wellawaya (Kirindi Oya) | 0.91 | 🟢 Normal | 0.000 |  |
+| 2026-02-06 00:00:14 | Wellawaya (Kirindi Oya) | 0.91 | 🟢 Normal | 0.000 |  |
 | 2026-02-05 23:02:49 | Yaka Wewa (Ma Oya) | 0.73 | 🟢 Normal | 0.000 |  |
 | 2026-02-05 23:02:06 | Giriulla (Maha Oya) | 0.74 | 🟢 Normal | 0.000 |  |
 | 2026-02-03 07:40:09⌛ | Horowpothana (Yan Oya) | 1.76 | 🟢 Normal | 0.000 |  |
@@ -80,7 +60,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-05 23:05:16 | Holombuwa (Kelani Ganga) | 0.31 | 🟢 Normal | 0.000 |  |
 | 2026-02-05 23:02:18 | Rathnapura (Kalu Ganga) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2026-02-05 18:04:13 | Thanthirimale (Malwathu Oya) | 1.60 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 22:03:24 | Urawa (Nilwala Ganga) | 0.06 | 🟢 Normal | 0.000 |  |
+| 2026-02-05 23:42:01 | Urawa (Nilwala Ganga) | 0.06 | 🟢 Normal | 0.000 |  |
 | 2026-02-05 23:03:25 | Thanamalwila (Kirindi Oya) | 0.48 | 🟢 Normal | 0.000 |  |
 | 2026-02-05 23:01:11 | Kithulgala (Kelani Ganga) | 1.81 | 🟢 Normal | -0.010 |  |
 | 2026-02-05 23:08:06 | Panadugama (Nilwala Ganga) | 2.27 | 🟢 Normal | -0.010 |  |
@@ -95,7 +75,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-05 18:05:45 | Weraganthota (Mahaweli Ganga) | -2.55 | 🟢 Normal | -0.046 |  |
 | 2026-02-03 05:02:29⌛ | Kalawellawa (Millakanda) (Kalu Ganga) | 2.30 | 🟢 Normal | -0.069 |  |
 | 2026-02-05 22:31:12 | Padiyathalawa (Maduru Oya) | 1.80 | 🟢 Normal | -0.072 |  |
-| 2026-02-05 21:04:52 | Putupaula (Kalu Ganga) | 0.60 | 🟢 Normal | -0.105 |  |
+| 2026-02-05 23:33:18 | Putupaula (Kalu Ganga) | 0.40 | 🟢 Normal | -0.081 |  |
 
 ## River Water Level Charts by Station
 
