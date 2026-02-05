@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--05_21:09:47-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--05_21:22:35-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **65,087 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **65,088 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-05 21:22:35 | Baddegama (Gin Ganga) | 1.14 | 🟢 Normal | -0.019 |  |
 | 2026-02-05 21:09:47 | Glencourse (Kelani Ganga) | 8.53 | 🟢 Normal | -0.028 |  |
 | 2026-02-05 21:08:58 | Thaldena (Mahaweli Ganga) | 0.76 | 🟢 Normal | 0.063 | 🔺 Rising |
 | 2026-02-05 21:08:19 | Urawa (Nilwala Ganga) | 0.06 | 🟢 Normal | 0.000 |  |
@@ -50,9 +51,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-05 21:01:02 | Nawalapitiya (Mahaweli Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
 | 2026-02-05 21:00:32 | Manampitiya (Mahaweli Ganga) | 1.24 | 🟢 Normal | -0.042 |  |
 | 2026-02-05 21:00:27 | Wellawaya (Kirindi Oya) | 0.91 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 20:23:00 | Badalgama (Maha Oya) | 1.82 | 🟢 Normal | 0.000 |  |
-| 2026-02-05 20:22:09 | Panadugama (Nilwala Ganga) | 2.32 | 🟢 Normal | -0.026 |  |
-| 2026-02-05 20:21:35 | Padiyathalawa (Maduru Oya) | 1.95 | 🟢 Normal | -0.065 |  |
 
 ## Latest by Station
 
@@ -87,6 +85,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-05 18:05:46 | Galgamuwa (Mee Oya) | 0.27 | 🟢 Normal | -0.010 |  |
 | 2026-02-05 21:03:53 | Rathnapura (Kalu Ganga) | 0.73 | 🟢 Normal | -0.012 |  |
 | 2026-02-05 21:03:55 | Thawalama (Gin Ganga) | 1.21 | 🟢 Normal | -0.013 |  |
+| 2026-02-05 21:22:35 | Baddegama (Gin Ganga) | 1.14 | 🟢 Normal | -0.019 |  |
 | 2026-02-05 21:07:46 | Thalgahagoda (Nilwala Ganga) | 0.50 | 🟢 Normal | -0.020 |  |
 | 2026-02-05 21:08:00 | Panadugama (Nilwala Ganga) | 2.30 | 🟢 Normal | -0.026 |  |
 | 2026-02-05 21:09:47 | Glencourse (Kelani Ganga) | 8.53 | 🟢 Normal | -0.028 |  |
@@ -98,7 +97,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-03 05:02:29⌛ | Kalawellawa (Millakanda) (Kalu Ganga) | 2.30 | 🟢 Normal | -0.069 |  |
 | 2026-02-05 21:03:25 | Nagalagam Street (Kelani Ganga) | 0.37 | 🟢 Normal | -0.090 |  |
 | 2026-02-05 21:04:52 | Putupaula (Kalu Ganga) | 0.60 | 🟢 Normal | -0.105 |  |
-| 2026-02-05 20:18:29 | Baddegama (Gin Ganga) | 1.16 | 🟢 Normal | -36.000 |  |
 
 ## River Water Level Charts by Station
 
@@ -210,6 +208,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Thawalama](images/stations/thawalama.png)
 
+### Baddegama (Gin Ganga)
+
+![Baddegama](images/stations/baddegama.png)
+
 ### Thalgahagoda (Nilwala Ganga)
 
 ![Thalgahagoda](images/stations/thalgahagoda.png)
@@ -253,10 +255,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Putupaula (Kalu Ganga)
 
 ![Putupaula](images/stations/putupaula.png)
-
-### Baddegama (Gin Ganga)
-
-![Baddegama](images/stations/baddegama.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
