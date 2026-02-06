@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--07_04:28:46-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--07_04:41:16-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **66,203 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **66,204 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **37** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-07 04:41:16 | Peradeniya (Mahaweli Ganga) | 1.43 | 🟢 Normal | -0.146 |  |
 | 2026-02-07 04:28:46 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | 0.047 | 🔺 Rising |
 | 2026-02-07 04:28:38 | Nawalapitiya (Mahaweli Ganga) | 0.73 | 🟢 Normal | 0.000 |  |
 | 2026-02-07 04:27:10 | Deraniyagala (Kelani Ganga) | 0.11 | 🟢 Normal | 0.000 |  |
@@ -100,7 +101,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-07 04:04:50 | Rathnapura (Kalu Ganga) | 1.28 | 🟢 Normal | -0.040 |  |
 | 2026-02-07 04:01:21 | Padiyathalawa (Maduru Oya) | 1.08 | 🟢 Normal | -0.040 |  |
 | 2026-02-07 04:02:33 | Horowpothana (Yan Oya) | 2.85 | 🟢 Normal | -0.090 |  |
-| 2026-02-07 03:02:57 | Peradeniya (Mahaweli Ganga) | 1.67 | 🟢 Normal | -0.232 |  |
+| 2026-02-07 04:41:16 | Peradeniya (Mahaweli Ganga) | 1.43 | 🟢 Normal | -0.146 |  |
 
 ## River Water Level Charts by Station
 
