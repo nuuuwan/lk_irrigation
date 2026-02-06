@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--06_05:16:44-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--06_05:27:14-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **65,336 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **65,337 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-06 05:27:14 | Badalgama (Maha Oya) | 1.82 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 05:16:44 | Baddegama (Gin Ganga) | 0.91 | 🟢 Normal | 0.008 | 🔺 Rising |
 | 2026-02-06 05:15:07 | Thawalama (Gin Ganga) | 1.18 | 🟢 Normal | -0.009 |  |
 | 2026-02-06 05:12:17 | Panadugama (Nilwala Ganga) | 2.25 | 🟢 Normal | -0.009 |  |
@@ -47,7 +48,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-06 05:00:57 | Thalgahagoda (Nilwala Ganga) | 0.39 | 🟢 Normal | 0.707 | 🔺 Rising |
 | 2026-02-06 05:00:42 | Moraketiya (Walawe Ganga) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 04:51:37 | Thalgahagoda (Nilwala Ganga) | 0.28 | 🟢 Normal | 0.707 | 🔺 Rising |
-| 2026-02-06 04:30:42 | Putupaula (Kalu Ganga) | 0.70 | 🟢 Normal | 0.368 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -73,7 +73,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-06 05:02:50 | Nagalagam Street (Kelani Ganga) | 0.76 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 05:00:42 | Moraketiya (Walawe Ganga) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 05:03:15 | Katharagama (Menik Ganga) | 0.06 | 🟢 Normal | 0.000 |  |
-| 2026-02-06 03:08:08 | Badalgama (Maha Oya) | 1.82 | 🟢 Normal | 0.000 |  |
+| 2026-02-06 05:27:14 | Badalgama (Maha Oya) | 1.82 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 05:05:09 | Holombuwa (Kelani Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
 | 2026-02-05 18:04:13 | Thanthirimale (Malwathu Oya) | 1.60 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 05:03:32 | Urawa (Nilwala Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
