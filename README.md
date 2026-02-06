@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **102** measurements in the last **1 hour**.*
+*There were **90** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -109,18 +109,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-06 19:05:12 | Rathnapura (Kalu Ganga) | 0.71 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 19:05:05 | Pitabeddara (Nilwala Ganga) | 0.32 | 🟢 Normal | 0.000 |  |
 | 2026-02-06 19:04:46 | Panadugama (Nilwala Ganga) | 2.23 | 🟢 Normal | 0.000 |  |
-| 2026-02-06 19:04:02 | Giriulla (Maha Oya) | 0.74 | 🟢 Normal | 0.000 |  |
-| 2026-02-06 19:03:28 | Putupaula (Kalu Ganga) | 0.83 | 🟢 Normal | -0.029 |  |
-| 2026-02-06 19:03:15 | Norwood (Kelani Ganga) | 0.44 | 🟢 Normal | 0.000 |  |
-| 2026-02-06 19:02:47 | Kithulgala (Kelani Ganga) | 1.58 | 🟢 Normal | -0.062 |  |
-| 2026-02-06 19:02:41 | Deraniyagala (Kelani Ganga) | 0.11 | 🟢 Normal | 0.000 |  |
-| 2026-02-06 19:02:17 | Dunamale (Aththanagalu Oya) | 0.16 | 🟢 Normal | 0.000 |  |
-| 2026-02-06 19:02:12 | Padiyathalawa (Maduru Oya) | 1.50 | 🟢 Normal | 0.000 |  |
-| 2026-02-06 19:02:06 | Kuda Oya (Kirindi Oya) | 1.26 | 🟢 Normal | -0.010 |  |
-| 2026-02-06 19:01:44 | Siyambalanduwa (Heda Oya) | 0.69 | 🟢 Normal | 0.000 |  |
-| 2026-02-06 19:01:41 | Manampitiya (Mahaweli Ganga) | 1.82 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-02-06 19:01:26 | Badalgama (Maha Oya) | 1.82 | 🟢 Normal | 0.000 |  |
-| 2026-02-06 19:00:52 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | -0.092 |  |
 
 ## Latest by Station
 
