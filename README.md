@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--08_01:27:38-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--08_01:40:53-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **67,041 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **67,044 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **30** measurements in the last **1 hour**.*
+*There were **31** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-08 01:40:53 | Nawalapitiya (Mahaweli Ganga) | 0.66 | 🟢 Normal | 0.000 |  |
+| 2026-02-08 01:37:01 | Thawalama (Gin Ganga) | 1.12 | 🟢 Normal | 0.000 |  |
+| 2026-02-08 01:34:54 | Katharagama (Menik Ganga) | -0.07 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 01:27:38 | Nagalagam Street (Kelani Ganga) | 0.43 | 🟢 Normal | 0.088 | 🔺 Rising |
 | 2026-02-08 01:15:46 | Thaldena (Mahaweli Ganga) | 0.79 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 01:15:40 | Magura (Kalu Ganga) | 1.15 | 🟢 Normal | 0.013 | 🔺 Rising |
@@ -47,8 +50,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-08 01:01:00 | Nakkala (Kumbukkan Oya) | 1.06 | 🟢 Normal | -0.010 |  |
 | 2026-02-08 01:00:59 | Wellawaya (Kirindi Oya) | 0.95 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 01:00:15 | Kithulgala (Kelani Ganga) | 1.70 | 🟢 Normal | -0.060 |  |
-| 2026-02-08 00:50:39 | Panadugama (Nilwala Ganga) | 2.12 | 🟢 Normal | 0.000 |  |
-| 2026-02-08 00:41:52 | Thalgahagoda (Nilwala Ganga) | 0.34 | 🟢 Normal | -0.166 |  |
 
 ## Latest by Station
 
@@ -64,7 +65,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-08 01:15:40 | Magura (Kalu Ganga) | 1.15 | 🟢 Normal | 0.013 | 🔺 Rising |
 | 2026-02-08 01:00:59 | Wellawaya (Kirindi Oya) | 0.95 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 01:01:07 | Moragaswewa (Deduru Oya) | 0.23 | 🟢 Normal | 0.000 |  |
-| 2026-02-08 00:00:30 | Nawalapitiya (Mahaweli Ganga) | 0.66 | 🟢 Normal | 0.000 |  |
+| 2026-02-08 01:40:53 | Nawalapitiya (Mahaweli Ganga) | 0.66 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 00:01:38 | Yaka Wewa (Ma Oya) | 0.83 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 01:02:54 | Giriulla (Maha Oya) | 0.73 | 🟢 Normal | 0.000 |  |
 | 2026-02-07 18:05:20 | Galgamuwa (Mee Oya) | 0.20 | 🟢 Normal | 0.000 |  |
@@ -73,10 +74,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-08 01:03:17 | Moraketiya (Walawe Ganga) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 01:06:37 | Siyambalanduwa (Heda Oya) | 0.63 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 01:15:46 | Thaldena (Mahaweli Ganga) | 0.79 | 🟢 Normal | 0.000 |  |
-| 2026-02-08 00:02:39 | Katharagama (Menik Ganga) | -0.07 | 🟢 Normal | 0.000 |  |
+| 2026-02-08 01:34:54 | Katharagama (Menik Ganga) | -0.07 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 01:02:30 | Badalgama (Maha Oya) | 1.80 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 00:08:54 | Holombuwa (Kelani Ganga) | 0.33 | 🟢 Normal | 0.000 |  |
-| 2026-02-08 00:03:30 | Thawalama (Gin Ganga) | 1.12 | 🟢 Normal | 0.000 |  |
+| 2026-02-08 01:37:01 | Thawalama (Gin Ganga) | 1.12 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 01:03:50 | Urawa (Nilwala Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 00:07:15 | Kuda Oya (Kirindi Oya) | 1.22 | 🟢 Normal | 0.000 |  |
 | 2026-02-08 01:03:34 | Thanamalwila (Kirindi Oya) | 0.63 | 🟢 Normal | 0.000 |  |
