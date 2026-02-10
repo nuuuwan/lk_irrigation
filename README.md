@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **18** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -37,22 +37,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-11 02:05:07 | Norwood (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2026-02-11 02:04:50 | Manampitiya (Mahaweli Ganga) | 0.49 | 🟢 Normal | -0.101 |  |
 | 2026-02-11 02:04:46 | Badalgama (Maha Oya) | 1.80 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 02:04:17 | Horowpothana (Yan Oya) | 1.39 | 🟢 Normal | -0.019 |  |
-| 2026-02-11 02:04:14 | Peradeniya (Mahaweli Ganga) | 2.16 | 🟢 Normal | -0.103 |  |
-| 2026-02-11 02:04:09 | Kithulgala (Kelani Ganga) | 1.53 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 02:02:51 | Moraketiya (Walawe Ganga) | 0.82 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 02:02:28 | Giriulla (Maha Oya) | 0.71 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 02:02:22 | Moragaswewa (Deduru Oya) | 0.18 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 02:01:52 | Urawa (Nilwala Ganga) | 0.04 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 02:01:50 | Kuda Oya (Kirindi Oya) | 1.17 | 🟢 Normal | 0.014 | 🔺 Rising |
-| 2026-02-11 02:01:49 | Siyambalanduwa (Heda Oya) | 0.52 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 02:01:42 | Thawalama (Gin Ganga) | 1.12 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 02:01:36 | Pitabeddara (Nilwala Ganga) | 0.26 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 02:01:33 | Urawa (Nilwala Ganga) | 0.04 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 02:01:32 | Nakkala (Kumbukkan Oya) | 0.85 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 02:01:24 | Wellawaya (Kirindi Oya) | 0.88 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 02:00:59 | Ellagawa (Kalu Ganga) | 3.84 | 🟢 Normal | 0.000 |  |
-| 2026-02-11 01:59:55 | Moraketiya (Walawe Ganga) | 0.82 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
