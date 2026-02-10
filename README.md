@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--10_15:11:01-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--10_15:25:54-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **69,351 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **69,353 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-10 15:25:54 | Yaka Wewa (Ma Oya) | 0.68 | 🟢 Normal | 0.000 |  |
+| 2026-02-10 15:17:10 | Horowpothana (Yan Oya) | 1.53 | 🟢 Normal | -0.009 |  |
 | 2026-02-10 15:11:01 | Nagalagam Street (Kelani Ganga) | 0.52 | 🟢 Normal | 0.081 | 🔺 Rising |
 | 2026-02-10 15:10:55 | Moraketiya (Walawe Ganga) | 0.86 | 🟢 Normal | 0.000 |  |
 | 2026-02-10 15:10:54 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.46 | 🟢 Normal | 0.000 |  |
@@ -73,7 +75,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-10 15:02:15 | Nakkala (Kumbukkan Oya) | 0.86 | 🟢 Normal | 0.000 |  |
 | 2026-02-10 15:05:56 | Moragaswewa (Deduru Oya) | 0.18 | 🟢 Normal | 0.000 |  |
 | 2026-02-10 15:00:49 | Nawalapitiya (Mahaweli Ganga) | 0.61 | 🟢 Normal | 0.000 |  |
-| 2026-02-10 14:03:54 | Yaka Wewa (Ma Oya) | 0.68 | 🟢 Normal | 0.000 |  |
+| 2026-02-10 15:25:54 | Yaka Wewa (Ma Oya) | 0.68 | 🟢 Normal | 0.000 |  |
 | 2026-02-10 15:02:16 | Giriulla (Maha Oya) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2026-02-10 15:05:33 | Galgamuwa (Mee Oya) | 0.23 | 🟢 Normal | 0.000 |  |
 | 2026-02-10 15:03:08 | Magura (Kalu Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
@@ -95,10 +97,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-10 15:05:08 | Thawalama (Gin Ganga) | 0.98 | 🟢 Normal | 0.000 |  |
 | 2026-02-10 15:03:17 | Urawa (Nilwala Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
 | 2026-02-10 15:10:54 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.46 | 🟢 Normal | 0.000 |  |
+| 2026-02-10 15:17:10 | Horowpothana (Yan Oya) | 1.53 | 🟢 Normal | -0.009 |  |
 | 2026-02-10 15:03:33 | Thanamalwila (Kirindi Oya) | 0.53 | 🟢 Normal | -0.010 |  |
 | 2026-02-10 15:00:39 | Thanthirimale (Malwathu Oya) | 1.29 | 🟢 Normal | -0.010 |  |
 | 2026-02-10 15:02:14 | Kuda Oya (Kirindi Oya) | 1.16 | 🟢 Normal | -0.010 |  |
-| 2026-02-10 14:07:46 | Horowpothana (Yan Oya) | 1.54 | 🟢 Normal | -0.019 |  |
 | 2026-02-10 15:07:00 | Thalgahagoda (Nilwala Ganga) | 0.25 | 🟢 Normal | -0.021 |  |
 | 2026-02-10 15:00:48 | Weraganthota (Mahaweli Ganga) | -2.74 | 🟢 Normal | -0.040 |  |
 | 2026-02-10 15:08:48 | Kithulgala (Kelani Ganga) | 1.30 | 🟢 Normal | -0.063 |  |
@@ -227,6 +229,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
 
+### Horowpothana (Yan Oya)
+
+![Horowpothana](images/stations/horowpothana.png)
+
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
@@ -238,10 +244,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kuda Oya (Kirindi Oya)
 
 ![Kuda Oya](images/stations/kuda-oya.png)
-
-### Horowpothana (Yan Oya)
-
-![Horowpothana](images/stations/horowpothana.png)
 
 ### Thalgahagoda (Nilwala Ganga)
 
