@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **42** measurements in the last **1 hour**.*
+*There were **26** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -45,22 +45,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-12 15:03:22 | Thawalama (Gin Ganga) | 0.94 | 🟢 Normal | 0.000 |  |
 | 2026-02-12 15:02:49 | Norwood (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2026-02-12 15:02:43 | Deraniyagala (Kelani Ganga) | 0.08 | 🟢 Normal | -0.020 |  |
-| 2026-02-12 15:02:29 | Kuda Oya (Kirindi Oya) | 1.19 | 🟢 Normal | 0.000 |  |
-| 2026-02-12 15:02:14 | Katharagama (Menik Ganga) | -0.10 | 🟢 Normal | 0.000 |  |
-| 2026-02-12 15:02:10 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.38 | 🟢 Normal | 0.024 | 🔺 Rising |
-| 2026-02-12 15:02:04 | Weraganthota (Mahaweli Ganga) | -2.84 | 🟢 Normal | -0.040 |  |
-| 2026-02-12 15:02:01 | Wellawaya (Kirindi Oya) | 0.88 | 🟢 Normal | 0.000 |  |
-| 2026-02-12 15:01:52 | Nawalapitiya (Mahaweli Ganga) | 0.59 | 🟢 Normal | 0.000 |  |
-| 2026-02-12 15:01:40 | Yaka Wewa (Ma Oya) | 0.65 | 🟢 Normal | 0.000 |  |
-| 2026-02-12 15:01:34 | Kithulgala (Kelani Ganga) | 1.45 | 🟢 Normal | -0.126 |  |
-| 2026-02-12 15:01:33 | Thaldena (Mahaweli Ganga) | 0.48 | 🟢 Normal | 0.000 |  |
-| 2026-02-12 15:01:31 | Manampitiya (Mahaweli Ganga) | 0.52 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-02-12 15:01:09 | Nagalagam Street (Kelani Ganga) | 0.37 | 🟢 Normal | 0.000 |  |
-| 2026-02-12 15:00:55 | Moraketiya (Walawe Ganga) | 0.76 | 🟢 Normal | 0.030 | 🔺 Rising |
-| 2026-02-12 15:00:45 | Siyambalanduwa (Heda Oya) | 0.48 | 🟢 Normal | -0.023 |  |
-| 2026-02-12 15:00:32 | Thanthirimale (Malwathu Oya) | 1.18 | 🟢 Normal | 0.000 |  |
-| 2026-02-12 15:00:06 | Nakkala (Kumbukkan Oya) | 0.83 | 🟢 Normal | 0.000 |  |
-| 2026-02-12 14:54:01 | Padiyathalawa (Maduru Oya) | 0.60 | 🟢 Normal | 0.208 | 🔺 Rising |
 
 ## Latest by Station
 
