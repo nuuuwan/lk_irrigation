@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **29** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -48,16 +48,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-18 18:01:49 | Nagalagam Street (Kelani Ganga) | 0.46 | 🟢 Normal | -0.135 |  |
 | 2026-02-18 18:01:48 | Kuda Oya (Kirindi Oya) | 1.18 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-02-18 18:01:45 | Glencourse (Kelani Ganga) | 8.25 | 🟢 Normal | 0.000 |  |
-| 2026-02-18 18:01:38 | Nawalapitiya (Mahaweli Ganga) | 0.61 | 🟢 Normal | 0.000 |  |
-| 2026-02-18 18:01:34 | Yaka Wewa (Ma Oya) | 0.64 | 🟢 Normal | 0.000 |  |
-| 2026-02-18 18:01:30 | Magura (Kalu Ganga) | 0.74 | 🟢 Normal | 0.000 |  |
-| 2026-02-18 18:01:26 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.52 | 🟢 Normal | -0.010 |  |
-| 2026-02-18 18:01:21 | Moraketiya (Walawe Ganga) | 0.86 | 🟢 Normal | 0.000 |  |
-| 2026-02-18 18:01:21 | Thanthirimale (Malwathu Oya) | 1.25 | 🟢 Normal | 0.000 |  |
-| 2026-02-18 18:01:00 | Thalgahagoda (Nilwala Ganga) | 0.54 | 🟢 Normal | 0.040 | 🔺 Rising |
-| 2026-02-18 18:00:42 | Norwood (Kelani Ganga) | 0.40 | 🟢 Normal | -0.011 |  |
-| 2026-02-18 18:00:36 | Wellawaya (Kirindi Oya) | 0.94 | 🟢 Normal | 0.000 |  |
-| 2026-02-18 18:00:08 | Nakkala (Kumbukkan Oya) | 1.00 | 🟢 Normal | 0.020 | 🔺 Rising |
 
 ## Latest by Station
 
