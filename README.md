@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **41** measurements in the last **1 hour**.*
+*There were **20** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -39,27 +39,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-19 14:03:59 | Badalgama (Maha Oya) | 1.78 | 🟢 Normal | 0.000 |  |
 | 2026-02-19 14:03:55 | Hanwella (Kelani Ganga) | 0.34 | 🟢 Normal | -0.010 |  |
 | 2026-02-19 14:03:53 | Dunamale (Aththanagalu Oya) | 0.14 | 🟢 Normal | 0.000 |  |
-| 2026-02-19 14:03:27 | Glencourse (Kelani Ganga) | 8.35 | 🟢 Normal | 0.000 |  |
-| 2026-02-19 14:03:25 | Siyambalanduwa (Heda Oya) | 0.59 | 🟢 Normal | 0.000 |  |
-| 2026-02-19 14:03:17 | Urawa (Nilwala Ganga) | 0.00 | 🟢 Normal | 0.000 |  |
-| 2026-02-19 14:02:49 | Moragaswewa (Deduru Oya) | 0.10 | 🟢 Normal | 0.000 |  |
-| 2026-02-19 14:02:47 | Giriulla (Maha Oya) | 0.73 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-02-19 14:02:32 | Ellagawa (Kalu Ganga) | 3.84 | 🟢 Normal | 0.000 |  |
-| 2026-02-19 14:02:31 | Norwood (Kelani Ganga) | 0.39 | 🟢 Normal | 0.000 |  |
-| 2026-02-19 14:02:18 | Galgamuwa (Mee Oya) | 0.05 | 🟢 Normal | 0.000 |  |
-| 2026-02-19 14:02:13 | Moraketiya (Walawe Ganga) | 0.82 | 🟢 Normal | 0.000 |  |
-| 2026-02-19 14:02:12 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.41 | 🟢 Normal | -0.010 |  |
-| 2026-02-19 14:02:11 | Putupaula (Kalu Ganga) | 0.68 | 🟢 Normal | 0.183 | 🔺 Rising |
-| 2026-02-19 14:02:03 | Thanamalwila (Kirindi Oya) | 0.72 | 🟢 Normal | 0.030 | 🔺 Rising |
-| 2026-02-19 14:01:48 | Weraganthota (Mahaweli Ganga) | -2.05 | 🟢 Normal | -0.010 |  |
-| 2026-02-19 14:01:47 | Kithulgala (Kelani Ganga) | 1.70 | 🟢 Normal | 0.251 | 🔺 Rising |
-| 2026-02-19 14:01:36 | Nagalagam Street (Kelani Ganga) | 0.67 | 🟢 Normal | 0.219 | 🔺 Rising |
-| 2026-02-19 14:01:29 | Wellawaya (Kirindi Oya) | 0.94 | 🟢 Normal | -0.011 |  |
-| 2026-02-19 14:01:22 | Kuda Oya (Kirindi Oya) | 1.17 | 🟢 Normal | 0.000 |  |
-| 2026-02-19 14:00:45 | Horowpothana (Yan Oya) | 1.43 | 🟢 Normal | 0.000 |  |
-| 2026-02-19 14:00:43 | Nawalapitiya (Mahaweli Ganga) | 0.61 | 🟢 Normal | -0.010 |  |
-| 2026-02-19 14:00:14 | Nakkala (Kumbukkan Oya) | 0.88 | 🟢 Normal | -0.010 |  |
-| 2026-02-19 14:00:09 | Padiyathalawa (Maduru Oya) | 1.00 | 🟢 Normal | -0.046 |  |
 
 ## Latest by Station
 
