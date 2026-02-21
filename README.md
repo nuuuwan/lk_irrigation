@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--21_13:08:58-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--21_13:17:46-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **79,091 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **79,092 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-21 13:17:46 | Putupaula (Kalu Ganga) | 0.53 | 🟢 Normal | 0.185 | 🔺 Rising |
 | 2026-02-21 13:08:58 | Thawalama (Gin Ganga) | 1.13 | 🟢 Normal | 0.000 |  |
 | 2026-02-21 13:08:29 | Dunamale (Aththanagalu Oya) | 0.33 | 🟢 Normal | 0.000 |  |
 | 2026-02-21 13:08:18 | Pitabeddara (Nilwala Ganga) | 0.43 | 🟢 Normal | -0.018 |  |
@@ -66,7 +67,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-02-21 13:02:53 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | 0.190 | 🔺 Rising |
-| 2026-02-21 12:06:24 | Putupaula (Kalu Ganga) | 0.31 | 🟢 Normal | 0.101 | 🔺 Rising |
+| 2026-02-21 13:17:46 | Putupaula (Kalu Ganga) | 0.53 | 🟢 Normal | 0.185 | 🔺 Rising |
 | 2026-02-21 13:02:10 | Deraniyagala (Kelani Ganga) | 0.17 | 🟢 Normal | 0.053 | 🔺 Rising |
 | 2026-02-21 13:01:10 | Glencourse (Kelani Ganga) | 8.42 | 🟢 Normal | 0.023 | 🔺 Rising |
 | 2026-02-21 13:02:58 | Galgamuwa (Mee Oya) | 0.04 | 🟢 Normal | 0.010 | 🔺 Rising |
