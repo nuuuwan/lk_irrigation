@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--22_22:11:58-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--22_22:25:11-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **80,340 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **80,342 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-22 22:25:11 | Thalgahagoda (Nilwala Ganga) | 0.95 | 🟢 Normal | -0.023 |  |
+| 2026-02-22 22:16:25 | Wellawaya (Kirindi Oya) | 1.20 | 🟢 Normal | -0.032 |  |
 | 2026-02-22 22:11:58 | Urawa (Nilwala Ganga) | 0.32 | 🟢 Normal | -0.010 |  |
 | 2026-02-22 22:11:57 | Kalawellawa (Millakanda) (Kalu Ganga) | 4.98 | 🟢 Normal | 0.000 |  |
 | 2026-02-22 22:09:24 | Glencourse (Kelani Ganga) | 9.04 | 🟢 Normal | 0.000 |  |
@@ -51,7 +53,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-22 22:00:49 | Horowpothana (Yan Oya) | 2.19 | 🟢 Normal | 0.000 |  |
 | 2026-02-22 22:00:27 | Padiyathalawa (Maduru Oya) | 1.23 | 🟢 Normal | 0.000 |  |
 | 2026-02-22 22:00:23 | Thanamalwila (Kirindi Oya) | 1.37 | 🟢 Normal | 0.000 |  |
-| 2026-02-22 21:17:40 | Thawalama (Gin Ganga) | 1.80 | 🟢 Normal | -0.025 |  |
 
 ## Latest by Station
 
@@ -82,12 +83,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-22 22:01:50 | Nakkala (Kumbukkan Oya) | 1.22 | 🟢 Normal | -0.010 |  |
 | 2026-02-22 22:00:54 | Siyambalanduwa (Heda Oya) | 0.73 | 🟢 Normal | -0.010 |  |
 | 2026-02-22 22:07:59 | Holombuwa (Kelani Ganga) | 0.53 | 🟢 Normal | -0.019 |  |
-| 2026-02-22 21:02:32 | Wellawaya (Kirindi Oya) | 1.24 | 🟢 Normal | -0.020 |  |
+| 2026-02-22 22:25:11 | Thalgahagoda (Nilwala Ganga) | 0.95 | 🟢 Normal | -0.023 |  |
 | 2026-02-22 22:05:31 | Thawalama (Gin Ganga) | 1.78 | 🟢 Normal | -0.025 |  |
-| 2026-02-22 21:05:19 | Thalgahagoda (Nilwala Ganga) | 0.98 | 🟢 Normal | -0.025 |  |
 | 2026-02-22 22:06:15 | Pitabeddara (Nilwala Ganga) | 0.81 | 🟢 Normal | -0.028 |  |
 | 2026-02-22 22:05:17 | Giriulla (Maha Oya) | 1.24 | 🟢 Normal | -0.029 |  |
 | 2026-02-22 22:04:43 | Badalgama (Maha Oya) | 2.57 | 🟢 Normal | -0.031 |  |
+| 2026-02-22 22:16:25 | Wellawaya (Kirindi Oya) | 1.20 | 🟢 Normal | -0.032 |  |
 | 2026-02-22 22:07:15 | Deraniyagala (Kelani Ganga) | 0.49 | 🟢 Normal | -0.039 |  |
 | 2026-02-22 21:04:27 | Dunamale (Aththanagalu Oya) | 0.96 | 🟢 Normal | -0.040 |  |
 | 2026-02-22 22:08:51 | Baddegama (Gin Ganga) | 2.41 | 🟢 Normal | -0.061 |  |
@@ -193,17 +194,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Holombuwa](images/stations/holombuwa.png)
 
-### Wellawaya (Kirindi Oya)
+### Thalgahagoda (Nilwala Ganga)
 
-![Wellawaya](images/stations/wellawaya.png)
+![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Thawalama (Gin Ganga)
 
 ![Thawalama](images/stations/thawalama.png)
-
-### Thalgahagoda (Nilwala Ganga)
-
-![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Pitabeddara (Nilwala Ganga)
 
@@ -216,6 +213,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Badalgama (Maha Oya)
 
 ![Badalgama](images/stations/badalgama.png)
+
+### Wellawaya (Kirindi Oya)
+
+![Wellawaya](images/stations/wellawaya.png)
 
 ### Deraniyagala (Kelani Ganga)
 
