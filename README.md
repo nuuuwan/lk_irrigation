@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **45** measurements in the last **1 hour**.*
+*There were **27** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -46,24 +46,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-23 18:01:53 | Galgamuwa (Mee Oya) | 0.12 | 🟢 Normal | 0.000 |  |
 | 2026-02-23 18:01:48 | Giriulla (Maha Oya) | 0.98 | 🟢 Normal | -0.010 |  |
 | 2026-02-23 18:01:46 | Pitabeddara (Nilwala Ganga) | 0.45 | 🟢 Normal | -0.010 |  |
-| 2026-02-23 18:01:43 | Badalgama (Maha Oya) | 2.10 | 🟢 Normal | -0.010 |  |
-| 2026-02-23 18:01:41 | Padiyathalawa (Maduru Oya) | 1.13 | 🟢 Normal | -0.030 |  |
-| 2026-02-23 18:01:36 | Dunamale (Aththanagalu Oya) | 0.44 | 🟢 Normal | -0.011 |  |
-| 2026-02-23 18:01:35 | Putupaula (Kalu Ganga) | 0.97 | 🟢 Normal | 0.120 | 🔺 Rising |
-| 2026-02-23 18:01:32 | Peradeniya (Mahaweli Ganga) | 1.42 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-02-23 18:01:20 | Norwood (Kelani Ganga) | 0.53 | 🟢 Normal | -0.010 |  |
-| 2026-02-23 18:01:13 | Yaka Wewa (Ma Oya) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-02-23 18:01:05 | Thaldena (Mahaweli Ganga) | 0.61 | 🟢 Normal | -0.010 |  |
-| 2026-02-23 18:00:44 | Kuda Oya (Kirindi Oya) | 1.49 | 🟢 Normal | -0.327 |  |
-| 2026-02-23 17:57:04 | Kuda Oya (Kirindi Oya) | 1.51 | 🟢 Normal | -0.327 |  |
-| 2026-02-23 17:57:02 | Kuda Oya (Kirindi Oya) | 1.51 | 🟢 Normal | -0.327 |  |
-| 2026-02-23 17:57:00 | Kuda Oya (Kirindi Oya) | 1.51 | 🟢 Normal | -0.327 |  |
-| 2026-02-23 17:56:58 | Kuda Oya (Kirindi Oya) | 1.51 | 🟢 Normal | -0.327 |  |
-| 2026-02-23 17:56:56 | Kuda Oya (Kirindi Oya) | 1.51 | 🟢 Normal | -0.327 |  |
-| 2026-02-23 17:56:53 | Kuda Oya (Kirindi Oya) | 1.51 | 🟢 Normal | -0.327 |  |
-| 2026-02-23 17:56:51 | Kuda Oya (Kirindi Oya) | 1.51 | 🟢 Normal | -0.327 |  |
-| 2026-02-23 17:56:49 | Kuda Oya (Kirindi Oya) | 1.51 | 🟢 Normal | -0.327 |  |
-| 2026-02-23 17:56:47 | Kuda Oya (Kirindi Oya) | 1.51 | 🟢 Normal | -0.327 |  |
 
 ## Latest by Station
 
