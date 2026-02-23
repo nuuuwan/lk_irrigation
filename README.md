@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **41** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -52,14 +52,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-24 03:02:15 | Nakkala (Kumbukkan Oya) | 1.02 | 🟢 Normal | -0.011 |  |
 | 2026-02-24 03:02:15 | Siyambalanduwa (Heda Oya) | 0.65 | 🟢 Normal | -0.010 |  |
 | 2026-02-24 03:02:05 | Thanamalwila (Kirindi Oya) | 1.36 | 🟢 Normal | 0.000 |  |
-| 2026-02-24 03:01:36 | Horowpothana (Yan Oya) | 2.14 | 🟢 Normal | -0.040 |  |
-| 2026-02-24 03:01:35 | Yaka Wewa (Ma Oya) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-02-24 03:01:20 | Nawalapitiya (Mahaweli Ganga) | 0.73 | 🟢 Normal | 0.000 |  |
-| 2026-02-24 03:01:20 | Padiyathalawa (Maduru Oya) | 1.06 | 🟢 Normal | 0.000 |  |
-| 2026-02-24 03:01:20 | Deraniyagala (Kelani Ganga) | 0.23 | 🟢 Normal | -72.000 |  |
-| 2026-02-24 03:01:19 | Deraniyagala (Kelani Ganga) | 0.25 | 🟢 Normal | -72.000 |  |
-| 2026-02-24 03:00:57 | Nawalapitiya (Mahaweli Ganga) | 0.73 | 🟢 Normal | 0.000 |  |
-| 2026-02-24 03:00:56 | Moragaswewa (Deduru Oya) | 0.02 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
