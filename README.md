@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--25_03:19:42-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--25_03:28:27-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **82,297 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **82,300 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **35** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-25 03:28:27 | Nagalagam Street (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
+| 2026-02-25 03:28:24 | Nagalagam Street (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
+| 2026-02-25 03:28:22 | Nagalagam Street (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 03:19:42 | Hanwella (Kelani Ganga) | 0.35 | 🟢 Normal | -0.004 |  |
 | 2026-02-25 03:19:28 | Deraniyagala (Kelani Ganga) | 0.17 | 🟢 Normal | -4.500 |  |
 | 2026-02-25 03:18:56 | Deraniyagala (Kelani Ganga) | 0.21 | 🟢 Normal | -4.500 |  |
@@ -51,8 +54,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-25 03:01:21 | Urawa (Nilwala Ganga) | 0.07 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 02:58:24 | Urawa (Nilwala Ganga) | 0.07 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 02:44:17 | Moragaswewa (Deduru Oya) | 0.01 | 🟢 Normal | 0.000 |  |
-| 2026-02-25 02:34:35 | Thawalama (Gin Ganga) | 1.17 | 🟢 Normal | 0.000 |  |
-| 2026-02-25 02:34:13 | Thawalama (Gin Ganga) | 1.18 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -75,6 +76,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-25 02:00:30 | Magura (Kalu Ganga) | 1.11 | 🟢 Normal | 0.000 |  |
 | 2026-02-24 23:06:20 | Pitabeddara (Nilwala Ganga) | 0.47 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 03:03:45 | Ellagawa (Kalu Ganga) | 4.29 | 🟢 Normal | 0.000 |  |
+| 2026-02-25 03:28:27 | Nagalagam Street (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 03:03:19 | Moraketiya (Walawe Ganga) | 0.77 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 03:09:09 | Siyambalanduwa (Heda Oya) | 0.59 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 03:05:36 | Thaldena (Mahaweli Ganga) | 0.51 | 🟢 Normal | 0.000 |  |
@@ -94,7 +96,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-25 01:05:46 | Panadugama (Nilwala Ganga) | 2.21 | 🟢 Normal | -0.011 |  |
 | 2026-02-25 01:02:26 | Dunamale (Aththanagalu Oya) | 0.32 | 🟢 Normal | -0.015 |  |
 | 2026-02-24 18:01:47 | Thanthirimale (Malwathu Oya) | 1.52 | 🟢 Normal | -0.030 |  |
-| 2026-02-25 01:01:39 | Nagalagam Street (Kelani Ganga) | 0.37 | 🟢 Normal | -0.031 |  |
 | 2026-02-24 18:06:10 | Weraganthota (Mahaweli Ganga) | -2.27 | 🟢 Normal | -0.045 |  |
 | 2026-02-25 01:11:49 | Peradeniya (Mahaweli Ganga) | 2.00 | 🟢 Normal | -0.138 |  |
 | 2026-02-25 02:06:09 | Horowpothana (Yan Oya) | 1.61 | 🟢 Normal | -1.895 |  |
@@ -161,6 +162,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Ellagawa (Kalu Ganga)
 
 ![Ellagawa](images/stations/ellagawa.png)
+
+### Nagalagam Street (Kelani Ganga)
+
+![Nagalagam Street](images/stations/nagalagam-street.png)
 
 ### Moraketiya (Walawe Ganga)
 
@@ -237,10 +242,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanthirimale (Malwathu Oya)
 
 ![Thanthirimale](images/stations/thanthirimale.png)
-
-### Nagalagam Street (Kelani Ganga)
-
-![Nagalagam Street](images/stations/nagalagam-street.png)
 
 ### Weraganthota (Mahaweli Ganga)
 
