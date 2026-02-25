@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--25_05:24:25-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--25_05:26:48-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **82,384 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **82,387 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,9 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-25 05:26:48 | Panadugama (Nilwala Ganga) | 2.21 | 🟢 Normal | 0.000 |  |
+| 2026-02-25 05:26:46 | Panadugama (Nilwala Ganga) | 2.21 | 🟢 Normal | 0.000 |  |
+| 2026-02-25 05:26:43 | Panadugama (Nilwala Ganga) | 2.21 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 05:24:25 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.22 | 🟢 Normal | 0.038 | 🔺 Rising |
 | 2026-02-25 05:13:55 | Thawalama (Gin Ganga) | 1.16 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 05:10:54 | Baddegama (Gin Ganga) | 1.20 | 🟢 Normal | 0.053 | 🔺 Rising |
@@ -54,9 +57,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-25 05:00:59 | Manampitiya (Mahaweli Ganga) | 1.48 | 🟢 Normal | -0.040 |  |
 | 2026-02-25 05:00:46 | Thaldena (Mahaweli Ganga) | 0.52 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 05:00:45 | Peradeniya (Mahaweli Ganga) | 1.28 | 🟢 Normal | -0.051 |  |
-| 2026-02-25 04:39:38 | Horowpothana (Yan Oya) | 1.59 | 🟢 Normal | -0.027 |  |
-| 2026-02-25 04:39:37 | Horowpothana (Yan Oya) | 1.60 | 🟢 Normal | -0.027 |  |
-| 2026-02-25 04:36:17 | Thaldena (Mahaweli Ganga) | 0.52 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -77,6 +77,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-24 23:06:20 | Pitabeddara (Nilwala Ganga) | 0.47 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 05:02:44 | Norwood (Kelani Ganga) | 0.46 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 05:07:36 | Hanwella (Kelani Ganga) | 0.34 | 🟢 Normal | 0.000 |  |
+| 2026-02-25 05:26:48 | Panadugama (Nilwala Ganga) | 2.21 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 05:01:32 | Padiyathalawa (Maduru Oya) | 0.96 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 05:06:37 | Moraketiya (Walawe Ganga) | 0.77 | 🟢 Normal | 0.000 |  |
 | 2026-02-25 05:00:46 | Thaldena (Mahaweli Ganga) | 0.52 | 🟢 Normal | 0.000 |  |
@@ -92,7 +93,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-25 05:01:36 | Nawalapitiya (Mahaweli Ganga) | 0.65 | 🟢 Normal | -0.010 |  |
 | 2026-02-25 04:01:44 | Ellagawa (Kalu Ganga) | 4.28 | 🟢 Normal | -0.010 |  |
 | 2026-02-25 05:01:09 | Siyambalanduwa (Heda Oya) | 0.57 | 🟢 Normal | -0.010 |  |
-| 2026-02-25 01:05:46 | Panadugama (Nilwala Ganga) | 2.21 | 🟢 Normal | -0.011 |  |
 | 2026-02-25 05:02:11 | Horowpothana (Yan Oya) | 1.58 | 🟢 Normal | -0.027 |  |
 | 2026-02-24 18:01:47 | Thanthirimale (Malwathu Oya) | 1.52 | 🟢 Normal | -0.030 |  |
 | 2026-02-25 05:02:20 | Dunamale (Aththanagalu Oya) | 0.29 | 🟢 Normal | -0.031 |  |
@@ -158,6 +158,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Hanwella](images/stations/hanwella.png)
 
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
+
 ### Padiyathalawa (Maduru Oya)
 
 ![Padiyathalawa](images/stations/padiyathalawa.png)
@@ -217,10 +221,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Siyambalanduwa (Heda Oya)
 
 ![Siyambalanduwa](images/stations/siyambalanduwa.png)
-
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
 
 ### Horowpothana (Yan Oya)
 
