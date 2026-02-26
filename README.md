@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **14** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -33,25 +33,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-26 23:06:01 | Siyambalanduwa (Heda Oya) | 0.54 | 🟢 Normal | -0.009 |  |
 | 2026-02-26 23:04:44 | Thawalama (Gin Ganga) | 1.09 | 🟢 Normal | 0.072 | 🔺 Rising |
 | 2026-02-26 23:04:37 | Hanwella (Kelani Ganga) | 0.30 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-02-26 23:04:07 | Norwood (Kelani Ganga) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:03:59 | Nawalapitiya (Mahaweli Ganga) | 0.61 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:03:55 | Padiyathalawa (Maduru Oya) | 0.80 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:03:09 | Deraniyagala (Kelani Ganga) | 0.13 | 🟢 Normal | -0.030 |  |
-| 2026-02-26 23:03:07 | Giriulla (Maha Oya) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:02:40 | Glencourse (Kelani Ganga) | 8.30 | 🟢 Normal | -0.043 |  |
-| 2026-02-26 23:02:24 | Badalgama (Maha Oya) | 1.84 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:02:10 | Katharagama (Menik Ganga) | -0.18 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:02:00 | Kithulgala (Kelani Ganga) | 1.66 | 🟢 Normal | -0.020 |  |
-| 2026-02-26 23:01:59 | Moragaswewa (Deduru Oya) | 0.02 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:01:56 | Thanamalwila (Kirindi Oya) | 0.98 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-02-26 23:01:44 | Pitabeddara (Nilwala Ganga) | 0.39 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:01:34 | Ellagawa (Kalu Ganga) | 4.04 | 🟢 Normal | -0.014 |  |
-| 2026-02-26 23:01:25 | Yaka Wewa (Ma Oya) | 0.67 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:01:12 | Kuda Oya (Kirindi Oya) | 1.26 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:00:33 | Nakkala (Kumbukkan Oya) | 0.89 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:00:28 | Thaldena (Mahaweli Ganga) | 0.46 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:00:25 | Horowpothana (Yan Oya) | 1.33 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 23:00:19 | Wellawaya (Kirindi Oya) | 1.18 | 🟢 Normal | 0.020 | 🔺 Rising |
 
 ## Latest by Station
 
