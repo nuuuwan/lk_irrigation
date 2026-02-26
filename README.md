@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **26** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -45,19 +45,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-26 18:02:42 | Deraniyagala (Kelani Ganga) | 0.16 | 🟢 Normal | -0.010 |  |
 | 2026-02-26 18:02:32 | Pitabeddara (Nilwala Ganga) | 0.32 | 🟢 Normal | 0.000 |  |
 | 2026-02-26 18:02:32 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.62 | 🟢 Normal | -0.010 |  |
-| 2026-02-26 18:02:25 | Thanthirimale (Malwathu Oya) | 1.20 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 18:02:19 | Thawalama (Gin Ganga) | 1.10 | 🟢 Normal | 0.011 | 🔺 Rising |
-| 2026-02-26 18:02:08 | Kithulgala (Kelani Ganga) | 1.69 | 🟢 Normal | 0.269 | 🔺 Rising |
-| 2026-02-26 18:02:05 | Badalgama (Maha Oya) | 1.84 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 18:02:02 | Baddegama (Gin Ganga) | 1.00 | 🟢 Normal | 0.040 | 🔺 Rising |
-| 2026-02-26 18:01:36 | Putupaula (Kalu Ganga) | 0.43 | 🟢 Normal | -0.031 |  |
-| 2026-02-26 18:01:35 | Peradeniya (Mahaweli Ganga) | 1.18 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-02-26 18:01:32 | Weraganthota (Mahaweli Ganga) | -1.95 | 🟢 Normal | 0.108 | 🔺 Rising |
-| 2026-02-26 18:00:29 | Nakkala (Kumbukkan Oya) | 0.90 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 18:00:26 | Thaldena (Mahaweli Ganga) | 0.47 | 🟢 Normal | 0.000 |  |
-| 2026-02-26 18:00:09 | Wellawaya (Kirindi Oya) | 0.96 | 🟢 Normal | 0.031 | 🔺 Rising |
-| 2026-02-26 18:00:07 | Horowpothana (Yan Oya) | 1.30 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-02-26 17:29:50 | Horowpothana (Yan Oya) | 1.29 | 🟢 Normal | 0.020 | 🔺 Rising |
 
 ## Latest by Station
 
