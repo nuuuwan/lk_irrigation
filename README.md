@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **23** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -42,22 +42,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-27 19:03:58 | Peradeniya (Mahaweli Ganga) | 1.18 | 🟢 Normal | -0.020 |  |
 | 2026-02-27 19:03:42 | Katharagama (Menik Ganga) | -0.20 | 🟢 Normal | -0.010 |  |
 | 2026-02-27 19:03:33 | Baddegama (Gin Ganga) | 1.24 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-02-27 19:03:25 | Deraniyagala (Kelani Ganga) | 0.12 | 🟢 Normal | -0.010 |  |
-| 2026-02-27 19:03:17 | Thaldena (Mahaweli Ganga) | 0.44 | 🟢 Normal | 0.000 |  |
-| 2026-02-27 19:03:11 | Glencourse (Kelani Ganga) | 8.45 | 🟢 Normal | 0.040 | 🔺 Rising |
-| 2026-02-27 19:03:01 | Horowpothana (Yan Oya) | 1.24 | 🟢 Normal | 0.000 |  |
-| 2026-02-27 19:03:00 | Padiyathalawa (Maduru Oya) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-02-27 19:02:44 | Thanamalwila (Kirindi Oya) | 0.95 | 🟢 Normal | 0.000 |  |
-| 2026-02-27 19:02:34 | Siyambalanduwa (Heda Oya) | 0.50 | 🟢 Normal | 0.000 |  |
-| 2026-02-27 19:02:18 | Hanwella (Kelani Ganga) | 0.28 | 🟢 Normal | -0.020 |  |
-| 2026-02-27 19:02:07 | Manampitiya (Mahaweli Ganga) | 1.49 | 🟢 Normal | -0.020 |  |
-| 2026-02-27 19:02:04 | Kuda Oya (Kirindi Oya) | 1.30 | 🟢 Normal | -0.010 |  |
-| 2026-02-27 19:02:03 | Kithulgala (Kelani Ganga) | 1.81 | 🟢 Normal | 0.453 | 🔺 Rising |
-| 2026-02-27 19:01:57 | Ellagawa (Kalu Ganga) | 4.00 | 🟢 Normal | 0.000 |  |
-| 2026-02-27 19:01:47 | Thalgahagoda (Nilwala Ganga) | 0.24 | 🟢 Normal | 0.000 |  |
-| 2026-02-27 19:01:14 | Moragaswewa (Deduru Oya) | 0.02 | 🟢 Normal | 0.000 |  |
-| 2026-02-27 19:01:10 | Nawalapitiya (Mahaweli Ganga) | 0.61 | 🟢 Normal | 0.000 |  |
-| 2026-02-27 19:01:08 | Nakkala (Kumbukkan Oya) | 0.87 | 🟢 Normal | -0.010 |  |
 
 ## Latest by Station
 
