@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--28_02:22:08-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--28_02:32:29-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **84,957 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **84,958 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **30** measurements in the last **1 hour**.*
+*There were **29** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-28 02:32:29 | Thawalama (Gin Ganga) | 1.07 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 02:22:08 | Deraniyagala (Kelani Ganga) | 0.17 | 🟢 Normal | 0.008 | 🔺 Rising |
 | 2026-02-28 02:12:19 | Urawa (Nilwala Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 02:12:00 | Urawa (Nilwala Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
@@ -47,8 +48,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-28 02:00:53 | Glencourse (Kelani Ganga) | 8.44 | 🟢 Normal | 0.040 | 🔺 Rising |
 | 2026-02-28 01:54:56 | Thalgahagoda (Nilwala Ganga) | 0.20 | 🟢 Normal | -0.011 |  |
 | 2026-02-28 01:48:00 | Nagalagam Street (Kelani Ganga) | 0.61 | 🟢 Normal | 0.096 | 🔺 Rising |
-| 2026-02-28 01:37:11 | Horowpothana (Yan Oya) | 1.23 | 🟢 Normal | 0.000 |  |
-| 2026-02-28 01:29:23 | Dunamale (Aththanagalu Oya) | 0.17 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -61,7 +60,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-28 02:04:25 | Hanwella (Kelani Ganga) | 0.32 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2026-02-28 02:07:29 | Kithulgala (Kelani Ganga) | 1.56 | 🟢 Normal | 0.019 | 🔺 Rising |
 | 2026-02-28 01:01:54 | Nawalapitiya (Mahaweli Ganga) | 0.62 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-02-28 01:03:54 | Thawalama (Gin Ganga) | 1.07 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-02-28 02:22:08 | Deraniyagala (Kelani Ganga) | 0.17 | 🟢 Normal | 0.008 | 🔺 Rising |
 | 2026-02-28 00:09:52 | Wellawaya (Kirindi Oya) | 0.90 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 02:01:10 | Nakkala (Kumbukkan Oya) | 0.86 | 🟢 Normal | 0.000 |  |
@@ -85,6 +83,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-28 02:07:38 | Holombuwa (Kelani Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 02:09:58 | Rathnapura (Kalu Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
 | 2026-02-27 18:03:42 | Thanthirimale (Malwathu Oya) | 1.10 | 🟢 Normal | 0.000 |  |
+| 2026-02-28 02:32:29 | Thawalama (Gin Ganga) | 1.07 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 02:12:19 | Urawa (Nilwala Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 02:02:13 | Thanamalwila (Kirindi Oya) | 0.94 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 02:08:08 | Kuda Oya (Kirindi Oya) | 1.28 | 🟢 Normal | -0.009 |  |
@@ -117,10 +116,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Nawalapitiya (Mahaweli Ganga)
 
 ![Nawalapitiya](images/stations/nawalapitiya.png)
-
-### Thawalama (Gin Ganga)
-
-![Thawalama](images/stations/thawalama.png)
 
 ### Deraniyagala (Kelani Ganga)
 
@@ -213,6 +208,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanthirimale (Malwathu Oya)
 
 ![Thanthirimale](images/stations/thanthirimale.png)
+
+### Thawalama (Gin Ganga)
+
+![Thawalama](images/stations/thawalama.png)
 
 ### Urawa (Nilwala Ganga)
 
