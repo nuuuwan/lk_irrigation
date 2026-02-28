@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--28_20:24:45-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--02--28_20:36:52-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **85,649 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **85,651 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **37** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-02-28 20:36:52 | Panadugama (Nilwala Ganga) | 2.03 | 🟢 Normal | 0.000 |  |
+| 2026-02-28 20:36:22 | Panadugama (Nilwala Ganga) | 2.03 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 20:24:45 | Thalgahagoda (Nilwala Ganga) | 0.20 | 🟢 Normal | -0.025 |  |
 | 2026-02-28 20:14:49 | Pitabeddara (Nilwala Ganga) | 0.32 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 20:14:00 | Magura (Kalu Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
@@ -54,7 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-28 20:01:16 | Siyambalanduwa (Heda Oya) | 0.50 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 20:00:50 | Glencourse (Kelani Ganga) | 8.33 | 🟢 Normal | -0.010 |  |
 | 2026-02-28 20:00:12 | Nakkala (Kumbukkan Oya) | 0.84 | 🟢 Normal | -0.010 |  |
-| 2026-02-28 19:36:56 | Thalgahagoda (Nilwala Ganga) | 0.22 | 🟢 Normal | -0.025 |  |
 
 ## Latest by Station
 
@@ -81,6 +82,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-28 20:03:42 | Hanwella (Kelani Ganga) | 0.25 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 20:02:38 | Ellagawa (Kalu Ganga) | 3.98 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 20:02:50 | Baddegama (Gin Ganga) | 1.23 | 🟢 Normal | 0.000 |  |
+| 2026-02-28 20:36:52 | Panadugama (Nilwala Ganga) | 2.03 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 20:03:18 | Padiyathalawa (Maduru Oya) | 0.75 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 20:05:01 | Nagalagam Street (Kelani Ganga) | 0.27 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 20:01:20 | Moraketiya (Walawe Ganga) | 0.83 | 🟢 Normal | 0.000 |  |
@@ -94,7 +96,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-02-28 20:05:05 | Thawalama (Gin Ganga) | 1.03 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 20:05:25 | Urawa (Nilwala Ganga) | 0.08 | 🟢 Normal | 0.000 |  |
 | 2026-02-28 20:06:05 | Thanamalwila (Kirindi Oya) | 0.79 | 🟢 Normal | 0.000 |  |
-| 2026-02-28 19:13:07 | Panadugama (Nilwala Ganga) | 2.03 | 🟢 Normal | -0.004 |  |
 | 2026-02-28 20:04:15 | Kuda Oya (Kirindi Oya) | 1.20 | 🟢 Normal | -0.010 |  |
 | 2026-02-28 20:00:12 | Nakkala (Kumbukkan Oya) | 0.84 | 🟢 Normal | -0.010 |  |
 | 2026-02-28 20:00:50 | Glencourse (Kelani Ganga) | 8.33 | 🟢 Normal | -0.010 |  |
@@ -180,6 +181,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Baddegama](images/stations/baddegama.png)
 
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
+
 ### Padiyathalawa (Maduru Oya)
 
 ![Padiyathalawa](images/stations/padiyathalawa.png)
@@ -231,10 +236,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
-
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
 
 ### Kuda Oya (Kirindi Oya)
 
