@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -55,10 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-01 04:45:24 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.70 | 🟢 Normal | 1.582 | 🔺 Rising |
 | 2026-03-01 04:44:42 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.64 | 🟢 Normal | 1.582 | 🔺 Rising |
 | 2026-03-01 04:43:53 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.60 | 🟢 Normal | 1.582 | 🔺 Rising |
-| 2026-03-01 04:34:59 | Magura (Kalu Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-03-01 04:34:57 | Magura (Kalu Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-03-01 04:34:56 | Magura (Kalu Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-03-01 04:34:55 | Magura (Kalu Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
