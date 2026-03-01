@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--02_02:20:50-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--02_02:27:22-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **86,753 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **86,754 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **31** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-02 02:27:22 | Rathnapura (Kalu Ganga) | 0.52 | 🟢 Normal | -0.004 |  |
 | 2026-03-02 02:20:50 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.58 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-03-02 02:12:04 | Nagalagam Street (Kelani Ganga) | 0.61 | 🟢 Normal | 0.000 |  |
 | 2026-03-02 02:11:32 | Thanamalwila (Kirindi Oya) | 0.56 | 🟢 Normal | 0.000 |  |
@@ -49,8 +50,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-02 02:00:40 | Nakkala (Kumbukkan Oya) | 0.81 | 🟢 Normal | 0.000 |  |
 | 2026-03-02 02:00:38 | Glencourse (Kelani Ganga) | 8.30 | 🟢 Normal | -0.020 |  |
 | 2026-03-02 02:00:17 | Peradeniya (Mahaweli Ganga) | 1.75 | 🟢 Normal | -0.050 |  |
-| 2026-03-02 01:33:20 | Norwood (Kelani Ganga) | 0.39 | 🟢 Normal | 0.000 |  |
-| 2026-03-02 01:28:50 | Thawalama (Gin Ganga) | 1.10 | 🟢 Normal | 0.767 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -63,7 +62,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-01 18:01:43 | Weraganthota (Mahaweli Ganga) | -2.45 | 🟢 Normal | 0.060 | 🔺 Rising |
 | 2026-03-02 02:09:31 | Putupaula (Kalu Ganga) | 0.70 | 🟢 Normal | 0.044 | 🔺 Rising |
 | 2026-03-02 02:20:50 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.58 | 🟢 Normal | 0.030 | 🔺 Rising |
-| 2026-03-02 00:13:25 | Rathnapura (Kalu Ganga) | 0.53 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-03-02 01:06:11 | Kithulgala (Kelani Ganga) | 1.55 | 🟢 Normal | 0.000 |  |
 | 2026-03-02 01:03:19 | Wellawaya (Kirindi Oya) | 0.75 | 🟢 Normal | 0.000 |  |
 | 2026-03-02 02:00:40 | Nakkala (Kumbukkan Oya) | 0.81 | 🟢 Normal | 0.000 |  |
@@ -87,6 +85,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-02 02:01:37 | Manampitiya (Mahaweli Ganga) | 1.41 | 🟢 Normal | 0.000 |  |
 | 2026-03-02 01:03:38 | Kuda Oya (Kirindi Oya) | 1.16 | 🟢 Normal | 0.000 |  |
 | 2026-03-02 02:11:32 | Thanamalwila (Kirindi Oya) | 0.56 | 🟢 Normal | 0.000 |  |
+| 2026-03-02 02:27:22 | Rathnapura (Kalu Ganga) | 0.52 | 🟢 Normal | -0.004 |  |
 | 2026-03-02 02:08:53 | Moraketiya (Walawe Ganga) | 0.69 | 🟢 Normal | -0.009 |  |
 | 2026-03-02 02:03:53 | Nawalapitiya (Mahaweli Ganga) | 0.61 | 🟢 Normal | -0.010 |  |
 | 2026-03-02 02:05:55 | Thaldena (Mahaweli Ganga) | 0.39 | 🟢 Normal | -0.010 |  |
@@ -119,10 +118,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kalawellawa (Millakanda) (Kalu Ganga)
 
 ![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
-
-### Rathnapura (Kalu Ganga)
-
-![Rathnapura](images/stations/rathnapura.png)
 
 ### Kithulgala (Kelani Ganga)
 
@@ -215,6 +210,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
+
+### Rathnapura (Kalu Ganga)
+
+![Rathnapura](images/stations/rathnapura.png)
 
 ### Moraketiya (Walawe Ganga)
 
