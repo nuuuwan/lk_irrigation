@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **22** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -41,22 +41,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-02 20:04:10 | Thawalama (Gin Ganga) | 1.12 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-03-02 20:04:01 | Glencourse (Kelani Ganga) | 8.26 | 🟢 Normal | 0.000 |  |
 | 2026-03-02 20:03:54 | Kuda Oya (Kirindi Oya) | 1.13 | 🟢 Normal | 0.000 |  |
-| 2026-03-02 20:03:43 | Pitabeddara (Nilwala Ganga) | 0.21 | 🟢 Normal | 0.000 |  |
-| 2026-03-02 20:03:37 | Hanwella (Kelani Ganga) | 0.23 | 🟢 Normal | -0.020 |  |
-| 2026-03-02 20:03:09 | Manampitiya (Mahaweli Ganga) | 1.36 | 🟢 Normal | 0.000 |  |
-| 2026-03-02 20:02:51 | Kithulgala (Kelani Ganga) | 1.78 | 🟢 Normal | 0.000 |  |
-| 2026-03-02 20:02:49 | Ellagawa (Kalu Ganga) | 3.89 | 🟢 Normal | -0.010 |  |
-| 2026-03-02 20:02:38 | Deraniyagala (Kelani Ganga) | 0.11 | 🟢 Normal | 0.000 |  |
-| 2026-03-02 20:02:33 | Padiyathalawa (Maduru Oya) | 0.67 | 🟢 Normal | 0.000 |  |
-| 2026-03-02 20:02:08 | Dunamale (Aththanagalu Oya) | 1.26 | 🟢 Normal | 0.091 | 🔺 Rising |
-| 2026-03-02 20:01:53 | Siyambalanduwa (Heda Oya) | 0.46 | 🟢 Normal | 0.000 |  |
-| 2026-03-02 20:01:40 | Nakkala (Kumbukkan Oya) | 0.82 | 🟢 Normal | 0.000 |  |
-| 2026-03-02 20:01:33 | Thaldena (Mahaweli Ganga) | 0.42 | 🟢 Normal | -0.020 |  |
-| 2026-03-02 20:01:19 | Thalgahagoda (Nilwala Ganga) | 0.29 | 🟢 Normal | -0.061 |  |
-| 2026-03-02 20:01:13 | Thanamalwila (Kirindi Oya) | 0.42 | 🟢 Normal | -0.011 |  |
-| 2026-03-02 20:01:02 | Nawalapitiya (Mahaweli Ganga) | 0.59 | 🟢 Normal | 0.000 |  |
-| 2026-03-02 20:00:57 | Moragaswewa (Deduru Oya) | 0.01 | 🟢 Normal | 0.000 |  |
-| 2026-03-02 19:49:25 | Panadugama (Nilwala Ganga) | 1.96 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
