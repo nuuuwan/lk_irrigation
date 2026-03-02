@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--03_04:21:10-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--03_04:27:35-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **87,734 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **87,735 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-03 04:27:35 | Putupaula (Kalu Ganga) | 0.56 | 🟢 Normal | -0.058 |  |
 | 2026-03-03 04:21:10 | Panadugama (Nilwala Ganga) | 1.95 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 04:13:00 | Holombuwa (Kelani Ganga) | 0.27 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 04:12:15 | Urawa (Nilwala Ganga) | 0.00 | 🟢 Normal | 0.000 |  |
@@ -50,8 +51,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-03 04:00:22 | Nakkala (Kumbukkan Oya) | 0.81 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 04:00:19 | Moraketiya (Walawe Ganga) | 0.69 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-03-03 04:00:11 | Glencourse (Kelani Ganga) | 8.20 | 🟢 Normal | -0.011 |  |
-| 2026-03-03 03:34:51 | Magura (Kalu Ganga) | 0.72 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 03:34:37 | Dunamale (Aththanagalu Oya) | 1.34 | 🟢 Normal | -0.127 |  |
 
 ## Latest by Station
 
@@ -68,7 +67,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-03 04:06:13 | Norwood (Kelani Ganga) | 0.39 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-03-03 04:00:19 | Moraketiya (Walawe Ganga) | 0.69 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-03-03 04:00:39 | Wellawaya (Kirindi Oya) | 0.75 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-03-03 03:04:26 | Putupaula (Kalu Ganga) | 0.64 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-03-03 03:05:20 | Pitabeddara (Nilwala Ganga) | 0.22 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-03-03 04:00:22 | Nakkala (Kumbukkan Oya) | 0.81 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 04:00:36 | Moragaswewa (Deduru Oya) | 0.00 | 🟢 Normal | 0.000 |  |
@@ -95,6 +93,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-03 04:00:11 | Glencourse (Kelani Ganga) | 8.20 | 🟢 Normal | -0.011 |  |
 | 2026-03-03 04:03:19 | Manampitiya (Mahaweli Ganga) | 1.18 | 🟢 Normal | -0.020 |  |
 | 2026-03-03 04:03:58 | Thawalama (Gin Ganga) | 1.08 | 🟢 Normal | -0.020 |  |
+| 2026-03-03 04:27:35 | Putupaula (Kalu Ganga) | 0.56 | 🟢 Normal | -0.058 |  |
 | 2026-03-03 04:00:33 | Peradeniya (Mahaweli Ganga) | 1.29 | 🟢 Normal | -0.113 |  |
 | 2026-03-03 04:07:32 | Nagalagam Street (Kelani Ganga) | 0.67 | 🟢 Normal | -0.120 |  |
 | 2026-03-03 04:03:04 | Dunamale (Aththanagalu Oya) | 1.28 | 🟢 Normal | -0.127 |  |
@@ -136,10 +135,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Wellawaya (Kirindi Oya)
 
 ![Wellawaya](images/stations/wellawaya.png)
-
-### Putupaula (Kalu Ganga)
-
-![Putupaula](images/stations/putupaula.png)
 
 ### Pitabeddara (Nilwala Ganga)
 
@@ -244,6 +239,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thawalama (Gin Ganga)
 
 ![Thawalama](images/stations/thawalama.png)
+
+### Putupaula (Kalu Ganga)
+
+![Putupaula](images/stations/putupaula.png)
 
 ### Peradeniya (Mahaweli Ganga)
 
