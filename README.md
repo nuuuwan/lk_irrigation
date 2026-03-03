@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **31** measurements in the last **1 hour**.*
+*There were **13** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -32,24 +32,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-03 23:04:31 | Kithulgala (Kelani Ganga) | 1.55 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 23:04:00 | Padiyathalawa (Maduru Oya) | 0.64 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 23:03:56 | Dunamale (Aththanagalu Oya) | 0.54 | 🟢 Normal | -0.010 |  |
-| 2026-03-03 23:03:46 | Deraniyagala (Kelani Ganga) | 0.22 | 🟢 Normal | 0.060 | 🔺 Rising |
-| 2026-03-03 23:03:41 | Moragaswewa (Deduru Oya) | 0.02 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:03:39 | Katharagama (Menik Ganga) | -0.22 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:03:34 | Badalgama (Maha Oya) | 1.75 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:03:30 | Magura (Kalu Ganga) | 0.69 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:03:18 | Manampitiya (Mahaweli Ganga) | 1.29 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:03:08 | Peradeniya (Mahaweli Ganga) | 1.72 | 🟢 Normal | 0.314 | 🔺 Rising |
-| 2026-03-03 23:02:43 | Siyambalanduwa (Heda Oya) | 0.44 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:02:22 | Norwood (Kelani Ganga) | 0.35 | 🟢 Normal | -0.010 |  |
-| 2026-03-03 23:02:21 | Kuda Oya (Kirindi Oya) | 1.10 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:02:20 | Pitabeddara (Nilwala Ganga) | 0.19 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:02:19 | Hanwella (Kelani Ganga) | 0.20 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:02:12 | Nagalagam Street (Kelani Ganga) | 0.40 | 🟢 Normal | 0.062 | 🔺 Rising |
-| 2026-03-03 23:01:41 | Nakkala (Kumbukkan Oya) | 0.81 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:01:14 | Ellagawa (Kalu Ganga) | 3.89 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:01:10 | Thanamalwila (Kirindi Oya) | 0.40 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:00:32 | Horowpothana (Yan Oya) | 1.10 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 23:00:15 | Glencourse (Kelani Ganga) | 8.50 | 🟢 Normal | 0.051 | 🔺 Rising |
 
 ## Latest by Station
 
