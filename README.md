@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **30** measurements in the last **1 hour**.*
+*There were **28** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -47,8 +47,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-04 02:00:29 | Glencourse (Kelani Ganga) | 8.51 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-03-04 02:00:28 | Peradeniya (Mahaweli Ganga) | 1.82 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-03-04 01:58:08 | Nakkala (Kumbukkan Oya) | 0.81 | 🟢 Normal | 0.000 |  |
-| 2026-03-04 01:38:02 | Kithulgala (Kelani Ganga) | 1.20 | 🟢 Normal | -0.157 |  |
-| 2026-03-04 01:38:00 | Kithulgala (Kelani Ganga) | 1.32 | 🟢 Normal | -0.157 |  |
 
 ## Latest by Station
 
