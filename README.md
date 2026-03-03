@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--03_14:12:31-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--03_14:16:42-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **88,122 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **88,123 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-03 14:16:42 | Panadugama (Nilwala Ganga) | 1.93 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 14:12:31 | Thawalama (Gin Ganga) | 0.91 | 🟢 Normal | 0.038 | 🔺 Rising |
 | 2026-03-03 14:10:46 | Baddegama (Gin Ganga) | 1.18 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-03-03 14:09:13 | Thalgahagoda (Nilwala Ganga) | 0.35 | 🟢 Normal | 0.090 | 🔺 Rising |
@@ -59,7 +60,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-03 14:00:19 | Weraganthota (Mahaweli Ganga) | -1.74 | 🟢 Normal | -0.040 |  |
 | 2026-03-03 14:00:10 | Nakkala (Kumbukkan Oya) | 0.81 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 13:44:46 | Panadugama (Nilwala Ganga) | 1.93 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 13:32:34 | Urawa (Nilwala Ganga) | 0.00 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -87,7 +87,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-03 14:05:22 | Galgamuwa (Mee Oya) | 0.00 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 14:08:31 | Magura (Kalu Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 14:03:53 | Pitabeddara (Nilwala Ganga) | 0.20 | 🟢 Normal | 0.000 |  |
-| 2026-03-03 14:07:21 | Panadugama (Nilwala Ganga) | 1.93 | 🟢 Normal | 0.000 |  |
+| 2026-03-03 14:16:42 | Panadugama (Nilwala Ganga) | 1.93 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 14:03:34 | Padiyathalawa (Maduru Oya) | 0.65 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 14:03:46 | Moraketiya (Walawe Ganga) | 0.67 | 🟢 Normal | 0.000 |  |
 | 2026-03-03 14:01:08 | Siyambalanduwa (Heda Oya) | 0.44 | 🟢 Normal | 0.000 |  |
