@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_21:22:22-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_21:31:24-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **89,279 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **89,280 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-04 21:31:24 | Manampitiya (Mahaweli Ganga) | 1.20 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 21:22:22 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | -0.040 |  |
 | 2026-03-04 21:15:09 | Moragaswewa (Deduru Oya) | 0.01 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 21:15:06 | Moraketiya (Walawe Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
@@ -92,7 +93,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-04 21:04:08 | Dunamale (Aththanagalu Oya) | 0.44 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 21:02:12 | Katharagama (Menik Ganga) | -0.22 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 21:03:26 | Badalgama (Maha Oya) | 1.73 | 🟢 Normal | 0.000 |  |
-| 2026-03-04 21:06:49 | Manampitiya (Mahaweli Ganga) | 1.20 | 🟢 Normal | 0.000 |  |
+| 2026-03-04 21:31:24 | Manampitiya (Mahaweli Ganga) | 1.20 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 21:04:16 | Rathnapura (Kalu Ganga) | 0.44 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 21:03:58 | Thawalama (Gin Ganga) | 0.91 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 21:04:23 | Urawa (Nilwala Ganga) | -0.02 | 🟢 Normal | 0.000 |  |
