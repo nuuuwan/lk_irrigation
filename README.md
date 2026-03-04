@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--05_05:08:32-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--05_05:11:11-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **89,550 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **89,551 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **37** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-05 05:11:11 | Nagalagam Street (Kelani Ganga) | 0.64 | 🟢 Normal | -0.055 |  |
 | 2026-03-05 05:08:32 | Glencourse (Kelani Ganga) | 8.39 | 🟢 Normal | 0.170 | 🔺 Rising |
 | 2026-03-05 05:07:08 | Magura (Kalu Ganga) | 0.65 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 05:07:06 | Magura (Kalu Ganga) | 0.65 | 🟢 Normal | 0.000 |  |
@@ -55,9 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-05 05:00:46 | Wellawaya (Kirindi Oya) | 0.91 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 05:00:29 | Manampitiya (Mahaweli Ganga) | 1.28 | 🟢 Normal | 0.013 | 🔺 Rising |
 | 2026-03-05 05:00:27 | Moraketiya (Walawe Ganga) | 0.64 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 04:22:56 | Deraniyagala (Kelani Ganga) | 0.12 | 🟢 Normal | 0.030 | 🔺 Rising |
-| 2026-03-05 04:19:44 | Thawalama (Gin Ganga) | 1.01 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 04:16:15 | Peradeniya (Mahaweli Ganga) | 1.32 | 🟢 Normal | -0.119 |  |
 
 ## Latest by Station
 
@@ -69,7 +67,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-05 05:01:00 | Thalgahagoda (Nilwala Ganga) | 0.34 | 🟢 Normal | 0.064 | 🔺 Rising |
 | 2026-03-04 18:01:40 | Weraganthota (Mahaweli Ganga) | -1.87 | 🟢 Normal | 0.060 | 🔺 Rising |
 | 2026-03-05 03:14:29 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.68 | 🟢 Normal | 0.036 | 🔺 Rising |
-| 2026-03-05 04:05:03 | Nagalagam Street (Kelani Ganga) | 0.70 | 🟢 Normal | 0.031 | 🔺 Rising |
 | 2026-03-05 05:02:21 | Deraniyagala (Kelani Ganga) | 0.14 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-03-05 05:06:09 | Rathnapura (Kalu Ganga) | 0.44 | 🟢 Normal | 0.019 | 🔺 Rising |
 | 2026-03-05 05:06:52 | Hanwella (Kelani Ganga) | 0.24 | 🟢 Normal | 0.018 | 🔺 Rising |
@@ -102,6 +99,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-05 05:05:03 | Kuda Oya (Kirindi Oya) | 1.12 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 05:02:35 | Nakkala (Kumbukkan Oya) | 0.92 | 🟢 Normal | -0.020 |  |
 | 2026-03-05 05:03:05 | Kithulgala (Kelani Ganga) | 1.10 | 🟢 Normal | -0.050 |  |
+| 2026-03-05 05:11:11 | Nagalagam Street (Kelani Ganga) | 0.64 | 🟢 Normal | -0.055 |  |
 | 2026-03-05 05:04:32 | Putupaula (Kalu Ganga) | 0.60 | 🟢 Normal | -0.061 |  |
 | 2026-03-05 05:01:49 | Peradeniya (Mahaweli Ganga) | 1.23 | 🟢 Normal | -0.119 |  |
 
@@ -122,10 +120,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kalawellawa (Millakanda) (Kalu Ganga)
 
 ![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
-
-### Nagalagam Street (Kelani Ganga)
-
-![Nagalagam Street](images/stations/nagalagam-street.png)
 
 ### Deraniyagala (Kelani Ganga)
 
@@ -254,6 +248,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kithulgala (Kelani Ganga)
 
 ![Kithulgala](images/stations/kithulgala.png)
+
+### Nagalagam Street (Kelani Ganga)
+
+![Nagalagam Street](images/stations/nagalagam-street.png)
 
 ### Putupaula (Kalu Ganga)
 
