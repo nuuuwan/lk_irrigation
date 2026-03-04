@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_05:12:31-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--04_05:25:34-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **88,651 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **88,652 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-04 05:25:34 | Panadugama (Nilwala Ganga) | 1.90 | 🟢 Normal | -0.007 |  |
 | 2026-03-04 05:12:31 | Dunamale (Aththanagalu Oya) | 0.50 | 🟢 Normal | -0.009 |  |
 | 2026-03-04 05:09:51 | Kithulgala (Kelani Ganga) | 1.53 | 🟢 Normal | 0.433 | 🔺 Rising |
 | 2026-03-04 05:08:00 | Baddegama (Gin Ganga) | 1.18 | 🟢 Normal | 0.000 |  |
@@ -51,8 +52,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-04 05:00:15 | Magura (Kalu Ganga) | 0.68 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 04:57:11 | Peradeniya (Mahaweli Ganga) | 1.52 | 🟢 Normal | -1.510 |  |
 | 2026-03-04 04:56:08 | Rathnapura (Kalu Ganga) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-03-04 04:40:13 | Urawa (Nilwala Ganga) | 0.01 | 🟢 Normal | 0.000 |  |
-| 2026-03-04 04:38:48 | Moraketiya (Walawe Ganga) | 0.66 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -79,7 +78,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-04 05:05:46 | Pitabeddara (Nilwala Ganga) | 0.19 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 05:01:33 | Ellagawa (Kalu Ganga) | 3.88 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 05:08:00 | Baddegama (Gin Ganga) | 1.18 | 🟢 Normal | 0.000 |  |
-| 2026-03-04 04:04:21 | Panadugama (Nilwala Ganga) | 1.91 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 04:03:30 | Padiyathalawa (Maduru Oya) | 0.64 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 05:02:32 | Moraketiya (Walawe Ganga) | 0.66 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 05:02:42 | Siyambalanduwa (Heda Oya) | 0.44 | 🟢 Normal | 0.000 |  |
@@ -92,6 +90,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-04 04:40:13 | Urawa (Nilwala Ganga) | 0.01 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 05:01:10 | Kuda Oya (Kirindi Oya) | 1.12 | 🟢 Normal | 0.000 |  |
 | 2026-03-04 05:07:02 | Thanamalwila (Kirindi Oya) | 0.40 | 🟢 Normal | 0.000 |  |
+| 2026-03-04 05:25:34 | Panadugama (Nilwala Ganga) | 1.90 | 🟢 Normal | -0.007 |  |
 | 2026-03-04 05:12:31 | Dunamale (Aththanagalu Oya) | 0.50 | 🟢 Normal | -0.009 |  |
 | 2026-03-04 05:03:36 | Badalgama (Maha Oya) | 1.74 | 🟢 Normal | -0.010 |  |
 | 2026-03-04 05:03:33 | Deraniyagala (Kelani Ganga) | 0.11 | 🟢 Normal | -0.010 |  |
@@ -178,10 +177,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Baddegama](images/stations/baddegama.png)
 
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
-
 ### Padiyathalawa (Maduru Oya)
 
 ![Padiyathalawa](images/stations/padiyathalawa.png)
@@ -229,6 +224,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
+
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
 
 ### Dunamale (Aththanagalu Oya)
 
