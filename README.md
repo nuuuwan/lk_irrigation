@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--05_13:17:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--05_13:30:43-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **89,866 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **89,867 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-05 13:30:43 | Giriulla (Maha Oya) | 0.67 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 13:17:28 | Panadugama (Nilwala Ganga) | 1.85 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 13:16:17 | Urawa (Nilwala Ganga) | -0.03 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 13:14:37 | Rathnapura (Kalu Ganga) | 0.36 | 🟢 Normal | -0.017 |  |
@@ -76,7 +77,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-05 13:01:49 | Nakkala (Kumbukkan Oya) | 0.86 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 13:02:54 | Moragaswewa (Deduru Oya) | 0.02 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 13:01:31 | Yaka Wewa (Ma Oya) | 0.58 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 12:08:12 | Giriulla (Maha Oya) | 0.67 | 🟢 Normal | 0.000 |  |
+| 2026-03-05 13:30:43 | Giriulla (Maha Oya) | 0.67 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 13:01:05 | Horowpothana (Yan Oya) | 1.11 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 13:14:29 | Magura (Kalu Ganga) | 0.66 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 13:08:29 | Pitabeddara (Nilwala Ganga) | 0.16 | 🟢 Normal | 0.000 |  |
