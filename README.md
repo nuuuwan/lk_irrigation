@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **22** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -41,23 +41,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-05 10:03:24 | Peradeniya (Mahaweli Ganga) | 1.38 | 🟢 Normal | 0.202 | 🔺 Rising |
 | 2026-03-05 10:03:04 | Nakkala (Kumbukkan Oya) | 0.87 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 10:02:57 | Moragaswewa (Deduru Oya) | 0.02 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 10:02:38 | Thalgahagoda (Nilwala Ganga) | 0.25 | 🟢 Normal | -0.011 |  |
-| 2026-03-05 10:02:34 | Giriulla (Maha Oya) | 0.67 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 10:02:33 | Deraniyagala (Kelani Ganga) | 0.19 | 🟢 Normal | 0.040 | 🔺 Rising |
-| 2026-03-05 10:02:23 | Nagalagam Street (Kelani Ganga) | 0.15 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 10:02:14 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.40 | 🟢 Normal | -0.031 |  |
-| 2026-03-05 10:02:07 | Wellawaya (Kirindi Oya) | 0.74 | 🟢 Normal | -0.110 |  |
-| 2026-03-05 10:01:59 | Kuda Oya (Kirindi Oya) | 1.12 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 10:01:58 | Moraketiya (Walawe Ganga) | 0.66 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 10:01:52 | Dunamale (Aththanagalu Oya) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 10:01:46 | Padiyathalawa (Maduru Oya) | 0.66 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 10:01:41 | Siyambalanduwa (Heda Oya) | 0.44 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 10:01:36 | Yaka Wewa (Ma Oya) | 0.58 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 10:01:33 | Manampitiya (Mahaweli Ganga) | 1.20 | 🟢 Normal | 0.011 | 🔺 Rising |
-| 2026-03-05 10:01:23 | Glencourse (Kelani Ganga) | 8.54 | 🟢 Normal | -0.053 |  |
-| 2026-03-05 10:01:07 | Thanthirimale (Malwathu Oya) | 0.93 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-03-05 10:00:29 | Weraganthota (Mahaweli Ganga) | -1.70 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 10:00:25 | Horowpothana (Yan Oya) | 1.12 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
