@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--05_16:17:46-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--05_16:44:29-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **89,989 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **89,990 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-05 16:44:29 | Thalgahagoda (Nilwala Ganga) | 0.45 | 🟢 Normal | 0.058 | 🔺 Rising |
 | 2026-03-05 16:17:46 | Magura (Kalu Ganga) | 0.65 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 16:14:30 | Horowpothana (Yan Oya) | 1.11 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 16:09:05 | Thaldena (Mahaweli Ganga) | 0.43 | 🟢 Normal | -0.018 |  |
@@ -59,7 +60,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-05 16:00:33 | Ellagawa (Kalu Ganga) | 3.81 | 🟢 Normal | 0.000 |  |
 | 2026-03-05 16:00:18 | Weraganthota (Mahaweli Ganga) | -1.88 | 🟢 Normal | -0.144 |  |
 | 2026-03-05 16:00:18 | Siyambalanduwa (Heda Oya) | 0.43 | 🟢 Normal | 0.000 |  |
-| 2026-03-05 15:57:51 | Urawa (Nilwala Ganga) | -0.03 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -68,7 +68,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-03-05 16:02:12 | Putupaula (Kalu Ganga) | 0.94 | 🟢 Normal | 0.081 | 🔺 Rising |
-| 2026-03-05 15:01:40 | Thalgahagoda (Nilwala Ganga) | 0.35 | 🟢 Normal | 0.053 | 🔺 Rising |
+| 2026-03-05 16:44:29 | Thalgahagoda (Nilwala Ganga) | 0.45 | 🟢 Normal | 0.058 | 🔺 Rising |
 | 2026-03-05 16:03:56 | Manampitiya (Mahaweli Ganga) | 1.29 | 🟢 Normal | 0.031 | 🔺 Rising |
 | 2026-03-05 16:04:01 | Hanwella (Kelani Ganga) | 0.35 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-03-05 16:03:17 | Rathnapura (Kalu Ganga) | 0.34 | 🟢 Normal | 0.010 | 🔺 Rising |
