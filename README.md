@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **21** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -40,24 +40,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-07 18:03:55 | Badalgama (Maha Oya) | 1.73 | 🟢 Normal | 0.000 |  |
 | 2026-03-07 18:03:44 | Hanwella (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2026-03-07 18:03:39 | Padiyathalawa (Maduru Oya) | 0.59 | 🟢 Normal | 0.000 |  |
-| 2026-03-07 18:03:18 | Moraketiya (Walawe Ganga) | 0.55 | 🟢 Normal | -0.010 |  |
-| 2026-03-07 18:03:14 | Siyambalanduwa (Heda Oya) | 0.41 | 🟢 Normal | 0.000 |  |
-| 2026-03-07 18:03:07 | Magura (Kalu Ganga) | 0.61 | 🟢 Normal | 0.000 |  |
-| 2026-03-07 18:03:00 | Deraniyagala (Kelani Ganga) | 0.06 | 🟢 Normal | -0.020 |  |
-| 2026-03-07 18:02:56 | Kithulgala (Kelani Ganga) | 1.68 | 🟢 Normal | 0.232 | 🔺 Rising |
-| 2026-03-07 18:02:36 | Galgamuwa (Mee Oya) | -0.02 | 🟢 Normal | 0.000 |  |
-| 2026-03-07 18:02:36 | Rathnapura (Kalu Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-03-07 18:02:33 | Kuda Oya (Kirindi Oya) | 1.10 | 🟢 Normal | -0.010 |  |
-| 2026-03-07 18:02:21 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.25 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-03-07 18:02:19 | Thanthirimale (Malwathu Oya) | 0.79 | 🟢 Normal | 0.000 |  |
-| 2026-03-07 18:02:16 | Giriulla (Maha Oya) | 0.70 | 🟢 Normal | 0.000 |  |
-| 2026-03-07 18:02:09 | Moragaswewa (Deduru Oya) | -0.01 | 🟢 Normal | 0.000 |  |
-| 2026-03-07 18:02:00 | Nawalapitiya (Mahaweli Ganga) | 0.57 | 🟢 Normal | 0.000 |  |
-| 2026-03-07 18:01:56 | Ellagawa (Kalu Ganga) | 3.83 | 🟢 Normal | -0.010 |  |
-| 2026-03-07 18:01:07 | Wellawaya (Kirindi Oya) | 0.74 | 🟢 Normal | 0.000 |  |
-| 2026-03-07 18:00:23 | Nagalagam Street (Kelani Ganga) | 0.73 | 🟢 Normal | -0.093 |  |
-| 2026-03-07 18:00:12 | Nakkala (Kumbukkan Oya) | 0.80 | 🟢 Normal | 0.000 |  |
-| 2026-03-07 18:00:12 | Putupaula (Kalu Ganga) | 0.86 | 🟢 Normal | -0.073 |  |
 
 ## Latest by Station
 
