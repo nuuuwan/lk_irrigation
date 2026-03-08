@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--08_22:10:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--08_22:12:18-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **92,902 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **92,903 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **31** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-08 22:12:18 | Putupaula (Kalu Ganga) | 0.25 | 🟢 Normal | -0.133 |  |
 | 2026-03-08 22:10:28 | Ellagawa (Kalu Ganga) | 3.93 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-03-08 22:09:30 | Holombuwa (Kelani Ganga) | 0.22 | 🟢 Normal | -0.009 |  |
 | 2026-03-08 22:08:58 | Thawalama (Gin Ganga) | 1.19 | 🟢 Normal | 0.055 | 🔺 Rising |
@@ -95,7 +96,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-08 22:00:27 | Manampitiya (Mahaweli Ganga) | 0.90 | 🟢 Normal | -0.041 |  |
 | 2026-03-08 22:03:53 | Thalgahagoda (Nilwala Ganga) | 0.30 | 🟢 Normal | -0.054 |  |
 | 2026-03-08 22:04:09 | Nagalagam Street (Kelani Ganga) | 0.21 | 🟢 Normal | -0.091 |  |
-| 2026-03-08 21:04:40 | Putupaula (Kalu Ganga) | 0.40 | 🟢 Normal | -0.173 |  |
+| 2026-03-08 22:12:18 | Putupaula (Kalu Ganga) | 0.25 | 🟢 Normal | -0.133 |  |
 
 ## River Water Level Charts by Station
 
