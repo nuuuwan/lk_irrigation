@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--08_05:14:55-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--08_05:19:42-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **92,251 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **92,252 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-08 05:19:42 | Kuda Oya (Kirindi Oya) | 1.14 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 05:14:55 | Thanamalwila (Kirindi Oya) | 0.45 | 🟢 Normal | -0.005 |  |
 | 2026-03-08 05:14:01 | Magura (Kalu Ganga) | 0.59 | 🟢 Normal | -0.024 |  |
 | 2026-03-08 05:10:39 | Pitabeddara (Nilwala Ganga) | 0.59 | 🟢 Normal | 0.000 |  |
@@ -56,9 +57,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-08 04:54:03 | Yaka Wewa (Ma Oya) | 0.59 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 04:54:02 | Yaka Wewa (Ma Oya) | 0.59 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 04:48:46 | Magura (Kalu Ganga) | 0.60 | 🟢 Normal | -0.024 |  |
-| 2026-03-08 04:38:29 | Holombuwa (Kelani Ganga) | 0.24 | 🟢 Normal | -0.024 |  |
-| 2026-03-08 04:37:57 | Holombuwa (Kelani Ganga) | 0.44 | 🟢 Normal | -0.024 |  |
-| 2026-03-08 04:27:37 | Magura (Kalu Ganga) | 0.60 | 🟢 Normal | -0.024 |  |
 
 ## Latest by Station
 
@@ -76,7 +74,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-08 05:05:19 | Urawa (Nilwala Ganga) | 0.01 | 🟢 Normal | 0.029 | 🔺 Rising |
 | 2026-03-08 05:01:09 | Ellagawa (Kalu Ganga) | 3.84 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-03-08 05:00:53 | Manampitiya (Mahaweli Ganga) | 1.18 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-03-08 04:11:54 | Kuda Oya (Kirindi Oya) | 1.14 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-03-08 05:00:22 | Wellawaya (Kirindi Oya) | 0.74 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 05:02:08 | Nakkala (Kumbukkan Oya) | 0.77 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 05:01:05 | Moragaswewa (Deduru Oya) | -0.02 | 🟢 Normal | 0.000 |  |
@@ -94,6 +91,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-08 05:04:03 | Katharagama (Menik Ganga) | -0.23 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 05:01:13 | Badalgama (Maha Oya) | 1.72 | 🟢 Normal | 0.000 |  |
 | 2026-03-07 18:02:19 | Thanthirimale (Malwathu Oya) | 0.79 | 🟢 Normal | 0.000 |  |
+| 2026-03-08 05:19:42 | Kuda Oya (Kirindi Oya) | 1.14 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 05:14:55 | Thanamalwila (Kirindi Oya) | 0.45 | 🟢 Normal | -0.005 |  |
 | 2026-03-08 05:04:25 | Norwood (Kelani Ganga) | 0.33 | 🟢 Normal | -0.005 |  |
 | 2026-03-08 05:03:44 | Giriulla (Maha Oya) | 0.68 | 🟢 Normal | -0.010 |  |
@@ -147,10 +145,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Manampitiya (Mahaweli Ganga)
 
 ![Manampitiya](images/stations/manampitiya.png)
-
-### Kuda Oya (Kirindi Oya)
-
-![Kuda Oya](images/stations/kuda-oya.png)
 
 ### Wellawaya (Kirindi Oya)
 
@@ -219,6 +213,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanthirimale (Malwathu Oya)
 
 ![Thanthirimale](images/stations/thanthirimale.png)
+
+### Kuda Oya (Kirindi Oya)
+
+![Kuda Oya](images/stations/kuda-oya.png)
 
 ### Thanamalwila (Kirindi Oya)
 
