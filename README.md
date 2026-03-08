@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--08_16:20:18-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--08_16:27:33-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **92,680 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **92,681 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-08 16:27:33 | Moragaswewa (Deduru Oya) | -0.03 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 16:20:18 | Panadugama (Nilwala Ganga) | 2.15 | 🟢 Normal | -0.017 |  |
 | 2026-03-08 16:17:25 | Nawalapitiya (Mahaweli Ganga) | 0.57 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 16:14:20 | Baddegama (Gin Ganga) | 1.12 | 🟢 Normal | 0.000 |  |
@@ -57,7 +58,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-08 16:01:33 | Wellawaya (Kirindi Oya) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 16:00:59 | Manampitiya (Mahaweli Ganga) | 1.07 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 16:00:36 | Weraganthota (Mahaweli Ganga) | -1.80 | 🟢 Normal | 0.000 |  |
-| 2026-03-08 15:29:27 | Ellagawa (Kalu Ganga) | 3.83 | 🟢 Normal | 0.035 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -73,7 +73,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-08 16:00:36 | Weraganthota (Mahaweli Ganga) | -1.80 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 16:01:33 | Wellawaya (Kirindi Oya) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 16:03:45 | Nakkala (Kumbukkan Oya) | 0.76 | 🟢 Normal | 0.000 |  |
-| 2026-03-08 16:03:04 | Moragaswewa (Deduru Oya) | -0.03 | 🟢 Normal | 0.000 |  |
+| 2026-03-08 16:27:33 | Moragaswewa (Deduru Oya) | -0.03 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 16:17:25 | Nawalapitiya (Mahaweli Ganga) | 0.57 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 16:12:27 | Yaka Wewa (Ma Oya) | 0.59 | 🟢 Normal | 0.000 |  |
 | 2026-03-08 16:09:06 | Giriulla (Maha Oya) | 0.67 | 🟢 Normal | 0.000 |  |
