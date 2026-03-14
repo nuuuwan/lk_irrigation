@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--15_05:08:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--15_05:19:26-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **97,717 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **97,719 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-15 05:19:26 | Kithulgala (Kelani Ganga) | 1.55 | 🟢 Normal | 0.000 |  |
+| 2026-03-15 05:09:53 | Thawalama (Gin Ganga) | 1.91 | 🟢 Normal | 0.019 | 🔺 Rising |
 | 2026-03-15 05:08:20 | Ellagawa (Kalu Ganga) | 4.15 | 🟢 Normal | -0.051 |  |
 | 2026-03-15 05:08:20 | Baddegama (Gin Ganga) | 1.21 | 🟢 Normal | 0.029 | 🔺 Rising |
 | 2026-03-15 05:08:12 | Putupaula (Kalu Ganga) | 0.54 | 🟢 Normal | 0.028 | 🔺 Rising |
@@ -50,7 +52,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-15 04:45:04 | Katharagama (Menik Ganga) | -0.23 | 🟢 Normal | 0.000 |  |
 | 2026-03-15 04:35:56 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.07 | 🟢 Normal | 0.208 | 🔺 Rising |
 | 2026-03-15 04:28:55 | Magura (Kalu Ganga) | 0.71 | 🟢 Normal | -0.016 |  |
-| 2026-03-15 04:20:42 | Holombuwa (Kelani Ganga) | 0.36 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -61,13 +62,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-15 04:35:56 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.07 | 🟢 Normal | 0.208 | 🔺 Rising |
 | 2026-03-15 05:02:11 | Thanamalwila (Kirindi Oya) | 0.83 | 🟢 Normal | 0.050 | 🔺 Rising |
 | 2026-03-15 05:03:00 | Nawalapitiya (Mahaweli Ganga) | 0.76 | 🟢 Normal | 0.049 | 🔺 Rising |
-| 2026-03-15 04:07:07 | Thawalama (Gin Ganga) | 1.89 | 🟢 Normal | 0.036 | 🔺 Rising |
 | 2026-03-15 05:01:43 | Nagalagam Street (Kelani Ganga) | 0.46 | 🟢 Normal | 0.032 | 🔺 Rising |
 | 2026-03-15 05:08:20 | Baddegama (Gin Ganga) | 1.21 | 🟢 Normal | 0.029 | 🔺 Rising |
 | 2026-03-15 05:08:12 | Putupaula (Kalu Ganga) | 0.54 | 🟢 Normal | 0.028 | 🔺 Rising |
 | 2026-03-15 05:03:11 | Hanwella (Kelani Ganga) | 0.54 | 🟢 Normal | 0.021 | 🔺 Rising |
+| 2026-03-15 05:09:53 | Thawalama (Gin Ganga) | 1.91 | 🟢 Normal | 0.019 | 🔺 Rising |
 | 2026-03-15 05:06:00 | Norwood (Kelani Ganga) | 0.42 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-03-15 04:04:45 | Kithulgala (Kelani Ganga) | 1.55 | 🟢 Normal | 0.000 |  |
+| 2026-03-15 05:19:26 | Kithulgala (Kelani Ganga) | 1.55 | 🟢 Normal | 0.000 |  |
 | 2026-03-15 05:02:36 | Moragaswewa (Deduru Oya) | 0.24 | 🟢 Normal | 0.000 |  |
 | 2026-03-15 04:02:11 | Yaka Wewa (Ma Oya) | 0.59 | 🟢 Normal | 0.000 |  |
 | 2026-03-15 05:02:34 | Horowpothana (Yan Oya) | 1.26 | 🟢 Normal | 0.000 |  |
@@ -112,10 +113,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Nawalapitiya](images/stations/nawalapitiya.png)
 
-### Thawalama (Gin Ganga)
-
-![Thawalama](images/stations/thawalama.png)
-
 ### Nagalagam Street (Kelani Ganga)
 
 ![Nagalagam Street](images/stations/nagalagam-street.png)
@@ -131,6 +128,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Hanwella (Kelani Ganga)
 
 ![Hanwella](images/stations/hanwella.png)
+
+### Thawalama (Gin Ganga)
+
+![Thawalama](images/stations/thawalama.png)
 
 ### Norwood (Kelani Ganga)
 
