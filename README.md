@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--17_02:08:12-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--17_02:21:44-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **99,405 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **99,406 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **42** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-17 02:21:44 | Wellawaya (Kirindi Oya) | 0.87 | 🟢 Normal | -0.010 |  |
 | 2026-03-17 02:08:12 | Ellagawa (Kalu Ganga) | 3.85 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 02:08:10 | Ellagawa (Kalu Ganga) | 3.85 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 02:07:52 | Thawalama (Gin Ganga) | 1.40 | 🟢 Normal | -144.000 |  |
@@ -58,9 +59,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-17 02:01:00 | Moraketiya (Walawe Ganga) | 0.66 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 02:00:45 | Nawalapitiya (Mahaweli Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 01:40:07 | Dunamale (Aththanagalu Oya) | 0.48 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 01:28:49 | Nagalagam Street (Kelani Ganga) | 0.67 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 01:21:45 | Wellawaya (Kirindi Oya) | 0.88 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 01:20:36 | Thalgahagoda (Nilwala Ganga) | 0.23 | 🟢 Normal | 0.043 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -77,7 +75,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-17 02:06:43 | Holombuwa (Kelani Ganga) | 0.31 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-03-17 02:05:53 | Baddegama (Gin Ganga) | 1.13 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-03-17 02:04:36 | Thaldena (Mahaweli Ganga) | 0.43 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-03-17 01:21:45 | Wellawaya (Kirindi Oya) | 0.88 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 02:01:13 | Nakkala (Kumbukkan Oya) | 0.77 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 02:00:45 | Nawalapitiya (Mahaweli Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 02:02:20 | Yaka Wewa (Ma Oya) | 0.60 | 🟢 Normal | 0.000 |  |
@@ -101,6 +98,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-17 00:08:23 | Kuda Oya (Kirindi Oya) | 1.05 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 02:02:37 | Thanamalwila (Kirindi Oya) | 0.98 | 🟢 Normal | 0.000 |  |
 | 2026-03-16 21:00:56 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.34 | 🟢 Normal | 0.000 |  |
+| 2026-03-17 02:21:44 | Wellawaya (Kirindi Oya) | 0.87 | 🟢 Normal | -0.010 |  |
 | 2026-03-17 02:02:22 | Moragaswewa (Deduru Oya) | 0.01 | 🟢 Normal | -0.010 |  |
 | 2026-03-17 02:02:17 | Hanwella (Kelani Ganga) | 0.38 | 🟢 Normal | -0.010 |  |
 | 2026-03-17 00:07:39 | Panadugama (Nilwala Ganga) | 1.98 | 🟢 Normal | -0.016 |  |
@@ -145,10 +143,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thaldena (Mahaweli Ganga)
 
 ![Thaldena](images/stations/thaldena.png)
-
-### Wellawaya (Kirindi Oya)
-
-![Wellawaya](images/stations/wellawaya.png)
 
 ### Nakkala (Kumbukkan Oya)
 
@@ -241,6 +235,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kalawellawa (Millakanda) (Kalu Ganga)
 
 ![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
+
+### Wellawaya (Kirindi Oya)
+
+![Wellawaya](images/stations/wellawaya.png)
 
 ### Moragaswewa (Deduru Oya)
 
