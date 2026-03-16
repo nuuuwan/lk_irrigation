@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--17_02:21:44-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--17_02:33:57-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **99,406 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **99,407 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-17 02:33:57 | Glencourse (Kelani Ganga) | 8.49 | 🟢 Normal | 0.013 | 🔺 Rising |
 | 2026-03-17 02:21:44 | Wellawaya (Kirindi Oya) | 0.87 | 🟢 Normal | -0.010 |  |
 | 2026-03-17 02:08:12 | Ellagawa (Kalu Ganga) | 3.85 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 02:08:10 | Ellagawa (Kalu Ganga) | 3.85 | 🟢 Normal | 0.000 |  |
@@ -58,7 +59,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-17 02:01:10 | Siyambalanduwa (Heda Oya) | 0.37 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 02:01:00 | Moraketiya (Walawe Ganga) | 0.66 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 02:00:45 | Nawalapitiya (Mahaweli Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 01:40:07 | Dunamale (Aththanagalu Oya) | 0.48 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -70,7 +70,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-17 02:06:18 | Deraniyagala (Kelani Ganga) | 0.19 | 🟢 Normal | 0.095 | 🔺 Rising |
 | 2026-03-17 02:02:22 | Thalgahagoda (Nilwala Ganga) | 0.26 | 🟢 Normal | 0.043 | 🔺 Rising |
 | 2026-03-17 00:08:55 | Putupaula (Kalu Ganga) | 0.28 | 🟢 Normal | 0.031 | 🔺 Rising |
-| 2026-03-17 01:03:53 | Glencourse (Kelani Ganga) | 8.47 | 🟢 Normal | 0.020 | 🔺 Rising |
+| 2026-03-17 02:33:57 | Glencourse (Kelani Ganga) | 8.49 | 🟢 Normal | 0.013 | 🔺 Rising |
 | 2026-03-17 02:03:04 | Kithulgala (Kelani Ganga) | 1.52 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-03-17 02:06:43 | Holombuwa (Kelani Ganga) | 0.31 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-03-17 02:05:53 | Baddegama (Gin Ganga) | 1.13 | 🟢 Normal | 0.010 | 🔺 Rising |
