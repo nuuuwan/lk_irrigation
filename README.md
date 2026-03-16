@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **15** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -34,24 +34,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-17 03:05:28 | Siyambalanduwa (Heda Oya) | 0.37 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 03:05:12 | Nakkala (Kumbukkan Oya) | 0.77 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 03:05:00 | Rathnapura (Kalu Ganga) | 0.45 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-03-17 03:04:32 | Norwood (Kelani Ganga) | 0.34 | 🟢 Normal | -0.010 |  |
-| 2026-03-17 03:04:15 | Thawalama (Gin Ganga) | 1.35 | 🟢 Normal | -0.053 |  |
-| 2026-03-17 03:03:37 | Hanwella (Kelani Ganga) | 0.35 | 🟢 Normal | -0.029 |  |
-| 2026-03-17 03:03:34 | Kithulgala (Kelani Ganga) | 1.52 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 03:03:27 | Katharagama (Menik Ganga) | -0.23 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 03:02:54 | Glencourse (Kelani Ganga) | 8.53 | 🟢 Normal | 0.083 | 🔺 Rising |
-| 2026-03-17 03:02:44 | Thanamalwila (Kirindi Oya) | 0.95 | 🟢 Normal | -0.030 |  |
-| 2026-03-17 03:02:43 | Moraketiya (Walawe Ganga) | 0.66 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 03:02:43 | Peradeniya (Mahaweli Ganga) | 1.60 | 🟢 Normal | -0.256 |  |
-| 2026-03-17 03:02:40 | Deraniyagala (Kelani Ganga) | 0.24 | 🟢 Normal | 0.053 | 🔺 Rising |
-| 2026-03-17 03:02:33 | Horowpothana (Yan Oya) | 1.23 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 03:02:25 | Magura (Kalu Ganga) | 0.58 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 03:02:20 | Badalgama (Maha Oya) | 1.89 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 03:01:52 | Moragaswewa (Deduru Oya) | 0.01 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 03:01:47 | Giriulla (Maha Oya) | 0.80 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 03:00:44 | Thalgahagoda (Nilwala Ganga) | 0.32 | 🟢 Normal | 0.062 | 🔺 Rising |
-| 2026-03-17 03:00:24 | Nawalapitiya (Mahaweli Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 03:00:16 | Wellawaya (Kirindi Oya) | 0.93 | 🟢 Normal | 0.093 | 🔺 Rising |
 
 ## Latest by Station
 
