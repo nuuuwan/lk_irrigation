@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--18_05:10:06-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--18_05:23:52-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **100,400 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **100,401 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-18 05:23:52 | Nakkala (Kumbukkan Oya) | 0.73 | 🟢 Normal | 0.000 |  |
 | 2026-03-18 05:10:06 | Nagalagam Street (Kelani Ganga) | 0.46 | 🟢 Normal | -0.081 |  |
 | 2026-03-18 05:06:35 | Baddegama (Gin Ganga) | 1.10 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2026-03-18 05:06:08 | Katharagama (Menik Ganga) | -0.23 | 🟢 Normal | 0.000 |  |
@@ -52,10 +53,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-18 05:00:50 | Thalgahagoda (Nilwala Ganga) | 0.38 | 🟢 Normal | 0.090 | 🔺 Rising |
 | 2026-03-18 05:00:17 | Siyambalanduwa (Heda Oya) | 0.39 | 🟢 Normal | 0.000 |  |
 | 2026-03-18 04:59:56 | Wellawaya (Kirindi Oya) | 0.72 | 🟢 Normal | 0.000 |  |
-| 2026-03-18 04:21:01 | Kithulgala (Kelani Ganga) | 1.62 | 🟢 Normal | 0.000 |  |
-| 2026-03-18 04:21:00 | Kithulgala (Kelani Ganga) | 1.62 | 🟢 Normal | 0.000 |  |
-| 2026-03-18 04:20:58 | Padiyathalawa (Maduru Oya) | 0.43 | 🟢 Normal | 0.000 |  |
-| 2026-03-18 04:20:57 | Padiyathalawa (Maduru Oya) | 0.43 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -74,6 +71,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-18 05:01:42 | Rathnapura (Kalu Ganga) | 0.42 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-03-18 05:04:48 | Kithulgala (Kelani Ganga) | 1.62 | 🟢 Normal | 0.000 |  |
 | 2026-03-18 05:01:09 | Wellawaya (Kirindi Oya) | 0.72 | 🟢 Normal | 0.000 |  |
+| 2026-03-18 05:23:52 | Nakkala (Kumbukkan Oya) | 0.73 | 🟢 Normal | 0.000 |  |
 | 2026-03-18 05:01:46 | Moragaswewa (Deduru Oya) | 0.02 | 🟢 Normal | 0.000 |  |
 | 2026-03-18 05:01:07 | Nawalapitiya (Mahaweli Ganga) | 0.61 | 🟢 Normal | 0.000 |  |
 | 2026-03-18 05:02:29 | Yaka Wewa (Ma Oya) | 0.60 | 🟢 Normal | 0.000 |  |
@@ -94,7 +92,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-17 18:01:54 | Thanthirimale (Malwathu Oya) | 1.17 | 🟢 Normal | 0.000 |  |
 | 2026-03-18 05:04:46 | Urawa (Nilwala Ganga) | 0.00 | 🟢 Normal | 0.000 |  |
 | 2026-03-18 04:01:21 | Kuda Oya (Kirindi Oya) | 1.07 | 🟢 Normal | 0.000 |  |
-| 2026-03-18 04:04:26 | Nakkala (Kumbukkan Oya) | 0.73 | 🟢 Normal | -0.005 |  |
 | 2026-03-18 05:02:13 | Holombuwa (Kelani Ganga) | 0.25 | 🟢 Normal | -0.006 |  |
 | 2026-03-18 05:02:26 | Thanamalwila (Kirindi Oya) | 0.55 | 🟢 Normal | -0.010 |  |
 | 2026-03-17 21:02:27 | Weraganthota (Mahaweli Ganga) | -2.88 | 🟢 Normal | -0.045 |  |
@@ -148,6 +145,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Wellawaya (Kirindi Oya)
 
 ![Wellawaya](images/stations/wellawaya.png)
+
+### Nakkala (Kumbukkan Oya)
+
+![Nakkala](images/stations/nakkala.png)
 
 ### Moragaswewa (Deduru Oya)
 
@@ -228,10 +229,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kuda Oya (Kirindi Oya)
 
 ![Kuda Oya](images/stations/kuda-oya.png)
-
-### Nakkala (Kumbukkan Oya)
-
-![Nakkala](images/stations/nakkala.png)
 
 ### Holombuwa (Kelani Ganga)
 
