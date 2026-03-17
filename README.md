@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--17_20:15:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--17_20:23:40-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **100,097 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **100,098 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-17 20:23:40 | Katharagama (Menik Ganga) | -0.25 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 20:15:20 | Nakkala (Kumbukkan Oya) | 0.75 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 20:11:20 | Panadugama (Nilwala Ganga) | 1.91 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 20:10:01 | Rathnapura (Kalu Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
@@ -56,7 +57,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-17 20:00:57 | Manampitiya (Mahaweli Ganga) | 0.60 | 🟢 Normal | -0.040 |  |
 | 2026-03-17 20:00:16 | Wellawaya (Kirindi Oya) | 0.80 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 19:59:54 | Moraketiya (Walawe Ganga) | 0.68 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 19:30:51 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.29 | 🟢 Normal | 0.166 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -86,7 +86,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-17 20:01:50 | Siyambalanduwa (Heda Oya) | 0.39 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 20:02:59 | Dunamale (Aththanagalu Oya) | 0.44 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 20:03:38 | Thaldena (Mahaweli Ganga) | 0.37 | 🟢 Normal | 0.000 |  |
-| 2026-03-17 20:04:06 | Katharagama (Menik Ganga) | -0.25 | 🟢 Normal | 0.000 |  |
+| 2026-03-17 20:23:40 | Katharagama (Menik Ganga) | -0.25 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 20:04:04 | Badalgama (Maha Oya) | 1.81 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 20:03:17 | Holombuwa (Kelani Ganga) | 0.28 | 🟢 Normal | 0.000 |  |
 | 2026-03-17 20:10:01 | Rathnapura (Kalu Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
