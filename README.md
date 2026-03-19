@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **29** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -48,10 +48,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-20 03:01:40 | Kuda Oya (Kirindi Oya) | 1.28 | 🟢 Normal | 0.050 | 🔺 Rising |
 | 2026-03-20 03:01:40 | Glencourse (Kelani Ganga) | 8.48 | 🟢 Normal | -0.020 |  |
 | 2026-03-20 03:01:37 | Kithulgala (Kelani Ganga) | 1.10 | 🟢 Normal | -0.080 |  |
-| 2026-03-20 02:28:20 | Thanamalwila (Kirindi Oya) | 0.80 | 🟢 Normal | 0.000 |  |
-| 2026-03-20 02:20:13 | Thawalama (Gin Ganga) | 1.08 | 🟢 Normal | -54.000 |  |
-| 2026-03-20 02:20:11 | Thawalama (Gin Ganga) | 1.11 | 🟢 Normal | -54.000 |  |
-| 2026-03-20 02:20:10 | Thawalama (Gin Ganga) | 1.16 | 🟢 Normal | -54.000 |  |
 
 ## Latest by Station
 
