@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--21_01:11:57-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--21_01:20:46-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **102,947 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **102,949 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **30** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-21 01:20:46 | Siyambalanduwa (Heda Oya) | 0.48 | 🟢 Normal | 0.008 | 🔺 Rising |
+| 2026-03-21 01:19:41 | Nagalagam Street (Kelani Ganga) | 0.61 | 🟢 Normal | 0.141 | 🔺 Rising |
 | 2026-03-21 01:11:57 | Yaka Wewa (Ma Oya) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2026-03-21 01:09:38 | Dunamale (Aththanagalu Oya) | 0.46 | 🟢 Normal | -0.018 |  |
 | 2026-03-21 01:06:41 | Hanwella (Kelani Ganga) | 0.43 | 🟢 Normal | -0.020 |  |
@@ -56,12 +58,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-03-21 00:01:57 | Nagalagam Street (Kelani Ganga) | 0.43 | 🟢 Normal | 0.096 | 🔺 Rising |
+| 2026-03-21 01:19:41 | Nagalagam Street (Kelani Ganga) | 0.61 | 🟢 Normal | 0.141 | 🔺 Rising |
 | 2026-03-21 01:00:41 | Peradeniya (Mahaweli Ganga) | 2.12 | 🟢 Normal | 0.065 | 🔺 Rising |
 | 2026-03-21 00:00:13 | Wellawaya (Kirindi Oya) | 0.79 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-03-21 01:02:08 | Thanamalwila (Kirindi Oya) | 0.65 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-03-21 00:10:56 | Baddegama (Gin Ganga) | 1.31 | 🟢 Normal | 0.018 | 🔺 Rising |
 | 2026-03-20 18:01:37 | Thanthirimale (Malwathu Oya) | 1.39 | 🟢 Normal | 0.010 | 🔺 Rising |
+| 2026-03-21 01:20:46 | Siyambalanduwa (Heda Oya) | 0.48 | 🟢 Normal | 0.008 | 🔺 Rising |
 | 2026-03-21 01:01:27 | Kithulgala (Kelani Ganga) | 1.55 | 🟢 Normal | 0.000 |  |
 | 2026-03-21 01:03:48 | Nakkala (Kumbukkan Oya) | 0.78 | 🟢 Normal | 0.000 |  |
 | 2026-03-21 01:00:24 | Nawalapitiya (Mahaweli Ganga) | 0.59 | 🟢 Normal | 0.000 |  |
@@ -77,7 +80,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-21 00:50:52 | Urawa (Nilwala Ganga) | 0.07 | 🟢 Normal | 0.000 |  |
 | 2026-03-21 01:03:05 | Kuda Oya (Kirindi Oya) | 1.22 | 🟢 Normal | 0.000 |  |
 | 2026-03-21 01:02:53 | Panadugama (Nilwala Ganga) | 2.12 | 🟢 Normal | -0.005 |  |
-| 2026-03-21 00:08:43 | Siyambalanduwa (Heda Oya) | 0.47 | 🟢 Normal | -0.009 |  |
 | 2026-03-21 01:01:26 | Moragaswewa (Deduru Oya) | 0.02 | 🟢 Normal | -0.010 |  |
 | 2026-03-21 01:02:18 | Thaldena (Mahaweli Ganga) | 0.40 | 🟢 Normal | -0.010 |  |
 | 2026-03-21 00:06:33 | Magura (Kalu Ganga) | 0.80 | 🟢 Normal | -0.010 |  |
@@ -121,6 +123,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanthirimale (Malwathu Oya)
 
 ![Thanthirimale](images/stations/thanthirimale.png)
+
+### Siyambalanduwa (Heda Oya)
+
+![Siyambalanduwa](images/stations/siyambalanduwa.png)
 
 ### Kithulgala (Kelani Ganga)
 
@@ -181,10 +187,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Panadugama (Nilwala Ganga)
 
 ![Panadugama](images/stations/panadugama.png)
-
-### Siyambalanduwa (Heda Oya)
-
-![Siyambalanduwa](images/stations/siyambalanduwa.png)
 
 ### Moragaswewa (Deduru Oya)
 
