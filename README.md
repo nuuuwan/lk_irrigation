@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--22_16:10:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--22_16:30:03-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **104,428 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **104,430 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-22 16:30:03 | Magura (Kalu Ganga) | 1.05 | 🟢 Normal | -0.021 |  |
+| 2026-03-22 16:24:16 | Dunamale (Aththanagalu Oya) | 0.52 | 🟢 Normal | -0.016 |  |
 | 2026-03-22 16:10:20 | Pitabeddara (Nilwala Ganga) | 0.26 | 🟢 Normal | -0.020 |  |
 | 2026-03-22 16:09:32 | Panadugama (Nilwala Ganga) | 2.02 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 16:08:31 | Rathnapura (Kalu Ganga) | 0.83 | 🟢 Normal | 0.000 |  |
@@ -94,10 +96,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-22 16:03:16 | Moraketiya (Walawe Ganga) | 0.76 | 🟢 Normal | -0.010 |  |
 | 2026-03-22 16:01:52 | Thanthirimale (Malwathu Oya) | 1.33 | 🟢 Normal | -0.010 |  |
 | 2026-03-22 16:04:03 | Thanamalwila (Kirindi Oya) | 0.38 | 🟢 Normal | -0.010 |  |
-| 2026-03-22 15:10:03 | Dunamale (Aththanagalu Oya) | 0.54 | 🟢 Normal | -0.019 |  |
+| 2026-03-22 16:24:16 | Dunamale (Aththanagalu Oya) | 0.52 | 🟢 Normal | -0.016 |  |
 | 2026-03-22 16:04:49 | Baddegama (Gin Ganga) | 1.30 | 🟢 Normal | -0.020 |  |
 | 2026-03-22 16:10:20 | Pitabeddara (Nilwala Ganga) | 0.26 | 🟢 Normal | -0.020 |  |
-| 2026-03-22 15:05:17 | Magura (Kalu Ganga) | 1.08 | 🟢 Normal | -0.021 |  |
+| 2026-03-22 16:30:03 | Magura (Kalu Ganga) | 1.05 | 🟢 Normal | -0.021 |  |
 | 2026-03-22 16:07:39 | Thawalama (Gin Ganga) | 1.13 | 🟢 Normal | -0.027 |  |
 | 2026-03-22 16:02:07 | Peradeniya (Mahaweli Ganga) | 1.06 | 🟢 Normal | -0.040 |  |
 | 2026-03-22 15:06:39 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.94 | 🟢 Normal | -0.040 |  |
