@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--22_05:13:46-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--22_05:33:49-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **103,992 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **103,993 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **37** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-22 05:33:49 | Wellawaya (Kirindi Oya) | 0.72 | 🟢 Normal | 0.007 | 🔺 Rising |
 | 2026-03-22 05:13:46 | Glencourse (Kelani Ganga) | 8.40 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 05:13:26 | Horowpothana (Yan Oya) | 1.23 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 05:11:01 | Urawa (Nilwala Ganga) | 0.00 | 🟢 Normal | 0.000 |  |
@@ -71,7 +72,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-22 05:05:43 | Putupaula (Kalu Ganga) | 0.80 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-03-22 05:06:47 | Baddegama (Gin Ganga) | 1.04 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2026-03-22 05:03:30 | Thalgahagoda (Nilwala Ganga) | 0.38 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-03-22 04:05:45 | Wellawaya (Kirindi Oya) | 0.71 | 🟢 Normal | 0.000 |  |
+| 2026-03-22 05:33:49 | Wellawaya (Kirindi Oya) | 0.72 | 🟢 Normal | 0.007 | 🔺 Rising |
 | 2026-03-22 05:01:04 | Nakkala (Kumbukkan Oya) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 05:01:53 | Moragaswewa (Deduru Oya) | -0.01 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 05:01:53 | Yaka Wewa (Ma Oya) | 0.60 | 🟢 Normal | 0.000 |  |
