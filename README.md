@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--22_15:12:14-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--22_15:18:57-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **104,389 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **104,390 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-22 15:18:57 | Horowpothana (Yan Oya) | 1.22 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 15:12:14 | Holombuwa (Kelani Ganga) | 0.31 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 15:12:08 | Thalgahagoda (Nilwala Ganga) | 0.28 | 🟢 Normal | 0.107 | 🔺 Rising |
 | 2026-03-22 15:11:30 | Pitabeddara (Nilwala Ganga) | 0.28 | 🟢 Normal | 0.000 |  |
@@ -58,7 +59,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-22 15:01:25 | Thaldena (Mahaweli Ganga) | 0.33 | 🟢 Normal | -0.020 |  |
 | 2026-03-22 15:00:36 | Nawalapitiya (Mahaweli Ganga) | 0.59 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 15:00:13 | Siyambalanduwa (Heda Oya) | 0.47 | 🟢 Normal | 0.000 |  |
-| 2026-03-22 14:27:08 | Thalgahagoda (Nilwala Ganga) | 0.20 | 🟢 Normal | 0.107 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -78,7 +78,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-22 15:06:36 | Moragaswewa (Deduru Oya) | -0.02 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 15:00:36 | Nawalapitiya (Mahaweli Ganga) | 0.59 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 15:01:55 | Yaka Wewa (Ma Oya) | 0.59 | 🟢 Normal | 0.000 |  |
-| 2026-03-22 14:02:44 | Horowpothana (Yan Oya) | 1.22 | 🟢 Normal | 0.000 |  |
+| 2026-03-22 15:18:57 | Horowpothana (Yan Oya) | 1.22 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 15:11:30 | Pitabeddara (Nilwala Ganga) | 0.28 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 15:04:20 | Hanwella (Kelani Ganga) | 0.39 | 🟢 Normal | 0.000 |  |
 | 2026-03-22 15:07:36 | Panadugama (Nilwala Ganga) | 2.02 | 🟢 Normal | 0.000 |  |
