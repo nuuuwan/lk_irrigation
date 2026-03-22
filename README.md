@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--23_01:07:34-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--23_01:08:31-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **104,749 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **104,750 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **30** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-23 01:08:31 | Baddegama (Gin Ganga) | 1.08 | 🟢 Normal | -0.020 |  |
 | 2026-03-23 01:07:34 | Dunamale (Aththanagalu Oya) | 0.51 | 🟢 Normal | 0.000 |  |
 | 2026-03-23 01:07:21 | Holombuwa (Kelani Ganga) | 0.31 | 🟢 Normal | 0.000 |  |
 | 2026-03-23 01:06:26 | Katharagama (Menik Ganga) | -0.17 | 🟢 Normal | 0.000 |  |
@@ -48,9 +49,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-23 00:40:48 | Horowpothana (Yan Oya) | 1.21 | 🟢 Normal | 0.000 |  |
 | 2026-03-23 00:31:03 | Moraketiya (Walawe Ganga) | 0.76 | 🟢 Normal | 0.000 |  |
 | 2026-03-23 00:29:37 | Moraketiya (Walawe Ganga) | 0.76 | 🟢 Normal | 0.000 |  |
-| 2026-03-23 00:22:13 | Thalgahagoda (Nilwala Ganga) | 0.38 | 🟢 Normal | -0.017 |  |
-| 2026-03-23 00:21:41 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.84 | 🟢 Normal | 0.301 | 🔺 Rising |
-| 2026-03-23 00:15:42 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.81 | 🟢 Normal | 0.301 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -84,7 +82,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-22 23:11:04 | Urawa (Nilwala Ganga) | -0.05 | 🟢 Normal | 0.000 |  |
 | 2026-03-23 00:07:25 | Kuda Oya (Kirindi Oya) | 1.12 | 🟢 Normal | 0.000 |  |
 | 2026-03-23 01:02:15 | Thanamalwila (Kirindi Oya) | 0.36 | 🟢 Normal | 0.000 |  |
-| 2026-03-23 00:07:25 | Baddegama (Gin Ganga) | 1.10 | 🟢 Normal | -0.010 |  |
 | 2026-03-23 01:01:20 | Manampitiya (Mahaweli Ganga) | 0.61 | 🟢 Normal | -0.010 |  |
 | 2026-03-23 01:00:33 | Nawalapitiya (Mahaweli Ganga) | 0.56 | 🟢 Normal | -0.010 |  |
 | 2026-03-23 01:02:17 | Deraniyagala (Kelani Ganga) | 0.10 | 🟢 Normal | -0.010 |  |
@@ -92,6 +89,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-23 01:01:17 | Ellagawa (Kalu Ganga) | 4.13 | 🟢 Normal | -0.011 |  |
 | 2026-03-23 00:22:13 | Thalgahagoda (Nilwala Ganga) | 0.38 | 🟢 Normal | -0.017 |  |
 | 2026-03-23 00:05:22 | Magura (Kalu Ganga) | 0.83 | 🟢 Normal | -0.019 |  |
+| 2026-03-23 01:08:31 | Baddegama (Gin Ganga) | 1.08 | 🟢 Normal | -0.020 |  |
 | 2026-03-23 00:06:36 | Rathnapura (Kalu Ganga) | 0.77 | 🟢 Normal | -0.020 |  |
 | 2026-03-23 01:03:52 | Hanwella (Kelani Ganga) | 0.46 | 🟢 Normal | -0.025 |  |
 | 2026-03-23 01:04:06 | Thawalama (Gin Ganga) | 1.51 | 🟢 Normal | -0.030 |  |
@@ -204,10 +202,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Thanamalwila](images/stations/thanamalwila.png)
 
-### Baddegama (Gin Ganga)
-
-![Baddegama](images/stations/baddegama.png)
-
 ### Manampitiya (Mahaweli Ganga)
 
 ![Manampitiya](images/stations/manampitiya.png)
@@ -235,6 +229,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Magura (Kalu Ganga)
 
 ![Magura](images/stations/magura.png)
+
+### Baddegama (Gin Ganga)
+
+![Baddegama](images/stations/baddegama.png)
 
 ### Rathnapura (Kalu Ganga)
 
