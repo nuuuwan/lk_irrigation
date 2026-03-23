@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **21** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -40,23 +40,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-23 12:02:26 | Thaldena (Mahaweli Ganga) | 0.32 | 🟢 Normal | 0.000 |  |
 | 2026-03-23 12:02:26 | Badalgama (Maha Oya) | 1.90 | 🟢 Normal | 0.000 |  |
 | 2026-03-23 12:02:12 | Moragaswewa (Deduru Oya) | -0.05 | 🟢 Normal | 0.000 |  |
-| 2026-03-23 12:02:08 | Kithulgala (Kelani Ganga) | 1.41 | 🟢 Normal | 0.000 |  |
-| 2026-03-23 12:02:08 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.64 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-03-23 12:01:49 | Putupaula (Kalu Ganga) | 0.23 | 🟢 Normal | 0.051 | 🔺 Rising |
-| 2026-03-23 12:01:44 | Manampitiya (Mahaweli Ganga) | 0.32 | 🟢 Normal | -0.041 |  |
-| 2026-03-23 12:01:41 | Yaka Wewa (Ma Oya) | 0.58 | 🟢 Normal | -0.010 |  |
-| 2026-03-23 12:01:35 | Glencourse (Kelani Ganga) | 8.41 | 🟢 Normal | -0.084 |  |
-| 2026-03-23 12:01:34 | Giriulla (Maha Oya) | 0.81 | 🟢 Normal | 0.000 |  |
-| 2026-03-23 12:01:33 | Weraganthota (Mahaweli Ganga) | -2.30 | 🟢 Normal | -0.098 |  |
-| 2026-03-23 12:01:33 | Padiyathalawa (Maduru Oya) | 0.36 | 🟢 Normal | 0.000 |  |
-| 2026-03-23 12:01:31 | Horowpothana (Yan Oya) | 1.21 | 🟢 Normal | 0.000 |  |
-| 2026-03-23 12:01:29 | Ellagawa (Kalu Ganga) | 4.00 | 🟢 Normal | 0.000 |  |
-| 2026-03-23 12:01:28 | Thanamalwila (Kirindi Oya) | 0.33 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-03-23 12:01:23 | Thanthirimale (Malwathu Oya) | 1.30 | 🟢 Normal | 0.000 |  |
-| 2026-03-23 12:01:06 | Holombuwa (Kelani Ganga) | 0.28 | 🟢 Normal | 0.000 |  |
-| 2026-03-23 12:00:23 | Kuda Oya (Kirindi Oya) | 1.10 | 🟢 Normal | 0.000 |  |
-| 2026-03-23 12:00:16 | Nagalagam Street (Kelani Ganga) | 0.30 | 🟢 Normal | 0.153 | 🔺 Rising |
-| 2026-03-23 11:29:56 | Moragaswewa (Deduru Oya) | -0.05 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
