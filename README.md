@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **18** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -37,21 +37,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-24 01:03:42 | Deraniyagala (Kelani Ganga) | 0.08 | 🟢 Normal | 0.000 |  |
 | 2026-03-24 01:03:31 | Nawalapitiya (Mahaweli Ganga) | 0.56 | 🟢 Normal | 0.000 |  |
 | 2026-03-24 01:03:30 | Kithulgala (Kelani Ganga) | 1.65 | 🟢 Normal | 0.000 |  |
-| 2026-03-24 01:03:25 | Katharagama (Menik Ganga) | -0.17 | 🟢 Normal | 0.000 |  |
-| 2026-03-24 01:03:22 | Urawa (Nilwala Ganga) | -0.07 | 🟢 Normal | 0.000 |  |
-| 2026-03-24 01:02:59 | Norwood (Kelani Ganga) | 0.36 | 🟢 Normal | 0.000 |  |
-| 2026-03-24 01:02:36 | Badalgama (Maha Oya) | 1.86 | 🟢 Normal | 0.000 |  |
-| 2026-03-24 01:02:23 | Dunamale (Aththanagalu Oya) | 0.62 | 🟢 Normal | 0.000 |  |
-| 2026-03-24 01:02:11 | Thanamalwila (Kirindi Oya) | 0.31 | 🟢 Normal | -0.010 |  |
-| 2026-03-24 01:02:03 | Horowpothana (Yan Oya) | 1.20 | 🟢 Normal | 0.000 |  |
-| 2026-03-24 01:01:54 | Giriulla (Maha Oya) | 0.76 | 🟢 Normal | 0.000 |  |
-| 2026-03-24 01:01:17 | Moragaswewa (Deduru Oya) | -0.08 | 🟢 Normal | 0.000 |  |
-| 2026-03-24 01:01:09 | Ellagawa (Kalu Ganga) | 4.06 | 🟢 Normal | -0.010 |  |
-| 2026-03-24 01:00:54 | Manampitiya (Mahaweli Ganga) | 0.58 | 🟢 Normal | -0.010 |  |
-| 2026-03-24 01:00:51 | Thaldena (Mahaweli Ganga) | 0.26 | 🟢 Normal | -0.011 |  |
-| 2026-03-24 01:00:37 | Nakkala (Kumbukkan Oya) | 0.68 | 🟢 Normal | 0.000 |  |
-| 2026-03-24 00:59:43 | Padiyathalawa (Maduru Oya) | 0.37 | 🟢 Normal | 0.000 |  |
-| 2026-03-24 00:56:39 | Panadugama (Nilwala Ganga) | 1.96 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
