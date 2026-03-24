@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--25_01:22:44-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--25_01:41:48-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **106,533 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **106,534 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-25 01:41:48 | Thalgahagoda (Nilwala Ganga) | 0.33 | 🟢 Normal | -0.012 |  |
 | 2026-03-25 01:22:44 | Panadugama (Nilwala Ganga) | 1.91 | 🟢 Normal | 0.000 |  |
 | 2026-03-25 01:21:22 | Moraketiya (Walawe Ganga) | 0.83 | 🟢 Normal | 0.000 |  |
 | 2026-03-25 01:17:30 | Katharagama (Menik Ganga) | -0.16 | 🟢 Normal | 0.000 |  |
@@ -90,7 +91,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-25 01:02:11 | Thawalama (Gin Ganga) | 1.29 | 🟢 Normal | -0.010 |  |
 | 2026-03-25 00:04:14 | Norwood (Kelani Ganga) | 0.48 | 🟢 Normal | -0.010 |  |
 | 2026-03-25 01:02:09 | Wellawaya (Kirindi Oya) | 0.64 | 🟢 Normal | -0.011 |  |
-| 2026-03-25 00:02:46 | Thalgahagoda (Nilwala Ganga) | 0.35 | 🟢 Normal | -0.021 |  |
+| 2026-03-25 01:41:48 | Thalgahagoda (Nilwala Ganga) | 0.33 | 🟢 Normal | -0.012 |  |
 | 2026-03-25 00:03:36 | Deraniyagala (Kelani Ganga) | 0.14 | 🟢 Normal | -0.029 |  |
 | 2026-03-25 01:03:29 | Glencourse (Kelani Ganga) | 8.35 | 🟢 Normal | -0.034 |  |
 | 2026-03-25 01:01:10 | Peradeniya (Mahaweli Ganga) | 1.63 | 🟢 Normal | -0.062 |  |
