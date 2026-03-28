@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--28_17:19:06-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--28_17:23:38-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **109,841 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **109,842 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-28 17:23:38 | Norwood (Kelani Ganga) | 0.33 | 🟢 Normal | 0.000 |  |
 | 2026-03-28 17:19:06 | Padiyathalawa (Maduru Oya) | 0.31 | 🟢 Normal | 0.000 |  |
 | 2026-03-28 17:11:37 | Thawalama (Gin Ganga) | 1.01 | 🟢 Normal | -0.009 |  |
 | 2026-03-28 17:09:30 | Peradeniya (Mahaweli Ganga) | 1.05 | 🟢 Normal | -0.020 |  |
@@ -27,7 +28,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-28 17:06:58 | Urawa (Nilwala Ganga) | -0.10 | 🟢 Normal | 0.019 | 🔺 Rising |
 | 2026-03-28 17:06:44 | Glencourse (Kelani Ganga) | 8.40 | 🟢 Normal | 0.000 |  |
 | 2026-03-28 17:06:39 | Rathnapura (Kalu Ganga) | 0.28 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-03-28 17:04:53 | Norwood (Kelani Ganga) | 0.33 | 🟢 Normal | 0.023 | 🔺 Rising |
+| 2026-03-28 17:04:53 | Norwood (Kelani Ganga) | 0.33 | 🟢 Normal | 0.000 |  |
 | 2026-03-28 17:04:41 | Magura (Kalu Ganga) | 0.55 | 🟢 Normal | 0.000 |  |
 | 2026-03-28 17:04:35 | Giriulla (Maha Oya) | 0.63 | 🟢 Normal | 0.000 |  |
 | 2026-03-28 17:04:25 | Wellawaya (Kirindi Oya) | 0.60 | 🟢 Normal | 0.000 |  |
@@ -68,7 +69,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-03-28 17:03:58 | Galgamuwa (Mee Oya) | 0.13 | 🟢 Normal | 36.000 | 🔺 Rising |
 | 2026-03-28 17:03:52 | Manampitiya (Mahaweli Ganga) | 0.25 | 🟢 Normal | 0.039 | 🔺 Rising |
-| 2026-03-28 17:04:53 | Norwood (Kelani Ganga) | 0.33 | 🟢 Normal | 0.023 | 🔺 Rising |
 | 2026-03-28 17:00:09 | Thalgahagoda (Nilwala Ganga) | 0.46 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-03-28 17:04:09 | Thaldena (Mahaweli Ganga) | 0.29 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-03-28 17:06:58 | Urawa (Nilwala Ganga) | -0.10 | 🟢 Normal | 0.019 | 🔺 Rising |
@@ -82,6 +82,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-28 17:04:35 | Giriulla (Maha Oya) | 0.63 | 🟢 Normal | 0.000 |  |
 | 2026-03-28 17:04:41 | Magura (Kalu Ganga) | 0.55 | 🟢 Normal | 0.000 |  |
 | 2026-03-28 17:07:24 | Pitabeddara (Nilwala Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
+| 2026-03-28 17:23:38 | Norwood (Kelani Ganga) | 0.33 | 🟢 Normal | 0.000 |  |
 | 2026-03-28 17:01:40 | Ellagawa (Kalu Ganga) | 3.66 | 🟢 Normal | 0.000 |  |
 | 2026-03-28 17:01:08 | Baddegama (Gin Ganga) | 1.18 | 🟢 Normal | 0.000 |  |
 | 2026-03-28 17:07:56 | Panadugama (Nilwala Ganga) | 1.79 | 🟢 Normal | 0.000 |  |
@@ -115,10 +116,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Manampitiya (Mahaweli Ganga)
 
 ![Manampitiya](images/stations/manampitiya.png)
-
-### Norwood (Kelani Ganga)
-
-![Norwood](images/stations/norwood.png)
 
 ### Thalgahagoda (Nilwala Ganga)
 
@@ -171,6 +168,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Pitabeddara (Nilwala Ganga)
 
 ![Pitabeddara](images/stations/pitabeddara.png)
+
+### Norwood (Kelani Ganga)
+
+![Norwood](images/stations/norwood.png)
 
 ### Ellagawa (Kalu Ganga)
 
