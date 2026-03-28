@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **18** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -37,23 +37,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-28 19:04:01 | Thawalama (Gin Ganga) | 0.99 | 🟢 Normal | -0.019 |  |
 | 2026-03-28 19:03:54 | Dunamale (Aththanagalu Oya) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-03-28 19:03:33 | Deraniyagala (Kelani Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
-| 2026-03-28 19:03:27 | Glencourse (Kelani Ganga) | 8.35 | 🟢 Normal | -0.030 |  |
-| 2026-03-28 19:03:12 | Wellawaya (Kirindi Oya) | 0.60 | 🟢 Normal | 0.000 |  |
-| 2026-03-28 19:03:05 | Giriulla (Maha Oya) | 0.63 | 🟢 Normal | 0.000 |  |
-| 2026-03-28 19:02:57 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | -0.055 |  |
-| 2026-03-28 19:02:45 | Padiyathalawa (Maduru Oya) | 0.30 | 🟢 Normal | -0.010 |  |
-| 2026-03-28 19:02:39 | Katharagama (Menik Ganga) | -0.11 | 🟢 Normal | 0.000 |  |
-| 2026-03-28 19:02:31 | Hanwella (Kelani Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
-| 2026-03-28 19:02:27 | Moragaswewa (Deduru Oya) | -0.23 | 🟢 Normal | 0.000 |  |
-| 2026-03-28 19:02:12 | Siyambalanduwa (Heda Oya) | 0.47 | 🟢 Normal | 0.000 |  |
-| 2026-03-28 19:02:09 | Thanamalwila (Kirindi Oya) | 0.23 | 🟢 Normal | 0.000 |  |
-| 2026-03-28 19:02:03 | Manampitiya (Mahaweli Ganga) | 0.34 | 🟢 Normal | 0.061 | 🔺 Rising |
-| 2026-03-28 19:01:20 | Ellagawa (Kalu Ganga) | 3.66 | 🟢 Normal | 0.000 |  |
-| 2026-03-28 19:01:19 | Kuda Oya (Kirindi Oya) | 1.05 | 🟢 Normal | 0.000 |  |
-| 2026-03-28 19:01:07 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | -0.033 |  |
-| 2026-03-28 19:01:05 | Urawa (Nilwala Ganga) | 0.00 | 🟢 Normal | 0.070 | 🔺 Rising |
-| 2026-03-28 19:00:47 | Nakkala (Kumbukkan Oya) | 0.66 | 🟢 Normal | -0.010 |  |
-| 2026-03-28 19:00:45 | Horowpothana (Yan Oya) | 1.14 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
