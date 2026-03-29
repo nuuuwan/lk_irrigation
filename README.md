@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **43** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -55,13 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-29 05:00:20 | Peradeniya (Mahaweli Ganga) | 1.16 | 🟢 Normal | -0.050 |  |
 | 2026-03-29 04:57:43 | Nakkala (Kumbukkan Oya) | 0.66 | 🟢 Normal | 0.000 |  |
 | 2026-03-29 04:49:03 | Pitabeddara (Nilwala Ganga) | 0.50 | 🟢 Normal | -1.257 |  |
-| 2026-03-29 04:35:48 | Magura (Kalu Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-03-29 04:35:46 | Magura (Kalu Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-03-29 04:35:45 | Magura (Kalu Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-03-29 04:35:44 | Magura (Kalu Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-03-29 04:35:43 | Magura (Kalu Ganga) | 0.55 | 🟢 Normal | 0.000 |  |
-| 2026-03-29 04:35:24 | Manampitiya (Mahaweli Ganga) | 0.65 | 🟢 Normal | 0.023 | 🔺 Rising |
-| 2026-03-29 04:35:18 | Panadugama (Nilwala Ganga) | 1.92 | 🟢 Normal | 0.174 | 🔺 Rising |
 
 ## Latest by Station
 
