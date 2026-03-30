@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--30_23:12:22-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--03--30_23:31:08-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **111,844 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **111,847 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **30** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-03-30 23:31:08 | Nawalapitiya (Mahaweli Ganga) | 0.56 | 🟢 Normal | 0.000 |  |
+| 2026-03-30 23:29:17 | Peradeniya (Mahaweli Ganga) | 1.90 | 🟢 Normal | 0.177 | 🔺 Rising |
+| 2026-03-30 23:16:10 | Pitabeddara (Nilwala Ganga) | 0.20 | 🟢 Normal | 0.000 |  |
 | 2026-03-30 23:12:22 | Baddegama (Gin Ganga) | 0.91 | 🟢 Normal | -0.037 |  |
 | 2026-03-30 23:09:21 | Magura (Kalu Ganga) | 0.70 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-03-30 23:06:56 | Nagalagam Street (Kelani Ganga) | 0.61 | 🟢 Normal | 0.116 | 🔺 Rising |
@@ -48,7 +51,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-30 23:01:10 | Panadugama (Nilwala Ganga) | 1.93 | 🟢 Normal | 0.000 |  |
 | 2026-03-30 23:00:56 | Moraketiya (Walawe Ganga) | 0.92 | 🟢 Normal | 0.000 |  |
 | 2026-03-30 22:52:58 | Dunamale (Aththanagalu Oya) | 0.40 | 🟢 Normal | 0.000 |  |
-| 2026-03-30 22:22:23 | Horowpothana (Yan Oya) | 1.12 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -56,7 +58,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-03-30 22:07:50 | Peradeniya (Mahaweli Ganga) | 1.66 | 🟢 Normal | 0.400 | 🔺 Rising |
+| 2026-03-30 23:29:17 | Peradeniya (Mahaweli Ganga) | 1.90 | 🟢 Normal | 0.177 | 🔺 Rising |
 | 2026-03-30 23:06:56 | Nagalagam Street (Kelani Ganga) | 0.61 | 🟢 Normal | 0.116 | 🔺 Rising |
 | 2026-03-30 23:01:57 | Manampitiya (Mahaweli Ganga) | 0.71 | 🟢 Normal | 0.068 | 🔺 Rising |
 | 2026-03-30 23:02:21 | Kithulgala (Kelani Ganga) | 1.68 | 🟢 Normal | 0.040 | 🔺 Rising |
@@ -68,11 +70,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-30 23:06:02 | Wellawaya (Kirindi Oya) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2026-03-30 23:02:34 | Nakkala (Kumbukkan Oya) | 0.64 | 🟢 Normal | 0.000 |  |
 | 2026-03-30 23:03:31 | Moragaswewa (Deduru Oya) | -0.23 | 🟢 Normal | 0.000 |  |
-| 2026-03-30 22:00:45 | Nawalapitiya (Mahaweli Ganga) | 0.56 | 🟢 Normal | 0.000 |  |
+| 2026-03-30 23:31:08 | Nawalapitiya (Mahaweli Ganga) | 0.56 | 🟢 Normal | 0.000 |  |
 | 2026-03-30 23:03:21 | Yaka Wewa (Ma Oya) | 0.57 | 🟢 Normal | 0.000 |  |
 | 2026-03-30 23:01:11 | Giriulla (Maha Oya) | 0.61 | 🟢 Normal | 0.000 |  |
 | 2026-03-30 23:06:50 | Horowpothana (Yan Oya) | 1.12 | 🟢 Normal | 0.000 |  |
-| 2026-03-30 22:06:16 | Pitabeddara (Nilwala Ganga) | 0.20 | 🟢 Normal | 0.000 |  |
+| 2026-03-30 23:16:10 | Pitabeddara (Nilwala Ganga) | 0.20 | 🟢 Normal | 0.000 |  |
 | 2026-03-30 23:02:47 | Deraniyagala (Kelani Ganga) | 0.21 | 🟢 Normal | 0.000 |  |
 | 2026-03-30 23:01:10 | Panadugama (Nilwala Ganga) | 1.93 | 🟢 Normal | 0.000 |  |
 | 2026-03-30 23:03:20 | Padiyathalawa (Maduru Oya) | 0.31 | 🟢 Normal | 0.000 |  |
