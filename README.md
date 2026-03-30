@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **23** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -42,22 +42,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-03-30 13:03:15 | Deraniyagala (Kelani Ganga) | 0.05 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-03-30 13:03:14 | Giriulla (Maha Oya) | 0.60 | 🟢 Normal | -0.010 |  |
 | 2026-03-30 13:03:14 | Kithulgala (Kelani Ganga) | 1.43 | 🟢 Normal | 0.000 |  |
-| 2026-03-30 13:03:04 | Hanwella (Kelani Ganga) | 0.34 | 🟢 Normal | 0.000 |  |
-| 2026-03-30 13:03:01 | Katharagama (Menik Ganga) | -0.10 | 🟢 Normal | 0.000 |  |
-| 2026-03-30 13:02:59 | Badalgama (Maha Oya) | 1.67 | 🟢 Normal | 0.000 |  |
-| 2026-03-30 13:02:37 | Putupaula (Kalu Ganga) | 0.79 | 🟢 Normal | 0.120 | 🔺 Rising |
-| 2026-03-30 13:02:20 | Rathnapura (Kalu Ganga) | 0.40 | 🟢 Normal | -0.020 |  |
-| 2026-03-30 13:02:19 | Thanamalwila (Kirindi Oya) | 0.19 | 🟢 Normal | 0.000 |  |
-| 2026-03-30 13:02:12 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.26 | 🟢 Normal | -0.020 |  |
-| 2026-03-30 13:02:01 | Nakkala (Kumbukkan Oya) | 0.65 | 🟢 Normal | 0.017 | 🔺 Rising |
-| 2026-03-30 13:01:53 | Thalgahagoda (Nilwala Ganga) | 0.39 | 🟢 Normal | 0.022 | 🔺 Rising |
-| 2026-03-30 13:01:39 | Nawalapitiya (Mahaweli Ganga) | 0.48 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-03-30 13:01:36 | Wellawaya (Kirindi Oya) | 0.60 | 🟢 Normal | 0.000 |  |
-| 2026-03-30 13:01:24 | Horowpothana (Yan Oya) | 1.12 | 🟢 Normal | 0.000 |  |
-| 2026-03-30 13:01:24 | Manampitiya (Mahaweli Ganga) | 0.20 | 🟢 Normal | -0.020 |  |
-| 2026-03-30 13:00:54 | Weraganthota (Mahaweli Ganga) | -2.50 | 🟢 Normal | -0.234 |  |
-| 2026-03-30 13:00:45 | Thanthirimale (Malwathu Oya) | 1.29 | 🟢 Normal | 0.000 |  |
-| 2026-03-30 13:00:15 | Padiyathalawa (Maduru Oya) | 0.30 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
