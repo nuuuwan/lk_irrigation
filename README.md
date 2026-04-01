@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--01_14:17:10-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--01_14:29:47-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **113,290 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **113,291 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-01 14:29:47 | Holombuwa (Kelani Ganga) | 0.34 | 🟢 Normal | 0.000 |  |
 | 2026-04-01 14:17:10 | Baddegama (Gin Ganga) | 1.13 | 🟢 Normal | 0.008 | 🔺 Rising |
 | 2026-04-01 14:12:23 | Magura (Kalu Ganga) | 0.57 | 🟢 Normal | 0.000 |  |
 | 2026-04-01 14:08:34 | Urawa (Nilwala Ganga) | -0.12 | 🟢 Normal | 0.000 |  |
@@ -86,7 +87,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-01 14:03:40 | Dunamale (Aththanagalu Oya) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2026-04-01 14:02:17 | Katharagama (Menik Ganga) | -0.11 | 🟢 Normal | 0.000 |  |
 | 2026-04-01 14:03:20 | Badalgama (Maha Oya) | 1.65 | 🟢 Normal | 0.000 |  |
-| 2026-04-01 13:04:44 | Holombuwa (Kelani Ganga) | 0.34 | 🟢 Normal | 0.000 |  |
+| 2026-04-01 14:29:47 | Holombuwa (Kelani Ganga) | 0.34 | 🟢 Normal | 0.000 |  |
 | 2026-04-01 14:03:17 | Rathnapura (Kalu Ganga) | 0.34 | 🟢 Normal | 0.000 |  |
 | 2026-04-01 14:01:08 | Thanthirimale (Malwathu Oya) | 1.19 | 🟢 Normal | 0.000 |  |
 | 2026-04-01 14:07:29 | Thawalama (Gin Ganga) | 1.04 | 🟢 Normal | 0.000 |  |
