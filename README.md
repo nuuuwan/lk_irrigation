@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--04_23:10:17-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--04_23:18:06-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **116,329 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **116,330 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **35** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-04 23:18:06 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.72 | 🟢 Normal | -0.019 |  |
 | 2026-04-04 23:10:17 | Thaldena (Mahaweli Ganga) | 0.34 | 🟢 Normal | 0.019 | 🔺 Rising |
 | 2026-04-04 23:07:32 | Panadugama (Nilwala Ganga) | 2.03 | 🟢 Normal | -0.010 |  |
 | 2026-04-04 23:07:11 | Magura (Kalu Ganga) | 1.00 | 🟢 Normal | -0.019 |  |
@@ -87,7 +88,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-04 23:01:55 | Thalgahagoda (Nilwala Ganga) | 0.35 | 🟢 Normal | -0.010 |  |
 | 2026-04-04 23:00:24 | Nawalapitiya (Mahaweli Ganga) | 0.60 | 🟢 Normal | -0.010 |  |
 | 2026-04-04 23:07:32 | Panadugama (Nilwala Ganga) | 2.03 | 🟢 Normal | -0.010 |  |
-| 2026-04-04 22:13:16 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.74 | 🟢 Normal | -0.019 |  |
+| 2026-04-04 23:18:06 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.72 | 🟢 Normal | -0.019 |  |
 | 2026-04-04 23:07:11 | Magura (Kalu Ganga) | 1.00 | 🟢 Normal | -0.019 |  |
 | 2026-04-04 23:02:17 | Hanwella (Kelani Ganga) | 0.38 | 🟢 Normal | -0.020 |  |
 | 2026-04-04 18:01:01 | Thanthirimale (Malwathu Oya) | 2.52 | 🟢 Normal | -0.031 |  |
