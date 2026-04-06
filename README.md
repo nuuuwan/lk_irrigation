@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--06_23:11:19-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--06_23:35:20-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **118,116 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **118,117 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-06 23:35:20 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.38 | 🟢 Normal | 0.000 |  |
 | 2026-04-06 23:11:19 | Putupaula (Kalu Ganga) | 0.23 | 🟢 Normal | -0.133 |  |
 | 2026-04-06 23:11:12 | Holombuwa (Kelani Ganga) | 0.51 | 🟢 Normal | -0.027 |  |
 | 2026-04-06 23:10:22 | Magura (Kalu Ganga) | 0.68 | 🟢 Normal | 0.000 |  |
@@ -52,7 +53,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-06 23:00:59 | Padiyathalawa (Maduru Oya) | 0.27 | 🟢 Normal | 0.000 |  |
 | 2026-04-06 23:00:42 | Glencourse (Kelani Ganga) | 8.62 | 🟢 Normal | 0.000 |  |
 | 2026-04-06 23:00:35 | Horowpothana (Yan Oya) | 1.30 | 🟢 Normal | 0.000 |  |
-| 2026-04-06 22:33:29 | Moragaswewa (Deduru Oya) | -0.01 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -86,12 +86,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-06 23:04:16 | Badalgama (Maha Oya) | 1.81 | 🟢 Normal | 0.000 |  |
 | 2026-04-06 23:03:54 | Urawa (Nilwala Ganga) | -0.07 | 🟢 Normal | 0.000 |  |
 | 2026-04-06 23:01:49 | Thanamalwila (Kirindi Oya) | 0.34 | 🟢 Normal | 0.000 |  |
+| 2026-04-06 23:35:20 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.38 | 🟢 Normal | 0.000 |  |
 | 2026-04-06 23:02:05 | Siyambalanduwa (Heda Oya) | 0.47 | 🟢 Normal | -0.010 |  |
 | 2026-04-06 18:01:18 | Thanthirimale (Malwathu Oya) | 1.70 | 🟢 Normal | -0.010 |  |
 | 2026-04-06 23:07:20 | Thaldena (Mahaweli Ganga) | 0.25 | 🟢 Normal | -0.011 |  |
 | 2026-04-06 22:01:45 | Rathnapura (Kalu Ganga) | 0.57 | 🟢 Normal | -0.011 |  |
 | 2026-04-06 23:02:42 | Baddegama (Gin Ganga) | 1.23 | 🟢 Normal | -0.011 |  |
-| 2026-04-06 22:01:09 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.38 | 🟢 Normal | -0.013 |  |
 | 2026-04-06 23:11:12 | Holombuwa (Kelani Ganga) | 0.51 | 🟢 Normal | -0.027 |  |
 | 2026-04-06 23:05:51 | Thalgahagoda (Nilwala Ganga) | 0.38 | 🟢 Normal | -0.031 |  |
 | 2026-04-06 23:04:29 | Deraniyagala (Kelani Ganga) | 0.27 | 🟢 Normal | -0.040 |  |
@@ -206,6 +206,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Thanamalwila](images/stations/thanamalwila.png)
 
+### Kalawellawa (Millakanda) (Kalu Ganga)
+
+![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
+
 ### Siyambalanduwa (Heda Oya)
 
 ![Siyambalanduwa](images/stations/siyambalanduwa.png)
@@ -225,10 +229,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Baddegama (Gin Ganga)
 
 ![Baddegama](images/stations/baddegama.png)
-
-### Kalawellawa (Millakanda) (Kalu Ganga)
-
-![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
 
 ### Holombuwa (Kelani Ganga)
 
