@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--09_17:16:01-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--09_17:18:45-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **120,569 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **120,570 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-09 17:18:45 | Magura (Kalu Ganga) | 0.89 | 🟢 Normal | -0.017 |  |
 | 2026-04-09 17:16:01 | Padiyathalawa (Maduru Oya) | 0.24 | 🟢 Normal | 0.000 |  |
 | 2026-04-09 17:13:34 | Panadugama (Nilwala Ganga) | 1.79 | 🟢 Normal | 0.000 |  |
 | 2026-04-09 17:11:17 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | 0.028 | 🔺 Rising |
@@ -59,7 +60,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-09 17:01:08 | Nawalapitiya (Mahaweli Ganga) | 0.59 | 🟢 Normal | 0.000 |  |
 | 2026-04-09 17:00:45 | Moraketiya (Walawe Ganga) | 0.99 | 🟢 Normal | -0.010 |  |
 | 2026-04-09 17:00:17 | Thaldena (Mahaweli Ganga) | 0.24 | 🟢 Normal | -0.010 |  |
-| 2026-04-09 16:24:05 | Thalgahagoda (Nilwala Ganga) | 0.41 | 🟢 Normal | -0.090 |  |
 
 ## Latest by Station
 
@@ -98,7 +98,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-09 17:00:45 | Moraketiya (Walawe Ganga) | 0.99 | 🟢 Normal | -0.010 |  |
 | 2026-04-09 17:01:49 | Siyambalanduwa (Heda Oya) | 0.47 | 🟢 Normal | -0.010 |  |
 | 2026-04-09 17:01:28 | Galgamuwa (Mee Oya) | 0.19 | 🟢 Normal | -0.011 |  |
-| 2026-04-09 16:08:48 | Magura (Kalu Ganga) | 0.91 | 🟢 Normal | -0.018 |  |
+| 2026-04-09 17:18:45 | Magura (Kalu Ganga) | 0.89 | 🟢 Normal | -0.017 |  |
 | 2026-04-09 17:02:05 | Manampitiya (Mahaweli Ganga) | 0.01 | 🟢 Normal | -0.020 |  |
 | 2026-04-09 17:05:03 | Ellagawa (Kalu Ganga) | 3.99 | 🟢 Normal | -0.021 |  |
 | 2026-04-09 17:03:30 | Hanwella (Kelani Ganga) | 0.43 | 🟢 Normal | -0.030 |  |
