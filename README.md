@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **34** measurements in the last **1 hour**.*
+*There were **24** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -43,16 +43,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-10 03:03:56 | Norwood (Kelani Ganga) | 0.37 | 🟢 Normal | 0.000 |  |
 | 2026-04-10 03:03:55 | Norwood (Kelani Ganga) | 0.37 | 🟢 Normal | 0.000 |  |
 | 2026-04-10 03:03:39 | Katharagama (Menik Ganga) | -0.12 | 🟢 Normal | 0.000 |  |
-| 2026-04-10 03:03:21 | Horowpothana (Yan Oya) | 1.39 | 🟢 Normal | 0.036 | 🔺 Rising |
-| 2026-04-10 03:03:08 | Manampitiya (Mahaweli Ganga) | 0.35 | 🟢 Normal | 0.048 | 🔺 Rising |
-| 2026-04-10 03:03:07 | Glencourse (Kelani Ganga) | 8.50 | 🟢 Normal | 0.048 | 🔺 Rising |
-| 2026-04-10 03:02:46 | Peradeniya (Mahaweli Ganga) | 1.46 | 🟢 Normal | -0.155 |  |
-| 2026-04-10 03:02:31 | Thaldena (Mahaweli Ganga) | 0.24 | 🟢 Normal | 0.033 | 🔺 Rising |
-| 2026-04-10 03:02:09 | Moraketiya (Walawe Ganga) | 0.99 | 🟢 Normal | 0.000 |  |
-| 2026-04-10 03:01:20 | Nakkala (Kumbukkan Oya) | 0.65 | 🟢 Normal | 0.000 |  |
-| 2026-04-10 03:01:10 | Nagalagam Street (Kelani Ganga) | 0.43 | 🟢 Normal | 0.061 | 🔺 Rising |
-| 2026-04-10 03:00:52 | Moragaswewa (Deduru Oya) | 0.00 | 🟢 Normal | 0.000 |  |
-| 2026-04-10 03:00:47 | Siyambalanduwa (Heda Oya) | 0.44 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
