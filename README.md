@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--10_03:16:02-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--10_03:27:41-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **120,910 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **120,912 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-10 03:27:41 | Badalgama (Maha Oya) | 1.84 | 🟢 Normal | -0.008 |  |
+| 2026-04-10 03:22:02 | Dunamale (Aththanagalu Oya) | 0.44 | 🟢 Normal | 0.000 |  |
 | 2026-04-10 03:16:02 | Magura (Kalu Ganga) | 0.78 | 🟢 Normal | -0.018 |  |
 | 2026-04-10 03:14:59 | Thalgahagoda (Nilwala Ganga) | 0.32 | 🟢 Normal | -0.034 |  |
 | 2026-04-10 03:14:26 | Panadugama (Nilwala Ganga) | 1.80 | 🟢 Normal | 0.000 |  |
@@ -51,8 +53,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-10 03:01:10 | Nagalagam Street (Kelani Ganga) | 0.43 | 🟢 Normal | 0.061 | 🔺 Rising |
 | 2026-04-10 03:00:52 | Moragaswewa (Deduru Oya) | 0.00 | 🟢 Normal | 0.000 |  |
 | 2026-04-10 03:00:47 | Siyambalanduwa (Heda Oya) | 0.44 | 🟢 Normal | 0.000 |  |
-| 2026-04-10 02:46:48 | Horowpothana (Yan Oya) | 1.38 | 🟢 Normal | 0.036 | 🔺 Rising |
-| 2026-04-10 02:44:29 | Thaldena (Mahaweli Ganga) | 0.23 | 🟢 Normal | 0.033 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -82,9 +82,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-10 03:05:30 | Padiyathalawa (Maduru Oya) | 0.24 | 🟢 Normal | 0.000 |  |
 | 2026-04-10 03:02:09 | Moraketiya (Walawe Ganga) | 0.99 | 🟢 Normal | 0.000 |  |
 | 2026-04-10 03:00:47 | Siyambalanduwa (Heda Oya) | 0.44 | 🟢 Normal | 0.000 |  |
-| 2026-04-10 02:05:11 | Dunamale (Aththanagalu Oya) | 0.44 | 🟢 Normal | 0.000 |  |
+| 2026-04-10 03:22:02 | Dunamale (Aththanagalu Oya) | 0.44 | 🟢 Normal | 0.000 |  |
 | 2026-04-10 03:03:39 | Katharagama (Menik Ganga) | -0.12 | 🟢 Normal | 0.000 |  |
-| 2026-04-10 02:11:25 | Badalgama (Maha Oya) | 1.85 | 🟢 Normal | 0.000 |  |
 | 2026-04-10 02:10:56 | Holombuwa (Kelani Ganga) | 0.24 | 🟢 Normal | 0.000 |  |
 | 2026-04-10 03:06:29 | Rathnapura (Kalu Ganga) | 0.86 | 🟢 Normal | 0.000 |  |
 | 2026-04-09 18:04:07 | Thanthirimale (Malwathu Oya) | 1.36 | 🟢 Normal | 0.000 |  |
@@ -92,6 +91,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-10 03:08:07 | Kuda Oya (Kirindi Oya) | 1.13 | 🟢 Normal | 0.000 |  |
 | 2026-04-10 03:09:30 | Thanamalwila (Kirindi Oya) | 0.27 | 🟢 Normal | 0.000 |  |
 | 2026-04-10 01:52:00 | Thawalama (Gin Ganga) | 1.17 | 🟢 Normal | -0.005 |  |
+| 2026-04-10 03:27:41 | Badalgama (Maha Oya) | 1.84 | 🟢 Normal | -0.008 |  |
 | 2026-04-10 03:04:03 | Giriulla (Maha Oya) | 0.77 | 🟢 Normal | -0.010 |  |
 | 2026-04-10 03:16:02 | Magura (Kalu Ganga) | 0.78 | 🟢 Normal | -0.018 |  |
 | 2026-04-10 03:07:29 | Hanwella (Kelani Ganga) | 0.35 | 🟢 Normal | -0.019 |  |
@@ -198,10 +198,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Katharagama](images/stations/katharagama.png)
 
-### Badalgama (Maha Oya)
-
-![Badalgama](images/stations/badalgama.png)
-
 ### Holombuwa (Kelani Ganga)
 
 ![Holombuwa](images/stations/holombuwa.png)
@@ -229,6 +225,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thawalama (Gin Ganga)
 
 ![Thawalama](images/stations/thawalama.png)
+
+### Badalgama (Maha Oya)
+
+![Badalgama](images/stations/badalgama.png)
 
 ### Giriulla (Maha Oya)
 
