@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--11_03:24:55-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--11_03:38:18-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **121,801 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **121,802 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,9 +19,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-11 03:38:18 | Magura (Kalu Ganga) | 0.70 | 🟢 Normal | -0.030 |  |
 | 2026-04-11 03:24:55 | Horowpothana (Yan Oya) | 1.45 | 🟢 Normal | 0.000 |  |
 | 2026-04-11 03:21:00 | Putupaula (Kalu Ganga) | 0.45 | 🟢 Normal | 0.074 | 🔺 Rising |
-| 2026-04-11 03:18:34 | Magura (Kalu Ganga) | 0.71 | 🟢 Normal | -0.045 |  |
+| 2026-04-11 03:18:34 | Magura (Kalu Ganga) | 0.71 | 🟢 Normal | -0.030 |  |
 | 2026-04-11 03:17:53 | Nawalapitiya (Mahaweli Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-04-11 03:12:01 | Katharagama (Menik Ganga) | -0.14 | 🟢 Normal | 0.000 |  |
 | 2026-04-11 03:11:29 | Katharagama (Menik Ganga) | -0.14 | 🟢 Normal | 0.000 |  |
@@ -34,7 +35,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-11 03:06:10 | Wellawaya (Kirindi Oya) | 0.69 | 🟢 Normal | 0.000 |  |
 | 2026-04-11 03:05:56 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.32 | 🟢 Normal | 0.188 | 🔺 Rising |
 | 2026-04-11 03:05:22 | Kithulgala (Kelani Ganga) | 1.35 | 🟢 Normal | -0.165 |  |
-| 2026-04-11 03:05:11 | Magura (Kalu Ganga) | 0.72 | 🟢 Normal | -0.045 |  |
+| 2026-04-11 03:05:11 | Magura (Kalu Ganga) | 0.72 | 🟢 Normal | -0.030 |  |
 | 2026-04-11 03:05:00 | Baddegama (Gin Ganga) | 1.00 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-04-11 03:04:53 | Dunamale (Aththanagalu Oya) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-04-11 03:04:47 | Thawalama (Gin Ganga) | 1.48 | 🟢 Normal | -3.789 |  |
@@ -55,7 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-11 03:01:21 | Manampitiya (Mahaweli Ganga) | 0.23 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-04-11 03:01:04 | Thalgahagoda (Nilwala Ganga) | 0.26 | 🟢 Normal | -0.042 |  |
 | 2026-04-11 03:00:55 | Nakkala (Kumbukkan Oya) | 0.66 | 🟢 Normal | 0.000 |  |
-| 2026-04-11 02:47:31 | Dunamale (Aththanagalu Oya) | 0.42 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -97,8 +97,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-10 18:01:05 | Thanthirimale (Malwathu Oya) | 1.12 | 🟢 Normal | -0.010 |  |
 | 2026-04-11 03:07:38 | Hanwella (Kelani Ganga) | 0.28 | 🟢 Normal | -0.010 |  |
 | 2026-04-11 03:01:35 | Kuda Oya (Kirindi Oya) | 1.22 | 🟢 Normal | -0.011 |  |
+| 2026-04-11 03:38:18 | Magura (Kalu Ganga) | 0.70 | 🟢 Normal | -0.030 |  |
 | 2026-04-11 03:01:04 | Thalgahagoda (Nilwala Ganga) | 0.26 | 🟢 Normal | -0.042 |  |
-| 2026-04-11 03:18:34 | Magura (Kalu Ganga) | 0.71 | 🟢 Normal | -0.045 |  |
 | 2026-04-11 03:05:22 | Kithulgala (Kelani Ganga) | 1.35 | 🟢 Normal | -0.165 |  |
 | 2026-04-11 03:08:55 | Peradeniya (Mahaweli Ganga) | 1.42 | 🟢 Normal | -0.201 |  |
 | 2026-04-11 03:04:47 | Thawalama (Gin Ganga) | 1.48 | 🟢 Normal | -3.789 |  |
@@ -241,13 +241,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Kuda Oya](images/stations/kuda-oya.png)
 
-### Thalgahagoda (Nilwala Ganga)
-
-![Thalgahagoda](images/stations/thalgahagoda.png)
-
 ### Magura (Kalu Ganga)
 
 ![Magura](images/stations/magura.png)
+
+### Thalgahagoda (Nilwala Ganga)
+
+![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Kithulgala (Kelani Ganga)
 
