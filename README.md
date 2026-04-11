@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--11_11:12:16-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--11_11:36:06-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **122,102 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **122,103 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-11 11:36:06 | Padiyathalawa (Maduru Oya) | 0.22 | 🟢 Normal | 0.000 |  |
 | 2026-04-11 11:12:16 | Panadugama (Nilwala Ganga) | 3.23 | 🟢 Normal | 0.008 | 🔺 Rising |
 | 2026-04-11 11:11:35 | Thalgahagoda (Nilwala Ganga) | 0.69 | 🟢 Normal | 0.026 | 🔺 Rising |
 | 2026-04-11 11:11:25 | Peradeniya (Mahaweli Ganga) | 1.12 | 🟢 Normal | 0.018 | 🔺 Rising |
@@ -84,7 +85,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-11 11:03:24 | Norwood (Kelani Ganga) | 0.37 | 🟢 Normal | 0.000 |  |
 | 2026-04-11 11:02:10 | Hanwella (Kelani Ganga) | 0.44 | 🟢 Normal | 0.000 |  |
 | 2026-04-11 11:02:41 | Ellagawa (Kalu Ganga) | 3.94 | 🟢 Normal | 0.000 |  |
-| 2026-04-11 10:07:05 | Padiyathalawa (Maduru Oya) | 0.22 | 🟢 Normal | 0.000 |  |
+| 2026-04-11 11:36:06 | Padiyathalawa (Maduru Oya) | 0.22 | 🟢 Normal | 0.000 |  |
 | 2026-04-11 11:01:22 | Moraketiya (Walawe Ganga) | 1.01 | 🟢 Normal | 0.000 |  |
 | 2026-04-11 11:09:06 | Dunamale (Aththanagalu Oya) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-04-11 11:03:04 | Katharagama (Menik Ganga) | -0.11 | 🟢 Normal | 0.000 |  |
