@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--13_03:35:15-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--13_03:47:19-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **123,571 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **123,572 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-13 03:47:19 | Wellawaya (Kirindi Oya) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2026-04-13 03:35:15 | Putupaula (Kalu Ganga) | 0.54 | 🟢 Normal | 0.026 | 🔺 Rising |
 | 2026-04-13 03:17:10 | Thalgahagoda (Nilwala Ganga) | 0.35 | 🟢 Normal | 0.039 | 🔺 Rising |
 | 2026-04-13 03:16:41 | Deraniyagala (Kelani Ganga) | 0.82 | 🟢 Normal | -0.024 |  |
@@ -48,7 +49,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-13 03:01:58 | Ellagawa (Kalu Ganga) | 4.02 | 🟢 Normal | 0.118 | 🔺 Rising |
 | 2026-04-13 03:01:53 | Yaka Wewa (Ma Oya) | 0.56 | 🟢 Normal | 0.000 |  |
 | 2026-04-13 03:01:40 | Nawalapitiya (Mahaweli Ganga) | 0.64 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-04-13 03:01:19 | Wellawaya (Kirindi Oya) | 0.72 | 🟢 Normal | -0.010 |  |
+| 2026-04-13 03:01:19 | Wellawaya (Kirindi Oya) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2026-04-13 03:01:17 | Padiyathalawa (Maduru Oya) | 0.23 | 🟢 Normal | 0.000 |  |
 | 2026-04-13 03:00:49 | Moragaswewa (Deduru Oya) | 0.04 | 🟢 Normal | 0.000 |  |
 
@@ -71,6 +72,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-13 03:03:57 | Nakkala (Kumbukkan Oya) | 0.77 | 🟢 Normal | 0.019 | 🔺 Rising |
 | 2026-04-13 02:28:42 | Magura (Kalu Ganga) | 3.96 | 🟢 Normal | 0.015 | 🔺 Rising |
 | 2026-04-13 03:01:40 | Nawalapitiya (Mahaweli Ganga) | 0.64 | 🟢 Normal | 0.010 | 🔺 Rising |
+| 2026-04-13 03:47:19 | Wellawaya (Kirindi Oya) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2026-04-13 03:00:49 | Moragaswewa (Deduru Oya) | 0.04 | 🟢 Normal | 0.000 |  |
 | 2026-04-13 03:01:53 | Yaka Wewa (Ma Oya) | 0.56 | 🟢 Normal | 0.000 |  |
 | 2026-04-13 03:05:57 | Horowpothana (Yan Oya) | 1.48 | 🟢 Normal | 0.000 |  |
@@ -87,7 +89,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-13 02:03:43 | Urawa (Nilwala Ganga) | 0.03 | 🟢 Normal | 0.000 |  |
 | 2026-04-13 02:03:03 | Kuda Oya (Kirindi Oya) | 1.25 | 🟢 Normal | 0.000 |  |
 | 2026-04-13 03:09:52 | Thanamalwila (Kirindi Oya) | 0.34 | 🟢 Normal | 0.000 |  |
-| 2026-04-13 03:01:19 | Wellawaya (Kirindi Oya) | 0.72 | 🟢 Normal | -0.010 |  |
 | 2026-04-13 03:16:41 | Deraniyagala (Kelani Ganga) | 0.82 | 🟢 Normal | -0.024 |  |
 | 2026-04-13 03:07:52 | Rathnapura (Kalu Ganga) | 3.65 | 🟢 Normal | -0.029 |  |
 | 2026-04-13 03:12:58 | Nagalagam Street (Kelani Ganga) | 0.46 | 🟢 Normal | -0.031 |  |
@@ -152,6 +153,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Nawalapitiya](images/stations/nawalapitiya.png)
 
+### Wellawaya (Kirindi Oya)
+
+![Wellawaya](images/stations/wellawaya.png)
+
 ### Moragaswewa (Deduru Oya)
 
 ![Moragaswewa](images/stations/moragaswewa.png)
@@ -215,10 +220,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
-
-### Wellawaya (Kirindi Oya)
-
-![Wellawaya](images/stations/wellawaya.png)
 
 ### Deraniyagala (Kelani Ganga)
 
