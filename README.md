@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--16_04:08:14-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--16_04:18:53-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **126,295 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **126,296 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **31** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-16 04:18:53 | Kithulgala (Kelani Ganga) | 1.55 | 🟢 Normal | 0.301 | 🔺 Rising |
 | 2026-04-16 04:08:14 | Holombuwa (Kelani Ganga) | 0.22 | 🟢 Normal | 0.000 |  |
 | 2026-04-16 04:08:04 | Baddegama (Gin Ganga) | 1.17 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-04-16 04:06:41 | Urawa (Nilwala Ganga) | 0.03 | 🟢 Normal | 0.000 |  |
@@ -49,9 +50,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-16 04:00:58 | Pitabeddara (Nilwala Ganga) | 0.33 | 🟢 Normal | -2.006 |  |
 | 2026-04-16 04:00:27 | Manampitiya (Mahaweli Ganga) | 0.12 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-04-16 03:56:41 | Thawalama (Gin Ganga) | 1.56 | 🟢 Normal | 0.000 |  |
-| 2026-04-16 03:37:51 | Nakkala (Kumbukkan Oya) | 0.67 | 🟢 Normal | -0.024 |  |
-| 2026-04-16 03:36:15 | Urawa (Nilwala Ganga) | 0.03 | 🟢 Normal | 0.000 |  |
-| 2026-04-16 03:30:44 | Panadugama (Nilwala Ganga) | 2.07 | 🟢 Normal | 0.107 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -60,6 +58,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-04-16 04:01:23 | Kuda Oya (Kirindi Oya) | 2.80 | 🟢 Normal | 0.349 | 🔺 Rising |
+| 2026-04-16 04:18:53 | Kithulgala (Kelani Ganga) | 1.55 | 🟢 Normal | 0.301 | 🔺 Rising |
 | 2026-04-16 04:01:41 | Thanamalwila (Kirindi Oya) | 1.38 | 🟢 Normal | 0.261 | 🔺 Rising |
 | 2026-04-16 04:04:47 | Glencourse (Kelani Ganga) | 9.29 | 🟢 Normal | 0.255 | 🔺 Rising |
 | 2026-04-16 04:04:30 | Panadugama (Nilwala Ganga) | 2.13 | 🟢 Normal | 0.107 | 🔺 Rising |
@@ -94,7 +93,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-16 04:05:58 | Nagalagam Street (Kelani Ganga) | 0.46 | 🟢 Normal | -0.056 |  |
 | 2026-04-15 18:01:03 | Thanthirimale (Malwathu Oya) | 2.37 | 🟢 Normal | -0.062 |  |
 | 2026-04-16 04:04:14 | Peradeniya (Mahaweli Ganga) | 1.38 | 🟢 Normal | -0.132 |  |
-| 2026-04-16 03:03:08 | Kithulgala (Kelani Ganga) | 1.17 | 🟢 Normal | -0.263 |  |
 | 2026-04-16 03:00:16 | Wellawaya (Kirindi Oya) | 1.36 | 🟢 Normal | -0.528 |  |
 | 2026-04-16 04:00:58 | Pitabeddara (Nilwala Ganga) | 0.33 | 🟢 Normal | -2.006 |  |
 | 2026-04-16 03:16:18 | Magura (Kalu Ganga) | 1.35 | 🟢 Normal | -144.000 |  |
@@ -104,6 +102,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kuda Oya (Kirindi Oya)
 
 ![Kuda Oya](images/stations/kuda-oya.png)
+
+### Kithulgala (Kelani Ganga)
+
+![Kithulgala](images/stations/kithulgala.png)
 
 ### Thanamalwila (Kirindi Oya)
 
@@ -240,10 +242,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Peradeniya (Mahaweli Ganga)
 
 ![Peradeniya](images/stations/peradeniya.png)
-
-### Kithulgala (Kelani Ganga)
-
-![Kithulgala](images/stations/kithulgala.png)
 
 ### Wellawaya (Kirindi Oya)
 
