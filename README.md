@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **42** measurements in the last **1 hour**.*
+*There were **24** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -43,24 +43,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-15 15:02:51 | Giriulla (Maha Oya) | 0.87 | 🟢 Normal | 0.000 |  |
 | 2026-04-15 15:02:37 | Putupaula (Kalu Ganga) | 0.98 | 🟢 Normal | 0.176 | 🔺 Rising |
 | 2026-04-15 15:02:35 | Thalgahagoda (Nilwala Ganga) | 0.31 | 🟢 Normal | 0.056 | 🔺 Rising |
-| 2026-04-15 15:02:12 | Manampitiya (Mahaweli Ganga) | 0.13 | 🟢 Normal | -0.011 |  |
-| 2026-04-15 15:02:12 | Wellawaya (Kirindi Oya) | 0.91 | 🟢 Normal | 0.000 |  |
-| 2026-04-15 15:02:11 | Badalgama (Maha Oya) | 1.91 | 🟢 Normal | 0.000 |  |
-| 2026-04-15 15:02:09 | Norwood (Kelani Ganga) | 0.52 | 🟢 Normal | -0.010 |  |
-| 2026-04-15 15:02:08 | Katharagama (Menik Ganga) | -0.03 | 🟢 Normal | -0.010 |  |
-| 2026-04-15 15:02:05 | Weraganthota (Mahaweli Ganga) | -2.93 | 🟢 Normal | -0.117 |  |
-| 2026-04-15 15:01:55 | Moragaswewa (Deduru Oya) | 0.34 | 🟢 Normal | -0.010 |  |
-| 2026-04-15 15:01:53 | Pitabeddara (Nilwala Ganga) | 0.34 | 🟢 Normal | -0.024 |  |
-| 2026-04-15 15:01:46 | Panadugama (Nilwala Ganga) | 2.13 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-04-15 15:01:36 | Yaka Wewa (Ma Oya) | 0.56 | 🟢 Normal | 0.000 |  |
-| 2026-04-15 15:01:26 | Kuda Oya (Kirindi Oya) | 1.38 | 🟢 Normal | -0.011 |  |
-| 2026-04-15 15:01:25 | Thaldena (Mahaweli Ganga) | 0.35 | 🟢 Normal | 0.000 |  |
-| 2026-04-15 15:01:17 | Galgamuwa (Mee Oya) | 0.12 | 🟢 Normal | 0.000 |  |
-| 2026-04-15 15:01:10 | Nawalapitiya (Mahaweli Ganga) | 0.69 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-04-15 15:00:43 | Thanthirimale (Malwathu Oya) | 2.52 | 🟢 Normal | -0.041 |  |
-| 2026-04-15 15:00:41 | Horowpothana (Yan Oya) | 1.52 | 🟢 Normal | -0.010 |  |
-| 2026-04-15 15:00:21 | Nakkala (Kumbukkan Oya) | 0.68 | 🟢 Normal | 0.000 |  |
-| 2026-04-15 14:40:55 | Nagalagam Street (Kelani Ganga) | 0.85 | 🟢 Normal | -0.300 |  |
 
 ## Latest by Station
 
