@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--18_23:13:18-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--18_23:37:23-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **128,799 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **128,801 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **27** measurements in the last **1 hour**.*
+*There were **29** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-18 23:37:23 | Urawa (Nilwala Ganga) | -0.08 | 🟢 Normal | 0.000 |  |
+| 2026-04-18 23:37:22 | Thalgahagoda (Nilwala Ganga) | -0.08 | 🟢 Normal | -0.280 |  |
 | 2026-04-18 23:13:18 | Horowpothana (Yan Oya) | 1.30 | 🟢 Normal | 0.000 |  |
 | 2026-04-18 23:10:29 | Thaldena (Mahaweli Ganga) | 0.20 | 🟢 Normal | -0.019 |  |
 | 2026-04-18 23:07:35 | Badalgama (Maha Oya) | 1.86 | 🟢 Normal | 0.000 |  |
@@ -78,7 +80,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-18 23:06:58 | Katharagama (Menik Ganga) | -0.07 | 🟢 Normal | 0.000 |  |
 | 2026-04-18 23:07:35 | Badalgama (Maha Oya) | 1.86 | 🟢 Normal | 0.000 |  |
 | 2026-04-18 23:02:30 | Holombuwa (Kelani Ganga) | 0.15 | 🟢 Normal | 0.000 |  |
-| 2026-04-18 22:07:35 | Urawa (Nilwala Ganga) | -0.08 | 🟢 Normal | 0.000 |  |
+| 2026-04-18 23:37:23 | Urawa (Nilwala Ganga) | -0.08 | 🟢 Normal | 0.000 |  |
 | 2026-04-18 23:03:45 | Kuda Oya (Kirindi Oya) | 1.37 | 🟢 Normal | 0.000 |  |
 | 2026-04-18 23:06:25 | Thanamalwila (Kirindi Oya) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2026-04-18 23:01:08 | Moraketiya (Walawe Ganga) | 0.78 | 🟢 Normal | -0.010 |  |
@@ -86,12 +88,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-18 18:01:26 | Galgamuwa (Mee Oya) | -0.01 | 🟢 Normal | -0.011 |  |
 | 2026-04-18 22:16:22 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.49 | 🟢 Normal | -0.018 |  |
 | 2026-04-18 23:10:29 | Thaldena (Mahaweli Ganga) | 0.20 | 🟢 Normal | -0.019 |  |
-| 2026-04-18 22:05:08 | Thalgahagoda (Nilwala Ganga) | 0.35 | 🟢 Normal | -0.030 |  |
 | 2026-04-18 23:02:39 | Hanwella (Kelani Ganga) | 0.36 | 🟢 Normal | -0.032 |  |
 | 2026-04-18 23:04:05 | Thawalama (Gin Ganga) | 1.30 | 🟢 Normal | -0.041 |  |
 | 2026-04-18 23:02:41 | Kithulgala (Kelani Ganga) | 1.57 | 🟢 Normal | -0.042 |  |
 | 2026-04-18 18:01:40 | Weraganthota (Mahaweli Ganga) | -3.15 | 🟢 Normal | -0.068 |  |
 | 2026-04-18 22:04:09 | Putupaula (Kalu Ganga) | 0.37 | 🟢 Normal | -0.107 |  |
+| 2026-04-18 23:37:22 | Thalgahagoda (Nilwala Ganga) | -0.08 | 🟢 Normal | -0.280 |  |
 
 ## River Water Level Charts by Station
 
@@ -227,10 +229,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Thaldena](images/stations/thaldena.png)
 
-### Thalgahagoda (Nilwala Ganga)
-
-![Thalgahagoda](images/stations/thalgahagoda.png)
-
 ### Hanwella (Kelani Ganga)
 
 ![Hanwella](images/stations/hanwella.png)
@@ -250,6 +248,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Putupaula (Kalu Ganga)
 
 ![Putupaula](images/stations/putupaula.png)
+
+### Thalgahagoda (Nilwala Ganga)
+
+![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
