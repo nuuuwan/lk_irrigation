@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--18_19:17:52-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--18_19:22:58-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **128,662 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **128,663 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-18 19:22:58 | Putupaula (Kalu Ganga) | 0.67 | 🟢 Normal | -0.080 |  |
 | 2026-04-18 19:17:52 | Yaka Wewa (Ma Oya) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-04-18 19:16:02 | Thalgahagoda (Nilwala Ganga) | 0.48 | 🟢 Normal | -0.030 |  |
 | 2026-04-18 19:13:02 | Thanamalwila (Kirindi Oya) | 0.62 | 🟢 Normal | -0.035 |  |
@@ -54,7 +55,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-18 19:00:57 | Siyambalanduwa (Heda Oya) | 0.43 | 🟢 Normal | 0.000 |  |
 | 2026-04-18 19:00:55 | Nakkala (Kumbukkan Oya) | 0.64 | 🟢 Normal | -0.010 |  |
 | 2026-04-18 19:00:10 | Wellawaya (Kirindi Oya) | 0.81 | 🟢 Normal | -0.030 |  |
-| 2026-04-18 18:36:36 | Thalgahagoda (Nilwala Ganga) | 0.50 | 🟢 Normal | -0.030 |  |
 
 ## Latest by Station
 
@@ -99,7 +99,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-18 19:13:02 | Thanamalwila (Kirindi Oya) | 0.62 | 🟢 Normal | -0.035 |  |
 | 2026-04-18 19:02:21 | Glencourse (Kelani Ganga) | 8.41 | 🟢 Normal | -0.041 |  |
 | 2026-04-18 18:01:40 | Weraganthota (Mahaweli Ganga) | -3.15 | 🟢 Normal | -0.068 |  |
-| 2026-04-18 18:00:12 | Putupaula (Kalu Ganga) | 0.78 | 🟢 Normal | -0.121 |  |
+| 2026-04-18 19:22:58 | Putupaula (Kalu Ganga) | 0.67 | 🟢 Normal | -0.080 |  |
 | 2026-04-18 19:05:21 | Nagalagam Street (Kelani Ganga) | 0.46 | 🟢 Normal | -0.130 |  |
 
 ## River Water Level Charts by Station
