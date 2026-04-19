@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **20** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -39,23 +39,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-19 21:04:28 | Thanamalwila (Kirindi Oya) | 0.59 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-04-19 21:04:26 | Thaldena (Mahaweli Ganga) | 0.26 | 🟢 Normal | 0.022 | 🔺 Rising |
 | 2026-04-19 21:04:24 | Kuda Oya (Kirindi Oya) | 1.32 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 21:04:02 | Nawalapitiya (Mahaweli Ganga) | 0.75 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 21:03:28 | Moragaswewa (Deduru Oya) | -0.10 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 21:03:25 | Nagalagam Street (Kelani Ganga) | 0.46 | 🟢 Normal | -0.031 |  |
-| 2026-04-19 21:03:24 | Katharagama (Menik Ganga) | -0.07 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-04-19 21:03:22 | Magura (Kalu Ganga) | 0.93 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 21:03:13 | Giriulla (Maha Oya) | 0.74 | 🟢 Normal | -0.010 |  |
-| 2026-04-19 21:02:47 | Manampitiya (Mahaweli Ganga) | 0.50 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-04-19 21:02:39 | Nakkala (Kumbukkan Oya) | 0.62 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 21:02:29 | Urawa (Nilwala Ganga) | -0.01 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-04-19 21:02:24 | Wellawaya (Kirindi Oya) | 0.77 | 🟢 Normal | 0.019 | 🔺 Rising |
-| 2026-04-19 21:02:22 | Dunamale (Aththanagalu Oya) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 21:02:18 | Deraniyagala (Kelani Ganga) | 0.22 | 🟢 Normal | -0.110 |  |
-| 2026-04-19 21:02:06 | Yaka Wewa (Ma Oya) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 21:01:48 | Padiyathalawa (Maduru Oya) | 0.19 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 21:01:43 | Putupaula (Kalu Ganga) | 0.42 | 🟢 Normal | -0.115 |  |
-| 2026-04-19 21:01:43 | Thawalama (Gin Ganga) | 1.20 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-04-19 21:00:29 | Horowpothana (Yan Oya) | 1.34 | 🟢 Normal | 0.011 | 🔺 Rising |
 
 ## Latest by Station
 
