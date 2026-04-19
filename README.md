@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--19_17:16:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--19_17:31:07-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **129,459 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **129,461 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-19 17:31:07 | Yaka Wewa (Ma Oya) | 0.54 | 🟢 Normal | 0.000 |  |
+| 2026-04-19 17:31:00 | Giriulla (Maha Oya) | 0.76 | 🟢 Normal | 0.000 |  |
 | 2026-04-19 17:16:24 | Magura (Kalu Ganga) | 0.95 | 🟢 Normal | 0.000 |  |
 | 2026-04-19 17:13:36 | Baddegama (Gin Ganga) | 1.27 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-04-19 17:13:09 | Urawa (Nilwala Ganga) | -0.05 | 🟢 Normal | 0.044 | 🔺 Rising |
@@ -80,8 +82,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-19 17:02:35 | Wellawaya (Kirindi Oya) | 0.73 | 🟢 Normal | 0.000 |  |
 | 2026-04-19 17:01:56 | Nakkala (Kumbukkan Oya) | 0.62 | 🟢 Normal | 0.000 |  |
 | 2026-04-19 17:05:58 | Moragaswewa (Deduru Oya) | -0.10 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 16:04:17 | Yaka Wewa (Ma Oya) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 16:03:45 | Giriulla (Maha Oya) | 0.76 | 🟢 Normal | 0.000 |  |
+| 2026-04-19 17:31:07 | Yaka Wewa (Ma Oya) | 0.54 | 🟢 Normal | 0.000 |  |
+| 2026-04-19 17:31:00 | Giriulla (Maha Oya) | 0.76 | 🟢 Normal | 0.000 |  |
 | 2026-04-19 17:00:52 | Horowpothana (Yan Oya) | 1.32 | 🟢 Normal | 0.000 |  |
 | 2026-04-19 17:16:24 | Magura (Kalu Ganga) | 0.95 | 🟢 Normal | 0.000 |  |
 | 2026-04-19 17:01:59 | Pitabeddara (Nilwala Ganga) | 0.22 | 🟢 Normal | 0.000 |  |
