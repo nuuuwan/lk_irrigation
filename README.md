@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **20** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -39,22 +39,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-19 19:05:08 | Baddegama (Gin Ganga) | 1.17 | 🟢 Normal | -0.061 |  |
 | 2026-04-19 19:04:45 | Norwood (Kelani Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
 | 2026-04-19 19:04:44 | Hanwella (Kelani Ganga) | 0.47 | 🟢 Normal | -0.010 |  |
-| 2026-04-19 19:04:36 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | 0.301 | 🔺 Rising |
-| 2026-04-19 19:04:25 | Nawalapitiya (Mahaweli Ganga) | 0.82 | 🟢 Normal | -0.086 |  |
-| 2026-04-19 19:03:49 | Deraniyagala (Kelani Ganga) | 0.33 | 🟢 Normal | 0.120 | 🔺 Rising |
-| 2026-04-19 19:03:42 | Giriulla (Maha Oya) | 0.75 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 19:03:41 | Nagalagam Street (Kelani Ganga) | 0.55 | 🟢 Normal | -0.140 |  |
-| 2026-04-19 19:03:40 | Yaka Wewa (Ma Oya) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 19:03:37 | Magura (Kalu Ganga) | 0.94 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 19:03:14 | Manampitiya (Mahaweli Ganga) | 0.44 | 🟢 Normal | 0.099 | 🔺 Rising |
-| 2026-04-19 19:02:44 | Dunamale (Aththanagalu Oya) | 0.42 | 🟢 Normal | -0.010 |  |
-| 2026-04-19 19:02:30 | Kuda Oya (Kirindi Oya) | 1.32 | 🟢 Normal | -0.010 |  |
-| 2026-04-19 19:02:16 | Badalgama (Maha Oya) | 1.78 | 🟢 Normal | -0.010 |  |
-| 2026-04-19 19:02:09 | Thanamalwila (Kirindi Oya) | 0.58 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-04-19 19:01:41 | Moragaswewa (Deduru Oya) | -0.10 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 19:00:53 | Horowpothana (Yan Oya) | 1.33 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-04-19 19:00:13 | Thaldena (Mahaweli Ganga) | 0.25 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-04-19 19:00:11 | Nakkala (Kumbukkan Oya) | 0.62 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
