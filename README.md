@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -51,11 +51,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-19 20:02:23 | Padiyathalawa (Maduru Oya) | 0.19 | 🟢 Normal | 0.000 |  |
 | 2026-04-19 20:02:07 | Badalgama (Maha Oya) | 1.78 | 🟢 Normal | 0.000 |  |
 | 2026-04-19 20:01:58 | Panadugama (Nilwala Ganga) | 1.85 | 🟢 Normal | -0.011 |  |
-| 2026-04-19 20:00:52 | Thawalama (Gin Ganga) | 1.18 | 🟢 Normal | 0.024 | 🔺 Rising |
-| 2026-04-19 20:00:46 | Nawalapitiya (Mahaweli Ganga) | 0.75 | 🟢 Normal | -0.075 |  |
-| 2026-04-19 20:00:35 | Pitabeddara (Nilwala Ganga) | 0.22 | 🟢 Normal | 0.000 |  |
-| 2026-04-19 20:00:16 | Wellawaya (Kirindi Oya) | 0.75 | 🟢 Normal | 0.024 | 🔺 Rising |
-| 2026-04-19 20:00:15 | Nakkala (Kumbukkan Oya) | 0.62 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
