@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--20_01:18:45-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--20_01:39:31-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **129,739 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **129,740 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-20 01:39:31 | Horowpothana (Yan Oya) | 1.35 | 🟢 Normal | 0.000 |  |
 | 2026-04-20 01:18:45 | Pitabeddara (Nilwala Ganga) | 0.21 | 🟢 Normal | 0.000 |  |
 | 2026-04-20 01:18:43 | Baddegama (Gin Ganga) | 0.96 | 🟢 Normal | -0.018 |  |
 | 2026-04-20 01:17:34 | Thawalama (Gin Ganga) | 1.22 | 🟢 Normal | -0.009 |  |
@@ -46,7 +47,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-20 01:01:08 | Panadugama (Nilwala Ganga) | 1.00 | 🟢 Normal | -0.955 |  |
 | 2026-04-20 01:00:56 | Nakkala (Kumbukkan Oya) | 0.62 | 🟢 Normal | 0.000 |  |
 | 2026-04-20 01:00:32 | Thaldena (Mahaweli Ganga) | 0.28 | 🟢 Normal | -0.010 |  |
-| 2026-04-20 00:58:16 | Rathnapura (Kalu Ganga) | 0.98 | 🟢 Normal | 1.065 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -63,7 +63,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-20 01:00:56 | Nakkala (Kumbukkan Oya) | 0.62 | 🟢 Normal | 0.000 |  |
 | 2026-04-20 01:03:10 | Moragaswewa (Deduru Oya) | -0.11 | 🟢 Normal | 0.000 |  |
 | 2026-04-20 01:01:39 | Yaka Wewa (Ma Oya) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-04-20 00:02:27 | Horowpothana (Yan Oya) | 1.35 | 🟢 Normal | 0.000 |  |
+| 2026-04-20 01:39:31 | Horowpothana (Yan Oya) | 1.35 | 🟢 Normal | 0.000 |  |
 | 2026-04-20 01:03:12 | Magura (Kalu Ganga) | 0.91 | 🟢 Normal | 0.000 |  |
 | 2026-04-20 01:18:45 | Pitabeddara (Nilwala Ganga) | 0.21 | 🟢 Normal | 0.000 |  |
 | 2026-04-20 00:02:57 | Norwood (Kelani Ganga) | 0.42 | 🟢 Normal | 0.000 |  |
