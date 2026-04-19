@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **37** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -56,7 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-19 21:01:43 | Putupaula (Kalu Ganga) | 0.42 | 🟢 Normal | -0.115 |  |
 | 2026-04-19 21:01:43 | Thawalama (Gin Ganga) | 1.20 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-04-19 21:00:29 | Horowpothana (Yan Oya) | 1.34 | 🟢 Normal | 0.011 | 🔺 Rising |
-| 2026-04-19 20:35:14 | Yaka Wewa (Ma Oya) | 0.54 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
