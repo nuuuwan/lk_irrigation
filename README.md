@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--22_01:09:10-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--22_01:31:48-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **131,529 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **131,534 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,15 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **25** measurements in the last **1 hour**.*
+*There were **29** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-22 01:31:48 | Nawalapitiya (Mahaweli Ganga) | 0.95 | 🟢 Normal | -0.014 |  |
+| 2026-04-22 01:31:20 | Panadugama (Nilwala Ganga) | 2.66 | 🟢 Normal | -0.009 |  |
+| 2026-04-22 01:23:20 | Urawa (Nilwala Ganga) | 0.17 | 🟢 Normal | -0.008 |  |
+| 2026-04-22 01:17:26 | Kuda Oya (Kirindi Oya) | 2.94 | 🟢 Normal | 0.692 | 🔺 Rising |
+| 2026-04-22 01:15:23 | Thawalama (Gin Ganga) | 1.65 | 🟢 Normal | -0.127 |  |
 | 2026-04-22 01:09:10 | Norwood (Kelani Ganga) | 0.70 | 🟢 Normal | -0.019 |  |
 | 2026-04-22 01:07:12 | Katharagama (Menik Ganga) | 0.10 | 🟢 Normal | 0.000 |  |
 | 2026-04-22 01:07:12 | Baddegama (Gin Ganga) | 1.32 | 🟢 Normal | -0.020 |  |
@@ -43,7 +48,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-22 01:00:54 | Deraniyagala (Kelani Ganga) | 0.31 | 🟢 Normal | 0.071 | 🔺 Rising |
 | 2026-04-22 01:00:53 | Thalgahagoda (Nilwala Ganga) | 0.48 | 🟢 Normal | -0.040 |  |
 | 2026-04-22 01:00:11 | Peradeniya (Mahaweli Ganga) | 2.20 | 🟢 Normal | -0.033 |  |
-| 2026-04-22 00:27:10 | Pitabeddara (Nilwala Ganga) | 0.85 | 🟢 Normal | 0.061 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -51,8 +55,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-22 01:17:26 | Kuda Oya (Kirindi Oya) | 2.94 | 🟢 Normal | 0.692 | 🔺 Rising |
 | 2026-04-22 01:01:00 | Kithulgala (Kelani Ganga) | 1.55 | 🟢 Normal | 0.356 | 🔺 Rising |
-| 2026-04-22 00:04:26 | Thawalama (Gin Ganga) | 1.80 | 🟢 Normal | 0.096 | 🔺 Rising |
 | 2026-04-21 18:00:27 | Weraganthota (Mahaweli Ganga) | -3.01 | 🟢 Normal | 0.092 | 🔺 Rising |
 | 2026-04-22 01:00:54 | Deraniyagala (Kelani Ganga) | 0.31 | 🟢 Normal | 0.071 | 🔺 Rising |
 | 2026-04-22 01:06:40 | Pitabeddara (Nilwala Ganga) | 0.89 | 🟢 Normal | 0.061 | 🔺 Rising |
@@ -70,8 +74,9 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-22 01:07:12 | Katharagama (Menik Ganga) | 0.10 | 🟢 Normal | 0.000 |  |
 | 2026-04-22 00:02:47 | Manampitiya (Mahaweli Ganga) | 0.35 | 🟢 Normal | 0.000 |  |
 | 2026-04-21 18:01:44 | Thanthirimale (Malwathu Oya) | 1.53 | 🟢 Normal | 0.000 |  |
-| 2026-04-22 00:07:00 | Urawa (Nilwala Ganga) | 0.18 | 🟢 Normal | 0.000 |  |
-| 2026-04-21 23:11:06 | Panadugama (Nilwala Ganga) | 2.68 | 🟢 Normal | -0.010 |  |
+| 2026-04-22 01:23:20 | Urawa (Nilwala Ganga) | 0.17 | 🟢 Normal | -0.008 |  |
+| 2026-04-22 01:31:20 | Panadugama (Nilwala Ganga) | 2.66 | 🟢 Normal | -0.009 |  |
+| 2026-04-22 01:31:48 | Nawalapitiya (Mahaweli Ganga) | 0.95 | 🟢 Normal | -0.014 |  |
 | 2026-04-22 01:09:10 | Norwood (Kelani Ganga) | 0.70 | 🟢 Normal | -0.019 |  |
 | 2026-04-22 00:04:19 | Magura (Kalu Ganga) | 1.30 | 🟢 Normal | -0.020 |  |
 | 2026-04-22 01:07:12 | Baddegama (Gin Ganga) | 1.32 | 🟢 Normal | -0.020 |  |
@@ -87,19 +92,18 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-22 01:03:03 | Hanwella (Kelani Ganga) | 0.97 | 🟢 Normal | -0.087 |  |
 | 2026-04-22 01:02:01 | Ellagawa (Kalu Ganga) | 5.45 | 🟢 Normal | -0.100 |  |
 | 2026-04-22 01:06:39 | Holombuwa (Kelani Ganga) | 0.38 | 🟢 Normal | -0.109 |  |
+| 2026-04-22 01:15:23 | Thawalama (Gin Ganga) | 1.65 | 🟢 Normal | -0.127 |  |
 | 2026-04-22 01:03:54 | Thanamalwila (Kirindi Oya) | 3.28 | 🟢 Normal | -0.143 |  |
-| 2026-04-21 23:01:20 | Kuda Oya (Kirindi Oya) | 1.37 | 🟢 Normal | -2.043 |  |
-| 2026-04-22 00:04:03 | Nawalapitiya (Mahaweli Ganga) | 0.97 | 🟢 Normal | -2.483 |  |
 
 ## River Water Level Charts by Station
+
+### Kuda Oya (Kirindi Oya)
+
+![Kuda Oya](images/stations/kuda-oya.png)
 
 ### Kithulgala (Kelani Ganga)
 
 ![Kithulgala](images/stations/kithulgala.png)
-
-### Thawalama (Gin Ganga)
-
-![Thawalama](images/stations/thawalama.png)
 
 ### Weraganthota (Mahaweli Ganga)
 
@@ -177,6 +181,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Panadugama](images/stations/panadugama.png)
 
+### Nawalapitiya (Mahaweli Ganga)
+
+![Nawalapitiya](images/stations/nawalapitiya.png)
+
 ### Norwood (Kelani Ganga)
 
 ![Norwood](images/stations/norwood.png)
@@ -237,17 +245,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Holombuwa](images/stations/holombuwa.png)
 
+### Thawalama (Gin Ganga)
+
+![Thawalama](images/stations/thawalama.png)
+
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
-
-### Kuda Oya (Kirindi Oya)
-
-![Kuda Oya](images/stations/kuda-oya.png)
-
-### Nawalapitiya (Mahaweli Ganga)
-
-![Nawalapitiya](images/stations/nawalapitiya.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
