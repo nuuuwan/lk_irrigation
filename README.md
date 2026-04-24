@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--25_04:15:47-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--25_04:31:33-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **134,326 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **134,327 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **21** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-25 04:31:33 | Thaldena (Mahaweli Ganga) | 0.30 | 🟢 Normal | -0.021 |  |
 | 2026-04-25 04:15:47 | Baddegama (Gin Ganga) | 1.33 | 🟢 Normal | -0.017 |  |
 | 2026-04-25 04:13:51 | Hanwella (Kelani Ganga) | 1.05 | 🟢 Normal | 0.000 |  |
 | 2026-04-25 04:12:09 | Thawalama (Gin Ganga) | 1.59 | 🟢 Normal | 0.000 |  |
@@ -39,23 +40,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-25 04:04:15 | Thalgahagoda (Nilwala Ganga) | 0.52 | 🟢 Normal | -0.011 |  |
 | 2026-04-25 04:04:08 | Manampitiya (Mahaweli Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
 | 2026-04-25 04:04:08 | Wellawaya (Kirindi Oya) | 1.00 | 🟢 Normal | -0.010 |  |
-| 2026-04-25 04:03:56 | Kithulgala (Kelani Ganga) | 1.45 | 🟢 Normal | 0.332 | 🔺 Rising |
-| 2026-04-25 04:03:40 | Glencourse (Kelani Ganga) | 9.10 | 🟢 Normal | 0.000 |  |
-| 2026-04-25 04:03:39 | Thawalama (Gin Ganga) | 1.66 | 🟢 Normal | 0.000 |  |
-| 2026-04-25 04:03:35 | Yaka Wewa (Ma Oya) | 0.55 | 🟢 Normal | 0.000 |  |
-| 2026-04-25 04:03:17 | Thawalama (Gin Ganga) | 1.70 | 🟢 Normal | 0.000 |  |
-| 2026-04-25 04:03:00 | Deraniyagala (Kelani Ganga) | 0.46 | 🟢 Normal | 0.091 | 🔺 Rising |
-| 2026-04-25 04:02:28 | Magura (Kalu Ganga) | 1.43 | 🟢 Normal | -0.031 |  |
-| 2026-04-25 04:02:17 | Hanwella (Kelani Ganga) | 1.05 | 🟢 Normal | 0.000 |  |
-| 2026-04-25 04:01:43 | Horowpothana (Yan Oya) | 1.37 | 🟢 Normal | 0.000 |  |
-| 2026-04-25 04:01:42 | Thanamalwila (Kirindi Oya) | 1.42 | 🟢 Normal | 0.000 |  |
-| 2026-04-25 04:01:16 | Ellagawa (Kalu Ganga) | 4.86 | 🟢 Normal | -0.040 |  |
-| 2026-04-25 04:01:07 | Kuda Oya (Kirindi Oya) | 1.74 | 🟢 Normal | 0.011 | 🔺 Rising |
-| 2026-04-25 04:01:00 | Nawalapitiya (Mahaweli Ganga) | 0.76 | 🟢 Normal | 0.000 |  |
-| 2026-04-25 04:00:50 | Moragaswewa (Deduru Oya) | 0.95 | 🟢 Normal | 0.000 |  |
-| 2026-04-25 04:00:45 | Nakkala (Kumbukkan Oya) | 0.74 | 🟢 Normal | 0.000 |  |
-| 2026-04-25 03:47:53 | Putupaula (Kalu Ganga) | 0.54 | 🟢 Normal | 0.052 | 🔺 Rising |
-| 2026-04-25 03:43:49 | Siyambalanduwa (Heda Oya) | 0.47 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -94,7 +78,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-25 04:15:47 | Baddegama (Gin Ganga) | 1.33 | 🟢 Normal | -0.017 |  |
 | 2026-04-25 03:16:58 | Pitabeddara (Nilwala Ganga) | 0.73 | 🟢 Normal | -0.018 |  |
 | 2026-04-25 04:06:10 | Dunamale (Aththanagalu Oya) | 1.10 | 🟢 Normal | -0.020 |  |
-| 2026-04-25 03:05:50 | Thaldena (Mahaweli Ganga) | 0.33 | 🟢 Normal | -0.028 |  |
+| 2026-04-25 04:31:33 | Thaldena (Mahaweli Ganga) | 0.30 | 🟢 Normal | -0.021 |  |
 | 2026-04-24 18:04:10 | Weraganthota (Mahaweli Ganga) | -3.19 | 🟢 Normal | -0.028 |  |
 | 2026-04-25 04:07:59 | Holombuwa (Kelani Ganga) | 0.42 | 🟢 Normal | -0.029 |  |
 | 2026-04-25 04:02:28 | Magura (Kalu Ganga) | 1.43 | 🟢 Normal | -0.031 |  |
