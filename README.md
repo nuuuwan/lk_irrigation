@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--25_16:13:02-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--25_16:23:30-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **134,789 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **134,790 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-25 16:23:30 | Thalgahagoda (Nilwala Ganga) | 0.53 | 🟢 Normal | 0.040 | 🔺 Rising |
 | 2026-04-25 16:13:02 | Magura (Kalu Ganga) | 1.33 | 🟢 Normal | -0.009 |  |
 | 2026-04-25 16:09:05 | Putupaula (Kalu Ganga) | 0.63 | 🟢 Normal | 0.014 | 🔺 Rising |
 | 2026-04-25 16:08:46 | Giriulla (Maha Oya) | 1.08 | 🟢 Normal | -0.011 |  |
@@ -64,7 +65,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-04-25 16:02:57 | Deraniyagala (Kelani Ganga) | 0.36 | 🟢 Normal | 0.160 | 🔺 Rising |
-| 2026-04-25 15:23:15 | Thalgahagoda (Nilwala Ganga) | 0.49 | 🟢 Normal | 0.018 | 🔺 Rising |
+| 2026-04-25 16:23:30 | Thalgahagoda (Nilwala Ganga) | 0.53 | 🟢 Normal | 0.040 | 🔺 Rising |
 | 2026-04-25 16:09:05 | Putupaula (Kalu Ganga) | 0.63 | 🟢 Normal | 0.014 | 🔺 Rising |
 | 2026-04-25 16:08:02 | Peradeniya (Mahaweli Ganga) | 1.43 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-04-25 16:01:32 | Kithulgala (Kelani Ganga) | 1.45 | 🟢 Normal | 0.000 |  |
