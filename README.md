@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **20** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -39,22 +39,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-27 04:04:24 | Glencourse (Kelani Ganga) | 8.87 | 🟢 Normal | 0.067 | 🔺 Rising |
 | 2026-04-27 04:03:59 | Magura (Kalu Ganga) | 1.45 | 🟢 Normal | 0.050 | 🔺 Rising |
 | 2026-04-27 04:03:41 | Manampitiya (Mahaweli Ganga) | 0.20 | 🟢 Normal | -0.030 |  |
-| 2026-04-27 04:03:21 | Nakkala (Kumbukkan Oya) | 0.66 | 🟢 Normal | 0.000 |  |
-| 2026-04-27 04:03:18 | Nagalagam Street (Kelani Ganga) | 0.52 | 🟢 Normal | -0.061 |  |
-| 2026-04-27 04:03:10 | Moraketiya (Walawe Ganga) | 0.90 | 🟢 Normal | 0.080 | 🔺 Rising |
-| 2026-04-27 04:03:01 | Giriulla (Maha Oya) | 1.20 | 🟢 Normal | 0.039 | 🔺 Rising |
-| 2026-04-27 04:03:00 | Nawalapitiya (Mahaweli Ganga) | 0.67 | 🟢 Normal | -0.012 |  |
-| 2026-04-27 04:02:47 | Kithulgala (Kelani Ganga) | 1.49 | 🟢 Normal | 0.000 |  |
-| 2026-04-27 04:02:40 | Horowpothana (Yan Oya) | 1.34 | 🟢 Normal | 0.000 |  |
-| 2026-04-27 04:02:13 | Thawalama (Gin Ganga) | 2.57 | 🟢 Normal | -0.021 |  |
-| 2026-04-27 04:02:11 | Deraniyagala (Kelani Ganga) | 0.25 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-04-27 04:01:56 | Moragaswewa (Deduru Oya) | 0.55 | 🟢 Normal | -0.005 |  |
-| 2026-04-27 04:01:47 | Hanwella (Kelani Ganga) | 0.62 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-04-27 04:01:35 | Dunamale (Aththanagalu Oya) | 0.62 | 🟢 Normal | 0.000 |  |
-| 2026-04-27 04:01:34 | Peradeniya (Mahaweli Ganga) | 1.56 | 🟢 Normal | -0.063 |  |
-| 2026-04-27 04:01:15 | Ellagawa (Kalu Ganga) | 4.22 | 🟢 Normal | -0.010 |  |
-| 2026-04-27 04:00:19 | Wellawaya (Kirindi Oya) | 0.86 | 🟢 Normal | 0.000 |  |
-| 2026-04-27 04:00:17 | Wellawaya (Kirindi Oya) | 0.86 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
