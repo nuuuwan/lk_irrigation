@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--27_22:18:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--27_22:24:09-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **136,795 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **136,796 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **8** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-27 22:24:09 | Panadugama (Nilwala Ganga) | 2.79 | 🟢 Normal | 0.000 |  |
 | 2026-04-27 22:18:24 | Thalgahagoda (Nilwala Ganga) | 0.38 | 🟢 Normal | -0.021 |  |
 | 2026-04-27 22:17:02 | Urawa (Nilwala Ganga) | -0.02 | 🟢 Normal | -0.009 |  |
 | 2026-04-27 22:11:05 | Padiyathalawa (Maduru Oya) | 0.15 | 🟢 Normal | 0.000 |  |
@@ -26,35 +27,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-27 22:07:59 | Putupaula (Kalu Ganga) | 0.62 | 🟢 Normal | -0.072 |  |
 | 2026-04-27 22:07:14 | Rathnapura (Kalu Ganga) | 1.08 | 🟢 Normal | -0.029 |  |
 | 2026-04-27 22:06:16 | Nakkala (Kumbukkan Oya) | 0.66 | 🟢 Normal | 0.000 |  |
-| 2026-04-27 22:05:36 | Thanamalwila (Kirindi Oya) | 0.75 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-04-27 22:05:28 | Holombuwa (Kelani Ganga) | 0.80 | 🟢 Normal | -0.055 |  |
-| 2026-04-27 22:05:16 | Katharagama (Menik Ganga) | 0.12 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-04-27 22:04:43 | Glencourse (Kelani Ganga) | 8.71 | 🟢 Normal | 0.011 | 🔺 Rising |
-| 2026-04-27 22:04:36 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.49 | 🟢 Normal | -0.013 |  |
-| 2026-04-27 22:04:32 | Kithulgala (Kelani Ganga) | 1.56 | 🟢 Normal | -0.010 |  |
-| 2026-04-27 22:04:26 | Baddegama (Gin Ganga) | 1.58 | 🟢 Normal | -0.020 |  |
-| 2026-04-27 22:04:23 | Badalgama (Maha Oya) | 2.54 | 🟢 Normal | 0.032 | 🔺 Rising |
-| 2026-04-27 22:04:19 | Thaldena (Mahaweli Ganga) | 0.24 | 🟢 Normal | -0.019 |  |
-| 2026-04-27 22:03:41 | Thawalama (Gin Ganga) | 1.82 | 🟢 Normal | 0.133 | 🔺 Rising |
-| 2026-04-27 22:03:27 | Giriulla (Maha Oya) | 1.82 | 🟢 Normal | 0.000 |  |
-| 2026-04-27 22:03:19 | Norwood (Kelani Ganga) | 0.72 | 🟢 Normal | 0.000 |  |
-| 2026-04-27 22:03:06 | Pitabeddara (Nilwala Ganga) | 0.46 | 🟢 Normal | 0.046 | 🔺 Rising |
-| 2026-04-27 22:02:58 | Deraniyagala (Kelani Ganga) | 0.39 | 🟢 Normal | -0.010 |  |
-| 2026-04-27 22:02:49 | Magura (Kalu Ganga) | 1.24 | 🟢 Normal | -0.010 |  |
-| 2026-04-27 22:02:35 | Siyambalanduwa (Heda Oya) | 0.41 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-04-27 22:02:34 | Manampitiya (Mahaweli Ganga) | 0.04 | 🟢 Normal | 0.000 |  |
-| 2026-04-27 22:02:18 | Dunamale (Aththanagalu Oya) | 2.22 | 🟢 Normal | 0.221 | 🔺 Rising |
-| 2026-04-27 22:02:17 | Yaka Wewa (Ma Oya) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-04-27 22:02:09 | Ellagawa (Kalu Ganga) | 5.09 | 🟢 Normal | -0.071 |  |
-| 2026-04-27 22:01:32 | Peradeniya (Mahaweli Ganga) | 1.86 | 🟢 Normal | 0.121 | 🔺 Rising |
-| 2026-04-27 22:01:29 | Moragaswewa (Deduru Oya) | 0.42 | 🟢 Normal | -0.012 |  |
-| 2026-04-27 22:01:24 | Nagalagam Street (Kelani Ganga) | 0.52 | 🟢 Normal | 0.133 | 🔺 Rising |
-| 2026-04-27 22:01:12 | Kuda Oya (Kirindi Oya) | 1.39 | 🟢 Normal | 0.000 |  |
-| 2026-04-27 22:01:02 | Wellawaya (Kirindi Oya) | 1.08 | 🟢 Normal | 0.129 | 🔺 Rising |
-| 2026-04-27 22:00:48 | Moraketiya (Walawe Ganga) | 0.94 | 🟢 Normal | -0.010 |  |
-| 2026-04-27 22:00:44 | Horowpothana (Yan Oya) | 1.32 | 🟢 Normal | 0.000 |  |
-| 2026-04-27 22:00:26 | Nawalapitiya (Mahaweli Ganga) | 0.88 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-04-27 21:54:24 | Panadugama (Nilwala Ganga) | 2.79 | 🟢 Normal | -0.091 |  |
 
 ## Latest by Station
 
@@ -82,6 +54,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-27 22:03:27 | Giriulla (Maha Oya) | 1.82 | 🟢 Normal | 0.000 |  |
 | 2026-04-27 22:00:44 | Horowpothana (Yan Oya) | 1.32 | 🟢 Normal | 0.000 |  |
 | 2026-04-27 22:03:19 | Norwood (Kelani Ganga) | 0.72 | 🟢 Normal | 0.000 |  |
+| 2026-04-27 22:24:09 | Panadugama (Nilwala Ganga) | 2.79 | 🟢 Normal | 0.000 |  |
 | 2026-04-27 22:11:05 | Padiyathalawa (Maduru Oya) | 0.15 | 🟢 Normal | 0.000 |  |
 | 2026-04-27 22:02:34 | Manampitiya (Mahaweli Ganga) | 0.04 | 🟢 Normal | 0.000 |  |
 | 2026-04-27 18:03:04 | Thanthirimale (Malwathu Oya) | 1.84 | 🟢 Normal | 0.000 |  |
@@ -100,7 +73,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-27 22:05:28 | Holombuwa (Kelani Ganga) | 0.80 | 🟢 Normal | -0.055 |  |
 | 2026-04-27 22:02:09 | Ellagawa (Kalu Ganga) | 5.09 | 🟢 Normal | -0.071 |  |
 | 2026-04-27 22:07:59 | Putupaula (Kalu Ganga) | 0.62 | 🟢 Normal | -0.072 |  |
-| 2026-04-27 21:54:24 | Panadugama (Nilwala Ganga) | 2.79 | 🟢 Normal | -0.091 |  |
 
 ## River Water Level Charts by Station
 
@@ -184,6 +156,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Norwood](images/stations/norwood.png)
 
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
+
 ### Padiyathalawa (Maduru Oya)
 
 ![Padiyathalawa](images/stations/padiyathalawa.png)
@@ -255,10 +231,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Putupaula (Kalu Ganga)
 
 ![Putupaula](images/stations/putupaula.png)
-
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
