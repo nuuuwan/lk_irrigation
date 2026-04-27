@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--28_03:14:14-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--04--28_03:42:46-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **136,959 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **136,963 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,14 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **30** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-04-28 03:42:46 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.66 | 🟢 Normal | 7.448 | 🔺 Rising |
+| 2026-04-28 03:42:17 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.60 | 🟢 Normal | 7.448 | 🔺 Rising |
+| 2026-04-28 03:18:19 | Panadugama (Nilwala Ganga) | 2.45 | 🟢 Normal | -6.207 |  |
+| 2026-04-28 03:17:50 | Panadugama (Nilwala Ganga) | 2.50 | 🟢 Normal | -6.207 |  |
 | 2026-04-28 03:14:14 | Holombuwa (Kelani Ganga) | 0.56 | 🟢 Normal | -0.042 |  |
 | 2026-04-28 03:10:37 | Kuda Oya (Kirindi Oya) | 1.65 | 🟢 Normal | 0.138 | 🔺 Rising |
 | 2026-04-28 03:10:13 | Deraniyagala (Kelani Ganga) | 0.36 | 🟢 Normal | -0.009 |  |
@@ -56,7 +60,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-04-28 01:57:13 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.54 | 🟢 Normal | 3.857 | 🔺 Rising |
+| 2026-04-28 03:42:46 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.66 | 🟢 Normal | 7.448 | 🔺 Rising |
 | 2026-04-28 03:05:22 | Thanamalwila (Kirindi Oya) | 1.36 | 🟢 Normal | 0.556 | 🔺 Rising |
 | 2026-04-28 03:06:02 | Glencourse (Kelani Ganga) | 9.63 | 🟢 Normal | 0.348 | 🔺 Rising |
 | 2026-04-28 03:09:04 | Hanwella (Kelani Ganga) | 1.05 | 🟢 Normal | 0.142 | 🔺 Rising |
@@ -92,9 +96,9 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-04-28 03:14:14 | Holombuwa (Kelani Ganga) | 0.56 | 🟢 Normal | -0.042 |  |
 | 2026-04-28 03:01:09 | Nawalapitiya (Mahaweli Ganga) | 0.86 | 🟢 Normal | -0.043 |  |
 | 2026-04-28 03:05:48 | Nagalagam Street (Kelani Ganga) | 0.55 | 🟢 Normal | -0.057 |  |
-| 2026-04-28 01:17:25 | Panadugama (Nilwala Ganga) | 2.57 | 🟢 Normal | -0.065 |  |
 | 2026-04-28 01:03:58 | Putupaula (Kalu Ganga) | 0.40 | 🟢 Normal | -0.075 |  |
 | 2026-04-28 03:01:08 | Peradeniya (Mahaweli Ganga) | 1.36 | 🟢 Normal | -0.123 |  |
+| 2026-04-28 03:18:19 | Panadugama (Nilwala Ganga) | 2.45 | 🟢 Normal | -6.207 |  |
 
 ## River Water Level Charts by Station
 
@@ -242,10 +246,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Nagalagam Street](images/stations/nagalagam-street.png)
 
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
-
 ### Putupaula (Kalu Ganga)
 
 ![Putupaula](images/stations/putupaula.png)
@@ -253,6 +253,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Peradeniya (Mahaweli Ganga)
 
 ![Peradeniya](images/stations/peradeniya.png)
+
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
