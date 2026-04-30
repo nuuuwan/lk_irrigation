@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--01_01:18:44-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--01_01:21:14-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **139,555 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **139,557 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-05-01 01:21:14 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.98 | 🟢 Normal | -1.286 |  |
+| 2026-05-01 01:20:46 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.99 | 🟢 Normal | -1.286 |  |
 | 2026-05-01 01:18:44 | Ellagawa (Kalu Ganga) | 4.34 | 🟢 Normal | 0.000 |  |
 | 2026-05-01 01:14:22 | Panadugama (Nilwala Ganga) | 2.07 | 🟢 Normal | 0.013 | 🔺 Rising |
 | 2026-05-01 01:11:26 | Padiyathalawa (Maduru Oya) | 0.31 | 🟢 Normal | 0.000 |  |
@@ -47,8 +49,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-01 01:02:02 | Moraketiya (Walawe Ganga) | 0.86 | 🟢 Normal | 0.000 |  |
 | 2026-05-01 01:01:28 | Glencourse (Kelani Ganga) | 8.80 | 🟢 Normal | 0.000 |  |
 | 2026-05-01 01:00:16 | Peradeniya (Mahaweli Ganga) | 1.92 | 🟢 Normal | 0.144 | 🔺 Rising |
-| 2026-05-01 00:31:56 | Dunamale (Aththanagalu Oya) | 0.84 | 🟢 Normal | 0.000 |  |
-| 2026-05-01 00:28:04 | Panadugama (Nilwala Ganga) | 2.06 | 🟢 Normal | 0.013 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -80,7 +80,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-01 01:05:10 | Kuda Oya (Kirindi Oya) | 1.37 | 🟢 Normal | 0.000 |  |
 | 2026-05-01 01:07:11 | Siyambalanduwa (Heda Oya) | 0.41 | 🟢 Normal | -0.005 |  |
 | 2026-04-30 23:10:59 | Horowpothana (Yan Oya) | 1.99 | 🟢 Normal | -0.009 |  |
-| 2026-04-30 22:13:24 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.00 | 🟢 Normal | -0.009 |  |
 | 2026-05-01 01:02:25 | Badalgama (Maha Oya) | 2.33 | 🟢 Normal | -0.010 |  |
 | 2026-04-30 18:02:01 | Weraganthota (Mahaweli Ganga) | -3.16 | 🟢 Normal | -0.010 |  |
 | 2026-05-01 01:02:14 | Giriulla (Maha Oya) | 1.16 | 🟢 Normal | -0.010 |  |
@@ -95,6 +94,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-01 00:05:52 | Rathnapura (Kalu Ganga) | 2.58 | 🟢 Normal | -0.161 |  |
 | 2026-04-30 23:02:51 | Yaka Wewa (Ma Oya) | 1.51 | 🟢 Normal | -0.247 |  |
 | 2026-05-01 00:01:47 | Nawalapitiya (Mahaweli Ganga) | 0.80 | 🟢 Normal | -1.241 |  |
+| 2026-05-01 01:21:14 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.98 | 🟢 Normal | -1.286 |  |
 
 ## River Water Level Charts by Station
 
@@ -194,10 +194,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Horowpothana](images/stations/horowpothana.png)
 
-### Kalawellawa (Millakanda) (Kalu Ganga)
-
-![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
-
 ### Badalgama (Maha Oya)
 
 ![Badalgama](images/stations/badalgama.png)
@@ -253,6 +249,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Nawalapitiya (Mahaweli Ganga)
 
 ![Nawalapitiya](images/stations/nawalapitiya.png)
+
+### Kalawellawa (Millakanda) (Kalu Ganga)
+
+![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
