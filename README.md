@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--06_05:19:26-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--06_05:27:48-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **144,114 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **144,115 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-05-06 05:27:48 | Peradeniya (Mahaweli Ganga) | 1.22 | 🟢 Normal | -0.096 |  |
 | 2026-05-06 05:19:26 | Baddegama (Gin Ganga) | 0.83 | 🟢 Normal | 0.000 |  |
 | 2026-05-06 05:18:32 | Thaldena (Mahaweli Ganga) | 0.33 | 🟢 Normal | -0.017 |  |
 | 2026-05-06 05:18:16 | Pitabeddara (Nilwala Ganga) | 0.22 | 🟢 Normal | 0.000 |  |
@@ -56,7 +57,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-06 05:01:13 | Nawalapitiya (Mahaweli Ganga) | 0.68 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-05-06 05:01:04 | Wellawaya (Kirindi Oya) | 1.20 | 🟢 Normal | -0.039 |  |
 | 2026-05-06 05:00:45 | Thalgahagoda (Nilwala Ganga) | 0.20 | 🟢 Normal | 0.014 | 🔺 Rising |
-| 2026-05-06 04:46:45 | Deraniyagala (Kelani Ganga) | 0.19 | 🟢 Normal | -0.091 |  |
 
 ## Latest by Station
 
@@ -102,7 +102,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-06 05:03:21 | Thawalama (Gin Ganga) | 1.25 | 🟢 Normal | -0.048 |  |
 | 2026-05-06 05:12:36 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.02 | 🟢 Normal | -0.057 |  |
 | 2026-05-06 05:06:29 | Deraniyagala (Kelani Ganga) | 0.16 | 🟢 Normal | -0.091 |  |
-| 2026-05-06 04:00:27 | Peradeniya (Mahaweli Ganga) | 1.36 | 🟢 Normal | -0.123 |  |
+| 2026-05-06 05:27:48 | Peradeniya (Mahaweli Ganga) | 1.22 | 🟢 Normal | -0.096 |  |
 
 ## River Water Level Charts by Station
 
