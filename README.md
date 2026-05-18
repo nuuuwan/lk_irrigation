@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_04:15:52-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--19_04:16:54-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **155,750 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **155,751 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **30** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-05-19 04:16:54 | Pitabeddara (Nilwala Ganga) | 0.57 | 🟢 Normal | -0.003 |  |
 | 2026-05-19 04:15:52 | Wellawaya (Kirindi Oya) | 1.09 | 🟢 Normal | 0.000 |  |
 | 2026-05-19 04:10:02 | Magura (Kalu Ganga) | 1.94 | 🟢 Normal | -0.019 |  |
 | 2026-05-19 04:08:23 | Ellagawa (Kalu Ganga) | 5.60 | 🟢 Normal | -0.028 |  |
@@ -48,10 +49,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-19 04:00:38 | Thalgahagoda (Nilwala Ganga) | 0.45 | 🟢 Normal | -0.030 |  |
 | 2026-05-19 04:00:16 | Peradeniya (Mahaweli Ganga) | 1.65 | 🟢 Normal | 0.000 |  |
 | 2026-05-19 04:00:00 | Horowpothana (Yan Oya) | 1.86 | 🟢 Normal | -0.024 |  |
-| 2026-05-19 03:53:23 | Norwood (Kelani Ganga) | 0.72 | 🟢 Normal | 0.014 | 🔺 Rising |
-| 2026-05-19 03:44:18 | Thawalama (Gin Ganga) | 1.73 | 🟢 Normal | -0.025 |  |
-| 2026-05-19 03:27:33 | Panadugama (Nilwala Ganga) | 2.62 | 🟢 Normal | -0.012 |  |
-| 2026-05-19 03:25:00 | Kalawellawa (Millakanda) (Kalu Ganga) | 4.44 | 🟢 Normal | -0.068 |  |
 
 ## Latest by Station
 
@@ -75,6 +72,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-19 03:02:50 | Katharagama (Menik Ganga) | 0.07 | 🟢 Normal | 0.000 |  |
 | 2026-05-19 04:06:54 | Badalgama (Maha Oya) | 2.95 | 🟢 Normal | 0.000 |  |
 | 2026-05-19 04:00:16 | Peradeniya (Mahaweli Ganga) | 1.65 | 🟢 Normal | 0.000 |  |
+| 2026-05-19 04:16:54 | Pitabeddara (Nilwala Ganga) | 0.57 | 🟢 Normal | -0.003 |  |
 | 2026-05-19 04:01:50 | Yaka Wewa (Ma Oya) | 0.61 | 🟢 Normal | -0.005 |  |
 | 2026-05-19 04:03:06 | Deraniyagala (Kelani Ganga) | 0.77 | 🟢 Normal | -0.010 |  |
 | 2026-05-19 04:03:22 | Nawalapitiya (Mahaweli Ganga) | 1.07 | 🟢 Normal | -0.010 |  |
@@ -87,7 +85,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-19 04:04:39 | Dunamale (Aththanagalu Oya) | 1.91 | 🟢 Normal | -0.020 |  |
 | 2026-05-19 04:03:52 | Urawa (Nilwala Ganga) | 0.27 | 🟢 Normal | -0.020 |  |
 | 2026-05-19 04:01:54 | Manampitiya (Mahaweli Ganga) | 0.41 | 🟢 Normal | -0.020 |  |
-| 2026-05-19 01:03:56 | Pitabeddara (Nilwala Ganga) | 0.58 | 🟢 Normal | -0.022 |  |
 | 2026-05-19 04:00:00 | Horowpothana (Yan Oya) | 1.86 | 🟢 Normal | -0.024 |  |
 | 2026-05-19 04:08:17 | Thawalama (Gin Ganga) | 1.72 | 🟢 Normal | -0.025 |  |
 | 2026-05-19 04:08:23 | Ellagawa (Kalu Ganga) | 5.60 | 🟢 Normal | -0.028 |  |
@@ -165,6 +162,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Peradeniya](images/stations/peradeniya.png)
 
+### Pitabeddara (Nilwala Ganga)
+
+![Pitabeddara](images/stations/pitabeddara.png)
+
 ### Yaka Wewa (Ma Oya)
 
 ![Yaka Wewa](images/stations/yaka-wewa.png)
@@ -212,10 +213,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Manampitiya (Mahaweli Ganga)
 
 ![Manampitiya](images/stations/manampitiya.png)
-
-### Pitabeddara (Nilwala Ganga)
-
-![Pitabeddara](images/stations/pitabeddara.png)
 
 ### Horowpothana (Yan Oya)
 
