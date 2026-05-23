@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--23_20:14:43-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--23_20:23:39-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **159,923 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **159,924 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-05-23 20:23:39 | Thalgahagoda (Nilwala Ganga) | 0.33 | 🟢 Normal | 0.038 | 🔺 Rising |
 | 2026-05-23 20:14:43 | Dunamale (Aththanagalu Oya) | 4.80 | 🟠 Minor Flood | -0.042 |  |
 | 2026-05-23 20:13:24 | Baddegama (Gin Ganga) | 2.27 | 🟢 Normal | -0.025 |  |
 | 2026-05-23 20:09:32 | Thaldena (Mahaweli Ganga) | 0.28 | 🟢 Normal | -0.028 |  |
@@ -57,8 +58,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-23 20:00:37 | Moraketiya (Walawe Ganga) | 0.95 | 🟢 Normal | 0.000 |  |
 | 2026-05-23 20:00:34 | Moraketiya (Walawe Ganga) | 0.96 | 🟢 Normal | 0.000 |  |
 | 2026-05-23 20:00:27 | Manampitiya (Mahaweli Ganga) | 0.10 | 🟢 Normal | 0.000 |  |
-| 2026-05-23 19:36:29 | Thalgahagoda (Nilwala Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
-| 2026-05-23 19:31:54 | Thanamalwila (Kirindi Oya) | 0.71 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -73,6 +72,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-23 20:04:58 | Rathnapura (Kalu Ganga) | 5.46 | 🟡 Alert | -0.076 |  |
 | 2026-05-23 20:07:12 | Kithulgala (Kelani Ganga) | 2.00 | 🟢 Normal | 0.154 | 🔺 Rising |
 | 2026-05-23 20:03:31 | Peradeniya (Mahaweli Ganga) | 1.56 | 🟢 Normal | 0.038 | 🔺 Rising |
+| 2026-05-23 20:23:39 | Thalgahagoda (Nilwala Ganga) | 0.33 | 🟢 Normal | 0.038 | 🔺 Rising |
 | 2026-05-23 18:00:13 | Weraganthota (Mahaweli Ganga) | -3.30 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-05-23 20:03:49 | Wellawaya (Kirindi Oya) | 0.92 | 🟢 Normal | 0.000 |  |
 | 2026-05-23 20:01:53 | Nakkala (Kumbukkan Oya) | 0.70 | 🟢 Normal | 0.000 |  |
@@ -88,7 +88,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-23 20:03:46 | Katharagama (Menik Ganga) | -0.11 | 🟢 Normal | 0.000 |  |
 | 2026-05-23 20:06:44 | Holombuwa (Kelani Ganga) | 0.64 | 🟢 Normal | 0.000 |  |
 | 2026-05-23 20:00:27 | Manampitiya (Mahaweli Ganga) | 0.10 | 🟢 Normal | 0.000 |  |
-| 2026-05-23 19:36:29 | Thalgahagoda (Nilwala Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
 | 2026-05-23 20:03:03 | Kuda Oya (Kirindi Oya) | 1.31 | 🟢 Normal | 0.000 |  |
 | 2026-05-23 20:04:15 | Thanamalwila (Kirindi Oya) | 0.71 | 🟢 Normal | 0.000 |  |
 | 2026-05-23 18:01:26 | Thanthirimale (Malwathu Oya) | 1.37 | 🟢 Normal | -0.010 |  |
@@ -135,6 +134,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Peradeniya (Mahaweli Ganga)
 
 ![Peradeniya](images/stations/peradeniya.png)
+
+### Thalgahagoda (Nilwala Ganga)
+
+![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Weraganthota (Mahaweli Ganga)
 
@@ -195,10 +198,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Manampitiya (Mahaweli Ganga)
 
 ![Manampitiya](images/stations/manampitiya.png)
-
-### Thalgahagoda (Nilwala Ganga)
-
-![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Kuda Oya (Kirindi Oya)
 
