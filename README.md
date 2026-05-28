@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--29_04:12:13-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--29_04:43:51-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **164,484 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **164,486 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,12 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **29** measurements in the last **1 hour**.*
+*There were **31** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-05-29 04:43:51 | Thanamalwila (Kirindi Oya) | 0.78 | 🟢 Normal | 0.025 | 🔺 Rising |
+| 2026-05-29 04:40:07 | Wellawaya (Kirindi Oya) | 1.05 | 🟢 Normal | -0.019 |  |
 | 2026-05-29 04:12:13 | Yaka Wewa (Ma Oya) | 0.53 | 🟢 Normal | 0.000 |  |
 | 2026-05-29 04:08:03 | Katharagama (Menik Ganga) | -0.14 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-05-29 04:07:20 | Holombuwa (Kelani Ganga) | 0.91 | 🟢 Normal | -0.161 |  |
@@ -60,8 +62,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-29 04:03:23 | Magura (Kalu Ganga) | 4.72 | 🟡 Alert | -0.060 |  |
 | 2026-05-29 04:01:39 | Kuda Oya (Kirindi Oya) | 1.57 | 🟢 Normal | 0.080 | 🔺 Rising |
 | 2026-05-29 04:02:49 | Hanwella (Kelani Ganga) | 3.96 | 🟢 Normal | 0.067 | 🔺 Rising |
-| 2026-05-29 03:06:01 | Thanamalwila (Kirindi Oya) | 0.74 | 🟢 Normal | 0.065 | 🔺 Rising |
 | 2026-05-29 04:00:17 | Moraketiya (Walawe Ganga) | 0.92 | 🟢 Normal | 0.030 | 🔺 Rising |
+| 2026-05-29 04:43:51 | Thanamalwila (Kirindi Oya) | 0.78 | 🟢 Normal | 0.025 | 🔺 Rising |
 | 2026-05-29 03:06:25 | Thalgahagoda (Nilwala Ganga) | 0.76 | 🟢 Normal | 0.016 | 🔺 Rising |
 | 2026-05-29 04:00:32 | Glencourse (Kelani Ganga) | 12.13 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-05-29 04:02:00 | Manampitiya (Mahaweli Ganga) | 0.02 | 🟢 Normal | 0.010 | 🔺 Rising |
@@ -81,8 +83,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-29 04:04:59 | Badalgama (Maha Oya) | 2.36 | 🟢 Normal | 0.000 |  |
 | 2026-05-28 18:02:12 | Thanthirimale (Malwathu Oya) | 1.21 | 🟢 Normal | 0.000 |  |
 | 2026-05-28 18:32:56 | Weraganthota (Mahaweli Ganga) | -3.27 | 🟢 Normal | -0.013 |  |
+| 2026-05-29 04:40:07 | Wellawaya (Kirindi Oya) | 1.05 | 🟢 Normal | -0.019 |  |
 | 2026-05-29 04:01:03 | Thaldena (Mahaweli Ganga) | 0.36 | 🟢 Normal | -0.021 |  |
-| 2026-05-29 03:05:26 | Wellawaya (Kirindi Oya) | 1.08 | 🟢 Normal | -0.028 |  |
 | 2026-05-29 04:05:46 | Nagalagam Street (Kelani Ganga) | 0.61 | 🟢 Normal | -0.030 |  |
 | 2026-05-29 04:03:49 | Deraniyagala (Kelani Ganga) | 1.78 | 🟢 Normal | -0.051 |  |
 | 2026-05-29 04:04:28 | Nawalapitiya (Mahaweli Ganga) | 1.84 | 🟢 Normal | -0.078 |  |
@@ -117,13 +119,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Hanwella](images/stations/hanwella.png)
 
-### Thanamalwila (Kirindi Oya)
-
-![Thanamalwila](images/stations/thanamalwila.png)
-
 ### Moraketiya (Walawe Ganga)
 
 ![Moraketiya](images/stations/moraketiya.png)
+
+### Thanamalwila (Kirindi Oya)
+
+![Thanamalwila](images/stations/thanamalwila.png)
 
 ### Thalgahagoda (Nilwala Ganga)
 
@@ -201,13 +203,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ![Weraganthota](images/stations/weraganthota.png)
 
-### Thaldena (Mahaweli Ganga)
-
-![Thaldena](images/stations/thaldena.png)
-
 ### Wellawaya (Kirindi Oya)
 
 ![Wellawaya](images/stations/wellawaya.png)
+
+### Thaldena (Mahaweli Ganga)
+
+![Thaldena](images/stations/thaldena.png)
 
 ### Nagalagam Street (Kelani Ganga)
 
