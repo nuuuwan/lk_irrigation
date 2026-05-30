@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--30_23:10:26-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--30_23:28:45-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **166,101 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **166,102 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **31** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-05-30 23:28:45 | Kalawellawa (Millakanda) (Kalu Ganga) | 6.01 | 🟡 Alert | -0.022 |  |
 | 2026-05-30 23:10:26 | Katharagama (Menik Ganga) | -0.19 | 🟢 Normal | 0.000 |  |
 | 2026-05-30 23:10:19 | Holombuwa (Kelani Ganga) | 0.51 | 🟢 Normal | 0.000 |  |
 | 2026-05-30 23:10:10 | Ellagawa (Kalu Ganga) | 6.75 | 🟢 Normal | -0.092 |  |
@@ -57,7 +58,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-05-30 22:06:58 | Kalawellawa (Millakanda) (Kalu Ganga) | 6.04 | 🟡 Alert | -0.037 |  |
+| 2026-05-30 23:28:45 | Kalawellawa (Millakanda) (Kalu Ganga) | 6.01 | 🟡 Alert | -0.022 |  |
 | 2026-05-30 23:09:06 | Nagalagam Street (Kelani Ganga) | 0.46 | 🟢 Normal | 0.085 | 🔺 Rising |
 | 2026-05-30 23:00:49 | Glencourse (Kelani Ganga) | 10.45 | 🟢 Normal | 0.052 | 🔺 Rising |
 | 2026-05-30 23:04:18 | Peradeniya (Mahaweli Ganga) | 1.67 | 🟢 Normal | 0.049 | 🔺 Rising |
