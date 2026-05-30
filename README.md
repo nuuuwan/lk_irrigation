@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--30_22:12:17-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--05--30_22:20:36-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **166,069 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **166,070 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,11 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-05-30 22:20:36 | Panadugama (Nilwala Ganga) | 3.23 | 🟢 Normal | -0.016 |  |
 | 2026-05-30 22:12:17 | Thalgahagoda (Nilwala Ganga) | 0.60 | 🟢 Normal | -0.035 |  |
 | 2026-05-30 22:11:08 | Padiyathalawa (Maduru Oya) | 0.12 | 🟢 Normal | 0.000 |  |
 | 2026-05-30 22:09:34 | Norwood (Kelani Ganga) | 0.56 | 🟢 Normal | 0.000 |  |
@@ -88,7 +89,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-05-30 22:03:23 | Badalgama (Maha Oya) | 2.28 | 🟢 Normal | -0.010 |  |
 | 2026-05-30 22:01:47 | Rathnapura (Kalu Ganga) | 2.23 | 🟢 Normal | -0.010 |  |
 | 2026-05-30 22:00:55 | Nawalapitiya (Mahaweli Ganga) | 1.43 | 🟢 Normal | -0.010 |  |
-| 2026-05-30 21:03:58 | Panadugama (Nilwala Ganga) | 3.25 | 🟢 Normal | -0.011 |  |
+| 2026-05-30 22:20:36 | Panadugama (Nilwala Ganga) | 3.23 | 🟢 Normal | -0.016 |  |
 | 2026-05-30 22:03:52 | Thawalama (Gin Ganga) | 2.03 | 🟢 Normal | -0.020 |  |
 | 2026-05-30 22:04:41 | Putupaula (Kalu Ganga) | 2.42 | 🟢 Normal | -0.021 |  |
 | 2026-05-30 22:06:57 | Baddegama (Gin Ganga) | 2.54 | 🟢 Normal | -0.029 |  |
