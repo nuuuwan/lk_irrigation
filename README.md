@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--06--14_03:12:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--06--14_03:24:56-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **178,787 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **178,788 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -19,6 +19,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-06-14 03:24:56 | Ellagawa (Kalu Ganga) | 8.55 | 🟢 Normal | -0.022 |  |
 | 2026-06-14 03:12:24 | Kithulgala (Kelani Ganga) | 1.87 | 🟢 Normal | 0.000 |  |
 | 2026-06-14 03:10:18 | Deraniyagala (Kelani Ganga) | 1.32 | 🟢 Normal | 0.000 |  |
 | 2026-06-14 03:09:56 | Pitabeddara (Nilwala Ganga) | 1.32 | 🟢 Normal | 0.000 |  |
@@ -55,7 +56,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-06-14 03:01:43 | Kalawellawa (Millakanda) (Kalu Ganga) | 6.54 | 🟠 Minor Flood | 0.000 |  |
 | 2026-06-14 03:00:53 | Wellawaya (Kirindi Oya) | 0.68 | 🟢 Normal | 0.000 |  |
 | 2026-06-14 02:59:46 | Kalawellawa (Millakanda) (Kalu Ganga) | 6.54 | 🟠 Minor Flood | 0.000 |  |
-| 2026-06-14 02:58:45 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.54 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -90,7 +90,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-06-14 03:02:39 | Dunamale (Aththanagalu Oya) | 3.21 | 🟢 Normal | -0.020 |  |
 | 2026-06-14 03:03:02 | Thawalama (Gin Ganga) | 2.29 | 🟢 Normal | -0.020 |  |
 | 2026-06-13 18:00:18 | Weraganthota (Mahaweli Ganga) | -3.34 | 🟢 Normal | -0.021 |  |
-| 2026-06-14 02:02:13 | Ellagawa (Kalu Ganga) | 8.58 | 🟢 Normal | -0.021 |  |
+| 2026-06-14 03:24:56 | Ellagawa (Kalu Ganga) | 8.55 | 🟢 Normal | -0.022 |  |
 | 2026-06-14 03:05:49 | Putupaula (Kalu Ganga) | 2.70 | 🟢 Normal | -0.031 |  |
 | 2026-06-14 03:04:11 | Glencourse (Kelani Ganga) | 11.62 | 🟢 Normal | -0.031 |  |
 | 2026-06-14 03:03:14 | Baddegama (Gin Ganga) | 3.06 | 🟢 Normal | -0.031 |  |
