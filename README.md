@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **15** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -34,26 +34,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-06-15 01:04:46 | Badalgama (Maha Oya) | 2.85 | 🟢 Normal | -0.021 |  |
 | 2026-06-15 01:04:33 | Peradeniya (Mahaweli Ganga) | 2.66 | 🟢 Normal | -0.174 |  |
 | 2026-06-15 01:04:28 | Norwood (Kelani Ganga) | 0.81 | 🟢 Normal | -0.010 |  |
-| 2026-06-15 01:04:04 | Nagalagam Street (Kelani Ganga) | 0.76 | 🟢 Normal | 0.031 | 🔺 Rising |
-| 2026-06-15 01:03:46 | Yaka Wewa (Ma Oya) | 0.55 | 🟢 Normal | 0.000 |  |
-| 2026-06-15 01:03:43 | Baddegama (Gin Ganga) | 2.36 | 🟢 Normal | -0.021 |  |
-| 2026-06-15 01:03:27 | Horowpothana (Yan Oya) | 1.56 | 🟢 Normal | 0.000 |  |
-| 2026-06-15 01:03:16 | Deraniyagala (Kelani Ganga) | 1.07 | 🟢 Normal | -0.020 |  |
-| 2026-06-15 01:03:16 | Hanwella (Kelani Ganga) | 2.90 | 🟢 Normal | -0.052 |  |
-| 2026-06-15 01:03:02 | Katharagama (Menik Ganga) | -0.12 | 🟢 Normal | 0.000 |  |
-| 2026-06-15 01:02:03 | Thaldena (Mahaweli Ganga) | 0.20 | 🟢 Normal | 0.000 |  |
-| 2026-06-15 01:02:02 | Manampitiya (Mahaweli Ganga) | -0.02 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-06-15 01:01:59 | Giriulla (Maha Oya) | 1.55 | 🟢 Normal | -0.020 |  |
-| 2026-06-15 01:01:44 | Ellagawa (Kalu Ganga) | 7.34 | 🟢 Normal | -0.101 |  |
-| 2026-06-15 01:01:41 | Nakkala (Kumbukkan Oya) | 0.63 | 🟢 Normal | 0.000 |  |
-| 2026-06-15 01:01:25 | Nawalapitiya (Mahaweli Ganga) | 1.58 | 🟢 Normal | -0.010 |  |
-| 2026-06-15 01:01:17 | Kuda Oya (Kirindi Oya) | 1.24 | 🟢 Normal | 0.000 |  |
-| 2026-06-15 01:00:49 | Dunamale (Aththanagalu Oya) | 2.60 | 🟢 Normal | -0.078 |  |
-| 2026-06-15 01:00:25 | Wellawaya (Kirindi Oya) | 0.60 | 🟢 Normal | 0.000 |  |
-| 2026-06-15 00:48:58 | Pitabeddara (Nilwala Ganga) | 0.90 | 🟢 Normal | -0.068 |  |
-| 2026-06-15 00:42:32 | Urawa (Nilwala Ganga) | 0.38 | 🟢 Normal | -0.006 |  |
-| 2026-06-15 00:42:12 | Panadugama (Nilwala Ganga) | 3.52 | 🟢 Normal | 1.220 | 🔺 Rising |
-| 2026-06-15 00:41:13 | Panadugama (Nilwala Ganga) | 3.50 | 🟢 Normal | 1.220 | 🔺 Rising |
 
 ## Latest by Station
 
