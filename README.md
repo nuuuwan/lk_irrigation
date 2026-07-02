@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--02_05:13:30-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--02_05:32:25-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **194,939 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **194,942 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-07-02 05:32:25 | Norwood (Kelani Ganga) | 0.56 | 🟢 Normal | -360.000 |  |
+| 2026-07-02 05:32:24 | Norwood (Kelani Ganga) | 0.66 | 🟢 Normal | -360.000 |  |
+| 2026-07-02 05:14:49 | Panadugama (Nilwala Ganga) | 2.78 | 🟢 Normal | 0.000 |  |
 | 2026-07-02 05:13:30 | Magura (Kalu Ganga) | 1.46 | 🟢 Normal | 0.000 |  |
 | 2026-07-02 05:12:54 | Horowpothana (Yan Oya) | 1.34 | 🟢 Normal | 0.000 |  |
 | 2026-07-02 05:12:31 | Deraniyagala (Kelani Ganga) | 0.82 | 🟢 Normal | -0.011 |  |
@@ -50,7 +53,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-02 05:01:17 | Nakkala (Kumbukkan Oya) | 0.57 | 🟢 Normal | 0.000 |  |
 | 2026-07-02 05:01:05 | Manampitiya (Mahaweli Ganga) | -0.10 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-07-02 05:00:21 | Peradeniya (Mahaweli Ganga) | 1.67 | 🟢 Normal | -0.144 |  |
-| 2026-07-02 04:48:22 | Thalgahagoda (Nilwala Ganga) | 0.25 | 🟢 Normal | 0.083 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -73,8 +75,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-01 18:06:53 | Galgamuwa (Mee Oya) | 0.23 | 🟢 Normal | 0.000 |  |
 | 2026-07-02 05:13:30 | Magura (Kalu Ganga) | 1.46 | 🟢 Normal | 0.000 |  |
 | 2026-07-02 05:06:38 | Pitabeddara (Nilwala Ganga) | 0.64 | 🟢 Normal | 0.000 |  |
-| 2026-07-02 03:05:51 | Norwood (Kelani Ganga) | 0.56 | 🟢 Normal | 0.000 |  |
-| 2026-07-02 04:09:43 | Panadugama (Nilwala Ganga) | 2.78 | 🟢 Normal | 0.000 |  |
+| 2026-07-02 05:14:49 | Panadugama (Nilwala Ganga) | 2.78 | 🟢 Normal | 0.000 |  |
 | 2026-07-02 04:03:44 | Padiyathalawa (Maduru Oya) | 0.04 | 🟢 Normal | 0.000 |  |
 | 2026-07-02 05:09:31 | Moraketiya (Walawe Ganga) | 0.79 | 🟢 Normal | 0.000 |  |
 | 2026-07-02 05:02:19 | Dunamale (Aththanagalu Oya) | 1.22 | 🟢 Normal | 0.000 |  |
@@ -97,6 +98,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-02 03:07:50 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.74 | 🟢 Normal | -0.073 |  |
 | 2026-07-02 05:00:21 | Peradeniya (Mahaweli Ganga) | 1.67 | 🟢 Normal | -0.144 |  |
 | 2026-07-02 05:02:06 | Nawalapitiya (Mahaweli Ganga) | 1.31 | 🟢 Normal | -1.059 |  |
+| 2026-07-02 05:32:25 | Norwood (Kelani Ganga) | 0.56 | 🟢 Normal | -360.000 |  |
 
 ## River Water Level Charts by Station
 
@@ -159,10 +161,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Pitabeddara (Nilwala Ganga)
 
 ![Pitabeddara](images/stations/pitabeddara.png)
-
-### Norwood (Kelani Ganga)
-
-![Norwood](images/stations/norwood.png)
 
 ### Panadugama (Nilwala Ganga)
 
@@ -255,6 +253,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Nawalapitiya (Mahaweli Ganga)
 
 ![Nawalapitiya](images/stations/nawalapitiya.png)
+
+### Norwood (Kelani Ganga)
+
+![Norwood](images/stations/norwood.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
