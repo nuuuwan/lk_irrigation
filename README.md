@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--05_01:17:53-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--05_01:38:34-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **197,488 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **197,491 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **27** measurements in the last **1 hour**.*
+*There were **29** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-07-05 01:38:34 | Norwood (Kelani Ganga) | 0.67 | 🟢 Normal | -18.000 |  |
+| 2026-07-05 01:38:32 | Norwood (Kelani Ganga) | 0.68 | 🟢 Normal | -18.000 |  |
+| 2026-07-05 01:38:30 | Norwood (Kelani Ganga) | 0.68 | 🟢 Normal | -18.000 |  |
 | 2026-07-05 01:17:53 | Wellawaya (Kirindi Oya) | 0.53 | 🟢 Normal | 0.000 |  |
 | 2026-07-05 01:17:46 | Dunamale (Aththanagalu Oya) | 1.85 | 🟢 Normal | -0.008 |  |
 | 2026-07-05 01:15:17 | Horowpothana (Yan Oya) | 1.27 | 🟢 Normal | 0.000 |  |
@@ -45,7 +48,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-05 01:01:32 | Manampitiya (Mahaweli Ganga) | -0.19 | 🟢 Normal | 0.000 |  |
 | 2026-07-05 01:01:12 | Nakkala (Kumbukkan Oya) | 0.55 | 🟢 Normal | 0.000 |  |
 | 2026-07-05 01:01:06 | Padiyathalawa (Maduru Oya) | 0.05 | 🟢 Normal | 0.000 |  |
-| 2026-07-05 00:54:20 | Thalgahagoda (Nilwala Ganga) | 0.10 | 🟢 Normal | -0.275 |  |
 
 ## Latest by Station
 
@@ -62,7 +64,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-04 23:01:40 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.48 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-07-05 01:06:23 | Baddegama (Gin Ganga) | 1.23 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-07-05 01:04:39 | Thawalama (Gin Ganga) | 1.49 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-07-04 22:14:56 | Norwood (Kelani Ganga) | 0.69 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-07-04 18:00:43 | Weraganthota (Mahaweli Ganga) | -3.41 | 🟢 Normal | 0.000 |  |
 | 2026-07-05 01:17:53 | Wellawaya (Kirindi Oya) | 0.53 | 🟢 Normal | 0.000 |  |
 | 2026-07-05 01:01:12 | Nakkala (Kumbukkan Oya) | 0.55 | 🟢 Normal | 0.000 |  |
@@ -92,6 +93,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-05 01:01:34 | Peradeniya (Mahaweli Ganga) | 3.06 | 🟢 Normal | -0.257 |  |
 | 2026-07-05 01:03:03 | Thalgahagoda (Nilwala Ganga) | 0.06 | 🟢 Normal | -0.275 |  |
 | 2026-07-05 00:09:49 | Kuda Oya (Kirindi Oya) | 1.09 | 🟢 Normal | -6.995 |  |
+| 2026-07-05 01:38:34 | Norwood (Kelani Ganga) | 0.67 | 🟢 Normal | -18.000 |  |
 
 ## River Water Level Charts by Station
 
@@ -130,10 +132,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Thawalama (Gin Ganga)
 
 ![Thawalama](images/stations/thawalama.png)
-
-### Norwood (Kelani Ganga)
-
-![Norwood](images/stations/norwood.png)
 
 ### Weraganthota (Mahaweli Ganga)
 
@@ -250,6 +248,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 ### Kuda Oya (Kirindi Oya)
 
 ![Kuda Oya](images/stations/kuda-oya.png)
+
+### Norwood (Kelani Ganga)
+
+![Norwood](images/stations/norwood.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
