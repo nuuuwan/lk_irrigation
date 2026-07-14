@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--15_01:13:33-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--15_01:27:15-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **206,460 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **206,463 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-07-15 01:27:15 | Pitabeddara (Nilwala Ganga) | 0.35 | 🟢 Normal | 0.000 |  |
+| 2026-07-15 01:20:36 | Moraketiya (Walawe Ganga) | 0.69 | 🟢 Normal | 0.000 |  |
+| 2026-07-15 01:19:33 | Baddegama (Gin Ganga) | 0.84 | 🟢 Normal | -0.034 |  |
 | 2026-07-15 01:13:33 | Panadugama (Nilwala Ganga) | 2.16 | 🟢 Normal | 0.000 |  |
 | 2026-07-15 01:10:59 | Thalgahagoda (Nilwala Ganga) | 0.19 | 🟢 Normal | 0.000 |  |
 | 2026-07-15 01:09:52 | Rathnapura (Kalu Ganga) | 0.77 | 🟢 Normal | 0.046 | 🔺 Rising |
@@ -48,10 +51,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-15 01:01:03 | Horowpothana (Yan Oya) | 1.30 | 🟢 Normal | 0.000 |  |
 | 2026-07-15 01:00:40 | Nakkala (Kumbukkan Oya) | 0.53 | 🟢 Normal | 0.000 |  |
 | 2026-07-15 01:00:19 | Peradeniya (Mahaweli Ganga) | 2.20 | 🟢 Normal | 0.099 | 🔺 Rising |
-| 2026-07-15 00:45:31 | Urawa (Nilwala Ganga) | 0.00 | 🟢 Normal | 0.000 |  |
-| 2026-07-15 00:45:08 | Urawa (Nilwala Ganga) | 0.00 | 🟢 Normal | 0.000 |  |
-| 2026-07-15 00:42:54 | Thalgahagoda (Nilwala Ganga) | 0.19 | 🟢 Normal | 0.000 |  |
-| 2026-07-15 00:38:05 | Putupaula (Kalu Ganga) | 0.20 | 🟢 Normal | 0.041 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -77,10 +76,10 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-15 01:01:03 | Horowpothana (Yan Oya) | 1.30 | 🟢 Normal | 0.000 |  |
 | 2026-07-14 18:03:13 | Galgamuwa (Mee Oya) | 0.14 | 🟢 Normal | 0.000 |  |
 | 2026-07-15 01:03:55 | Magura (Kalu Ganga) | 0.88 | 🟢 Normal | 0.000 |  |
-| 2026-07-15 00:23:03 | Pitabeddara (Nilwala Ganga) | 0.35 | 🟢 Normal | 0.000 |  |
+| 2026-07-15 01:27:15 | Pitabeddara (Nilwala Ganga) | 0.35 | 🟢 Normal | 0.000 |  |
 | 2026-07-15 01:13:33 | Panadugama (Nilwala Ganga) | 2.16 | 🟢 Normal | 0.000 |  |
 | 2026-07-15 01:03:35 | Padiyathalawa (Maduru Oya) | 0.05 | 🟢 Normal | 0.000 |  |
-| 2026-07-15 00:05:01 | Moraketiya (Walawe Ganga) | 0.69 | 🟢 Normal | 0.000 |  |
+| 2026-07-15 01:20:36 | Moraketiya (Walawe Ganga) | 0.69 | 🟢 Normal | 0.000 |  |
 | 2026-07-15 01:03:41 | Siyambalanduwa (Heda Oya) | 0.34 | 🟢 Normal | 0.000 |  |
 | 2026-07-15 00:04:59 | Dunamale (Aththanagalu Oya) | 0.84 | 🟢 Normal | 0.000 |  |
 | 2026-07-15 01:03:57 | Katharagama (Menik Ganga) | -0.22 | 🟢 Normal | 0.000 |  |
@@ -97,7 +96,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-15 01:01:47 | Hanwella (Kelani Ganga) | 0.79 | 🟢 Normal | -0.020 |  |
 | 2026-07-15 01:04:07 | Thaldena (Mahaweli Ganga) | 0.10 | 🟢 Normal | -0.021 |  |
 | 2026-07-15 01:05:32 | Deraniyagala (Kelani Ganga) | 0.47 | 🟢 Normal | -0.021 |  |
-| 2026-07-15 00:08:34 | Baddegama (Gin Ganga) | 0.88 | 🟢 Normal | -0.042 |  |
+| 2026-07-15 01:19:33 | Baddegama (Gin Ganga) | 0.84 | 🟢 Normal | -0.034 |  |
 
 ## River Water Level Charts by Station
 
