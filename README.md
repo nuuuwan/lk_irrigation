@@ -15,7 +15,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **19** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -38,26 +38,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-17 17:04:09 | Ellagawa (Kalu Ganga) | 4.16 | 🟢 Normal | 0.000 |  |
 | 2026-07-17 17:03:57 | Katharagama (Menik Ganga) | -0.19 | 🟢 Normal | 0.000 |  |
 | 2026-07-17 17:03:50 | Siyambalanduwa (Heda Oya) | 0.36 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:03:29 | Giriulla (Maha Oya) | 0.84 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:03:26 | Galgamuwa (Mee Oya) | 0.11 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:03:07 | Hanwella (Kelani Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:02:50 | Norwood (Kelani Ganga) | 0.45 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:02:29 | Thalgahagoda (Nilwala Ganga) | 0.14 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-07-17 17:02:25 | Nawalapitiya (Mahaweli Ganga) | 1.07 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:02:15 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:02:05 | Deraniyagala (Kelani Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:01:59 | Thanamalwila (Kirindi Oya) | 0.11 | 🟢 Normal | -0.010 |  |
-| 2026-07-17 17:01:58 | Kuda Oya (Kirindi Oya) | 1.03 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:01:42 | Wellawaya (Kirindi Oya) | 0.49 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:01:41 | Dunamale (Aththanagalu Oya) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:01:33 | Thanthirimale (Malwathu Oya) | 0.95 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:01:21 | Kithulgala (Kelani Ganga) | 1.80 | 🟢 Normal | 0.153 | 🔺 Rising |
-| 2026-07-17 17:01:15 | Nakkala (Kumbukkan Oya) | 0.51 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:01:09 | Putupaula (Kalu Ganga) | 0.67 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-07-17 17:01:01 | Horowpothana (Yan Oya) | 1.29 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:00:50 | Moragaswewa (Deduru Oya) | 0.09 | 🟢 Normal | 0.000 |  |
-| 2026-07-17 17:00:35 | Weraganthota (Mahaweli Ganga) | -3.28 | 🟢 Normal | -0.020 |  |
-| 2026-07-17 16:59:42 | Padiyathalawa (Maduru Oya) | 0.05 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
