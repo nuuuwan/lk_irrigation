@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--21_03:07:37-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--07--21_03:11:28-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **211,858 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **211,861 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -15,10 +15,13 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **31** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-07-21 03:11:28 | Giriulla (Maha Oya) | 0.82 | 🟢 Normal | 0.000 |  |
+| 2026-07-21 03:11:25 | Badalgama (Maha Oya) | 1.87 | 🟢 Normal | 0.000 |  |
+| 2026-07-21 03:10:47 | Katharagama (Menik Ganga) | -0.16 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 03:07:37 | Holombuwa (Kelani Ganga) | 0.45 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 03:07:35 | Panadugama (Nilwala Ganga) | 1.99 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 03:06:47 | Nawalapitiya (Mahaweli Ganga) | 1.08 | 🟢 Normal | -1.200 |  |
@@ -47,11 +50,6 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-21 03:00:56 | Baddegama (Gin Ganga) | 1.27 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 03:00:42 | Horowpothana (Yan Oya) | 1.31 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 03:00:10 | Thalgahagoda (Nilwala Ganga) | 0.00 | 🟢 Normal | 0.000 |  |
-| 2026-07-21 02:32:19 | Thaldena (Mahaweli Ganga) | 0.11 | 🟢 Normal | -0.018 |  |
-| 2026-07-21 02:26:10 | Putupaula (Kalu Ganga) | 0.38 | 🟢 Normal | 234.000 | 🔺 Rising |
-| 2026-07-21 02:26:08 | Putupaula (Kalu Ganga) | 0.25 | 🟢 Normal | 234.000 | 🔺 Rising |
-| 2026-07-21 02:26:07 | Putupaula (Kalu Ganga) | 0.25 | 🟢 Normal | 234.000 | 🔺 Rising |
-| 2026-07-21 02:26:01 | Peradeniya (Mahaweli Ganga) | 2.06 | 🟢 Normal | -0.375 |  |
 
 ## Latest by Station
 
@@ -68,7 +66,7 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-21 03:02:07 | Wellawaya (Kirindi Oya) | 0.50 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 02:09:18 | Nakkala (Kumbukkan Oya) | 0.52 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 03:01:59 | Yaka Wewa (Ma Oya) | 0.43 | 🟢 Normal | 0.000 |  |
-| 2026-07-21 02:08:10 | Giriulla (Maha Oya) | 0.82 | 🟢 Normal | 0.000 |  |
+| 2026-07-21 03:11:28 | Giriulla (Maha Oya) | 0.82 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 03:00:42 | Horowpothana (Yan Oya) | 1.31 | 🟢 Normal | 0.000 |  |
 | 2026-07-20 18:03:25 | Galgamuwa (Mee Oya) | 0.10 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 03:05:07 | Magura (Kalu Ganga) | 0.79 | 🟢 Normal | 0.000 |  |
@@ -80,8 +78,8 @@ Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Dept
 | 2026-07-21 03:02:46 | Moraketiya (Walawe Ganga) | 0.73 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 03:05:24 | Siyambalanduwa (Heda Oya) | 0.37 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 03:01:49 | Dunamale (Aththanagalu Oya) | 0.66 | 🟢 Normal | 0.000 |  |
-| 2026-07-21 02:05:50 | Katharagama (Menik Ganga) | -0.16 | 🟢 Normal | 0.000 |  |
-| 2026-07-21 02:09:03 | Badalgama (Maha Oya) | 1.87 | 🟢 Normal | 0.000 |  |
+| 2026-07-21 03:10:47 | Katharagama (Menik Ganga) | -0.16 | 🟢 Normal | 0.000 |  |
+| 2026-07-21 03:11:25 | Badalgama (Maha Oya) | 1.87 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 03:07:37 | Holombuwa (Kelani Ganga) | 0.45 | 🟢 Normal | 0.000 |  |
 | 2026-07-20 18:01:29 | Thanthirimale (Malwathu Oya) | 0.98 | 🟢 Normal | 0.000 |  |
 | 2026-07-21 03:00:10 | Thalgahagoda (Nilwala Ganga) | 0.00 | 🟢 Normal | 0.000 |  |
