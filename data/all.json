@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Moraketiya",
+    "time_ut": 1784935103,
+    "water_level_m": 0.75
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1784934989,
+    "water_level_m": 0.32
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1784934182,
+    "water_level_m": 0.14
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1784933708,
+    "water_level_m": -0.2
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1784933470,
+    "water_level_m": 0.2
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1784933335,
+    "water_level_m": 0.18288000000000001
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1784933256,
+    "water_level_m": 0.71
+  },
+  {
     "station_name": "Hanwella",
     "time_ut": 1784932977,
     "water_level_m": 0.58
