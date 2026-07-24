@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1784931567,
+    "water_level_m": 0.71
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1784931262,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1784930920,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1784930561,
+    "water_level_m": 0.05
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1784930542,
+    "water_level_m": 0.71
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1784930082,
+    "water_level_m": 3.98
+  },
+  {
     "station_name": "Kithulgala",
     "time_ut": 1784929536,
     "water_level_m": 1.14
