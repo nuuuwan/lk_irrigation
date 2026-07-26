@@ -1,5 +1,100 @@
 [
   {
+    "station_name": "Horowpothana",
+    "time_ut": 1785029743,
+    "water_level_m": 1.25
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1785029719,
+    "water_level_m": 1.91
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1785029717,
+    "water_level_m": 0.54
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1785029714,
+    "water_level_m": 0.41
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1785029695,
+    "water_level_m": 4.01
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1785029688,
+    "water_level_m": 0.99
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1785029636,
+    "water_level_m": 0.06
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1785029614,
+    "water_level_m": 0.65
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1785029593,
+    "water_level_m": 0.05
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1785029586,
+    "water_level_m": 0.79
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1785029583,
+    "water_level_m": 0.21
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1785029577,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1785029536,
+    "water_level_m": 0.93
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1785029491,
+    "water_level_m": 0.43
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1785029489,
+    "water_level_m": 0.1
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1785029452,
+    "water_level_m": 0.12
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1785029445,
+    "water_level_m": -0.16
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1785029444,
+    "water_level_m": 0.54
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1785027896,
+    "water_level_m": 0.04
+  },
+  {
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1785026990,
     "water_level_m": 1.7
