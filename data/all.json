@@ -1,5 +1,130 @@
 [
   {
+    "station_name": "Kuda Oya",
+    "time_ut": 1785023816,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1785023698,
+    "water_level_m": 0.68
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1785023509,
+    "water_level_m": 0.12
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1785023507,
+    "water_level_m": 0.1
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1785023498,
+    "water_level_m": 0.65
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1785023470,
+    "water_level_m": 0.11
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1785022897,
+    "water_level_m": 0.91
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1785022850,
+    "water_level_m": 0.63
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1785022711,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1785022647,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1785022646,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1785022644,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1785022643,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1785022642,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1785022641,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1785022602,
+    "water_level_m": 0.41
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1785022586,
+    "water_level_m": 0.28
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1785022578,
+    "water_level_m": 0.4
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1785022548,
+    "water_level_m": 0.24384000000000003
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1785022532,
+    "water_level_m": 1.91
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1785022526,
+    "water_level_m": 8.82
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1785022518,
+    "water_level_m": -0.22
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1785022510,
+    "water_level_m": 1.72
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1785022510,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1785022509,
+    "water_level_m": 0.97
+  },
+  {
     "station_name": "Padiyathalawa",
     "time_ut": 1785022437,
     "water_level_m": 0.05
