@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1785065493,
+    "water_level_m": 0.43
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1785065488,
+    "water_level_m": 0.64
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1785065463,
+    "water_level_m": 0.53
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1785065462,
+    "water_level_m": -0.16
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1785065460,
+    "water_level_m": -3.25
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1785065420,
+    "water_level_m": 0.97
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1785065416,
+    "water_level_m": 0.2
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1785065415,
+    "water_level_m": -3.2
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1785065412,
+    "water_level_m": 0.22
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1785062528,
     "water_level_m": 0.88
