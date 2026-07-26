@@ -1,5 +1,55 @@
 [
   {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1785105980,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1785105890,
+    "water_level_m": 0.28
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1785105728,
+    "water_level_m": 0.99
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1785105664,
+    "water_level_m": 0.4
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1785105587,
+    "water_level_m": 0.19
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1785105400,
+    "water_level_m": 0.8
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1785105364,
+    "water_level_m": -0.22
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1785105337,
+    "water_level_m": 0.46
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1785105295,
+    "water_level_m": 0.03
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1785105263,
+    "water_level_m": 1.98
+  },
+  {
     "station_name": "Padiyathalawa",
     "time_ut": 1785105207,
     "water_level_m": 0.05
