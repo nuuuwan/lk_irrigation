@@ -10,6 +10,7 @@ log = Log("ReadMe")
 
 class ReadMe:
     PATH = "README.md"
+    URL_REPOSITORY = "https://github.com/nuuuwan/lk_irrigation"
     URL_IRRIGATION = "https://www.irrigation.gov.lk"
     URL_HYDROLOGY = (
         URL_IRRIGATION
@@ -23,6 +24,7 @@ class ReadMe:
     URL_LOADER = "src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py"
     URL_DATA = RiverWaterLevelData.DIR_DATA_RWLD
     T_LATE_HOURS = 24
+    SUMMARY_MAX_CHARS = 287
 
     def __init__(self):
         self.rwld_list = RiverWaterLevelData.list_all()
@@ -67,6 +69,35 @@ class ReadMe:
             f"- [Original Data source]({self.URL_ARCGIS_DASHBOARD})",
             "",
         ]
+
+    def get_lines_summary(self) -> list[str]:
+        prefix = "🇱🇰 River water alerts: "
+        suffix = (
+            "\nSource: Sri Lanka Irrigation Department "
+            + self.URL_IRRIGATION
+            + "\nRepo: "
+            + self.URL_REPOSITORY
+        )
+        alerts = [
+            f"{rwld.alert.emoji} {rwld.station_name} — {rwld.alert.name}"
+            for rwld in self.latest_sorted
+            if rwld.alert.level > 1
+        ]
+        if not alerts:
+            return [prefix + "No active alerts." + suffix]
+
+        summary = prefix
+        for i_alert, alert in enumerate(alerts):
+            separator = "; " if i_alert else ""
+            omitted_suffix = "…" if i_alert < len(alerts) - 1 else ""
+            if (
+                len(summary + separator + alert + omitted_suffix + suffix)
+                > self.SUMMARY_MAX_CHARS
+            ):
+                summary += "…"
+                break
+            summary += separator + alert
+        return [summary + suffix]
 
     def get_markdown_for_rwld(self, rwld) -> dict:
         ror = self.station_to_ror[rwld.station_name]
