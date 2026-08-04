@@ -202,6 +202,7 @@ class ReadMe:
         return (
             self.get_lines_header()
             + self.get_lines_introduction()
+            + self.get_lines_summary()
             + self.get_lines_map()
             + self.get_lines_latest()
             + self.get_lines_latest_by_station()
