@@ -37,7 +37,7 @@ class RiverWaterLevelDataLoadMixin:
                 "major_flood_level_m",
             ],
         ]:
-            return False
+            return True
 
         return True
 
