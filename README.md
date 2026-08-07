@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--08_02:11:15-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--08_02:13:36-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **227,445 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **227,446 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -22,6 +22,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-08 02:13:36 | Nagalagam Street (Kelani Ganga) | 0.21 | 🟢 Normal | -0.035 |  |
 | 2026-08-08 02:11:15 | Thalgahagoda (Nilwala Ganga) | 0.23 | 🟢 Normal | -0.018 |  |
 | 2026-08-08 02:09:22 | Panadugama (Nilwala Ganga) | 2.51 | 🟢 Normal | -2.571 |  |
 | 2026-08-08 02:09:08 | Panadugama (Nilwala Ganga) | 2.52 | 🟢 Normal | -2.571 |  |
@@ -51,7 +52,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-08 02:01:20 | Nakkala (Kumbukkan Oya) | 0.56 | 🟢 Normal | 0.000 |  |
 | 2026-08-08 02:01:18 | Peradeniya (Mahaweli Ganga) | 3.80 | 🟢 Normal | -0.020 |  |
 | 2026-08-08 02:00:58 | Holombuwa (Kelani Ganga) | 0.55 | 🟢 Normal | 0.000 |  |
-| 2026-08-08 01:26:31 | Thawalama (Gin Ganga) | 1.57 | 🟢 Normal | -0.008 |  |
 
 ## Latest by Station
 
@@ -90,10 +90,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-08 02:04:36 | Nawalapitiya (Mahaweli Ganga) | 2.09 | 🟢 Normal | -0.019 |  |
 | 2026-08-08 00:05:51 | Putupaula (Kalu Ganga) | 0.81 | 🟢 Normal | -0.020 |  |
 | 2026-08-08 02:01:18 | Peradeniya (Mahaweli Ganga) | 3.80 | 🟢 Normal | -0.020 |  |
-| 2026-08-08 01:21:46 | Nagalagam Street (Kelani Ganga) | 0.24 | 🟢 Normal | -0.023 |  |
 | 2026-08-08 02:04:20 | Ellagawa (Kalu Ganga) | 5.43 | 🟢 Normal | -0.029 |  |
 | 2026-08-08 02:02:02 | Deraniyagala (Kelani Ganga) | 1.06 | 🟢 Normal | -0.030 |  |
 | 2026-08-08 02:02:46 | Rathnapura (Kalu Ganga) | 1.78 | 🟢 Normal | -0.030 |  |
+| 2026-08-08 02:13:36 | Nagalagam Street (Kelani Ganga) | 0.21 | 🟢 Normal | -0.035 |  |
 | 2026-08-08 02:03:05 | Hanwella (Kelani Ganga) | 2.51 | 🟢 Normal | -0.041 |  |
 | 2026-08-08 02:04:14 | Kithulgala (Kelani Ganga) | 2.39 | 🟢 Normal | -0.068 |  |
 | 2026-08-08 02:09:22 | Panadugama (Nilwala Ganga) | 2.51 | 🟢 Normal | -2.571 |  |
@@ -225,10 +225,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Peradeniya](images/stations/peradeniya.png)
 
-### Nagalagam Street (Kelani Ganga)
-
-![Nagalagam Street](images/stations/nagalagam-street.png)
-
 ### Ellagawa (Kalu Ganga)
 
 ![Ellagawa](images/stations/ellagawa.png)
@@ -240,6 +236,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Rathnapura (Kalu Ganga)
 
 ![Rathnapura](images/stations/rathnapura.png)
+
+### Nagalagam Street (Kelani Ganga)
+
+![Nagalagam Street](images/stations/nagalagam-street.png)
 
 ### Hanwella (Kelani Ganga)
 
