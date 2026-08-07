@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **41** measurements in the last **1 hour**.*
+*There were **23** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -45,24 +45,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-07 13:02:48 | Norwood (Kelani Ganga) | 1.05 | 🟢 Normal | -0.010 |  |
 | 2026-08-07 13:02:47 | Giriulla (Maha Oya) | 1.12 | 🟢 Normal | -0.010 |  |
 | 2026-08-07 13:02:46 | Thawalama (Gin Ganga) | 1.80 | 🟢 Normal | 0.133 | 🔺 Rising |
-| 2026-08-07 13:02:36 | Nakkala (Kumbukkan Oya) | 0.57 | 🟢 Normal | 0.000 |  |
-| 2026-08-07 13:02:30 | Wellawaya (Kirindi Oya) | 0.86 | 🟢 Normal | -0.041 |  |
-| 2026-08-07 13:02:29 | Deraniyagala (Kelani Ganga) | 1.11 | 🟢 Normal | 0.050 | 🔺 Rising |
-| 2026-08-07 13:02:18 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.67 | 🟢 Normal | 0.051 | 🔺 Rising |
-| 2026-08-07 13:02:07 | Holombuwa (Kelani Ganga) | 0.59 | 🟢 Normal | 0.000 |  |
-| 2026-08-07 13:02:00 | Manampitiya (Mahaweli Ganga) | -0.14 | 🟢 Normal | -0.040 |  |
-| 2026-08-07 13:01:57 | Moragaswewa (Deduru Oya) | -0.01 | 🟢 Normal | 0.000 |  |
-| 2026-08-07 13:01:54 | Thalgahagoda (Nilwala Ganga) | 0.32 | 🟢 Normal | -0.021 |  |
-| 2026-08-07 13:01:53 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-08-07 13:01:18 | Weraganthota (Mahaweli Ganga) | -3.45 | 🟢 Normal | 0.000 |  |
-| 2026-08-07 13:01:12 | Ellagawa (Kalu Ganga) | 5.81 | 🟢 Normal | -0.010 |  |
-| 2026-08-07 13:01:08 | Peradeniya (Mahaweli Ganga) | 4.08 | 🟢 Normal | 0.000 |  |
-| 2026-08-07 13:01:06 | Horowpothana (Yan Oya) | 1.69 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-08-07 13:00:54 | Thanthirimale (Malwathu Oya) | 0.73 | 🟢 Normal | -0.010 |  |
-| 2026-08-07 13:00:50 | Dunamale (Aththanagalu Oya) | 0.60 | 🟢 Normal | 0.000 |  |
-| 2026-08-07 13:00:37 | Nawalapitiya (Mahaweli Ganga) | 2.24 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-08-07 12:45:48 | Rathnapura (Kalu Ganga) | 2.09 | 🟢 Normal | -0.062 |  |
-| 2026-08-07 12:45:11 | Rathnapura (Kalu Ganga) | 2.09 | 🟢 Normal | -0.062 |  |
 
 ## Latest by Station
 
