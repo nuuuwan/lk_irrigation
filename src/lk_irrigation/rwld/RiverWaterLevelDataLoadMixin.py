@@ -37,9 +37,7 @@ class RiverWaterLevelDataLoadMixin:
                 "major_flood_level_m",
             ],
         ]:
-            assert (
-                expected == actual
-            ), f"[validate {label}]: {expected} != {actual}"
+            return False
 
         return True
 
