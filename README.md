@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--08_22:10:39-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--08_22:26:02-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **228,222 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **228,225 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-08 22:26:02 | Ellagawa (Kalu Ganga) | 5.36 | 🟢 Normal | 0.057 | 🔺 Rising |
+| 2026-08-08 22:20:14 | Urawa (Nilwala Ganga) | 0.54 | 🟢 Normal | 0.039 | 🔺 Rising |
+| 2026-08-08 22:13:38 | Putupaula (Kalu Ganga) | 0.53 | 🟢 Normal | 0.025 | 🔺 Rising |
 | 2026-08-08 22:10:39 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.28 | 🟢 Normal | -0.018 |  |
 | 2026-08-08 22:09:06 | Wellawaya (Kirindi Oya) | 0.81 | 🟢 Normal | 0.000 |  |
 | 2026-08-08 22:09:06 | Holombuwa (Kelani Ganga) | 0.50 | 🟢 Normal | 0.000 |  |
@@ -66,10 +69,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-08-08 22:01:25 | Pitabeddara (Nilwala Ganga) | 1.05 | 🟢 Normal | 0.067 | 🔺 Rising |
-| 2026-08-08 21:12:07 | Ellagawa (Kalu Ganga) | 5.29 | 🟢 Normal | 0.065 | 🔺 Rising |
+| 2026-08-08 22:26:02 | Ellagawa (Kalu Ganga) | 5.36 | 🟢 Normal | 0.057 | 🔺 Rising |
 | 2026-08-08 22:02:55 | Panadugama (Nilwala Ganga) | 3.97 | 🟢 Normal | 0.053 | 🔺 Rising |
+| 2026-08-08 22:20:14 | Urawa (Nilwala Ganga) | 0.54 | 🟢 Normal | 0.039 | 🔺 Rising |
 | 2026-08-08 22:05:54 | Baddegama (Gin Ganga) | 2.17 | 🟢 Normal | 0.037 | 🔺 Rising |
-| 2026-08-08 21:00:33 | Putupaula (Kalu Ganga) | 0.50 | 🟢 Normal | 0.036 | 🔺 Rising |
+| 2026-08-08 22:13:38 | Putupaula (Kalu Ganga) | 0.53 | 🟢 Normal | 0.025 | 🔺 Rising |
 | 2026-08-08 22:08:44 | Magura (Kalu Ganga) | 1.90 | 🟢 Normal | 0.018 | 🔺 Rising |
 | 2026-08-08 22:03:22 | Thalgahagoda (Nilwala Ganga) | 0.70 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-08-08 18:00:08 | Weraganthota (Mahaweli Ganga) | -3.46 | 🟢 Normal | 0.000 |  |
@@ -93,7 +97,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-08 22:09:06 | Holombuwa (Kelani Ganga) | 0.50 | 🟢 Normal | 0.000 |  |
 | 2026-08-08 22:00:55 | Manampitiya (Mahaweli Ganga) | -0.10 | 🟢 Normal | 0.000 |  |
 | 2026-08-08 18:01:56 | Thanthirimale (Malwathu Oya) | 0.66 | 🟢 Normal | 0.000 |  |
-| 2026-08-08 21:03:40 | Urawa (Nilwala Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
 | 2026-08-08 22:02:09 | Kuda Oya (Kirindi Oya) | 0.94 | 🟢 Normal | 0.000 |  |
 | 2026-08-08 22:01:37 | Thanamalwila (Kirindi Oya) | 0.55 | 🟢 Normal | 0.000 |  |
 | 2026-08-08 22:06:37 | Norwood (Kelani Ganga) | 1.04 | 🟢 Normal | -0.010 |  |
@@ -118,6 +121,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Panadugama (Nilwala Ganga)
 
 ![Panadugama](images/stations/panadugama.png)
+
+### Urawa (Nilwala Ganga)
+
+![Urawa](images/stations/urawa.png)
 
 ### Baddegama (Gin Ganga)
 
@@ -218,10 +225,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Thanthirimale (Malwathu Oya)
 
 ![Thanthirimale](images/stations/thanthirimale.png)
-
-### Urawa (Nilwala Ganga)
-
-![Urawa](images/stations/urawa.png)
 
 ### Kuda Oya (Kirindi Oya)
 
