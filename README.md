@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--08_17:15:34-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--08_17:24:06-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **228,033 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **228,034 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -22,6 +22,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-08 17:24:06 | Thawalama (Gin Ganga) | 2.44 | 🟢 Normal | 0.032 | 🔺 Rising |
 | 2026-08-08 17:15:34 | Dunamale (Aththanagalu Oya) | 0.55 | 🟢 Normal | 0.012 | 🔺 Rising |
 | 2026-08-08 17:12:26 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.38 | 🟢 Normal | -0.034 |  |
 | 2026-08-08 17:10:30 | Giriulla (Maha Oya) | 1.05 | 🟢 Normal | 0.000 |  |
@@ -62,7 +63,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-08 17:01:04 | Thanthirimale (Malwathu Oya) | 0.66 | 🟢 Normal | 0.000 |  |
 | 2026-08-08 17:00:38 | Horowpothana (Yan Oya) | 1.70 | 🟢 Normal | 0.000 |  |
 | 2026-08-08 17:00:36 | Thanamalwila (Kirindi Oya) | 0.57 | 🟢 Normal | 0.000 |  |
-| 2026-08-08 16:37:56 | Panadugama (Nilwala Ganga) | 3.36 | 🟢 Normal | 0.205 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -78,7 +78,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-08 17:03:41 | Norwood (Kelani Ganga) | 1.12 | 🟢 Normal | 0.060 | 🔺 Rising |
 | 2026-08-08 17:04:36 | Urawa (Nilwala Ganga) | 0.32 | 🟢 Normal | 0.040 | 🔺 Rising |
 | 2026-08-08 17:06:43 | Thalgahagoda (Nilwala Ganga) | 0.60 | 🟢 Normal | 0.037 | 🔺 Rising |
-| 2026-08-08 16:08:06 | Thawalama (Gin Ganga) | 2.40 | 🟢 Normal | 0.031 | 🔺 Rising |
+| 2026-08-08 17:24:06 | Thawalama (Gin Ganga) | 2.44 | 🟢 Normal | 0.032 | 🔺 Rising |
 | 2026-08-08 16:03:23 | Baddegama (Gin Ganga) | 2.05 | 🟢 Normal | 0.029 | 🔺 Rising |
 | 2026-08-08 17:03:51 | Kithulgala (Kelani Ganga) | 2.41 | 🟢 Normal | 0.019 | 🔺 Rising |
 | 2026-08-08 17:15:34 | Dunamale (Aththanagalu Oya) | 0.55 | 🟢 Normal | 0.012 | 🔺 Rising |
