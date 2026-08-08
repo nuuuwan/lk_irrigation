@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -60,7 +60,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-08 21:00:37 | Thalgahagoda (Nilwala Ganga) | 0.69 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-08-08 21:00:33 | Putupaula (Kalu Ganga) | 0.50 | 🟢 Normal | 0.036 | 🔺 Rising |
 | 2026-08-08 21:00:12 | Horowpothana (Yan Oya) | 1.70 | 🟢 Normal | 0.000 |  |
-| 2026-08-08 20:34:22 | Panadugama (Nilwala Ganga) | 3.85 | 🟢 Normal | 0.133 | 🔺 Rising |
 
 ## Latest by Station
 
