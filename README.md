@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--08_11:13:29-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--08_11:30:22-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **227,791 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **227,792 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-08 11:30:22 | Panadugama (Nilwala Ganga) | 2.95 | 🟢 Normal | 0.046 | 🔺 Rising |
 | 2026-08-08 11:13:29 | Thalgahagoda (Nilwala Ganga) | 0.44 | 🟢 Normal | 0.055 | 🔺 Rising |
 | 2026-08-08 11:10:38 | Moraketiya (Walawe Ganga) | 0.75 | 🟢 Normal | 0.000 |  |
 | 2026-08-08 11:10:27 | Magura (Kalu Ganga) | 1.47 | 🟢 Normal | 0.009 | 🔺 Rising |
@@ -67,8 +68,8 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-08-08 10:11:50 | Panadugama (Nilwala Ganga) | 2.89 | 🟢 Normal | 0.074 | 🔺 Rising |
 | 2026-08-08 11:13:29 | Thalgahagoda (Nilwala Ganga) | 0.44 | 🟢 Normal | 0.055 | 🔺 Rising |
+| 2026-08-08 11:30:22 | Panadugama (Nilwala Ganga) | 2.95 | 🟢 Normal | 0.046 | 🔺 Rising |
 | 2026-08-08 11:04:29 | Kithulgala (Kelani Ganga) | 2.39 | 🟢 Normal | 0.041 | 🔺 Rising |
 | 2026-08-08 11:01:09 | Putupaula (Kalu Ganga) | 0.70 | 🟢 Normal | 0.041 | 🔺 Rising |
 | 2026-08-08 11:03:42 | Baddegama (Gin Ganga) | 1.88 | 🟢 Normal | 0.037 | 🔺 Rising |
@@ -109,13 +110,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## River Water Level Charts by Station
 
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
-
 ### Thalgahagoda (Nilwala Ganga)
 
 ![Thalgahagoda](images/stations/thalgahagoda.png)
+
+### Panadugama (Nilwala Ganga)
+
+![Panadugama](images/stations/panadugama.png)
 
 ### Kithulgala (Kelani Ganga)
 
