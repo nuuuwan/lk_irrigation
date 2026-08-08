@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **17** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -39,22 +39,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-08 23:04:48 | Nawalapitiya (Mahaweli Ganga) | 2.03 | 🟢 Normal | 0.000 |  |
 | 2026-08-08 23:04:46 | Urawa (Nilwala Ganga) | 0.57 | 🟢 Normal | 0.040 | 🔺 Rising |
 | 2026-08-08 23:04:35 | Dunamale (Aththanagalu Oya) | 0.62 | 🟢 Normal | 0.000 |  |
-| 2026-08-08 23:04:13 | Nagalagam Street (Kelani Ganga) | 0.37 | 🟢 Normal | 0.000 |  |
-| 2026-08-08 23:03:23 | Wellawaya (Kirindi Oya) | 0.81 | 🟢 Normal | 0.000 |  |
-| 2026-08-08 23:03:14 | Deraniyagala (Kelani Ganga) | 1.04 | 🟢 Normal | -0.029 |  |
-| 2026-08-08 23:03:10 | Thawalama (Gin Ganga) | 2.47 | 🟢 Normal | -0.032 |  |
-| 2026-08-08 23:02:57 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | 0.000 |  |
-| 2026-08-08 23:02:29 | Nakkala (Kumbukkan Oya) | 0.56 | 🟢 Normal | 0.000 |  |
-| 2026-08-08 23:02:19 | Pitabeddara (Nilwala Ganga) | 1.07 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-08-08 23:02:14 | Hanwella (Kelani Ganga) | 2.18 | 🟢 Normal | 0.000 |  |
-| 2026-08-08 23:01:57 | Moragaswewa (Deduru Oya) | 0.05 | 🟢 Normal | 0.011 | 🔺 Rising |
-| 2026-08-08 23:01:52 | Moraketiya (Walawe Ganga) | 0.72 | 🟢 Normal | 1296.000 | 🔺 Rising |
-| 2026-08-08 23:01:50 | Moraketiya (Walawe Ganga) | 0.00 | 🟢 Normal | 1296.000 | 🔺 Rising |
-| 2026-08-08 23:01:43 | Manampitiya (Mahaweli Ganga) | -0.10 | 🟢 Normal | 0.000 |  |
-| 2026-08-08 23:01:13 | Ellagawa (Kalu Ganga) | 5.41 | 🟢 Normal | 0.085 | 🔺 Rising |
-| 2026-08-08 23:01:10 | Padiyathalawa (Maduru Oya) | 0.05 | 🟢 Normal | 0.000 |  |
-| 2026-08-08 23:01:07 | Peradeniya (Mahaweli Ganga) | 3.70 | 🟢 Normal | -0.084 |  |
-| 2026-08-08 23:01:01 | Siyambalanduwa (Heda Oya) | 0.15 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
