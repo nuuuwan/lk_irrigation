@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--09_04:16:58-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--09_04:33:45-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **228,428 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **228,429 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -22,6 +22,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-09 04:33:45 | Kuda Oya (Kirindi Oya) | 0.94 | 🟢 Normal | 0.000 |  |
 | 2026-08-09 04:16:58 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | 0.000 |  |
 | 2026-08-09 04:16:28 | Magura (Kalu Ganga) | 1.86 | 🟢 Normal | -0.008 |  |
 | 2026-08-09 04:15:44 | Nakkala (Kumbukkan Oya) | 0.56 | 🟢 Normal | 0.000 |  |
@@ -59,7 +60,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-09 04:01:08 | Wellawaya (Kirindi Oya) | 0.82 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-08-09 04:00:58 | Baddegama (Gin Ganga) | 2.27 | 🟢 Normal | 0.035 | 🔺 Rising |
 | 2026-08-09 04:00:48 | Moraketiya (Walawe Ganga) | 0.74 | 🟢 Normal | 0.011 | 🔺 Rising |
-| 2026-08-09 03:40:39 | Panadugama (Nilwala Ganga) | 4.51 | 🟢 Normal | 0.582 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -93,7 +93,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-09 04:04:23 | Manampitiya (Mahaweli Ganga) | -0.10 | 🟢 Normal | 0.000 |  |
 | 2026-08-08 18:01:56 | Thanthirimale (Malwathu Oya) | 0.66 | 🟢 Normal | 0.000 |  |
 | 2026-08-09 04:03:38 | Peradeniya (Mahaweli Ganga) | 3.70 | 🟢 Normal | 0.000 |  |
-| 2026-08-09 03:01:44 | Kuda Oya (Kirindi Oya) | 0.94 | 🟢 Normal | 0.000 |  |
+| 2026-08-09 04:33:45 | Kuda Oya (Kirindi Oya) | 0.94 | 🟢 Normal | 0.000 |  |
 | 2026-08-09 03:04:28 | Thanamalwila (Kirindi Oya) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-08-09 04:02:45 | Dunamale (Aththanagalu Oya) | 0.62 | 🟢 Normal | -0.001 |  |
 | 2026-08-09 04:16:28 | Magura (Kalu Ganga) | 1.86 | 🟢 Normal | -0.008 |  |
