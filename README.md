@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -58,7 +58,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-10 03:00:20 | Horowpothana (Yan Oya) | 1.69 | 🟢 Normal | 0.000 |  |
 | 2026-08-10 02:58:38 | Magura (Kalu Ganga) | 1.67 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-08-10 02:58:30 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | 0.000 |  |
-| 2026-08-10 02:41:39 | Panadugama (Nilwala Ganga) | 3.74 | 🟢 Normal | 0.022 | 🔺 Rising |
 
 ## Latest by Station
 
