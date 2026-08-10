@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **37** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -59,7 +59,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-11 03:01:02 | Dunamale (Aththanagalu Oya) | 0.68 | 🟢 Normal | 0.000 |  |
 | 2026-08-11 03:00:54 | Thawalama (Gin Ganga) | 1.80 | 🟢 Normal | -0.075 |  |
 | 2026-08-11 03:00:42 | Wellawaya (Kirindi Oya) | 0.71 | 🟢 Normal | 0.000 |  |
-| 2026-08-11 02:36:48 | Thawalama (Gin Ganga) | 1.83 | 🟢 Normal | -0.075 |  |
 
 ## Latest by Station
 
