@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--10_05:16:51-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--10_05:27:02-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **229,357 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **229,358 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -22,6 +22,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-10 05:27:02 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | -0.289 |  |
 | 2026-08-10 05:16:51 | Thanamalwila (Kirindi Oya) | 0.43 | 🟢 Normal | -0.009 |  |
 | 2026-08-10 05:15:35 | Magura (Kalu Ganga) | 1.84 | 🟢 Normal | 0.119 | 🔺 Rising |
 | 2026-08-10 05:14:26 | Nakkala (Kumbukkan Oya) | 0.57 | 🟢 Normal | 0.000 |  |
@@ -30,7 +31,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-10 05:09:58 | Baddegama (Gin Ganga) | 2.26 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2026-08-10 05:07:16 | Thawalama (Gin Ganga) | 1.92 | 🟢 Normal | 0.061 | 🔺 Rising |
 | 2026-08-10 05:06:36 | Deraniyagala (Kelani Ganga) | 1.25 | 🟢 Normal | -0.010 |  |
-| 2026-08-10 05:06:15 | Yaka Wewa (Ma Oya) | 0.51 | 🟢 Normal | 0.093 | 🔺 Rising |
+| 2026-08-10 05:06:15 | Yaka Wewa (Ma Oya) | 0.51 | 🟢 Normal | -0.289 |  |
 | 2026-08-10 05:05:55 | Pitabeddara (Nilwala Ganga) | 1.07 | 🟢 Normal | -0.010 |  |
 | 2026-08-10 05:05:50 | Katharagama (Menik Ganga) | -0.23 | 🟢 Normal | 0.000 |  |
 | 2026-08-10 05:05:49 | Urawa (Nilwala Ganga) | 0.40 | 🟢 Normal | -0.010 |  |
@@ -53,7 +54,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-10 05:01:03 | Peradeniya (Mahaweli Ganga) | 3.77 | 🟢 Normal | 0.000 |  |
 | 2026-08-10 05:00:21 | Thalgahagoda (Nilwala Ganga) | 0.80 | 🟢 Normal | 0.000 |  |
 | 2026-08-10 05:00:09 | Siyambalanduwa (Heda Oya) | 0.16 | 🟢 Normal | 0.000 |  |
-| 2026-08-10 04:37:33 | Putupaula (Kalu Ganga) | 0.70 | 🟢 Normal | 0.065 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -62,7 +62,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-08-10 05:15:35 | Magura (Kalu Ganga) | 1.84 | 🟢 Normal | 0.119 | 🔺 Rising |
-| 2026-08-10 05:06:15 | Yaka Wewa (Ma Oya) | 0.51 | 🟢 Normal | 0.093 | 🔺 Rising |
 | 2026-08-10 05:03:43 | Ellagawa (Kalu Ganga) | 6.32 | 🟢 Normal | 0.083 | 🔺 Rising |
 | 2026-08-10 05:01:58 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | 0.075 | 🔺 Rising |
 | 2026-08-10 05:05:21 | Putupaula (Kalu Ganga) | 0.73 | 🟢 Normal | 0.065 | 🔺 Rising |
@@ -100,16 +99,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-10 05:03:25 | Kithulgala (Kelani Ganga) | 2.26 | 🟢 Normal | -0.050 |  |
 | 2026-08-10 05:11:11 | Rathnapura (Kalu Ganga) | 2.96 | 🟢 Normal | -0.070 |  |
 | 2026-08-10 04:00:49 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.96 | 🟢 Normal | -0.073 |  |
+| 2026-08-10 05:27:02 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | -0.289 |  |
 
 ## River Water Level Charts by Station
 
 ### Magura (Kalu Ganga)
 
 ![Magura](images/stations/magura.png)
-
-### Yaka Wewa (Ma Oya)
-
-![Yaka Wewa](images/stations/yaka-wewa.png)
 
 ### Ellagawa (Kalu Ganga)
 
@@ -258,6 +254,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Kalawellawa (Millakanda) (Kalu Ganga)
 
 ![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
+
+### Yaka Wewa (Ma Oya)
+
+![Yaka Wewa](images/stations/yaka-wewa.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
