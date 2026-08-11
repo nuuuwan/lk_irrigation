@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **35** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -57,7 +57,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-11 20:01:14 | Nakkala (Kumbukkan Oya) | 0.57 | 🟢 Normal | 0.000 |  |
 | 2026-08-11 20:01:12 | Ellagawa (Kalu Ganga) | 5.23 | 🟢 Normal | -0.022 |  |
 | 2026-08-11 20:00:59 | Magura (Kalu Ganga) | 1.49 | 🟢 Normal | -0.011 |  |
-| 2026-08-11 19:45:35 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.80 | 🟢 Normal | -0.028 |  |
 
 ## Latest by Station
 
