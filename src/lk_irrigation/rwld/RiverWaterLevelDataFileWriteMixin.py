@@ -21,8 +21,8 @@ class RiverWaterLevelDataFileWriteMixin:
         return True
 
     @classmethod
-    def write_alert_data(cls, d_list):
-        json_file = JSONFile(os.path.join(cls.DIR_DATA, "alert_data.json"))
+    def write_alert_data(cls, d_list, max_t_ago=None, label=None):
+        json_file = JSONFile(os.path.join(cls.DIR_DATA, f"alert_data.{label}.json"))
 
         data = {}
         data["url_source"] = cls.REMOTE_URL
@@ -35,6 +35,15 @@ class RiverWaterLevelDataFileWriteMixin:
             ent_id = d["station_name"]
             time_id = TimeFormat.TIME_ID.format(Time(d["time_ut"]))
             date_part = time_id[:8]
+
+            if max_t_ago is not None:
+                t_ago = Time.now().ut - d["time_ut"]
+                if t_ago > max_t_ago:
+                    log.debug(
+                        f"Skipping {ent_id} at {time_id} because it is older than max_t_ago={max_t_ago} seconds."
+                    )
+                    continue
+
             time_part = time_id[9:]
             water_level_m = round(d["water_level_m"], 3)
 
@@ -64,4 +73,5 @@ class RiverWaterLevelDataFileWriteMixin:
         log.debug("Cleared caches for list_all and related methods.")
 
         # alert_data
-        cls.write_alert_data(d_list)
+        cls.write_alert_data(d_list, None, 'all')
+        cls.write_alert_data(d_list, 86400 * 28, 'last_28_days')
