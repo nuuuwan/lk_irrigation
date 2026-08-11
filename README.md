@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **42** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -63,7 +63,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-12 03:01:39 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
 | 2026-08-12 03:01:36 | Manampitiya (Mahaweli Ganga) | 0.00 | 🟢 Normal | -0.020 |  |
 | 2026-08-12 03:01:17 | Nakkala (Kumbukkan Oya) | 0.57 | 🟢 Normal | 0.000 |  |
-| 2026-08-12 02:51:33 | Putupaula (Kalu Ganga) | 0.54 | 🟢 Normal | 0.188 | 🔺 Rising |
 
 ## Latest by Station
 
