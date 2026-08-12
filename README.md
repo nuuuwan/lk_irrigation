@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--12_20:16:59-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--12_20:23:58-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **231,746 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **231,748 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-12 20:23:58 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
+| 2026-08-12 20:21:02 | Katharagama (Menik Ganga) | -0.27 | 🟢 Normal | -0.230 |  |
 | 2026-08-12 20:16:59 | Thalgahagoda (Nilwala Ganga) | 0.42 | 🟢 Normal | -0.038 |  |
 | 2026-08-12 20:12:09 | Baddegama (Gin Ganga) | 1.40 | 🟢 Normal | 0.000 |  |
 | 2026-08-12 20:12:05 | Thawalama (Gin Ganga) | 1.78 | 🟢 Normal | -0.030 |  |
@@ -36,7 +38,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-12 20:06:16 | Glencourse (Kelani Ganga) | 10.33 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-08-12 20:06:00 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.73 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-08-12 20:05:24 | Norwood (Kelani Ganga) | 0.74 | 🟢 Normal | -0.039 |  |
-| 2026-08-12 20:05:22 | Katharagama (Menik Ganga) | -0.21 | 🟢 Normal | 0.059 | 🔺 Rising |
+| 2026-08-12 20:05:22 | Katharagama (Menik Ganga) | -0.21 | 🟢 Normal | -0.230 |  |
 | 2026-08-12 20:04:47 | Putupaula (Kalu Ganga) | 0.64 | 🟢 Normal | -0.067 |  |
 | 2026-08-12 20:04:27 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-08-12 20:04:26 | Pitabeddara (Nilwala Ganga) | 0.63 | 🟢 Normal | 0.036 | 🔺 Rising |
@@ -67,7 +69,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-08-12 20:06:47 | Kithulgala (Kelani Ganga) | 2.17 | 🟢 Normal | 0.094 | 🔺 Rising |
-| 2026-08-12 20:05:22 | Katharagama (Menik Ganga) | -0.21 | 🟢 Normal | 0.059 | 🔺 Rising |
 | 2026-08-12 20:02:58 | Thaldena (Mahaweli Ganga) | 0.23 | 🟢 Normal | 0.040 | 🔺 Rising |
 | 2026-08-12 20:04:26 | Pitabeddara (Nilwala Ganga) | 0.63 | 🟢 Normal | 0.036 | 🔺 Rising |
 | 2026-08-12 20:06:16 | Glencourse (Kelani Ganga) | 10.33 | 🟢 Normal | 0.030 | 🔺 Rising |
@@ -79,7 +80,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-12 20:01:36 | Moragaswewa (Deduru Oya) | 0.00 | 🟢 Normal | 0.000 |  |
 | 2026-08-12 20:04:27 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-08-12 20:11:26 | Giriulla (Maha Oya) | 0.93 | 🟢 Normal | 0.000 |  |
-| 2026-08-12 19:01:03 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
+| 2026-08-12 20:23:58 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
 | 2026-08-12 18:05:42 | Galgamuwa (Mee Oya) | 0.07 | 🟢 Normal | 0.000 |  |
 | 2026-08-12 20:12:09 | Baddegama (Gin Ganga) | 1.40 | 🟢 Normal | 0.000 |  |
 | 2026-08-12 20:08:34 | Panadugama (Nilwala Ganga) | 2.70 | 🟢 Normal | 0.000 |  |
@@ -105,16 +106,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-12 20:04:47 | Putupaula (Kalu Ganga) | 0.64 | 🟢 Normal | -0.067 |  |
 | 2026-08-12 20:03:40 | Deraniyagala (Kelani Ganga) | 1.08 | 🟢 Normal | -0.068 |  |
 | 2026-08-12 20:03:07 | Nagalagam Street (Kelani Ganga) | 0.27 | 🟢 Normal | -0.093 |  |
+| 2026-08-12 20:21:02 | Katharagama (Menik Ganga) | -0.27 | 🟢 Normal | -0.230 |  |
 
 ## River Water Level Charts by Station
 
 ### Kithulgala (Kelani Ganga)
 
 ![Kithulgala](images/stations/kithulgala.png)
-
-### Katharagama (Menik Ganga)
-
-![Katharagama](images/stations/katharagama.png)
 
 ### Thaldena (Mahaweli Ganga)
 
@@ -263,6 +261,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Nagalagam Street (Kelani Ganga)
 
 ![Nagalagam Street](images/stations/nagalagam-street.png)
+
+### Katharagama (Menik Ganga)
+
+![Katharagama](images/stations/katharagama.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
