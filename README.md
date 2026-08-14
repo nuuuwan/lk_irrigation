@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--15_04:07:47-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--15_04:34:07-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **233,800 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **233,801 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **30** measurements in the last **1 hour**.*
+*There were **31** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-15 04:34:07 | Deraniyagala (Kelani Ganga) | 2.43 | 🟢 Normal | -0.486 |  |
 | 2026-08-15 04:07:47 | Urawa (Nilwala Ganga) | 0.01 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-08-15 04:07:18 | Panadugama (Nilwala Ganga) | 2.35 | 🟢 Normal | -0.053 |  |
 | 2026-08-15 04:06:51 | Holombuwa (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
@@ -59,7 +60,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-08-15 03:04:02 | Deraniyagala (Kelani Ganga) | 3.16 | 🟢 Normal | 0.498 | 🔺 Rising |
 | 2026-08-15 04:04:32 | Glencourse (Kelani Ganga) | 10.40 | 🟢 Normal | 0.158 | 🔺 Rising |
 | 2026-08-15 04:02:16 | Hanwella (Kelani Ganga) | 1.37 | 🟢 Normal | 0.142 | 🔺 Rising |
 | 2026-08-15 04:03:39 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.38 | 🟢 Normal | 0.069 | 🔺 Rising |
@@ -98,12 +98,9 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-15 04:07:18 | Panadugama (Nilwala Ganga) | 2.35 | 🟢 Normal | -0.053 |  |
 | 2026-08-14 18:01:00 | Thanthirimale (Malwathu Oya) | 0.77 | 🟢 Normal | -0.055 |  |
 | 2026-08-15 03:06:17 | Peradeniya (Mahaweli Ganga) | 3.22 | 🟢 Normal | -0.074 |  |
+| 2026-08-15 04:34:07 | Deraniyagala (Kelani Ganga) | 2.43 | 🟢 Normal | -0.486 |  |
 
 ## River Water Level Charts by Station
-
-### Deraniyagala (Kelani Ganga)
-
-![Deraniyagala](images/stations/deraniyagala.png)
 
 ### Glencourse (Kelani Ganga)
 
@@ -256,6 +253,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Peradeniya (Mahaweli Ganga)
 
 ![Peradeniya](images/stations/peradeniya.png)
+
+### Deraniyagala (Kelani Ganga)
+
+![Deraniyagala](images/stations/deraniyagala.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
