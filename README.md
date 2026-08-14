@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -55,8 +55,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-15 00:01:37 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
 | 2026-08-15 00:01:18 | Nakkala (Kumbukkan Oya) | 0.58 | 🟢 Normal | 0.000 |  |
 | 2026-08-15 00:01:15 | Pitabeddara (Nilwala Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
-| 2026-08-15 00:00:06 | Siyambalanduwa (Heda Oya) | 0.24 | 🟢 Normal | 0.000 |  |
-| 2026-08-14 23:39:01 | Norwood (Kelani Ganga) | 0.72 | 🟢 Normal | -0.016 |  |
 
 ## Latest by Station
 
