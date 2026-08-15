@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--15_08:14:50-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--15_08:25:29-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **233,956 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **233,958 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-15 08:25:29 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | -0.030 |  |
+| 2026-08-15 08:20:55 | Baddegama (Gin Ganga) | 1.22 | 🟢 Normal | 0.008 | 🔺 Rising |
 | 2026-08-15 08:14:50 | Katharagama (Menik Ganga) | -0.26 | 🟢 Normal | 0.000 |  |
 | 2026-08-15 08:12:32 | Galgamuwa (Mee Oya) | 0.11 | 🟢 Normal | -0.010 |  |
 | 2026-08-15 08:11:12 | Holombuwa (Kelani Ganga) | 0.41 | 🟢 Normal | 0.000 |  |
@@ -73,12 +75,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-15 08:08:01 | Glencourse (Kelani Ganga) | 11.31 | 🟢 Normal | 0.069 | 🔺 Rising |
 | 2026-08-15 08:03:23 | Thaldena (Mahaweli Ganga) | 0.17 | 🟢 Normal | 0.052 | 🔺 Rising |
 | 2026-08-15 08:03:22 | Panadugama (Nilwala Ganga) | 2.46 | 🟢 Normal | 0.043 | 🔺 Rising |
-| 2026-08-15 07:06:33 | Thalgahagoda (Nilwala Ganga) | 0.44 | 🟢 Normal | 0.037 | 🔺 Rising |
 | 2026-08-15 08:05:09 | Thawalama (Gin Ganga) | 1.60 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2026-08-15 08:02:12 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.18 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-08-15 08:02:56 | Ellagawa (Kalu Ganga) | 6.07 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-08-15 08:04:41 | Putupaula (Kalu Ganga) | 0.96 | 🟢 Normal | 0.011 | 🔺 Rising |
-| 2026-08-15 07:09:33 | Baddegama (Gin Ganga) | 1.21 | 🟢 Normal | 0.010 | 🔺 Rising |
+| 2026-08-15 08:20:55 | Baddegama (Gin Ganga) | 1.22 | 🟢 Normal | 0.008 | 🔺 Rising |
 | 2026-08-15 08:02:04 | Wellawaya (Kirindi Oya) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2026-08-15 08:02:56 | Nakkala (Kumbukkan Oya) | 0.58 | 🟢 Normal | 0.000 |  |
 | 2026-08-15 08:05:17 | Moragaswewa (Deduru Oya) | 0.05 | 🟢 Normal | 0.000 |  |
@@ -101,6 +102,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-15 08:01:50 | Rathnapura (Kalu Ganga) | 2.23 | 🟢 Normal | -0.010 |  |
 | 2026-08-15 08:01:30 | Siyambalanduwa (Heda Oya) | 0.20 | 🟢 Normal | -0.011 |  |
 | 2026-08-15 08:04:28 | Manampitiya (Mahaweli Ganga) | -0.07 | 🟢 Normal | -0.021 |  |
+| 2026-08-15 08:25:29 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | -0.030 |  |
 | 2026-08-15 08:02:44 | Weraganthota (Mahaweli Ganga) | -3.22 | 🟢 Normal | -0.032 |  |
 | 2026-08-15 08:03:21 | Kithulgala (Kelani Ganga) | 2.00 | 🟢 Normal | -0.098 |  |
 | 2026-08-15 08:02:47 | Nawalapitiya (Mahaweli Ganga) | 1.91 | 🟢 Normal | -0.100 |  |
@@ -132,10 +134,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Panadugama (Nilwala Ganga)
 
 ![Panadugama](images/stations/panadugama.png)
-
-### Thalgahagoda (Nilwala Ganga)
-
-![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Thawalama (Gin Ganga)
 
@@ -244,6 +242,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Manampitiya (Mahaweli Ganga)
 
 ![Manampitiya](images/stations/manampitiya.png)
+
+### Thalgahagoda (Nilwala Ganga)
+
+![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Weraganthota (Mahaweli Ganga)
 
