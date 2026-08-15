@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -61,7 +61,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-15 09:01:08 | Pitabeddara (Nilwala Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
 | 2026-08-15 09:00:55 | Thanthirimale (Malwathu Oya) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2026-08-15 09:00:45 | Weraganthota (Mahaweli Ganga) | -3.28 | 🟢 Normal | -0.062 |  |
-| 2026-08-15 08:25:29 | Thalgahagoda (Nilwala Ganga) | 0.40 | 🟢 Normal | -0.072 |  |
 
 ## Latest by Station
 
