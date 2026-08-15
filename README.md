@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **20** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -42,23 +42,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-16 00:03:58 | Baddegama (Gin Ganga) | 1.25 | 🟢 Normal | -0.011 |  |
 | 2026-08-16 00:03:42 | Glencourse (Kelani Ganga) | 10.04 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-08-16 00:03:35 | Moragaswewa (Deduru Oya) | 0.07 | 🟢 Normal | -0.010 |  |
-| 2026-08-16 00:03:20 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 00:03:18 | Siyambalanduwa (Heda Oya) | 0.43 | 🟢 Normal | -0.020 |  |
-| 2026-08-16 00:03:15 | Ellagawa (Kalu Ganga) | 5.64 | 🟢 Normal | -0.049 |  |
-| 2026-08-16 00:03:14 | Manampitiya (Mahaweli Ganga) | -0.08 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-08-16 00:03:01 | Deraniyagala (Kelani Ganga) | 1.01 | 🟢 Normal | -0.010 |  |
-| 2026-08-16 00:02:39 | Kuda Oya (Kirindi Oya) | 0.93 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 00:02:35 | Dunamale (Aththanagalu Oya) | 0.34 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 00:02:23 | Nagalagam Street (Kelani Ganga) | 0.27 | 🟢 Normal | 0.060 | 🔺 Rising |
-| 2026-08-16 00:02:08 | Pitabeddara (Nilwala Ganga) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 00:02:06 | Nawalapitiya (Mahaweli Ganga) | 1.58 | 🟢 Normal | -0.011 |  |
-| 2026-08-16 00:02:02 | Padiyathalawa (Maduru Oya) | 0.07 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 00:01:43 | Giriulla (Maha Oya) | 0.88 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 00:01:24 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.06 | 🟢 Normal | -0.020 |  |
-| 2026-08-16 00:01:10 | Thalgahagoda (Nilwala Ganga) | 0.17 | 🟢 Normal | -0.176 |  |
-| 2026-08-16 00:00:54 | Nakkala (Kumbukkan Oya) | 0.57 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 00:00:38 | Magura (Kalu Ganga) | 1.51 | 🟢 Normal | -0.022 |  |
-| 2026-08-16 00:00:12 | Horowpothana (Yan Oya) | 1.66 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
