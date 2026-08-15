@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **33** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -55,10 +55,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-15 17:02:10 | Thanamalwila (Kirindi Oya) | 0.18 | 🟢 Normal | -0.010 |  |
 | 2026-08-15 17:02:10 | Putupaula (Kalu Ganga) | 0.94 | 🟢 Normal | 0.073 | 🔺 Rising |
 | 2026-08-15 17:02:08 | Manampitiya (Mahaweli Ganga) | -0.15 | 🟢 Normal | 0.000 |  |
-| 2026-08-15 17:02:02 | Norwood (Kelani Ganga) | 0.70 | 🟢 Normal | 0.000 |  |
-| 2026-08-15 17:02:01 | Nagalagam Street (Kelani Ganga) | 0.67 | 🟢 Normal | -0.030 |  |
-| 2026-08-15 17:01:11 | Horowpothana (Yan Oya) | 1.66 | 🟢 Normal | 0.000 |  |
-| 2026-08-15 17:00:47 | Thanthirimale (Malwathu Oya) | 0.70 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
