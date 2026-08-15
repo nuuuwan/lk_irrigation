@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **22** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -44,21 +44,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-15 20:02:50 | Magura (Kalu Ganga) | 1.60 | 🟢 Normal | -0.010 |  |
 | 2026-08-15 20:02:47 | Katharagama (Menik Ganga) | -0.26 | 🟢 Normal | 0.000 |  |
 | 2026-08-15 20:02:41 | Dunamale (Aththanagalu Oya) | 0.34 | 🟢 Normal | 0.000 |  |
-| 2026-08-15 20:02:35 | Deraniyagala (Kelani Ganga) | 1.05 | 🟢 Normal | -0.010 |  |
-| 2026-08-15 20:02:16 | Putupaula (Kalu Ganga) | 0.97 | 🟢 Normal | -0.031 |  |
-| 2026-08-15 20:02:06 | Giriulla (Maha Oya) | 0.89 | 🟢 Normal | 0.000 |  |
-| 2026-08-15 20:02:04 | Moragaswewa (Deduru Oya) | 0.07 | 🟢 Normal | 0.000 |  |
-| 2026-08-15 20:02:01 | Wellawaya (Kirindi Oya) | 0.58 | 🟢 Normal | 0.000 |  |
-| 2026-08-15 20:01:54 | Thaldena (Mahaweli Ganga) | 0.10 | 🟢 Normal | -0.032 |  |
-| 2026-08-15 20:01:53 | Nakkala (Kumbukkan Oya) | 0.57 | 🟢 Normal | -0.010 |  |
-| 2026-08-15 20:01:52 | Manampitiya (Mahaweli Ganga) | -0.17 | 🟢 Normal | -0.010 |  |
-| 2026-08-15 20:01:48 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-08-15 20:01:46 | Rathnapura (Kalu Ganga) | 1.72 | 🟢 Normal | -0.027 |  |
-| 2026-08-15 20:01:25 | Nagalagam Street (Kelani Ganga) | 0.37 | 🟢 Normal | -0.122 |  |
-| 2026-08-15 20:01:20 | Nawalapitiya (Mahaweli Ganga) | 1.60 | 🟢 Normal | 0.000 |  |
-| 2026-08-15 20:01:12 | Ellagawa (Kalu Ganga) | 5.86 | 🟢 Normal | -0.030 |  |
-| 2026-08-15 20:00:39 | Pitabeddara (Nilwala Ganga) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-08-15 19:59:53 | Padiyathalawa (Maduru Oya) | 0.07 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
