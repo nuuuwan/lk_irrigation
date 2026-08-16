@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **20** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -42,24 +42,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-17 00:04:08 | Nagalagam Street (Kelani Ganga) | 0.21 | 🟢 Normal | 0.418 | 🔺 Rising |
 | 2026-08-17 00:04:07 | Thawalama (Gin Ganga) | 1.44 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 00:03:52 | Thawalama (Gin Ganga) | 1.44 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 00:03:44 | Katharagama (Menik Ganga) | -0.25 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 00:03:44 | Ellagawa (Kalu Ganga) | 5.03 | 🟢 Normal | -0.025 |  |
-| 2026-08-17 00:03:18 | Urawa (Nilwala Ganga) | 0.03 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 00:03:14 | Badalgama (Maha Oya) | 1.93 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 00:03:09 | Siyambalanduwa (Heda Oya) | 0.21 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 00:02:23 | Wellawaya (Kirindi Oya) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 00:02:23 | Dunamale (Aththanagalu Oya) | 0.34 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 00:02:22 | Norwood (Kelani Ganga) | 0.65 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 00:02:17 | Pitabeddara (Nilwala Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 00:02:13 | Manampitiya (Mahaweli Ganga) | -0.11 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-08-17 00:01:38 | Magura (Kalu Ganga) | 1.35 | 🟢 Normal | -0.021 |  |
-| 2026-08-17 00:01:38 | Baddegama (Gin Ganga) | 1.15 | 🟢 Normal | -0.011 |  |
-| 2026-08-17 00:01:36 | Peradeniya (Mahaweli Ganga) | 3.18 | 🟢 Normal | 0.099 | 🔺 Rising |
-| 2026-08-17 00:01:27 | Kuda Oya (Kirindi Oya) | 0.92 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 00:01:20 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 00:01:20 | Nakkala (Kumbukkan Oya) | 0.55 | 🟢 Normal | -0.010 |  |
-| 2026-08-17 00:01:12 | Moragaswewa (Deduru Oya) | 0.10 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 00:01:00 | Giriulla (Maha Oya) | 0.87 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
