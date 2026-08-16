@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **19** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -41,24 +41,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-16 20:03:37 | Padiyathalawa (Maduru Oya) | 0.07 | 🟢 Normal | 0.000 |  |
 | 2026-08-16 20:03:36 | Ellagawa (Kalu Ganga) | 5.13 | 🟢 Normal | -0.045 |  |
 | 2026-08-16 20:03:35 | Baddegama (Gin Ganga) | 1.18 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 20:02:49 | Wellawaya (Kirindi Oya) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 20:02:48 | Pitabeddara (Nilwala Ganga) | 0.43 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 20:02:47 | Magura (Kalu Ganga) | 1.40 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 20:02:28 | Thaldena (Mahaweli Ganga) | 0.10 | 🟢 Normal | 0.046 | 🔺 Rising |
-| 2026-08-16 20:02:25 | Norwood (Kelani Ganga) | 0.65 | 🟢 Normal | -0.010 |  |
-| 2026-08-16 20:02:23 | Dunamale (Aththanagalu Oya) | 0.38 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-08-16 20:02:11 | Siyambalanduwa (Heda Oya) | 0.22 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 20:02:08 | Kithulgala (Kelani Ganga) | 1.98 | 🟢 Normal | 0.022 | 🔺 Rising |
-| 2026-08-16 20:02:00 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 20:01:59 | Nawalapitiya (Mahaweli Ganga) | 1.47 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 20:01:47 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 20:01:43 | Peradeniya (Mahaweli Ganga) | 2.69 | 🟢 Normal | 0.142 | 🔺 Rising |
-| 2026-08-16 20:01:37 | Kuda Oya (Kirindi Oya) | 0.92 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 20:01:35 | Giriulla (Maha Oya) | 0.87 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 20:01:32 | Thawalama (Gin Ganga) | 1.42 | 🟢 Normal | 0.016 | 🔺 Rising |
-| 2026-08-16 20:01:30 | Thanamalwila (Kirindi Oya) | 0.13 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 20:01:07 | Badalgama (Maha Oya) | 1.94 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 20:00:56 | Nakkala (Kumbukkan Oya) | 0.56 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
