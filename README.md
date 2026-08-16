@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **41** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -56,13 +56,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-16 10:02:35 | Glencourse (Kelani Ganga) | 9.89 | 🟢 Normal | -0.010 |  |
 | 2026-08-16 10:02:32 | Dunamale (Aththanagalu Oya) | 0.31 | 🟢 Normal | -0.020 |  |
 | 2026-08-16 10:02:16 | Pitabeddara (Nilwala Ganga) | 0.41 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 10:01:46 | Thanamalwila (Kirindi Oya) | 0.19 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 10:01:32 | Thawalama (Gin Ganga) | 1.40 | 🟢 Normal | 0.012 | 🔺 Rising |
-| 2026-08-16 10:01:17 | Kuda Oya (Kirindi Oya) | 0.92 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 10:01:15 | Peradeniya (Mahaweli Ganga) | 2.52 | 🟢 Normal | -0.061 |  |
-| 2026-08-16 10:01:11 | Moraketiya (Walawe Ganga) | 0.65 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 10:00:55 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 10:00:20 | Wellawaya (Kirindi Oya) | 0.56 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
