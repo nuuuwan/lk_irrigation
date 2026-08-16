@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--16_10:12:16-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--16_10:16:18-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **234,932 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **234,934 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-16 10:16:18 | Weraganthota (Mahaweli Ganga) | -3.32 | 🟢 Normal | -0.032 |  |
+| 2026-08-16 10:15:29 | Magura (Kalu Ganga) | 1.49 | 🟢 Normal | 0.026 | 🔺 Rising |
 | 2026-08-16 10:12:16 | Baddegama (Gin Ganga) | 1.19 | 🟢 Normal | -0.010 |  |
 | 2026-08-16 10:11:06 | Urawa (Nilwala Ganga) | -0.01 | 🟢 Normal | 0.000 |  |
 | 2026-08-16 10:10:55 | Rathnapura (Kalu Ganga) | 1.43 | 🟢 Normal | -0.018 |  |
@@ -68,7 +70,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-08-16 10:03:32 | Kithulgala (Kelani Ganga) | 1.73 | 🟢 Normal | 0.109 | 🔺 Rising |
 | 2026-08-16 10:10:32 | Holombuwa (Kelani Ganga) | 0.43 | 🟢 Normal | 0.057 | 🔺 Rising |
-| 2026-08-16 09:05:52 | Magura (Kalu Ganga) | 1.46 | 🟢 Normal | 0.020 | 🔺 Rising |
+| 2026-08-16 10:15:29 | Magura (Kalu Ganga) | 1.49 | 🟢 Normal | 0.026 | 🔺 Rising |
 | 2026-08-16 10:01:32 | Thawalama (Gin Ganga) | 1.40 | 🟢 Normal | 0.012 | 🔺 Rising |
 | 2026-08-16 10:00:20 | Wellawaya (Kirindi Oya) | 0.56 | 🟢 Normal | 0.000 |  |
 | 2026-08-16 10:06:53 | Nakkala (Kumbukkan Oya) | 0.56 | 🟢 Normal | 0.000 |  |
@@ -98,13 +100,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-16 10:02:32 | Dunamale (Aththanagalu Oya) | 0.31 | 🟢 Normal | -0.020 |  |
 | 2026-08-16 10:09:59 | Thalgahagoda (Nilwala Ganga) | 0.32 | 🟢 Normal | -0.029 |  |
 | 2026-08-16 10:05:32 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.28 | 🟢 Normal | -0.030 |  |
+| 2026-08-16 10:16:18 | Weraganthota (Mahaweli Ganga) | -3.32 | 🟢 Normal | -0.032 |  |
 | 2026-08-16 10:06:56 | Ellagawa (Kalu Ganga) | 5.29 | 🟢 Normal | -0.045 |  |
 | 2026-08-16 10:01:15 | Peradeniya (Mahaweli Ganga) | 2.52 | 🟢 Normal | -0.061 |  |
 | 2026-08-16 10:03:39 | Nagalagam Street (Kelani Ganga) | 0.18 | 🟢 Normal | -0.061 |  |
 | 2026-08-16 10:07:19 | Siyambalanduwa (Heda Oya) | 0.18 | 🟢 Normal | -0.089 |  |
 | 2026-08-16 10:05:16 | Putupaula (Kalu Ganga) | 0.60 | 🟢 Normal | -0.132 |  |
 | 2026-08-16 10:04:09 | Deraniyagala (Kelani Ganga) | 0.80 | 🟢 Normal | -0.140 |  |
-| 2026-08-16 09:01:56 | Weraganthota (Mahaweli Ganga) | -3.28 | 🟢 Normal | -108.000 |  |
 
 ## River Water Level Charts by Station
 
@@ -236,6 +238,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
 
+### Weraganthota (Mahaweli Ganga)
+
+![Weraganthota](images/stations/weraganthota.png)
+
 ### Ellagawa (Kalu Ganga)
 
 ![Ellagawa](images/stations/ellagawa.png)
@@ -259,10 +265,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Deraniyagala (Kelani Ganga)
 
 ![Deraniyagala](images/stations/deraniyagala.png)
-
-### Weraganthota (Mahaweli Ganga)
-
-![Weraganthota](images/stations/weraganthota.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
