@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **21** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -43,24 +43,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-16 16:04:10 | Giriulla (Maha Oya) | 0.88 | 🟢 Normal | -0.010 |  |
 | 2026-08-16 16:04:05 | Thawalama (Gin Ganga) | 1.42 | 🟢 Normal | 0.000 |  |
 | 2026-08-16 16:03:44 | Manampitiya (Mahaweli Ganga) | -0.14 | 🟢 Normal | -0.019 |  |
-| 2026-08-16 16:03:38 | Peradeniya (Mahaweli Ganga) | 2.70 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-08-16 16:03:12 | Thanamalwila (Kirindi Oya) | 0.16 | 🟢 Normal | -0.010 |  |
-| 2026-08-16 16:03:05 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 16:03:01 | Weraganthota (Mahaweli Ganga) | -3.20 | 🟢 Normal | -0.021 |  |
-| 2026-08-16 16:03:01 | Padiyathalawa (Maduru Oya) | 0.07 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 16:02:52 | Galgamuwa (Mee Oya) | 0.08 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 16:02:28 | Deraniyagala (Kelani Ganga) | 1.02 | 🟢 Normal | 0.111 | 🔺 Rising |
-| 2026-08-16 16:02:26 | Kuda Oya (Kirindi Oya) | 0.92 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 16:02:26 | Hanwella (Kelani Ganga) | 1.41 | 🟢 Normal | -0.020 |  |
-| 2026-08-16 16:02:17 | Dunamale (Aththanagalu Oya) | 0.34 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-08-16 16:02:11 | Wellawaya (Kirindi Oya) | 0.55 | 🟢 Normal | -0.010 |  |
-| 2026-08-16 16:02:08 | Nawalapitiya (Mahaweli Ganga) | 1.47 | 🟢 Normal | -0.010 |  |
-| 2026-08-16 16:01:59 | Putupaula (Kalu Ganga) | 0.75 | 🟢 Normal | 0.093 | 🔺 Rising |
-| 2026-08-16 16:01:12 | Rathnapura (Kalu Ganga) | 1.34 | 🟢 Normal | 0.022 | 🔺 Rising |
-| 2026-08-16 16:00:58 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 16:00:48 | Siyambalanduwa (Heda Oya) | 0.22 | 🟢 Normal | 0.040 | 🔺 Rising |
-| 2026-08-16 16:00:12 | Katharagama (Menik Ganga) | -0.26 | 🟢 Normal | 0.000 |  |
-| 2026-08-16 16:00:08 | Nakkala (Kumbukkan Oya) | 0.56 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
