@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--17_15:11:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--17_15:20:06-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **236,020 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **236,021 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-17 15:20:06 | Padiyathalawa (Maduru Oya) | 0.07 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 15:11:05 | Glencourse (Kelani Ganga) | 9.77 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 15:10:28 | Panadugama (Nilwala Ganga) | 2.54 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 15:07:12 | Norwood (Kelani Ganga) | 0.68 | 🟢 Normal | 0.010 | 🔺 Rising |
@@ -86,7 +87,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-17 15:02:31 | Galgamuwa (Mee Oya) | 0.07 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 15:03:56 | Hanwella (Kelani Ganga) | 1.30 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 15:10:28 | Panadugama (Nilwala Ganga) | 2.54 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 14:24:25 | Padiyathalawa (Maduru Oya) | 0.07 | 🟢 Normal | 0.000 |  |
+| 2026-08-17 15:20:06 | Padiyathalawa (Maduru Oya) | 0.07 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 15:11:05 | Glencourse (Kelani Ganga) | 9.77 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 15:01:13 | Siyambalanduwa (Heda Oya) | 0.20 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 15:03:18 | Dunamale (Aththanagalu Oya) | 0.48 | 🟢 Normal | 0.000 |  |
