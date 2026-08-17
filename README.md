@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--18_01:08:51-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--18_01:22:42-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **236,370 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **236,372 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **25** measurements in the last **1 hour**.*
+*There were **27** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-18 01:22:42 | Manampitiya (Mahaweli Ganga) | -0.04 | 🟢 Normal | 0.019 | 🔺 Rising |
+| 2026-08-18 01:14:20 | Siyambalanduwa (Heda Oya) | 0.19 | 🟢 Normal | 0.000 |  |
 | 2026-08-18 01:08:51 | Glencourse (Kelani Ganga) | 10.28 | 🟢 Normal | 0.051 | 🔺 Rising |
 | 2026-08-18 01:07:29 | Nagalagam Street (Kelani Ganga) | 0.15 | 🟢 Normal | 0.060 | 🔺 Rising |
 | 2026-08-18 01:05:55 | Magura (Kalu Ganga) | 1.55 | 🟢 Normal | 0.018 | 🔺 Rising |
@@ -55,13 +57,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-08-18 01:03:55 | Rathnapura (Kalu Ganga) | 2.93 | 🟢 Normal | 0.243 | 🔺 Rising |
-| 2026-08-18 00:01:41 | Manampitiya (Mahaweli Ganga) | -0.07 | 🟢 Normal | 0.090 | 🔺 Rising |
 | 2026-08-17 21:03:39 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.68 | 🟢 Normal | 0.080 | 🔺 Rising |
 | 2026-08-18 01:07:29 | Nagalagam Street (Kelani Ganga) | 0.15 | 🟢 Normal | 0.060 | 🔺 Rising |
 | 2026-08-18 01:08:51 | Glencourse (Kelani Ganga) | 10.28 | 🟢 Normal | 0.051 | 🔺 Rising |
 | 2026-08-18 01:03:21 | Ellagawa (Kalu Ganga) | 5.53 | 🟢 Normal | 0.041 | 🔺 Rising |
 | 2026-08-18 01:05:37 | Deraniyagala (Kelani Ganga) | 1.29 | 🟢 Normal | 0.040 | 🔺 Rising |
 | 2026-08-18 01:02:52 | Hanwella (Kelani Ganga) | 1.36 | 🟢 Normal | 0.023 | 🔺 Rising |
+| 2026-08-18 01:22:42 | Manampitiya (Mahaweli Ganga) | -0.04 | 🟢 Normal | 0.019 | 🔺 Rising |
 | 2026-08-18 01:05:55 | Magura (Kalu Ganga) | 1.55 | 🟢 Normal | 0.018 | 🔺 Rising |
 | 2026-08-18 01:01:11 | Kithulgala (Kelani Ganga) | 1.85 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 18:01:09 | Weraganthota (Mahaweli Ganga) | -3.44 | 🟢 Normal | 0.000 |  |
@@ -77,7 +79,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-18 00:13:07 | Panadugama (Nilwala Ganga) | 2.52 | 🟢 Normal | 0.000 |  |
 | 2026-08-18 01:01:21 | Padiyathalawa (Maduru Oya) | 0.07 | 🟢 Normal | 0.000 |  |
 | 2026-08-18 00:03:29 | Moraketiya (Walawe Ganga) | 0.59 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 01:02:23 | Siyambalanduwa (Heda Oya) | 0.19 | 🟢 Normal | 0.000 |  |
+| 2026-08-18 01:14:20 | Siyambalanduwa (Heda Oya) | 0.19 | 🟢 Normal | 0.000 |  |
 | 2026-08-18 01:04:03 | Dunamale (Aththanagalu Oya) | 0.52 | 🟢 Normal | 0.000 |  |
 | 2026-08-18 00:08:58 | Katharagama (Menik Ganga) | -0.26 | 🟢 Normal | 0.000 |  |
 | 2026-08-18 01:05:06 | Badalgama (Maha Oya) | 1.91 | 🟢 Normal | 0.000 |  |
@@ -99,10 +101,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Rathnapura (Kalu Ganga)
 
 ![Rathnapura](images/stations/rathnapura.png)
-
-### Manampitiya (Mahaweli Ganga)
-
-![Manampitiya](images/stations/manampitiya.png)
 
 ### Kalawellawa (Millakanda) (Kalu Ganga)
 
@@ -127,6 +125,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Hanwella (Kelani Ganga)
 
 ![Hanwella](images/stations/hanwella.png)
+
+### Manampitiya (Mahaweli Ganga)
+
+![Manampitiya](images/stations/manampitiya.png)
 
 ### Magura (Kalu Ganga)
 
