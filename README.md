@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **30** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -52,15 +52,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-17 13:02:22 | Thanamalwila (Kirindi Oya) | 0.08 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 13:02:12 | Wellawaya (Kirindi Oya) | 0.52 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 13:01:53 | Putupaula (Kalu Ganga) | 0.46 | 🟢 Normal | -0.041 |  |
-| 2026-08-17 13:01:42 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 13:01:39 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 13:01:30 | Pitabeddara (Nilwala Ganga) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 13:01:25 | Rathnapura (Kalu Ganga) | 1.65 | 🟢 Normal | -0.011 |  |
-| 2026-08-17 13:01:22 | Thaldena (Mahaweli Ganga) | 0.09 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 13:01:05 | Thalgahagoda (Nilwala Ganga) | 0.27 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-08-17 13:01:03 | Thanthirimale (Malwathu Oya) | 0.71 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-08-17 13:00:56 | Siyambalanduwa (Heda Oya) | 0.20 | 🟢 Normal | 0.000 |  |
-| 2026-08-17 13:00:17 | Nakkala (Kumbukkan Oya) | 0.55 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
