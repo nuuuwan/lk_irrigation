@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--17_23:08:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--17_23:17:12-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **236,308 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **236,309 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **30** measurements in the last **1 hour**.*
+*There were **31** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-17 23:17:12 | Putupaula (Kalu Ganga) | 0.50 | 🟢 Normal | -0.051 |  |
 | 2026-08-17 23:08:05 | Giriulla (Maha Oya) | 0.86 | 🟢 Normal | 0.000 |  |
 | 2026-08-17 23:07:00 | Nagalagam Street (Kelani Ganga) | 0.09 | 🟢 Normal | -0.015 |  |
 | 2026-08-17 23:06:55 | Pitabeddara (Nilwala Ganga) | 0.47 | 🟢 Normal | 0.000 |  |
@@ -97,7 +98,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-17 23:01:22 | Nawalapitiya (Mahaweli Ganga) | 1.70 | 🟢 Normal | -0.030 |  |
 | 2026-08-17 23:04:02 | Thalgahagoda (Nilwala Ganga) | 0.25 | 🟢 Normal | -0.030 |  |
 | 2026-08-17 23:01:35 | Deraniyagala (Kelani Ganga) | 1.27 | 🟢 Normal | -0.031 |  |
-| 2026-08-17 22:06:23 | Putupaula (Kalu Ganga) | 0.56 | 🟢 Normal | -0.082 |  |
+| 2026-08-17 23:17:12 | Putupaula (Kalu Ganga) | 0.50 | 🟢 Normal | -0.051 |  |
 
 ## River Water Level Charts by Station
 
