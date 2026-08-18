@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--19_01:19:48-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--19_01:39:08-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **237,261 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **237,264 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **27** measurements in the last **1 hour**.*
+*There were **15** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-19 01:39:08 | Thawalama (Gin Ganga) | 1.42 | 🟢 Normal | -0.015 |  |
+| 2026-08-19 01:31:32 | Nawalapitiya (Mahaweli Ganga) | 1.41 | 🟢 Normal | 0.000 |  |
+| 2026-08-19 01:27:51 | Nakkala (Kumbukkan Oya) | 0.58 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 01:19:48 | Panadugama (Nilwala Ganga) | 2.39 | 🟢 Normal | -0.009 |  |
 | 2026-08-19 01:11:57 | Nagalagam Street (Kelani Ganga) | 0.18 | 🟢 Normal | 0.053 | 🔺 Rising |
 | 2026-08-19 01:11:26 | Thalgahagoda (Nilwala Ganga) | 0.25 | 🟢 Normal | -0.009 |  |
@@ -34,21 +37,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-19 01:07:05 | Baddegama (Gin Ganga) | 1.22 | 🟢 Normal | -0.020 |  |
 | 2026-08-19 01:05:45 | Magura (Kalu Ganga) | 1.40 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 01:04:53 | Giriulla (Maha Oya) | 0.89 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 01:04:04 | Thaldena (Mahaweli Ganga) | 0.11 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 01:03:44 | Padiyathalawa (Maduru Oya) | 0.06 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 01:03:21 | Kithulgala (Kelani Ganga) | 1.81 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 01:03:20 | Hanwella (Kelani Ganga) | 1.20 | 🟢 Normal | -0.020 |  |
-| 2026-08-19 01:02:35 | Dunamale (Aththanagalu Oya) | 0.52 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 01:02:13 | Deraniyagala (Kelani Ganga) | 0.87 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 01:02:10 | Thanamalwila (Kirindi Oya) | 0.02 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 01:02:01 | Moragaswewa (Deduru Oya) | -0.05 | 🟢 Normal | -0.010 |  |
-| 2026-08-19 01:01:55 | Peradeniya (Mahaweli Ganga) | 3.11 | 🟢 Normal | -0.042 |  |
-| 2026-08-19 01:01:54 | Siyambalanduwa (Heda Oya) | 0.17 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 01:01:47 | Horowpothana (Yan Oya) | 1.68 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 01:01:42 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 01:01:40 | Wellawaya (Kirindi Oya) | 0.48 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 01:01:13 | Kuda Oya (Kirindi Oya) | 0.91 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-08-19 01:00:57 | Pitabeddara (Nilwala Ganga) | 0.48 | 🟢 Normal | -0.011 |  |
 
 ## Latest by Station
 
@@ -63,7 +51,8 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-19 01:03:21 | Kithulgala (Kelani Ganga) | 1.81 | 🟢 Normal | 0.000 |  |
 | 2026-08-18 18:00:13 | Weraganthota (Mahaweli Ganga) | -3.45 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 01:01:40 | Wellawaya (Kirindi Oya) | 0.48 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 00:06:15 | Nakkala (Kumbukkan Oya) | 0.58 | 🟢 Normal | 0.000 |  |
+| 2026-08-19 01:27:51 | Nakkala (Kumbukkan Oya) | 0.58 | 🟢 Normal | 0.000 |  |
+| 2026-08-19 01:31:32 | Nawalapitiya (Mahaweli Ganga) | 1.41 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 01:01:42 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 01:04:53 | Giriulla (Maha Oya) | 0.89 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 01:01:47 | Horowpothana (Yan Oya) | 1.68 | 🟢 Normal | 0.000 |  |
@@ -86,15 +75,14 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-19 01:19:48 | Panadugama (Nilwala Ganga) | 2.39 | 🟢 Normal | -0.009 |  |
 | 2026-08-19 01:11:26 | Thalgahagoda (Nilwala Ganga) | 0.25 | 🟢 Normal | -0.009 |  |
 | 2026-08-19 01:02:01 | Moragaswewa (Deduru Oya) | -0.05 | 🟢 Normal | -0.010 |  |
-| 2026-08-19 00:01:38 | Nawalapitiya (Mahaweli Ganga) | 1.41 | 🟢 Normal | -0.010 |  |
 | 2026-08-19 01:00:57 | Pitabeddara (Nilwala Ganga) | 0.48 | 🟢 Normal | -0.011 |  |
+| 2026-08-19 01:39:08 | Thawalama (Gin Ganga) | 1.42 | 🟢 Normal | -0.015 |  |
 | 2026-08-19 01:03:20 | Hanwella (Kelani Ganga) | 1.20 | 🟢 Normal | -0.020 |  |
 | 2026-08-19 01:07:05 | Baddegama (Gin Ganga) | 1.22 | 🟢 Normal | -0.020 |  |
 | 2026-08-19 01:10:03 | Rathnapura (Kalu Ganga) | 1.56 | 🟢 Normal | -0.022 |  |
 | 2026-08-19 01:01:55 | Peradeniya (Mahaweli Ganga) | 3.11 | 🟢 Normal | -0.042 |  |
 | 2026-08-19 00:04:21 | Ellagawa (Kalu Ganga) | 5.45 | 🟢 Normal | -0.063 |  |
 | 2026-08-19 00:11:08 | Putupaula (Kalu Ganga) | 0.55 | 🟢 Normal | -0.117 |  |
-| 2026-08-19 00:18:32 | Thawalama (Gin Ganga) | 1.44 | 🟢 Normal | -36.000 |  |
 
 ## River Water Level Charts by Station
 
@@ -129,6 +117,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Nakkala (Kumbukkan Oya)
 
 ![Nakkala](images/stations/nakkala.png)
+
+### Nawalapitiya (Mahaweli Ganga)
+
+![Nawalapitiya](images/stations/nawalapitiya.png)
 
 ### Yaka Wewa (Ma Oya)
 
@@ -218,13 +210,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Moragaswewa](images/stations/moragaswewa.png)
 
-### Nawalapitiya (Mahaweli Ganga)
-
-![Nawalapitiya](images/stations/nawalapitiya.png)
-
 ### Pitabeddara (Nilwala Ganga)
 
 ![Pitabeddara](images/stations/pitabeddara.png)
+
+### Thawalama (Gin Ganga)
+
+![Thawalama](images/stations/thawalama.png)
 
 ### Hanwella (Kelani Ganga)
 
@@ -249,10 +241,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Putupaula (Kalu Ganga)
 
 ![Putupaula](images/stations/putupaula.png)
-
-### Thawalama (Gin Ganga)
-
-![Thawalama](images/stations/thawalama.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
