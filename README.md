@@ -18,48 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
-
-| Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
-| --- | --- | ---: | --- | ---: | --- |
-| 2026-08-18 09:10:49 | Thalgahagoda (Nilwala Ganga) | 0.35 | 🟢 Normal | -0.027 |  |
-| 2026-08-18 09:09:56 | Urawa (Nilwala Ganga) | 0.09 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:09:04 | Baddegama (Gin Ganga) | 1.20 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:08:54 | Panadugama (Nilwala Ganga) | 2.50 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:08:11 | Pitabeddara (Nilwala Ganga) | 0.47 | 🟢 Normal | 0.036 | 🔺 Rising |
-| 2026-08-18 09:07:11 | Magura (Kalu Ganga) | 1.57 | 🟢 Normal | -0.010 |  |
-| 2026-08-18 09:06:47 | Holombuwa (Kelani Ganga) | 0.24 | 🟢 Normal | -0.029 |  |
-| 2026-08-18 09:06:08 | Thanthirimale (Malwathu Oya) | 0.73 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:06:02 | Thanamalwila (Kirindi Oya) | 0.10 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:06:01 | Rathnapura (Kalu Ganga) | 2.34 | 🟢 Normal | -0.090 |  |
-| 2026-08-18 09:05:48 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.58 | 🟢 Normal | -0.038 |  |
-| 2026-08-18 09:05:46 | Padiyathalawa (Maduru Oya) | 0.07 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:04:47 | Badalgama (Maha Oya) | 1.90 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:04:20 | Siyambalanduwa (Heda Oya) | 0.19 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:04:01 | Manampitiya (Mahaweli Ganga) | -0.11 | 🟢 Normal | -0.048 |  |
-| 2026-08-18 09:03:59 | Putupaula (Kalu Ganga) | 0.83 | 🟢 Normal | -0.030 |  |
-| 2026-08-18 09:03:41 | Glencourse (Kelani Ganga) | 10.05 | 🟢 Normal | -0.050 |  |
-| 2026-08-18 09:03:32 | Thawalama (Gin Ganga) | 1.63 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-08-18 09:03:28 | Giriulla (Maha Oya) | 0.88 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:03:17 | Deraniyagala (Kelani Ganga) | 0.97 | 🟢 Normal | -0.010 |  |
-| 2026-08-18 09:02:58 | Hanwella (Kelani Ganga) | 1.70 | 🟢 Normal | -0.020 |  |
-| 2026-08-18 09:02:53 | Horowpothana (Yan Oya) | 1.68 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:02:48 | Nakkala (Kumbukkan Oya) | 0.57 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-08-18 09:02:48 | Ellagawa (Kalu Ganga) | 6.19 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-08-18 09:02:37 | Katharagama (Menik Ganga) | -0.26 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:02:32 | Kithulgala (Kelani Ganga) | 1.61 | 🟢 Normal | -0.191 |  |
-| 2026-08-18 09:02:30 | Galgamuwa (Mee Oya) | 0.06 | 🟢 Normal | -0.010 |  |
-| 2026-08-18 09:02:28 | Nawalapitiya (Mahaweli Ganga) | 1.50 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:02:27 | Thaldena (Mahaweli Ganga) | 0.12 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:02:10 | Dunamale (Aththanagalu Oya) | 0.52 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:02:09 | Moragaswewa (Deduru Oya) | 0.02 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:02:07 | Norwood (Kelani Ganga) | 0.68 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:01:39 | Kuda Oya (Kirindi Oya) | 0.90 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:01:39 | Nagalagam Street (Kelani Ganga) | 0.30 | 🟢 Normal | -0.122 |  |
-| 2026-08-18 09:01:38 | Wellawaya (Kirindi Oya) | 0.50 | 🟢 Normal | -0.010 |  |
-| 2026-08-18 09:01:22 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:01:20 | Peradeniya (Mahaweli Ganga) | 2.80 | 🟢 Normal | 0.000 |  |
-| 2026-08-18 09:00:22 | Weraganthota (Mahaweli Ganga) | -3.28 | 🟢 Normal | -0.040 |  |
+*There were **0** measurements in the last **1 hour**.*
 
 ## Latest by Station
 
