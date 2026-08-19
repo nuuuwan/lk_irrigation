@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--19_09:13:37-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--19_09:14:42-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **237,561 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **237,562 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -22,6 +22,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-19 09:14:42 | Dunamale (Aththanagalu Oya) | 0.51 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 09:13:37 | Magura (Kalu Ganga) | 1.30 | 🟢 Normal | -0.010 |  |
 | 2026-08-19 09:10:57 | Thalgahagoda (Nilwala Ganga) | 0.33 | 🟢 Normal | -0.055 |  |
 | 2026-08-19 09:09:32 | Urawa (Nilwala Ganga) | 0.01 | 🟢 Normal | 0.000 |  |
@@ -60,7 +61,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-19 09:01:13 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 09:00:21 | Weraganthota (Mahaweli Ganga) | -3.31 | 🟢 Normal | -0.042 |  |
 | 2026-08-19 09:00:09 | Nakkala (Kumbukkan Oya) | 0.58 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 08:28:13 | Urawa (Nilwala Ganga) | 0.01 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -86,7 +86,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-19 09:06:29 | Glencourse (Kelani Ganga) | 9.69 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 09:01:28 | Moraketiya (Walawe Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 09:04:51 | Siyambalanduwa (Heda Oya) | 0.17 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 08:07:06 | Dunamale (Aththanagalu Oya) | 0.51 | 🟢 Normal | 0.000 |  |
+| 2026-08-19 09:14:42 | Dunamale (Aththanagalu Oya) | 0.51 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 09:02:08 | Thaldena (Mahaweli Ganga) | 0.10 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 09:03:07 | Katharagama (Menik Ganga) | -0.25 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 09:05:11 | Badalgama (Maha Oya) | 1.93 | 🟢 Normal | 0.000 |  |
