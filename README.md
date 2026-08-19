@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--19_20:11:14-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--19_20:16:03-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **237,986 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **237,987 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -22,6 +22,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-19 20:16:03 | Baddegama (Gin Ganga) | 1.09 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 20:11:14 | Manampitiya (Mahaweli Ganga) | -0.26 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 20:11:12 | Manampitiya (Mahaweli Ganga) | -0.26 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 20:09:35 | Glencourse (Kelani Ganga) | 9.51 | 🟢 Normal | -0.018 |  |
@@ -56,7 +57,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-19 20:00:57 | Thanamalwila (Kirindi Oya) | -0.03 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 20:00:44 | Wellawaya (Kirindi Oya) | 0.47 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 20:00:22 | Moraketiya (Walawe Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 19:24:36 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.90 | 🟢 Normal | -0.073 |  |
 
 ## Latest by Station
 
@@ -79,6 +79,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-19 20:02:55 | Norwood (Kelani Ganga) | 0.62 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 20:03:09 | Deraniyagala (Kelani Ganga) | 0.83 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 20:01:09 | Ellagawa (Kalu Ganga) | 5.00 | 🟢 Normal | 0.000 |  |
+| 2026-08-19 20:16:03 | Baddegama (Gin Ganga) | 1.09 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 20:05:12 | Panadugama (Nilwala Ganga) | 2.28 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 19:01:12 | Padiyathalawa (Maduru Oya) | 0.06 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 20:00:22 | Moraketiya (Walawe Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
@@ -93,7 +94,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-19 20:03:53 | Urawa (Nilwala Ganga) | 0.00 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 20:05:18 | Kuda Oya (Kirindi Oya) | 0.90 | 🟢 Normal | 0.000 |  |
 | 2026-08-19 20:00:57 | Thanamalwila (Kirindi Oya) | -0.03 | 🟢 Normal | 0.000 |  |
-| 2026-08-19 19:10:14 | Baddegama (Gin Ganga) | 1.09 | 🟢 Normal | -0.009 |  |
 | 2026-08-19 18:01:56 | Weraganthota (Mahaweli Ganga) | -3.46 | 🟢 Normal | -0.010 |  |
 | 2026-08-19 20:09:35 | Glencourse (Kelani Ganga) | 9.51 | 🟢 Normal | -0.018 |  |
 | 2026-08-19 20:04:38 | Hanwella (Kelani Ganga) | 1.20 | 🟢 Normal | -0.020 |  |
@@ -166,6 +166,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Ellagawa](images/stations/ellagawa.png)
 
+### Baddegama (Gin Ganga)
+
+![Baddegama](images/stations/baddegama.png)
+
 ### Panadugama (Nilwala Ganga)
 
 ![Panadugama](images/stations/panadugama.png)
@@ -221,10 +225,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
-
-### Baddegama (Gin Ganga)
-
-![Baddegama](images/stations/baddegama.png)
 
 ### Weraganthota (Mahaweli Ganga)
 
