@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **41** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -62,7 +62,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-20 09:01:20 | Nakkala (Kumbukkan Oya) | 0.56 | 🟢 Normal | 0.000 |  |
 | 2026-08-20 09:01:11 | Thanthirimale (Malwathu Oya) | 0.75 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-08-20 09:00:13 | Weraganthota (Mahaweli Ganga) | -3.32 | 🟢 Normal | -0.022 |  |
-| 2026-08-20 08:35:04 | Panadugama (Nilwala Ganga) | 2.33 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
