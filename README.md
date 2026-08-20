@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--20_22:12:15-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--20_22:18:02-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **238,961 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **238,962 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **37** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-20 22:18:02 | Nagalagam Street (Kelani Ganga) | 0.27 | 🟢 Normal | -0.049 |  |
 | 2026-08-20 22:12:15 | Baddegama (Gin Ganga) | 1.31 | 🟢 Normal | -0.018 |  |
 | 2026-08-20 22:10:48 | Thaldena (Mahaweli Ganga) | 0.09 | 🟢 Normal | 0.000 |  |
 | 2026-08-20 22:10:23 | Peradeniya (Mahaweli Ganga) | 3.18 | 🟢 Normal | 0.026 | 🔺 Rising |
@@ -100,8 +101,8 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-20 22:12:15 | Baddegama (Gin Ganga) | 1.31 | 🟢 Normal | -0.018 |  |
 | 2026-08-20 22:02:43 | Glencourse (Kelani Ganga) | 9.81 | 🟢 Normal | -0.020 |  |
 | 2026-08-20 22:01:57 | Magura (Kalu Ganga) | 2.16 | 🟢 Normal | -0.042 |  |
+| 2026-08-20 22:18:02 | Nagalagam Street (Kelani Ganga) | 0.27 | 🟢 Normal | -0.049 |  |
 | 2026-08-20 22:09:14 | Putupaula (Kalu Ganga) | 0.58 | 🟢 Normal | -0.073 |  |
-| 2026-08-20 21:02:42 | Nagalagam Street (Kelani Ganga) | 0.34 | 🟢 Normal | -0.076 |  |
 | 2026-08-20 21:20:14 | Rathnapura (Kalu Ganga) | 2.74 | 🟢 Normal | -0.082 |  |
 | 2026-08-20 22:04:39 | Kithulgala (Kelani Ganga) | 1.80 | 🟢 Normal | -0.167 |  |
 
@@ -247,13 +248,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Magura](images/stations/magura.png)
 
-### Putupaula (Kalu Ganga)
-
-![Putupaula](images/stations/putupaula.png)
-
 ### Nagalagam Street (Kelani Ganga)
 
 ![Nagalagam Street](images/stations/nagalagam-street.png)
+
+### Putupaula (Kalu Ganga)
+
+![Putupaula](images/stations/putupaula.png)
 
 ### Rathnapura (Kalu Ganga)
 
