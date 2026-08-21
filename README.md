@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--21_13:14:46-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--21_13:19:31-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **239,511 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **239,513 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-21 13:19:31 | Thalgahagoda (Nilwala Ganga) | 0.30 | 🟢 Normal | 0.032 | 🔺 Rising |
+| 2026-08-21 13:18:35 | Thawalama (Gin Ganga) | 1.69 | 🟢 Normal | 0.000 |  |
 | 2026-08-21 13:14:46 | Magura (Kalu Ganga) | 1.78 | 🟢 Normal | 0.000 |  |
 | 2026-08-21 13:13:53 | Badalgama (Maha Oya) | 1.91 | 🟢 Normal | 0.000 |  |
 | 2026-08-21 13:13:38 | Urawa (Nilwala Ganga) | 0.10 | 🟢 Normal | 0.000 |  |
@@ -67,6 +69,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-08-21 13:07:52 | Kithulgala (Kelani Ganga) | 1.78 | 🟢 Normal | 0.067 | 🔺 Rising |
+| 2026-08-21 13:19:31 | Thalgahagoda (Nilwala Ganga) | 0.30 | 🟢 Normal | 0.032 | 🔺 Rising |
 | 2026-08-21 13:04:21 | Glencourse (Kelani Ganga) | 9.92 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2026-08-21 13:03:45 | Baddegama (Gin Ganga) | 1.29 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-08-21 13:03:03 | Wellawaya (Kirindi Oya) | 0.45 | 🟢 Normal | 0.000 |  |
@@ -90,10 +93,9 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-21 13:13:53 | Badalgama (Maha Oya) | 1.91 | 🟢 Normal | 0.000 |  |
 | 2026-08-21 13:03:59 | Holombuwa (Kelani Ganga) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2026-08-21 13:07:21 | Thanthirimale (Malwathu Oya) | 0.73 | 🟢 Normal | 0.000 |  |
+| 2026-08-21 13:18:35 | Thawalama (Gin Ganga) | 1.69 | 🟢 Normal | 0.000 |  |
 | 2026-08-21 13:13:38 | Urawa (Nilwala Ganga) | 0.10 | 🟢 Normal | 0.000 |  |
-| 2026-08-21 12:04:36 | Thalgahagoda (Nilwala Ganga) | 0.26 | 🟢 Normal | 0.000 |  |
 | 2026-08-21 13:01:18 | Thanamalwila (Kirindi Oya) | -0.03 | 🟢 Normal | 0.000 |  |
-| 2026-08-21 12:14:30 | Thawalama (Gin Ganga) | 1.69 | 🟢 Normal | -0.009 |  |
 | 2026-08-21 13:05:28 | Kuda Oya (Kirindi Oya) | 0.91 | 🟢 Normal | -0.010 |  |
 | 2026-08-21 13:03:40 | Giriulla (Maha Oya) | 0.89 | 🟢 Normal | -0.010 |  |
 | 2026-08-21 13:03:27 | Hanwella (Kelani Ganga) | 1.41 | 🟢 Normal | -0.010 |  |
@@ -111,6 +113,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Kithulgala (Kelani Ganga)
 
 ![Kithulgala](images/stations/kithulgala.png)
+
+### Thalgahagoda (Nilwala Ganga)
+
+![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Glencourse (Kelani Ganga)
 
@@ -204,21 +210,17 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Thanthirimale](images/stations/thanthirimale.png)
 
+### Thawalama (Gin Ganga)
+
+![Thawalama](images/stations/thawalama.png)
+
 ### Urawa (Nilwala Ganga)
 
 ![Urawa](images/stations/urawa.png)
 
-### Thalgahagoda (Nilwala Ganga)
-
-![Thalgahagoda](images/stations/thalgahagoda.png)
-
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
-
-### Thawalama (Gin Ganga)
-
-![Thawalama](images/stations/thawalama.png)
 
 ### Kuda Oya (Kirindi Oya)
 
