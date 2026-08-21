@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--22_00:10:49-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--22_00:26:30-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **239,931 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **239,933 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-22 00:26:30 | Dunamale (Aththanagalu Oya) | 0.52 | 🟢 Normal | 0.000 |  |
+| 2026-08-22 00:20:17 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.04 | 🟢 Normal | 0.000 |  |
 | 2026-08-22 00:10:49 | Thalgahagoda (Nilwala Ganga) | 0.28 | 🟢 Normal | -0.009 |  |
 | 2026-08-22 00:09:55 | Pitabeddara (Nilwala Ganga) | 0.63 | 🟢 Normal | -0.010 |  |
 | 2026-08-22 00:08:35 | Moragaswewa (Deduru Oya) | -0.20 | 🟢 Normal | 0.000 |  |
@@ -59,7 +61,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-22 00:00:20 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-08-21 23:59:27 | Peradeniya (Mahaweli Ganga) | 3.22 | 🟢 Normal | 0.000 |  |
 | 2026-08-21 23:58:26 | Panadugama (Nilwala Ganga) | 2.63 | 🟢 Normal | 0.152 | 🔺 Rising |
-| 2026-08-21 23:48:21 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.04 | 🟢 Normal | -0.011 |  |
+| 2026-08-21 23:48:21 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.04 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -88,7 +90,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-22 00:01:59 | Nagalagam Street (Kelani Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
 | 2026-08-22 00:01:17 | Moraketiya (Walawe Ganga) | 0.76 | 🟢 Normal | 0.000 |  |
 | 2026-08-22 00:00:34 | Siyambalanduwa (Heda Oya) | 0.15 | 🟢 Normal | 0.000 |  |
-| 2026-08-22 00:02:18 | Dunamale (Aththanagalu Oya) | 0.52 | 🟢 Normal | 0.000 |  |
+| 2026-08-22 00:26:30 | Dunamale (Aththanagalu Oya) | 0.52 | 🟢 Normal | 0.000 |  |
 | 2026-08-22 00:00:43 | Thaldena (Mahaweli Ganga) | 0.09 | 🟢 Normal | 0.000 |  |
 | 2026-08-22 00:05:54 | Katharagama (Menik Ganga) | -0.27 | 🟢 Normal | 0.000 |  |
 | 2026-08-22 00:06:27 | Holombuwa (Kelani Ganga) | 0.38 | 🟢 Normal | 0.000 |  |
@@ -97,10 +99,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-22 00:08:26 | Urawa (Nilwala Ganga) | 0.11 | 🟢 Normal | 0.000 |  |
 | 2026-08-22 00:04:59 | Kuda Oya (Kirindi Oya) | 0.91 | 🟢 Normal | 0.000 |  |
 | 2026-08-22 00:03:05 | Thanamalwila (Kirindi Oya) | -0.03 | 🟢 Normal | 0.000 |  |
+| 2026-08-22 00:20:17 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.04 | 🟢 Normal | 0.000 |  |
 | 2026-08-22 00:10:49 | Thalgahagoda (Nilwala Ganga) | 0.28 | 🟢 Normal | -0.009 |  |
 | 2026-08-22 00:05:39 | Hanwella (Kelani Ganga) | 1.30 | 🟢 Normal | -0.009 |  |
 | 2026-08-22 00:09:55 | Pitabeddara (Nilwala Ganga) | 0.63 | 🟢 Normal | -0.010 |  |
-| 2026-08-21 23:48:21 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.04 | 🟢 Normal | -0.011 |  |
 | 2026-08-22 00:02:12 | Badalgama (Maha Oya) | 1.91 | 🟢 Normal | -0.012 |  |
 | 2026-08-22 00:00:28 | Magura (Kalu Ganga) | 1.86 | 🟢 Normal | -0.020 |  |
 | 2026-08-22 00:07:08 | Putupaula (Kalu Ganga) | 0.94 | 🟢 Normal | -0.021 |  |
@@ -229,6 +231,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Thanamalwila](images/stations/thanamalwila.png)
 
+### Kalawellawa (Millakanda) (Kalu Ganga)
+
+![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
+
 ### Thalgahagoda (Nilwala Ganga)
 
 ![Thalgahagoda](images/stations/thalgahagoda.png)
@@ -240,10 +246,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Pitabeddara (Nilwala Ganga)
 
 ![Pitabeddara](images/stations/pitabeddara.png)
-
-### Kalawellawa (Millakanda) (Kalu Ganga)
-
-![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
 
 ### Badalgama (Maha Oya)
 
