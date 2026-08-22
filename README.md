@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **44** measurements in the last **1 hour**.*
+*There were **43** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -65,7 +65,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-22 18:00:58 | Weraganthota (Mahaweli Ganga) | -3.45 | 🟢 Normal | 0.000 |  |
 | 2026-08-22 18:00:28 | Magura (Kalu Ganga) | 1.59 | 🟢 Normal | -0.010 |  |
 | 2026-08-22 18:00:14 | Wellawaya (Kirindi Oya) | 0.44 | 🟢 Normal | -0.010 |  |
-| 2026-08-22 17:25:40 | Thalgahagoda (Nilwala Ganga) | 0.28 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
