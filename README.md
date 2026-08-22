@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **20** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -42,25 +42,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-22 07:05:05 | Putupaula (Kalu Ganga) | 0.85 | 🟢 Normal | -0.038 |  |
 | 2026-08-22 07:04:58 | Thanthirimale (Malwathu Oya) | 0.72 | 🟢 Normal | 0.000 |  |
 | 2026-08-22 07:04:33 | Badalgama (Maha Oya) | 1.91 | 🟢 Normal | 0.000 |  |
-| 2026-08-22 07:04:17 | Nagalagam Street (Kelani Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
-| 2026-08-22 07:04:11 | Hanwella (Kelani Ganga) | 1.66 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-08-22 07:04:08 | Wellawaya (Kirindi Oya) | 0.46 | 🟢 Normal | 0.009 | 🔺 Rising |
-| 2026-08-22 07:03:59 | Thaldena (Mahaweli Ganga) | 0.05 | 🟢 Normal | -0.021 |  |
-| 2026-08-22 07:03:53 | Weraganthota (Mahaweli Ganga) | -3.27 | 🟢 Normal | -0.078 |  |
-| 2026-08-22 07:03:45 | Urawa (Nilwala Ganga) | 0.09 | 🟢 Normal | 0.000 |  |
-| 2026-08-22 07:03:17 | Padiyathalawa (Maduru Oya) | 0.05 | 🟢 Normal | 0.000 |  |
-| 2026-08-22 07:02:52 | Peradeniya (Mahaweli Ganga) | 2.10 | 🟢 Normal | -0.084 |  |
-| 2026-08-22 07:02:36 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.25 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-08-22 07:02:16 | Panadugama (Nilwala Ganga) | 2.69 | 🟢 Normal | -0.022 |  |
-| 2026-08-22 07:02:13 | Deraniyagala (Kelani Ganga) | 0.85 | 🟢 Normal | -0.010 |  |
-| 2026-08-22 07:02:12 | Nakkala (Kumbukkan Oya) | 0.60 | 🟢 Normal | 0.000 |  |
-| 2026-08-22 07:02:10 | Thanamalwila (Kirindi Oya) | -0.02 | 🟢 Normal | 0.000 |  |
-| 2026-08-22 07:02:05 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
-| 2026-08-22 07:01:33 | Holombuwa (Kelani Ganga) | 0.34 | 🟢 Normal | -0.031 |  |
-| 2026-08-22 07:01:18 | Moraketiya (Walawe Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-08-22 07:01:08 | Katharagama (Menik Ganga) | -0.26 | 🟢 Normal | 0.000 |  |
-| 2026-08-22 07:01:05 | Manampitiya (Mahaweli Ganga) | -0.10 | 🟢 Normal | 0.040 | 🔺 Rising |
-| 2026-08-22 07:00:11 | Nawalapitiya (Mahaweli Ganga) | 1.41 | 🟢 Normal | -0.010 |  |
 
 ## Latest by Station
 
