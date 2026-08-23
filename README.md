@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--23_06:12:36-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--23_06:32:03-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **241,046 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **241,047 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **44** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-23 06:32:03 | Galgamuwa (Mee Oya) | -0.09 | 🟢 Normal | -0.707 |  |
 | 2026-08-23 06:12:36 | Pitabeddara (Nilwala Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
 | 2026-08-23 06:09:33 | Urawa (Nilwala Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
 | 2026-08-23 06:09:00 | Glencourse (Kelani Ganga) | 9.68 | 🟢 Normal | -0.030 |  |
@@ -60,12 +61,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-23 06:00:53 | Weraganthota (Mahaweli Ganga) | -3.08 | 🟢 Normal | 0.031 | 🔺 Rising |
 | 2026-08-23 06:00:53 | Putupaula (Kalu Ganga) | 0.59 | 🟢 Normal | -0.022 |  |
 | 2026-08-23 06:00:29 | Manampitiya (Mahaweli Ganga) | -0.11 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-08-23 05:53:03 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.81 | 🟢 Normal | -0.360 |  |
-| 2026-08-23 05:37:52 | Pitabeddara (Nilwala Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
-| 2026-08-23 05:37:50 | Pitabeddara (Nilwala Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
-| 2026-08-23 05:37:26 | Kithulgala (Kelani Ganga) | 1.81 | 🟢 Normal | 0.000 |  |
-| 2026-08-23 05:31:34 | Magura (Kalu Ganga) | 1.44 | 🟢 Normal | 0.000 |  |
-| 2026-08-23 05:31:32 | Magura (Kalu Ganga) | 1.45 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -74,7 +69,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-08-23 06:03:37 | Norwood (Kelani Ganga) | 0.58 | 🟢 Normal | 0.638 | 🔺 Rising |
-| 2026-08-23 04:01:54 | Galgamuwa (Mee Oya) | 1.68 | 🟢 Normal | 0.179 | 🔺 Rising |
 | 2026-08-23 06:00:53 | Weraganthota (Mahaweli Ganga) | -3.08 | 🟢 Normal | 0.031 | 🔺 Rising |
 | 2026-08-23 06:00:29 | Manampitiya (Mahaweli Ganga) | -0.11 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-08-23 06:05:13 | Thaldena (Mahaweli Ganga) | 0.08 | 🟢 Normal | 0.019 | 🔺 Rising |
@@ -112,16 +106,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-23 06:06:04 | Nagalagam Street (Kelani Ganga) | 0.40 | 🟢 Normal | -0.088 |  |
 | 2026-08-23 06:04:57 | Peradeniya (Mahaweli Ganga) | 2.52 | 🟢 Normal | -0.227 |  |
 | 2026-08-23 06:01:23 | Kalawellawa (Millakanda) (Kalu Ganga) | 2.76 | 🟢 Normal | -0.360 |  |
+| 2026-08-23 06:32:03 | Galgamuwa (Mee Oya) | -0.09 | 🟢 Normal | -0.707 |  |
 
 ## River Water Level Charts by Station
 
 ### Norwood (Kelani Ganga)
 
 ![Norwood](images/stations/norwood.png)
-
-### Galgamuwa (Mee Oya)
-
-![Galgamuwa](images/stations/galgamuwa.png)
 
 ### Weraganthota (Mahaweli Ganga)
 
@@ -270,6 +261,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Kalawellawa (Millakanda) (Kalu Ganga)
 
 ![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
+
+### Galgamuwa (Mee Oya)
+
+![Galgamuwa](images/stations/galgamuwa.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
