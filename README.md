@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--23_14:11:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--23_14:16:05-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **241,359 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **241,360 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-23 14:16:05 | Magura (Kalu Ganga) | 1.42 | 🟢 Normal | 0.000 |  |
 | 2026-08-23 14:11:28 | Peradeniya (Mahaweli Ganga) | 2.47 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2026-08-23 14:10:21 | Pitabeddara (Nilwala Ganga) | 0.45 | 🟢 Normal | 0.000 |  |
 | 2026-08-23 14:09:44 | Thalgahagoda (Nilwala Ganga) | 0.22 | 🟢 Normal | 0.018 | 🔺 Rising |
@@ -76,7 +77,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-23 14:02:39 | Giriulla (Maha Oya) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2026-08-23 14:02:24 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
 | 2026-08-23 14:03:12 | Galgamuwa (Mee Oya) | -0.09 | 🟢 Normal | 0.000 |  |
-| 2026-08-23 13:03:42 | Magura (Kalu Ganga) | 1.42 | 🟢 Normal | 0.000 |  |
+| 2026-08-23 14:16:05 | Magura (Kalu Ganga) | 1.42 | 🟢 Normal | 0.000 |  |
 | 2026-08-23 14:10:21 | Pitabeddara (Nilwala Ganga) | 0.45 | 🟢 Normal | 0.000 |  |
 | 2026-08-23 14:04:08 | Norwood (Kelani Ganga) | 0.57 | 🟢 Normal | 0.000 |  |
 | 2026-08-23 14:03:09 | Hanwella (Kelani Ganga) | 1.18 | 🟢 Normal | 0.000 |  |
