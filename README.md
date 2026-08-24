@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--24_16:11:38-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--24_16:36:22-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **242,324 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **242,325 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-24 16:36:22 | Thalgahagoda (Nilwala Ganga) | 0.39 | 🟢 Normal | 0.026 | 🔺 Rising |
 | 2026-08-24 16:11:38 | Pitabeddara (Nilwala Ganga) | 0.46 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-08-24 16:11:01 | Galgamuwa (Mee Oya) | -0.08 | 🟢 Normal | 0.000 |  |
 | 2026-08-24 16:10:15 | Rathnapura (Kalu Ganga) | 1.27 | 🟢 Normal | 0.000 |  |
@@ -66,7 +67,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-08-24 16:07:46 | Holombuwa (Kelani Ganga) | 0.38 | 🟢 Normal | 0.156 | 🔺 Rising |
 | 2026-08-24 16:00:57 | Horowpothana (Yan Oya) | 1.86 | 🟢 Normal | 0.050 | 🔺 Rising |
-| 2026-08-24 15:04:27 | Thalgahagoda (Nilwala Ganga) | 0.35 | 🟢 Normal | 0.035 | 🔺 Rising |
+| 2026-08-24 16:36:22 | Thalgahagoda (Nilwala Ganga) | 0.39 | 🟢 Normal | 0.026 | 🔺 Rising |
 | 2026-08-24 16:02:09 | Nawalapitiya (Mahaweli Ganga) | 1.31 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-08-24 15:02:35 | Deraniyagala (Kelani Ganga) | 0.73 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-08-24 16:09:17 | Baddegama (Gin Ganga) | 1.30 | 🟢 Normal | 0.010 | 🔺 Rising |
