@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--25_23:08:25-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--08--25_23:15:52-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **243,468 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **243,469 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **31** measurements in the last **1 hour**.*
+*There were **30** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-08-25 23:15:52 | Norwood (Kelani Ganga) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2026-08-25 23:08:25 | Nawalapitiya (Mahaweli Ganga) | 1.84 | 🟢 Normal | 0.047 | 🔺 Rising |
 | 2026-08-25 23:06:09 | Peradeniya (Mahaweli Ganga) | 3.02 | 🟢 Normal | -0.037 |  |
 | 2026-08-25 23:05:55 | Nagalagam Street (Kelani Ganga) | 0.24 | 🟢 Normal | 0.029 | 🔺 Rising |
@@ -51,8 +52,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-25 23:00:37 | Thalgahagoda (Nilwala Ganga) | 0.28 | 🟢 Normal | -0.021 |  |
 | 2026-08-25 23:00:30 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-08-25 22:58:47 | Thawalama (Gin Ganga) | 1.84 | 🟢 Normal | 0.161 | 🔺 Rising |
-| 2026-08-25 22:49:23 | Panadugama (Nilwala Ganga) | 2.72 | 🟢 Normal | 0.169 | 🔺 Rising |
-| 2026-08-25 22:49:14 | Rathnapura (Kalu Ganga) | 2.25 | 🟢 Normal | 0.863 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -74,7 +73,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-25 23:08:25 | Nawalapitiya (Mahaweli Ganga) | 1.84 | 🟢 Normal | 0.047 | 🔺 Rising |
 | 2026-08-25 23:05:54 | Baddegama (Gin Ganga) | 1.36 | 🟢 Normal | 0.029 | 🔺 Rising |
 | 2026-08-25 23:05:55 | Nagalagam Street (Kelani Ganga) | 0.24 | 🟢 Normal | 0.029 | 🔺 Rising |
-| 2026-08-25 22:03:01 | Norwood (Kelani Ganga) | 0.60 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-08-25 23:02:56 | Katharagama (Menik Ganga) | -0.26 | 🟢 Normal | 0.012 | 🔺 Rising |
 | 2026-08-25 23:03:13 | Giriulla (Maha Oya) | 0.90 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-08-25 23:04:28 | Badalgama (Maha Oya) | 1.90 | 🟢 Normal | 0.010 | 🔺 Rising |
@@ -85,6 +83,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-25 23:00:30 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-08-25 22:01:18 | Horowpothana (Yan Oya) | 1.84 | 🟢 Normal | 0.000 |  |
 | 2026-08-25 18:03:25 | Galgamuwa (Mee Oya) | -0.06 | 🟢 Normal | 0.000 |  |
+| 2026-08-25 23:15:52 | Norwood (Kelani Ganga) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2026-08-25 23:04:09 | Padiyathalawa (Maduru Oya) | 0.02 | 🟢 Normal | 0.000 |  |
 | 2026-08-25 23:02:27 | Moraketiya (Walawe Ganga) | 0.62 | 🟢 Normal | 0.000 |  |
 | 2026-08-25 22:04:04 | Siyambalanduwa (Heda Oya) | 0.15 | 🟢 Normal | 0.000 |  |
@@ -158,10 +157,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Nagalagam Street](images/stations/nagalagam-street.png)
 
-### Norwood (Kelani Ganga)
-
-![Norwood](images/stations/norwood.png)
-
 ### Katharagama (Menik Ganga)
 
 ![Katharagama](images/stations/katharagama.png)
@@ -201,6 +196,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Galgamuwa (Mee Oya)
 
 ![Galgamuwa](images/stations/galgamuwa.png)
+
+### Norwood (Kelani Ganga)
+
+![Norwood](images/stations/norwood.png)
 
 ### Padiyathalawa (Maduru Oya)
 
