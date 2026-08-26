@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **21** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -43,24 +43,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-26 08:05:40 | Baddegama (Gin Ganga) | 1.78 | 🟢 Normal | 0.024 | 🔺 Rising |
 | 2026-08-26 08:05:28 | Nagalagam Street (Kelani Ganga) | 0.21 | 🟢 Normal | 0.000 |  |
 | 2026-08-26 08:05:12 | Giriulla (Maha Oya) | 0.92 | 🟢 Normal | 0.000 |  |
-| 2026-08-26 08:03:53 | Glencourse (Kelani Ganga) | 10.38 | 🟢 Normal | -0.043 |  |
-| 2026-08-26 08:03:37 | Hanwella (Kelani Ganga) | 1.82 | 🟢 Normal | 0.062 | 🔺 Rising |
-| 2026-08-26 08:03:27 | Norwood (Kelani Ganga) | 0.65 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-08-26 08:03:22 | Siyambalanduwa (Heda Oya) | 0.15 | 🟢 Normal | 0.000 |  |
-| 2026-08-26 08:03:18 | Kithulgala (Kelani Ganga) | 1.82 | 🟢 Normal | -0.050 |  |
-| 2026-08-26 08:03:06 | Padiyathalawa (Maduru Oya) | 0.02 | 🟢 Normal | 0.000 |  |
-| 2026-08-26 08:02:39 | Deraniyagala (Kelani Ganga) | 1.15 | 🟢 Normal | 0.020 | 🔺 Rising |
-| 2026-08-26 08:02:28 | Weraganthota (Mahaweli Ganga) | -3.22 | 🟢 Normal | -0.111 |  |
-| 2026-08-26 08:02:21 | Moraketiya (Walawe Ganga) | 0.67 | 🟢 Normal | 0.000 |  |
-| 2026-08-26 08:02:19 | Peradeniya (Mahaweli Ganga) | 2.80 | 🟢 Normal | -0.031 |  |
-| 2026-08-26 08:02:09 | Galgamuwa (Mee Oya) | -0.06 | 🟢 Normal | 0.000 |  |
-| 2026-08-26 08:02:08 | Thanamalwila (Kirindi Oya) | -0.01 | 🟢 Normal | 0.000 |  |
-| 2026-08-26 08:01:58 | Thawalama (Gin Ganga) | 2.17 | 🟢 Normal | 0.031 | 🔺 Rising |
-| 2026-08-26 08:01:45 | Wellawaya (Kirindi Oya) | 0.46 | 🟢 Normal | 0.000 |  |
-| 2026-08-26 08:01:42 | Thanthirimale (Malwathu Oya) | 0.58 | 🟢 Normal | 0.000 |  |
-| 2026-08-26 08:01:12 | Kuda Oya (Kirindi Oya) | 0.93 | 🟢 Normal | 0.000 |  |
-| 2026-08-26 08:01:10 | Nawalapitiya (Mahaweli Ganga) | 1.70 | 🟢 Normal | -0.010 |  |
-| 2026-08-26 08:00:42 | Thaldena (Mahaweli Ganga) | 0.06 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
