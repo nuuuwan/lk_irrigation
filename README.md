@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -60,7 +60,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-26 12:01:06 | Thaldena (Mahaweli Ganga) | 0.08 | 🟢 Normal | 0.000 |  |
 | 2026-08-26 12:00:45 | Nawalapitiya (Mahaweli Ganga) | 1.62 | 🟢 Normal | 0.000 |  |
 | 2026-08-26 12:00:44 | Weraganthota (Mahaweli Ganga) | -3.30 | 🟢 Normal | 0.050 | 🔺 Rising |
-| 2026-08-26 12:00:22 | Nakkala (Kumbukkan Oya) | 0.54 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
