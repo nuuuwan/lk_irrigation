@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **46** measurements in the last **1 hour**.*
+*There were **44** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -66,8 +66,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-08-30 12:00:49 | Kuda Oya (Kirindi Oya) | 0.90 | 🟢 Normal | 0.000 |  |
 | 2026-08-30 12:00:48 | Horowpothana (Yan Oya) | 1.66 | 🟢 Normal | 0.000 |  |
 | 2026-08-30 12:00:48 | Thalgahagoda (Nilwala Ganga) | 0.73 | 🟢 Normal | -0.021 |  |
-| 2026-08-30 11:31:45 | Thalgahagoda (Nilwala Ganga) | 0.74 | 🟢 Normal | -0.021 |  |
-| 2026-08-30 11:26:02 | Magura (Kalu Ganga) | 1.57 | 🟢 Normal | -0.043 |  |
 
 ## Latest by Station
 
