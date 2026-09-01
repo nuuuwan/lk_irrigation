@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--01_08:11:57-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--01_08:34:19-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **248,756 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **248,759 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-09-01 08:34:19 | Urawa (Nilwala Ganga) | 0.13 | 🟢 Normal | 0.000 |  |
+| 2026-09-01 08:31:26 | Urawa (Nilwala Ganga) | 0.13 | 🟢 Normal | 0.000 |  |
+| 2026-09-01 08:22:30 | Thalgahagoda (Nilwala Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 08:11:57 | Rathnapura (Kalu Ganga) | 1.08 | 🟢 Normal | -0.009 |  |
 | 2026-09-01 08:10:35 | Holombuwa (Kelani Ganga) | 0.23 | 🟢 Normal | -0.010 |  |
 | 2026-09-01 08:10:28 | Magura (Kalu Ganga) | 1.35 | 🟢 Normal | 0.000 |  |
@@ -59,7 +62,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-01 08:01:35 | Nakkala (Kumbukkan Oya) | 0.56 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 08:01:06 | Horowpothana (Yan Oya) | 1.63 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 08:00:46 | Pitabeddara (Nilwala Ganga) | 0.69 | 🟢 Normal | 0.000 |  |
-| 2026-09-01 07:34:13 | Urawa (Nilwala Ganga) | 0.13 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -68,7 +70,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-09-01 08:04:01 | Peradeniya (Mahaweli Ganga) | 2.82 | 🟢 Normal | 0.120 | 🔺 Rising |
-| 2026-09-01 07:00:53 | Thalgahagoda (Nilwala Ganga) | 0.54 | 🟢 Normal | 0.102 | 🔺 Rising |
 | 2026-09-01 08:02:34 | Deraniyagala (Kelani Ganga) | 0.69 | 🟢 Normal | 0.070 | 🔺 Rising |
 | 2026-09-01 08:04:05 | Norwood (Kelani Ganga) | 0.52 | 🟢 Normal | 0.020 | 🔺 Rising |
 | 2026-09-01 08:06:46 | Manampitiya (Mahaweli Ganga) | -0.60 | 🟢 Normal | 0.018 | 🔺 Rising |
@@ -93,7 +94,8 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-01 08:04:22 | Katharagama (Menik Ganga) | -0.28 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 08:05:12 | Badalgama (Maha Oya) | 1.89 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 08:07:30 | Thanthirimale (Malwathu Oya) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-09-01 07:34:13 | Urawa (Nilwala Ganga) | 0.13 | 🟢 Normal | 0.000 |  |
+| 2026-09-01 08:34:19 | Urawa (Nilwala Ganga) | 0.13 | 🟢 Normal | 0.000 |  |
+| 2026-09-01 08:22:30 | Thalgahagoda (Nilwala Ganga) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 08:04:30 | Thanamalwila (Kirindi Oya) | -0.01 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 08:11:57 | Rathnapura (Kalu Ganga) | 1.08 | 🟢 Normal | -0.009 |  |
 | 2026-09-01 08:03:53 | Nawalapitiya (Mahaweli Ganga) | 1.29 | 🟢 Normal | -0.010 |  |
@@ -112,10 +114,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Peradeniya (Mahaweli Ganga)
 
 ![Peradeniya](images/stations/peradeniya.png)
-
-### Thalgahagoda (Nilwala Ganga)
-
-![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Deraniyagala (Kelani Ganga)
 
@@ -216,6 +214,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Urawa (Nilwala Ganga)
 
 ![Urawa](images/stations/urawa.png)
+
+### Thalgahagoda (Nilwala Ganga)
+
+![Thalgahagoda](images/stations/thalgahagoda.png)
 
 ### Thanamalwila (Kirindi Oya)
 
