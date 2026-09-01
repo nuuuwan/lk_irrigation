@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--01_07:14:00-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--01_07:34:13-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **248,718 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **248,719 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-09-01 07:34:13 | Urawa (Nilwala Ganga) | 0.13 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 07:14:00 | Yaka Wewa (Ma Oya) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 07:11:52 | Giriulla (Maha Oya) | 0.85 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 07:11:18 | Galgamuwa (Mee Oya) | -0.06 | 🟢 Normal | -0.001 |  |
@@ -90,13 +91,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-01 07:11:15 | Holombuwa (Kelani Ganga) | 0.24 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 07:02:39 | Rathnapura (Kalu Ganga) | 1.09 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 07:01:14 | Thanthirimale (Malwathu Oya) | 0.54 | 🟢 Normal | 0.000 |  |
+| 2026-09-01 07:34:13 | Urawa (Nilwala Ganga) | 0.13 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 07:02:44 | Kuda Oya (Kirindi Oya) | 0.88 | 🟢 Normal | 0.000 |  |
 | 2026-09-01 07:11:18 | Galgamuwa (Mee Oya) | -0.06 | 🟢 Normal | -0.001 |  |
 | 2026-09-01 07:07:45 | Magura (Kalu Ganga) | 1.35 | 🟢 Normal | -0.009 |  |
 | 2026-09-01 07:04:34 | Katharagama (Menik Ganga) | -0.28 | 🟢 Normal | -0.010 |  |
 | 2026-09-01 07:03:09 | Nawalapitiya (Mahaweli Ganga) | 1.30 | 🟢 Normal | -0.010 |  |
 | 2026-09-01 07:10:52 | Glencourse (Kelani Ganga) | 9.53 | 🟢 Normal | -0.010 |  |
-| 2026-09-01 06:05:08 | Urawa (Nilwala Ganga) | 0.13 | 🟢 Normal | -0.010 |  |
 | 2026-09-01 07:04:07 | Badalgama (Maha Oya) | 1.89 | 🟢 Normal | -0.010 |  |
 | 2026-09-01 07:02:53 | Deraniyagala (Kelani Ganga) | 0.62 | 🟢 Normal | -0.010 |  |
 | 2026-09-01 07:11:00 | Thawalama (Gin Ganga) | 1.50 | 🟢 Normal | -0.020 |  |
@@ -195,6 +196,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Thanthirimale](images/stations/thanthirimale.png)
 
+### Urawa (Nilwala Ganga)
+
+![Urawa](images/stations/urawa.png)
+
 ### Kuda Oya (Kirindi Oya)
 
 ![Kuda Oya](images/stations/kuda-oya.png)
@@ -218,10 +223,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Glencourse (Kelani Ganga)
 
 ![Glencourse](images/stations/glencourse.png)
-
-### Urawa (Nilwala Ganga)
-
-![Urawa](images/stations/urawa.png)
 
 ### Badalgama (Maha Oya)
 
