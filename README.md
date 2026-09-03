@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--03_12:13:18-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--03_12:21:09-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **250,697 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **250,698 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-09-03 12:21:09 | Urawa (Nilwala Ganga) | 0.04 | 🟢 Normal | 0.000 |  |
 | 2026-09-03 12:13:18 | Dunamale (Aththanagalu Oya) | 0.47 | 🟢 Normal | 0.000 |  |
 | 2026-09-03 12:09:54 | Panadugama (Nilwala Ganga) | 2.48 | 🟢 Normal | -0.018 |  |
 | 2026-09-03 12:07:21 | Badalgama (Maha Oya) | 1.83 | 🟢 Normal | 0.000 |  |
@@ -91,7 +92,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-03 12:01:28 | Thaldena (Mahaweli Ganga) | 0.05 | 🟢 Normal | 0.000 |  |
 | 2026-09-03 12:02:58 | Katharagama (Menik Ganga) | -0.30 | 🟢 Normal | 0.000 |  |
 | 2026-09-03 12:07:21 | Badalgama (Maha Oya) | 1.83 | 🟢 Normal | 0.000 |  |
-| 2026-09-03 12:05:33 | Urawa (Nilwala Ganga) | 0.04 | 🟢 Normal | 0.000 |  |
+| 2026-09-03 12:21:09 | Urawa (Nilwala Ganga) | 0.04 | 🟢 Normal | 0.000 |  |
 | 2026-09-03 12:07:14 | Kuda Oya (Kirindi Oya) | 0.89 | 🟢 Normal | 0.000 |  |
 | 2026-09-03 12:06:56 | Thanamalwila (Kirindi Oya) | -0.06 | 🟢 Normal | -0.009 |  |
 | 2026-09-03 12:04:36 | Padiyathalawa (Maduru Oya) | 0.01 | 🟢 Normal | -0.009 |  |
