@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--10_15:07:37-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--10_15:16:52-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **257,166 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **257,170 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,14 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-09-10 15:16:52 | Horowpothana (Yan Oya) | 1.64 | 🟢 Normal | 0.000 |  |
+| 2026-09-10 15:08:13 | Dunamale (Aththanagalu Oya) | 0.42 | 🟢 Normal | 0.000 |  |
+| 2026-09-10 15:08:01 | Nakkala (Kumbukkan Oya) | 0.51 | 🟢 Normal | 0.000 |  |
+| 2026-09-10 15:07:46 | Magura (Kalu Ganga) | 1.04 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 15:07:37 | Baddegama (Gin Ganga) | 1.43 | 🟢 Normal | -0.021 |  |
 | 2026-09-10 15:05:28 | Panadugama (Nilwala Ganga) | 2.21 | 🟢 Normal | -0.013 |  |
 | 2026-09-10 15:05:15 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.82 | 🟢 Normal | -0.083 |  |
@@ -58,8 +62,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-10 15:01:03 | Weraganthota (Mahaweli Ganga) | -3.10 | 🟢 Normal | -0.051 |  |
 | 2026-09-10 15:00:20 | Thalgahagoda (Nilwala Ganga) | 0.41 | 🟢 Normal | 0.068 | 🔺 Rising |
 | 2026-09-10 15:00:17 | Urawa (Nilwala Ganga) | -0.05 | 🟢 Normal | 0.000 |  |
-| 2026-09-10 14:28:23 | Urawa (Nilwala Ganga) | -0.05 | 🟢 Normal | 0.000 |  |
-| 2026-09-10 14:25:45 | Urawa (Nilwala Ganga) | -0.05 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -73,18 +75,18 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-10 15:03:13 | Siyambalanduwa (Heda Oya) | 0.19 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-09-10 15:03:45 | Kithulgala (Kelani Ganga) | 1.76 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-09-10 15:01:44 | Wellawaya (Kirindi Oya) | 0.65 | 🟢 Normal | 0.000 |  |
-| 2026-09-10 14:01:42 | Nakkala (Kumbukkan Oya) | 0.51 | 🟢 Normal | 0.000 |  |
+| 2026-09-10 15:08:01 | Nakkala (Kumbukkan Oya) | 0.51 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 15:01:43 | Moragaswewa (Deduru Oya) | -0.29 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 15:01:07 | Nawalapitiya (Mahaweli Ganga) | 1.06 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 15:02:02 | Yaka Wewa (Ma Oya) | 0.40 | 🟢 Normal | 0.000 |  |
-| 2026-09-10 14:05:53 | Horowpothana (Yan Oya) | 1.64 | 🟢 Normal | 0.000 |  |
+| 2026-09-10 15:16:52 | Horowpothana (Yan Oya) | 1.64 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 15:04:48 | Galgamuwa (Mee Oya) | -0.12 | 🟢 Normal | 0.000 |  |
-| 2026-09-10 14:04:06 | Magura (Kalu Ganga) | 1.04 | 🟢 Normal | 0.000 |  |
+| 2026-09-10 15:07:46 | Magura (Kalu Ganga) | 1.04 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 15:04:46 | Pitabeddara (Nilwala Ganga) | 0.34 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 15:03:38 | Norwood (Kelani Ganga) | 0.47 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 15:04:41 | Glencourse (Kelani Ganga) | 9.25 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 15:02:22 | Moraketiya (Walawe Ganga) | 0.51 | 🟢 Normal | 0.000 |  |
-| 2026-09-10 14:01:09 | Dunamale (Aththanagalu Oya) | 0.42 | 🟢 Normal | 0.000 |  |
+| 2026-09-10 15:08:13 | Dunamale (Aththanagalu Oya) | 0.42 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 15:03:02 | Katharagama (Menik Ganga) | -0.30 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 15:04:23 | Badalgama (Maha Oya) | 1.76 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 15:01:33 | Holombuwa (Kelani Ganga) | 0.17 | 🟢 Normal | 0.000 |  |
