@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--10_18:13:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--10_18:15:13-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **257,289 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **257,290 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -22,6 +22,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-09-10 18:15:13 | Baddegama (Gin Ganga) | 1.29 | 🟢 Normal | -0.044 |  |
 | 2026-09-10 18:13:24 | Thawalama (Gin Ganga) | 1.18 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 18:08:24 | Holombuwa (Kelani Ganga) | 0.17 | 🟢 Normal | 0.000 |  |
 | 2026-09-10 18:07:32 | Glencourse (Kelani Ganga) | 9.18 | 🟢 Normal | -0.020 |  |
@@ -61,7 +62,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-10 18:00:23 | Manampitiya (Mahaweli Ganga) | -0.30 | 🟢 Normal | -0.031 |  |
 | 2026-09-10 18:00:21 | Weraganthota (Mahaweli Ganga) | -3.30 | 🟢 Normal | -0.060 |  |
 | 2026-09-10 18:00:20 | Horowpothana (Yan Oya) | 1.64 | 🟢 Normal | 0.000 |  |
-| 2026-09-10 17:28:42 | Badalgama (Maha Oya) | 1.76 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
@@ -102,7 +102,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-10 18:07:32 | Glencourse (Kelani Ganga) | 9.18 | 🟢 Normal | -0.020 |  |
 | 2026-09-10 18:00:23 | Manampitiya (Mahaweli Ganga) | -0.30 | 🟢 Normal | -0.031 |  |
 | 2026-09-10 18:02:24 | Kalawellawa (Millakanda) (Kalu Ganga) | 1.67 | 🟢 Normal | -0.042 |  |
-| 2026-09-10 17:07:08 | Baddegama (Gin Ganga) | 1.34 | 🟢 Normal | -0.047 |  |
+| 2026-09-10 18:15:13 | Baddegama (Gin Ganga) | 1.29 | 🟢 Normal | -0.044 |  |
 | 2026-09-10 18:07:26 | Thalgahagoda (Nilwala Ganga) | 0.36 | 🟢 Normal | -0.055 |  |
 | 2026-09-10 18:00:21 | Weraganthota (Mahaweli Ganga) | -3.30 | 🟢 Normal | -0.060 |  |
 | 2026-09-10 18:06:12 | Nagalagam Street (Kelani Ganga) | 0.40 | 🟢 Normal | -0.086 |  |
