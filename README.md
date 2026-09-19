@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--19_12:14:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--19_12:24:43-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **265,124 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **265,125 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-09-19 12:24:43 | Moragaswewa (Deduru Oya) | -0.25 | 🟢 Normal | 0.000 |  |
 | 2026-09-19 12:14:28 | Moragaswewa (Deduru Oya) | -0.25 | 🟢 Normal | 0.000 |  |
 | 2026-09-19 12:10:27 | Panadugama (Nilwala Ganga) | 3.02 | 🟢 Normal | -0.029 |  |
 | 2026-09-19 12:10:04 | Pitabeddara (Nilwala Ganga) | 0.74 | 🟢 Normal | 0.000 |  |
@@ -75,7 +76,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-19 12:02:13 | Wellawaya (Kirindi Oya) | 0.96 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-09-19 12:04:30 | Weraganthota (Mahaweli Ganga) | -2.92 | 🟢 Normal | 0.000 |  |
 | 2026-09-19 12:00:30 | Nakkala (Kumbukkan Oya) | 0.57 | 🟢 Normal | 0.000 |  |
-| 2026-09-19 12:14:28 | Moragaswewa (Deduru Oya) | -0.25 | 🟢 Normal | 0.000 |  |
+| 2026-09-19 12:24:43 | Moragaswewa (Deduru Oya) | -0.25 | 🟢 Normal | 0.000 |  |
 | 2026-09-19 12:01:24 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | 0.000 |  |
 | 2026-09-19 12:02:38 | Giriulla (Maha Oya) | 0.82 | 🟢 Normal | 0.000 |  |
 | 2026-09-19 12:02:26 | Galgamuwa (Mee Oya) | -0.07 | 🟢 Normal | 0.000 |  |
