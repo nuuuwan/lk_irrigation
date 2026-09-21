@@ -1,15 +1,15 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--21_13:13:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--21_13:20:18-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **266,974 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **266,976 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
-🇱🇰 River water alerts: 🟠 Kalawellawa (Millakanda) — Minor Flood; 🟡 Baddegama — Alert; 🟡 Thalgahagoda — Alert; 🟡 Rathnapura — Alert; 🟡 Magura — Alert; 🟡 Panadugama — Alert
+🇱🇰 River water alerts: 🟠 Kalawellawa (Millakanda) — Minor Flood; 🟡 Thalgahagoda — Alert; 🟡 Baddegama — Alert; 🟡 Rathnapura — Alert; 🟡 Magura — Alert; 🟡 Panadugama — Alert
 Source: Sri Lanka Irrigation Department https://www.irrigation.gov.lk
 Repo: https://github.com/nuuuwan/lk_irrigation
 ## River Water Level Map
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-09-21 13:20:18 | Giriulla (Maha Oya) | 2.05 | 🟢 Normal | -0.063 |  |
+| 2026-09-21 13:16:59 | Thalgahagoda (Nilwala Ganga) | 1.47 | 🟡 Alert | 0.016 | 🔺 Rising |
 | 2026-09-21 13:13:05 | Panadugama (Nilwala Ganga) | 5.67 | 🟡 Alert | -0.042 |  |
 | 2026-09-21 13:10:07 | Urawa (Nilwala Ganga) | 0.65 | 🟢 Normal | -0.028 |  |
 | 2026-09-21 13:08:24 | Norwood (Kelani Ganga) | 1.02 | 🟢 Normal | -0.031 |  |
@@ -67,8 +69,8 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-09-21 13:02:27 | Kalawellawa (Millakanda) (Kalu Ganga) | 6.90 | 🟠 Minor Flood | 0.031 | 🔺 Rising |
+| 2026-09-21 13:16:59 | Thalgahagoda (Nilwala Ganga) | 1.47 | 🟡 Alert | 0.016 | 🔺 Rising |
 | 2026-09-21 13:05:01 | Baddegama (Gin Ganga) | 3.97 | 🟡 Alert | 0.010 | 🔺 Rising |
-| 2026-09-21 12:02:55 | Thalgahagoda (Nilwala Ganga) | 1.45 | 🟡 Alert | 0.000 |  |
 | 2026-09-21 13:05:05 | Rathnapura (Kalu Ganga) | 5.67 | 🟡 Alert | -0.032 |  |
 | 2026-09-21 13:03:28 | Magura (Kalu Ganga) | 5.48 | 🟡 Alert | -0.033 |  |
 | 2026-09-21 13:13:05 | Panadugama (Nilwala Ganga) | 5.67 | 🟡 Alert | -0.042 |  |
@@ -98,7 +100,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-21 13:02:35 | Nagalagam Street (Kelani Ganga) | 1.07 | 🟢 Normal | -0.034 |  |
 | 2026-09-21 13:02:00 | Nawalapitiya (Mahaweli Ganga) | 2.10 | 🟢 Normal | -0.040 |  |
 | 2026-09-21 13:06:52 | Dunamale (Aththanagalu Oya) | 3.15 | 🟢 Normal | -0.048 |  |
-| 2026-09-21 12:03:37 | Giriulla (Maha Oya) | 2.13 | 🟢 Normal | -0.072 |  |
+| 2026-09-21 13:20:18 | Giriulla (Maha Oya) | 2.05 | 🟢 Normal | -0.063 |  |
 | 2026-09-21 13:05:09 | Peradeniya (Mahaweli Ganga) | 3.00 | 🟢 Normal | -0.077 |  |
 | 2026-09-21 13:08:13 | Thawalama (Gin Ganga) | 2.96 | 🟢 Normal | -0.084 |  |
 | 2026-09-21 13:05:17 | Badalgama (Maha Oya) | 3.42 | 🟢 Normal | -0.092 |  |
@@ -112,13 +114,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
 
-### Baddegama (Gin Ganga)
-
-![Baddegama](images/stations/baddegama.png)
-
 ### Thalgahagoda (Nilwala Ganga)
 
 ![Thalgahagoda](images/stations/thalgahagoda.png)
+
+### Baddegama (Gin Ganga)
+
+![Baddegama](images/stations/baddegama.png)
 
 ### Rathnapura (Kalu Ganga)
 
