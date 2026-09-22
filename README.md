@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--22_14:10:52-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--22_14:28:24-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **267,916 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **267,918 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **42** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-09-22 14:28:24 | Holombuwa (Kelani Ganga) | 1.68 | 🟢 Normal | -0.049 |  |
+| 2026-09-22 14:11:56 | Rathnapura (Kalu Ganga) | 4.31 | 🟢 Normal | -0.063 |  |
 | 2026-09-22 14:10:52 | Padiyathalawa (Maduru Oya) | 0.10 | 🟢 Normal | 0.000 |  |
 | 2026-09-22 14:10:41 | Panadugama (Nilwala Ganga) | 4.87 | 🟢 Normal | 0.000 |  |
 | 2026-09-22 14:08:20 | Thanthirimale (Malwathu Oya) | 0.46 | 🟢 Normal | 0.000 |  |
@@ -105,9 +107,9 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-22 14:02:17 | Nagalagam Street (Kelani Ganga) | 0.79 | 🟢 Normal | -0.031 |  |
 | 2026-09-22 14:04:35 | Thawalama (Gin Ganga) | 2.73 | 🟢 Normal | -0.039 |  |
 | 2026-09-22 14:02:28 | Ellagawa (Kalu Ganga) | 8.85 | 🟢 Normal | -0.042 |  |
-| 2026-09-22 13:05:06 | Rathnapura (Kalu Ganga) | 4.38 | 🟢 Normal | -0.059 |  |
+| 2026-09-22 14:28:24 | Holombuwa (Kelani Ganga) | 1.68 | 🟢 Normal | -0.049 |  |
 | 2026-09-22 14:02:36 | Deraniyagala (Kelani Ganga) | 1.73 | 🟢 Normal | -0.060 |  |
-| 2026-09-22 13:03:09 | Holombuwa (Kelani Ganga) | 1.75 | 🟢 Normal | -0.218 |  |
+| 2026-09-22 14:11:56 | Rathnapura (Kalu Ganga) | 4.31 | 🟢 Normal | -0.063 |  |
 
 ## River Water Level Charts by Station
 
@@ -255,17 +257,17 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Ellagawa](images/stations/ellagawa.png)
 
-### Rathnapura (Kalu Ganga)
+### Holombuwa (Kelani Ganga)
 
-![Rathnapura](images/stations/rathnapura.png)
+![Holombuwa](images/stations/holombuwa.png)
 
 ### Deraniyagala (Kelani Ganga)
 
 ![Deraniyagala](images/stations/deraniyagala.png)
 
-### Holombuwa (Kelani Ganga)
+### Rathnapura (Kalu Ganga)
 
-![Holombuwa](images/stations/holombuwa.png)
+![Rathnapura](images/stations/rathnapura.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
