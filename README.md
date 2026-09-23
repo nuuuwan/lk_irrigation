@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--23_14:10:47-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--23_14:31:29-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **268,822 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **268,824 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-09-23 14:31:29 | Nagalagam Street (Kelani Ganga) | 0.85 | 🟢 Normal | -0.020 |  |
+| 2026-09-23 14:12:22 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
 | 2026-09-23 14:10:47 | Urawa (Nilwala Ganga) | 0.72 | 🟢 Normal | 0.144 | 🔺 Rising |
 | 2026-09-23 14:10:32 | Baddegama (Gin Ganga) | 3.73 | 🟡 Alert | -0.019 |  |
 | 2026-09-23 14:10:01 | Thawalama (Gin Ganga) | 2.62 | 🟢 Normal | 0.138 | 🔺 Rising |
@@ -76,13 +78,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-23 14:00:17 | Pitabeddara (Nilwala Ganga) | 1.20 | 🟢 Normal | 0.041 | 🔺 Rising |
 | 2026-09-23 14:04:07 | Norwood (Kelani Ganga) | 0.87 | 🟢 Normal | 0.031 | 🔺 Rising |
 | 2026-09-23 13:59:01 | Nawalapitiya (Mahaweli Ganga) | 2.40 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-09-23 13:00:57 | Nagalagam Street (Kelani Ganga) | 0.88 | 🟢 Normal | 0.016 | 🔺 Rising |
 | 2026-09-23 14:09:31 | Holombuwa (Kelani Ganga) | 1.17 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-09-23 14:00:25 | Weraganthota (Mahaweli Ganga) | -3.01 | 🟢 Normal | 0.000 |  |
 | 2026-09-23 14:03:27 | Nakkala (Kumbukkan Oya) | 0.54 | 🟢 Normal | 0.000 |  |
 | 2026-09-23 14:01:05 | Moragaswewa (Deduru Oya) | 0.38 | 🟢 Normal | 0.000 |  |
 | 2026-09-23 14:01:40 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | 0.000 |  |
-| 2026-09-23 13:01:13 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
+| 2026-09-23 14:12:22 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
 | 2026-09-23 14:05:34 | Galgamuwa (Mee Oya) | 0.07 | 🟢 Normal | 0.000 |  |
 | 2026-09-23 14:03:47 | Padiyathalawa (Maduru Oya) | 0.06 | 🟢 Normal | 0.000 |  |
 | 2026-09-23 14:02:21 | Siyambalanduwa (Heda Oya) | 0.14 | 🟢 Normal | 0.000 |  |
@@ -100,6 +101,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-23 14:03:36 | Giriulla (Maha Oya) | 1.46 | 🟢 Normal | -0.020 |  |
 | 2026-09-23 14:04:36 | Hanwella (Kelani Ganga) | 4.79 | 🟢 Normal | -0.020 |  |
 | 2026-09-23 14:02:01 | Wellawaya (Kirindi Oya) | 0.94 | 🟢 Normal | -0.020 |  |
+| 2026-09-23 14:31:29 | Nagalagam Street (Kelani Ganga) | 0.85 | 🟢 Normal | -0.020 |  |
 | 2026-09-23 14:02:15 | Peradeniya (Mahaweli Ganga) | 2.80 | 🟢 Normal | -0.021 |  |
 | 2026-09-23 14:03:09 | Rathnapura (Kalu Ganga) | 3.75 | 🟢 Normal | -0.024 |  |
 | 2026-09-23 14:06:36 | Dunamale (Aththanagalu Oya) | 2.56 | 🟢 Normal | -0.025 |  |
@@ -147,10 +149,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Nawalapitiya (Mahaweli Ganga)
 
 ![Nawalapitiya](images/stations/nawalapitiya.png)
-
-### Nagalagam Street (Kelani Ganga)
-
-![Nagalagam Street](images/stations/nagalagam-street.png)
 
 ### Holombuwa (Kelani Ganga)
 
@@ -243,6 +241,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Wellawaya (Kirindi Oya)
 
 ![Wellawaya](images/stations/wellawaya.png)
+
+### Nagalagam Street (Kelani Ganga)
+
+![Nagalagam Street](images/stations/nagalagam-street.png)
 
 ### Peradeniya (Mahaweli Ganga)
 
