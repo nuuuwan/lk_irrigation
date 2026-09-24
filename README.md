@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--24_09:08:55-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--24_09:11:09-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **269,537 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **269,539 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-09-24 09:11:09 | Urawa (Nilwala Ganga) | 2.78 | 🟡 Alert | -0.137 |  |
+| 2026-09-24 09:10:41 | Baddegama (Gin Ganga) | 4.21 | 🟠 Minor Flood | 0.038 | 🔺 Rising |
 | 2026-09-24 09:08:55 | Rathnapura (Kalu Ganga) | 5.35 | 🟡 Alert | 0.157 | 🔺 Rising |
 | 2026-09-24 09:07:13 | Kithulgala (Kelani Ganga) | 2.56 | 🟢 Normal | -0.021 |  |
 | 2026-09-24 09:06:43 | Thawalama (Gin Ganga) | 5.22 | 🟡 Alert | 0.043 | 🔺 Rising |
@@ -67,14 +69,14 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-09-24 09:06:19 | Panadugama (Nilwala Ganga) | 6.57 | 🟠 Minor Flood | 0.062 | 🔺 Rising |
-| 2026-09-24 08:07:37 | Baddegama (Gin Ganga) | 4.17 | 🟠 Minor Flood | 0.061 | 🔺 Rising |
+| 2026-09-24 09:10:41 | Baddegama (Gin Ganga) | 4.21 | 🟠 Minor Flood | 0.038 | 🔺 Rising |
 | 2026-09-24 09:03:59 | Kalawellawa (Millakanda) (Kalu Ganga) | 6.65 | 🟠 Minor Flood | 0.000 |  |
 | 2026-09-24 09:08:55 | Rathnapura (Kalu Ganga) | 5.35 | 🟡 Alert | 0.157 | 🔺 Rising |
 | 2026-09-24 09:06:38 | Pitabeddara (Nilwala Ganga) | 4.83 | 🟡 Alert | 0.088 | 🔺 Rising |
 | 2026-09-24 09:04:26 | Magura (Kalu Ganga) | 4.65 | 🟡 Alert | 0.054 | 🔺 Rising |
 | 2026-09-24 09:02:06 | Thalgahagoda (Nilwala Ganga) | 1.55 | 🟡 Alert | 0.044 | 🔺 Rising |
 | 2026-09-24 09:06:43 | Thawalama (Gin Ganga) | 5.22 | 🟡 Alert | 0.043 | 🔺 Rising |
-| 2026-09-24 08:05:31 | Urawa (Nilwala Ganga) | 2.93 | 🟡 Alert | -0.133 |  |
+| 2026-09-24 09:11:09 | Urawa (Nilwala Ganga) | 2.78 | 🟡 Alert | -0.137 |  |
 | 2026-09-24 09:03:46 | Peradeniya (Mahaweli Ganga) | 3.95 | 🟢 Normal | 0.238 | 🔺 Rising |
 | 2026-09-24 09:04:51 | Giriulla (Maha Oya) | 1.66 | 🟢 Normal | 0.116 | 🔺 Rising |
 | 2026-09-24 09:04:47 | Holombuwa (Kelani Ganga) | 1.76 | 🟢 Normal | 0.088 | 🔺 Rising |
