@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--25_18:09:28-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--25_18:18:27-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **270,796 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **270,797 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-09-25 18:18:27 | Horowpothana (Yan Oya) | 1.64 | 🟢 Normal | 0.000 |  |
 | 2026-09-25 18:09:28 | Holombuwa (Kelani Ganga) | 1.27 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-09-25 18:06:15 | Katharagama (Menik Ganga) | -0.25 | 🟢 Normal | 0.000 |  |
 | 2026-09-25 18:05:27 | Panadugama (Nilwala Ganga) | 6.37 | 🟠 Minor Flood | -0.019 |  |
@@ -84,7 +85,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-25 18:02:22 | Moragaswewa (Deduru Oya) | 0.39 | 🟢 Normal | 0.000 |  |
 | 2026-09-25 18:01:24 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | 0.000 |  |
 | 2026-09-25 18:01:23 | Giriulla (Maha Oya) | 2.00 | 🟢 Normal | 0.000 |  |
-| 2026-09-25 17:01:26 | Horowpothana (Yan Oya) | 1.64 | 🟢 Normal | 0.000 |  |
+| 2026-09-25 18:18:27 | Horowpothana (Yan Oya) | 1.64 | 🟢 Normal | 0.000 |  |
 | 2026-09-25 18:01:13 | Galgamuwa (Mee Oya) | 0.01 | 🟢 Normal | 0.000 |  |
 | 2026-09-25 18:02:48 | Padiyathalawa (Maduru Oya) | 0.03 | 🟢 Normal | 0.000 |  |
 | 2026-09-25 18:01:40 | Siyambalanduwa (Heda Oya) | 0.13 | 🟢 Normal | 0.000 |  |
