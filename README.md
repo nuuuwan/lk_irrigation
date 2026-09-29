@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--29_21:12:06-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--29_22:09:01-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **274,489 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **274,520 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,47 +18,41 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **31** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-09-29 21:12:06 | Siyambalanduwa (Heda Oya) | 0.23 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:11:52 | Padiyathalawa (Maduru Oya) | 0.04 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:09:18 | Putupaula (Kalu Ganga) | 0.91 | 🟢 Normal | -0.037 |  |
-| 2026-09-29 21:07:51 | Badalgama (Maha Oya) | 2.34 | 🟢 Normal | -0.010 |  |
-| 2026-09-29 21:06:38 | Hanwella (Kelani Ganga) | 2.40 | 🟢 Normal | -0.058 |  |
-| 2026-09-29 21:06:21 | Thalgahagoda (Nilwala Ganga) | 1.05 | 🟢 Normal | -0.030 |  |
-| 2026-09-29 21:06:20 | Panadugama (Nilwala Ganga) | 3.66 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:06:10 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.26 | 🟢 Normal | -0.010 |  |
-| 2026-09-29 21:06:03 | Rathnapura (Kalu Ganga) | 1.87 | 🟢 Normal | -0.020 |  |
-| 2026-09-29 21:04:50 | Glencourse (Kelani Ganga) | 10.55 | 🟢 Normal | 0.091 | 🔺 Rising |
-| 2026-09-29 21:04:22 | Norwood (Kelani Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:04:12 | Baddegama (Gin Ganga) | 2.82 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:04:05 | Deraniyagala (Kelani Ganga) | 0.95 | 🟢 Normal | -0.010 |  |
-| 2026-09-29 21:04:04 | Thawalama (Gin Ganga) | 2.03 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:04:03 | Holombuwa (Kelani Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:04:01 | Dunamale (Aththanagalu Oya) | 1.57 | 🟢 Normal | -0.010 |  |
-| 2026-09-29 21:03:57 | Giriulla (Maha Oya) | 1.14 | 🟢 Normal | -0.010 |  |
-| 2026-09-29 21:03:51 | Pitabeddara (Nilwala Ganga) | 1.06 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:03:51 | Moragaswewa (Deduru Oya) | 0.06 | 🟢 Normal | -0.020 |  |
-| 2026-09-29 21:03:46 | Thaldena (Mahaweli Ganga) | 0.13 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:03:42 | Urawa (Nilwala Ganga) | 0.51 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:03:09 | Nawalapitiya (Mahaweli Ganga) | 1.60 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:03:06 | Katharagama (Menik Ganga) | -0.24 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:02:46 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:02:38 | Padiyathalawa (Maduru Oya) | 0.04 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:02:34 | Kithulgala (Kelani Ganga) | 2.05 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-09-29 21:02:31 | Nakkala (Kumbukkan Oya) | 0.62 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:02:22 | Thanamalwila (Kirindi Oya) | 0.82 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:02:15 | Ellagawa (Kalu Ganga) | 5.63 | 🟢 Normal | -0.031 |  |
-| 2026-09-29 21:01:58 | Kuda Oya (Kirindi Oya) | 0.89 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:01:36 | Manampitiya (Mahaweli Ganga) | -0.35 | 🟢 Normal | 0.030 | 🔺 Rising |
-| 2026-09-29 21:01:19 | Magura (Kalu Ganga) | 1.97 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:01:18 | Peradeniya (Mahaweli Ganga) | 2.90 | 🟢 Normal | 0.052 | 🔺 Rising |
-| 2026-09-29 21:01:08 | Wellawaya (Kirindi Oya) | 0.80 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:00:29 | Nagalagam Street (Kelani Ganga) | 0.24 | 🟢 Normal | -0.099 |  |
-| 2026-09-29 21:00:11 | Moraketiya (Walawe Ganga) | 0.71 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 20:58:28 | Horowpothana (Yan Oya) | 1.78 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:09:01 | Urawa (Nilwala Ganga) | 0.51 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:07:28 | Rathnapura (Kalu Ganga) | 1.87 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:07:11 | Manampitiya (Mahaweli Ganga) | -0.30 | 🟢 Normal | 0.046 | 🔺 Rising |
+| 2026-09-29 22:05:37 | Thaldena (Mahaweli Ganga) | 0.13 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:05:07 | Badalgama (Maha Oya) | 2.33 | 🟢 Normal | -0.010 |  |
+| 2026-09-29 22:05:07 | Hanwella (Kelani Ganga) | 2.36 | 🟢 Normal | -0.041 |  |
+| 2026-09-29 22:04:49 | Katharagama (Menik Ganga) | -0.24 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:04:27 | Norwood (Kelani Ganga) | 0.79 | 🟢 Normal | 0.010 | 🔺 Rising |
+| 2026-09-29 22:04:19 | Pitabeddara (Nilwala Ganga) | 1.06 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:04:01 | Padiyathalawa (Maduru Oya) | 0.04 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:03:56 | Giriulla (Maha Oya) | 1.14 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:03:47 | Baddegama (Gin Ganga) | 2.78 | 🟢 Normal | -0.040 |  |
+| 2026-09-29 22:03:31 | Kithulgala (Kelani Ganga) | 2.05 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:03:28 | Holombuwa (Kelani Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:02:51 | Kuda Oya (Kirindi Oya) | 0.89 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:02:48 | Deraniyagala (Kelani Ganga) | 0.90 | 🟢 Normal | -0.051 |  |
+| 2026-09-29 22:02:39 | Panadugama (Nilwala Ganga) | 3.65 | 🟢 Normal | -0.011 |  |
+| 2026-09-29 22:02:38 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:02:29 | Siyambalanduwa (Heda Oya) | 0.22 | 🟢 Normal | -0.012 |  |
+| 2026-09-29 22:02:16 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.26 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:02:13 | Nakkala (Kumbukkan Oya) | 0.62 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:02:03 | Thanamalwila (Kirindi Oya) | 0.81 | 🟢 Normal | -0.010 |  |
+| 2026-09-29 22:01:49 | Nagalagam Street (Kelani Ganga) | 0.24 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:01:34 | Glencourse (Kelani Ganga) | 10.60 | 🟢 Normal | 0.053 | 🔺 Rising |
+| 2026-09-29 22:01:27 | Ellagawa (Kalu Ganga) | 5.60 | 🟢 Normal | -0.030 |  |
+| 2026-09-29 22:01:21 | Thalgahagoda (Nilwala Ganga) | 1.03 | 🟢 Normal | -0.022 |  |
+| 2026-09-29 22:01:18 | Moraketiya (Walawe Ganga) | 0.70 | 🟢 Normal | -0.010 |  |
+| 2026-09-29 22:01:13 | Nawalapitiya (Mahaweli Ganga) | 1.60 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:01:11 | Horowpothana (Yan Oya) | 1.77 | 🟢 Normal | -0.010 |  |
+| 2026-09-29 22:00:39 | Thawalama (Gin Ganga) | 2.02 | 🟢 Normal | -0.011 |  |
+| 2026-09-29 22:00:25 | Wellawaya (Kirindi Oya) | 0.81 | 🟢 Normal | 0.010 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -66,45 +60,45 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-09-29 21:04:50 | Glencourse (Kelani Ganga) | 10.55 | 🟢 Normal | 0.091 | 🔺 Rising |
+| 2026-09-29 22:01:34 | Glencourse (Kelani Ganga) | 10.60 | 🟢 Normal | 0.053 | 🔺 Rising |
 | 2026-09-29 21:01:18 | Peradeniya (Mahaweli Ganga) | 2.90 | 🟢 Normal | 0.052 | 🔺 Rising |
-| 2026-09-29 21:01:36 | Manampitiya (Mahaweli Ganga) | -0.35 | 🟢 Normal | 0.030 | 🔺 Rising |
-| 2026-09-29 21:02:34 | Kithulgala (Kelani Ganga) | 2.05 | 🟢 Normal | 0.010 | 🔺 Rising |
+| 2026-09-29 22:07:11 | Manampitiya (Mahaweli Ganga) | -0.30 | 🟢 Normal | 0.046 | 🔺 Rising |
+| 2026-09-29 22:00:25 | Wellawaya (Kirindi Oya) | 0.81 | 🟢 Normal | 0.010 | 🔺 Rising |
+| 2026-09-29 22:04:27 | Norwood (Kelani Ganga) | 0.79 | 🟢 Normal | 0.010 | 🔺 Rising |
+| 2026-09-29 22:03:31 | Kithulgala (Kelani Ganga) | 2.05 | 🟢 Normal | 0.000 |  |
 | 2026-09-29 18:00:18 | Weraganthota (Mahaweli Ganga) | -3.36 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:01:08 | Wellawaya (Kirindi Oya) | 0.80 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:02:31 | Nakkala (Kumbukkan Oya) | 0.62 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:03:09 | Nawalapitiya (Mahaweli Ganga) | 1.60 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:02:46 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 20:58:28 | Horowpothana (Yan Oya) | 1.78 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:02:13 | Nakkala (Kumbukkan Oya) | 0.62 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:01:13 | Nawalapitiya (Mahaweli Ganga) | 1.60 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:02:38 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:03:56 | Giriulla (Maha Oya) | 1.14 | 🟢 Normal | 0.000 |  |
 | 2026-09-29 18:04:05 | Galgamuwa (Mee Oya) | 0.01 | 🟢 Normal | 0.000 |  |
 | 2026-09-29 21:01:19 | Magura (Kalu Ganga) | 1.97 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:03:51 | Pitabeddara (Nilwala Ganga) | 1.06 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:04:22 | Norwood (Kelani Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:04:12 | Baddegama (Gin Ganga) | 2.82 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:06:20 | Panadugama (Nilwala Ganga) | 3.66 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:11:52 | Padiyathalawa (Maduru Oya) | 0.04 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:00:11 | Moraketiya (Walawe Ganga) | 0.71 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:12:06 | Siyambalanduwa (Heda Oya) | 0.23 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:03:46 | Thaldena (Mahaweli Ganga) | 0.13 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:03:06 | Katharagama (Menik Ganga) | -0.24 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:04:03 | Holombuwa (Kelani Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:04:19 | Pitabeddara (Nilwala Ganga) | 1.06 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:04:01 | Padiyathalawa (Maduru Oya) | 0.04 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:01:49 | Nagalagam Street (Kelani Ganga) | 0.24 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:05:37 | Thaldena (Mahaweli Ganga) | 0.13 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:04:49 | Katharagama (Menik Ganga) | -0.24 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:03:28 | Holombuwa (Kelani Ganga) | 0.63 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:07:28 | Rathnapura (Kalu Ganga) | 1.87 | 🟢 Normal | 0.000 |  |
 | 2026-09-29 18:00:44 | Thanthirimale (Malwathu Oya) | 0.35 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:04:04 | Thawalama (Gin Ganga) | 2.03 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:03:42 | Urawa (Nilwala Ganga) | 0.51 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:01:58 | Kuda Oya (Kirindi Oya) | 0.89 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:02:22 | Thanamalwila (Kirindi Oya) | 0.82 | 🟢 Normal | 0.000 |  |
-| 2026-09-29 21:07:51 | Badalgama (Maha Oya) | 2.34 | 🟢 Normal | -0.010 |  |
-| 2026-09-29 21:03:57 | Giriulla (Maha Oya) | 1.14 | 🟢 Normal | -0.010 |  |
+| 2026-09-29 22:09:01 | Urawa (Nilwala Ganga) | 0.51 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:02:51 | Kuda Oya (Kirindi Oya) | 0.89 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:02:16 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.26 | 🟢 Normal | 0.000 |  |
+| 2026-09-29 22:01:11 | Horowpothana (Yan Oya) | 1.77 | 🟢 Normal | -0.010 |  |
+| 2026-09-29 22:01:18 | Moraketiya (Walawe Ganga) | 0.70 | 🟢 Normal | -0.010 |  |
 | 2026-09-29 21:04:01 | Dunamale (Aththanagalu Oya) | 1.57 | 🟢 Normal | -0.010 |  |
-| 2026-09-29 21:04:05 | Deraniyagala (Kelani Ganga) | 0.95 | 🟢 Normal | -0.010 |  |
-| 2026-09-29 21:06:10 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.26 | 🟢 Normal | -0.010 |  |
+| 2026-09-29 22:02:03 | Thanamalwila (Kirindi Oya) | 0.81 | 🟢 Normal | -0.010 |  |
+| 2026-09-29 22:05:07 | Badalgama (Maha Oya) | 2.33 | 🟢 Normal | -0.010 |  |
+| 2026-09-29 22:00:39 | Thawalama (Gin Ganga) | 2.02 | 🟢 Normal | -0.011 |  |
+| 2026-09-29 22:02:39 | Panadugama (Nilwala Ganga) | 3.65 | 🟢 Normal | -0.011 |  |
+| 2026-09-29 22:02:29 | Siyambalanduwa (Heda Oya) | 0.22 | 🟢 Normal | -0.012 |  |
 | 2026-09-29 21:03:51 | Moragaswewa (Deduru Oya) | 0.06 | 🟢 Normal | -0.020 |  |
-| 2026-09-29 21:06:03 | Rathnapura (Kalu Ganga) | 1.87 | 🟢 Normal | -0.020 |  |
-| 2026-09-29 21:06:21 | Thalgahagoda (Nilwala Ganga) | 1.05 | 🟢 Normal | -0.030 |  |
-| 2026-09-29 21:02:15 | Ellagawa (Kalu Ganga) | 5.63 | 🟢 Normal | -0.031 |  |
+| 2026-09-29 22:01:21 | Thalgahagoda (Nilwala Ganga) | 1.03 | 🟢 Normal | -0.022 |  |
+| 2026-09-29 22:01:27 | Ellagawa (Kalu Ganga) | 5.60 | 🟢 Normal | -0.030 |  |
 | 2026-09-29 21:09:18 | Putupaula (Kalu Ganga) | 0.91 | 🟢 Normal | -0.037 |  |
-| 2026-09-29 21:06:38 | Hanwella (Kelani Ganga) | 2.40 | 🟢 Normal | -0.058 |  |
-| 2026-09-29 21:00:29 | Nagalagam Street (Kelani Ganga) | 0.24 | 🟢 Normal | -0.099 |  |
+| 2026-09-29 22:03:47 | Baddegama (Gin Ganga) | 2.78 | 🟢 Normal | -0.040 |  |
+| 2026-09-29 22:05:07 | Hanwella (Kelani Ganga) | 2.36 | 🟢 Normal | -0.041 |  |
+| 2026-09-29 22:02:48 | Deraniyagala (Kelani Ganga) | 0.90 | 🟢 Normal | -0.051 |  |
 
 ## River Water Level Charts by Station
 
@@ -120,6 +114,14 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Manampitiya](images/stations/manampitiya.png)
 
+### Wellawaya (Kirindi Oya)
+
+![Wellawaya](images/stations/wellawaya.png)
+
+### Norwood (Kelani Ganga)
+
+![Norwood](images/stations/norwood.png)
+
 ### Kithulgala (Kelani Ganga)
 
 ![Kithulgala](images/stations/kithulgala.png)
@@ -127,10 +129,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Weraganthota (Mahaweli Ganga)
 
 ![Weraganthota](images/stations/weraganthota.png)
-
-### Wellawaya (Kirindi Oya)
-
-![Wellawaya](images/stations/wellawaya.png)
 
 ### Nakkala (Kumbukkan Oya)
 
@@ -144,9 +142,9 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Yaka Wewa](images/stations/yaka-wewa.png)
 
-### Horowpothana (Yan Oya)
+### Giriulla (Maha Oya)
 
-![Horowpothana](images/stations/horowpothana.png)
+![Giriulla](images/stations/giriulla.png)
 
 ### Galgamuwa (Mee Oya)
 
@@ -160,29 +158,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Pitabeddara](images/stations/pitabeddara.png)
 
-### Norwood (Kelani Ganga)
-
-![Norwood](images/stations/norwood.png)
-
-### Baddegama (Gin Ganga)
-
-![Baddegama](images/stations/baddegama.png)
-
-### Panadugama (Nilwala Ganga)
-
-![Panadugama](images/stations/panadugama.png)
-
 ### Padiyathalawa (Maduru Oya)
 
 ![Padiyathalawa](images/stations/padiyathalawa.png)
 
-### Moraketiya (Walawe Ganga)
+### Nagalagam Street (Kelani Ganga)
 
-![Moraketiya](images/stations/moraketiya.png)
-
-### Siyambalanduwa (Heda Oya)
-
-![Siyambalanduwa](images/stations/siyambalanduwa.png)
+![Nagalagam Street](images/stations/nagalagam-street.png)
 
 ### Thaldena (Mahaweli Ganga)
 
@@ -196,13 +178,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Holombuwa](images/stations/holombuwa.png)
 
+### Rathnapura (Kalu Ganga)
+
+![Rathnapura](images/stations/rathnapura.png)
+
 ### Thanthirimale (Malwathu Oya)
 
 ![Thanthirimale](images/stations/thanthirimale.png)
-
-### Thawalama (Gin Ganga)
-
-![Thawalama](images/stations/thawalama.png)
 
 ### Urawa (Nilwala Ganga)
 
@@ -212,6 +194,22 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Kuda Oya](images/stations/kuda-oya.png)
 
+### Kalawellawa (Millakanda) (Kalu Ganga)
+
+![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
+
+### Horowpothana (Yan Oya)
+
+![Horowpothana](images/stations/horowpothana.png)
+
+### Moraketiya (Walawe Ganga)
+
+![Moraketiya](images/stations/moraketiya.png)
+
+### Dunamale (Aththanagalu Oya)
+
+![Dunamale](images/stations/dunamale.png)
+
 ### Thanamalwila (Kirindi Oya)
 
 ![Thanamalwila](images/stations/thanamalwila.png)
@@ -220,29 +218,21 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Badalgama](images/stations/badalgama.png)
 
-### Giriulla (Maha Oya)
+### Thawalama (Gin Ganga)
 
-![Giriulla](images/stations/giriulla.png)
+![Thawalama](images/stations/thawalama.png)
 
-### Dunamale (Aththanagalu Oya)
+### Panadugama (Nilwala Ganga)
 
-![Dunamale](images/stations/dunamale.png)
+![Panadugama](images/stations/panadugama.png)
 
-### Deraniyagala (Kelani Ganga)
+### Siyambalanduwa (Heda Oya)
 
-![Deraniyagala](images/stations/deraniyagala.png)
-
-### Kalawellawa (Millakanda) (Kalu Ganga)
-
-![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
+![Siyambalanduwa](images/stations/siyambalanduwa.png)
 
 ### Moragaswewa (Deduru Oya)
 
 ![Moragaswewa](images/stations/moragaswewa.png)
-
-### Rathnapura (Kalu Ganga)
-
-![Rathnapura](images/stations/rathnapura.png)
 
 ### Thalgahagoda (Nilwala Ganga)
 
@@ -256,13 +246,17 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Putupaula](images/stations/putupaula.png)
 
+### Baddegama (Gin Ganga)
+
+![Baddegama](images/stations/baddegama.png)
+
 ### Hanwella (Kelani Ganga)
 
 ![Hanwella](images/stations/hanwella.png)
 
-### Nagalagam Street (Kelani Ganga)
+### Deraniyagala (Kelani Ganga)
 
-![Nagalagam Street](images/stations/nagalagam-street.png)
+![Deraniyagala](images/stations/deraniyagala.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
