@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--30_10:08:27-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--09--30_10:14:23-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **274,961 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **274,963 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-09-30 10:14:23 | Magura (Kalu Ganga) | 1.90 | 🟢 Normal | -0.009 |  |
+| 2026-09-30 10:12:12 | Nawalapitiya (Mahaweli Ganga) | 1.52 | 🟢 Normal | -0.008 |  |
 | 2026-09-30 10:08:27 | Holombuwa (Kelani Ganga) | 0.60 | 🟢 Normal | 0.000 |  |
 | 2026-09-30 10:07:54 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | 0.000 |  |
 | 2026-09-30 10:07:37 | Peradeniya (Mahaweli Ganga) | 2.50 | 🟢 Normal | -0.094 |  |
@@ -67,7 +69,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-09-30 10:05:53 | Hanwella (Kelani Ganga) | 2.28 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-09-30 10:07:09 | Moragaswewa (Deduru Oya) | -0.02 | 🟢 Normal | 0.000 |  |
-| 2026-09-30 09:01:33 | Nawalapitiya (Mahaweli Ganga) | 1.53 | 🟢 Normal | 0.000 |  |
 | 2026-09-30 10:07:54 | Yaka Wewa (Ma Oya) | 0.41 | 🟢 Normal | 0.000 |  |
 | 2026-09-30 10:04:19 | Giriulla (Maha Oya) | 1.08 | 🟢 Normal | 0.000 |  |
 | 2026-09-30 10:01:03 | Galgamuwa (Mee Oya) | 0.00 | 🟢 Normal | 0.000 |  |
@@ -82,10 +83,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-09-30 10:02:53 | Rathnapura (Kalu Ganga) | 1.67 | 🟢 Normal | 0.000 |  |
 | 2026-09-30 09:04:39 | Thanthirimale (Malwathu Oya) | 0.34 | 🟢 Normal | 0.000 |  |
 | 2026-09-30 10:00:40 | Kuda Oya (Kirindi Oya) | 0.89 | 🟢 Normal | 0.000 |  |
+| 2026-09-30 10:12:12 | Nawalapitiya (Mahaweli Ganga) | 1.52 | 🟢 Normal | -0.008 |  |
+| 2026-09-30 10:14:23 | Magura (Kalu Ganga) | 1.90 | 🟢 Normal | -0.009 |  |
 | 2026-09-30 10:07:03 | Badalgama (Maha Oya) | 2.21 | 🟢 Normal | -0.009 |  |
 | 2026-09-30 10:05:17 | Thawalama (Gin Ganga) | 1.89 | 🟢 Normal | -0.010 |  |
 | 2026-09-30 10:05:34 | Urawa (Nilwala Ganga) | 0.45 | 🟢 Normal | -0.010 |  |
-| 2026-09-30 09:04:05 | Magura (Kalu Ganga) | 1.91 | 🟢 Normal | -0.010 |  |
 | 2026-09-30 10:01:28 | Nakkala (Kumbukkan Oya) | 0.55 | 🟢 Normal | -0.010 |  |
 | 2026-09-30 10:03:27 | Glencourse (Kelani Ganga) | 10.62 | 🟢 Normal | -0.010 |  |
 | 2026-09-30 10:03:26 | Manampitiya (Mahaweli Ganga) | -0.19 | 🟢 Normal | -0.010 |  |
@@ -114,10 +116,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Moragaswewa (Deduru Oya)
 
 ![Moragaswewa](images/stations/moragaswewa.png)
-
-### Nawalapitiya (Mahaweli Ganga)
-
-![Nawalapitiya](images/stations/nawalapitiya.png)
 
 ### Yaka Wewa (Ma Oya)
 
@@ -175,6 +173,14 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Kuda Oya](images/stations/kuda-oya.png)
 
+### Nawalapitiya (Mahaweli Ganga)
+
+![Nawalapitiya](images/stations/nawalapitiya.png)
+
+### Magura (Kalu Ganga)
+
+![Magura](images/stations/magura.png)
+
 ### Badalgama (Maha Oya)
 
 ![Badalgama](images/stations/badalgama.png)
@@ -186,10 +192,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Urawa (Nilwala Ganga)
 
 ![Urawa](images/stations/urawa.png)
-
-### Magura (Kalu Ganga)
-
-![Magura](images/stations/magura.png)
 
 ### Nakkala (Kumbukkan Oya)
 
