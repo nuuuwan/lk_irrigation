@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--03_11:12:51-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--03_11:39:06-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **277,698 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **277,699 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-03 11:39:06 | Moragaswewa (Deduru Oya) | -0.09 | 🟢 Normal | 0.000 |  |
 | 2026-10-03 11:12:51 | Moraketiya (Walawe Ganga) | 0.74 | 🟢 Normal | -0.009 |  |
 | 2026-10-03 11:12:50 | Baddegama (Gin Ganga) | 2.45 | 🟢 Normal | 0.000 |  |
 | 2026-10-03 11:09:13 | Urawa (Nilwala Ganga) | 0.41 | 🟢 Normal | -0.009 |  |
@@ -76,7 +77,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-03 11:08:20 | Putupaula (Kalu Ganga) | 1.10 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-10-03 11:02:12 | Wellawaya (Kirindi Oya) | 0.84 | 🟢 Normal | 0.000 |  |
 | 2026-10-03 11:04:35 | Nakkala (Kumbukkan Oya) | 0.54 | 🟢 Normal | 0.000 |  |
-| 2026-10-03 11:02:56 | Moragaswewa (Deduru Oya) | -0.09 | 🟢 Normal | 0.000 |  |
+| 2026-10-03 11:39:06 | Moragaswewa (Deduru Oya) | -0.09 | 🟢 Normal | 0.000 |  |
 | 2026-10-03 11:01:44 | Nawalapitiya (Mahaweli Ganga) | 1.37 | 🟢 Normal | 0.000 |  |
 | 2026-10-03 11:01:47 | Yaka Wewa (Ma Oya) | 0.40 | 🟢 Normal | 0.000 |  |
 | 2026-10-03 11:05:32 | Horowpothana (Yan Oya) | 1.64 | 🟢 Normal | 0.000 |  |
