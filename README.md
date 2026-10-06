@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--06_23:06:14-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--06_23:08:15-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **280,867 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **280,868 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-06 23:08:15 | Nagalagam Street (Kelani Ganga) | 0.70 | 🟢 Normal | 0.060 | 🔺 Rising |
 | 2026-10-06 23:06:14 | Magura (Kalu Ganga) | 2.17 | 🟢 Normal | 0.065 | 🔺 Rising |
 | 2026-10-06 23:05:00 | Rathnapura (Kalu Ganga) | 1.68 | 🟢 Normal | 0.052 | 🔺 Rising |
 | 2026-10-06 23:04:59 | Badalgama (Maha Oya) | 2.65 | 🟢 Normal | -0.021 |  |
@@ -53,10 +54,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-06 23:00:42 | Horowpothana (Yan Oya) | 1.67 | 🟢 Normal | 0.000 |  |
 | 2026-10-06 23:00:35 | Thaldena (Mahaweli Ganga) | 0.17 | 🟢 Normal | 0.000 |  |
 | 2026-10-06 23:00:33 | Nawalapitiya (Mahaweli Ganga) | 1.38 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-10-06 22:42:26 | Urawa (Nilwala Ganga) | 0.49 | 🟢 Normal | 0.000 |  |
-| 2026-10-06 22:34:00 | Putupaula (Kalu Ganga) | 0.70 | 🟢 Normal | -0.029 |  |
-| 2026-10-06 22:20:24 | Magura (Kalu Ganga) | 2.12 | 🟢 Normal | 0.065 | 🔺 Rising |
-| 2026-10-06 22:19:47 | Wellawaya (Kirindi Oya) | 1.12 | 🟢 Normal | 0.110 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -69,7 +66,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-06 23:03:22 | Wellawaya (Kirindi Oya) | 1.20 | 🟢 Normal | 0.110 | 🔺 Rising |
 | 2026-10-06 23:03:32 | Deraniyagala (Kelani Ganga) | 1.08 | 🟢 Normal | 0.098 | 🔺 Rising |
 | 2026-10-06 23:06:14 | Magura (Kalu Ganga) | 2.17 | 🟢 Normal | 0.065 | 🔺 Rising |
-| 2026-10-06 22:07:43 | Nagalagam Street (Kelani Ganga) | 0.64 | 🟢 Normal | 0.062 | 🔺 Rising |
+| 2026-10-06 23:08:15 | Nagalagam Street (Kelani Ganga) | 0.70 | 🟢 Normal | 0.060 | 🔺 Rising |
 | 2026-10-06 23:05:00 | Rathnapura (Kalu Ganga) | 1.68 | 🟢 Normal | 0.052 | 🔺 Rising |
 | 2026-10-06 23:03:20 | Manampitiya (Mahaweli Ganga) | 0.25 | 🟢 Normal | 0.040 | 🔺 Rising |
 | 2026-10-06 23:03:02 | Thawalama (Gin Ganga) | 2.69 | 🟢 Normal | 0.039 | 🔺 Rising |
