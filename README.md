@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -60,7 +60,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-07 21:00:52 | Thaldena (Mahaweli Ganga) | 0.20 | 🟢 Normal | 0.000 |  |
 | 2026-10-07 21:00:31 | Pitabeddara (Nilwala Ganga) | 1.20 | 🟢 Normal | -0.030 |  |
 | 2026-10-07 21:00:15 | Thalgahagoda (Nilwala Ganga) | 1.05 | 🟢 Normal | -0.016 |  |
-| 2026-10-07 20:36:35 | Magura (Kalu Ganga) | 2.21 | 🟢 Normal | 1.043 | 🔺 Rising |
 
 ## Latest by Station
 
