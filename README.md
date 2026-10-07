@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--07_13:14:03-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--07_13:23:08-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **281,388 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **281,390 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **37** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-07 13:23:08 | Thawalama (Gin Ganga) | 2.24 | 🟢 Normal | -0.087 |  |
+| 2026-10-07 13:22:40 | Giriulla (Maha Oya) | 1.68 | 🟢 Normal | -0.015 |  |
 | 2026-10-07 13:14:03 | Magura (Kalu Ganga) | 1.98 | 🟢 Normal | -0.064 |  |
 | 2026-10-07 13:10:09 | Holombuwa (Kelani Ganga) | 0.73 | 🟢 Normal | -0.009 |  |
 | 2026-10-07 13:10:07 | Thalgahagoda (Nilwala Ganga) | 1.12 | 🟢 Normal | 0.000 |  |
@@ -87,6 +89,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-07 13:06:43 | Badalgama (Maha Oya) | 3.00 | 🟢 Normal | -0.010 |  |
 | 2026-10-07 13:02:37 | Norwood (Kelani Ganga) | 0.86 | 🟢 Normal | -0.010 |  |
 | 2026-10-07 13:02:43 | Hanwella (Kelani Ganga) | 2.65 | 🟢 Normal | -0.011 |  |
+| 2026-10-07 13:22:40 | Giriulla (Maha Oya) | 1.68 | 🟢 Normal | -0.015 |  |
 | 2026-10-07 12:06:24 | Nakkala (Kumbukkan Oya) | 0.80 | 🟢 Normal | -0.019 |  |
 | 2026-10-07 13:01:25 | Kithulgala (Kelani Ganga) | 1.90 | 🟢 Normal | -0.020 |  |
 | 2026-10-07 13:05:04 | Pitabeddara (Nilwala Ganga) | 1.45 | 🟢 Normal | -0.020 |  |
@@ -98,11 +101,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-07 13:00:42 | Moraketiya (Walawe Ganga) | 1.02 | 🟢 Normal | -0.033 |  |
 | 2026-10-07 13:05:32 | Rathnapura (Kalu Ganga) | 1.64 | 🟢 Normal | -0.039 |  |
 | 2026-10-07 13:02:22 | Dunamale (Aththanagalu Oya) | 2.12 | 🟢 Normal | -0.041 |  |
-| 2026-10-07 12:02:40 | Giriulla (Maha Oya) | 1.70 | 🟢 Normal | -0.050 |  |
 | 2026-10-07 13:04:54 | Peradeniya (Mahaweli Ganga) | 2.00 | 🟢 Normal | -0.060 |  |
 | 2026-10-07 13:14:03 | Magura (Kalu Ganga) | 1.98 | 🟢 Normal | -0.064 |  |
+| 2026-10-07 13:23:08 | Thawalama (Gin Ganga) | 2.24 | 🟢 Normal | -0.087 |  |
 | 2026-10-07 13:01:56 | Kalawellawa (Millakanda) (Kalu Ganga) | 3.55 | 🟢 Normal | -0.102 |  |
-| 2026-10-07 12:06:58 | Thawalama (Gin Ganga) | 2.35 | 🟢 Normal | -0.118 |  |
 
 ## River Water Level Charts by Station
 
@@ -198,6 +200,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Hanwella](images/stations/hanwella.png)
 
+### Giriulla (Maha Oya)
+
+![Giriulla](images/stations/giriulla.png)
+
 ### Nakkala (Kumbukkan Oya)
 
 ![Nakkala](images/stations/nakkala.png)
@@ -242,10 +248,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Dunamale](images/stations/dunamale.png)
 
-### Giriulla (Maha Oya)
-
-![Giriulla](images/stations/giriulla.png)
-
 ### Peradeniya (Mahaweli Ganga)
 
 ![Peradeniya](images/stations/peradeniya.png)
@@ -254,13 +256,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Magura](images/stations/magura.png)
 
-### Kalawellawa (Millakanda) (Kalu Ganga)
-
-![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
-
 ### Thawalama (Gin Ganga)
 
 ![Thawalama](images/stations/thawalama.png)
+
+### Kalawellawa (Millakanda) (Kalu Ganga)
+
+![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
