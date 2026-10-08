@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **42** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -63,7 +63,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-08 08:00:28 | Kuda Oya (Kirindi Oya) | 1.22 | 🟢 Normal | 0.000 |  |
 | 2026-10-08 08:00:24 | Nakkala (Kumbukkan Oya) | 0.66 | 🟢 Normal | 0.000 |  |
 | 2026-10-08 08:00:07 | Thalgahagoda (Nilwala Ganga) | 0.95 | 🟢 Normal | -0.046 |  |
-| 2026-10-08 07:48:05 | Pitabeddara (Nilwala Ganga) | 1.03 | 🟢 Normal | 0.076 | 🔺 Rising |
 
 ## Latest by Station
 
