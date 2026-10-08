@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--08_20:08:32-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--08_20:12:01-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **282,556 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **282,557 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -22,6 +22,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-08 20:12:01 | Rathnapura (Kalu Ganga) | 2.99 | 🟢 Normal | 0.479 | 🔺 Rising |
 | 2026-10-08 20:08:32 | Thalgahagoda (Nilwala Ganga) | 0.85 | 🟢 Normal | -0.019 |  |
 | 2026-10-08 20:08:01 | Pitabeddara (Nilwala Ganga) | 1.13 | 🟢 Normal | 0.035 | 🔺 Rising |
 | 2026-10-08 20:08:00 | Urawa (Nilwala Ganga) | 0.44 | 🟢 Normal | 0.000 |  |
@@ -57,7 +58,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-08 20:01:27 | Kuda Oya (Kirindi Oya) | 1.12 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-10-08 20:01:11 | Siyambalanduwa (Heda Oya) | 0.35 | 🟢 Normal | 0.061 | 🔺 Rising |
 | 2026-10-08 20:00:53 | Magura (Kalu Ganga) | 2.38 | 🟢 Normal | 0.121 | 🔺 Rising |
-| 2026-10-08 19:36:29 | Thalgahagoda (Nilwala Ganga) | 0.86 | 🟢 Normal | -0.019 |  |
 
 ## Latest by Station
 
@@ -66,7 +66,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-10-08 20:03:47 | Holombuwa (Kelani Ganga) | 4.50 | 🟠 Minor Flood | 0.288 | 🔺 Rising |
-| 2026-10-08 19:10:42 | Rathnapura (Kalu Ganga) | 2.50 | 🟢 Normal | 0.999 | 🔺 Rising |
+| 2026-10-08 20:12:01 | Rathnapura (Kalu Ganga) | 2.99 | 🟢 Normal | 0.479 | 🔺 Rising |
 | 2026-10-08 20:04:13 | Giriulla (Maha Oya) | 2.25 | 🟢 Normal | 0.308 | 🔺 Rising |
 | 2026-10-08 20:01:54 | Glencourse (Kelani Ganga) | 11.00 | 🟢 Normal | 0.223 | 🔺 Rising |
 | 2026-10-08 20:02:39 | Peradeniya (Mahaweli Ganga) | 3.08 | 🟢 Normal | 0.159 | 🔺 Rising |
