@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--08_21:08:53-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--08_21:12:12-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **282,592 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **282,593 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-08 21:12:12 | Rathnapura (Kalu Ganga) | 3.45 | 🟢 Normal | 0.459 | 🔺 Rising |
 | 2026-10-08 21:08:53 | Thaldena (Mahaweli Ganga) | 0.66 | 🟢 Normal | -0.039 |  |
 | 2026-10-08 21:08:19 | Moragaswewa (Deduru Oya) | 1.12 | 🟢 Normal | 0.000 |  |
 | 2026-10-08 21:07:34 | Katharagama (Menik Ganga) | -0.26 | 🟢 Normal | 0.000 |  |
@@ -67,7 +68,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-08 21:03:34 | Holombuwa (Kelani Ganga) | 4.23 | 🟠 Minor Flood | -0.271 |  |
 | 2026-10-08 21:02:37 | Giriulla (Maha Oya) | 2.95 | 🟢 Normal | 0.719 | 🔺 Rising |
 | 2026-10-08 21:03:54 | Glencourse (Kelani Ganga) | 11.57 | 🟢 Normal | 0.552 | 🔺 Rising |
-| 2026-10-08 20:12:01 | Rathnapura (Kalu Ganga) | 2.99 | 🟢 Normal | 0.479 | 🔺 Rising |
+| 2026-10-08 21:12:12 | Rathnapura (Kalu Ganga) | 3.45 | 🟢 Normal | 0.459 | 🔺 Rising |
 | 2026-10-08 21:02:18 | Magura (Kalu Ganga) | 2.59 | 🟢 Normal | 0.205 | 🔺 Rising |
 | 2026-10-08 21:02:10 | Panadugama (Nilwala Ganga) | 4.03 | 🟢 Normal | 0.194 | 🔺 Rising |
 | 2026-10-08 21:02:01 | Peradeniya (Mahaweli Ganga) | 3.27 | 🟢 Normal | 0.192 | 🔺 Rising |
