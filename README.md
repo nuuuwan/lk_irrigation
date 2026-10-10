@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--10_18:12:46-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--10_18:25:11-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **284,272 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **284,273 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-10 18:25:11 | Thalgahagoda (Nilwala Ganga) | 1.00 | 🟢 Normal | 0.000 |  |
 | 2026-10-10 18:12:46 | Baddegama (Gin Ganga) | 2.08 | 🟢 Normal | -0.036 |  |
 | 2026-10-10 18:09:12 | Dunamale (Aththanagalu Oya) | 2.75 | 🟢 Normal | -0.116 |  |
 | 2026-10-10 18:09:05 | Panadugama (Nilwala Ganga) | 4.19 | 🟢 Normal | -0.010 |  |
@@ -86,7 +87,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-10 18:06:31 | Holombuwa (Kelani Ganga) | 1.00 | 🟢 Normal | 0.000 |  |
 | 2026-10-10 18:00:50 | Thanthirimale (Malwathu Oya) | 0.69 | 🟢 Normal | 0.000 |  |
 | 2026-10-10 18:03:56 | Urawa (Nilwala Ganga) | 0.72 | 🟢 Normal | 0.000 |  |
-| 2026-10-10 17:03:21 | Thalgahagoda (Nilwala Ganga) | 1.00 | 🟢 Normal | 0.000 |  |
+| 2026-10-10 18:25:11 | Thalgahagoda (Nilwala Ganga) | 1.00 | 🟢 Normal | 0.000 |  |
 | 2026-10-10 18:01:11 | Kuda Oya (Kirindi Oya) | 1.23 | 🟢 Normal | 0.000 |  |
 | 2026-10-10 18:04:07 | Thanamalwila (Kirindi Oya) | 0.83 | 🟢 Normal | 0.000 |  |
 | 2026-10-10 18:09:05 | Panadugama (Nilwala Ganga) | 4.19 | 🟢 Normal | -0.010 |  |
