@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--11_21:07:27-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--11_21:11:12-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **285,277 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **285,282 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,15 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-11 21:11:12 | Deraniyagala (Kelani Ganga) | 1.13 | 🟢 Normal | -0.223 |  |
+| 2026-10-11 21:09:39 | Horowpothana (Yan Oya) | 1.60 | 🟢 Normal | 0.000 |  |
+| 2026-10-11 21:09:22 | Thawalama (Gin Ganga) | 3.50 | 🟢 Normal | 0.111 | 🔺 Rising |
+| 2026-10-11 21:08:58 | Norwood (Kelani Ganga) | 1.19 | 🟢 Normal | -0.124 |  |
+| 2026-10-11 21:08:40 | Baddegama (Gin Ganga) | 2.12 | 🟢 Normal | -0.020 |  |
 | 2026-10-11 21:07:27 | Katharagama (Menik Ganga) | 0.03 | 🟢 Normal | 0.053 | 🔺 Rising |
 | 2026-10-11 21:06:40 | Nagalagam Street (Kelani Ganga) | 0.37 | 🟢 Normal | -0.088 |  |
 | 2026-10-11 21:06:20 | Putupaula (Kalu Ganga) | 1.21 | 🟢 Normal | -0.040 |  |
@@ -53,7 +58,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-11 21:01:03 | Peradeniya (Mahaweli Ganga) | 2.68 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-10-11 21:00:40 | Siyambalanduwa (Heda Oya) | 0.35 | 🟢 Normal | -0.010 |  |
 | 2026-10-11 21:00:11 | Padiyathalawa (Maduru Oya) | 0.04 | 🟢 Normal | 0.000 |  |
-| 2026-10-11 20:25:31 | Norwood (Kelani Ganga) | 1.28 | 🟢 Normal | -0.084 |  |
 
 ## Latest by Station
 
@@ -61,7 +65,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-10-11 20:04:14 | Thawalama (Gin Ganga) | 3.38 | 🟢 Normal | 0.388 | 🔺 Rising |
 | 2026-10-11 21:02:18 | Glencourse (Kelani Ganga) | 11.82 | 🟢 Normal | 0.345 | 🔺 Rising |
 | 2026-10-11 21:04:07 | Urawa (Nilwala Ganga) | 1.26 | 🟢 Normal | 0.271 | 🔺 Rising |
 | 2026-10-11 21:05:55 | Magura (Kalu Ganga) | 2.91 | 🟢 Normal | 0.271 | 🔺 Rising |
@@ -70,6 +73,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-11 21:03:11 | Pitabeddara (Nilwala Ganga) | 1.86 | 🟢 Normal | 0.184 | 🔺 Rising |
 | 2026-10-11 21:04:07 | Hanwella (Kelani Ganga) | 2.87 | 🟢 Normal | 0.160 | 🔺 Rising |
 | 2026-10-11 21:03:56 | Panadugama (Nilwala Ganga) | 4.48 | 🟢 Normal | 0.113 | 🔺 Rising |
+| 2026-10-11 21:09:22 | Thawalama (Gin Ganga) | 3.50 | 🟢 Normal | 0.111 | 🔺 Rising |
 | 2026-10-11 21:01:54 | Kalawellawa (Millakanda) (Kalu Ganga) | 4.24 | 🟢 Normal | 0.064 | 🔺 Rising |
 | 2026-10-11 21:03:40 | Giriulla (Maha Oya) | 2.16 | 🟢 Normal | 0.063 | 🔺 Rising |
 | 2026-10-11 21:05:33 | Holombuwa (Kelani Ganga) | 2.09 | 🟢 Normal | 0.059 | 🔺 Rising |
@@ -83,7 +87,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-11 18:00:16 | Thanthirimale (Malwathu Oya) | 1.12 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-10-11 21:01:25 | Dunamale (Aththanagalu Oya) | 2.30 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-10-11 21:01:54 | Yaka Wewa (Ma Oya) | 0.43 | 🟢 Normal | 0.000 |  |
-| 2026-10-11 20:04:25 | Horowpothana (Yan Oya) | 1.60 | 🟢 Normal | 0.000 |  |
+| 2026-10-11 21:09:39 | Horowpothana (Yan Oya) | 1.60 | 🟢 Normal | 0.000 |  |
 | 2026-10-11 18:06:55 | Galgamuwa (Mee Oya) | 0.00 | 🟢 Normal | 0.000 |  |
 | 2026-10-11 21:00:11 | Padiyathalawa (Maduru Oya) | 0.04 | 🟢 Normal | 0.000 |  |
 | 2026-10-11 21:03:50 | Thalgahagoda (Nilwala Ganga) | 0.92 | 🟢 Normal | 0.000 |  |
@@ -91,21 +95,17 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-11 21:05:21 | Nakkala (Kumbukkan Oya) | 0.96 | 🟢 Normal | -0.009 |  |
 | 2026-10-11 18:02:15 | Weraganthota (Mahaweli Ganga) | -3.17 | 🟢 Normal | -0.010 |  |
 | 2026-10-11 21:00:40 | Siyambalanduwa (Heda Oya) | 0.35 | 🟢 Normal | -0.010 |  |
-| 2026-10-11 20:09:33 | Baddegama (Gin Ganga) | 2.14 | 🟢 Normal | -0.019 |  |
+| 2026-10-11 21:08:40 | Baddegama (Gin Ganga) | 2.12 | 🟢 Normal | -0.020 |  |
 | 2026-10-11 21:02:43 | Kuda Oya (Kirindi Oya) | 1.31 | 🟢 Normal | -0.020 |  |
 | 2026-10-11 21:06:20 | Putupaula (Kalu Ganga) | 1.21 | 🟢 Normal | -0.040 |  |
 | 2026-10-11 21:03:31 | Badalgama (Maha Oya) | 3.31 | 🟢 Normal | -0.043 |  |
-| 2026-10-11 20:25:31 | Norwood (Kelani Ganga) | 1.28 | 🟢 Normal | -0.084 |  |
 | 2026-10-11 21:06:40 | Nagalagam Street (Kelani Ganga) | 0.37 | 🟢 Normal | -0.088 |  |
 | 2026-10-11 21:02:33 | Moragaswewa (Deduru Oya) | 1.91 | 🟢 Normal | -0.089 |  |
+| 2026-10-11 21:08:58 | Norwood (Kelani Ganga) | 1.19 | 🟢 Normal | -0.124 |  |
 | 2026-10-11 21:03:54 | Kithulgala (Kelani Ganga) | 2.00 | 🟢 Normal | -0.149 |  |
-| 2026-10-11 20:03:55 | Deraniyagala (Kelani Ganga) | 1.38 | 🟢 Normal | -0.277 |  |
+| 2026-10-11 21:11:12 | Deraniyagala (Kelani Ganga) | 1.13 | 🟢 Normal | -0.223 |  |
 
 ## River Water Level Charts by Station
-
-### Thawalama (Gin Ganga)
-
-![Thawalama](images/stations/thawalama.png)
 
 ### Glencourse (Kelani Ganga)
 
@@ -138,6 +138,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Panadugama (Nilwala Ganga)
 
 ![Panadugama](images/stations/panadugama.png)
+
+### Thawalama (Gin Ganga)
+
+![Thawalama](images/stations/thawalama.png)
 
 ### Kalawellawa (Millakanda) (Kalu Ganga)
 
@@ -239,10 +243,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Badalgama](images/stations/badalgama.png)
 
-### Norwood (Kelani Ganga)
-
-![Norwood](images/stations/norwood.png)
-
 ### Nagalagam Street (Kelani Ganga)
 
 ![Nagalagam Street](images/stations/nagalagam-street.png)
@@ -250,6 +250,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Moragaswewa (Deduru Oya)
 
 ![Moragaswewa](images/stations/moragaswewa.png)
+
+### Norwood (Kelani Ganga)
+
+![Norwood](images/stations/norwood.png)
 
 ### Kithulgala (Kelani Ganga)
 
