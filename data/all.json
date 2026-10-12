@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1791845915,
+    "water_level_m": 2.9
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1791845616,
+    "water_level_m": 0.43
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1791845331,
+    "water_level_m": 1.00584
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1791845209,
+    "water_level_m": 1.04
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1791845037,
+    "water_level_m": 3.78
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1791844793,
+    "water_level_m": 0.35
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1791844682,
     "water_level_m": 2.37
