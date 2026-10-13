@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **20** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -42,23 +42,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-13 18:02:47 | Manampitiya (Mahaweli Ganga) | -0.29 | 🟢 Normal | 0.000 |  |
 | 2026-10-13 18:02:45 | Magura (Kalu Ganga) | 3.21 | 🟢 Normal | 0.421 | 🔺 Rising |
 | 2026-10-13 18:02:42 | Ellagawa (Kalu Ganga) | 7.18 | 🟢 Normal | 0.146 | 🔺 Rising |
-| 2026-10-13 18:02:38 | Peradeniya (Mahaweli Ganga) | 3.00 | 🟢 Normal | 0.138 | 🔺 Rising |
-| 2026-10-13 18:02:28 | Giriulla (Maha Oya) | 1.49 | 🟢 Normal | 0.000 |  |
-| 2026-10-13 18:02:11 | Thanamalwila (Kirindi Oya) | 0.76 | 🟢 Normal | -0.010 |  |
-| 2026-10-13 18:02:08 | Wellawaya (Kirindi Oya) | 0.92 | 🟢 Normal | -0.020 |  |
-| 2026-10-13 18:02:03 | Yaka Wewa (Ma Oya) | 0.44 | 🟢 Normal | 0.000 |  |
-| 2026-10-13 18:01:45 | Nawalapitiya (Mahaweli Ganga) | 1.19 | 🟢 Normal | 0.000 |  |
-| 2026-10-13 18:01:43 | Putupaula (Kalu Ganga) | 1.78 | 🟢 Normal | -0.021 |  |
-| 2026-10-13 18:01:40 | Deraniyagala (Kelani Ganga) | 0.79 | 🟢 Normal | 0.092 | 🔺 Rising |
-| 2026-10-13 18:01:39 | Glencourse (Kelani Ganga) | 10.85 | 🟢 Normal | -0.104 |  |
-| 2026-10-13 18:01:35 | Badalgama (Maha Oya) | 2.79 | 🟢 Normal | -0.032 |  |
-| 2026-10-13 18:01:33 | Pitabeddara (Nilwala Ganga) | 1.60 | 🟢 Normal | 0.000 |  |
-| 2026-10-13 18:01:17 | Moraketiya (Walawe Ganga) | 1.18 | 🟢 Normal | 0.081 | 🔺 Rising |
-| 2026-10-13 18:00:49 | Nakkala (Kumbukkan Oya) | 0.68 | 🟢 Normal | 0.000 |  |
-| 2026-10-13 18:00:33 | Thaldena (Mahaweli Ganga) | 0.30 | 🟢 Normal | 0.000 |  |
-| 2026-10-13 18:00:31 | Weraganthota (Mahaweli Ganga) | -3.35 | 🟢 Normal | -0.010 |  |
-| 2026-10-13 18:00:18 | Padiyathalawa (Maduru Oya) | 0.08 | 🟢 Normal | 0.000 |  |
-| 2026-10-13 18:00:14 | Kuda Oya (Kirindi Oya) | 1.16 | 🟢 Normal | -0.010 |  |
 
 ## Latest by Station
 
