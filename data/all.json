@@ -1,5 +1,75 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1791928217,
+    "water_level_m": 3.45
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1791928061,
+    "water_level_m": 5.24
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1791928002,
+    "water_level_m": 3.61
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1791927926,
+    "water_level_m": 0.9144000000000001
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1791927802,
+    "water_level_m": 0.75
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1791927576,
+    "water_level_m": 2.38
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1791927434,
+    "water_level_m": 1.18
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1791927396,
+    "water_level_m": 0.44
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1791927383,
+    "water_level_m": 6.09
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1791927376,
+    "water_level_m": 2.82
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1791927366,
+    "water_level_m": 0.07
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1791927327,
+    "water_level_m": 3.48
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1791927323,
+    "water_level_m": 1.75
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1791927295,
+    "water_level_m": -0.21
+  },
+  {
     "station_name": "Peradeniya",
     "time_ut": 1791927251,
     "water_level_m": 3.06
