@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1791859637,
+    "water_level_m": 0.06
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1791859383,
+    "water_level_m": 2.79
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1791859292,
+    "water_level_m": 0.99
+  },
+  {
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1791859212,
     "water_level_m": 5.24
