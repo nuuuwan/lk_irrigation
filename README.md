@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--14_08:11:10-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--14_08:15:04-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **287,467 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **287,469 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-14 08:15:04 | Magura (Kalu Ganga) | 5.39 | 🟡 Alert | -0.017 |  |
+| 2026-10-14 08:14:20 | Urawa (Nilwala Ganga) | 1.14 | 🟢 Normal | -0.026 |  |
 | 2026-10-14 08:11:10 | Thalgahagoda (Nilwala Ganga) | 1.73 | 🟠 Minor Flood | 0.000 |  |
 | 2026-10-14 08:10:19 | Yaka Wewa (Ma Oya) | 0.44 | 🟢 Normal | 0.000 |  |
 | 2026-10-14 08:08:17 | Peradeniya (Mahaweli Ganga) | 2.99 | 🟢 Normal | 0.108 | 🔺 Rising |
@@ -59,7 +61,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-14 08:00:55 | Nakkala (Kumbukkan Oya) | 0.66 | 🟢 Normal | 0.000 |  |
 | 2026-10-14 08:00:43 | Nawalapitiya (Mahaweli Ganga) | 1.17 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-10-14 08:00:27 | Siyambalanduwa (Heda Oya) | 0.55 | 🟢 Normal | 0.000 |  |
-| 2026-10-14 07:31:09 | Panadugama (Nilwala Ganga) | 6.01 | 🟠 Minor Flood | -0.036 |  |
 
 ## Latest by Station
 
@@ -69,7 +70,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-10-14 08:11:10 | Thalgahagoda (Nilwala Ganga) | 1.73 | 🟠 Minor Flood | 0.000 |  |
 | 2026-10-14 08:02:55 | Kalawellawa (Millakanda) (Kalu Ganga) | 5.14 | 🟡 Alert | 0.138 | 🔺 Rising |
-| 2026-10-14 07:04:39 | Magura (Kalu Ganga) | 5.41 | 🟡 Alert | -0.010 |  |
+| 2026-10-14 08:15:04 | Magura (Kalu Ganga) | 5.39 | 🟡 Alert | -0.017 |  |
 | 2026-10-14 08:04:36 | Panadugama (Nilwala Ganga) | 5.99 | 🟡 Alert | -0.036 |  |
 | 2026-10-14 08:08:17 | Peradeniya (Mahaweli Ganga) | 2.99 | 🟢 Normal | 0.108 | 🔺 Rising |
 | 2026-10-14 08:04:37 | Kuda Oya (Kirindi Oya) | 1.31 | 🟢 Normal | 0.103 | 🔺 Rising |
@@ -96,9 +97,9 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-14 08:07:56 | Putupaula (Kalu Ganga) | 2.00 | 🟢 Normal | -0.019 |  |
 | 2026-10-14 08:03:17 | Giriulla (Maha Oya) | 1.59 | 🟢 Normal | -0.020 |  |
 | 2026-10-14 08:03:17 | Hanwella (Kelani Ganga) | 3.15 | 🟢 Normal | -0.020 |  |
-| 2026-10-14 07:05:27 | Urawa (Nilwala Ganga) | 1.17 | 🟢 Normal | -0.020 |  |
 | 2026-10-14 08:06:06 | Thaldena (Mahaweli Ganga) | 0.30 | 🟢 Normal | -0.021 |  |
 | 2026-10-14 08:01:56 | Dunamale (Aththanagalu Oya) | 2.36 | 🟢 Normal | -0.021 |  |
+| 2026-10-14 08:14:20 | Urawa (Nilwala Ganga) | 1.14 | 🟢 Normal | -0.026 |  |
 | 2026-10-14 08:01:26 | Moraketiya (Walawe Ganga) | 1.34 | 🟢 Normal | -0.032 |  |
 | 2026-10-14 08:06:34 | Pitabeddara (Nilwala Ganga) | 2.19 | 🟢 Normal | -0.046 |  |
 | 2026-10-14 08:03:48 | Deraniyagala (Kelani Ganga) | 0.66 | 🟢 Normal | -0.049 |  |
@@ -225,10 +226,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Hanwella](images/stations/hanwella.png)
 
-### Urawa (Nilwala Ganga)
-
-![Urawa](images/stations/urawa.png)
-
 ### Thaldena (Mahaweli Ganga)
 
 ![Thaldena](images/stations/thaldena.png)
@@ -236,6 +233,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Dunamale (Aththanagalu Oya)
 
 ![Dunamale](images/stations/dunamale.png)
+
+### Urawa (Nilwala Ganga)
+
+![Urawa](images/stations/urawa.png)
 
 ### Moraketiya (Walawe Ganga)
 
