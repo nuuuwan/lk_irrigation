@@ -1,5 +1,25 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1791965198,
+    "water_level_m": 5.83
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1791963719,
+    "water_level_m": 0.96
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1791963693,
+    "water_level_m": 2.27
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1791963656,
+    "water_level_m": 5.1
+  },
+  {
     "station_name": "Thanthirimale",
     "time_ut": 1791963621,
     "water_level_m": 0.93
