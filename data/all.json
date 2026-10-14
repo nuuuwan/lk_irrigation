@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1791957165,
+    "water_level_m": 1.7
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1791956773,
+    "water_level_m": 5.28
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1791956511,
+    "water_level_m": 1.39
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1791956388,
+    "water_level_m": 3.7
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1791956381,
+    "water_level_m": 1.07
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1791956336,
+    "water_level_m": 1.9
+  },
+  {
     "station_name": "Yaka Wewa",
     "time_ut": 1791956260,
     "water_level_m": 0.44
