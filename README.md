@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **42** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -62,8 +62,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-14 12:01:06 | Peradeniya (Mahaweli Ganga) | 2.83 | 🟢 Normal | -0.100 |  |
 | 2026-10-14 12:00:10 | Siyambalanduwa (Heda Oya) | 0.50 | 🟢 Normal | -0.021 |  |
 | 2026-10-14 11:59:50 | Dunamale (Aththanagalu Oya) | 2.29 | 🟢 Normal | -0.031 |  |
-| 2026-10-14 11:44:49 | Horowpothana (Yan Oya) | 1.61 | 🟢 Normal | 0.000 |  |
-| 2026-10-14 11:44:48 | Horowpothana (Yan Oya) | 1.62 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
