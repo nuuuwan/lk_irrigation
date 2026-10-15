@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1792039884,
+    "water_level_m": 0.62
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1792039673,
+    "water_level_m": 3.7
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1792039643,
+    "water_level_m": 1.8
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1792039377,
+    "water_level_m": 1.2
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1792039166,
+    "water_level_m": 5.0
+  },
+  {
     "station_name": "Holombuwa",
     "time_ut": 1792039113,
     "water_level_m": 1.61
