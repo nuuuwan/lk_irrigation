@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Ellagawa",
+    "time_ut": 1792082989,
+    "water_level_m": 7.77
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1792082755,
+    "water_level_m": 3.88
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1792082648,
+    "water_level_m": 3.81
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1792082508,
+    "water_level_m": 2.5
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1792082467,
+    "water_level_m": 2.81
+  },
+  {
     "station_name": "Nakkala",
     "time_ut": 1792082339,
     "water_level_m": 0.62
