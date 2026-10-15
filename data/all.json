@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1792044346,
+    "water_level_m": 0.62
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1792043382,
+    "water_level_m": 1.64
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1792043241,
+    "water_level_m": 1.8
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1792042960,
+    "water_level_m": 2.6
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1792042737,
+    "water_level_m": 3.68
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1792042718,
+    "water_level_m": 1.06
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1792042714,
+    "water_level_m": 1.42
+  },
+  {
     "station_name": "Katharagama",
     "time_ut": 1792042632,
     "water_level_m": -0.09
