@@ -1,5 +1,60 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1792064924,
+    "water_level_m": 0.32
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1792064747,
+    "water_level_m": 1.82
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1792064377,
+    "water_level_m": 0.08
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1792064310,
+    "water_level_m": 3.88
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1792064268,
+    "water_level_m": 0.64
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1792064248,
+    "water_level_m": 1.42
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1792064241,
+    "water_level_m": 3.78
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1792064238,
+    "water_level_m": 5.86
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1792064238,
+    "water_level_m": 8.01
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1792064234,
+    "water_level_m": 3.36
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1792064210,
+    "water_level_m": 11.75
+  },
+  {
     "station_name": "Baddegama",
     "time_ut": 1792064192,
     "water_level_m": 2.57
