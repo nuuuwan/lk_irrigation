@@ -1,5 +1,60 @@
 [
   {
+    "station_name": "Kithulgala",
+    "time_ut": 1792100815,
+    "water_level_m": 2.24
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1792100719,
+    "water_level_m": 3.97
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1792100700,
+    "water_level_m": 0.83
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1792100617,
+    "water_level_m": 1.3
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1792100595,
+    "water_level_m": 1.3
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1792100487,
+    "water_level_m": 1.24
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1792100482,
+    "water_level_m": 2.3
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1792100360,
+    "water_level_m": 0.47
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1792100301,
+    "water_level_m": 0.62
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1792100278,
+    "water_level_m": 3.81
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1792100198,
+    "water_level_m": 3.0
+  },
+  {
     "station_name": "Badalgama",
     "time_ut": 1792100189,
     "water_level_m": 3.38
