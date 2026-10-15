@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -61,7 +61,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-15 12:01:32 | Ellagawa (Kalu Ganga) | 8.10 | 🟢 Normal | -0.010 |  |
 | 2026-10-15 12:01:24 | Thanthirimale (Malwathu Oya) | 1.16 | 🟢 Normal | 0.030 | 🔺 Rising |
 | 2026-10-15 12:01:10 | Wellawaya (Kirindi Oya) | 1.13 | 🟢 Normal | 0.000 |  |
-| 2026-10-15 11:41:53 | Nawalapitiya (Mahaweli Ganga) | 1.21 | 🟢 Normal | -0.029 |  |
 
 ## Latest by Station
 
