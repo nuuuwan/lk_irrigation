@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--15_13:09:06-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--15_13:13:32-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **288,588 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **288,589 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-15 13:13:32 | Yaka Wewa (Ma Oya) | 0.60 | 🟢 Normal | -0.011 |  |
 | 2026-10-15 13:09:06 | Giriulla (Maha Oya) | 2.33 | 🟢 Normal | 0.000 |  |
 | 2026-10-15 13:08:14 | Glencourse (Kelani Ganga) | 11.70 | 🟢 Normal | -0.101 |  |
 | 2026-10-15 13:07:09 | Peradeniya (Mahaweli Ganga) | 2.80 | 🟢 Normal | 0.204 | 🔺 Rising |
@@ -97,7 +98,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-15 13:00:43 | Kuda Oya (Kirindi Oya) | 1.30 | 🟢 Normal | 0.000 |  |
 | 2026-10-15 13:00:42 | Wellawaya (Kirindi Oya) | 1.12 | 🟢 Normal | -0.010 |  |
 | 2026-10-15 13:00:22 | Weraganthota (Mahaweli Ganga) | -3.29 | 🟢 Normal | -0.010 |  |
-| 2026-10-15 12:18:06 | Yaka Wewa (Ma Oya) | 0.61 | 🟢 Normal | -0.014 |  |
+| 2026-10-15 13:13:32 | Yaka Wewa (Ma Oya) | 0.60 | 🟢 Normal | -0.011 |  |
 | 2026-10-15 13:03:38 | Ellagawa (Kalu Ganga) | 8.08 | 🟢 Normal | -0.019 |  |
 | 2026-10-15 13:05:20 | Manampitiya (Mahaweli Ganga) | 0.36 | 🟢 Normal | -0.047 |  |
 | 2026-10-15 13:04:23 | Thaldena (Mahaweli Ganga) | 0.26 | 🟢 Normal | -0.049 |  |
