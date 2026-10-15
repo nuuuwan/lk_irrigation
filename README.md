@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--15_07:12:32-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--15_07:26:09-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **288,349 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **288,351 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-15 07:26:09 | Moraketiya (Walawe Ganga) | 1.30 | 🟢 Normal | 0.014 | 🔺 Rising |
+| 2026-10-15 07:20:48 | Glencourse (Kelani Ganga) | 12.71 | 🟢 Normal | -0.736 |  |
 | 2026-10-15 07:12:32 | Thaldena (Mahaweli Ganga) | 0.36 | 🟢 Normal | -0.009 |  |
 | 2026-10-15 07:12:11 | Magura (Kalu Ganga) | 3.80 | 🟢 Normal | -0.078 |  |
 | 2026-10-15 07:12:09 | Baddegama (Gin Ganga) | 2.45 | 🟢 Normal | -0.009 |  |
@@ -59,7 +61,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-15 07:00:29 | Kuda Oya (Kirindi Oya) | 1.24 | 🟢 Normal | -0.013 |  |
 | 2026-10-15 07:00:15 | Horowpothana (Yan Oya) | 1.79 | 🟢 Normal | 0.014 | 🔺 Rising |
 | 2026-10-15 07:00:11 | Pitabeddara (Nilwala Ganga) | 1.60 | 🟢 Normal | 0.000 |  |
-| 2026-10-15 06:32:31 | Galgamuwa (Mee Oya) | 0.25 | 🟢 Normal | -0.020 |  |
 
 ## Latest by Station
 
@@ -71,9 +72,8 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-15 07:06:15 | Dunamale (Aththanagalu Oya) | 3.91 | 🟡 Alert | 0.010 | 🔺 Rising |
 | 2026-10-15 07:03:14 | Kalawellawa (Millakanda) (Kalu Ganga) | 6.03 | 🟡 Alert | -0.059 |  |
 | 2026-10-15 07:03:38 | Panadugama (Nilwala Ganga) | 5.05 | 🟡 Alert | -0.069 |  |
-| 2026-10-15 06:26:09 | Glencourse (Kelani Ganga) | 13.38 | 🟢 Normal | 77.143 | 🔺 Rising |
-| 2026-10-15 06:01:21 | Moraketiya (Walawe Ganga) | 1.28 | 🟢 Normal | 0.123 | 🔺 Rising |
 | 2026-10-15 07:04:47 | Putupaula (Kalu Ganga) | 2.34 | 🟢 Normal | 0.038 | 🔺 Rising |
+| 2026-10-15 07:26:09 | Moraketiya (Walawe Ganga) | 1.30 | 🟢 Normal | 0.014 | 🔺 Rising |
 | 2026-10-15 07:00:15 | Horowpothana (Yan Oya) | 1.79 | 🟢 Normal | 0.014 | 🔺 Rising |
 | 2026-10-15 07:02:17 | Thanthirimale (Malwathu Oya) | 1.07 | 🟢 Normal | 0.012 | 🔺 Rising |
 | 2026-10-15 07:06:49 | Kithulgala (Kelani Ganga) | 2.05 | 🟢 Normal | 0.000 |  |
@@ -106,6 +106,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-15 07:11:34 | Rathnapura (Kalu Ganga) | 3.93 | 🟢 Normal | -0.127 |  |
 | 2026-10-15 07:03:21 | Norwood (Kelani Ganga) | 1.13 | 🟢 Normal | -0.131 |  |
 | 2026-10-15 07:02:57 | Giriulla (Maha Oya) | 2.99 | 🟢 Normal | -0.220 |  |
+| 2026-10-15 07:20:48 | Glencourse (Kelani Ganga) | 12.71 | 🟢 Normal | -0.736 |  |
 
 ## River Water Level Charts by Station
 
@@ -125,17 +126,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Panadugama](images/stations/panadugama.png)
 
-### Glencourse (Kelani Ganga)
+### Putupaula (Kalu Ganga)
 
-![Glencourse](images/stations/glencourse.png)
+![Putupaula](images/stations/putupaula.png)
 
 ### Moraketiya (Walawe Ganga)
 
 ![Moraketiya](images/stations/moraketiya.png)
-
-### Putupaula (Kalu Ganga)
-
-![Putupaula](images/stations/putupaula.png)
 
 ### Horowpothana (Yan Oya)
 
@@ -264,6 +261,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Giriulla (Maha Oya)
 
 ![Giriulla](images/stations/giriulla.png)
+
+### Glencourse (Kelani Ganga)
+
+![Glencourse](images/stations/glencourse.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
