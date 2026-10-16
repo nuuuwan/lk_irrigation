@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--16_14:12:05-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--16_14:31:31-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **289,533 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **289,535 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-16 14:31:31 | Panadugama (Nilwala Ganga) | 6.55 | 🟠 Minor Flood | -0.021 |  |
+| 2026-10-16 14:24:49 | Thalgahagoda (Nilwala Ganga) | 1.93 | 🟠 Minor Flood | 0.000 |  |
 | 2026-10-16 14:12:05 | Pitabeddara (Nilwala Ganga) | 2.49 | 🟢 Normal | -0.145 |  |
 | 2026-10-16 14:11:13 | Galgamuwa (Mee Oya) | 2.09 | 🟢 Normal | 0.000 |  |
 | 2026-10-16 14:11:06 | Magura (Kalu Ganga) | 3.29 | 🟢 Normal | -0.062 |  |
@@ -66,8 +68,8 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-10-16 13:02:18 | Thalgahagoda (Nilwala Ganga) | 1.93 | 🟠 Minor Flood | 0.000 |  |
-| 2026-10-16 13:04:43 | Panadugama (Nilwala Ganga) | 6.58 | 🟠 Minor Flood | -0.025 |  |
+| 2026-10-16 14:24:49 | Thalgahagoda (Nilwala Ganga) | 1.93 | 🟠 Minor Flood | 0.000 |  |
+| 2026-10-16 14:31:31 | Panadugama (Nilwala Ganga) | 6.55 | 🟠 Minor Flood | -0.021 |  |
 | 2026-10-16 14:02:58 | Kalawellawa (Millakanda) (Kalu Ganga) | 5.96 | 🟡 Alert | 0.000 |  |
 | 2026-10-16 14:04:22 | Dunamale (Aththanagalu Oya) | 3.38 | 🟡 Alert | -0.041 |  |
 | 2026-10-16 14:01:35 | Moragaswewa (Deduru Oya) | 2.22 | 🟢 Normal | 0.062 | 🔺 Rising |
