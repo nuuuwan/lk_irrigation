@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--16_09:09:44-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--16_09:19:39-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **289,334 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **289,335 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -22,6 +22,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-16 09:19:39 | Urawa (Nilwala Ganga) | 1.73 | 🟢 Normal | -0.082 |  |
 | 2026-10-16 09:09:44 | Galgamuwa (Mee Oya) | 2.14 | 🟢 Normal | 0.000 |  |
 | 2026-10-16 09:09:19 | Magura (Kalu Ganga) | 3.65 | 🟢 Normal | -0.041 |  |
 | 2026-10-16 09:09:02 | Rathnapura (Kalu Ganga) | 3.51 | 🟢 Normal | -0.056 |  |
@@ -58,7 +59,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-16 09:00:27 | Kuda Oya (Kirindi Oya) | 1.31 | 🟢 Normal | -0.010 |  |
 | 2026-10-16 09:00:14 | Nagalagam Street (Kelani Ganga) | 0.64 | 🟢 Normal | -0.116 |  |
 | 2026-10-16 09:00:13 | Weraganthota (Mahaweli Ganga) | -3.23 | 🟢 Normal | -0.060 |  |
-| 2026-10-16 08:31:57 | Panadugama (Nilwala Ganga) | 6.69 | 🟠 Minor Flood | -0.039 |  |
 
 ## Latest by Station
 
@@ -99,7 +99,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-16 09:09:02 | Rathnapura (Kalu Ganga) | 3.51 | 🟢 Normal | -0.056 |  |
 | 2026-10-16 09:00:13 | Weraganthota (Mahaweli Ganga) | -3.23 | 🟢 Normal | -0.060 |  |
 | 2026-10-16 09:04:10 | Moraketiya (Walawe Ganga) | 1.68 | 🟢 Normal | -0.068 |  |
-| 2026-10-16 08:14:10 | Urawa (Nilwala Ganga) | 1.82 | 🟢 Normal | -0.100 |  |
+| 2026-10-16 09:19:39 | Urawa (Nilwala Ganga) | 1.73 | 🟢 Normal | -0.082 |  |
 | 2026-10-16 09:05:11 | Moragaswewa (Deduru Oya) | 2.13 | 🟢 Normal | -0.114 |  |
 | 2026-10-16 09:00:14 | Nagalagam Street (Kelani Ganga) | 0.64 | 🟢 Normal | -0.116 |  |
 | 2026-10-16 09:03:44 | Kithulgala (Kelani Ganga) | 1.72 | 🟢 Normal | -0.236 |  |
