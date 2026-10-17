@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1792263432,
+    "water_level_m": 3.2
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1792262690,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1792262570,
+    "water_level_m": 1.84
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1792262394,
+    "water_level_m": 2.86
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1792262367,
+    "water_level_m": 2.6
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1792262362,
+    "water_level_m": -0.23
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1792262331,
+    "water_level_m": 2.06
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1792262328,
+    "water_level_m": 1.57
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1792262263,
+    "water_level_m": 5.95
+  },
+  {
     "station_name": "Thanamalwila",
     "time_ut": 1792262182,
     "water_level_m": 1.18
