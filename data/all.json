@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1792212979,
+    "water_level_m": 2.1
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1792212621,
+    "water_level_m": 2.5
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1792212310,
+    "water_level_m": 3.22
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1792212236,
+    "water_level_m": 1.29
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1792212059,
+    "water_level_m": 2.4
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1792212024,
+    "water_level_m": 2.89
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1792211986,
+    "water_level_m": 6.23
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1792211923,
+    "water_level_m": 1.06
+  },
+  {
     "station_name": "Kithulgala",
     "time_ut": 1792211889,
     "water_level_m": 2.05
