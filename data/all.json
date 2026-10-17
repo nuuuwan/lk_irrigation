@@ -1,5 +1,70 @@
 [
   {
+    "station_name": "Kithulgala",
+    "time_ut": 1792279939,
+    "water_level_m": 2.17
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1792279936,
+    "water_level_m": 1.25
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1792279914,
+    "water_level_m": 1.41
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1792279874,
+    "water_level_m": 0.58
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1792279874,
+    "water_level_m": 0.67
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1792279874,
+    "water_level_m": 1.15
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1792279868,
+    "water_level_m": 1.25
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1792279864,
+    "water_level_m": 0.67
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1792279862,
+    "water_level_m": 1.33
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1792279689,
+    "water_level_m": 5.36
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1792279461,
+    "water_level_m": 5.38
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1792279030,
+    "water_level_m": 6.19
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1792278882,
+    "water_level_m": 2.9
+  },
+  {
     "station_name": "Nawalapitiya",
     "time_ut": 1792277671,
     "water_level_m": 1.38
