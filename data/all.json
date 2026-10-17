@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1792201958,
+    "water_level_m": 3.69
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1792201590,
+    "water_level_m": 2.4
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1792201551,
+    "water_level_m": 1.36
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1792201500,
+    "water_level_m": 0.67
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1792201382,
+    "water_level_m": 3.04
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1792201277,
+    "water_level_m": 2.23
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1792201264,
+    "water_level_m": 6.2
+  },
+  {
     "station_name": "Moragaswewa",
     "time_ut": 1792201137,
     "water_level_m": 1.65
