@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--17_18:08:39-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--17_18:12:41-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **290,574 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **290,576 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-17 18:12:41 | Thalgahagoda (Nilwala Ganga) | 2.01 | 🟠 Minor Flood | 0.000 |  |
+| 2026-10-17 18:11:52 | Padiyathalawa (Maduru Oya) | 0.26 | 🟢 Normal | 0.017 | 🔺 Rising |
 | 2026-10-17 18:08:39 | Manampitiya (Mahaweli Ganga) | 0.46 | 🟢 Normal | 0.057 | 🔺 Rising |
 | 2026-10-17 18:07:32 | Panadugama (Nilwala Ganga) | 6.01 | 🟠 Minor Flood | 0.000 |  |
 | 2026-10-17 18:07:31 | Panadugama (Nilwala Ganga) | 6.01 | 🟠 Minor Flood | 0.000 |  |
@@ -62,7 +64,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-10-17 18:07:32 | Panadugama (Nilwala Ganga) | 6.01 | 🟠 Minor Flood | 0.000 |  |
-| 2026-10-17 17:00:07 | Thalgahagoda (Nilwala Ganga) | 2.01 | 🟠 Minor Flood | 0.000 |  |
+| 2026-10-17 18:12:41 | Thalgahagoda (Nilwala Ganga) | 2.01 | 🟠 Minor Flood | 0.000 |  |
 | 2026-10-17 18:02:56 | Kalawellawa (Millakanda) (Kalu Ganga) | 5.57 | 🟡 Alert | -0.030 |  |
 | 2026-10-17 18:04:33 | Rathnapura (Kalu Ganga) | 4.30 | 🟢 Normal | 1.482 | 🔺 Rising |
 | 2026-10-17 18:03:48 | Nawalapitiya (Mahaweli Ganga) | 2.85 | 🟢 Normal | 1.003 | 🔺 Rising |
@@ -74,12 +76,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-17 18:08:39 | Manampitiya (Mahaweli Ganga) | 0.46 | 🟢 Normal | 0.057 | 🔺 Rising |
 | 2026-10-17 17:02:26 | Horowpothana (Yan Oya) | 2.56 | 🟢 Normal | 0.056 | 🔺 Rising |
 | 2026-10-17 17:04:24 | Thaldena (Mahaweli Ganga) | 0.44 | 🟢 Normal | 0.028 | 🔺 Rising |
+| 2026-10-17 18:11:52 | Padiyathalawa (Maduru Oya) | 0.26 | 🟢 Normal | 0.017 | 🔺 Rising |
 | 2026-10-17 18:02:22 | Weraganthota (Mahaweli Ganga) | -3.16 | 🟢 Normal | 0.000 |  |
 | 2026-10-17 18:00:48 | Wellawaya (Kirindi Oya) | 1.23 | 🟢 Normal | 0.000 |  |
 | 2026-10-17 18:00:46 | Nakkala (Kumbukkan Oya) | 0.69 | 🟢 Normal | 0.000 |  |
 | 2026-10-17 18:01:03 | Moragaswewa (Deduru Oya) | 1.28 | 🟢 Normal | 0.000 |  |
 | 2026-10-17 17:02:20 | Yaka Wewa (Ma Oya) | 0.55 | 🟢 Normal | 0.000 |  |
-| 2026-10-17 17:00:30 | Padiyathalawa (Maduru Oya) | 0.24 | 🟢 Normal | 0.000 |  |
 | 2026-10-17 18:02:08 | Thanamalwila (Kirindi Oya) | 1.20 | 🟢 Normal | 0.000 |  |
 | 2026-10-17 18:02:44 | Siyambalanduwa (Heda Oya) | 0.51 | 🟢 Normal | -0.010 |  |
 | 2026-10-17 18:02:19 | Kuda Oya (Kirindi Oya) | 1.30 | 🟢 Normal | -0.010 |  |
@@ -155,6 +157,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Thaldena](images/stations/thaldena.png)
 
+### Padiyathalawa (Maduru Oya)
+
+![Padiyathalawa](images/stations/padiyathalawa.png)
+
 ### Weraganthota (Mahaweli Ganga)
 
 ![Weraganthota](images/stations/weraganthota.png)
@@ -174,10 +180,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Yaka Wewa (Ma Oya)
 
 ![Yaka Wewa](images/stations/yaka-wewa.png)
-
-### Padiyathalawa (Maduru Oya)
-
-![Padiyathalawa](images/stations/padiyathalawa.png)
 
 ### Thanamalwila (Kirindi Oya)
 
