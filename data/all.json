@@ -1,5 +1,60 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1792302473,
+    "water_level_m": 2.28
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1792302387,
+    "water_level_m": 5.15
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1792302234,
+    "water_level_m": 2.38
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1792301969,
+    "water_level_m": 0.74
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1792301904,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1792301849,
+    "water_level_m": 1.15
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1792301823,
+    "water_level_m": 1.2
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1792301780,
+    "water_level_m": 3.19
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1792301777,
+    "water_level_m": 3.05
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1792301776,
+    "water_level_m": 0.6096
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1792301758,
+    "water_level_m": 2.85
+  },
+  {
     "station_name": "Moraketiya",
     "time_ut": 1792301711,
     "water_level_m": 1.26
