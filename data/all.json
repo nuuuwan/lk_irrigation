@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1792298891,
+    "water_level_m": 2.3
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1792298668,
+    "water_level_m": 5.19
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1792298600,
+    "water_level_m": 3.09
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1792298552,
+    "water_level_m": 0.5
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1792298392,
+    "water_level_m": 1.16
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1792298362,
+    "water_level_m": 5.95
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1792298332,
     "water_level_m": 5.95
