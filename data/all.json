@@ -1,5 +1,110 @@
 [
   {
+    "station_name": "Giriulla",
+    "time_ut": 1792335111,
+    "water_level_m": 1.6
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1792334953,
+    "water_level_m": 2.22
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1792334705,
+    "water_level_m": 5.67
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1792334663,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1792334631,
+    "water_level_m": 1.5
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1792334599,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1792334338,
+    "water_level_m": 4.64
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1792334295,
+    "water_level_m": 2.02
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1792334252,
+    "water_level_m": 11.16
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1792334213,
+    "water_level_m": 2.94
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1792334208,
+    "water_level_m": 1.48
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1792334203,
+    "water_level_m": 1.1
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1792334174,
+    "water_level_m": 1.77
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1792334139,
+    "water_level_m": 3.06
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1792334132,
+    "water_level_m": 2.2
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1792334129,
+    "water_level_m": 2.52
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1792334112,
+    "water_level_m": 2.16
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1792334105,
+    "water_level_m": 4.63
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1792334104,
+    "water_level_m": 2.4
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1792334087,
+    "water_level_m": -0.24
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1792334064,
+    "water_level_m": 0.35
+  },
+  {
     "station_name": "Yaka Wewa",
     "time_ut": 1792334041,
     "water_level_m": 0.56
