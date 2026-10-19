@@ -1,5 +1,60 @@
 [
   {
+    "station_name": "Moragaswewa",
+    "time_ut": 1792407597,
+    "water_level_m": 1.51
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1792407218,
+    "water_level_m": 1.99
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1792407020,
+    "water_level_m": 1.45
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1792406616,
+    "water_level_m": 0.95
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1792406570,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1792406513,
+    "water_level_m": 0.25
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1792406498,
+    "water_level_m": 0.95
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1792406436,
+    "water_level_m": 0.69
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1792406390,
+    "water_level_m": 2.45
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1792406372,
+    "water_level_m": 2.03
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1792406371,
+    "water_level_m": 1.8
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1792406314,
     "water_level_m": 2.7
