@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -60,7 +60,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-19 18:01:22 | Weraganthota (Mahaweli Ganga) | -3.13 | 🟢 Normal | -0.070 |  |
 | 2026-10-19 18:01:20 | Rathnapura (Kalu Ganga) | 2.66 | 🟢 Normal | -0.021 |  |
 | 2026-10-19 18:00:13 | Thalgahagoda (Nilwala Ganga) | 1.88 | 🟠 Minor Flood | 0.000 |  |
-| 2026-10-19 17:42:30 | Norwood (Kelani Ganga) | 1.13 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
