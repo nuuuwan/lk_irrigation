@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--19_10:09:40-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--19_10:32:46-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **292,073 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **292,076 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **35** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-19 10:32:46 | Padiyathalawa (Maduru Oya) | 0.26 | 🟢 Normal | 0.000 |  |
+| 2026-10-19 10:15:28 | Norwood (Kelani Ganga) | 1.22 | 🟢 Normal | -0.017 |  |
+| 2026-10-19 10:14:30 | Urawa (Nilwala Ganga) | 1.00 | 🟢 Normal | -0.009 |  |
 | 2026-10-19 10:09:40 | Holombuwa (Kelani Ganga) | 0.94 | 🟢 Normal | 0.000 |  |
 | 2026-10-19 10:09:02 | Baddegama (Gin Ganga) | 2.62 | 🟢 Normal | -0.028 |  |
 | 2026-10-19 10:08:41 | Magura (Kalu Ganga) | 2.05 | 🟢 Normal | -0.010 |  |
@@ -72,18 +75,18 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-19 10:02:01 | Wellawaya (Kirindi Oya) | 1.31 | 🟢 Normal | 0.000 |  |
 | 2026-10-19 10:00:45 | Nakkala (Kumbukkan Oya) | 0.62 | 🟢 Normal | 0.000 |  |
 | 2026-10-19 10:02:40 | Galgamuwa (Mee Oya) | 0.70 | 🟢 Normal | 0.000 |  |
+| 2026-10-19 10:32:46 | Padiyathalawa (Maduru Oya) | 0.26 | 🟢 Normal | 0.000 |  |
 | 2026-10-19 10:02:29 | Siyambalanduwa (Heda Oya) | 0.47 | 🟢 Normal | 0.000 |  |
 | 2026-10-19 10:05:55 | Dunamale (Aththanagalu Oya) | 2.08 | 🟢 Normal | 0.000 |  |
 | 2026-10-19 10:09:40 | Holombuwa (Kelani Ganga) | 0.94 | 🟢 Normal | 0.000 |  |
-| 2026-10-19 09:05:44 | Urawa (Nilwala Ganga) | 1.01 | 🟢 Normal | 0.000 |  |
-| 2026-10-19 08:18:26 | Padiyathalawa (Maduru Oya) | 0.26 | 🟢 Normal | -0.009 |  |
+| 2026-10-19 10:14:30 | Urawa (Nilwala Ganga) | 1.00 | 🟢 Normal | -0.009 |  |
 | 2026-10-19 10:08:19 | Kuda Oya (Kirindi Oya) | 1.31 | 🟢 Normal | -0.009 |  |
 | 2026-10-19 10:03:41 | Nawalapitiya (Mahaweli Ganga) | 1.27 | 🟢 Normal | -0.010 |  |
 | 2026-10-19 10:03:01 | Thanamalwila (Kirindi Oya) | 1.19 | 🟢 Normal | -0.010 |  |
 | 2026-10-19 10:02:03 | Yaka Wewa (Ma Oya) | 0.48 | 🟢 Normal | -0.010 |  |
 | 2026-10-19 10:04:20 | Putupaula (Kalu Ganga) | 1.52 | 🟢 Normal | -0.010 |  |
 | 2026-10-19 10:08:41 | Magura (Kalu Ganga) | 2.05 | 🟢 Normal | -0.010 |  |
-| 2026-10-19 09:06:08 | Norwood (Kelani Ganga) | 1.24 | 🟢 Normal | -0.012 |  |
+| 2026-10-19 10:15:28 | Norwood (Kelani Ganga) | 1.22 | 🟢 Normal | -0.017 |  |
 | 2026-10-19 10:06:19 | Peradeniya (Mahaweli Ganga) | 2.80 | 🟢 Normal | -0.019 |  |
 | 2026-10-19 10:05:55 | Moraketiya (Walawe Ganga) | 1.27 | 🟢 Normal | -0.019 |  |
 | 2026-10-19 10:03:26 | Thawalama (Gin Ganga) | 2.36 | 🟢 Normal | -0.020 |  |
@@ -138,6 +141,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Galgamuwa](images/stations/galgamuwa.png)
 
+### Padiyathalawa (Maduru Oya)
+
+![Padiyathalawa](images/stations/padiyathalawa.png)
+
 ### Siyambalanduwa (Heda Oya)
 
 ![Siyambalanduwa](images/stations/siyambalanduwa.png)
@@ -153,10 +160,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Urawa (Nilwala Ganga)
 
 ![Urawa](images/stations/urawa.png)
-
-### Padiyathalawa (Maduru Oya)
-
-![Padiyathalawa](images/stations/padiyathalawa.png)
 
 ### Kuda Oya (Kirindi Oya)
 
