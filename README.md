@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **40** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -61,7 +61,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-19 14:00:52 | Putupaula (Kalu Ganga) | 1.41 | 🟢 Normal | -0.020 |  |
 | 2026-10-19 14:00:24 | Thanamalwila (Kirindi Oya) | 1.17 | 🟢 Normal | -0.010 |  |
 | 2026-10-19 14:00:08 | Siyambalanduwa (Heda Oya) | 0.48 | 🟢 Normal | 0.000 |  |
-| 2026-10-19 13:56:58 | Thanthirimale (Malwathu Oya) | 1.38 | 🟢 Normal | -0.149 |  |
 
 ## Latest by Station
 
