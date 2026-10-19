@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **42** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -63,7 +63,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-19 09:00:46 | Thanthirimale (Malwathu Oya) | 1.42 | 🟢 Normal | -0.020 |  |
 | 2026-10-19 09:00:30 | Siyambalanduwa (Heda Oya) | 0.47 | 🟢 Normal | 0.011 | 🔺 Rising |
 | 2026-10-19 09:00:22 | Kuda Oya (Kirindi Oya) | 1.32 | 🟢 Normal | 0.000 |  |
-| 2026-10-19 08:36:13 | Yaka Wewa (Ma Oya) | 0.50 | 🟢 Normal | -0.024 |  |
 
 ## Latest by Station
 
