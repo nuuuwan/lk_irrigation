@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Kithulgala",
+    "time_ut": 1792537342,
+    "water_level_m": 2.12
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1792537086,
+    "water_level_m": 0.98
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1792536381,
+    "water_level_m": 0.8
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1792536227,
+    "water_level_m": 1.18
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1792535816,
+    "water_level_m": 0.79
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1792535780,
+    "water_level_m": -0.23
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1792535768,
+    "water_level_m": 1.99
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1792535756,
+    "water_level_m": 1.97
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1792535753,
+    "water_level_m": 1.35
+  },
+  {
     "station_name": "Nawalapitiya",
     "time_ut": 1792535727,
     "water_level_m": 1.26
