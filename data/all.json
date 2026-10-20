@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1792504845,
+    "water_level_m": 1.42
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1792503912,
+    "water_level_m": 1.56
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1792503774,
+    "water_level_m": 2.96
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1792503774,
+    "water_level_m": 2.02
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1792503622,
+    "water_level_m": 2.07
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1792503567,
+    "water_level_m": 0.46
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1792503561,
+    "water_level_m": 4.39
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1792503534,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1792503504,
+    "water_level_m": 0.84
+  },
+  {
     "station_name": "Thaldena",
     "time_ut": 1792503379,
     "water_level_m": 0.28
