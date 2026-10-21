@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1792601460,
+    "water_level_m": 1.87
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1792601174,
+    "water_level_m": 0.86
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1792601092,
+    "water_level_m": 10.7
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1792600932,
+    "water_level_m": 2.66
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1792600925,
+    "water_level_m": 2.51
+  },
+  {
     "station_name": "Holombuwa",
     "time_ut": 1792600714,
     "water_level_m": 1.89
