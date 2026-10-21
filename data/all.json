@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Glencourse",
+    "time_ut": 1792561514,
+    "water_level_m": 10.65
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1792561170,
+    "water_level_m": 1.29
+  },
+  {
     "station_name": "Norwood",
     "time_ut": 1792561034,
     "water_level_m": 1.07
