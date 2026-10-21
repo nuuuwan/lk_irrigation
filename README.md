@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--21_13:11:55-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--21_13:18:41-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **294,011 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **294,012 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-21 13:18:41 | Pitabeddara (Nilwala Ganga) | 1.30 | 🟢 Normal | 0.000 |  |
 | 2026-10-21 13:11:55 | Kuda Oya (Kirindi Oya) | 1.25 | 🟢 Normal | 0.000 |  |
 | 2026-10-21 13:10:37 | Rathnapura (Kalu Ganga) | 1.88 | 🟢 Normal | -0.027 |  |
 | 2026-10-21 13:09:46 | Urawa (Nilwala Ganga) | 0.78 | 🟢 Normal | 0.000 |  |
@@ -76,7 +77,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-21 13:01:52 | Wellawaya (Kirindi Oya) | 1.34 | 🟢 Normal | 0.000 |  |
 | 2026-10-21 13:03:48 | Moragaswewa (Deduru Oya) | 1.23 | 🟢 Normal | 0.000 |  |
 | 2026-10-21 13:01:23 | Nawalapitiya (Mahaweli Ganga) | 1.21 | 🟢 Normal | 0.000 |  |
-| 2026-10-21 12:05:07 | Pitabeddara (Nilwala Ganga) | 1.30 | 🟢 Normal | 0.000 |  |
+| 2026-10-21 13:18:41 | Pitabeddara (Nilwala Ganga) | 1.30 | 🟢 Normal | 0.000 |  |
 | 2026-10-21 13:03:44 | Hanwella (Kelani Ganga) | 2.36 | 🟢 Normal | 0.000 |  |
 | 2026-10-21 13:03:12 | Ellagawa (Kalu Ganga) | 5.58 | 🟢 Normal | 0.000 |  |
 | 2026-10-21 13:04:37 | Baddegama (Gin Ganga) | 1.52 | 🟢 Normal | 0.000 |  |
