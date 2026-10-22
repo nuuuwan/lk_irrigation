@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Holombuwa",
+    "time_ut": 1792709135,
+    "water_level_m": 1.39
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1792709101,
+    "water_level_m": 2.45
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1792708781,
+    "water_level_m": 0.8229600000000001
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1792708706,
+    "water_level_m": 2.08
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1792708650,
+    "water_level_m": 2.98
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1792708574,
+    "water_level_m": 3.78
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1792708535,
+    "water_level_m": 4.53
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1792708514,
     "water_level_m": 2.18
