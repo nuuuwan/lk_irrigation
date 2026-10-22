@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--22_21:08:26-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--22_21:11:03-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **295,211 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **295,213 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **32** measurements in the last **1 hour**.*
+*There were **34** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-22 21:11:03 | Holombuwa (Kelani Ganga) | 1.81 | 🟢 Normal | -0.302 |  |
+| 2026-10-22 21:09:38 | Katharagama (Menik Ganga) | -0.24 | 🟢 Normal | 0.000 |  |
 | 2026-10-22 21:08:26 | Thawalama (Gin Ganga) | 2.74 | 🟢 Normal | 0.066 | 🔺 Rising |
 | 2026-10-22 21:08:15 | Padiyathalawa (Maduru Oya) | 1.05 | 🟢 Normal | 0.000 |  |
 | 2026-10-22 21:08:00 | Glencourse (Kelani Ganga) | 12.44 | 🟢 Normal | -0.009 |  |
@@ -82,7 +84,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-22 21:08:15 | Padiyathalawa (Maduru Oya) | 1.05 | 🟢 Normal | 0.000 |  |
 | 2026-10-22 21:03:38 | Nagalagam Street (Kelani Ganga) | 0.58 | 🟢 Normal | 0.000 |  |
 | 2026-10-22 20:00:14 | Moraketiya (Walawe Ganga) | 1.10 | 🟢 Normal | 0.000 |  |
-| 2026-10-22 20:03:20 | Katharagama (Menik Ganga) | -0.24 | 🟢 Normal | 0.000 |  |
+| 2026-10-22 21:09:38 | Katharagama (Menik Ganga) | -0.24 | 🟢 Normal | 0.000 |  |
 | 2026-10-22 21:03:31 | Badalgama (Maha Oya) | 3.56 | 🟢 Normal | 0.000 |  |
 | 2026-10-22 21:03:42 | Thalgahagoda (Nilwala Ganga) | 1.20 | 🟢 Normal | 0.000 |  |
 | 2026-10-22 21:02:17 | Kuda Oya (Kirindi Oya) | 1.40 | 🟢 Normal | 0.000 |  |
@@ -99,7 +101,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-22 21:01:32 | Manampitiya (Mahaweli Ganga) | 1.25 | 🟢 Normal | -0.052 |  |
 | 2026-10-22 18:01:15 | Weraganthota (Mahaweli Ganga) | -2.10 | 🟢 Normal | -0.070 |  |
 | 2026-10-22 21:01:59 | Kithulgala (Kelani Ganga) | 2.22 | 🟢 Normal | -0.070 |  |
-| 2026-10-22 20:03:26 | Holombuwa (Kelani Ganga) | 2.15 | 🟢 Normal | -0.268 |  |
+| 2026-10-22 21:11:03 | Holombuwa (Kelani Ganga) | 1.81 | 🟢 Normal | -0.302 |  |
 
 ## River Water Level Charts by Station
 
