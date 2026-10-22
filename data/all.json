@@ -1,5 +1,40 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1792703095,
+    "water_level_m": 2.5
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1792702094,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1792702072,
+    "water_level_m": 0.9753600000000001
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1792701838,
+    "water_level_m": 2.45
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1792701613,
+    "water_level_m": 7.8
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1792701557,
+    "water_level_m": 4.59
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1792701507,
+    "water_level_m": 3.74
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1792701476,
     "water_level_m": 4.57
