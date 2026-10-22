@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--22_13:12:13-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--22_13:21:06-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **294,904 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **294,905 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-22 13:21:06 | Thawalama (Gin Ganga) | 2.18 | 🟢 Normal | 0.060 | 🔺 Rising |
 | 2026-10-22 13:12:13 | Thalgahagoda (Nilwala Ganga) | 1.22 | 🟢 Normal | 0.000 |  |
 | 2026-10-22 13:11:51 | Urawa (Nilwala Ganga) | 1.06 | 🟢 Normal | 0.154 | 🔺 Rising |
 | 2026-10-22 13:09:58 | Magura (Kalu Ganga) | 1.83 | 🟢 Normal | -0.009 |  |
@@ -70,7 +71,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-22 13:11:51 | Urawa (Nilwala Ganga) | 1.06 | 🟢 Normal | 0.154 | 🔺 Rising |
 | 2026-10-22 13:03:11 | Moragaswewa (Deduru Oya) | 4.26 | 🟢 Normal | 0.118 | 🔺 Rising |
 | 2026-10-22 13:09:03 | Holombuwa (Kelani Ganga) | 1.33 | 🟢 Normal | 0.079 | 🔺 Rising |
-| 2026-10-22 12:10:47 | Thawalama (Gin Ganga) | 2.11 | 🟢 Normal | 0.074 | 🔺 Rising |
+| 2026-10-22 13:21:06 | Thawalama (Gin Ganga) | 2.18 | 🟢 Normal | 0.060 | 🔺 Rising |
 | 2026-10-22 13:04:03 | Ellagawa (Kalu Ganga) | 7.52 | 🟢 Normal | 0.051 | 🔺 Rising |
 | 2026-10-22 13:05:31 | Putupaula (Kalu Ganga) | 1.38 | 🟢 Normal | 0.049 | 🔺 Rising |
 | 2026-10-22 13:08:59 | Manampitiya (Mahaweli Ganga) | 1.37 | 🟢 Normal | 0.036 | 🔺 Rising |
