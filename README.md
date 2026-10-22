@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -60,7 +60,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-22 07:01:02 | Pitabeddara (Nilwala Ganga) | 1.78 | 🟢 Normal | -0.143 |  |
 | 2026-10-22 07:00:15 | Kuda Oya (Kirindi Oya) | 1.71 | 🟢 Normal | -0.040 |  |
 | 2026-10-22 07:00:11 | Weraganthota (Mahaweli Ganga) | -2.69 | 🟢 Normal | -0.110 |  |
-| 2026-10-22 06:45:42 | Panadugama (Nilwala Ganga) | 4.68 | 🟢 Normal | -0.232 |  |
 
 ## Latest by Station
 
