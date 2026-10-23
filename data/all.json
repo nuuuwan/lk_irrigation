@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Wellawaya",
+    "time_ut": 1792785272,
+    "water_level_m": 1.26
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1792785214,
+    "water_level_m": 0.87
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1792784490,
+    "water_level_m": 1.74
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1792784387,
+    "water_level_m": 4.0
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1792784323,
+    "water_level_m": 1.92
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1792784233,
+    "water_level_m": 11.38
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1792784193,
+    "water_level_m": 1.05
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1792784147,
+    "water_level_m": 1.74
+  },
+  {
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1792784120,
     "water_level_m": 4.54
