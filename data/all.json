@@ -1,5 +1,35 @@
 [
   {
+    "station_name": "Moragaswewa",
+    "time_ut": 1792756117,
+    "water_level_m": 4.47
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1792755950,
+    "water_level_m": 4.23
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1792755711,
+    "water_level_m": 2.65
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1792755585,
+    "water_level_m": 0.8
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1792755574,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1792755545,
+    "water_level_m": 2.15
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1792755507,
     "water_level_m": 4.23
