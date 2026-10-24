@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Magura",
+    "time_ut": 1792831753,
+    "water_level_m": 1.83
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1792831436,
+    "water_level_m": 1.37
+  },
+  {
     "station_name": "Ellagawa",
     "time_ut": 1792831151,
     "water_level_m": 6.21
