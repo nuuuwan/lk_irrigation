@@ -1,5 +1,110 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1792863246,
+    "water_level_m": 1.47
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1792863237,
+    "water_level_m": 1.1
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1792863220,
+    "water_level_m": 2.78
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1792863200,
+    "water_level_m": 0.93
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1792863194,
+    "water_level_m": 1.32
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1792863171,
+    "water_level_m": 1.26
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1792863168,
+    "water_level_m": 0.75
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1792863167,
+    "water_level_m": -0.25
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1792863151,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1792863143,
+    "water_level_m": 3.65
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1792863135,
+    "water_level_m": 1.22
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1792863131,
+    "water_level_m": 1.02
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1792863130,
+    "water_level_m": 0.67056
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1792863112,
+    "water_level_m": 1.17
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1792863093,
+    "water_level_m": 1.21
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1792863089,
+    "water_level_m": 2.13
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1792863076,
+    "water_level_m": 5.87
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1792863072,
+    "water_level_m": 1.7
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1792863066,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1792863032,
+    "water_level_m": 2.9
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1792862719,
+    "water_level_m": 1.7
+  },
+  {
     "station_name": "Siyambalanduwa",
     "time_ut": 1792860432,
     "water_level_m": 0.62
