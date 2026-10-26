@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--27_01:07:32-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--27_01:11:32-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **298,927 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **298,931 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,14 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **30** measurements in the last **1 hour**.*
+*There were **32** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-27 01:11:32 | Panadugama (Nilwala Ganga) | 6.37 | 🟠 Minor Flood | 0.089 | 🔺 Rising |
+| 2026-10-27 01:11:28 | Urawa (Nilwala Ganga) | 2.50 | 🟡 Alert | -0.037 |  |
+| 2026-10-27 01:08:56 | Kithulgala (Kelani Ganga) | 2.44 | 🟢 Normal | -0.009 |  |
+| 2026-10-27 01:07:46 | Thawalama (Gin Ganga) | 5.34 | 🟡 Alert | 0.063 | 🔺 Rising |
 | 2026-10-27 01:07:32 | Ellagawa (Kalu Ganga) | 9.70 | 🟢 Normal | 0.000 |  |
 | 2026-10-27 01:07:14 | Thaldena (Mahaweli Ganga) | 0.55 | 🟢 Normal | -0.027 |  |
 | 2026-10-27 01:07:12 | Putupaula (Kalu Ganga) | 3.07 | 🟡 Alert | 0.060 | 🔺 Rising |
@@ -50,8 +54,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-27 01:01:07 | Nakkala (Kumbukkan Oya) | 0.99 | 🟢 Normal | -0.011 |  |
 | 2026-10-27 01:00:45 | Horowpothana (Yan Oya) | 2.35 | 🟢 Normal | 0.239 | 🔺 Rising |
 | 2026-10-27 01:00:12 | Moraketiya (Walawe Ganga) | 2.38 | 🟢 Normal | 0.010 | 🔺 Rising |
-| 2026-10-27 00:53:13 | Horowpothana (Yan Oya) | 2.32 | 🟢 Normal | 0.239 | 🔺 Rising |
-| 2026-10-27 00:53:12 | Horowpothana (Yan Oya) | 2.32 | 🟢 Normal | 0.239 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -59,18 +61,18 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-10-27 00:17:42 | Panadugama (Nilwala Ganga) | 6.29 | 🟠 Minor Flood | 0.085 | 🔺 Rising |
+| 2026-10-27 01:11:32 | Panadugama (Nilwala Ganga) | 6.37 | 🟠 Minor Flood | 0.089 | 🔺 Rising |
 | 2026-10-27 00:06:20 | Kalawellawa (Millakanda) (Kalu Ganga) | 6.89 | 🟠 Minor Flood | 0.061 | 🔺 Rising |
 | 2026-10-27 01:02:41 | Dunamale (Aththanagalu Oya) | 4.60 | 🟠 Minor Flood | 0.060 | 🔺 Rising |
 | 2026-10-27 01:04:00 | Rathnapura (Kalu Ganga) | 8.64 | 🟠 Minor Flood | 0.011 | 🔺 Rising |
 | 2026-10-27 01:01:47 | Moragaswewa (Deduru Oya) | 4.82 | 🟡 Alert | 0.108 | 🔺 Rising |
 | 2026-10-27 01:05:17 | Badalgama (Maha Oya) | 5.63 | 🟡 Alert | 0.105 | 🔺 Rising |
-| 2026-10-27 00:00:51 | Thawalama (Gin Ganga) | 5.27 | 🟡 Alert | 0.076 | 🔺 Rising |
 | 2026-10-27 01:04:12 | Baddegama (Gin Ganga) | 3.59 | 🟡 Alert | 0.073 | 🔺 Rising |
+| 2026-10-27 01:07:46 | Thawalama (Gin Ganga) | 5.34 | 🟡 Alert | 0.063 | 🔺 Rising |
 | 2026-10-27 01:07:12 | Putupaula (Kalu Ganga) | 3.07 | 🟡 Alert | 0.060 | 🔺 Rising |
 | 2026-10-27 01:05:39 | Thalgahagoda (Nilwala Ganga) | 1.46 | 🟡 Alert | 0.039 | 🔺 Rising |
 | 2026-10-27 01:01:34 | Magura (Kalu Ganga) | 5.16 | 🟡 Alert | 0.030 | 🔺 Rising |
-| 2026-10-27 00:07:21 | Urawa (Nilwala Ganga) | 2.54 | 🟡 Alert | -0.019 |  |
+| 2026-10-27 01:11:28 | Urawa (Nilwala Ganga) | 2.50 | 🟡 Alert | -0.037 |  |
 | 2026-10-27 01:06:04 | Norwood (Kelani Ganga) | 1.80 | 🟡 Alert | -0.039 |  |
 | 2026-10-27 01:03:08 | Glencourse (Kelani Ganga) | 15.04 | 🟡 Alert | -0.108 |  |
 | 2026-10-27 01:00:45 | Horowpothana (Yan Oya) | 2.35 | 🟢 Normal | 0.239 | 🔺 Rising |
@@ -88,6 +90,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-27 01:07:32 | Ellagawa (Kalu Ganga) | 9.70 | 🟢 Normal | 0.000 |  |
 | 2026-10-27 01:01:45 | Padiyathalawa (Maduru Oya) | 0.32 | 🟢 Normal | 0.000 |  |
 | 2026-10-27 01:02:57 | Siyambalanduwa (Heda Oya) | 0.56 | 🟢 Normal | 0.000 |  |
+| 2026-10-27 01:08:56 | Kithulgala (Kelani Ganga) | 2.44 | 🟢 Normal | -0.009 |  |
 | 2026-10-27 01:04:43 | Katharagama (Menik Ganga) | 0.01 | 🟢 Normal | -0.010 |  |
 | 2026-10-27 01:01:07 | Nakkala (Kumbukkan Oya) | 0.99 | 🟢 Normal | -0.011 |  |
 | 2026-10-27 01:07:14 | Thaldena (Mahaweli Ganga) | 0.55 | 🟢 Normal | -0.027 |  |
@@ -97,7 +100,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-27 01:04:05 | Deraniyagala (Kelani Ganga) | 1.70 | 🟢 Normal | -0.070 |  |
 | 2026-10-27 01:03:19 | Holombuwa (Kelani Ganga) | 2.84 | 🟢 Normal | -0.118 |  |
 | 2026-10-27 01:02:23 | Peradeniya (Mahaweli Ganga) | 4.52 | 🟢 Normal | -0.181 |  |
-| 2026-10-27 00:05:29 | Kithulgala (Kelani Ganga) | 2.45 | 🟢 Normal | -0.235 |  |
 
 ## River Water Level Charts by Station
 
@@ -125,13 +127,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Badalgama](images/stations/badalgama.png)
 
-### Thawalama (Gin Ganga)
-
-![Thawalama](images/stations/thawalama.png)
-
 ### Baddegama (Gin Ganga)
 
 ![Baddegama](images/stations/baddegama.png)
+
+### Thawalama (Gin Ganga)
+
+![Thawalama](images/stations/thawalama.png)
 
 ### Putupaula (Kalu Ganga)
 
@@ -217,6 +219,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Siyambalanduwa](images/stations/siyambalanduwa.png)
 
+### Kithulgala (Kelani Ganga)
+
+![Kithulgala](images/stations/kithulgala.png)
+
 ### Katharagama (Menik Ganga)
 
 ![Katharagama](images/stations/katharagama.png)
@@ -252,10 +258,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Peradeniya (Mahaweli Ganga)
 
 ![Peradeniya](images/stations/peradeniya.png)
-
-### Kithulgala (Kelani Ganga)
-
-![Kithulgala](images/stations/kithulgala.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
