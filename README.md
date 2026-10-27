@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--27_21:09:20-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--27_21:16:16-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **299,702 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **299,704 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,12 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **33** measurements in the last **1 hour**.*
+*There were **35** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-27 21:16:16 | Nagalagam Street (Kelani Ganga) | 0.85 | 🟢 Normal | -0.041 |  |
+| 2026-10-27 21:10:20 | Baddegama (Gin Ganga) | 4.15 | 🟠 Minor Flood | 0.010 | 🔺 Rising |
 | 2026-10-27 21:09:20 | Ellagawa (Kalu Ganga) | 10.26 | 🟡 Alert | 0.055 | 🔺 Rising |
 | 2026-10-27 21:08:16 | Norwood (Kelani Ganga) | 1.31 | 🟢 Normal | -0.011 |  |
 | 2026-10-27 21:07:25 | Thalgahagoda (Nilwala Ganga) | 1.72 | 🟠 Minor Flood | 0.000 |  |
@@ -63,7 +65,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
 | 2026-10-27 21:06:02 | Kalawellawa (Millakanda) (Kalu Ganga) | 7.70 | 🟠 Minor Flood | 0.019 | 🔺 Rising |
-| 2026-10-27 20:07:15 | Baddegama (Gin Ganga) | 4.14 | 🟠 Minor Flood | 0.000 |  |
+| 2026-10-27 21:10:20 | Baddegama (Gin Ganga) | 4.15 | 🟠 Minor Flood | 0.010 | 🔺 Rising |
 | 2026-10-27 21:07:25 | Thalgahagoda (Nilwala Ganga) | 1.72 | 🟠 Minor Flood | 0.000 |  |
 | 2026-10-27 21:02:05 | Panadugama (Nilwala Ganga) | 6.09 | 🟠 Minor Flood | -0.030 |  |
 | 2026-10-27 21:02:29 | Dunamale (Aththanagalu Oya) | 4.68 | 🟠 Minor Flood | -0.040 |  |
@@ -93,6 +95,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-27 21:06:42 | Holombuwa (Kelani Ganga) | 1.38 | 🟢 Normal | -0.020 |  |
 | 2026-10-27 21:01:56 | Manampitiya (Mahaweli Ganga) | 0.70 | 🟢 Normal | -0.020 |  |
 | 2026-10-27 21:05:00 | Badalgama (Maha Oya) | 4.10 | 🟢 Normal | -0.040 |  |
+| 2026-10-27 21:16:16 | Nagalagam Street (Kelani Ganga) | 0.85 | 🟢 Normal | -0.041 |  |
 | 2026-10-27 21:01:19 | Thawalama (Gin Ganga) | 2.80 | 🟢 Normal | -0.049 |  |
 | 2026-10-27 18:02:41 | Weraganthota (Mahaweli Ganga) | -3.12 | 🟢 Normal | -0.059 |  |
 | 2026-10-27 21:03:17 | Glencourse (Kelani Ganga) | 12.02 | 🟢 Normal | -0.065 |  |
@@ -100,7 +103,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-27 18:00:41 | Thanthirimale (Malwathu Oya) | 2.72 | 🟢 Normal | -0.133 |  |
 | 2026-10-27 21:00:50 | Moragaswewa (Deduru Oya) | 4.39 | 🟢 Normal | -0.134 |  |
 | 2026-10-27 20:02:08 | Hanwella (Kelani Ganga) | 5.15 | 🟢 Normal | -0.140 |  |
-| 2026-10-27 19:01:57 | Nagalagam Street (Kelani Ganga) | 0.94 | 🟢 Normal | -0.151 |  |
 
 ## River Water Level Charts by Station
 
@@ -228,6 +230,10 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Badalgama](images/stations/badalgama.png)
 
+### Nagalagam Street (Kelani Ganga)
+
+![Nagalagam Street](images/stations/nagalagam-street.png)
+
 ### Thawalama (Gin Ganga)
 
 ![Thawalama](images/stations/thawalama.png)
@@ -255,10 +261,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 ### Hanwella (Kelani Ganga)
 
 ![Hanwella](images/stations/hanwella.png)
-
-### Nagalagam Street (Kelani Ganga)
-
-![Nagalagam Street](images/stations/nagalagam-street.png)
 
 ![Maintainer](https://img.shields.io/badge/maintainer-nuuuwan-red)
 ![MadeWith](https://img.shields.io/badge/made_with-python-blue)
