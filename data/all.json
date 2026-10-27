@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Moragaswewa",
+    "time_ut": 1793105966,
+    "water_level_m": 4.72
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1793105594,
+    "water_level_m": 4.03
+  },
+  {
     "station_name": "Padiyathalawa",
     "time_ut": 1793104824,
     "water_level_m": 0.32
