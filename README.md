@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--27_15:09:56-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--27_15:15:18-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **299,473 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **299,474 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-27 15:15:18 | Magura (Kalu Ganga) | 5.00 | 🟡 Alert | -0.056 |  |
 | 2026-10-27 15:09:56 | Kuda Oya (Kirindi Oya) | 1.60 | 🟢 Normal | 0.000 |  |
 | 2026-10-27 15:09:40 | Holombuwa (Kelani Ganga) | 1.55 | 🟢 Normal | -0.049 |  |
 | 2026-10-27 15:08:24 | Norwood (Kelani Ganga) | 1.37 | 🟢 Normal | -0.019 |  |
@@ -76,7 +77,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-27 15:05:17 | Putupaula (Kalu Ganga) | 3.36 | 🟡 Alert | 0.029 | 🔺 Rising |
 | 2026-10-27 15:03:02 | Ellagawa (Kalu Ganga) | 10.05 | 🟡 Alert | 0.020 | 🔺 Rising |
 | 2026-10-27 15:02:26 | Thalgahagoda (Nilwala Ganga) | 1.60 | 🟡 Alert | 0.000 |  |
-| 2026-10-27 14:00:44 | Magura (Kalu Ganga) | 5.07 | 🟡 Alert | -0.063 |  |
+| 2026-10-27 15:15:18 | Magura (Kalu Ganga) | 5.00 | 🟡 Alert | -0.056 |  |
 | 2026-10-27 15:02:46 | Moragaswewa (Deduru Oya) | 4.96 | 🟡 Alert | -0.139 |  |
 | 2026-10-27 15:00:34 | Horowpothana (Yan Oya) | 3.37 | 🟢 Normal | 0.021 | 🔺 Rising |
 | 2026-10-27 15:01:52 | Kithulgala (Kelani Ganga) | 2.26 | 🟢 Normal | 0.010 | 🔺 Rising |
