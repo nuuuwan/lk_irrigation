@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--27_13:10:04-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--27_13:23:55-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **299,392 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **299,393 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **37** measurements in the last **1 hour**.*
+*There were **38** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-27 13:23:55 | Thalgahagoda (Nilwala Ganga) | 1.60 | 🟡 Alert | 0.000 |  |
 | 2026-10-27 13:10:04 | Baddegama (Gin Ganga) | 4.04 | 🟠 Minor Flood | 0.019 | 🔺 Rising |
 | 2026-10-27 13:09:34 | Padiyathalawa (Maduru Oya) | 0.32 | 🟢 Normal | 0.000 |  |
 | 2026-10-27 13:07:28 | Glencourse (Kelani Ganga) | 12.90 | 🟢 Normal | -0.140 |  |
@@ -73,7 +74,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-27 13:05:26 | Rathnapura (Kalu Ganga) | 8.26 | 🟠 Minor Flood | -0.039 |  |
 | 2026-10-27 13:02:42 | Ellagawa (Kalu Ganga) | 10.00 | 🟡 Alert | 0.031 | 🔺 Rising |
 | 2026-10-27 13:04:11 | Putupaula (Kalu Ganga) | 3.30 | 🟡 Alert | 0.010 | 🔺 Rising |
-| 2026-10-27 12:23:26 | Thalgahagoda (Nilwala Ganga) | 1.60 | 🟡 Alert | 0.000 |  |
+| 2026-10-27 13:23:55 | Thalgahagoda (Nilwala Ganga) | 1.60 | 🟡 Alert | 0.000 |  |
 | 2026-10-27 13:03:45 | Magura (Kalu Ganga) | 5.13 | 🟡 Alert | -0.038 |  |
 | 2026-10-27 13:01:41 | Moragaswewa (Deduru Oya) | 5.16 | 🟡 Alert | -0.042 |  |
 | 2026-10-27 13:02:14 | Yaka Wewa (Ma Oya) | 0.65 | 🟢 Normal | 11.250 | 🔺 Rising |
