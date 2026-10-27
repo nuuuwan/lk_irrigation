@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--27_09:09:57-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--27_09:18:14-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **299,233 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **299,234 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **39** measurements in the last **1 hour**.*
+*There were **40** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-27 09:18:14 | Padiyathalawa (Maduru Oya) | 0.32 | 🟢 Normal | 0.000 |  |
 | 2026-10-27 09:09:57 | Rathnapura (Kalu Ganga) | 8.55 | 🟠 Minor Flood | -0.045 |  |
 | 2026-10-27 09:09:21 | Dunamale (Aththanagalu Oya) | 4.81 | 🟠 Minor Flood | 0.018 | 🔺 Rising |
 | 2026-10-27 09:08:54 | Baddegama (Gin Ganga) | 3.93 | 🟡 Alert | 0.037 | 🔺 Rising |
@@ -85,7 +86,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-27 09:03:24 | Thanamalwila (Kirindi Oya) | 1.38 | 🟢 Normal | 0.029 | 🔺 Rising |
 | 2026-10-27 09:01:50 | Wellawaya (Kirindi Oya) | 1.38 | 🟢 Normal | 0.000 |  |
 | 2026-10-27 09:00:47 | Nakkala (Kumbukkan Oya) | 0.92 | 🟢 Normal | 0.000 |  |
-| 2026-10-27 08:00:26 | Padiyathalawa (Maduru Oya) | 0.32 | 🟢 Normal | 0.000 |  |
+| 2026-10-27 09:18:14 | Padiyathalawa (Maduru Oya) | 0.32 | 🟢 Normal | 0.000 |  |
 | 2026-10-27 09:02:40 | Moraketiya (Walawe Ganga) | 1.85 | 🟢 Normal | 0.000 |  |
 | 2026-10-27 09:02:53 | Manampitiya (Mahaweli Ganga) | 0.77 | 🟢 Normal | 0.000 |  |
 | 2026-10-27 09:02:15 | Katharagama (Menik Ganga) | -0.12 | 🟢 Normal | -0.010 |  |
