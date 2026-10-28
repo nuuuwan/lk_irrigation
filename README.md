@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--28_18:06:24-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--28_18:08:56-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **300,492 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **300,493 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **36** measurements in the last **1 hour**.*
+*There were **37** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-28 18:08:56 | Galgamuwa (Mee Oya) | 2.36 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-10-28 18:06:24 | Nagalagam Street (Kelani Ganga) | 0.66 | 🟢 Normal | -0.103 |  |
 | 2026-10-28 18:05:55 | Kalawellawa (Millakanda) (Kalu Ganga) | 7.68 | 🟠 Minor Flood | -0.020 |  |
 | 2026-10-28 18:05:37 | Baddegama (Gin Ganga) | 4.23 | 🟠 Minor Flood | 0.000 |  |
@@ -77,8 +78,8 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-28 18:01:08 | Weraganthota (Mahaweli Ganga) | -2.60 | 🟢 Normal | 0.064 | 🔺 Rising |
 | 2026-10-28 18:02:21 | Manampitiya (Mahaweli Ganga) | 0.33 | 🟢 Normal | 0.059 | 🔺 Rising |
 | 2026-10-28 18:02:47 | Kithulgala (Kelani Ganga) | 2.23 | 🟢 Normal | 0.021 | 🔺 Rising |
-| 2026-10-28 17:02:26 | Galgamuwa (Mee Oya) | 2.35 | 🟢 Normal | 0.012 | 🔺 Rising |
 | 2026-10-28 18:03:20 | Deraniyagala (Kelani Ganga) | 1.14 | 🟢 Normal | 0.010 | 🔺 Rising |
+| 2026-10-28 18:08:56 | Galgamuwa (Mee Oya) | 2.36 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-10-28 18:01:23 | Nakkala (Kumbukkan Oya) | 0.75 | 🟢 Normal | 0.000 |  |
 | 2026-10-28 18:02:49 | Giriulla (Maha Oya) | 2.18 | 🟢 Normal | 0.000 |  |
 | 2026-10-28 18:04:16 | Norwood (Kelani Ganga) | 1.17 | 🟢 Normal | 0.000 |  |
@@ -155,13 +156,13 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ![Kithulgala](images/stations/kithulgala.png)
 
-### Galgamuwa (Mee Oya)
-
-![Galgamuwa](images/stations/galgamuwa.png)
-
 ### Deraniyagala (Kelani Ganga)
 
 ![Deraniyagala](images/stations/deraniyagala.png)
+
+### Galgamuwa (Mee Oya)
+
+![Galgamuwa](images/stations/galgamuwa.png)
 
 ### Nakkala (Kumbukkan Oya)
 
