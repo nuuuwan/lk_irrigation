@@ -1,5 +1,100 @@
 [
   {
+    "station_name": "Kithulgala",
+    "time_ut": 1793223201,
+    "water_level_m": 2.02
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1793223193,
+    "water_level_m": 0.48
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1793223182,
+    "water_level_m": 0.34
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1793223180,
+    "water_level_m": 1.93
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1793223154,
+    "water_level_m": 1.95
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1793223148,
+    "water_level_m": 0.31
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1793223141,
+    "water_level_m": 0.52
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1793223138,
+    "water_level_m": 5.32
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1793223117,
+    "water_level_m": 11.51
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1793223112,
+    "water_level_m": 1.5
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1793223096,
+    "water_level_m": 0.27
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1793223094,
+    "water_level_m": 1.84
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1793223071,
+    "water_level_m": 1.24
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1793223049,
+    "water_level_m": 4.05
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1793223009,
+    "water_level_m": 1.27
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1793222630,
+    "water_level_m": 1.84
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1793221871,
+    "water_level_m": 1.27
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1793221796,
+    "water_level_m": 3.75
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1793221521,
+    "water_level_m": 1.16
+  },
+  {
     "station_name": "Kalawellawa (Millakanda)",
     "time_ut": 1793221431,
     "water_level_m": 7.62
