@@ -1,15 +1,15 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--29_00:05:42-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--29_00:34:25-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **300,698 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **300,706 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
-🇱🇰 River water alerts: 🟠 Kalawellawa (Millakanda) — Minor Flood; 🟠 Baddegama — Minor Flood; 🟠 Thalgahagoda — Minor Flood; 🟠 Panadugama — Minor Flood; 🟡 Putupaula — Alert…
+🇱🇰 River water alerts: 🟠 Thalgahagoda — Minor Flood; 🟠 Baddegama — Minor Flood; 🟠 Panadugama — Minor Flood; 🟠 Kalawellawa (Millakanda) — Minor Flood; 🟡 Putupaula — Alert…
 Source: Sri Lanka Irrigation Department https://www.irrigation.gov.lk
 Repo: https://github.com/nuuuwan/lk_irrigation
 ## River Water Level Map
@@ -18,10 +18,18 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **30** measurements in the last **1 hour**.*
+*There were **36** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-29 00:34:25 | Ellagawa (Kalu Ganga) | 10.27 | 🟡 Alert | -0.013 |  |
+| 2026-10-29 00:22:31 | Kalawellawa (Millakanda) (Kalu Ganga) | 7.63 | 🟠 Minor Flood | -1.200 |  |
+| 2026-10-29 00:22:01 | Kalawellawa (Millakanda) (Kalu Ganga) | 7.64 | 🟠 Minor Flood | -1.200 |  |
+| 2026-10-29 00:19:15 | Dunamale (Aththanagalu Oya) | 2.80 | 🟢 Normal | -0.095 |  |
+| 2026-10-29 00:17:52 | Putupaula (Kalu Ganga) | 3.74 | 🟡 Alert | 0.000 |  |
+| 2026-10-29 00:17:26 | Yaka Wewa (Ma Oya) | 0.52 | 🟢 Normal | 0.000 |  |
+| 2026-10-29 00:10:26 | Thalgahagoda (Nilwala Ganga) | 1.85 | 🟠 Minor Flood | 0.000 |  |
+| 2026-10-29 00:09:02 | Rathnapura (Kalu Ganga) | 5.53 | 🟡 Alert | -0.076 |  |
 | 2026-10-29 00:05:42 | Badalgama (Maha Oya) | 3.34 | 🟢 Normal | 0.010 | 🔺 Rising |
 | 2026-10-29 00:05:24 | Thawalama (Gin Ganga) | 3.12 | 🟢 Normal | -0.053 |  |
 | 2026-10-29 00:05:21 | Moraketiya (Walawe Ganga) | 1.26 | 🟢 Normal | 0.000 |  |
@@ -50,8 +58,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-29 00:00:59 | Horowpothana (Yan Oya) | 2.24 | 🟢 Normal | -0.070 |  |
 | 2026-10-29 00:00:46 | Pitabeddara (Nilwala Ganga) | 2.83 | 🟢 Normal | 0.000 |  |
 | 2026-10-29 00:00:24 | Wellawaya (Kirindi Oya) | 1.27 | 🟢 Normal | 0.000 |  |
-| 2026-10-28 23:35:20 | Horowpothana (Yan Oya) | 2.27 | 🟢 Normal | -0.070 |  |
-| 2026-10-28 23:21:42 | Norwood (Kelani Ganga) | 1.17 | 🟢 Normal | -0.014 |  |
 
 ## Latest by Station
 
@@ -59,14 +65,14 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
-| 2026-10-28 22:12:41 | Kalawellawa (Millakanda) (Kalu Ganga) | 7.64 | 🟠 Minor Flood | -0.008 |  |
+| 2026-10-29 00:10:26 | Thalgahagoda (Nilwala Ganga) | 1.85 | 🟠 Minor Flood | 0.000 |  |
 | 2026-10-29 00:02:58 | Baddegama (Gin Ganga) | 4.22 | 🟠 Minor Flood | -0.011 |  |
-| 2026-10-28 23:10:41 | Thalgahagoda (Nilwala Ganga) | 1.85 | 🟠 Minor Flood | -0.019 |  |
 | 2026-10-29 00:03:38 | Panadugama (Nilwala Ganga) | 6.12 | 🟠 Minor Flood | -0.020 |  |
-| 2026-10-28 23:09:07 | Putupaula (Kalu Ganga) | 3.74 | 🟡 Alert | 0.000 |  |
-| 2026-10-28 23:01:58 | Ellagawa (Kalu Ganga) | 10.29 | 🟡 Alert | -0.020 |  |
+| 2026-10-29 00:22:31 | Kalawellawa (Millakanda) (Kalu Ganga) | 7.63 | 🟠 Minor Flood | -1.200 |  |
+| 2026-10-29 00:17:52 | Putupaula (Kalu Ganga) | 3.74 | 🟡 Alert | 0.000 |  |
+| 2026-10-29 00:34:25 | Ellagawa (Kalu Ganga) | 10.27 | 🟡 Alert | -0.013 |  |
 | 2026-10-28 22:08:39 | Magura (Kalu Ganga) | 4.20 | 🟡 Alert | -0.044 |  |
-| 2026-10-28 23:05:52 | Rathnapura (Kalu Ganga) | 5.61 | 🟡 Alert | -0.061 |  |
+| 2026-10-29 00:09:02 | Rathnapura (Kalu Ganga) | 5.53 | 🟡 Alert | -0.076 |  |
 | 2026-10-29 00:04:14 | Nagalagam Street (Kelani Ganga) | 0.64 | 🟢 Normal | 0.097 | 🔺 Rising |
 | 2026-10-28 18:01:08 | Weraganthota (Mahaweli Ganga) | -2.60 | 🟢 Normal | 0.064 | 🔺 Rising |
 | 2026-10-29 00:04:59 | Katharagama (Menik Ganga) | -0.13 | 🟢 Normal | 0.020 | 🔺 Rising |
@@ -74,7 +80,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-28 18:08:56 | Galgamuwa (Mee Oya) | 2.36 | 🟢 Normal | 0.009 | 🔺 Rising |
 | 2026-10-29 00:00:24 | Wellawaya (Kirindi Oya) | 1.27 | 🟢 Normal | 0.000 |  |
 | 2026-10-29 00:01:30 | Nawalapitiya (Mahaweli Ganga) | 1.52 | 🟢 Normal | 0.000 |  |
-| 2026-10-28 23:03:26 | Yaka Wewa (Ma Oya) | 0.52 | 🟢 Normal | 0.000 |  |
+| 2026-10-29 00:17:26 | Yaka Wewa (Ma Oya) | 0.52 | 🟢 Normal | 0.000 |  |
 | 2026-10-29 00:02:38 | Pitabeddara (Nilwala Ganga) | 2.83 | 🟢 Normal | 0.000 |  |
 | 2026-10-29 00:05:21 | Moraketiya (Walawe Ganga) | 1.26 | 🟢 Normal | 0.000 |  |
 | 2026-10-28 23:03:20 | Siyambalanduwa (Heda Oya) | 0.49 | 🟢 Normal | 0.000 |  |
@@ -96,26 +102,26 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-28 18:02:07 | Thanthirimale (Malwathu Oya) | 1.82 | 🟢 Normal | -0.059 |  |
 | 2026-10-29 00:01:49 | Moragaswewa (Deduru Oya) | 2.39 | 🟢 Normal | -0.059 |  |
 | 2026-10-29 00:00:59 | Horowpothana (Yan Oya) | 2.24 | 🟢 Normal | -0.070 |  |
-| 2026-10-28 23:03:21 | Dunamale (Aththanagalu Oya) | 2.92 | 🟢 Normal | -0.139 |  |
+| 2026-10-29 00:19:15 | Dunamale (Aththanagalu Oya) | 2.80 | 🟢 Normal | -0.095 |  |
 | 2026-10-29 00:03:10 | Nakkala (Kumbukkan Oya) | 0.49 | 🟢 Normal | -7.927 |  |
 
 ## River Water Level Charts by Station
-
-### Kalawellawa (Millakanda) (Kalu Ganga)
-
-![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
-
-### Baddegama (Gin Ganga)
-
-![Baddegama](images/stations/baddegama.png)
 
 ### Thalgahagoda (Nilwala Ganga)
 
 ![Thalgahagoda](images/stations/thalgahagoda.png)
 
+### Baddegama (Gin Ganga)
+
+![Baddegama](images/stations/baddegama.png)
+
 ### Panadugama (Nilwala Ganga)
 
 ![Panadugama](images/stations/panadugama.png)
+
+### Kalawellawa (Millakanda) (Kalu Ganga)
+
+![Kalawellawa (Millakanda)](images/stations/kalawellawa-(millakanda).png)
 
 ### Putupaula (Kalu Ganga)
 
