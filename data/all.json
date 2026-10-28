@@ -1,5 +1,60 @@
 [
   {
+    "station_name": "Thawalama",
+    "time_ut": 1793219602,
+    "water_level_m": 2.95
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1793219590,
+    "water_level_m": 0.52
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1793219546,
+    "water_level_m": 1.98
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1793219543,
+    "water_level_m": 4.07
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1793219528,
+    "water_level_m": 1.5
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1793219528,
+    "water_level_m": 10.25
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1793219512,
+    "water_level_m": 2.14
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1793219481,
+    "water_level_m": 2.81
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1793219466,
+    "water_level_m": 0.27
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1793219441,
+    "water_level_m": 4.1
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1793218961,
+    "water_level_m": 3.74
+  },
+  {
     "station_name": "Thalgahagoda",
     "time_ut": 1793217883,
     "water_level_m": 1.85
