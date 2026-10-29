@@ -1,5 +1,80 @@
 [
   {
+    "station_name": "Moragaswewa",
+    "time_ut": 1793295209,
+    "water_level_m": 1.13
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1793295196,
+    "water_level_m": 1.15
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1793295186,
+    "water_level_m": -0.19
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1793295156,
+    "water_level_m": 1.37
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1793295156,
+    "water_level_m": 6.99
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1793295152,
+    "water_level_m": 1.26
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1793295141,
+    "water_level_m": 1.69
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1793295138,
+    "water_level_m": 3.29
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1793295128,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1793295112,
+    "water_level_m": 3.02
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1793295107,
+    "water_level_m": 0.51
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1793295102,
+    "water_level_m": 9.52
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1793295094,
+    "water_level_m": 3.15
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1793295092,
+    "water_level_m": 0.57
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1793295010,
+    "water_level_m": 0.98
+  },
+  {
     "station_name": "Pitabeddara",
     "time_ut": 1793292691,
     "water_level_m": 2.2
