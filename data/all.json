@@ -1,5 +1,100 @@
 [
   {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1793270029,
+    "water_level_m": 1.4
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1793270022,
+    "water_level_m": 0.2
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1793270018,
+    "water_level_m": 1.55
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1793270017,
+    "water_level_m": 3.3
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1793270016,
+    "water_level_m": 3.68
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1793269992,
+    "water_level_m": 4.01
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1793269985,
+    "water_level_m": 3.43
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1793269978,
+    "water_level_m": 1.84
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1793269966,
+    "water_level_m": 0.7315200000000001
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1793269957,
+    "water_level_m": 9.84
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1793269944,
+    "water_level_m": 0.95
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1793269935,
+    "water_level_m": -2.99
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1793269927,
+    "water_level_m": 0.88
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1793269918,
+    "water_level_m": 2.18
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1793269907,
+    "water_level_m": 0.3
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1793269835,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1793269834,
+    "water_level_m": 1.2
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1793269830,
+    "water_level_m": 1.18
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1793269809,
+    "water_level_m": 0.48
+  },
+  {
     "station_name": "Yaka Wewa",
     "time_ut": 1793267356,
     "water_level_m": 0.52
