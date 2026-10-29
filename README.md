@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--29_12:08:53-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--10--29_12:11:22-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **301,162 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **301,163 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -18,10 +18,11 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **38** measurements in the last **1 hour**.*
+*There were **39** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-10-29 12:11:22 | Panadugama (Nilwala Ganga) | 5.80 | 🟡 Alert | -0.019 |  |
 | 2026-10-29 12:08:53 | Holombuwa (Kelani Ganga) | 1.00 | 🟢 Normal | 0.000 |  |
 | 2026-10-29 12:08:46 | Urawa (Nilwala Ganga) | 1.26 | 🟢 Normal | 0.000 |  |
 | 2026-10-29 12:07:38 | Nagalagam Street (Kelani Ganga) | 0.52 | 🟢 Normal | 0.059 | 🔺 Rising |
@@ -71,7 +72,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-10-29 12:04:48 | Kalawellawa (Millakanda) (Kalu Ganga) | 7.35 | 🟠 Minor Flood | -0.020 |  |
 | 2026-10-29 12:02:45 | Baddegama (Gin Ganga) | 4.09 | 🟠 Minor Flood | -0.021 |  |
 | 2026-10-29 12:04:23 | Putupaula (Kalu Ganga) | 3.71 | 🟡 Alert | 0.000 |  |
-| 2026-10-29 11:07:15 | Panadugama (Nilwala Ganga) | 5.82 | 🟡 Alert | -0.031 |  |
+| 2026-10-29 12:11:22 | Panadugama (Nilwala Ganga) | 5.80 | 🟡 Alert | -0.019 |  |
 | 2026-10-29 12:07:08 | Kithulgala (Kelani Ganga) | 2.19 | 🟢 Normal | 0.110 | 🔺 Rising |
 | 2026-10-29 12:07:38 | Nagalagam Street (Kelani Ganga) | 0.52 | 🟢 Normal | 0.059 | 🔺 Rising |
 | 2026-10-29 12:01:15 | Wellawaya (Kirindi Oya) | 1.16 | 🟢 Normal | 0.058 | 🔺 Rising |
