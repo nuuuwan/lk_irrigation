@@ -1,5 +1,20 @@
 [
   {
+    "station_name": "Thanamalwila",
+    "time_ut": 1793364024,
+    "water_level_m": 1.25
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1793363978,
+    "water_level_m": 0.5334
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1793363963,
+    "water_level_m": 1.63
+  },
+  {
     "station_name": "Badalgama",
     "time_ut": 1793363893,
     "water_level_m": 2.82
