@@ -1,5 +1,130 @@
 [
   {
+    "station_name": "Giriulla",
+    "time_ut": 1793443705,
+    "water_level_m": 1.54
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1793443434,
+    "water_level_m": 0.38
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1793443334,
+    "water_level_m": 0.94
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1793443266,
+    "water_level_m": 2.69
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1793443257,
+    "water_level_m": 2.08
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1793443126,
+    "water_level_m": 2.08
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1793443017,
+    "water_level_m": 0.5
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1793443008,
+    "water_level_m": 1.99
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1793442995,
+    "water_level_m": 4.6
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1793442983,
+    "water_level_m": 1.43
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1793442978,
+    "water_level_m": 1.11
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1793442956,
+    "water_level_m": -0.01
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1793442905,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1793442899,
+    "water_level_m": 1.96
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1793442890,
+    "water_level_m": 1.11
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1793442882,
+    "water_level_m": 2.88
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1793442881,
+    "water_level_m": 2.27
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1793442879,
+    "water_level_m": 1.04
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1793442858,
+    "water_level_m": 4.61
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1793442846,
+    "water_level_m": 0.32
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1793442838,
+    "water_level_m": 0.76
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1793442807,
+    "water_level_m": 6.34
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1793442806,
+    "water_level_m": 1.06
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1793442803,
+    "water_level_m": 2.56
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1793442790,
+    "water_level_m": 2.43
+  },
+  {
     "station_name": "Kithulgala",
     "time_ut": 1793442772,
     "water_level_m": 1.81
