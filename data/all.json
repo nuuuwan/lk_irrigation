@@ -1,5 +1,60 @@
 [
   {
+    "station_name": "Putupaula",
+    "time_ut": 1793464380,
+    "water_level_m": 1.62
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1793464379,
+    "water_level_m": 6.0
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1793464375,
+    "water_level_m": 1.5
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1793464373,
+    "water_level_m": 1.46
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1793464341,
+    "water_level_m": 2.05
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1793464338,
+    "water_level_m": 1.85
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1793464295,
+    "water_level_m": 0.52
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1793464286,
+    "water_level_m": 0.69
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1793464268,
+    "water_level_m": 1.23
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1793464249,
+    "water_level_m": 1.42
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1793464240,
+    "water_level_m": 1.19
+  },
+  {
     "station_name": "Rathnapura",
     "time_ut": 1793461606,
     "water_level_m": 2.01
