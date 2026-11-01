@@ -1,5 +1,70 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1793497628,
+    "water_level_m": 1.8
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1793497361,
+    "water_level_m": 1.34
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1793497312,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1793497188,
+    "water_level_m": 2.13
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1793497137,
+    "water_level_m": 2.8
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1793497123,
+    "water_level_m": 2.5
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1793497096,
+    "water_level_m": 1.13
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1793496992,
+    "water_level_m": 0.92
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1793496965,
+    "water_level_m": 10.36
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1793496949,
+    "water_level_m": 3.55
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1793496946,
+    "water_level_m": 1.38
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1793496915,
+    "water_level_m": 0.35
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1793496912,
+    "water_level_m": -2.96
+  },
+  {
     "station_name": "Badalgama",
     "time_ut": 1793496886,
     "water_level_m": 2.68
