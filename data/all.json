@@ -1,5 +1,120 @@
 [
   {
+    "station_name": "Rathnapura",
+    "time_ut": 1793501766,
+    "water_level_m": 2.05
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1793501566,
+    "water_level_m": 0.28
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1793501343,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1793501069,
+    "water_level_m": 2.13
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1793500995,
+    "water_level_m": 1.54
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1793500933,
+    "water_level_m": 0.9
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1793500930,
+    "water_level_m": 2.83
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1793500731,
+    "water_level_m": 1.98
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1793500721,
+    "water_level_m": 3.53
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1793500681,
+    "water_level_m": 1.38
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1793500677,
+    "water_level_m": -3.03
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1793500602,
+    "water_level_m": 1.54
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1793500593,
+    "water_level_m": 1.31
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1793500569,
+    "water_level_m": 10.38
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1793500567,
+    "water_level_m": 1.05
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1793500566,
+    "water_level_m": 1.06
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1793500564,
+    "water_level_m": 2.56
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1793500548,
+    "water_level_m": 0.49
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1793500527,
+    "water_level_m": 0.29
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1793500515,
+    "water_level_m": 1.18
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1793500488,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1793500456,
+    "water_level_m": 1.14
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1793500405,
+    "water_level_m": 0.29
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1793500387,
     "water_level_m": 4.68
