@@ -1,5 +1,110 @@
 [
   {
+    "station_name": "Badalgama",
+    "time_ut": 1793620568,
+    "water_level_m": 2.67
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1793619978,
+    "water_level_m": 2.15
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1793619792,
+    "water_level_m": 2.35
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1793619622,
+    "water_level_m": 1.43
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1793619613,
+    "water_level_m": 2.11
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1793619582,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1793619513,
+    "water_level_m": 6.12
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1793619507,
+    "water_level_m": 1.06
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1793619490,
+    "water_level_m": 0.86
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1793619446,
+    "water_level_m": 1.3
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1793619428,
+    "water_level_m": 10.35
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1793619399,
+    "water_level_m": 3.2
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1793619358,
+    "water_level_m": 0.54864
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1793619353,
+    "water_level_m": 0.94
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1793619352,
+    "water_level_m": 1.32
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1793619335,
+    "water_level_m": 0.82
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1793619298,
+    "water_level_m": 0.72
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1793619293,
+    "water_level_m": 1.66
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1793619269,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1793619230,
+    "water_level_m": 0.99
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1793619220,
+    "water_level_m": 2.58
+  },
+  {
     "station_name": "Kithulgala",
     "time_ut": 1793619209,
     "water_level_m": 1.97
