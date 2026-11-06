@@ -1,5 +1,75 @@
 [
   {
+    "station_name": "Kithulgala",
+    "time_ut": 1793993592,
+    "water_level_m": 2.08
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1793993564,
+    "water_level_m": 2.47
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1793993564,
+    "water_level_m": 1.85
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1793993556,
+    "water_level_m": 3.35
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1793993556,
+    "water_level_m": 0.7
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1793993551,
+    "water_level_m": 1.1
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1793993544,
+    "water_level_m": 1.3
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1793993543,
+    "water_level_m": 0.65
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1793993527,
+    "water_level_m": 0.76
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1793993514,
+    "water_level_m": 5.28
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1793993455,
+    "water_level_m": 1.9
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1793993435,
+    "water_level_m": 1.44
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1793993435,
+    "water_level_m": 12.54
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1793993417,
+    "water_level_m": 1.9
+  },
+  {
     "station_name": "Norwood",
     "time_ut": 1793990773,
     "water_level_m": 1.11
