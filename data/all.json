@@ -1,6 +1,51 @@
 [
   {
     "station_name": "Norwood",
+    "time_ut": 1793982778,
+    "water_level_m": 1.13
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1793982771,
+    "water_level_m": 5.08
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1793982757,
+    "water_level_m": 10.23
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1793982744,
+    "water_level_m": 0.6096
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1793982727,
+    "water_level_m": 1.62
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1793982723,
+    "water_level_m": 0.48
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1793982698,
+    "water_level_m": 0.75
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1793982653,
+    "water_level_m": 0.71
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1793982630,
+    "water_level_m": 3.72
+  },
+  {
+    "station_name": "Norwood",
     "time_ut": 1793980782,
     "water_level_m": 1.11
   },
