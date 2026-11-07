@@ -1,5 +1,55 @@
 [
   {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1794018753,
+    "water_level_m": 5.28
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1794018753,
+    "water_level_m": 1.43
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1794018753,
+    "water_level_m": 1.37
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1794018743,
+    "water_level_m": 6.4
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1794018727,
+    "water_level_m": 1.6
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1794018719,
+    "water_level_m": 1.63
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1794018709,
+    "water_level_m": 1.38
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1794018694,
+    "water_level_m": 1.2
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1794018675,
+    "water_level_m": 1.35
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1794018608,
+    "water_level_m": 0.58
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1794016404,
     "water_level_m": 3.84
