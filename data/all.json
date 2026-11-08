@@ -1,5 +1,55 @@
 [
   {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1794148371,
+    "water_level_m": 5.52
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1794148367,
+    "water_level_m": 2.87
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1794148363,
+    "water_level_m": 1.87
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1794148362,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1794148333,
+    "water_level_m": 0.7
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1794148331,
+    "water_level_m": 3.79
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1794148301,
+    "water_level_m": 1.57
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1794148290,
+    "water_level_m": 1.65
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1794148214,
+    "water_level_m": 3.1
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1794148201,
+    "water_level_m": 3.78
+  },
+  {
     "station_name": "Yaka Wewa",
     "time_ut": 1794146387,
     "water_level_m": 0.62
