@@ -1,5 +1,70 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1794159180,
+    "water_level_m": 1.5
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1794159175,
+    "water_level_m": 1.38
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1794159167,
+    "water_level_m": 5.72
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1794159143,
+    "water_level_m": 5.6
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1794159138,
+    "water_level_m": 3.88
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1794159136,
+    "water_level_m": 3.38
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1794159123,
+    "water_level_m": 8.16
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1794159117,
+    "water_level_m": 3.12
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1794159102,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1794159097,
+    "water_level_m": 1.2
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1794159089,
+    "water_level_m": 1.52
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1794159057,
+    "water_level_m": 1.79
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1794159032,
+    "water_level_m": 3.06
+  },
+  {
     "station_name": "Yaka Wewa",
     "time_ut": 1794156873,
     "water_level_m": 1.12
