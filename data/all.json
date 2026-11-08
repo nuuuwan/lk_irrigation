@@ -1,5 +1,50 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1794162788,
+    "water_level_m": 3.98
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1794162733,
+    "water_level_m": 0.6
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1794162732,
+    "water_level_m": 4.75
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1794162722,
+    "water_level_m": 1.77
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1794162710,
+    "water_level_m": 3.98
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1794162697,
+    "water_level_m": 4.1
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1794162694,
+    "water_level_m": 1.86
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1794162669,
+    "water_level_m": 1.21
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1794162660,
+    "water_level_m": 0.98
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1794159744,
     "water_level_m": 4.65
