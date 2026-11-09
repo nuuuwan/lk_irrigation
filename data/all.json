@@ -1,5 +1,70 @@
 [
   {
+    "station_name": "Peradeniya",
+    "time_ut": 1794238404,
+    "water_level_m": 4.81
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1794238403,
+    "water_level_m": 4.58
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1794238382,
+    "water_level_m": 4.3
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1794238381,
+    "water_level_m": 2.74
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1794238375,
+    "water_level_m": 4.38
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1794238368,
+    "water_level_m": 2.7
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1794238360,
+    "water_level_m": 0.53
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1794238358,
+    "water_level_m": 1.94
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1794238353,
+    "water_level_m": 1.15
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1794238331,
+    "water_level_m": 3.74
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1794238330,
+    "water_level_m": 3.27
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1794238219,
+    "water_level_m": 1.77
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1794236908,
+    "water_level_m": 2.84
+  },
+  {
     "station_name": "Magura",
     "time_ut": 1794235855,
     "water_level_m": 4.49
