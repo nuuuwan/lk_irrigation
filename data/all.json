@@ -1,5 +1,125 @@
 [
   {
+    "station_name": "Moragaswewa",
+    "time_ut": 1794285636,
+    "water_level_m": 4.17
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1794285568,
+    "water_level_m": 4.6
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1794285518,
+    "water_level_m": 4.2
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1794285516,
+    "water_level_m": 1.65
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1794285513,
+    "water_level_m": 1.97
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1794285445,
+    "water_level_m": 13.05
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1794285431,
+    "water_level_m": 3.4
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1794285419,
+    "water_level_m": -0.04
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1794285409,
+    "water_level_m": 4.97
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1794285390,
+    "water_level_m": 1.15
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1794285362,
+    "water_level_m": 3.6
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1794285355,
+    "water_level_m": 0.79
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1794285337,
+    "water_level_m": 3.99
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1794285307,
+    "water_level_m": 2.4
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1794285300,
+    "water_level_m": 1.98
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1794285281,
+    "water_level_m": 8.63
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1794285274,
+    "water_level_m": 1.2
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1794285268,
+    "water_level_m": 1.48
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1794285252,
+    "water_level_m": 1.2
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1794285223,
+    "water_level_m": 0.85344
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1794285220,
+    "water_level_m": 0.84
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1794285215,
+    "water_level_m": 2.45
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1794285215,
+    "water_level_m": 0.58
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1794285213,
+    "water_level_m": 5.9
+  },
+  {
     "station_name": "Giriulla",
     "time_ut": 1794285189,
     "water_level_m": 2.64
