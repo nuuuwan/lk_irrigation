@@ -1,5 +1,60 @@
 [
   {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1794306803,
+    "water_level_m": 1.9
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1794306778,
+    "water_level_m": 2.08
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1794306775,
+    "water_level_m": 4.96
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1794306773,
+    "water_level_m": 1.62
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1794306772,
+    "water_level_m": 2.29
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1794306768,
+    "water_level_m": 6.68
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1794306763,
+    "water_level_m": 3.02
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1794306727,
+    "water_level_m": 0.51
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1794306705,
+    "water_level_m": 1.93
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1794306664,
+    "water_level_m": 1.67
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1794306635,
+    "water_level_m": -2.66
+  },
+  {
     "station_name": "Norwood",
     "time_ut": 1794303780,
     "water_level_m": 1.08
