@@ -1,11 +1,11 @@
 # lk_irrigation 🇱🇰
 
 ![Status: Live](https://img.shields.io/badge/status-live-brightgreen)
-![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_06:11:13-green)
+![LastUpdated](https://img.shields.io/badge/last_updated-2026--11--10_06:14:09-green)
 
 Realtime Data about *River Water Levels* in Sri Lanka, from the [Irrigation Deptartment](https://www.irrigation.gov.lk)'s [Hydrology and Disaster Management](https://www.irrigation.gov.lk/web/index.php?option=com_content&view=article&id=27&Itemid=128&lang=en) Division.
 
-- [Complete Dataset](data/rwlds) with **311,750 measurements** from **39** stations.
+- [Complete Dataset](data/rwlds) with **311,751 measurements** from **39** stations.
 - [Scrape and load logic](src/lk_irrigation/rwld/RiverWaterLevelDataLoadMixin.py)
 - [Original Data source](https://www.arcgis.com/apps/dashboards/2cffe83c9ff5497d97375498bdf3ff38)
 
@@ -22,6 +22,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
+| 2026-11-10 06:14:09 | Horowpothana (Yan Oya) | 2.85 | 🟢 Normal | 0.000 |  |
 | 2026-11-10 06:11:13 | Baddegama (Gin Ganga) | 4.10 | 🟠 Minor Flood | 0.010 | 🔺 Rising |
 | 2026-11-10 06:10:26 | Thalgahagoda (Nilwala Ganga) | 1.62 | 🟡 Alert | 0.018 | 🔺 Rising |
 | 2026-11-10 06:10:14 | Nagalagam Street (Kelani Ganga) | 0.94 | 🟢 Normal | -0.055 |  |
@@ -57,7 +58,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-11-10 06:00:39 | Pitabeddara (Nilwala Ganga) | 3.30 | 🟢 Normal | -0.309 |  |
 | 2026-11-10 06:00:28 | Siyambalanduwa (Heda Oya) | 0.50 | 🟢 Normal | 0.000 |  |
 | 2026-11-10 06:00:28 | Thawalama (Gin Ganga) | 4.74 | 🟡 Alert | -0.129 |  |
-| 2026-11-10 05:47:22 | Panadugama (Nilwala Ganga) | 6.07 | 🟠 Minor Flood | 0.091 | 🔺 Rising |
 
 ## Latest by Station
 
@@ -82,7 +82,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-11-10 06:06:08 | Weraganthota (Mahaweli Ganga) | -2.25 | 🟢 Normal | 0.026 | 🔺 Rising |
 | 2026-11-10 06:05:30 | Thaldena (Mahaweli Ganga) | 0.94 | 🟢 Normal | 0.019 | 🔺 Rising |
 | 2026-11-10 06:02:37 | Yaka Wewa (Ma Oya) | 0.57 | 🟢 Normal | 0.000 |  |
-| 2026-11-10 04:01:59 | Horowpothana (Yan Oya) | 2.85 | 🟢 Normal | 0.000 |  |
+| 2026-11-10 06:14:09 | Horowpothana (Yan Oya) | 2.85 | 🟢 Normal | 0.000 |  |
 | 2026-11-09 18:06:18 | Galgamuwa (Mee Oya) | 0.89 | 🟢 Normal | 0.000 |  |
 | 2026-11-10 06:07:25 | Ellagawa (Kalu Ganga) | 8.60 | 🟢 Normal | 0.000 |  |
 | 2026-11-09 14:08:46 | Padiyathalawa (Maduru Oya) | 0.48 | 🟢 Normal | 0.000 |  |
