@@ -1,5 +1,100 @@
 [
   {
+    "station_name": "Kithulgala",
+    "time_ut": 1794281918,
+    "water_level_m": 2.02
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1794281888,
+    "water_level_m": 1.25
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1794281875,
+    "water_level_m": 5.01
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1794281866,
+    "water_level_m": 13.3
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1794281817,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1794281776,
+    "water_level_m": -0.03
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1794281760,
+    "water_level_m": 4.07
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1794281756,
+    "water_level_m": 0.79
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1794281744,
+    "water_level_m": 1.18
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1794281743,
+    "water_level_m": 4.18
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1794281737,
+    "water_level_m": 0.8229600000000001
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1794281735,
+    "water_level_m": 4.25
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1794281705,
+    "water_level_m": 2.8
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1794281688,
+    "water_level_m": 4.83
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1794281683,
+    "water_level_m": 2.55
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1794281674,
+    "water_level_m": 6.05
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1794281639,
+    "water_level_m": 6.52
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1794281638,
+    "water_level_m": 2.51
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1794281624,
+    "water_level_m": 4.16
+  },
+  {
     "station_name": "Deraniyagala",
     "time_ut": 1794281600,
     "water_level_m": 0.96
