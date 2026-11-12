@@ -1,5 +1,105 @@
 [
   {
+    "station_name": "Kithulgala",
+    "time_ut": 1794441716,
+    "water_level_m": 2.3
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1794441688,
+    "water_level_m": 3.85
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1794441659,
+    "water_level_m": 1.8
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1794441356,
+    "water_level_m": 5.47
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1794441111,
+    "water_level_m": 2.32
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1794440902,
+    "water_level_m": 3.2
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1794440816,
+    "water_level_m": 5.47
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1794440762,
+    "water_level_m": 2.1
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1794440760,
+    "water_level_m": 2.4
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1794440702,
+    "water_level_m": 5.93
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1794440663,
+    "water_level_m": 0.9144000000000001
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1794440461,
+    "water_level_m": 5.44
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1794440455,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1794440337,
+    "water_level_m": 2.25
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1794440230,
+    "water_level_m": 4.09
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1794440182,
+    "water_level_m": 4.35
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1794440077,
+    "water_level_m": 2.6
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1794440067,
+    "water_level_m": 1.45
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1794440036,
+    "water_level_m": 4.12
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1794440004,
+    "water_level_m": 5.04
+  },
+  {
     "station_name": "Manampitiya",
     "time_ut": 1794440000,
     "water_level_m": 1.17
