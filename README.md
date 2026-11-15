@@ -18,7 +18,7 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 
 ## Latest measurements
 
-*There were **44** measurements in the last **1 hour**.*
+*There were **41** measurements in the last **1 hour**.*
 
 | Measured At | Station (River Basin) | Level (m) | Alert Level | Rate-of-Rise (m/hr) | Rising Alert |
 | --- | --- | ---: | --- | ---: | --- |
@@ -63,9 +63,6 @@ Repo: https://github.com/nuuuwan/lk_irrigation
 | 2026-11-15 06:01:16 | Kuda Oya (Kirindi Oya) | 1.84 | 🟢 Normal | -0.010 |  |
 | 2026-11-15 06:01:13 | Thalgahagoda (Nilwala Ganga) | 1.87 | 🟠 Minor Flood | -0.010 |  |
 | 2026-11-15 06:00:19 | Peradeniya (Mahaweli Ganga) | 2.83 | 🟢 Normal | 0.027 | 🔺 Rising |
-| 2026-11-15 05:42:41 | Deraniyagala (Kelani Ganga) | 0.73 | 🟢 Normal | 0.090 | 🔺 Rising |
-| 2026-11-15 05:38:20 | Peradeniya (Mahaweli Ganga) | 2.82 | 🟢 Normal | 0.027 | 🔺 Rising |
-| 2026-11-15 05:34:42 | Dunamale (Aththanagalu Oya) | 2.00 | 🟢 Normal | 0.000 |  |
 
 ## Latest by Station
 
