@@ -1,5 +1,120 @@
 [
   {
+    "station_name": "Peradeniya",
+    "time_ut": 1794701300,
+    "water_level_m": 2.82
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1794701082,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1794700638,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1794700040,
+    "water_level_m": 2.1
+  },
+  {
+    "station_name": "Padiyathalawa",
+    "time_ut": 1794699671,
+    "water_level_m": 0.55
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1794699649,
+    "water_level_m": 1.82
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1794699585,
+    "water_level_m": 1.14
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1794699527,
+    "water_level_m": 1.92
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1794699526,
+    "water_level_m": 1.88
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1794699511,
+    "water_level_m": 2.89
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1794699428,
+    "water_level_m": 5.72
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1794699409,
+    "water_level_m": 1.23
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1794699407,
+    "water_level_m": 2.05
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1794699406,
+    "water_level_m": 3.42
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1794699374,
+    "water_level_m": 2.85
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1794699372,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1794699341,
+    "water_level_m": 1.58
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1794699337,
+    "water_level_m": 4.92
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1794699319,
+    "water_level_m": 1.11
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1794699224,
+    "water_level_m": 2.15
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1794699193,
+    "water_level_m": 2.54
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1794699189,
+    "water_level_m": 2.2
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1794699178,
+    "water_level_m": 1.88
+  },
+  {
     "station_name": "Katharagama",
     "time_ut": 1794699176,
     "water_level_m": -0.03
