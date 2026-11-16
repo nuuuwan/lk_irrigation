@@ -1,5 +1,55 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1794829840,
+    "water_level_m": 1.75
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1794829400,
+    "water_level_m": 1.76
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1794829381,
+    "water_level_m": 1.89
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1794829339,
+    "water_level_m": 1.03
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1794829214,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1794829068,
+    "water_level_m": 1.33
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1794829055,
+    "water_level_m": 2.02
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1794829003,
+    "water_level_m": 2.83
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1794828967,
+    "water_level_m": 0.65532
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1794828955,
+    "water_level_m": 4.36
+  },
+  {
     "station_name": "Glencourse",
     "time_ut": 1794828952,
     "water_level_m": 10.37
