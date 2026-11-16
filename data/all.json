@@ -1,5 +1,30 @@
 [
   {
+    "station_name": "Baddegama",
+    "time_ut": 1794841138,
+    "water_level_m": 1.92
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1794841021,
+    "water_level_m": 1.33
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1794840883,
+    "water_level_m": 5.22
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1794840785,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1794840608,
+    "water_level_m": 1.73
+  },
+  {
     "station_name": "Nagalagam Street",
     "time_ut": 1794839895,
     "water_level_m": 0.6096
