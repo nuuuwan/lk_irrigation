@@ -1,5 +1,105 @@
 [
   {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1794933186,
+    "water_level_m": 0.54864
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1794933185,
+    "water_level_m": 0.62
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1794933183,
+    "water_level_m": 1.9
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1794933176,
+    "water_level_m": 2.05
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1794933172,
+    "water_level_m": 5.03
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1794933171,
+    "water_level_m": 0.93
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1794933153,
+    "water_level_m": 1.22
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1794933152,
+    "water_level_m": 1.62
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1794933123,
+    "water_level_m": 0.52
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1794933112,
+    "water_level_m": 2.49
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1794933084,
+    "water_level_m": 2.78
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1794933058,
+    "water_level_m": 1.88
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1794933050,
+    "water_level_m": 0.54864
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1794933043,
+    "water_level_m": 0.85
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1794933039,
+    "water_level_m": 0.52
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1794933023,
+    "water_level_m": 1.14
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1794933017,
+    "water_level_m": 1.0
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1794933008,
+    "water_level_m": 1.36
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1794931827,
+    "water_level_m": 1.57
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1794931741,
+    "water_level_m": 0.91
+  },
+  {
     "station_name": "Padiyathalawa",
     "time_ut": 1794930102,
     "water_level_m": 0.37
