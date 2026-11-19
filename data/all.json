@@ -1,5 +1,90 @@
 [
   {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1795081593,
+    "water_level_m": 0.58
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1795081466,
+    "water_level_m": 1.31
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1795081198,
+    "water_level_m": 1.86
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1795081148,
+    "water_level_m": 1.34
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1795080984,
+    "water_level_m": 1.37
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1795080980,
+    "water_level_m": 2.45
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1795080978,
+    "water_level_m": 1.21
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1795080970,
+    "water_level_m": 3.76
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1795080936,
+    "water_level_m": 1.04
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1795080931,
+    "water_level_m": 0.61
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1795080927,
+    "water_level_m": 0.85
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1795080925,
+    "water_level_m": 4.83
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1795080920,
+    "water_level_m": 9.57
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1795080914,
+    "water_level_m": 0.17
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1795080833,
+    "water_level_m": 2.1
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1795080816,
+    "water_level_m": 1.43
+  },
+  {
+    "station_name": "Putupaula",
+    "time_ut": 1795080816,
+    "water_level_m": 0.58
+  },
+  {
     "station_name": "Giriulla",
     "time_ut": 1795080800,
     "water_level_m": 1.23
