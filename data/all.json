@@ -1,5 +1,100 @@
 [
   {
+    "station_name": "Rathnapura",
+    "time_ut": 1795182224,
+    "water_level_m": 1.3
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1795182223,
+    "water_level_m": 0.86
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1795182064,
+    "water_level_m": 1.1
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1795182026,
+    "water_level_m": 1.08
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1795181937,
+    "water_level_m": 0.65
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1795181933,
+    "water_level_m": 3.29
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1795181917,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1795181914,
+    "water_level_m": 2.05
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1795181818,
+    "water_level_m": 0.78
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1795181807,
+    "water_level_m": 0.59
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1795181786,
+    "water_level_m": 1.8
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1795181765,
+    "water_level_m": 0.45720000000000005
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1795181735,
+    "water_level_m": 2.12
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1795181725,
+    "water_level_m": 2.75
+  },
+  {
+    "station_name": "Deraniyagala",
+    "time_ut": 1795181722,
+    "water_level_m": 0.581
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1795181693,
+    "water_level_m": 4.69
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1795181677,
+    "water_level_m": -0.02
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1795181638,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1795181633,
+    "water_level_m": 1.18
+  },
+  {
     "station_name": "Hanwella",
     "time_ut": 1795181597,
     "water_level_m": 1.21
