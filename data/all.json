@@ -1,5 +1,70 @@
 [
   {
+    "station_name": "Wellawaya",
+    "time_ut": 1795228377,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1795228374,
+    "water_level_m": 5.35
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1795228365,
+    "water_level_m": 1.68
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1795228351,
+    "water_level_m": 2.08
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1795228348,
+    "water_level_m": 3.43
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1795228346,
+    "water_level_m": 1.27
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1795228335,
+    "water_level_m": 3.69
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1795228335,
+    "water_level_m": 0.34
+  },
+  {
+    "station_name": "Weraganthota",
+    "time_ut": 1795228297,
+    "water_level_m": -2.08
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1795228296,
+    "water_level_m": 0.48
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1795228287,
+    "water_level_m": 1.02
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1795228277,
+    "water_level_m": 1.44
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1795228218,
+    "water_level_m": 2.73
+  },
+  {
     "station_name": "Galgamuwa",
     "time_ut": 1795225902,
     "water_level_m": 0.17
