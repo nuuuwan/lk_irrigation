@@ -1,5 +1,120 @@
 [
   {
+    "station_name": "Kuda Oya",
+    "time_ut": 1795236340,
+    "water_level_m": 1.12
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1795236072,
+    "water_level_m": 0.6400800000000001
+  },
+  {
+    "station_name": "Galgamuwa",
+    "time_ut": 1795235992,
+    "water_level_m": 0.15
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1795235968,
+    "water_level_m": 0.34
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1795235950,
+    "water_level_m": 1.06
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1795235939,
+    "water_level_m": 1.9
+  },
+  {
+    "station_name": "Norwood",
+    "time_ut": 1795235888,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1795235882,
+    "water_level_m": 0.49
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1795235871,
+    "water_level_m": 1.46
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1795235855,
+    "water_level_m": 3.02
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1795235838,
+    "water_level_m": 3.1
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1795235789,
+    "water_level_m": 4.28
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1795235757,
+    "water_level_m": 2.94
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1795235752,
+    "water_level_m": 5.28
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1795235688,
+    "water_level_m": 1.5
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1795235685,
+    "water_level_m": 0.49
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1795235665,
+    "water_level_m": 2.5
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1795235662,
+    "water_level_m": 10.02
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1795235655,
+    "water_level_m": 0.91
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1795235654,
+    "water_level_m": -0.06
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1795235635,
+    "water_level_m": 0.48
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1795235626,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1795235625,
+    "water_level_m": 1.75
+  },
+  {
     "station_name": "Deraniyagala",
     "time_ut": 1795235590,
     "water_level_m": 0.63
