@@ -1,5 +1,15 @@
 [
   {
+    "station_name": "Panadugama",
+    "time_ut": 1795222288,
+    "water_level_m": 5.2
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1795222094,
+    "water_level_m": 1.92
+  },
+  {
     "station_name": "Holombuwa",
     "time_ut": 1795221500,
     "water_level_m": 0.96
