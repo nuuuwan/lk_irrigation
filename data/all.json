@@ -1,5 +1,120 @@
 [
   {
+    "station_name": "Pitabeddara",
+    "time_ut": 1795348693,
+    "water_level_m": 1.27
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1795348451,
+    "water_level_m": 4.43
+  },
+  {
+    "station_name": "Nawalapitiya",
+    "time_ut": 1795348276,
+    "water_level_m": 1.15
+  },
+  {
+    "station_name": "Kithulgala",
+    "time_ut": 1795347586,
+    "water_level_m": 1.7
+  },
+  {
+    "station_name": "Baddegama",
+    "time_ut": 1795347560,
+    "water_level_m": 1.28
+  },
+  {
+    "station_name": "Urawa",
+    "time_ut": 1795347518,
+    "water_level_m": 0.96
+  },
+  {
+    "station_name": "Kuda Oya",
+    "time_ut": 1795347469,
+    "water_level_m": 1.77
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1795347467,
+    "water_level_m": 1.05
+  },
+  {
+    "station_name": "Peradeniya",
+    "time_ut": 1795347420,
+    "water_level_m": 2.37
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1795347419,
+    "water_level_m": 1.69
+  },
+  {
+    "station_name": "Nagalagam Street",
+    "time_ut": 1795347409,
+    "water_level_m": 0.36576000000000003
+  },
+  {
+    "station_name": "Glencourse",
+    "time_ut": 1795347401,
+    "water_level_m": 9.34
+  },
+  {
+    "station_name": "Ellagawa",
+    "time_ut": 1795347382,
+    "water_level_m": 5.62
+  },
+  {
+    "station_name": "Giriulla",
+    "time_ut": 1795347374,
+    "water_level_m": 1.61
+  },
+  {
+    "station_name": "Thanthirimale",
+    "time_ut": 1795347373,
+    "water_level_m": 1.56
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1795347288,
+    "water_level_m": 2.95
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1795347277,
+    "water_level_m": 1.15
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1795347261,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Hanwella",
+    "time_ut": 1795347224,
+    "water_level_m": 1.32
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1795347217,
+    "water_level_m": 0.66
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1795347186,
+    "water_level_m": 2.3
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1795347180,
+    "water_level_m": -0.09
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1795347168,
+    "water_level_m": 1.42
+  },
+  {
     "station_name": "Deraniyagala",
     "time_ut": 1795347148,
     "water_level_m": 0.57
