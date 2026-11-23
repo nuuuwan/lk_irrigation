@@ -1,5 +1,10 @@
 [
   {
+    "station_name": "Galgamuwa",
+    "time_ut": 1795395733,
+    "water_level_m": 0.38
+  },
+  {
     "station_name": "Panadugama",
     "time_ut": 1795394642,
     "water_level_m": 4.07
