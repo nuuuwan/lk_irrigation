@@ -1,5 +1,45 @@
 [
   {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1795406099,
+    "water_level_m": 3.52
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1795405093,
+    "water_level_m": -0.08
+  },
+  {
+    "station_name": "Panadugama",
+    "time_ut": 1795405052,
+    "water_level_m": 3.98
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1795405036,
+    "water_level_m": 1.83
+  },
+  {
+    "station_name": "Thanamalwila",
+    "time_ut": 1795405023,
+    "water_level_m": 1.43
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1795404992,
+    "water_level_m": 0.58
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1795404962,
+    "water_level_m": 2.5
+  },
+  {
+    "station_name": "Badalgama",
+    "time_ut": 1795404955,
+    "water_level_m": 2.63
+  },
+  {
     "station_name": "Moraketiya",
     "time_ut": 1795404938,
     "water_level_m": 1.7
