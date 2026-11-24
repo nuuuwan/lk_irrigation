@@ -1,5 +1,55 @@
 [
   {
+    "station_name": "Manampitiya",
+    "time_ut": 1795541596,
+    "water_level_m": 1.16
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1795541548,
+    "water_level_m": 3.75
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1795541532,
+    "water_level_m": 1.84
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1795541488,
+    "water_level_m": 0.48
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1795541484,
+    "water_level_m": 3.5
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1795541462,
+    "water_level_m": 0.84
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1795541457,
+    "water_level_m": 1.99
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1795541450,
+    "water_level_m": 1.15
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1795541442,
+    "water_level_m": 3.5
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1795541439,
+    "water_level_m": 0.42
+  },
+  {
     "station_name": "Putupaula",
     "time_ut": 1795539621,
     "water_level_m": 0.52
