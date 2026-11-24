@@ -1,5 +1,75 @@
 [
   {
+    "station_name": "Dunamale",
+    "time_ut": 1795534393,
+    "water_level_m": 3.46
+  },
+  {
+    "station_name": "Pitabeddara",
+    "time_ut": 1795534384,
+    "water_level_m": 1.48
+  },
+  {
+    "station_name": "Siyambalanduwa",
+    "time_ut": 1795534374,
+    "water_level_m": 0.88
+  },
+  {
+    "station_name": "Wellawaya",
+    "time_ut": 1795534364,
+    "water_level_m": 1.22
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1795534363,
+    "water_level_m": 3.4
+  },
+  {
+    "station_name": "Nakkala",
+    "time_ut": 1795534350,
+    "water_level_m": 1.02
+  },
+  {
+    "station_name": "Yaka Wewa",
+    "time_ut": 1795534293,
+    "water_level_m": 0.48
+  },
+  {
+    "station_name": "Manampitiya",
+    "time_ut": 1795534277,
+    "water_level_m": 1.13
+  },
+  {
+    "station_name": "Horowpothana",
+    "time_ut": 1795534268,
+    "water_level_m": 2.37
+  },
+  {
+    "station_name": "Thaldena",
+    "time_ut": 1795534241,
+    "water_level_m": 0.43
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1795534234,
+    "water_level_m": 3.1
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1795534227,
+    "water_level_m": 2.74
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1795534226,
+    "water_level_m": 2.74
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1795534225,
+    "water_level_m": 2.72
+  },
+  {
     "station_name": "Urawa",
     "time_ut": 1795531512,
     "water_level_m": 1.69
