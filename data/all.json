@@ -1,5 +1,60 @@
 [
   {
+    "station_name": "Urawa",
+    "time_ut": 1795596280,
+    "water_level_m": 1.09
+  },
+  {
+    "station_name": "Magura",
+    "time_ut": 1795595944,
+    "water_level_m": 2.0
+  },
+  {
+    "station_name": "Rathnapura",
+    "time_ut": 1795595869,
+    "water_level_m": 2.74
+  },
+  {
+    "station_name": "Kalawellawa (Millakanda)",
+    "time_ut": 1795595782,
+    "water_level_m": 4.78
+  },
+  {
+    "station_name": "Holombuwa",
+    "time_ut": 1795595759,
+    "water_level_m": 0.89
+  },
+  {
+    "station_name": "Thawalama",
+    "time_ut": 1795595727,
+    "water_level_m": 1.87
+  },
+  {
+    "station_name": "Thalgahagoda",
+    "time_ut": 1795595711,
+    "water_level_m": 1.06
+  },
+  {
+    "station_name": "Moragaswewa",
+    "time_ut": 1795595707,
+    "water_level_m": 1.22
+  },
+  {
+    "station_name": "Dunamale",
+    "time_ut": 1795595703,
+    "water_level_m": 2.86
+  },
+  {
+    "station_name": "Katharagama",
+    "time_ut": 1795595699,
+    "water_level_m": 0.18
+  },
+  {
+    "station_name": "Moraketiya",
+    "time_ut": 1795595684,
+    "water_level_m": 2.03
+  },
+  {
     "station_name": "Badalgama",
     "time_ut": 1795595661,
     "water_level_m": 3.59
